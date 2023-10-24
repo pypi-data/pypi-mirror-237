@@ -1,0 +1,10 @@
+napari_remove_objects/__init__.py,sha256=ti6cZMFelcKu_Knlrne3VwoxTGQwFxASCVLXHrrCbn4,41
+napari_remove_objects/_widget.py,sha256=SLlQ9wtQsx890cTInfKT2nhgJVnoTnw1-9r-E3SGvUM,2778
+napari_remove_objects/napari.yaml,sha256=CmM4mQIcTEjnrtTlTo37aCykDgvfE-NSdIZ_THzgUiA,308
+napari_remove_objects/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_remove_objects-0.0.1.dist-info/LICENSE,sha256=ovaGlv7znXct6TEbklmvg1xDHzSk6yKxyHoWRxx8QpM,1490
+napari_remove_objects-0.0.1.dist-info/METADATA,sha256=9KUhh17pELyxDpEsZP-giN7cd_3r63ZvQUgwkR00nM0,2931
+napari_remove_objects-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+napari_remove_objects-0.0.1.dist-info/entry_points.txt,sha256=UfhxjNjCTl35EFwXUIaUALz7P9XYXl9Zk1wrx5dhSLY,76
+napari_remove_objects-0.0.1.dist-info/top_level.txt,sha256=YUks7xSUFO9syRbrX-j8d2l8u9qG4z3M_hxcWaRoNhk,22
+napari_remove_objects-0.0.1.dist-info/RECORD,,

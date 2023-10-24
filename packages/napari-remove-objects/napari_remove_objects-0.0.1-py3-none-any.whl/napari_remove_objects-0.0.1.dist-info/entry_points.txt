@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-remove-objects = napari_remove_objects:napari.yaml
