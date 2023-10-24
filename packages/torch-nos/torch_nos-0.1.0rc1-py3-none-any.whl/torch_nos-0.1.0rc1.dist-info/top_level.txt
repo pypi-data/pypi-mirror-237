@@ -1,0 +1,3 @@
+nos
+nos_training_images
+scripts
