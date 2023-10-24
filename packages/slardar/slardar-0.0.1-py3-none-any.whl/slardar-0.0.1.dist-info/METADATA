@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: slardar
+Version: 0.0.1
+Summary: execution scheduler for asyncio
+Home-page: https://github.com/lexdene/slardar
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# slardar
+
+execution scheduler for Python asyncio.
+
+## about name
+
+[Slardar](https://dota2.fandom.com/wiki/Slardar)
