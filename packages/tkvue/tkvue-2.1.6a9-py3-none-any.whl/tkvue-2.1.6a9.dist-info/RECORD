@@ -1,0 +1,11 @@
+tkvue/__init__.py,sha256=npL2QWSmWQXQ28kT7kctf3hKz39nmg6iuTmWJ2m3pdc,35986
+tkvue/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tkvue/tests/preloader.gif,sha256=4WubudKMAoutzmKtq4PR70A8DoCy5GC_fdVn08FRItc,170486
+tkvue/tests/python_icon.png,sha256=TNB4Jv9uPJYDC9CxCVUv6q5Fu6mlSx2Skuk68ckAcqQ,814
+tkvue/tests/test_tkvue.py,sha256=JhsKJsc6cm0rr_kbs4gaKQLLYz0VWzVVAmjM35yi8L8,27997
+tkvue-2.1.6a9.dist-info/LICENSE,sha256=wOyDtdXHKbVMd0kW1v8xZvyrYk9MeGP2-70glJMR9nc,26523
+tkvue-2.1.6a9.dist-info/METADATA,sha256=0Xrcw0iesCbVMloaKt_50KgQmFLbp2Az82rXyM_8b68,7025
+tkvue-2.1.6a9.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tkvue-2.1.6a9.dist-info/entry_points.txt,sha256=8VY5M0e9X8hXWRDu4nXU60waEEcTmLS5mRgxCmcVE88,47
+tkvue-2.1.6a9.dist-info/top_level.txt,sha256=anZORAc3YItPGY-GYRZ9zA_9cHsS-bhOtuYTL0R6ffU,6
+tkvue-2.1.6a9.dist-info/RECORD,,
