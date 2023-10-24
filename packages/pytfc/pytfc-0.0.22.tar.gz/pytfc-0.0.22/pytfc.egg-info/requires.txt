@@ -1,0 +1,6 @@
+requests>=2.31.0
+pyhcl>=0.4.4
+
+[dev]
+build==1.0.3
+pytest==7.4.2
