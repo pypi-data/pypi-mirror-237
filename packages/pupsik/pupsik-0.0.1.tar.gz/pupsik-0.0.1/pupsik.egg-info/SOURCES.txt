@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+pupsik/__init__.py
+pupsik.egg-info/PKG-INFO
+pupsik.egg-info/SOURCES.txt
+pupsik.egg-info/dependency_links.txt
+pupsik.egg-info/top_level.txt
