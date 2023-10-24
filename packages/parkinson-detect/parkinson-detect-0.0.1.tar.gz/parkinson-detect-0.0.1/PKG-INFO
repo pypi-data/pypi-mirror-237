@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: parkinson-detect
+Version: 0.0.1
+Summary: classification model using image time series for parkinson detection
+Home-page: https://github.com/hi-paris/parkinson-detect
+Author: Anas Filali Razzouki, Mounim El Yacoubi , Dijana Petrovska, Laetitia Jeancolas, Ahmed Zaiou and Gaëtan Brison
+Author-email: engineer.hi.paris@gmail.com
+License: MIT license
+Keywords: parkinson-detect
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9
+License-File: LICENSE
+
+UNKNOWN
+
