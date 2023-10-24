@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+strast/__init__.py
+strast/class_based.py
+strast/core.py
+strast/factory.py
+strast.egg-info/PKG-INFO
+strast.egg-info/SOURCES.txt
+strast.egg-info/dependency_links.txt
+strast.egg-info/top_level.txt
