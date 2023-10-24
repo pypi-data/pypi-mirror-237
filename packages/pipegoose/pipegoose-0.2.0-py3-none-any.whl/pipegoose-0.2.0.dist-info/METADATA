@@ -1,0 +1,134 @@
+Metadata-Version: 2.1
+Name: pipegoose
+Version: 0.2.0
+Summary: 
+License: MIT
+Author: xrsrke
+Author-email: hello@xrs.wtf
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: datasets (>=2.13.0,<3.0.0)
+Requires-Dist: einops (>=0.6.1,<0.7.0)
+Requires-Dist: mkdocs (>=1.4.3,<2.0.0)
+Requires-Dist: mkdocs-material (>=9.1.16,<10.0.0)
+Requires-Dist: mkdocstrings (>=0.22.0,<0.23.0)
+Requires-Dist: pytest-order (>=1.1.0,<2.0.0)
+Requires-Dist: torch (>=2.0.1,<3.0.0)
+Requires-Dist: torchtyping (>=0.1.4,<0.2.0)
+Requires-Dist: transformers (>=4.30.2,<5.0.0)
+Description-Content-Type: text/markdown
+
+# 🚧 PipeGoose: Training any 🤗 `transformers` in Megatron-LM 3D parallelism and ZeRO-1 out of the box
+
+[<img src="https://img.shields.io/badge/license-MIT-blue">](https://github.com/xrsrke/pipegoose) [![tests](https://github.com/xrsrke/pipegoose/actions/workflows/tests.yaml/badge.svg)](https://github.com/xrsrke/pipegoose/actions/workflows/tests.yaml) [<img src="https://img.shields.io/discord/767863440248143916?label=discord">](https://discord.gg/s9ZS9VXZ3p) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [<img alt="Codecov" src="https://img.shields.io/codecov/c/github/xrsrke/pipegoose">](https://app.codecov.io/gh/xrsrke/pipegoose) [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40xariusrke)](https://twitter.com/xariusrke)
+
+![pipeline](3d-parallelism.png)
+
+<!-- [![docs](https://img.shields.io/github/deployments/Production?label=docs&logo=vercel)](https://docs.dev/) -->
+
+
+Honk honk honk! This project is actively under development. Check out my learning progress [here](https://twitter.com/xariusrke/status/1667999818554413057).
+
+⚠️ **The project is actively under development and not ready for use.**
+
+⚠️ **The APIs is still a work in progress and could change at any time. None of the public APIs are set in stone until we hit version 0.6.9.**
+
+⚠️ **Support for hybrid 3D parallelism and distributed optimizer for 🤗 `transformers` will be available in the upcoming weeks (it's basically done, but it doesn't support 🤗 `transformers` yet)**
+
+⚠️ **This library is underperforming compared to Megatron-LM and DeepSpeed (not even achieving reasonable performance). We're actively pushing it to reach 180 TFLOPs and go beyond Megatron-LM **
+
+
+```diff
+from torch.utils.data import DataLoader
++ from torch.utils.data.distributed import DistributedSampler
+from torch.optim import SGD
+from transformers import AutoModelForCausalLM, AutoTokenizer
+from datasets import load_dataset
+
++ from pipegoose.distributed import ParallelContext, ParallelMode
++ from pipegoose.nn import DataParallel, TensorParallel
+
+model = AutoModelForCausalLM.from_pretrained("bigscience/bloom-560m")
+tokenizer = AutoTokenizer.from_pretrained("bigscience/bloom-560m")
+tokenizer.pad_token = tokenizer.eos_token
+
+BATCH_SIZE = 4
++ DATA_PARALLEL_SIZE = 2
++ parallel_context = ParallelContext.from_torch(
++    tensor_parallel_size=2,
++    data_parallel_size=2,
++    pipeline_parallel_size=1
++ )
++ model = TensorParallel(model, parallel_context).parallelize()
++ model = DataParallel(model, parallel_context).parallelize()
+model.to("cuda")
++ device = next(model.parameters()).device
+
+optim = SGD(model.parameters(), lr=1e-3)
+
+dataset = load_dataset("imdb", split="train")
++ dp_rank = parallel_context.get_local_rank(ParallelMode.DATA)
++ sampler = DistributedSampler(dataset, num_replicas=DATA_PARALLEL_SIZE, rank=dp_rank, seed=42)
++ dataloader = DataLoader(dataset, batch_size=BATCH_SIZE // DATA_PARALLEL_SIZE, shuffle=False, sampler=sampler)
+
+for epoch in range(100):
++    sampler.set_epoch(epoch)
+
+    for batch in dataloader:
+        inputs = tokenizer(batch["text"], padding=True, truncation=True, max_length=1024, return_tensors="pt")
+        inputs = {name: tensor.to(device) for name, tensor in inputs.items()}
+        labels = inputs["input_ids"]
+
+        outputs = model(**inputs, labels=labels)
+
+        optim.zero_grad()
+        outputs.loss.backward()
+        optim.step()
+```
+
+**Installation and try it out**
+
+You can install the package through the following command:
+
+```bash
+pip install pipegoose
+```
+
+And try out a hybrid tensor and data parallelism training script.
+
+```bash
+cd pipegoose/examples
+torchrun --standalone --nnodes=1 --nproc-per-node=4 hybrid_parallelism.py
+```
+
+We did a small scale for correctness testing by run comparing the training losses between a paralleized transformers and one kept by default, start at identical checkpoint and training data. We will conduct rigorous large scale convergence and weak scaling  law benchmarks against megatron and deepspeed in the near future
+- Data Parallelism [link]
+- Tensor Parallelism
+- Hybrid 2D Parallelism
+
+**Features**
+- Megatron-style 3D parallelism
+- ZeRO-1: Distributed BF16 Optimizer
+- Highly optimized CUDA kernels port from Megatron-LM, DeepSpeed
+- ...
+
+**Implementation Details**
+
+- Supports training `transformers` model in Megatron 3D parallelism and ZeRO-1 (write from scratch).
+- Implements parallel compute and data transfer using separate CUDA streams.
+- Gradient checkpointing will be implemented by enforcing virtual dependency in the backpropagation graph, ensuring that the activation for gradient checkpoint will be recomputed just in time for each (micro-batch, partition).
+- Custom algorithms for model partitioning with two default partitioning models based on elapsed time and GPU memory consumption per layer.
+- Potential support includes:
+    - Callbacks within the pipeline: `Callback(function, microbatch_idx, partition_idx)` for before and after the forward, backward, and recompute steps (for gradient checkpointing).
+    - Mixed precision training.
+
+**Appreciation**
+
+- Big thanks to 🤗 [Hugging Face](https://huggingface.co/) for sponsoring this project with 8x A100 GPUs for testing! And [Zach Schrier](https://twitter.com/zach_schrier) for monthly twitch donations
+
+- The library's APIs are inspired by [OSLO](https://github.com/EleutherAI/oslo)'s and [ColossalAI](https://github.com/hpcaitech/ColossalAI)'s APIs.
+
