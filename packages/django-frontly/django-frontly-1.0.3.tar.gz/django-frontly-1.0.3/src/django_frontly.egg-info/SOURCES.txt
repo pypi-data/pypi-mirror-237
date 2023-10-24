@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/django_frontly.egg-info/PKG-INFO
+src/django_frontly.egg-info/SOURCES.txt
+src/django_frontly.egg-info/dependency_links.txt
+src/django_frontly.egg-info/requires.txt
+src/django_frontly.egg-info/top_level.txt
+src/frontly/__init__.py
+src/frontly/models.py
+src/frontly/urls.py
+src/frontly/views.py
+src/frontly/migrations/0001_initial.py
+src/frontly/migrations/__init__.py
+src/frontly/templatetags/__init__.py
+src/frontly/templatetags/frontly.py
