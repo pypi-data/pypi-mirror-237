@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: dday
+Version: 1.0.0
+Summary: Showing how many days are remaining till project d-day.
+Author-Email: hxhkim <hahyun.h.kim@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/hxhkim/dday
+Project-URL: Bug tracker, https://github.com/hxhkim/dday/issues
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# dday
+- Showing how many days are remaining till project d-day.
+- Useful tool to set up in your shell.
+- view at: https://pypi.org/project/dday/
+
+## INATALL
+```bash
+pip install dday
+```
+
+## USE
+```bash
+$ dday
+```
+
+## DEV
+```bash
+
+```
+
+## TEST
+```bash
+
+```
+
+# DEPLOY
+```bash
+
+```
