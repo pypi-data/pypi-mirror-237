@@ -1,0 +1,55 @@
+# redstat
+
+## Content
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+    - [Get help](#get-help)
+    - [Filters usage](#filters-usage)
+    - [Output usage](#output-usage)
+
+## Description
+
+Redstat is a cli application for getting statistics from reddit (subreddit and user)
+
+## Installation
+
+```commandline
+pip install redstat
+```
+
+## Usage
+
+### Get help
+
+To get help with the commands you use, you can use the option `-h` or `--help`
+
+```commandline
+redstat -h
+```
+
+```commandline
+positional arguments:
+  {subreddit,sub,user,version}
+    subreddit (sub)     subreddit manager
+    user                user manager
+    version             get version
+
+options:
+  -h, --help            show this help message and exit
+```
+
+### Filters usage
+
+To use filters, you need to specify two arguments `-ft/--filter-type` and 
+`-f/--fields` 
+
+`-ft/--filter-type` is responsible for the type of filter (include/exclude)
+
+`-f/--fields`  is responsible for which fields will be saved
+
+### Output usage
+
+To use output you need to specify an argument `-o/--output` 
+that define a json file, otherwise there will be output to the console
