@@ -1,0 +1,6 @@
+jieba
+rouge
+torch
+numpy
+six
+unicodedata
