@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: csvmonitor
+Version: 1.3
+Summary: Lightweight HTTP integration for the csvmonitor.com heartbeat service.
+Author-email: "CSVMonitor.com" <support@csvmonitor.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: requests
+Project-URL: Home, https://csvmonitor.com
+
+# Python Client for CSVMonitor.com
+This is a thin wrapper around the Python `requests` module to trigger HTTP beacons on the [csvmonitor.com](https://csvmonitor.com) Software as a Service (SaaS) site. To use it in your project, install the csvmonitor module using pip:
+```
+python -m pip install csvmonitor
+```
+
+Then, after registering at csvmonitor.com, create a beacon and copy the organization and beacon keys for the beacons you wish to trigger. Use the `fire_beacon` function to trigger the beacons, and you're done!
+```
+from csvmonitor import fire_beacon
+
+. . .
+
+ok = somefunc()
+
+fire_beacon(CSVM_ORG_ID, BEACON_KEY, 'success' if ok else 'error')
+```
