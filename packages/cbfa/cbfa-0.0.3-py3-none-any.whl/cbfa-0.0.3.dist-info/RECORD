@@ -1,0 +1,11 @@
+cbfa/__init__.py,sha256=LqP_mdy_iCGPhx7N817WBFFIO6b8P-oHNwnOxlSxxGQ,54
+cbfa/class_based.py,sha256=1_y3XpfWoKjLQJ2JQ7B5P5E1EJJTvH2zYl3k5GNsEuI,983
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/smokes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/units/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/units/test_class_based.py,sha256=LE9pli60g81qmbsWj6AMtgUjdYJRSsVaIqTeaEO6zwA,1791
+cbfa-0.0.3.dist-info/LICENSE,sha256=Me5Rb3ZH_9M-dlPPcIWvJrw_VPdfIGoVSGeHWer0KHY,1067
+cbfa-0.0.3.dist-info/METADATA,sha256=1VjYkKR1QwZZzyzHy45X2D2ipTCVZ4YF4iFY8LXgwSo,2477
+cbfa-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+cbfa-0.0.3.dist-info/top_level.txt,sha256=c9KIyF_mGDwXJEebZyQxfNztj7sFOEFhDVljBUnKolI,11
+cbfa-0.0.3.dist-info/RECORD,,
