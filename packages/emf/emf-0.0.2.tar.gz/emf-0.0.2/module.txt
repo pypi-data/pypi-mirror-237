@@ -1,0 +1,45 @@
+
+
+<body>
+	<address>EMF</address>
+	<p>elliptic networking</b>
+
+	<article>
+		<address>elliptic authentication summary</address>
+
+		<section>
+			<address>wallet (offline)</address>
+			<ul>
+				<li>generate public and private keys</li>
+				<li>show public key</li>
+			</ul>
+		</section>
+
+		<section>
+			<address>node (online)</address>
+			<ul>
+				<li>scan public key</li>
+				<li>generate contract</li>
+				<li>show contract</li>
+			</ul>
+		</section>
+		
+		<section>
+			<address>wallet (offline)</address>
+			<ul>
+				<li>scan contract</li>
+				<li>peruse contract</li>
+				<li>sign contract</li>
+				<li>show signed contract</li>									
+			</ul>
+		</section>
+		
+		<section>
+			<address>node (online)</address>
+			<ul>
+				<li>scan signed contract</li>
+				<li>verify signature of signed contract</li>
+			</ul>
+		</section>
+	</article>
+</body>
