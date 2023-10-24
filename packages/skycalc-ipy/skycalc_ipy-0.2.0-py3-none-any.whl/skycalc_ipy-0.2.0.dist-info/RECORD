@@ -1,0 +1,10 @@
+skycalc_ipy/__init__.py,sha256=zuV9BC9N-VEh0fXr9lZmcgznl08qtUYlZA5tJXGDkf0,592
+skycalc_ipy/core.py,sha256=pbC-Km6wJX4xEZCME1kIpvq5iK3kEqnkYyDmhwgjA60,18202
+skycalc_ipy/params.yaml,sha256=x5G-s4KD37lSVATu-993DyGzRXHKswVLwT4czIKqCPI,4521
+skycalc_ipy/ui.py,sha256=P7hz09VwwVaxXFc9yl7RXrBxrNe2CE35pphSO20Cg5k,8726
+skycalc_ipy/version.py,sha256=XWWCBlDBxr7WVQRbtkJlugsQghCnp9XHu1YZ2A6nfdU,105
+skycalc_ipy-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+skycalc_ipy-0.2.0.dist-info/METADATA,sha256=g6bEOyk_aC56EqSxgCaJWyPQquq3GDNjVNTi93Zp7pE,2597
+skycalc_ipy-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+skycalc_ipy-0.2.0.dist-info/top_level.txt,sha256=ZF-bCWBJ-6uoss-F2mMRi20cHn7aTacmI7GgCo_WxKs,12
+skycalc_ipy-0.2.0.dist-info/RECORD,,
