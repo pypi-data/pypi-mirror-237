@@ -1,0 +1,4 @@
+[console_scripts]
+ha-weather = teamgun1.weather_show:weather_show
+news = teamgun1.news:news
+
