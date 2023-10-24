@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+TerVerSam/__init__.py
+TerVerSam/tvz.py
+TerVerSam.egg-info/PKG-INFO
+TerVerSam.egg-info/SOURCES.txt
+TerVerSam.egg-info/dependency_links.txt
+TerVerSam.egg-info/top_level.txt
