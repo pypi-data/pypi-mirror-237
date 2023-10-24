@@ -1,0 +1,14 @@
+spacy_wrap/__init__.py,sha256=O1LXng_Umlp54tvQQWkG-F4-0DnHULDsB1qMkyvIuqY,486
+spacy_wrap/about.py,sha256=oyVJ61nMqFrVQTtwncfOUjt-Dk0x86M2UN41hNEkCqM,239
+spacy_wrap/architectures.py,sha256=o9P6kKaulDtl9y-ZYLEASNzt1siL6jgjsWnx2BSxIe8,5999
+spacy_wrap/pipeline_component_seq_clf.py,sha256=n0E6Jo7jLLWAI_h233VuxWNxj1nf8YYWI4wCTYR-104,15523
+spacy_wrap/pipeline_component_tok_clf.py,sha256=6Mk_-mv1FHqGpntJ29uTR8zVKXtVLa7CcwlKLWLgwVI,20602
+spacy_wrap/util.py,sha256=6ZrvYvAVZmBS5-GIPBO906plWwAqGvVrM8_9H82oKhw,5022
+spacy_wrap/layers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spacy_wrap/layers/clf_transformer_model.py,sha256=OSgQWmQyC8-cN_Nl8uGdxYMtUt05Lc6wTv6Cqn0cwpM,5698
+spacy_wrap-1.4.5.dist-info/LICENSE,sha256=mUs49VbM5iSiavwPPgVEGaacWPo8YgGat8fqjQBS9iM,1075
+spacy_wrap-1.4.5.dist-info/METADATA,sha256=Edjy0Sgu5UBRxyTL-8ACQqfJrdlShuK-yU0JHJOqDYI,4067
+spacy_wrap-1.4.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+spacy_wrap-1.4.5.dist-info/entry_points.txt,sha256=oyHaBI8AFJo4HO06uPg1ADMQJJ7edr59ZBrf3-66S2M,499
+spacy_wrap-1.4.5.dist-info/top_level.txt,sha256=UQ9KuOMaFBejqZkrCoKhRTf93h-V56Y_wGBcXbQeXGI,11
+spacy_wrap-1.4.5.dist-info/RECORD,,
