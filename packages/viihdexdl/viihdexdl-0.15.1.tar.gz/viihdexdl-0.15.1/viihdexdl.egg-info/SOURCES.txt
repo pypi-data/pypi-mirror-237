@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/__init__.py
+src/__main__.py
+viihdexdl.egg-info/PKG-INFO
+viihdexdl.egg-info/SOURCES.txt
+viihdexdl.egg-info/dependency_links.txt
+viihdexdl.egg-info/entry_points.txt
+viihdexdl.egg-info/requires.txt
+viihdexdl.egg-info/top_level.txt
