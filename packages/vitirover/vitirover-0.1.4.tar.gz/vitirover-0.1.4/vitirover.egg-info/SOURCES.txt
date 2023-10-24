@@ -1,0 +1,10 @@
+README.md
+setup.py
+vitirover/__init__.py
+vitirover/control.py
+vitirover/telemetry_pb2.py
+vitirover.egg-info/PKG-INFO
+vitirover.egg-info/SOURCES.txt
+vitirover.egg-info/dependency_links.txt
+vitirover.egg-info/requires.txt
+vitirover.egg-info/top_level.txt
