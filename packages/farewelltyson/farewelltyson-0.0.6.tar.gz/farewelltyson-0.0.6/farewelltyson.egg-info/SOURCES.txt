@@ -1,0 +1,16 @@
+MANIFEST.in
+setup.py
+the_data.csv
+the_data_2.csv
+farewelltyson/__init__.py
+farewelltyson/buy_packs.py
+farewelltyson/check_your_balance.py
+farewelltyson/get_the_data.py
+farewelltyson/open_packs.py
+farewelltyson/take_action.py
+farewelltyson.egg-info/PKG-INFO
+farewelltyson.egg-info/SOURCES.txt
+farewelltyson.egg-info/dependency_links.txt
+farewelltyson.egg-info/requires.txt
+farewelltyson.egg-info/top_level.txt
+farewelltyson/data/all_data.csv
