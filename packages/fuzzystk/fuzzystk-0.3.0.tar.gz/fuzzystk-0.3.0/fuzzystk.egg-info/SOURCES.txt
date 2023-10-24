@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+fuzzystk.egg-info/PKG-INFO
+fuzzystk.egg-info/SOURCES.txt
+fuzzystk.egg-info/dependency_links.txt
+fuzzystk.egg-info/requires.txt
+fuzzystk.egg-info/top_level.txt
