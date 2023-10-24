@@ -1,0 +1,15 @@
+kafka-python>=2.0.2
+
+[test]
+pytest
+pytest-timeout
+coverage
+flake8
+black
+isort
+pytest-cov
+mypy
+mkdocs
+mkdocstrings
+mkdocstrings-python
+kafka-python>=2.0.2
