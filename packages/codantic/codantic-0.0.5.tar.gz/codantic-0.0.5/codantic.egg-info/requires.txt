@@ -1,0 +1,5 @@
+pycocotools
+mousse
+pandas
+
+[all]
