@@ -1,0 +1,3 @@
+pdfminer
+pdfminer
+beautifulsoup4
