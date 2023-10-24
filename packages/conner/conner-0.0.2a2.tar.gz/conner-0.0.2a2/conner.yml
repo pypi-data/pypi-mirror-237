@@ -1,0 +1,26 @@
+name: publish-python-package
+run-name: fracsuite-lib publish
+on: [push]
+jobs:
+  build_job:
+    runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup Rust
+      uses: actions-rs/toolchain@v1
+      with:
+        profile: minimal
+        toolchain: stable
+
+    - name: Build Python Package
+      run: |
+        cd conner
+        rustup target add x86_64-pc-windows-msvc
+        cargo build --release
+
+    - name: Publish
+      run: |
+        cd conner
+        cargo add maturin
+        maturin publish --username __token__ --password ${{ secrets.PYPI_TOKEN }}
