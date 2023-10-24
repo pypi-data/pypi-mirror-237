@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: operaciones
+Version: 0.1.4
+Summary: libreria de operaciones básicas
+Author: Alexis Ruales
+License: MIT
+Requires-Python: >=3.10.12
+Description-Content-Type: text/markdown
+
+hola
