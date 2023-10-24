@@ -1,0 +1,16 @@
+tac_test_package/__init__.py,sha256=-GiCJayDQbBDYySplUQdtshoK-YJpI0krOXxEHXc3R0,239
+tac_test_package/models/AutoTAC.py,sha256=CnYWnsg973j7eGwKb9x1zZ3wV2s0meIqynE01xpWUL8,6414
+tac_test_package/models/TAC.py,sha256=lzEweDVilC2YKO39riJ5d4bqTQhc-5h_fpD29lffFfY,5132
+tac_test_package/models/__init_.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tac_test_package/models/run/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tac_test_package/models/run/multiple.py,sha256=rH4iihvBLQIWEMuhAJ8dPIGc-Ciojta6xrasherhdNU,9603
+tac_test_package/models/run/single.py,sha256=R4h76fN8yhh0qKIGRswHUL0AVKbipp_yAu4yF3dxBNA,5778
+tac_test_package/models/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tac_test_package/models/utils/format_save.py,sha256=u1k4dj4oTUIOD4Iy5BxP5e3LuXQLi162Oep7bnq79m0,7617
+tac_test_package/models/utils/metrics.py,sha256=ECX5vOFA3s6nxH_Z6hfO5Jz3gnKuZOwDSPRjq6i4Vdc,16112
+tac_test_package/models/utils/plots.py,sha256=gpZ-xj2iUAeBQANS9ezXpcq1HXaTf0YqmA5XFEZgDd0,9576
+tac_test_package-0.1.0.dist-info/LICENSE,sha256=WakoWx3Ew2T-tCNdBdRHJCsl8mMwOB5w9rA3mOelb44,1068
+tac_test_package-0.1.0.dist-info/METADATA,sha256=fCMDtR8DDoBjIhA7OVuUCCrU5gRyVP5AZ3R9HABy2fw,564
+tac_test_package-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tac_test_package-0.1.0.dist-info/top_level.txt,sha256=1olI360_RIg1aNse77KPCS3tYOamw_i5uwWoQviuTRQ,99
+tac_test_package-0.1.0.dist-info/RECORD,,
