@@ -1,0 +1,12 @@
+ims/__init__.py,sha256=4UsEoyPdRhRNN_9w_uUaXIYPz3_G_LMg-GkqDoqSQ0Q,783
+ims/dataset.py,sha256=3A5NeeqtYKuVvEJEKhiWNfkcyqCw2XXWAWofHefZQsY,44059
+ims/gcims.py,sha256=BqtAMCKCTf1oYRSFqvz0St-o65hIIXu4dUAop6dSRUY,31389
+ims/hca.py,sha256=MtVNEMdsr908DkW3N1Zeohxs5Ip3px-FnrbHza89BZQ,4193
+ims/pca.py,sha256=-utqxJTNxT9UZfMQBNrhSA9h8o74npRQ8GjmN-VJCQI,9022
+ims/plsda.py,sha256=Y5KtbOUesOAQ111TeGTu-tIIkDjjUrrcHigKA4BbMrA,13587
+ims/plsr.py,sha256=r64UStGTkpilmSirLApisOYN3C30qYOOTDCJ3kmFmNY,15484
+ims/utils.py,sha256=G1JhVfHfTBtZSkTdqZPnO0bwzTEDeEZXA62KcXbEvIo,3291
+gc_ims_tools-0.1.7.dist-info/METADATA,sha256=3mN1qmWihs4wri1wDwyQ-WjlsS-UtqGk1hR4axUcnVU,1749
+gc_ims_tools-0.1.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gc_ims_tools-0.1.7.dist-info/top_level.txt,sha256=TB_6JwFRlehNqwLyPOVvJ5-lB8EgK51Ahw9Nq5hfoGY,4
+gc_ims_tools-0.1.7.dist-info/RECORD,,
