@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: teamgun1
+Version: 0.1.0
+Summary: team project
+Author-Email: baamboo <beom5236@gmail.com>, LEESUNG02 <leesung02@naver.com>, Chong5084 <dmschd9647@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# example-package
