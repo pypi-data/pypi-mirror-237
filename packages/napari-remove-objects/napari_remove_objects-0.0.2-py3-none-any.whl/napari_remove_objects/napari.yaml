@@ -1,0 +1,10 @@
+name: napari-remove-objects
+display_name: Napari Remove Objects
+contributions:
+  commands:
+    - id: napari-remove-objects.remove
+      title: Remove objects
+      python_name: napari_remove_objects:RemoveObjectsWidget
+  widgets:
+    - command: napari-remove-objects.remove
+      display_name: Remove objects
