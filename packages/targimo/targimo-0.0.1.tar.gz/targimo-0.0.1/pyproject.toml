@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "targimo"
+version = "0.0.1"
+authors = [
+  { name="Abdulrahman Sinjab" },
+  { name="Ahmed Mostafa"},
+  { name="Dominic Orlando"},
+  { name="Younus Ahmad"},
+  { name="Yusuf Morsi"},
+  { name="Ali Aliani"},
+  { name="Nabhan Sazzad"},
+]
+description = "Targimo: An Artifical Intelligence Model that Revolutionizes Sentiment Analysis"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/tesseract-ocr/tesseract"

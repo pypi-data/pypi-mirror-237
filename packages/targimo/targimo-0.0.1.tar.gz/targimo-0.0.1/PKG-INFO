@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: targimo
+Version: 0.0.1
+Summary: Targimo: An Artifical Intelligence Model that Revolutionizes Sentiment Analysis
+Project-URL: Homepage, https://github.com/tesseract-ocr/tesseract
+Author: Abdulrahman Sinjab, Ahmed Mostafa, Dominic Orlando, Younus Ahmad, Yusuf Morsi, Ali Aliani, Nabhan Sazzad
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Sentiment Analysis Model
+This is a boiler plate NLP model designed to take in human text and identify the sentiment corresponding with it.
