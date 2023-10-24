@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pamm"
+version = "0.0.1"
+description = "Processing analyze merge machine learning"
+authors = ["Alexeebitch <rmrs1@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11.0,<3.13.0"
+numpy = "^1.26.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
