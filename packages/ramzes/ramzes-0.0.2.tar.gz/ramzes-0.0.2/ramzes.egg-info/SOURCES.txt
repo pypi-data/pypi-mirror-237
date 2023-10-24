@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+ramzes/__init__.py
+ramzes.egg-info/PKG-INFO
+ramzes.egg-info/SOURCES.txt
+ramzes.egg-info/dependency_links.txt
+ramzes.egg-info/top_level.txt
