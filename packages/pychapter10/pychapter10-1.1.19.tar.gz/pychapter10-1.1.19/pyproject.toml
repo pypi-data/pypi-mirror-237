@@ -1,0 +1,39 @@
+[project]
+name = "pychapter10"
+version = "1.1.19"
+description = "A parser library for the IRIG 106 Chapter 10 data format."
+dependencies = [ "bitstruct==8.11.0", "bitstring>=3.1.7", "editables>=0.2",]
+readme = "README.rst"
+requires-python = ">=3.6"
+classifiers = [ "Programming Language :: Python :: 3", "Programming Language :: Python :: 3 :: Only", "Programming Language :: Python :: 3.7", "Programming Language :: Python :: 3.8", "Programming Language :: Python :: 3.9", "Topic :: Software Development :: Libraries", "Development Status :: 5 - Production/Stable", "Intended Audience :: Developers", "License :: OSI Approved :: BSD License", "Operating System :: OS Independent",]
+[[project.authors]]
+name = "Micah Ferrill"
+email = "ferrillm@avtest.com"
+
+[build-system]
+requires = [ "pdm-pep517",]
+build-backend = "pdm.pep517.api"
+
+[project.license]
+file = "LICENSE.txt"
+
+[project.urls]
+homepage = "https://github.com/atac/pychapter10"
+repository = "https://github.com/atac/pychapter10"
+documentation = "https://pychapter10.readthedocs.io/"
+
+[project.optional-dependencies]
+docs = [ "sphinx>=2.4.4",]
+
+[tool.pdm]
+[[tool.pdm.source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[tool.pdm.dev-dependencies]
+dev = [ "sphinx>=2.4.4", "pytest>=6.0.0", "pytest-cov>=2.10.1", "pytest-azurepipelines",]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = [ "tests",]
