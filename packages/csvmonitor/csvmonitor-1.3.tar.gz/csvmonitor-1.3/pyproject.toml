@@ -1,0 +1,17 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "csvmonitor"
+authors = [{name = "CSVMonitor.com", email = "support@csvmonitor.com"}]
+license = {file = "LICENSE"}
+readme = "README.md"
+classifiers = ["License :: OSI Approved :: MIT License"]
+dependencies = [
+    "requests"
+]
+dynamic = ["version", "description"]
+
+[project.urls]
+Home = "https://csvmonitor.com"
