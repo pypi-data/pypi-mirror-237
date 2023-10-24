@@ -1,0 +1,14 @@
+==========================
+Django 4.2.7 release notes
+==========================
+
+*Expected November 1, 2023*
+
+Django 4.2.7 fixes several bugs in 4.2.6.
+
+Bugfixes
+========
+
+* Fixed a regression in Django 4.2 that caused a crash of
+  ``QuerySet.aggregate()`` with aggregates referencing expressions containing
+  subqueries (:ticket:`34798`).
