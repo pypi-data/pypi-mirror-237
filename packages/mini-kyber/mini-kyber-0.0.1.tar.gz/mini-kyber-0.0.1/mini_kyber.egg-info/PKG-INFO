@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mini-kyber
+Version: 0.0.1
+Summary: Implementation of Kyber a post quantum encryption algorithim 
+Home-page: https://github.com/garvitxx18/Kyber
+Author: Garvit Prasad
+Author-email: garvitpd789@gmail.com
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
