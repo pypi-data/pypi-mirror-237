@@ -1,0 +1,2 @@
+DEFAULT_SUPERUSER = "exponential"
+DEFAULT_SUPERUSER_PASSWORD = "exponential"

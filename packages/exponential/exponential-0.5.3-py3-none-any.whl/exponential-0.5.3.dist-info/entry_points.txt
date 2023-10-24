@@ -1,0 +1,3 @@
+[console_scripts]
+exponential=exponential.__main__:main
+
