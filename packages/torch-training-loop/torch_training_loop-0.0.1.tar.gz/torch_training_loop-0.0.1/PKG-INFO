@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: torch-training-loop
+Version: 0.0.1
+Summary: Simple Keras-like Training Loop for Pytorch.
+Home-page: https://github.com/beekill95/torch-training-loop
+License: MIT
+Author: beekill
+Author-email: nguyenmbquan95@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: tensorboard
+Requires-Dist: torch
+Requires-Dist: torcheval
+Requires-Dist: tqdm
+Project-URL: Repository, https://github.com/beekill95/torch-training-loop
+Description-Content-Type: text/markdown
+
+[![Tests](https://github.com/beekill95/torch-training-loop/workflows/Tests/badge.svg)](https://github.com/beekill95/torch-training-loop/actions?query=workflow:"Tests")
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+
+# torch-training-loop
+Simple Keras-like Training Loop for Pytorch.
+
