@@ -1,0 +1,12 @@
+HTTP/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+HTTP/reqhttp.py,sha256=X5a5AbhmUOPprOVCdVuaCQeiUsnUD6SEH_JUeuafG_s,8865
+HTTP/version.py,sha256=8oAxKUG747GUokmxjkrWejyJa5yPNEsoJDlXxoedxTw,21
+cd_http/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cd_http/reqhttp.py,sha256=X5a5AbhmUOPprOVCdVuaCQeiUsnUD6SEH_JUeuafG_s,8865
+cd_http/version.py,sha256=K5SiDdEGYMpdqXThrqwTqECJJBOQNTQDrnpc2K5mzKs,21
+CD_HTTP-0.1.2.dist-info/LICENSE.md,sha256=xXPRashrI0cnQQXx2q4Ypb5FmNlRGcJx0D2iCSTOGls,1100
+CD_HTTP-0.1.2.dist-info/LICENSE.txt,sha256=xXPRashrI0cnQQXx2q4Ypb5FmNlRGcJx0D2iCSTOGls,1100
+CD_HTTP-0.1.2.dist-info/METADATA,sha256=2PXnghYdI8Hcj6pPv6cyWZ2bNsr-C0KHg5Y0nD3ZeHo,3082
+CD_HTTP-0.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+CD_HTTP-0.1.2.dist-info/top_level.txt,sha256=mSutlcXjKLF4OmtUZoHIIjVyHVhCxa1nkOY-2rJGIVQ,8
+CD_HTTP-0.1.2.dist-info/RECORD,,
