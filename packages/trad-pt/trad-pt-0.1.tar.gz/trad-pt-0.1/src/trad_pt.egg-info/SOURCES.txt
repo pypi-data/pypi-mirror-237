@@ -1,0 +1,15 @@
+.flake8
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements-dev.txt
+requirements.txt
+.github/workflows/workflow01.yml
+src/trad_pt.egg-info/PKG-INFO
+src/trad_pt.egg-info/SOURCES.txt
+src/trad_pt.egg-info/dependency_links.txt
+src/trad_pt.egg-info/requires.txt
+src/trad_pt.egg-info/top_level.txt
+src/translator/__init__.py
+src/translator/api_tradutor.py

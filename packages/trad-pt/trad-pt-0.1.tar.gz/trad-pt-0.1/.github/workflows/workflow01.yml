@@ -1,0 +1,28 @@
+name: work01
+
+on: push
+
+jobs:
+  job_01:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: check_project
+        uses: actions/checkout@v4
+
+      - name: python_setup
+        uses: actions/setup-python@v4
+        with:
+          python_version: '3.11'
+          architecture: x64
+
+      - name: install_libraries
+        run: pip install -r requirements-dev.txt
+
+      - name: run_flake8
+        run: flake8
+
+      - name: check_libraries
+        uses: pypa/gh-action-pip-audit@v1.0.8
+        with:
+          inputs: requirements-dev.txt
