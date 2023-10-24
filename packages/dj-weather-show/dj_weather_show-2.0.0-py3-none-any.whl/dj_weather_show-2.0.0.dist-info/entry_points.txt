@@ -1,0 +1,3 @@
+[console_scripts]
+dj-weather-show = dj_weather_show.weather_show:weather_show
+
