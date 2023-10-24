@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ipysimplebind
+Version: 0.1.7
+Summary: Rapid JS-Python binding for ipython widgets, for HTML/JS apps
+Home-page: https://github.com/paultiq/ipysimplebind
+Author: Paul Timmins
+Author-email: paul@iqmo.com
+Keywords: ipython notebook jupyter anywidget html js javascript
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: anywidget
+
+# ipysimplebind
+
+Rapid binding of python&lt;=>js traits and functions for Jupyter and VScode Notebooks
