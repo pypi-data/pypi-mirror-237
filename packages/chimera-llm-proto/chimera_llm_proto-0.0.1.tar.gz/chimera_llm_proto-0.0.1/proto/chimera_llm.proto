@@ -1,0 +1,57 @@
+syntax = "proto3";
+
+service LLM {
+    rpc Completion(CompletionRequest) returns (CompletionPrediction) {}
+    rpc Chat(ChatRequest) returns (ChatPrediction) {}
+}
+
+
+enum TaskType {
+    TASK_TYPE_UNKNOWN = 0;
+    TEXT_COMPLETION = 1;
+    TEXT_INFILLING = 2;
+    CHAT_COMPLETION = 3;
+}
+
+enum Role {
+    ROLE_UNKNOWN = 0;
+    SYSTEM = 1;
+    USER = 2;
+    ASSISTANT = 3;
+}
+
+message CommonArgs {
+    float temperature = 1;
+    float top_p = 2;
+    uint32 max_gen_len = 3;
+    uint32 repetition_penalty = 5;
+}
+
+message CompletionRequest{
+    string request_id = 1;
+    string prompt = 2;
+    CommonArgs common_args = 3;
+}
+
+message CompletionPrediction{
+    string request_id = 1;
+    string response_id = 2;
+    string generation = 3;
+}
+
+message ChatMessage{
+    Role role = 1;
+    string content = 2;
+}
+
+message ChatRequest{
+    string request_id = 1;
+    repeated ChatMessage messages = 2;
+    CommonArgs common_args = 3;
+}
+
+message ChatPrediction{
+    string request_id = 1;
+    string response_id = 2;
+    ChatMessage message = 3;
+}
