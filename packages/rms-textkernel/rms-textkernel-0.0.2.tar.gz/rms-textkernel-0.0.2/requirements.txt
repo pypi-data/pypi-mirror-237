@@ -1,0 +1,4 @@
+coverage
+numpy
+pyparsing
+rms-julian
