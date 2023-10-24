@@ -1,0 +1,230 @@
+Metadata-Version: 2.1
+Name: qlep
+Version: 0.1.0
+Summary: Quantum Leader Election Protocols
+Home-page: https://github.com/sdcioc/QuantumLeaderElection
+Author: Stefan-Dan Ciocirlan (sdcioc)
+Author-email: stefan_dan@xn--ciocirlan-o2a.ro
+License: EUPL-1.2
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: European Union Public
+        Licence 1.1 (EUPL 1.1)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: amazon-braket-sdk
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: qiskit-aer
+Requires-Dist: qiskit-ibm-provider (==0.5.3)
+Requires-Dist: qiskit[visualization]
+Requires-Dist: qiskit-braket-provider
+Requires-Dist: qiskit-pqcee-provider
+
+# Quantum Leader Election Protocols (QLEP)
+
+## Description
+
+The current project propose a template for developing and testing quantum leader election protocols. Most of the research protocols are implemented and can be compared with new proposals.
+The scope of the project is to contain all the protocols in a single repository and to be able to compare them on the same benchmarks.
+
+## Install
+```bash
+pip install qlep
+```
+
+### Use of AWS provider
+Follow instructions https://aws.amazon.com/blogs/quantum-computing/setting-up-your-local-development-environment-in-amazon-braket/
+```bash
+export AWS_ACCESS_KEY_ID=YOUR_AWS_ACCESS_KEY_ID
+export AWS_SECRET_ACCESS_KEY=YOUR_AWS_SECRET_ACCESS_KEY
+export AWS_DEFAULT_REGION=us-west-1
+```
+
+### Use of IBM provider
+Follow instructions https://github.com/Qiskit/qiskit-ibm-provider
+```python
+from qiskit_ibm_provider import IBMProvider
+IBMProvider.save_account('YOUR_IBM_TOKEN')
+```
+
+### Latex for plots
+```bash
+sudo apt-get install -y texlive-latex-base
+sudo apt-get install -y texlive-latex-extra
+sudo apt-get install -y dvipng
+sudo apt-get install -y cm-super
+```
+
+## Usage
+```python
+import qlep
+
+qdp=qlep.core.QuantumDataProvider(provider=qlep.core.Provider.AER, backend_name="aer_simulator")
+committee=qlep.core.CommitteeType.ALL.get_committee(no_nodes=8, committee_size=8)
+current_qlep=qlep.ecc.WalshQLEP(no_nodes=8, no_elections=10, quantum_data_provider=qdp, committee=committee)
+current_qlep.generate_quantum_data()
+current_qlep.simulate_elections()
+
+# only if latex is installed
+current_qlep.draw_boxplot(
+    simulate_file_name=current_qlep.get_simulate_file_name(),
+    draw_directory="plots"
+)
+```
+
+
+### Test your proposed protocol
+```python
+import qlep
+# numpy
+import numpy as np
+# qiskit
+import qiskit
+# override decorator
+from typing_extensions import override
+
+
+class NQLEP(qlep.core.QuantumLeaderElectionProtocol):
+    r"""
+    An example class for a dummy quantum leader election protocol
+    """
+    def __init__(
+                self,
+                no_nodes: int,
+                no_elections: int = 1,
+                quantum_data_provider: qlep.core.QuantumDataProvider = None,
+                committee: qlep.core.Committee = None,
+            ) -> None:
+        super().__init__(
+            election_type=qlep.core.ElectionType.NEWPROTOCOL,
+            no_nodes=no_nodes,
+            no_elections=no_elections,
+            quantum_data_provider=quantum_data_provider,
+            committee=committee
+        )
+
+    @override
+    def get_quantum_circuits(
+            self,
+            measure: bool = True
+    ) -> list[qiskit.QuantumCircuit]:
+        return [NQLEPStateGenerator.get_quantum_circuits(
+                    no_nodes=self.quantum_no_nodes,
+                    measure=measure
+                )]
+
+    @override
+    def get_leader_election_algorithm(
+            self
+    ) -> qlep.core.LeaderElectionAlgorithm:
+        return NQLEPLeaderElectionAlgorithm()
+
+    @override
+    def get_malicious_attacker(self) -> qlep.core.MaliciousAttacker:
+        return NQLEPMaliciousAttacker()
+
+
+class NQLEPStateGenerator:
+    @staticmethod
+    def get_quantum_circuits(
+        no_nodes: int,
+        measure: bool = True
+    ) -> qiskit.QuantumCircuit:
+        # the number of qubits
+        no_qubits = no_nodes
+        # the qubits register
+        quantum_registers = qiskit.QuantumRegister(no_qubits, 'q')
+        if measure:
+            # the classic registers
+            classic_registers = qiskit.ClassicalRegister(no_qubits, 'c')
+            # the quantum circuit which use the qubits
+            # and the classic bits registers
+            quantum_circuit = qiskit.QuantumCircuit(quantum_registers,
+                                                    classic_registers)
+        else:
+            quantum_circuit = qiskit.QuantumCircuit(quantum_registers)
+
+        # create the superposition for the first two qubits
+        quantum_circuit.h(quantum_registers[0])
+        quantum_circuit.cx(quantum_registers[0], quantum_registers[1])
+        quantum_circuit.x(quantum_registers[0])
+        quantum_circuit.barrier()
+        if measure:
+            quantum_circuit.measure(quantum_registers, classic_registers)
+        return quantum_circuit
+
+
+class NQLEPLeaderElectionAlgorithm(qlep.core.LeaderElectionAlgorithm):
+    def __init__(self) -> None:
+        super().__init__()
+
+    @override
+    def elect(self, data: np.ndarray) -> int:
+        match (data[0, 0, 0], data[0, 0, 1]):
+            case (1, 0):
+                return 0
+            case (0, 1):
+                return 1
+            case _:
+                return -1
+
+
+class NQLEPMaliciousAttacker(qlep.core.MaliciousAttacker):
+    def __init__(self) -> None:
+        super().__init__()
+
+    @override
+    def attack(
+        self,
+        register_ids: np.ndarray,
+        data: np.ndarray,
+        malicious_ids: np.ndarray
+    ) -> np.ndarray:
+        # get the malicious nodes
+        malicious_nodes = [x for x in register_ids if x in malicious_ids]
+        # if no malicious nodes under our control than return the given data
+        if not malicious_nodes:
+            return data
+        # init return data
+        modified_data = np.copy(data)
+        # verify if the first two nodes are malicious
+        match (register_ids[0] in malicious_ids,
+               register_ids[1] in malicious_ids):
+            case (True, False):
+                modified_data[0, 0, 0] = 1
+            case (False, True):
+                modified_data[0, 0, 1] = 1
+            case (True, True):
+                modified_data[0, 0, 0] = 1
+                modified_data[0, 0, 1] = 0
+            case _:
+                pass
+        return modified_data
+```
+
+## Credits
+
+List of colaborators:
+   - Stefan-Dan Ciocirlan
+   - Dumitrel Loghin
+
+## License
+
+Distributed under the EUPL v1.2 License. See `LICENSE.txt` for more information.
+
+
