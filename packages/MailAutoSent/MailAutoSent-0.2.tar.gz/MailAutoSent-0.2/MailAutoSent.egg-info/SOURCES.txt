@@ -1,0 +1,9 @@
+README.md
+setup.py
+MailAutoSent/Mail.py
+MailAutoSent/__init__.py
+MailAutoSent.egg-info/PKG-INFO
+MailAutoSent.egg-info/SOURCES.txt
+MailAutoSent.egg-info/dependency_links.txt
+MailAutoSent.egg-info/requires.txt
+MailAutoSent.egg-info/top_level.txt
