@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: django-register-field
+Version: 1.0.0
+Summary: A field that returns a python object.
+Home-page: https://github.com/MaxDude132/django-register-field
+Author: Maxime Toussaint
+Author-email: m.toussaint@mail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![codecov](https://codecov.io/gh/MaxDude132/django-register-field/graph/badge.svg?token=32HWMCV4JQ)](https://codecov.io/gh/MaxDude132/django-register-field)
+
+# django-register-field
+
+A field that returns a python object.
+
+## Usage
+
