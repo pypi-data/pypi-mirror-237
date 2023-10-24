@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+.github/workflows/publish_to_pypi.yml
+.github/workflows/publish_to_test_pypi.yml
+.github/workflows/run-tests.yml
+julian/__init__.py
+julian/_version.py
+julian/julian_dateparser.py
+rms_julian.egg-info/PKG-INFO
+rms_julian.egg-info/SOURCES.txt
+rms_julian.egg-info/dependency_links.txt
+rms_julian.egg-info/requires.txt
+rms_julian.egg-info/top_level.txt
