@@ -1,0 +1,5 @@
+structlog>=17.2.0
+confluent-kafka[avro,schema-registry]
+
+[opentracing]
+opentracing>=2.4.0
