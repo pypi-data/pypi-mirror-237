@@ -1,0 +1,13 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+[tool.poetry]
+authors = ["liblaf <i@liblaf.me>"]
+description = ""
+name = "mesh-kit"
+readme = "README.md"
+version = "0.0.0"
+
+[tool.poetry.dependencies]
+python = "^3.11"
