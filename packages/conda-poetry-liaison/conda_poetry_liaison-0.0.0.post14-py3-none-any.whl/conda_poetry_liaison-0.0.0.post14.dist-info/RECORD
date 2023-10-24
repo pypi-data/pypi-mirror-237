@@ -1,0 +1,9 @@
+conda_poetry_liaison/__init__.py,sha256=-N5Lfd_egXePfmy2zYLoc9fhv4xsLNBibPn8vcgE53o,29
+conda_poetry_liaison/clean.py,sha256=nop6Dy0sREwY9xodEstwweEFzKvCllbWtO3g21CZHjs,683
+conda_poetry_liaison/deps.py,sha256=uKeOmfoqXcZOj2OsDARzYbCsKD5uVZfcVNUu4hG46j8,2409
+conda_poetry_liaison/utils.py,sha256=1V8KNjIcADy4gBwmosdJ99bkZfXy_I8R4Jki6Yl14cM,1018
+conda_poetry_liaison-0.0.0.post14.dist-info/LICENSE,sha256=w9nA0hYH3ouAgBKTQwrDXyW4Ckaxn-AeheHTNIs4LBY,1062
+conda_poetry_liaison-0.0.0.post14.dist-info/METADATA,sha256=lB-wn1U_R8o0kATA7koDBrpq_NEj3jkvxAbNRsve6LE,3048
+conda_poetry_liaison-0.0.0.post14.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+conda_poetry_liaison-0.0.0.post14.dist-info/entry_points.txt,sha256=E7I7t38IETJrKVFk0G_S1NQTudqP5rK1-yj_NFzQvoM,101
+conda_poetry_liaison-0.0.0.post14.dist-info/RECORD,,
