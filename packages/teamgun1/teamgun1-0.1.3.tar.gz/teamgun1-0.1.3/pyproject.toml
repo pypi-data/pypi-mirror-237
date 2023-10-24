@@ -1,0 +1,34 @@
+[project]
+name = "teamgun1"
+version = "0.1.3"
+description = "team project"
+authors = [
+    { name = "baamboo", email = "beom5236@gmail.com" },
+    { name = "leesung02", email = "leesung02@naver.com" },
+    { name = "Chong5084", email = "dmschd9647@gmail.com" },
+]
+dependencies = [
+    "bs4>=0.0.1",
+    "requests>=2.31.0",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+ha-weather = "teamgun1.weather_show:weather_show"
+news = "teamgun1.news:news"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.2",
+    "pytest-cov>=4.1.0",
+]
