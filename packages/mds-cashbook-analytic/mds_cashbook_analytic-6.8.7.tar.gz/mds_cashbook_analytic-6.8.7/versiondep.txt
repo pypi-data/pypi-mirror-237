@@ -1,0 +1,2 @@
+cashbook;6.8.30;6.8.999;mds
+cashbook_account;6.8.11;6.8.999;mds
