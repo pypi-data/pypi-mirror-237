@@ -1,0 +1,7 @@
+setup.py
+pywebdev/__init__.py
+pywebdev/writeHtml.py
+pywebdev.egg-info/PKG-INFO
+pywebdev.egg-info/SOURCES.txt
+pywebdev.egg-info/dependency_links.txt
+pywebdev.egg-info/top_level.txt
