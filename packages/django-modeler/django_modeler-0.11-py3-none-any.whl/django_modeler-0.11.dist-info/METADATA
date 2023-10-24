@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: django-modeler
+Version: 0.11
+Summary: Generate django ORM code from object instances (great for testing)
+Home-page: https://github.com/mrj0/django-modeler
+Author: Mike Johnson
+Author-email: Mike Johnson <mike@publicstatic.net>
+License: zlib/libpng License
+Project-URL: Homepage, https://github.com/mrj0/django-modeler
+Project-URL: Bug Tracker, https://github.com/mrj0/django-modeler/issues
+Platform: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: zlib/libpng License
+Classifier: Operating System :: OS Independent
+Requires: Django
+Provides: django_modeler
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
