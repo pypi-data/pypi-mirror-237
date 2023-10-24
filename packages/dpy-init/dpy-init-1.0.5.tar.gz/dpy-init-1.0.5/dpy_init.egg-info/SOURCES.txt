@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dpy_init/__init__.py
+dpy_init/dpy_init.py
+dpy_init.egg-info/PKG-INFO
+dpy_init.egg-info/SOURCES.txt
+dpy_init.egg-info/dependency_links.txt
+dpy_init.egg-info/entry_points.txt
+dpy_init.egg-info/requires.txt
+dpy_init.egg-info/top_level.txt
