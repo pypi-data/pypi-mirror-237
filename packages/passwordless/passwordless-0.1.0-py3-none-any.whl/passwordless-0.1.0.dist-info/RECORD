@@ -1,0 +1,10 @@
+passwordless/__init__.py,sha256=_qQ2ZFR_eN-ADFBrR0kNVNQVSxkRmT4cqTGl66KvUn4,879
+passwordless/client.py,sha256=kv6nCjqrxsZSWXW2VHlaLCBimPsLkZzlAV0eqI_mk3c,11659
+passwordless/config.py,sha256=ivuenpReCbA8sMpZdBtDfeFHKQCrtngI7dvm9t3L_5w,497
+passwordless/errors.py,sha256=Ugr6PXD1RAMOFKPGiwxWEC8kZpw3k1tvYAIfn8Eno-M,1083
+passwordless/models.py,sha256=HH-937EXmxkruX02Ajs0Fc5pXsb8CyXPObYZPOxgqww,2186
+passwordless/serialization.py,sha256=2B5YCkQA5W6zUnFj0XbHW4BK-sksx6QW7OzqtLjuYfs,5822
+passwordless-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+passwordless-0.1.0.dist-info/METADATA,sha256=I7qOPM6PIyrvPqRJBwdPnLjSV83CshkMWgzB9dRNo6U,3975
+passwordless-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+passwordless-0.1.0.dist-info/RECORD,,
