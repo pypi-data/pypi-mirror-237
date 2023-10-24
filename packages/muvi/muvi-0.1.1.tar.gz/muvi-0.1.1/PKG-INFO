@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: muvi
+Version: 0.1.1
+Summary: MuVI: A multi-view latent variable model with domain-informed structured sparsity for integrating noisy feature sets.
+Home-page: https://github.com/MLO-lab/MuVI
+Keywords: multi-view,multi-omics,feature sets,latent variable model,structured sparsity,variational inference,single-cell
+Author: Arber Qoku
+Author-email: arber.qoku@dkfz-heidelberg.com
+Requires-Python: >=3.9,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: dill (>=0.3.7,<0.4.0)
+Requires-Dist: mudata (>=0.2.3,<0.3.0)
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Requires-Dist: pandas (>=2.1.1,<3.0.0)
+Requires-Dist: pyro-ppl (>=1.8.6,<2.0.0)
+Requires-Dist: scanpy (>=1.9.5,<2.0.0)
+Requires-Dist: scikit-learn (>=1.3.1,<2.0.0)
+Requires-Dist: scipy (>=1.11.3,<2.0.0)
+Requires-Dist: seaborn (>=0.13.0,<0.14.0)
+Requires-Dist: statsmodels (>=0.14.0,<0.15.0)
+Requires-Dist: torch (>=2.0.0,!=2.0.1,!=2.1.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Project-URL: Repository, https://github.com/MLO-lab/MuVI
+Description-Content-Type: text/markdown
+
+# MuVI
+
+A multi-view latent variable model with domain-informed structured sparsity, that integrates noisy domain expertise in terms of feature sets.
+
+## Quick links
+
+[Examples](examples/1_basic_tutorial.ipynb) | [Paper](https://proceedings.mlr.press/v206/qoku23a/qoku23a.pdf) | [BibTeX](citation.bib)
+
+## Setup
+
+We suggest using [conda](https://docs.conda.io/en/latest/miniconda.html) to manage your environments, and either [pip](https://pypi.org/project/pip/) or [poetry](https://python-poetry.org/) to install `muvi` as a python package. Follow these steps to get `muvi` up and running!
+
+### Remotely
+
+1. Create a python environment in `conda`:
+
+```bash
+conda create -n muvi python=3.9
+```
+
+2. Activate freshly created environment:
+
+```bash
+source activate muvi
+```
+
+3. Install `muvi` with `pip`:
+
+```bash
+python3 -m pip install git+https://github.com/MLO-lab/MuVI.git
+```
+
+### Locally
+
+1. Clone repository:
+
+```bash
+git clone https://github.com/MLO-lab/MuVI.git
+```
+
+2. Create a python environment in `conda`:
+
+```bash
+conda create -n muvi python=3.9
+```
+
+3. Activate freshly created environment:
+
+```bash
+source activate muvi
+```
+
+4. Install `muvi` with `poetry`:
+
+```bash
+cd MuVI
+poetry install
+```
+
+## Getting started
+
+Check out [basic tutorial](examples/1_basic_tutorial.ipynb) to get familiar with MuVI!
+
+## Citation
+
+If you use `MuVI` in your work, please use this [BibTeX](citation.bib) entry:
+
+> **Encoding Domain Knowledge in Multi-view Latent Variable Models: A Bayesian Approach with Structured Sparsity**
+>
+> Arber Qoku and Florian Buettner
+>
+> _International Conference on Artificial Intelligence and Statistics (AISTATS)_ 2023
+>
+> <https://proceedings.mlr.press/v206/qoku23a.html>
+
