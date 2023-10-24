@@ -1,0 +1,7 @@
+# Package Dependencies
+grpcio==1.59.0
+protobuf==4.24.4
+PyJWT==2.8.0
+python-ulid==2.2.0
+
+# See tests/requirements.txt for development dependencies
