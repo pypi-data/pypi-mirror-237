@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/napari_remove_objects/__init__.py
+src/napari_remove_objects/_widget.py
+src/napari_remove_objects/napari.yaml
+src/napari_remove_objects.egg-info/PKG-INFO
+src/napari_remove_objects.egg-info/SOURCES.txt
+src/napari_remove_objects.egg-info/dependency_links.txt
+src/napari_remove_objects.egg-info/entry_points.txt
+src/napari_remove_objects.egg-info/requires.txt
+src/napari_remove_objects.egg-info/top_level.txt
+src/napari_remove_objects/_tests/__init__.py
