@@ -1,0 +1,2 @@
+elastic-enterprise-search>=7.15.0
+serpy
