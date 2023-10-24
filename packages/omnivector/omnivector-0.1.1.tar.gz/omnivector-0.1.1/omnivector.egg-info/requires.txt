@@ -1,0 +1,5 @@
+pinecone-client
+pandas
+lancedb
+pgvector
+psycopg
