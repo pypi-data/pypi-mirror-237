@@ -1,0 +1,3 @@
+[console_scripts]
+dday = dday.dday:calculate_dday
+
