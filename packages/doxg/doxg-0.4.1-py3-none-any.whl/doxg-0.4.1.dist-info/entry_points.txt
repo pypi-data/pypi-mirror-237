@@ -1,0 +1,6 @@
+[console_scripts]
+doxg-game = doxg.game:coin_game
+doxg-imp = doxg:imp
+doxg-pic = doxg:pic
+doxg-who = doxg:who
+
