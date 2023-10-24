@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+ga/__init__.py
+ga/evolution.py
+ga/individual.py
+ga/population.py
+generic_algorithm_light.egg-info/PKG-INFO
+generic_algorithm_light.egg-info/SOURCES.txt
+generic_algorithm_light.egg-info/dependency_links.txt
+generic_algorithm_light.egg-info/requires.txt
+generic_algorithm_light.egg-info/top_level.txt
+tests/__init__.py
+tests/test_evolution.py
+tests/test_individual.py
