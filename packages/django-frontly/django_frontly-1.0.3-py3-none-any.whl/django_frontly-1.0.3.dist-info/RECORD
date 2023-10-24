@@ -1,0 +1,13 @@
+frontly/__init__.py,sha256=H0CAE-MSxvVTe_SqyvYHIifOktZu4ZGTsfAULWLNZTU,263
+frontly/models.py,sha256=GiEE4m3OqGT5JsQoTTd8EdMFGMda3IHxa5OP1udjSwI,277
+frontly/urls.py,sha256=uOrZhl2ZhbD25IV7wRYRwPZmP2RyrTkfmAeEhH74bS8,203
+frontly/views.py,sha256=rLB609m9wUnrPyl2iEMPXiWY62TixKq9dc9CFf1MWxE,4455
+frontly/migrations/0001_initial.py,sha256=Dz3dhtH5xnNyohxpxkhJAJ3r-YtwfwYKwdYROmtAVPQ,605
+frontly/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frontly/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frontly/templatetags/frontly.py,sha256=8OMDvAMzUP3eDuebwmbXR8e_NUfLJBrXsG3d5atgURw,4482
+django_frontly-1.0.3.dist-info/LICENSE.txt,sha256=z6xcOv14gp1FeiIV3N5nipitA4JsbLomLCFj3ij0ToU,1067
+django_frontly-1.0.3.dist-info/METADATA,sha256=hwFdiisxdTTQ_AT7PRPSMHtCt44cyoh0dgbwiiib-Jg,6163
+django_frontly-1.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+django_frontly-1.0.3.dist-info/top_level.txt,sha256=W-KEpyWfCXJjLYFXKQvrDj1Gz0d1RsDnY_8rjJd2vIk,8
+django_frontly-1.0.3.dist-info/RECORD,,
