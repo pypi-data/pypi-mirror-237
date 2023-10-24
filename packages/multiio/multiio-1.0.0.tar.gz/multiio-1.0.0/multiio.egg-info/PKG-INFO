@@ -1,0 +1,63 @@
+Metadata-Version: 1.1
+Name: multiio
+Version: 1.0.0
+Summary: Library to control Multi-IO Automation Card
+Home-page: https://sequentmicrosystems.com
+Author: Sequent Microsystems
+Author-email: olcitu@gmail.com
+License: MIT
+Description: # multiio-rpi
+        
+        ## Setup
+        
+        Enable I2C communication first:
+        ```bash
+        sudo raspi-config
+        ```
+        A good article about I2C on Raspberry can be found [here](https://www.raspberrypi-spy.co.uk/2014/11/enabling-the-i2c-interface-on-the-raspberry-pi/).
+        
+        If you use Ubuntu you need to install `raspi-config` first:
+        ```bash
+        sudo apt update
+        sudo apt install raspi-config
+        ```
+        
+        Make sure you have all tools you need:
+        ```bash
+        sudo apt update
+        sudo apt-get install git build-essential
+        ```
+        
+        ## Usage
+        
+        Install the command:
+        ```bash
+        git clone https://github.com/SequentMicrosystems/multiio-rpi.git
+        cd multiio-rpi/
+        sudo make install
+        ```
+        
+        Now you can access all the functions of the [Multi-IO](https://link) through the command "multiio". Use -h option for help:
+        ```bash
+        multiio -h
+        ```
+        
+        If you clone the repository any update can be made with the following commands:
+        ```bash
+        cd multiio-rpi/  
+        git pull
+        sudo make install
+        ```  
+        
+Keywords: industrial,raspberry,power,4-20mA,0-10V,optoisolated
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
