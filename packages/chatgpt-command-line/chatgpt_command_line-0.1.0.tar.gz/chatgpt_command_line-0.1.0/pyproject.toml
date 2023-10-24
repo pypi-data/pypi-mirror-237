@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "chatgpt-command-line"
+version = "0.1.0"
+description = ""
+authors = ["obahamonde <oscarmartinbahamondemunoz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^13.6.0"
+click = "^8.1.7"
+openai = "^0.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+gpt = "chatgpt_cli:main"
