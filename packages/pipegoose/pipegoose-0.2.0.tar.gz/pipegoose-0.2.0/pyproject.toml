@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "pipegoose"
+version = "0.2.0"
+description = ""
+authors = ["xrsrke <hello@xrs.wtf>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^2.0.1"
+transformers = "^4.30.2"
+datasets = "^2.13.0"
+torchtyping = "^0.1.4"
+mkdocs = "^1.4.3"
+mkdocstrings = "^0.22.0"
+mkdocs-material = "^9.1.16"
+pytest-order = "^1.1.0"
+einops = "^0.6.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.2"
+pre-commit = "^3.3.3"
+wandb = "^0.15.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
