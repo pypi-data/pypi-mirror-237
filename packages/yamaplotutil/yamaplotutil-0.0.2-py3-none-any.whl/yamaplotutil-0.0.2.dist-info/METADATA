@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: yamaplotutil
+Version: 0.0.2
+Summary: A package containing usefull functions for working with measured data
+Project-URL: Homepage, https://github.com/YAMATO50/yamaplotutil
+Project-URL: Bug Tracker, https://github.com/YAMATO50/yamaplotutil/issues
+Author-email: yamato50 <yamato50.0000@gmail.com>
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# yamaplotutil
+
+This package provides some usefull functions to make working and plotting data a bit easier
+
+# Installation
+To install use 
+`pip install yamaplotutil`
+
+[PyPI package here](https://pypi.org/project/yamaplotutil/)
+
+# Usage
+See the [wiki](https://github.com/YAMATO50/yamaplotutil/wiki)
