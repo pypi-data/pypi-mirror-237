@@ -1,0 +1,2 @@
+[console_scripts]
+viihdexdl = viihdexdl.__main__:main
