@@ -1,0 +1,4 @@
+[console_scripts]
+build_exe=fv1_programmer.pyinstaller:make_exe
+fv1_programmer=fv1_programmer.main:run
+
