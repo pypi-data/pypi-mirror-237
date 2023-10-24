@@ -1,0 +1,24 @@
+[project]
+name = "adala-pk-test"
+version = "0.0.1"
+description = "ADALA: Automated Data Labeling Agent"
+authors = [
+    { name = "Human Signal", email = "hello@humansignal.com" },
+]
+dependencies = [
+    "pandas",
+    "openai",
+    "guidance",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.optional-dependencies]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
