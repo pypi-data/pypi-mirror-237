@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+PurGPT.py.egg-info/PKG-INFO
+PurGPT.py.egg-info/SOURCES.txt
+PurGPT.py.egg-info/dependency_links.txt
+PurGPT.py.egg-info/requires.txt
+PurGPT.py.egg-info/top_level.txt
+purgpt/__init__.py
