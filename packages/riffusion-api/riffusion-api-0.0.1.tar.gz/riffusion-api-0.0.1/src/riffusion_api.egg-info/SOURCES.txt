@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/riffusion/__init__.py
+src/riffusion/riff.py
+src/riffusion_api.egg-info/PKG-INFO
+src/riffusion_api.egg-info/SOURCES.txt
+src/riffusion_api.egg-info/dependency_links.txt
+src/riffusion_api.egg-info/top_level.txt
