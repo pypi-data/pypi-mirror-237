@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+compilepoint.egg-info/PKG-INFO
+compilepoint.egg-info/SOURCES.txt
+compilepoint.egg-info/dependency_links.txt
+compilepoint.egg-info/requires.txt
+compilepoint.egg-info/top_level.txt
+pake/__init__.py
