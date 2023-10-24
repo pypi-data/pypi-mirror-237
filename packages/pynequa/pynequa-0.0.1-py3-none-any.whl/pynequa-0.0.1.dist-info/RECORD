@@ -1,0 +1,17 @@
+pynequa/__init__.py,sha256=tqRRfuCh8jyrdIlcsW6sIzJi5Owv1IX5WrR7Z8qIltg,72
+pynequa/core.py,sha256=SepPgcIvZqx49QrasRMRK7Dx6BhyuBvJ_ZJT8QA7zu4,11741
+pynequa/models.py,sha256=ERmlmyQbnHUQYAeR0UeHSoDPo0TLc0vAXzTwr1N8bPk,5063
+pynequa/api/__init__.py,sha256=rMOL1PSzeNQ_yJlZ_XrxmkZe18AMTKEA6OOjvqlFN9w,21
+pynequa/api/api.py,sha256=Vrxk1kz0zm9Rg6I3uQbirKiedMgA7k9gkpHmFBhGsyE,1357
+sinequa_py/__init__.py,sha256=NbqNPF_xmo_tuo4PvrB9WGoNo5eOP6XAe3U_BfINMOQ,25
+sinequa_py/api.py,sha256=LTKxXSARl1OXbOMquYkYUPV0QJLZh32k4LulOr8fNJE,183
+sinequa_py/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sinequa_py/core.py,sha256=qodtYP4M1eHzChRnKiD44uB_l2YKxXeI17NDmWETgvY,11742
+sinequa_py/models.py,sha256=ERmlmyQbnHUQYAeR0UeHSoDPo0TLc0vAXzTwr1N8bPk,5063
+sinequa_py/api/__init__.py,sha256=rMOL1PSzeNQ_yJlZ_XrxmkZe18AMTKEA6OOjvqlFN9w,21
+sinequa_py/api/api.py,sha256=I87A1XY4d-e_UyBWIcGBw2SejuyNXOSncC8zWc9PmHs,1355
+pynequa-0.0.1.dist-info/LICENSE,sha256=0ehoqoPJcxXJYdXBHmLtHZj94k86luZL3yhWUgaSXeI,1067
+pynequa-0.0.1.dist-info/METADATA,sha256=8QEU0IPYzBI_8JW6UftEYgxBopk-9Kv7HIul8tDfmp8,2649
+pynequa-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pynequa-0.0.1.dist-info/top_level.txt,sha256=YgjS8dcKzCYFhLb1iEm80WA2e47-NVP04lgRV1fq13k,8
+pynequa-0.0.1.dist-info/RECORD,,
