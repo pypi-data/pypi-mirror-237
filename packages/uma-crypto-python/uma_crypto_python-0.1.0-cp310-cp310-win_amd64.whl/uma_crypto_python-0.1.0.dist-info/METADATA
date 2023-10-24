@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: uma-crypto-python
+Version: 0.1.0
+Summary: The Python language bindings for UMA crypto operations
+Home-page: https://github.com/uma-universal-money-address/uma-crypto-uniffi
+Author: Lightspark Group, Inc. <info@lightspark.com>
+License: Apache 2.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# uma-crypto-python
+
+This is a python implementation of the UMA crypto SDK.
