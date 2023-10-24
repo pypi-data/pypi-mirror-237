@@ -1,0 +1,9 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+bebrik.egg-info/PKG-INFO
+bebrik.egg-info/SOURCES.txt
+bebrik.egg-info/dependency_links.txt
+bebrik.egg-info/top_level.txt
