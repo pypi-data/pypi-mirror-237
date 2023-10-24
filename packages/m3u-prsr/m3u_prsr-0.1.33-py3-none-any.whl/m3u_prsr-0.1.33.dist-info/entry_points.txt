@@ -1,0 +1,4 @@
+[console_scripts]
+build=app.pyinstaller:install
+m3u-prsr=app.main:main
+
