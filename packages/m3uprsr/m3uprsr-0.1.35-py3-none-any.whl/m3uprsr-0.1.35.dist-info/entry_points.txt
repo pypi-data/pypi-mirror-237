@@ -1,0 +1,4 @@
+[console_scripts]
+build=app.pyinstaller:install
+m3uprsr=app.main:main
+
