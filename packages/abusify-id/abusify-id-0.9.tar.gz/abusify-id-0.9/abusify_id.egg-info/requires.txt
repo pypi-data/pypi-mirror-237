@@ -1,0 +1,6 @@
+scikit-learn
+pandas
+nltk
+pymysql
+python-decouple
+fuzzywuzzy
