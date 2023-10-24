@@ -1,0 +1,6 @@
+[console_scripts]
+doxg-imp = doxg:imp
+doxg-pic = doxg:pic
+doxg-who = doxg:who
+post-install = my_install_script.py
+
