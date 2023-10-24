@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+django_modeler/__init__.py
+django_modeler/cli.py
+django_modeler/graph.py
+django_modeler/modeler.py
+django_modeler/models.py
+django_modeler/tests.py
+django_modeler/views.py
+django_modeler.egg-info/PKG-INFO
+django_modeler.egg-info/SOURCES.txt
+django_modeler.egg-info/dependency_links.txt
+django_modeler.egg-info/entry_points.txt
+django_modeler.egg-info/top_level.txt

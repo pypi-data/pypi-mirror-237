@@ -1,0 +1,2 @@
+[console_scripts]
+django-modeler = django_modeler.cli:main
