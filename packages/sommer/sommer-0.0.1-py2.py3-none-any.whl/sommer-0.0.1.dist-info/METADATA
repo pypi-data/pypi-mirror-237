@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: sommer
+Version: 0.0.1
+Summary: Sommer is the modern ORM that replaces your backend.
+Author-email: marcenacp <marcenacp@gmail.com>
+Requires-Python: >=3.10
+
