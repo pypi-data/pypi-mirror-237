@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: myoperations
+Version: 0.1.0
+Summary: libreria de operaciones básicas
+Author: Alexis Ruales
+License: MIT
+Requires-Python: >=3.10.12
+Description-Content-Type: text/markdown
+Requires-Dist: pandas ==2.1.1
+
+hola
