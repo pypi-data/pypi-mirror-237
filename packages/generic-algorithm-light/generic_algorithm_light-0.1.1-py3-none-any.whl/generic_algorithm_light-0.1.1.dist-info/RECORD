@@ -1,0 +1,12 @@
+ga/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ga/evolution.py,sha256=tpUNH5b5wrmumvLxlI6pFa9wOibt_6jmgm5ghYoSWZE,2088
+ga/individual.py,sha256=ZZ2jBG49xah7VyDk1kR011ErFrCdAs1_KaaUwT2jir4,623
+ga/population.py,sha256=c7s6nhtjjPYwysYlcUxBvRJtcnVMPHGe166O8qNEX7I,3467
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_evolution.py,sha256=CtM2_QA17usrWhugmhlCQ1LSM7gYCslOqM48zBsZ-v0,1796
+tests/test_individual.py,sha256=ip3LAOr1Czm2oHFLAWFioLvdnh_VllNTNrVOtKMFad4,489
+generic_algorithm_light-0.1.1.dist-info/LICENSE,sha256=FHw6uf6UFi7P_6oeSN0KF9Q7wadSEqz0BgNWP4Qe_sQ,1072
+generic_algorithm_light-0.1.1.dist-info/METADATA,sha256=gAz71BanU7a6j1hljJG-lQj8GqENhJHCROXylWYAr40,5442
+generic_algorithm_light-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+generic_algorithm_light-0.1.1.dist-info/top_level.txt,sha256=tIEmjr-o4GRA9z9MzqtSzXYtGf8QOnOWjcHZefhCm28,9
+generic_algorithm_light-0.1.1.dist-info/RECORD,,
