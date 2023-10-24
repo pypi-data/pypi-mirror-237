@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: eleven-pp
+Version: 0.0.0
+Summary: The team-eleven's first pypi project. We make several functions for our work
+Author-Email: team-eleven <dlsrbs98@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/dj-team-eleven/eleven-pp
+Project-URL: Bug tracker, https://github.com/dj-team-eleven/eleven-pp/issues
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# eleven-pp
+- Team-eleven's `pip Development Storage``
+- The team-eleven's first pypi project. We make several functions for our work
+<br>
+
+- View at : 
+
+### Install
+
+### USE
+
+### DEV
+
+### TEST
+
+### DEPLOY
+
+### REF
