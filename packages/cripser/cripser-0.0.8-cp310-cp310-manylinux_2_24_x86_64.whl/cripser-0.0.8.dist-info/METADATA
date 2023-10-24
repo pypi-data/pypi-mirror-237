@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cripser
+Version: 0.0.8
+Summary: Cubical Ripser Python binding
+Author: Shizuo KAJI
+Author-email: skaji@imi.kyushu-u.ac.jp
+License: MIT
+License-File: LICENSE
+
+Persistent homology calculation for 1D (scalar time series), 2D (image), and 3D (voxel) arrays
