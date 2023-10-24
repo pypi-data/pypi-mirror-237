@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pi_brightness
+Version: 1.0.0
+Summary: Controls Raspberry Pi screen brightness (or other Linux devices)
+Author: Joseph McMahon
+License-File: LICENSE
