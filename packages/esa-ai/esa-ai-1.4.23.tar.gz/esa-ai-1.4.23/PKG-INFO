@@ -1,0 +1,140 @@
+Metadata-Version: 2.1
+Name: esa-ai
+Version: 1.4.23
+Summary: An Artificial Intelligence Automation Platform. AI Instruction management from various providers, has an adaptive memory, and a versatile plugin system with many commands including web browsing. Supports many AI providers and models and growing support every day.
+Author: Michael Cloutier
+Author-email: michael.cloutier@experian.com
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: esa-python-sdk==0.0.30
+Requires-Dist: safeexecute==0.0.6
+Requires-Dist: g4f==0.1.7.2
+Requires-Dist: esa-local-llm==0.0.15
+Requires-Dist: google-generativeai==0.2.1
+Requires-Dist: discord==2.3.2
+Requires-Dist: anthropic==0.4.1
+Requires-Dist: arxiv==1.4.8
+Requires-Dist: PyGithub==2.1.1
+Requires-Dist: hugchat==0.3.7
+Requires-Dist: bardapi==0.1.38
+Requires-Dist: whisper-cpp-pybind==0.1.2
+Requires-Dist: mysql-connector-python==8.1.0
+Requires-Dist: pydub==0.25.1
+
+# ESA
+
+[![GitHub](https://img.shields.io/badge/GitHub-ESA%20Core-blue?logo=github&style=plastic)](https://github.com/experian-sales-advisor/ESA) [![GitHub](https://img.shields.io/badge/GitHub-ESA%20NextJS%20Web%20UI-blue?logo=github&style=plastic)](https://github.com/experian-sales-advisor/esa-nextjs)
+
+[![GitHub](https://img.shields.io/badge/GitHub-ESA%20Python%20SDK-blue?logo=github&style=plastic)](https://github.com/ESA/python-sdk) [![pypi](https://img.shields.io/badge/pypi-ESA%20Python%20SDK-blue?logo=pypi&style=plastic)](https://pypi.org/project/esa-python-sdk/)
+
+[![GitHub](https://img.shields.io/badge/GitHub-ESA%20TypeScript%20SDK-blue?logo=github&style=plastic)](https://github.com/experian-sales-advisor/esa-typescript-sdk) [![npm](https://img.shields.io/badge/npm-ESA%20TypeScript%20SDK-blue?logo=npm&style=plastic)](https://www.npmjs.com/package/esa-typescript-sdk)
+
+[![Logo](https://experian-sales-advisor.github.io/ESA/images/ESA-Logo-whitebg.png)](https://experian-sales-advisor.github.io/ESA/)
+
+ESA is a dynamic Artificial Intelligence Automation Platform engineered to orchestrate efficient AI instruction management and task execution across a multitude of providers. Our solution infuses adaptive memory handling with a broad spectrum of commands to enhance AI's understanding and responsiveness, leading to improved task completion. The platform's smart features, like Smart Instruct and Smart Chat, seamlessly integrate web search, planning strategies, and conversation continuity, transforming the interaction between users and AI. By leveraging a powerful plugin system that includes web browsing and command execution, ESA stands as a versatile bridge between AI models and users. With an expanding roster of AI providers, code evaluation capabilities, comprehensive chain management, and platform interoperability, ESA is consistently evolving to drive a multitude of applications, affirming its place at the forefront of AI technology.
+
+Embracing the spirit of extremity in every facet of life, we introduce ESA. This advanced AI Automation Platform is our bold step towards the realization of Artificial General Intelligence (AGI). Seamlessly orchestrating instruction management and executing complex tasks across diverse AI providers, ESA combines adaptive memory, smart features, and a versatile plugin system to maximize AI potential. With our unwavering commitment to innovation, we're dedicated to pushing the boundaries of AI and bringing AGI closer to reality.
+
+## Table of Contents 📖
+
+- [ESA](#esa)
+  - [Table of Contents 📖](#table-of-contents-)
+  - [⚠️ Disclaimers](#️-disclaimers)
+    - [Monitor Your Usage](#monitor-your-usage)
+  - [Key Features 🗝️](#key-features-️)
+    - [Getting Started with Local Models and ESA Video](#getting-started-with-local-models-and-esa-video)
+  - [Quick Start Guide](#quick-start-guide)
+    - [Prerequisites](#prerequisites)
+    - [Download and Install](#download-and-install)
+    - [Environment Setup](#environment-setup)
+    - [Install Options](#install-options)
+    - [Running and Updating ESA](#running-and-updating-esa)
+  - [Configuration](#configuration)
+  - [Documentation](#documentation)
+  - [Other Repositories](#other-repositories)
+
+## ⚠️ Disclaimers
+
+### Monitor Your Usage
+
+Please note that using some AI providers (such as OpenAI's GPT-4 API) can be expensive! Monitor your usage carefully to avoid incurring unexpected costs.  We're **NOT** responsible for your usage under any circumstance.
+
+## Key Features 🗝️
+
+- **Context and Token Management**: Adaptive handling of long-term and short-term memory for an optimized AI performance, allowing the software to process information more efficiently and accurately.
+- **Smart Instruct**: An advanced feature enabling AI to comprehend, plan, and execute tasks effectively. The system leverages web search, planning strategies, and executes instructions while ensuring output accuracy.
+- **Interactive Chat & Smart Chat**: User-friendly chat interface for dynamic conversational tasks. The Smart Chat feature integrates AI with web research to deliver accurate and contextually relevant responses.
+- **Task Execution & Smart Task Management**: Efficient management and execution of complex tasks broken down into sub-tasks. The Smart Task feature employs AI-driven agents to dynamically handle tasks, optimizing efficiency and avoiding redundancy.
+- **Chain Management**: Sophisticated handling of chains or a series of linked commands, enabling the automation of complex workflows and processes.
+- **Web Browsing & Command Execution**: Advanced capabilities to browse the web and execute commands for a more interactive AI experience, opening a wide range of possibilities for AI assistance.
+- **Multi-Provider Compatibility**: Seamless integration with leading AI providers such as OpenAI GPT series, Hugging Face Huggingchat, GPT4All, GPT4Free, Oobabooga Text Generation Web UI, Kobold, llama.cpp, FastChat, Google Bard, Bing, and more.
+- **Versatile Plugin System & Code Evaluation**: Extensible command support for various AI models along with robust support for code evaluation, providing assistance in programming tasks.
+- **Docker Deployment**: Simplified setup and maintenance through Docker deployment.
+- **Audio-to-Text & Text-to-Speech Options**: Integration with Hugging Face for seamless audio-to-text transcription, and multiple TTS choices, featuring Brian TTS, Mac OS TTS, and ElevenLabs.
+- **Platform Interoperability & AI Agent Management**: Streamlined creation, renaming, deletion, and updating of AI agent settings along with easy interaction with popular platforms like Twitter, GitHub, Google, DALL-E, and more.
+- **Custom Prompts & Command Control**: Granular control over agent abilities through enabling or disabling specific commands, and easy creation, editing, and deletion of custom prompts to standardize user inputs.
+- **RESTful API**: FastAPI-powered RESTful API for seamless integration with external applications and services.
+- **Expanding AI Support**: Continually updated to include new AI providers and services, ensuring the software stays at the forefront of AI technology.\
+
+## Quick Start Guide
+
+### Prerequisites
+
+- [Git](https://git-scm.com/downloads)
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+- [Python 3.10](https://www.python.org/downloads/)
+- [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) (if using local models on GPU)
+
+If using Windows and trying to run locally, it is unsupported, but you will need [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) and [Docker Desktop](https://docs.docker.com/docker-for-windows/install/) at a minimum in addition to the above.
+
+### Download and Install
+
+Open a terminal and run the following to download and install ESA:
+
+```bash
+git clone https://github.com/experian-sales-advisor/ESA
+cd ESA
+./ESA.sh
+```
+
+### Environment Setup
+
+You can choose to skip the environment setup and accept default values by entering `Y` on the first question `Quick Setup without advanced configuration? (Y for yes, N for No)`.
+
+![image](https://experian-sales-advisor.github.io/ESA/images/screenshots/Screenshot-ESA-1.png)
+
+If you chose `N`, see the [Environment Variable Setup](https://experian-sales-advisor.github.io/ESA/1-Getting%20started/1-Environment%20Variables.html) documentation for guidance on setup.
+
+### Install Options
+
+You will be prompted to choose an install option. Choose Option 1 to build docker images built and taged "latest" version. Choose 4 to build docker images built and tagged with the "main" branch in Github.
+
+![image](https://experian-sales-advisor.github.io/ESA/images/screenshots/Screenshot-ESA-2.png)
+
+### Running and Updating ESA
+
+Any time you want to run or update ESA, run the following commands from your `ESA` directory:
+
+```bash
+./ESA.sh
+```
+
+- Access the ESA Next.js Admin Web Interface at http://localhost:24498
+- Access the Agent Admin Streamlit Web Interface at http://localhost:8501
+- Access the ESA API documentation at http://localhost:7437
+
+If you're running with the option `Run ESA and Text Generation Web UI with Docker (NVIDIA Only)`, you can access the Text Generation Web UI at http://localhost:7860/?__theme=dark to download and and configure your models. The `AI_PROVIDER_URI` will be `http://text-generation-webui:5000` for your ESA agents.
+
+## Configuration
+
+Each ESA Agent has its own settings for interfacing with AI providers, and other configuration options. These settings can be set and modified through the web interface.
+
+## Documentation
+
+Need more information? Check out the [documentation](https://experian-sales-advisor.github.io/ESA) for more details to get a better understanding of the concepts and features of ESA.
+
+## Other Repositories
+
+Check out the other ESA repositories at https://github.com/orgs/experian-sales-advisor/repositories - these include the ESA NextJS Web UI, ESA Streamlit Web UI, ESA Python SDK, ESA TypeScript SDK, and more!

@@ -1,0 +1,5 @@
+include requirements.txt
+recursive-include esa *
+recursive-include tests *
+recursive-include esa-streamlit *
+recursive-include docs *
