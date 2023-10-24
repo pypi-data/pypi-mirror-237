@@ -1,0 +1,9 @@
+nibabel
+numpy
+pickle
+scipy
+importlib_resources
+pandas
+seaborn
+skimage
+tifffile
