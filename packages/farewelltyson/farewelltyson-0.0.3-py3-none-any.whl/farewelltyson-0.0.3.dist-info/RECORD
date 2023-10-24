@@ -1,0 +1,12 @@
+.DS_Store,sha256=33F3bdH4My1RMtr0jpqPvFjpSY_QRoQb6Bon8gax-X4,6148
+farewelltyson/__init__.py,sha256=XoMkL23VnkD1-iRRSDRfJqi6GFWGEySHOiC4Q9WMPFY,1082
+farewelltyson/buy_packs.py,sha256=7w0AWFXDBPrLBf351npHuL_8UNINbVZ0yu0tUNahi2o,34
+farewelltyson/check_your_balance.py,sha256=fABADXnYPYJa0Zpvzj0knK9xGr6WcSTEwQAzkEh_KUA,44
+farewelltyson/get_the_data.py,sha256=SBlfi5hpC5Q5wc26V70Ufcqm39bX5YypqKQG-3n1h9s,84
+farewelltyson/open_packs.py,sha256=7pJO8HwXT-aMU2dzZc-SRMCMl9QgpXeN-Lp97-qRSZA,35
+farewelltyson/take_action.py,sha256=q3LmAcHj9u-YiHv2IkBBpB3IzjBeTHIipWrwJJV2GyY,89
+farewelltyson/data/all_data.csv,sha256=MZHx1DaoYxZSxGLhlTgQE8usnh4UJdXbNKh_dTNqkao,2648
+farewelltyson-0.0.3.dist-info/METADATA,sha256=pUMw2CAQV6hNALpR32uAGxr3Td5l8Zi8Gq1XmOmZqDs,500
+farewelltyson-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+farewelltyson-0.0.3.dist-info/top_level.txt,sha256=pgjkU0NpwNA_MBKk23JfemVr0jFHAhACh6ZkMlGFyoQ,14
+farewelltyson-0.0.3.dist-info/RECORD,,
