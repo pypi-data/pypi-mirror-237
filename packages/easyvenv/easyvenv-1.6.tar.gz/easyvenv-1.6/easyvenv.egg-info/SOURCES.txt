@@ -1,0 +1,7 @@
+setup.py
+easyvenv/__init__.py
+easyvenv/start.py
+easyvenv.egg-info/PKG-INFO
+easyvenv.egg-info/SOURCES.txt
+easyvenv.egg-info/dependency_links.txt
+easyvenv.egg-info/top_level.txt
