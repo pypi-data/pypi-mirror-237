@@ -1,0 +1,12 @@
+django_modeler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_modeler/cli.py,sha256=Ggog9EsJ2XMyjO2soP-zuXABgBm6fICmLSCbCLq1h0s,3072
+django_modeler/graph.py,sha256=nS1E1ulxsVUKmltwu1btU9UCdX_JSbqNY1sJ3SQZC9c,5751
+django_modeler/modeler.py,sha256=j-tzQDOWt8Au3-N9grQl0RCFxfpQJoCu1vePSjpx0nc,6548
+django_modeler/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_modeler/tests.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_modeler/views.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_modeler-0.12.dist-info/METADATA,sha256=efGwj57R7-I2yPDQAgaVhk3x0Nqi3UsQ4eaafoFvzak,9449
+django_modeler-0.12.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+django_modeler-0.12.dist-info/entry_points.txt,sha256=00gyKkPl4BtfeXm7TsgnBnKjGdT6fDClHCAfB_0Udkc,59
+django_modeler-0.12.dist-info/top_level.txt,sha256=TEmIa1-cIP_Rjmg6xkqh2x-ZltFTgDSvbD5aPBZVXeI,15
+django_modeler-0.12.dist-info/RECORD,,
