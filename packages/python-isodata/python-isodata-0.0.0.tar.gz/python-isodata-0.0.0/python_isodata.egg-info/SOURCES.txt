@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+python_isodata.egg-info/PKG-INFO
+python_isodata.egg-info/SOURCES.txt
+python_isodata.egg-info/dependency_links.txt
+python_isodata.egg-info/top_level.txt
