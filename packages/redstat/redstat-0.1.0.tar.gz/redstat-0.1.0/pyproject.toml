@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "redstat"
+authors = [{ name = "temkuz", email = "temkuz@yandex.ru" }]
+version = "0.1.0"
+description = "Cli tool for get stats from reddit"
+readme="README.md"
+
+requires-python = ">=3.11"
+keywords = ["cli", "reddit", "parser"]
+dependencies = [
+    "requests >= 2.31.0, < 3"
+]
+
+[project.scripts]
+redstat = "redstat.__init__:main"
