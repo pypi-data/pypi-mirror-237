@@ -1,0 +1,6 @@
+[
+  "test_app.py::test_imp",
+  "test_app.py::test_pic",
+  "test_app.py::test_who",
+  "test_game.py::test_game"
+]
