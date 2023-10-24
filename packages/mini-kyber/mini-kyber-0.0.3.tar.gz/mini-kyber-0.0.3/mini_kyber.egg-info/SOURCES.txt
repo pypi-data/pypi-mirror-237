@@ -1,0 +1,8 @@
+README.md
+setup.py
+Kyber/__init__.py
+Kyber/main.py
+mini_kyber.egg-info/PKG-INFO
+mini_kyber.egg-info/SOURCES.txt
+mini_kyber.egg-info/dependency_links.txt
+mini_kyber.egg-info/top_level.txt
