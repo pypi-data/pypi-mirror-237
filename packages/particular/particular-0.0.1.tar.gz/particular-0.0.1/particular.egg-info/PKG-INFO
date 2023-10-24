@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: particular
+Version: 0.0.1
+Summary: Extremely accurate N-Body simulator for basic physical research. The dependencies are kept at a bare minimum.
+Author-email: "Julian M. Kleber" <julian.kleber@sail.black>
+Project-URL: Homepage, https://www.codeberg.org/cap_jmk/particular.git
+Project-URL: Bug Tracker, https://www.codeberg.org/cap_jmk/particular.git/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+# MD-MC
+
+Direct and MC combination simulations. Code, raw data an plots used for publishing direct simulations of Bose-Einstein-Condensates.
+
+# How does it work? 
+
+The workings are quite simple: 
+
+1.) Simulate a MC simulation to obtain an equilibrium example 
+2.) Simulate your trajectory

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "particular"
+version = "0.0.1"
+authors = [
+  { name="Julian M. Kleber", email="julian.kleber@sail.black" },
+]
+description = "Extremely accurate N-Body simulator for basic physical research. The dependencies are kept at a bare minimum."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "scipy", 
+    "matplotlib"
+]
+[project.urls]
+"Homepage" = "https://www.codeberg.org/cap_jmk/particular.git"
+"Bug Tracker" = "https://www.codeberg.org/cap_jmk/particular.git/issues"
+
+[tool.setuptools]
+
+packages = ["particular"]
