@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: python-isodata
+Version: 0.0.3
+Summary: Energy Market downloading tools
+Home-page: https://github.com/CaffeineLab/isodata
+Author: Glenn
+Author-email: glenn@caffeinelab.com
+License: GNU General Public License v3.0
+License-File: LICENSE
