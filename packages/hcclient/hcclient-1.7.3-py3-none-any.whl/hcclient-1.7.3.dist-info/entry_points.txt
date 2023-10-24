@@ -1,0 +1,2 @@
+[console_scripts]
+hcclient = hcclient.__main__:main
