@@ -1,0 +1,14 @@
+streamlit_ydata_profiling/__init__.py,sha256=4yspGdblxmEFIs0fh0K3gZm9IG9xmvcCeJzqf1aMjBY,1893
+streamlit_ydata_profiling/__version__.py,sha256=bErSuxh_UzRF2q7Sh384d27AzSJggrbRIET2GVidvcA,43
+streamlit_ydata_profiling/frontend/.prettierrc,sha256=qBUGXDB0ioCVFB3o4zVUnVlOHiqQqbQB9vFVKslWav0,67
+streamlit_ydata_profiling/frontend/package.json,sha256=eAn020v8qGkDCOSqj8Gr-qwsc2uwAz-UJnAb0kd57uY,1037
+streamlit_ydata_profiling/frontend/tsconfig.json,sha256=SljYhnVDKoG9-As0gJOcEMVys8LBUhshGdBcjgyh7rY,562
+streamlit_ydata_profiling/frontend/yarn.lock,sha256=bRkd21dPDo8_sE3KG6X9bwokOPcVKe8uFC0EXHJ72-Q,463508
+streamlit_ydata_profiling/frontend/public/index.html,sha256=lf9WFCqYMSsUuWj2yE7VGqSae_HKcNaE0IheQnGFsc8,839
+streamlit_ydata_profiling/frontend/src/ProfileReport.tsx,sha256=ETlZd52US7nxdUfFXv0yiRcpTB2ornS2sE6CdhEkZis,1809
+streamlit_ydata_profiling/frontend/src/index.tsx,sha256=opvWvsgXHu9BnkJPoKOZdmMIi03heSFg9lHzu3X-JX4,223
+streamlit_ydata_profiling/frontend/src/react-app-env.d.ts,sha256=ZmM1m8F0d-jGSl8U3InXEa0mg6MJIZjx3UiS1Q75QXA,179
+streamlit_ydata_profiling-0.2.1b0.dist-info/METADATA,sha256=mvUFM7d15zzBwsxG7HSiBZ0CFtS7teiU5-8nEWGlSkk,2108
+streamlit_ydata_profiling-0.2.1b0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+streamlit_ydata_profiling-0.2.1b0.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+streamlit_ydata_profiling-0.2.1b0.dist-info/RECORD,,
