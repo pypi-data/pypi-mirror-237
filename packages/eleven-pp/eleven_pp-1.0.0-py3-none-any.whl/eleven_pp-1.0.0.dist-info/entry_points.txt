@@ -1,0 +1,5 @@
+[console_scripts]
+11-blog = eleven_pp:rink:rink
+11-dday = eleven_pp.dday:calculate_dday
+11-lunch = eleven_pp.rec_resto:rec_resto
+
