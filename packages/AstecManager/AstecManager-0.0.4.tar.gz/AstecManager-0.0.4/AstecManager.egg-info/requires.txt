@@ -1,0 +1,8 @@
+nibabel
+morphonet
+numpy
+pickle
+scipy
+importlib_resources
+pandas
+seaborn
