@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: epystemology
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/unknown/epystemology#readme
+Project-URL: Issues, https://github.com/unknown/epystemology/issues
+Project-URL: Source, https://github.com/unknown/epystemology
+Author-email: Bernard Cooke <bernard-cooke@hotmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# epystemology
+
+[![PyPI - Version](https://img.shields.io/pypi/v/epystemology.svg)](https://pypi.org/project/epystemology)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/epystemology.svg)](https://pypi.org/project/epystemology)
+
+Create a declarative source of truth for input to your application.
+
+> **Epistemology:** the theory of knowledge, especially with regard to its
+> methods, validity, and scope, and the distinction between justified belief
+> and opinion.
+
+---
+
+## **Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install epystemology
+```
+
+## License
+
+`epystemology` is distributed under the terms of the
+[MIT](https://spdx.org/licenses/MIT.html) license.
+
+## Usage
