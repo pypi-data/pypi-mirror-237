@@ -1,0 +1,12 @@
+numpy
+scipy
+matplotlib<=3.5.3
+pyproj
+configparser
+mt_metadata
+mth5
+pandas
+geopandas
+contextily
+pyevtk
+loguru
