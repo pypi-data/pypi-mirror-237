@@ -1,0 +1,11 @@
+python_libsbml-5.20.2.dist-info/METADATA,sha256=NcEp-Q1kNawyOj7RjSnkFm3Yna9vcfG4pN7DwmWWBds,532
+python_libsbml-5.20.2.dist-info/LICENSE.txt,sha256=OMiWjv3WlhiUzhy5aC5-bWMnQQs0fAFp-7DLiW8sYg0,7565
+python_libsbml-5.20.2.dist-info/WHEEL,sha256=MhWbwqqc_ZSP2Uycbd9jQxJDL3VTGcnT16CYlXtCD-I,111
+python_libsbml-5.20.2.dist-info/RECORD,,
+python_libsbml-5.20.2.dist-info/LICENSE.html,sha256=AX2rguZCcwhGbuVpcNRngno4EY3PhFacXlkdi6xUCxw,8527
+python_libsbml-5.20.2.dist-info/top_level.txt,sha256=QL4uwL4aVn01KiiTM_rt1jyP8F8r4_bE9dBUfelj4Tw,17
+python_libsbml.libs/libgcc_s-8b50eaaa.so.1,sha256=WXj_FYQE1MDIyb-nN8siUALdxit6NHma0p9UxemQV8o,101649
+python_libsbml.libs/libstdc++-8baf04f9.so.6.0.28,sha256=yrzOxg1heyJ9Y-43YCLLn04Cpl_A68FN0D2Q1iBTMcY,2428961
+python_libsbml.libs/libbz2-5e71ae50.so.1.0.8,sha256=Q_xMVf_cJV_HshQmtooGb1VF1fqo_7wQh-jB292P3W0,58605
+libsbml/_libsbml.cpython-312-i386-linux-musl.so,sha256=mwVGi-D8TYi6rEfYCahKPa4_SMft_7JJxPc_ZsBOdjY,32873485
+libsbml/__init__.py,sha256=c-C54QqjOVjYcHit34pWw65hPadPGju89Wk8C7Kqc10,8088850
