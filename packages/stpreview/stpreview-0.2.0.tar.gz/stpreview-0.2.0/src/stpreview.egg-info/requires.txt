@@ -1,0 +1,10 @@
+asdf
+astropy
+numpy
+pillow
+scikit-image
+typer
+
+[test]
+pytest
+roman_datamodels
