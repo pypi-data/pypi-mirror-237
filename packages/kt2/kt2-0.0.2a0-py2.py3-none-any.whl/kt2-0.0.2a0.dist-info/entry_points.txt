@@ -1,0 +1,3 @@
+[console_scripts]
+kt2=kt2.cli:cli
+
