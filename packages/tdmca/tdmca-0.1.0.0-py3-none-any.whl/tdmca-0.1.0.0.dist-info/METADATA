@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tdmca
+Version: 0.1.0.0
+Summary: A package for Markov Chain Attribution Calculation.
+Author: Yannis Marigo
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: teradataml (>=17.20)
+Requires-Dist: pandas (>=2.1.0)
+Requires-Dist: numpy
+
