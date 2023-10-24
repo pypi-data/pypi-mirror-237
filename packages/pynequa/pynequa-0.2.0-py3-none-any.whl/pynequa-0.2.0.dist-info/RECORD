@@ -1,0 +1,10 @@
+pynequa/__init__.py,sha256=UX9st9AEa6-LAhkcRXaUGZ-hvpm9bqnyCQdlF_EAfEw,48
+pynequa/core.py,sha256=r7IsRq1voAvs2AR1Q6HMwraK-CRRyfByiGpr7D0tYEU,13356
+pynequa/models.py,sha256=_KU4vv51Y5EZFZu6tvhjaIZU9RZnhsHkr-PlLmdG8Uk,7328
+pynequa/api/__init__.py,sha256=rMOL1PSzeNQ_yJlZ_XrxmkZe18AMTKEA6OOjvqlFN9w,21
+pynequa/api/api.py,sha256=mONokPxUhdNVe_Wyz5Chw8mO0_6a9En1Gnshe1qDMuk,1411
+pynequa-0.2.0.dist-info/LICENSE,sha256=0ehoqoPJcxXJYdXBHmLtHZj94k86luZL3yhWUgaSXeI,1067
+pynequa-0.2.0.dist-info/METADATA,sha256=yLlnHuuIsVPlwlMLNUIhSiN20ijI7glKPJFERzC4fT4,3207
+pynequa-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pynequa-0.2.0.dist-info/top_level.txt,sha256=YgjS8dcKzCYFhLb1iEm80WA2e47-NVP04lgRV1fq13k,8
+pynequa-0.2.0.dist-info/RECORD,,
