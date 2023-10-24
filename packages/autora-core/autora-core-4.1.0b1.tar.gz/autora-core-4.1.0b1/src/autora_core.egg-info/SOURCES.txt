@@ -1,0 +1,43 @@
+.editorconfig
+.gitignore
+.pre-commit-config.yaml
+CONTRIBUTE.md
+LICENSE
+README.md
+mkdocs.yml
+pyproject.toml
+.github/pull_request_template.md
+.github/workflows/publish-package-pypi.yml
+.github/workflows/test-pre-commit-hooks.yml
+.github/workflows/test-pytest.yml
+.vscode/.gitignore
+.vscode/extensions.json
+.vscode/launch.json
+docs/index.md
+docs/cycle/Basic Introduction to Functions and States.ipynb
+docs/cycle/Combining Experimentalists with State.ipynb
+docs/cycle/Dynamically Extending and Altering the State.ipynb
+docs/cycle/Linear and Cyclical Workflows using Functions and States.ipynb
+docs/experimentalists/grid/index.md
+docs/experimentalists/grid/quickstart.md
+docs/experimentalists/random/index.md
+docs/experimentalists/random/quickstart.md
+docs/javascripts/mathjax.js
+docs/pipeline/Experimentalist Pipeline Examples.ipynb
+mkdocs/base.yml
+src/autora/state.py
+src/autora/experimentalist/grid.py
+src/autora/experimentalist/pipeline.py
+src/autora/experimentalist/random.py
+src/autora/experimentalist/utils.py
+src/autora/utils/deprecation.py
+src/autora/utils/dictionary.py
+src/autora/variable/__init__.py
+src/autora/variable/time.py
+src/autora_core.egg-info/PKG-INFO
+src/autora_core.egg-info/SOURCES.txt
+src/autora_core.egg-info/dependency_links.txt
+src/autora_core.egg-info/requires.txt
+src/autora_core.egg-info/top_level.txt
+tests/README.md
+tests/test_experimentalist_pipeline.py
