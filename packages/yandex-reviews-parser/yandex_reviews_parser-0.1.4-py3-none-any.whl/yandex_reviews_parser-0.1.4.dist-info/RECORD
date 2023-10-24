@@ -1,0 +1,12 @@
+yandex_reviews_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yandex_reviews_parser/helpers.py,sha256=0ZJ9MA0_Bj19Bm5wS1Vp3zYLdpBHpFR_YFReEmxgxUE,2589
+yandex_reviews_parser/main.py,sha256=QyGX23Jfe1_Y8zZVfigWxUegrZIw7Pf1wWVqo-aBhMk,197
+yandex_reviews_parser/parsers.py,sha256=1r_UZAYyQpl8hZzBn43w9PM_7PGwyeLPIAr1DJ2TrnE,7752
+yandex_reviews_parser/storage.py,sha256=BwcDtnIUWIejehWe2PMUaWp96RP44rL03INjUDVOP_k,311
+yandex_reviews_parser/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yandex_reviews_parser/tests/test_helpers.py,sha256=wmNOYJC4btKS6ohBWebXRHa1AMjjpuGZuF4NHP1JEX4,1578
+yandex_reviews_parser/utils.py,sha256=thkhJcfKhyePmffP-Hn2PB5lk2OX66z0PDj8lTM4jnw,1787
+yandex_reviews_parser-0.1.4.dist-info/LICENSE,sha256=7Mkqfs_mNEuSj57cFn8xWuB5Q14EgsHacW2pGo5NDwU,1077
+yandex_reviews_parser-0.1.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+yandex_reviews_parser-0.1.4.dist-info/METADATA,sha256=ZUUM7YfR950HW32p310aZ3oyVfFV0ZTxCZmduKVOArs,2596
+yandex_reviews_parser-0.1.4.dist-info/RECORD,,
