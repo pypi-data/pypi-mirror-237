@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: redstat
+Version: 0.1.0
+Summary: Cli tool for get stats from reddit
+Author-email: temkuz <temkuz@yandex.ru>
+Keywords: cli,reddit,parser
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests <3,>=2.31.0
+
+# redstat
+
+## Content
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+    - [Get help](#get-help)
+    - []
+
+## Description
+
+Redstat is a cli application for getting statistics from reddit (subreddit and user)
+
+## Installation
+
+```commandline
+pip install redstat
+```
+
+## Usage
+
+### Get help
+
+```commandline
+redstat -h
+```
+
+### 
