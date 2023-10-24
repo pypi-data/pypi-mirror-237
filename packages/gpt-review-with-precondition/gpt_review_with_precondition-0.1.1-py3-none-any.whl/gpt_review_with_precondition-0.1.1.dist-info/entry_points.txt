@@ -1,0 +1,4 @@
+[console_scripts]
+gpt-review-with-precondition=gpt_review_with_precondition.review:main
+save-precondition=gpt_review_with_precondition.save:main
+
