@@ -1,0 +1,173 @@
+Metadata-Version: 2.1
+Name: custerm
+Version: 1.0.2
+Summary: A custom terminal library with rich markdown support.
+Home-page: https://github.com/cxstles/custerm
+Author: cxstles
+Author-email: bio@fbi.ac
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+## Terminal
+
+This class provides various utility functions for interacting with the terminal, including options selection and text formatting.
+
+### Methods
+
+- `options(options_list: list) -> str`: Allows the user to select an option from a list of options. Returns the selected option as a string.
+- `print(text: str, markdown: bool = False)`: Prints text to the terminal, optionally formatting it based on Markdown syntax. Markdown formatting includes support for headings, bold, underline, italics, list items, and code blocks.
+- `render_markdown(text: str) -> str`: Renders text in the Markdown format, applying specific ANSI color codes to the text based on the Markdown syntax.
+
+### Usage
+
+```python
+from custerm.terminal import Terminal
+
+# Example options usage
+options_list = ["Option 1", "Option 2", "Option 3"]
+selected_option = Terminal.options(options_list)
+print(f"Selected option: {selected_option}")
+
+# Example text printing
+Terminal.print("This is a sample text.", markdown=False)
+
+# Example Markdown rendering
+markdown_text = "### This is a heading\n**Bold text**\n*Italic text*\n- List item 1\n- List item 2\n```python\nprint('Hello, world!')\n```"
+rendered_text = Terminal.render_markdown(markdown_text)
+print(rendered_text)
+```
+
+### Exceptions
+
+- `InvalidChoiceException`: Raised when an invalid option choice is made during the options selection process.
+- `InvalidMarkdownException`: Raised when the provided Markdown syntax is invalid during the rendering process.
+
+### Dependencies
+
+- `dataclasses`: Used for creating data classes and defining their attributes.
+- `re`: Required for handling regular expressions for Markdown formatting.
+- `custerm.ansi.Color`: A module providing ANSI color codes for text formatting.
+- `custerm.exceptions`: A module providing custom exceptions for the terminal class.
+
+## Color
+
+The `Color` class in the `custerm` library provides ANSI color codes for text formatting and supports custom color definitions.
+
+### ANSI Color Attributes
+
+- `ANSI_RESET`: Resets all ANSI formatting.
+- Text Colors:
+  - `ANSI_BLACK`, `ANSI_RED`, `ANSI_GREEN`, `ANSI_YELLOW`, `ANSI_BLUE`, `ANSI_MAGENTA`, `ANSI_CYAN`, `ANSI_WHITE`: Basic text colors.
+  - `ANSI_BRIGHT_BLACK`, `ANSI_BRIGHT_RED`, `ANSI_BRIGHT_GREEN`, `ANSI_BRIGHT_YELLOW`, `ANSI_BRIGHT_BLUE`, `ANSI_BRIGHT_MAGENTA`, `ANSI_BRIGHT_CYAN`, `ANSI_BRIGHT_WHITE`: Bright text colors.
+- Background Colors:
+  - `ANSI_BG_BLACK`, `ANSI_BG_RED`, `ANSI_BG_GREEN`, `ANSI_BG_YELLOW`, `ANSI_BG_BLUE`, `ANSI_BG_MAGENTA`, `ANSI_BG_CYAN`, `ANSI_BG_WHITE`: Basic background colors.
+  - `ANSI_BG_BRIGHT_BLACK`, `ANSI_BG_BRIGHT_RED`, `ANSI_BG_BRIGHT_GREEN`, `ANSI_BG_BRIGHT_YELLOW`, `ANSI_BG_BRIGHT_BLUE`, `ANSI_BG_BRIGHT_MAGENTA`, `ANSI_BG_BRIGHT_CYAN`, `ANSI_BG_BRIGHT_WHITE`: Bright background colors.
+- Other Attributes:
+  - `ANSI_DIM_BLACK`, `ANSI_DIM_RED`, `ANSI_DIM_GREEN`, `ANSI_DIM_YELLOW`, `ANSI_DIM_BLUE`, `ANSI_DIM_MAGENTA`, `ANSI_DIM_CYAN`, `ANSI_DIM_WHITE`: Dim text colors.
+  - `ANSI_LIGHT_BLACK`, `ANSI_LIGHT_RED`, `ANSI_LIGHT_GREEN`, `ANSI_LIGHT_YELLOW`, `ANSI_LIGHT_BLUE`, `ANSI_LIGHT_MAGENTA`, `ANSI_LIGHT_CYAN`, `ANSI_LIGHT_WHITE`: Light text colors.
+  - `ANSI_BG_DIM_BLACK`, `ANSI_BG_DIM_RED`, `ANSI_BG_DIM_GREEN`, `ANSI_BG_DIM_YELLOW`, `ANSI_BG_DIM_BLUE`, `ANSI_BG_DIM_MAGENTA`, `ANSI_BG_DIM_CYAN`, `ANSI_BG_DIM_WHITE`: Dim background colors.
+  - `ANSI_BG_LIGHT_BLACK`, `ANSI_BG_LIGHT_RED`, `ANSI_BG_LIGHT_GREEN`, `ANSI_BG_LIGHT_YELLOW`, `ANSI_BG_LIGHT_BLUE`, `ANSI_BG_LIGHT_MAGENTA`, `ANSI_BG_LIGHT_CYAN`, `ANSI_BG_LIGHT_WHITE`: Light background colors.
+
+### Methods
+
+- `apply_color_tags(text: str) -> str`: Applies ANSI color tags to text based on custom color definitions or predefined ANSI attributes. It parses text for color tags in the format `[color]text[/color]` and replaces them with the corresponding color codes. The parsed text is returned with ANSI formatting.
+
+- `add_custom_color(color_name: str, color_code: str)`: Adds a custom color definition to the `Color` class. The `color_name` is the name of the color in uppercase, and `color_code` is the ANSI color code to use.
+
+- `remove_custom_color(color_name: str)`: Removes a custom color definition from the `Color` class based on the `color_name`.
+
+### Usage
+
+```python
+from custerm.ansi import Color
+
+# Apply custom color tags
+formatted_text = Color.apply_color_tags("[MYCOLOR]This is colored text[/MYCOLOR]")
+print(formatted_text)
+
+# Add custom color definition
+Color.add_custom_color("MYCOLOR", "\033[38;5;203m")
+
+# Apply custom color tags again
+formatted_text = Color.apply_color_tags("[MYCOLOR]This is colored text[/MYCOLOR]")
+print(formatted_text)
+
+# Remove custom color definition
+Color.remove_custom_color("MYCOLOR")
+```
+
+### Dependencies
+
+- `re`: Required for handling regular expressions in the `apply_color_tags` method for parsing color tags.
+- Predefined color attributes, such as `ANSI_RESET`, `ANSI_BLACK`, `ANSI_RED`, etc., provide predefined ANSI color codes for various color formatting options.
+
+
+## CustomLogger
+
+The `CustomLogger` class in the `custerm` library provides a custom logging utility built on top of Python's `logging` module. It allows you to configure and use loggers with different log levels.
+
+### Logger Configuration
+
+#### LoggerConfig
+
+`LoggerConfig` is a data class that holds the configuration for the logger:
+
+- `log_level` (Optional, Default: `logging.DEBUG`): The desired logging level for the logger.
+- `log_file` (Optional, Default: `"my_library.log"`): The path to the log file where logs will be stored.
+
+### Log Levels
+
+`LogLevel` is a data class that defines different log levels that can be used with the logger:
+
+- `DEBUG`: Debug log level.
+- `INFO`: Info log level.
+- `WARNING`: Warning log level.
+- `ERROR`: Error log level.
+- `SUCCESS`: Custom log level with the value `25`.
+
+### Methods
+
+- `create_logger(cls, config: LoggerConfig) -> CustomLogger`: Creates an instance of the `CustomLogger` class based on the provided `LoggerConfig`.
+- `log_debug(self, message: str)`: Logs a debug message.
+- `log_info(self, message: str)`: Logs an info message.
+- `log_warning(self, message: str)`: Logs a warning message.
+- `log_error(self, message: str)`: Logs an error message.
+- `log_success(self, message: str)`: Logs a success message using the custom log level defined in `LogLevel`.
+- `log(self, message: str, level=logging.INFO)`: Logs a message with the specified log level. If the `level` is not a valid log level, it defaults to `INFO` and logs a warning.
+- `set_log_level(level)`: Sets the log level for the logger to the specified level. If the provided `level` is not valid, it uses the default level of `DEBUG`.
+- `available_log_levels` (Property): Returns the available log levels from `LogLevel` as a dictionary.
+
+### Usage
+
+```python
+from custerm.log import CustomLogger, LoggerConfig
+
+# Create a logger with custom configuration
+config = LoggerConfig(log_level=LogLevel.WARNING, log_file="custom.log")
+logger = CustomLogger.create_logger(config)
+
+# Log messages at different levels
+logger.log_debug("This is a debug message")
+logger.log_info("This is an info message")
+logger.log_warning("This is a warning message")
+logger.log_error("This is an error message")
+logger.log_success("This is a success message")
+
+# Set the log level dynamically
+logger.set_log_level(LogLevel.DEBUG)
+
+# Log a message with the updated log level
+logger.log("This is a debug message with the updated log level", level=LogLevel.DEBUG)
+```
+
+### Dependencies
+
+- `logging`: Required for creating and configuring loggers.
+- Predefined log levels: `DEBUG`, `INFO`, `WARNING`, and `ERROR`, as well as a custom log level `SUCCESS`, provide different levels for logging messages.
