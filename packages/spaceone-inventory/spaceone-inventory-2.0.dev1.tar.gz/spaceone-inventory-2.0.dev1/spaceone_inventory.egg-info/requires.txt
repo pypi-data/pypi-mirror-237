@@ -1,0 +1,11 @@
+spaceone-api
+mongoengine
+redis
+langcodes
+ipaddress
+python-consul
+fakeredis
+mongomock
+pandas
+requests
+jinja2
