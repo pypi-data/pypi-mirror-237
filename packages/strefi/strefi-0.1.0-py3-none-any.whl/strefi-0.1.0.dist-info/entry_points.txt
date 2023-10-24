@@ -1,0 +1,2 @@
+[console_scripts]
+strefi = strefi.__main__:main
