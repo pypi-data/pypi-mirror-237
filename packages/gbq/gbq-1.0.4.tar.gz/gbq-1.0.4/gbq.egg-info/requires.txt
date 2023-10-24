@@ -1,0 +1,5 @@
+google-cloud-bigquery
+pydantic<3,>=2.4.0
+
+[:python_version < "3.8"]
+typing_extensions~=4.3
