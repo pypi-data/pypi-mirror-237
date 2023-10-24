@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/snqueue/__init__.py
+src/snqueue/boto3_clients.py
+src/snqueue/email.py
+src/snqueue/snqueue.py
+src/snqueue.egg-info/PKG-INFO
+src/snqueue.egg-info/SOURCES.txt
+src/snqueue.egg-info/dependency_links.txt
+src/snqueue.egg-info/requires.txt
+src/snqueue.egg-info/top_level.txt
+tests/test.py
+tests/test_email.py
+tests/test_s3.py
