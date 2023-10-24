@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+alphabet_thief/__init__.py
+alphabet_thief/diacritics.py
+alphabet_thief/utils.py
+alphabet_thief.egg-info/PKG-INFO
+alphabet_thief.egg-info/SOURCES.txt
+alphabet_thief.egg-info/dependency_links.txt
+alphabet_thief.egg-info/top_level.txt
+tests/test_alphabet_thief.py

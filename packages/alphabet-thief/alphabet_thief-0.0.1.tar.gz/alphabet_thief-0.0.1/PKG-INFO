@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: alphabet_thief
+Version: 0.0.1
+Summary: A tool for deleting Latin alphabets
+Author-email: Miyamae Yuichi <yuichi.miyamae.rna@gmail.com>
+Project-URL: Homepage, https://github.com/yuichi0625/alphabet-thief
+Project-URL: Bug Tracker, https://github.com/yuichi0625/alphabet-thief/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# alphabet-thief
+"Hi, I am an alphabet thief. I steal every Latin alphabet from A to Z."
+
+## Requirements
+- Python >= 3.7
+
+## Installation
+```
+pip install alphabet_thief
+```
+
+## Usage
+```python
+import alphabet_thief
+
+text = 'Hello, how are you?'
+result = alphabet_thief.steal(text)
+print(f'"{}"')
+```
+
+```
+"     ,            ?"
+```
+
+```python
+text = 'Hello, how are you?'
+result = alphabet_thief.replace(text, 'a')
+print(f'"{}"')
+```
+
+```
+"aaaaa, aaa aaa aaa?"
+```
+
+```python
+text = 'Trời mưa thì phải ở nhà.'
+result = alphabet_thief.steal(text)
+print(f'"{}"')
+```
+
+```
+"   ̛̀    ̛     ̀    ̉   ̛̉    ̀."
+```
+
+```python
+text = 'Trời mưa thì phải ở nhà.'
+result = alphabet_thief.replace(text, 'a')
+print(f'"{}"')
+```
+
+```
+"aaà̛a aa̛a aaà aaảa ả̛ aaà."
+```
