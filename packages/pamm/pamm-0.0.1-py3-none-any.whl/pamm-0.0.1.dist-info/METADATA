@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pamm
+Version: 0.0.1
+Summary: Processing analyze merge machine learning
+Author: Alexeebitch
+Author-email: rmrs1@yandex.ru
+Requires-Python: >=3.11.0,<3.13.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# MLAlgorithms
