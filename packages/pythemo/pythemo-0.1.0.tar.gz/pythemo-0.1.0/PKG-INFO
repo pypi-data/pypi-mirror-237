@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pythemo
+Version: 0.1.0
+Summary: A Python client for Themo smart thermostats
+Author: Your Name
+Author-email: your.email@example.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx
+
+# Themo python client
+
+Todo
