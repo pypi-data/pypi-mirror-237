@@ -1,0 +1,32 @@
+[project]
+name = "dday"
+version = "1.0.1"
+description = "Showing how many days are remaining till project d-day."
+authors = [
+    { name = "hxhkim", email = "hahyun.h.kim@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+dday = "dday.dday:calculate_dday"
+
+[project.urls]
+Homepage = "https://github.com/hxhkim/dday"
+"Bug Tracker" = "https://github.com/hxhkim/dday/issues"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.2",
+    "pytest-cov>=4.1.0",
+]
