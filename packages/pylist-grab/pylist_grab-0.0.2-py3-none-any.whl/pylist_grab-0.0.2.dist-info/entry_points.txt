@@ -1,0 +1,3 @@
+[console_scripts]
+pylistgrab = pylist.cli:main
+pylistgrab-gui = pylist.gui:gui
