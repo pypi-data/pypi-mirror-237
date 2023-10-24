@@ -1,0 +1,10 @@
+.git
+Dockerfile*
+README.md
+LICENSE
+.venv
+dist
+build
+hcclient*.spec
+export.sh
+config.json

@@ -1,0 +1,7 @@
+.venv
+hcclient/__pycache__
+dist
+build
+hcclient*.spec
+config.json
+
