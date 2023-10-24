@@ -1,0 +1,2 @@
+[console_scripts]
+dpy-init = dpy_init.dpy_init:dpy_init
