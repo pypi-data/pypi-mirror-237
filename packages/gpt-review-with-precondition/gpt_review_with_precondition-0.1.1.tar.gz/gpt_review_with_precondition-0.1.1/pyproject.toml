@@ -1,0 +1,62 @@
+[tool.poetry]
+name = "gpt-review-with-precondition"
+version = "0.1.1"
+description = "GPT review with precondition from Notion"
+authors = ["wakuwaku3 <takushi.yokoyama@sansan.com>"]
+readme = "README.md"
+packages = [
+    { include = "gpt_review_with_precondition" },
+]
+license = "MIT"
+
+[tool.poetry.scripts]
+save-precondition = "gpt_review_with_precondition.save:main"
+gpt-review-with-precondition = "gpt_review_with_precondition.review:main"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+llama-index = "^0.8.48"
+google-cloud-storage = "^2.12.0"
+
+[tool.poetry.group.dev.dependencies]
+pyproject-flake8 = "^6.1.0"
+pylint = "^3.0.1"
+black = "^23.10.0"
+isort = "^5.12.0"
+mypy = "^1.6.1"
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+
+[tool.isort]
+profile = "black"
+include_trailing_comma = true
+line_length = 100
+
+[tool.flake8]
+max-line-length = 100
+exclude = ".venv"
+
+[tool.pylint.'MESSAGES CONTROL']
+max-line-length = 100
+enable = "all"
+disable = "empty-docstring,missing-class-docstring,missing-function-docstring,missing-module-docstring,too-few-public-methods,too-many-instance-attributes"
+
+[tool.mypy]
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_untyped_decorators = true
+implicit_optional = true
+no_strict_optional = true
+check_untyped_defs = true
+disallow_any_unimported = true
+disallow_any_decorated = true
+disallow_any_generics = true
+disallow_subclassing_any = true
+mypy_path = "$MYPY_CONFIG_FILE_DIR/src"
+files = ["**/*.py"]
