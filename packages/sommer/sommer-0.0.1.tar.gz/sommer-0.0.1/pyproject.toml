@@ -1,0 +1,21 @@
+[project]
+name = "sommer"
+description = "Sommer is the modern ORM that replaces your backend."
+version = "0.0.1"
+requires-python = ">=3.10"
+authors = [{ name = "marcenacp", email = "marcenacp@gmail.com" }]
+dependencies = []
+
+[tool.pyink]
+# Formatting configuration to follow Google style-guide
+line-length = 80
+preview = true
+pyink-indentation = 2
+pyink-use-majority-quotes = true
+
+[tool.distutils.bdist_wheel]
+universal = true
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
