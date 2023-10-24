@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+deftools/__init__.py
+deftools.egg-info/PKG-INFO
+deftools.egg-info/SOURCES.txt
+deftools.egg-info/dependency_links.txt
+deftools.egg-info/top_level.txt
