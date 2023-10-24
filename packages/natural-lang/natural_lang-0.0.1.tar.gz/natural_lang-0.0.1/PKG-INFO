@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: natural_lang
+Version: 0.0.1
+Summary: Package to provide some natural language processing tools.
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Example Author <author@example.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: re
+Requires-Dist: tiktoken
+Description-Content-Type: text/markdown
+
+# Natural Language Tool Kit
+
+With this package, you have access to a selection of text manipulation and chunking services.
