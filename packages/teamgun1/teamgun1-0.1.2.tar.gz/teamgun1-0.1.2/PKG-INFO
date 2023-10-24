@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: teamgun1
+Version: 0.1.2
+Summary: team project
+Author-Email: baamboo <beom5236@gmail.com>, leesung02 <leesung02@naver.com>, Chong5084 <dmschd9647@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Requires-Dist: bs4>=0.0.1
+Requires-Dist: requests>=2.31.0
+Description-Content-Type: text/markdown
+
+# example-package
+
+
