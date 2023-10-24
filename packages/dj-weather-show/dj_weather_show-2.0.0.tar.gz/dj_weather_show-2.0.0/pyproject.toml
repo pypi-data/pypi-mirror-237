@@ -1,0 +1,35 @@
+[project]
+name = "dj-weather-show"
+version = "2.0.0"
+description = "only tell you the weather in Dongjak-gu"
+authors = [
+    { name = "pysatellite", email = "pysatellite@gmail.com" },
+]
+dependencies = [
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.2",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+dj-weather-show = "dj_weather_show.weather_show:weather_show"
+
+[project.urls]
+Homepage = "https://github.com/aaingyunii/hello-aaingyunii_pr"
+"Bug Tracker" = "https://github.com/aaingyunii/hello-aaingyunii_pr/issues"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.2",
+    "pytest-cov>=4.1.0",
+]

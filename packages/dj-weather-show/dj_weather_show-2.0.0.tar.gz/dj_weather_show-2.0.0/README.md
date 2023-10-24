@@ -1,0 +1,70 @@
+# dj-weather-show
+only tell you the weather in Dongjak-gu
+
+<img src="https://github.com/dj-twenty-six/dj-weather-show/assets/87309910/b6aed229-09d2-4e9c-a8c1-6af1c1784242" width=555 />
+
+### Thank you very much. It started with the following.
+- https://pypi.org/project/hello-aaingyunii_pr
+
+### INSTALL
+```bash
+$ pip install dj-weather-show`
+```
+
+### USE
+```bash
+$ dj-weather-show
+
+현재 위치: 동작구 신대방2동
+현재 날씨: 맑음
+현재 온도: 19.3°
+```
+
+```bash
+$ python
+Python 3.8.18 (default, Oct 17 2023, 20:11:17)
+[GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from dj_weather_show.weather_show import get_weather
+>>> location, weather_condition, temperature = get_weather()
+>>> print(f"\n현재 위치: {location}")
+현재 위치: 동작구 신대방2동
+>>> print(f"현재 날씨: {weather_condition}")
+현재 날씨: 맑음
+>>> print(f"현재 온도: {temperature}°")
+현재 온도: 19.3°
+>>>
+```
+
+### DEV
+
+```bash
+$ git clone ...
+$ cd ...
+$ pdm venv create
+$ source .venv/bin/activate
+(dj-weather-show-3.8) $ pdm install
+```
+
+### TEST
+
+```bash
+$ pdm add -dG test pytest pytest-cov
+$ pytest
+$ pytest -s
+$ pytest --cov
+```
+
+### DEPLOY
+
+```bash
+$ pdm publish
+```
+
+### REF
+- weather data : https://weather.naver.com/
+- https://pypi.org/project/hello-aaingyunii_pr
+
+
+
+
