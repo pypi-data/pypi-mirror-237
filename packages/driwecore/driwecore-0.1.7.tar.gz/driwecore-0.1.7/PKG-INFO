@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: driwecore
+Version: 0.1.7
+Summary: This Pacakge is commont function that will be use by Drister or similiar team within the internal team
+Home-page: https://github.com/drister-my/driwecore
+Author: Jason Tai
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
