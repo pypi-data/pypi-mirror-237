@@ -1,0 +1,13 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+niyofetch/__init__.py
+niyofetch/__main__.py
+niyofetch/neofetch
+niyofetch/niyofetch.py
+niyofetch.egg-info/PKG-INFO
+niyofetch.egg-info/SOURCES.txt
+niyofetch.egg-info/dependency_links.txt
+niyofetch.egg-info/entry_points.txt
+niyofetch.egg-info/top_level.txt
