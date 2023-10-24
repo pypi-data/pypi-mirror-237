@@ -1,0 +1,8 @@
+uma_crypto/__init__.py,sha256=FB92fjH_VkKsokpH0kkLsOWBZzkfQZfXg4fQWLQW22g,35
+uma_crypto/libuniffi_uma_crypto.so,sha256=CAFuYYZXysf5QOQNPww5S5grs2xGxOJikXWjv-Paizo,2623840
+uma_crypto/uma_crypto.py,sha256=FtTGjKskDF1zCou3MFWC4kfhzs638ZdmFhW8fyY78kc,20574
+uma_crypto_python-0.1.0.dist-info/LICENSE,sha256=iRR5rlEYfgy6BvEVW_JjnBuMbmlyAplwinDAHuz8cEo,11352
+uma_crypto_python-0.1.0.dist-info/METADATA,sha256=3JKEgYzacvjue6miZ3aRtC6nubHQ22IeiTQWbfDFALg,413
+uma_crypto_python-0.1.0.dist-info/WHEEL,sha256=ENAcdFcQ-xV3A-C8FtBmTXncjE8zL_D_vTm4N8QyumI,115
+uma_crypto_python-0.1.0.dist-info/top_level.txt,sha256=MRWKUi6kVpeP8JkzQ7gArSoQcJKgO6AumTNoOlDTZ-E,11
+uma_crypto_python-0.1.0.dist-info/RECORD,,
