@@ -1,0 +1,6 @@
+module.txt
+pyproject.toml
+structures/modules/tropical.egg-info/PKG-INFO
+structures/modules/tropical.egg-info/SOURCES.txt
+structures/modules/tropical.egg-info/dependency_links.txt
+structures/modules/tropical.egg-info/top_level.txt

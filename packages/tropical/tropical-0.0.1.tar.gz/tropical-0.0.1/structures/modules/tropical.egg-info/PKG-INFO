@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tropical
+Version: 0.0.1
+Summary: vcard networking
+Description-Content-Type: text/plain
+
+
+
+
+<h1>tropical</h1>
+vcard networking
+
+
+structure {
+	"names": [],
+	"phone numbers": [
+		""
+	],
+	"emails": []
+}
+
+vcard:
+	

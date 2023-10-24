@@ -1,0 +1,17 @@
+
+
+
+<h1>tropical</h1>
+vcard networking
+
+
+structure {
+	"names": [],
+	"phone numbers": [
+		""
+	],
+	"emails": []
+}
+
+vcard:
+	
