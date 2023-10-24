@@ -1,0 +1,8 @@
+rsmime-0.3.0.dist-info/METADATA,sha256=zhNc00iNMfaV8oLckQIEElvkVBfb3hRBPhvnJHdD_oM,4207
+rsmime-0.3.0.dist-info/WHEEL,sha256=rPig9zYtO7vfFFXmE6OlCFEMxezP8RCu-Eo-8RgyqJM,91
+rsmime-0.3.0.dist-info/license_files/LICENSE.md,sha256=qRkXl3sYAuSWJabz4aSCVg79vTwJpNq05QDLSg5NzZE,1079
+rsmime/__init__.py,sha256=U2S8NpZkTnGvTiFeyss_El7RU-_n5gLvpp6M0rZVEGw,107
+rsmime/__init__.pyi,sha256=Mkx5tkFsAggNZtdc8lAhE6jRu2hY65tJ6iuapWdKE0Q,77
+rsmime/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rsmime/rsmime.cp310-win32.pyd,sha256=F8afezrffYMoCN4Rnwv8gv_rWtZSvC3BkHp1xgGqKoA,2711040
+rsmime-0.3.0.dist-info/RECORD,,
