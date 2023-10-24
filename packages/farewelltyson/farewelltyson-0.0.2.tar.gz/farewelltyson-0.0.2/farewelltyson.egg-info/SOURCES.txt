@@ -1,0 +1,9 @@
+setup.py
+farewelltyson/__init__.py
+farewelltyson/buy_packs.py
+farewelltyson/check_your_balance.py
+farewelltyson/open_packs.py
+farewelltyson.egg-info/PKG-INFO
+farewelltyson.egg-info/SOURCES.txt
+farewelltyson.egg-info/dependency_links.txt
+farewelltyson.egg-info/top_level.txt
