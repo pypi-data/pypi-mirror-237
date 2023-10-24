@@ -1,0 +1,10 @@
+langchain~=0.0.316
+openai~=0.28.1
+zhipuai~=1.0.7
+websocket-client~=1.6.4
+elasticsearch~=8.10.1
+pydantic~=2.4.2
+numpy~=1.26.1
+requests~=2.31.0
+tenacity~=8.2.3
+setuptools~=68.0.0
