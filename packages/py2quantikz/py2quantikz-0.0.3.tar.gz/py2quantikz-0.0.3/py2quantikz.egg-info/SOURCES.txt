@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+py2quantikz/gates.py
+py2quantikz/py2quantikz.py
+py2quantikz.egg-info/PKG-INFO
+py2quantikz.egg-info/SOURCES.txt
+py2quantikz.egg-info/dependency_links.txt
+py2quantikz.egg-info/top_level.txt
