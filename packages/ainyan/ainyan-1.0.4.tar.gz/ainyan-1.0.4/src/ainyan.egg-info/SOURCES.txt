@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/ainyan/__init__.py
+src/ainyan/__main__.py
+src/ainyan/lib.py
+src/ainyan.egg-info/PKG-INFO
+src/ainyan.egg-info/SOURCES.txt
+src/ainyan.egg-info/dependency_links.txt
+src/ainyan.egg-info/entry_points.txt
+src/ainyan.egg-info/requires.txt
+src/ainyan.egg-info/top_level.txt
