@@ -1,0 +1,5 @@
+chily-0.8.1.dist-info/METADATA,sha256=6FRh6bvTOc2DUBtWdSuLkMEKCoYqg_Rf4_MTjiGRLoE,5518
+chily-0.8.1.dist-info/WHEEL,sha256=pctAhWX8hsAoSFZw0e989DpxpxqbkAE5I4UTz6b6gN8,103
+chily/__init__.py,sha256=IHgXeyQAiRo9B3oOnajw3XcyFjb58iTScLZ4d17Ld0c,103
+chily/chily.cpython-39-darwin.so,sha256=R_H3DOseURzhyYPgQXFprk4NB-ci398Nt3f55lPm00Q,900096
+chily-0.8.1.dist-info/RECORD,,
