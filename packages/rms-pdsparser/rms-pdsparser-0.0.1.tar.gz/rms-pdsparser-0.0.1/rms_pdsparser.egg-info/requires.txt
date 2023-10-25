@@ -1,0 +1,5 @@
+pds-julian
+rms-pdsparser
+numpy
+pyparsing
+rms-textkernel
