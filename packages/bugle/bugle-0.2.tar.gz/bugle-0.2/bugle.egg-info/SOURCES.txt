@@ -1,0 +1,7 @@
+setup.py
+bugle/__init__.py
+bugle/operations.py
+bugle.egg-info/PKG-INFO
+bugle.egg-info/SOURCES.txt
+bugle.egg-info/dependency_links.txt
+bugle.egg-info/top_level.txt
