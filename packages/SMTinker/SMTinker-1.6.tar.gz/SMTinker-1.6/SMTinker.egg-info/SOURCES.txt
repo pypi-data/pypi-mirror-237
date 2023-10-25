@@ -1,0 +1,8 @@
+setup.py
+SMTinker/__init__.py
+SMTinker.egg-info/PKG-INFO
+SMTinker.egg-info/SOURCES.txt
+SMTinker.egg-info/dependency_links.txt
+SMTinker.egg-info/requires.txt
+SMTinker.egg-info/top_level.txt
+SMTinker/scripts/smtinker.py
