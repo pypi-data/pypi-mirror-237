@@ -1,0 +1,14 @@
+drawsvg[all]
+pydantic
+fastapi
+uvicorn
+
+[lint]
+black
+isort
+pylint
+mypy
+
+[test]
+pytest
+requests

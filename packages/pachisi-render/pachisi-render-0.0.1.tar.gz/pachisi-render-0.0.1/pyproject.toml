@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pachisi-render"
+description = "Flexible rendering of pachisi boards"
+requires-python = ">=3.8"
+readme = "README.md"
+version = "0.0.1"
+authors = [
+    {name = "Jakob Gretenkort", email="jakob.gretenkort@student.kit.edu"},
+    {name = "Michael König", email="m.koenig@kit.edu"},
+    {name = "Hendrik Mahrt", email="hendrik.mahrt@kit.edu"},
+]
+maintainers = [
+    {name = "Jakob Gretenkort", email="jakob.gretenkort@student.kit.edu"},
+]
+keywords = ["game", "REST"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.8",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Games/Entertainment :: Board Games",
+]
+dependencies = [
+    "drawsvg[all]",
+    "pydantic",
+    "fastapi",
+    "uvicorn",
+]
+
+[project.optional-dependencies]
+# only here in case you don't want to use tox
+test = [
+    "pytest",
+    "requests",
+]
+lint = [
+    "black",
+    "isort",
+    "pylint",
+    "mypy",
+]
+
+[project.scripts]
+pachisi-render = "pachisi_render.main:main"
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 99
+target-version = ["py38", "py39", "py310", "py311"]
+
+[tool.pylint.BASIC]
+good-names = ["i", "j", "k", "x", "y", "id"]
