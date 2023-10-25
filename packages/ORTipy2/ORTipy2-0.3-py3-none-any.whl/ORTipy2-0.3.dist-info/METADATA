@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ORTipy2
+Version: 0.3
+Summary: Operation Research Toolkit in Python
+Home-page: https://github.com/cryptbird/OPTipy
+Author: twofoldtwins
+Author-email: twofoldtwinsinc@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: matplotlib >=3.1
+Requires-Dist: pulp
+
+UNKNOWN
+
+
