@@ -1,0 +1,9 @@
+README.md
+setup.py
+uglysoup/__init__.py
+uglysoup/uglysoup.py
+uglysoup.egg-info/PKG-INFO
+uglysoup.egg-info/SOURCES.txt
+uglysoup.egg-info/dependency_links.txt
+uglysoup.egg-info/entry_points.txt
+uglysoup.egg-info/top_level.txt
