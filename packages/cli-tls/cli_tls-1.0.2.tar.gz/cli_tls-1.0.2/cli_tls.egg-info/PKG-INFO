@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cli-tls
+Version: 1.0.2
+Home-page: https://github.com/Oein/cli_tls
+Author: Oein
+Author-email: oein0219@gmail.com
+License-File: LICENSE.txt
+Requires-Dist: tls_client
+Requires-Dist: typing

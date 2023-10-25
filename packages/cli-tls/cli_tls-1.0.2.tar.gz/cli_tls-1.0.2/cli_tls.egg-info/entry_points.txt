@@ -1,0 +1,2 @@
+[console_scripts]
+cli_tls = cli_tls.main:main
