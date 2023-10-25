@@ -1,0 +1,17 @@
+fario/__about__.py,sha256=POfwiqBEESMI_D1LFsLw5hpsAL--KghJ3nR6tdtDfcE,18
+fario/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fario/fario.py,sha256=rWBtXEeRSLqRA0sDPW_RX3KB2UkoS4hLDStLUwP7aTQ,1773
+fario/fario2json.py,sha256=lqivrdoy6y23NLJY4Fm2P7ROa98dQmc-lUHqrdplJeA,883
+fario/fario_cast.py,sha256=v3fg2yMpLPPLxROvafXftNTyYx2TbChdrYyymcZKwfo,2196
+fario/fario_fid_byname.py,sha256=YJ_8h5CKZ-ae23nTAt9kQuG1Emigizd5FAG2XQDW31E,976
+fario/fario_in.py,sha256=spddDQTWNET9m4LmUQ1REWUa108SA-eXSKTRjxEB9dA,978
+fario/fario_listener.py,sha256=qZLjgtj53nwR3Kt4UltzdSCqhCdqf7M5ftOLfF16dSI,652
+fario/fario_out.py,sha256=k9llDShz1Sj-d3kp08atcnjp2E-dyewLBFnEL67E_0I,3292
+fario/fario_signers.py,sha256=zAcSzNmQzy8wGCdQfr9TlnPWYItKu_lKdmHP7P_g-5o,6392
+fario/json2fario.py,sha256=Vv_tX65nJRb77la0n1qjVS3ygqR-0kANsDAFBtoPU6E,726
+fario/test.py,sha256=oXkw9pU1eESVCa9o8i95BFh4d0jYZjaK-U6AkWtu9QE,1039
+fario-0.5.3.dist-info/METADATA,sha256=Hm2NtdMGfcieFKsur3MRfNrIPczrKEj0wd8Hk8jYVo0,9956
+fario-0.5.3.dist-info/WHEEL,sha256=fagL_Tj29mg80flwlxJNW45nBDbboxF04Tnbc_jt3Bg,105
+fario-0.5.3.dist-info/entry_points.txt,sha256=IOtJTOYVbMsrd7_AiBgWVlWGAR9mEFU9_lv57iggI1I,281
+fario-0.5.3.dist-info/licenses/LICENSE,sha256=MHR05yujoHWyD-hYktGsSTtA5zIdjNhFQSSYFnjiO8w,1074
+fario-0.5.3.dist-info/RECORD,,
