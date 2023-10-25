@@ -1,0 +1,3 @@
+[console_scripts]
+deng=alexcanc_de_toolkit.main:cli
+
