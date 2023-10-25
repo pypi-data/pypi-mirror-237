@@ -1,0 +1,13 @@
+MANIFEST.in
+pyproject.toml
+nike_detector.egg-info/PKG-INFO
+nike_detector.egg-info/SOURCES.txt
+nike_detector.egg-info/dependency_links.txt
+nike_detector.egg-info/requires.txt
+nike_detector.egg-info/top_level.txt
+src/console.py
+src/dataset/avatars.py
+src/dataset/collect_brands_data.py
+src/dataset/constants.py
+src/nike_detector/service/service.py
+src/nike_detector/service/train.py

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: nike_detector
+Version: 0.0.2
+Summary: Package for Nike logos detection
+Author-email: korotkov <ma-korotkov@yandex.ru>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: torch==1.13.1
+Requires-Dist: ultralytics==8.0.164
