@@ -1,0 +1,3 @@
+[console_scripts]
+openmqttgateway_ble_decoder=openmqttgateway_ble_decoder.main:main
+
