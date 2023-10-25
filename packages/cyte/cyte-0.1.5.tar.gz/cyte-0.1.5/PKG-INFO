@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: cyte
+Version: 0.1.5
+Summary: Measurements (System International, US Customary, etc.)
+License: the health license
+Project-URL: GitLab, https://gitlab.com/reptilian_climates/cyte.git
+Description-Content-Type: text/plain
+Requires-Dist: BOTANY
+Requires-Dist: tinydb
+Requires-Dist: pydash
+
+
+
+
+<b>cyte</b>
+
+Measurement Tools (System International, US Customary, etc.)
+
+
+
+<b>license</b>
+<p>
+
+the health license
+
+May you metaphorically recognize this as:
+
+A reservoir of pure
+[ 	
+	[ 2, "HYDROGEN" ], 
+	[ 1, "OXYGEN" ]
+]
+molecules.
+
+Where, you discovered it in a 
+place where you have
+undisputable claim to the 
+entire span of every dimension 
+(including time).
+
+However, this pure water, may only
+be used to promote veganism.
+
+</p>
+
+<script>
+
+
+</script>
