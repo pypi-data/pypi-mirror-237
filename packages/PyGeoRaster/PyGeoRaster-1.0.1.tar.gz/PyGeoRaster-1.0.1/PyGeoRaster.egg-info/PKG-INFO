@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: PyGeoRaster
+Version: 1.0.1
+Summary: tiff split or merge
+Home-page: https://gitee.com/bouyei/py-geo-raster
+Author: bouyei
+Author-email: 453840293@qq.com
+License: MIT License
+Keywords: geo,tiff,img raster,segmentation
+Requires-Dist: gdal
+
+tiff segmentation or merge library etc
