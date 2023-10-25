@@ -1,0 +1,6 @@
+setup.py
+sudeep/__init__.py
+sudeep.egg-info/PKG-INFO
+sudeep.egg-info/SOURCES.txt
+sudeep.egg-info/dependency_links.txt
+sudeep.egg-info/top_level.txt
