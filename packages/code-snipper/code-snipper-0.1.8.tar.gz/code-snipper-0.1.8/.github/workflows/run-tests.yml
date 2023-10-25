@@ -1,0 +1,30 @@
+name: Run pytests
+on: 
+  push:
+    branches: 
+      - "*"
+  workflow_call:
+
+jobs:
+  
+  build:
+    name: Running pytests
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python_version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Running test on Python version ${{ matrix.python_version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python_version }}
+      - name: Install pytest requirements
+        run: |
+          pip install pytest
+          pip install -r requirements.txt
+      - name: Run tests
+        run: pytest --ignore archive
+        
