@@ -1,0 +1,9 @@
+bsavi/__init__.py,sha256=mFv1B5kl32Pv9Nfyq7W70F_fn6aVfEqzdqVC5fNd5J8,20
+bsavi/bsavi.py,sha256=GommH18am6Wg78YdJ25Q9cLqZxpiwc6uDkF9q4831ls,12727
+bsavi/cosmo/__init__.py,sha256=r79MeP6Vu187indQImYiLm7Gh8iPsZZ9pOfJPx4_LJU,20
+bsavi/cosmo/cosmo.py,sha256=zj_WHyir6_IOGlxqkOOulz4ACYsSVmk9EIhDs8Xm45w,3079
+bsavi-0.3.8a0.dist-info/LICENSE,sha256=WFNEG82qV9Hzpd2S33FJXW83MZ67EO3pvXaj24C0454,1066
+bsavi-0.3.8a0.dist-info/METADATA,sha256=Mx_2pjSe2AcOXtzQq6B8K4qA_MhLmPTQxqmCkChq1mU,2843
+bsavi-0.3.8a0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+bsavi-0.3.8a0.dist-info/top_level.txt,sha256=xJbgvTrtzie4x6urHiocukFRcHueIIMUkV9xbVT5b5U,6
+bsavi-0.3.8a0.dist-info/RECORD,,
