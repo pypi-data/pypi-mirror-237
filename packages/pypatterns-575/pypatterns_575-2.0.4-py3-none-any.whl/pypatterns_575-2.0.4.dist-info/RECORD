@@ -1,0 +1,13 @@
+pypatterns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypatterns/alphabet_patterns/__init__.py,sha256=Th_hNYjKovwK42GQ2kJEgdnbl_c8eA9B6kbVrs5ONJ0,9006
+pypatterns/get_pattern_code/__init__.py,sha256=z5I-9oyFOBaqYlgadhR6VfxBkMwrecgleWFtL75Rczw,28798
+pypatterns/name/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypatterns/name/name.py,sha256=_TmAyqgjrp4z9YqB0EAol--SAp-T7xEvm3R_Q0UG_mk,9894
+pypatterns/name_patterns/__init__.py,sha256=zQL6FJfiirltz7RieL5xaa9Y27Dm6ETtklGAErv86cs,1863
+pypatterns/number_patterns/__init__.py,sha256=LnRilpdTLMRLS5yhbjyHmrMHCviTfQjc3M1QW4A6r2E,11764
+pypatterns/star_patterns/__init__.py,sha256=PPIrvJlfaBaJn3FO6FcWlEEFRBFECNz82WayEa_KezY,32466
+pypatterns_575-2.0.4.dist-info/LICENSE,sha256=wgoWtZ5fnT5BGC1LriNx5TtWx64sKNMMkTMLJ4WdZ0Q,35141
+pypatterns_575-2.0.4.dist-info/METADATA,sha256=3tnEN-m_qQS_9X1BPJHcxR6RwaxzP6Kr9RunHTCUzw8,35419
+pypatterns_575-2.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pypatterns_575-2.0.4.dist-info/top_level.txt,sha256=QsSt7sAVtYr6l9j98_63An8mrkFyDsSZxTth9IJ9xWk,11
+pypatterns_575-2.0.4.dist-info/RECORD,,
