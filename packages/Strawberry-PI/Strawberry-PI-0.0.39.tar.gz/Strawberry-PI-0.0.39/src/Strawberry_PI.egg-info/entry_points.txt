@@ -1,0 +1,2 @@
+[console_scripts]
+forge = Forge:main
