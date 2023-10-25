@@ -1,0 +1,45 @@
+[package]
+name = "xvc-walker"
+version = "0.6.2"
+edition = "2021"
+description = "Xvc parallel file system walker with ignore features"
+authors = ["Emre Şahin <contact@emresahin.net>"]
+license = "GPL-3.0"
+homepage = "https://xvc.dev"
+repository = "https://github.com/iesahin/xvc"
+categories = ["command-line-utilities", "development-tools"]
+keywords = ["file", "devops", "git", "versioning", "mlops"]
+
+
+[lib]
+name = "xvc_walker"
+crate-type = ["rlib"]
+
+
+[dependencies]
+xvc-logging = {version = "0.6.0", path = "../logging"}
+globset = "^0.4"
+
+## Parallelization
+crossbeam-channel = "^0.5"
+crossbeam = "^0.8"
+
+## File system
+notify = "6.1.1"
+
+
+## Logging and errors
+thiserror = "^1.0"
+anyhow = "^1.0"
+log = "^0.4"
+
+## Misc
+itertools = "^0.11"
+regex = "^1.9"
+
+[dev-dependencies]
+xvc-test-helper = { path = "../test_helper/" }
+test-case = "^3.2"
+
+[package.metadata.cargo-udeps.ignore]
+normal = ["xvc-logging", "test-case"]

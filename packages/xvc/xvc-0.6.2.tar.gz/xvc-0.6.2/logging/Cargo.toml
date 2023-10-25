@@ -1,0 +1,27 @@
+[package]
+name = "xvc-logging"
+version = "0.6.1"
+edition = "2021"
+description = "Logging crate for Xvc"
+authors = ["Emre Şahin <contact@emresahin.net>"]
+license = "GPL-3.0"
+homepage = "https://xvc.dev"
+repository = "https://github.com/iesahin/xvc"
+categories = ["command-line-utilities", "development-tools"]
+keywords = ["file", "devops", "git", "versioning", "mlops"]
+
+
+[lib]
+name = "xvc_logging"
+crate-type = ["rlib"]
+
+
+[dependencies]
+
+## Logging and errors
+log = "^0.4"
+### meta-logging-in-format is required for sled: https://github.com/spacejam/sled/issues/1384
+# We don't use sled anymore, keep the above note for future reference
+fern = { version = "^0.6", features = ["colored"] }
+
+crossbeam-channel = "^0.5"

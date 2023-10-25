@@ -1,0 +1,6 @@
+[workspace]
+members = ["py"]
+resolver = "2"
+
+[workspace.metadata.workspaces]
+no_individual_tags = true
