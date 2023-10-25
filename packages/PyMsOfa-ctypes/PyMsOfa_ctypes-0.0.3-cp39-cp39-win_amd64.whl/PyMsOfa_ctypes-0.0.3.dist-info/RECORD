@@ -1,0 +1,13 @@
+PyMsOfa/PyMsOfa.py,sha256=GiEgWP0rlyKKDZzOzsj7rdJs4LlsaMxCWuWz4-TtZH0,260476
+PyMsOfa/PyMsOfa_astrometry.py,sha256=CKRnak7-2mH68OjaLJOLVWy-yMmkdU5fH_ja1yOXO24,122906
+PyMsOfa/PyMsOfa_basic.py,sha256=MJXK9m6v8-aMSXWcqnx5qZ4V-nI9IA_r20Npi91ilqM,31421
+PyMsOfa/PyMsOfa_earth_attitude.py,sha256=Sm-fn1LyYz1PehR-zuxTrpMqzc6wpxq0mSvA5b5M11E,67961
+PyMsOfa/PyMsOfa_t.py,sha256=OfaQI4an71axc3m8MncWS1YXFkBDg394spWwV3-UCQU,47353
+PyMsOfa/PyMsOfa_time.py,sha256=O0vBp41Lg1QMU-oSBE_fdaH_6IFbAgJHARDl6Cd4Xb8,40918
+PyMsOfa/__init__.py,sha256=O1gq5Eu-6Silt4lFG090oPB2w8Wo_dUITpOrMVcRubE,217
+PyMsOfa/libsofa_c.cp39-win_amd64.pyd,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyMsOfa_ctypes-0.0.3.dist-info/LICENSE,sha256=wEHOO7iZDYyoMwaCdAbatdfWs5FnhS7pYuNcsBZnb9Y,1078
+PyMsOfa_ctypes-0.0.3.dist-info/METADATA,sha256=bmFuE5-VbEhhl1O8xm9Z0H5H0K5Evd8Eu3pWap3zF2w,2332
+PyMsOfa_ctypes-0.0.3.dist-info/WHEEL,sha256=6LUvBh8thwnyqgVgCADtj3fTB0_JYWDpaYISzieo71U,100
+PyMsOfa_ctypes-0.0.3.dist-info/top_level.txt,sha256=fAWlA3pcTt4FHlBb56uZ9AKtJ5dK7afkfCUb_BDscIU,8
+PyMsOfa_ctypes-0.0.3.dist-info/RECORD,,
