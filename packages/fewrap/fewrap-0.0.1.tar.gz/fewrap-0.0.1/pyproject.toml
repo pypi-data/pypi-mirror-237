@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fewrap"
+version = "0.0.1"
+description = "Useful functions for Python interaction with the Siemens Femap API, a finite element software package on Windows"
+authors = ["Michael Behrend <behrendmp@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/behrend-ncsu/fewrap"
+keywords = ["femap", "api"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

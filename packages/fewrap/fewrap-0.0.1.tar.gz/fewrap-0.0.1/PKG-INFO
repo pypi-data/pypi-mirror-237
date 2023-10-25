@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: fewrap
+Version: 0.0.1
+Summary: Useful functions for Python interaction with the Siemens Femap API, a finite element software package on Windows
+Home-page: https://github.com/behrend-ncsu/fewrap
+Author: Michael Behrend
+Author-email: behrend@gmail.com
+License: MIT License
+License-File: LICENSE.txt
