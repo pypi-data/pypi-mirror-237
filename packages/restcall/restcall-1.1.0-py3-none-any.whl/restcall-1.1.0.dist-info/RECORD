@@ -1,0 +1,10 @@
+restcall/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+restcall/__main__.py,sha256=1NUESf0cK15sJN6QqVj_MKSQP7r30gyqeVbTojjc4f8,2757
+restcall/curlify.py,sha256=XW0ynGjxukSgkI6kabkRTBXJWCB_p0kT_yoeionyfGU,2361
+restcall/restcall.py,sha256=HvXNVKrt6hG4KFVa4D3Py2KuLA6A0A8u5Z6cMVNY2R0,8916
+restcall-1.1.0.dist-info/LICENSE,sha256=0bJZPWDD_9guk0-OTBOE9Ii9vllaJRFZiiarmFP7oDs,1071
+restcall-1.1.0.dist-info/METADATA,sha256=kFrVhleELJKKIZGrOK2blbCfbb38jKV0VrL8KPwWJ2E,3686
+restcall-1.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+restcall-1.1.0.dist-info/entry_points.txt,sha256=V2t7ZT7WpjdfCw7LPmQvKtLjKVaIrvvVj9Ub_-opNZw,52
+restcall-1.1.0.dist-info/top_level.txt,sha256=lkloaqjGxFt-VPP4GyLzM9Ti-MITXnE_EV-w3nqhpqc,9
+restcall-1.1.0.dist-info/RECORD,,
