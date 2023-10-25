@@ -1,0 +1,16 @@
+h5py
+imageio_ffmpeg
+numpy
+pandas
+scipy
+torch
+
+[dev]
+black
+coverage
+flake8
+interrogate
+isort
+Sphinx
+furo
+pytest
