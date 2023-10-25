@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tap-3plcentral
+Version: 1.0.2
+Summary: Singer.io tap for extracting data from the 3PLCentral Resource (REL) API.
+Home-page: UNKNOWN
+Author: jeff.huth@bytecode.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
+
+UNKNOWN
+
