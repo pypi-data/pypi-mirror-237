@@ -1,0 +1,12 @@
+csockets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csockets/__init__.pyi,sha256=-5XZbWuD4ssn7PgVvXsEw0AjTvRA4pF7SfP9IHmgNuc,2281
+csockets/_connection.py,sha256=y23TRViRGhWzpH_AwLOKopnXLTy0nIpWOBxz2Qrj818,2183
+csockets/_encryption.py,sha256=6rtt3zGKhpCkUHlD9IoKutei-zcsddfwKYs7qVHY-8Y,27553
+csockets/_protocols.py,sha256=kkw-0WTWlj3_8DN3pGX89ikCti7zyLbmzaZQQpVQePQ,14795
+csockets/socket.py,sha256=Sa6-IaOcNSwmnoet0qrvmyfCXLymEZGJHq2BchsQkFo,46840
+csockets/socket.pyi,sha256=EM8aniWgiVpBY4ePkYzf9tCKh270AX6g98HYvEcotu4,22922
+csockets-4.2.24.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+csockets-4.2.24.dist-info/METADATA,sha256=XTxeqqRZG0GhSxTNkYUT1Ssf2Q4jnCFFa6tCoWTwgfM,338
+csockets-4.2.24.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+csockets-4.2.24.dist-info/top_level.txt,sha256=gA5WTc90cEOERRzvGcPrnG7nZWg05MJYRJMXFKk1sRQ,9
+csockets-4.2.24.dist-info/RECORD,,
