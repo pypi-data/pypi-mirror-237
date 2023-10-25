@@ -1,0 +1,10 @@
+st_bordercontainer/__init__.py,sha256=wa5So1oyKy-Kc4WVdNufLdPoytV35QZ3Pd89aa5GpSo,1716
+st_bordercontainer/frontend/index.html,sha256=zF0f7amUUMsfsbmQOjEhLFxpFercmIfQ4tUHacjlBDk,2085
+st_bordercontainer/frontend/main.js,sha256=Gpl4pXdTRFI7-pQs-2InxNZNALSg_GJOALwJRkYEHpY,2049
+st_bordercontainer/frontend/streamlit-component-lib.js,sha256=LdsY3Moj3IPUPtagiMaoPl31OabzgeZw6v5_iEqf6xY,1121
+st_bordercontainer/frontend/style.css,sha256=rQlgNtXxH5UL2738ViAM5RwmOhAQBiETzcW-AG9ou2E,1799
+streamlit_bordercontainer-0.0.4.dist-info/LICENSE,sha256=oYyuTxOMHcPqpMUCVJL4FLI7ifFu8V-6cuPsICamiUc,1064
+streamlit_bordercontainer-0.0.4.dist-info/METADATA,sha256=KF8kvmGiUCwjxyWQaulznoGotr14NKWSlYaqFY7ZXZ4,595
+streamlit_bordercontainer-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+streamlit_bordercontainer-0.0.4.dist-info/top_level.txt,sha256=6D3Q95ObrXr6nWYM1yvwDq37bZvooaK_KwEkktAhEyA,19
+streamlit_bordercontainer-0.0.4.dist-info/RECORD,,
