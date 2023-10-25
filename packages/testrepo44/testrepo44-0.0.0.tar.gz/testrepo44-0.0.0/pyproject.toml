@@ -1,0 +1,381 @@
+# References:
+# 1. Python Packaging User Guide by the Python Packaging Authority (PyPA):
+#    https://packaging.python.org/
+# 2. SetupTools User Guide:
+#    https://setuptools.pypa.io/
+#    https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+# 3. https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/
+
+
+[build-system]
+requires = ["setuptools>=61.0", "versioningit"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools]
+include-package-data = true
+zip-safe = false
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = true
+
+
+
+[tool.versioningit.vcs]
+method = "git"
+match = ["vers/[0-9]*.[0-9]*.[0-9]*"]
+
+[tool.versioningit.tag2version]
+rmprefix = "vers/"
+
+[tool.versioningit.format]
+# The format used by versioneer
+# Ref: https://versioningit.readthedocs.io/en/stable/index.html#example-configurations
+distance = "{base_version}+{distance}-{revision}"
+dirty = "{base_version}.dirty"
+distance-dirty = "{base_version}+{distance}-{revision}.dirty"
+
+[tool.versioningit.onbuild]
+method = "replace-version"
+regex = "^\\s*__version_details__\\s*=\\s*(?P<version>.*)"
+require-match = true
+replacement = "dict(\n    version=\"{version}\",\n    version_tuple={version_tuple},\n    author_date=\"{author_date:%Y.%m.%d}\",\n    build_date=\"{build_date:%Y.%m.%d}\",\n    branch=\"{branch}\",\n    distance=\"{distance}\",\n    head_commit_hash=\"{revision}\",\n)"
+source-file = "src/testrepo44/__init__.py"
+build-file = "testrepo44/__init__.py"
+
+
+[tool.pytest.ini_options]
+addopts = "-r a --verbose --color=yes --full-trace --cov --cov-config=pyproject.toml --cov-report=term-missing:skip-covered --cov-report=html --cov-report=xml --strict-config --strict-markers"
+cache_dir = ".local/cache/pytest"
+console_output_style = "count"
+log_auto_indent = true
+log_cli = true
+log_cli_format = "%(levelname)s %(message)s"
+log_cli_level = "INFO"
+log_file = ".local/log/pytest.txt"
+log_file_date_format = "%Y-%m-%d %H:%M:%S"
+log_file_format = "%(asctime)s %(levelname)s %(message)s"
+log_file_level = "DEBUG"
+log_format = "%(asctime)s %(levelname)s %(message)s"
+log_level = "DEBUG"
+minversion = "7.4.2"
+python_classes = ["Test*", "*Test"]
+python_files = ["test_*.py", "tests_*.py", "*_test.py", "*_tests.py"]
+python_functions = ["test_*", "tests_*", "*_test", "*_tests"]
+required_plugins = ["pytest-cov>=4.1.0,<5"]
+testpaths = ["tests"]
+
+
+# pytest-cov / Coverage.py
+# Ref: https://pytest-cov.readthedocs.io/en/latest/config.html
+# Ref: https://coverage.readthedocs.io/en/latest/config.html
+
+
+
+[tool.coverage.run]
+branch = true
+data_file = ".local/report/pytest_cov/.coverage"
+source_pkgs = ["testrepo44"]
+
+[tool.coverage.report]
+# Regexes for lines to exclude from consideration
+exclude_also = [
+    # Don't complain about missing debug-only code:
+    "def __repr__",
+    "if self\\.debug",
+
+    # Don't complain if tests don't hit defensive assertion code:
+    "raise AssertionError",
+    "raise NotImplementedError",
+
+    # Don't complain if non-runnable code isn't run:
+    "if 0:",
+    "if __name__ == .__main__.:",
+
+    # Don't complain about abstract methods, they aren't run:
+    "@(abc\\.)?abstractmethod",
+]
+show_missing = true
+
+[tool.coverage.html]
+directory = ".local/report/pytest_cov/html"
+
+[tool.coverage.xml]
+output = ".local/report/pytest_cov/coverage.xml"
+
+
+[tool.ruff]
+required-version = "0.0.290"
+cache-dir = ".local/cache/ruff"
+format = "grouped"
+ignore-init-module-imports = true
+line-length = 100
+show-fixes = true
+show-source = true
+# https://docs.astral.sh/ruff/rules
+select = [
+  "F",   # pyflakes
+  "E",   # pycodestyle error
+  "W",   # pycodestyle warning
+  "N",   # pep8-naming
+  "D",   # pydocstyle
+  "UP",  # pyupgrade
+  "YTT", # flake8-2020
+  "S",   # flake8-bandit
+  "BLE", # flake8-blind-except
+  "FBT", # flake8-boolean-trap
+  "B",   # flake8-bugbear
+  "COM", # flake8-commas
+  "C4",  # flake8-comprehensions
+  "DTZ", # flake8-datetimez
+  "EM",  # flake8-errmsg
+  "EXE", # flake8-executable
+  "ICN", # flake8-import-conventions
+  "PIE", # flake8-pie
+  "PT",  # flake8-pytest-style
+  "RSE", # flake8-raise
+  "RET", # flake8-return
+  "SIM", # flake8-simplify
+  "ARG", # flake8-unused-arguments
+  "PTH", # flake8-use-pathlib
+  "TD",  # flake8-todos
+  "FIX", # flake8-fixme
+  "ERA", # flake8-eradicate
+  "PD",  # pandas-vet
+  "PGH", # pygrep-hooks
+  "PL",  # pylint
+  "RUF", # ruff-specific rules
+]
+src = ["src", "tests"]
+include = ["*.py", "*.pyi", "**/pyproject.toml", "*.ipynb"]
+
+[tool.ruff.flake8-annotations]
+allow-star-arg-any = true
+suppress-dummy-args = true
+suppress-none-returning = true
+
+[tool.ruff.flake8-comprehensions]
+allow-dict-calls-with-keyword-arguments = true
+
+[tool.ruff.flake8-quotes]
+docstring-quotes = "single"
+multiline-quotes = "single"
+
+[tool.ruff.pydocstyle]
+convention = "numpy"
+
+[tool.ruff.pylint]
+max-args = 10
+max-public-methods = 50
+max-returns = 10
+
+
+[tool.mypy]
+# Import discovery
+packages = ["testrepo44"]
+
+# Configuring warnings
+warn_return_any = true
+
+# Miscellaneous strictness flags
+strict = true
+
+# Configuring error messages
+show_error_context = true
+show_column_numbers = true
+pretty = true
+color_output = true
+
+# Incremental mode
+cache_dir = ".local/cache/mypy"
+
+# Advanced options
+show_traceback = true
+raise_exceptions = true
+
+# Report generation
+any_exprs_report = ".local/report/mypy"
+html_report = ".local/report/mypy"
+linecount_report = ".local/report/mypy"
+linecoverage_report = ".local/report/mypy"
+lineprecision_report = ".local/report/mypy"
+txt_report = ".local/report/mypy"
+
+# Miscellaneous
+verbosity = 2
+
+
+[tool.isort]
+profile = "black"
+line_length = 100
+src_paths = ["src", "tests"]
+skip_gitignore = true
+lines_before_imports = 2
+lines_after_imports = 2
+lines_between_sections = 0
+verbose = true
+color_output = true
+only_modified = true
+filter_files = true
+no_lines_before = ["future", "stdlib", "thirdparty", "firstparty", "localfolder"]
+dedup_headings = true
+overwrite_in_place = true
+
+[tool.isort.import_headings]
+future = "Futures"
+stdlib = "Standard libraries"
+thirdparty = "Non-standard libraries"
+firstparty = "Self"
+
+
+[tool.black]
+required-version = "23.9.1"
+target-version = ["py39", "py310", "py311", "py312"]
+line-length = 100
+verbose = true
+
+[tool.pylint.main]
+fail-under = 10
+jobs = 0
+limit-inference-results = 500
+load-plugins = [
+    "pylint.extensions.broad_try_clause",
+    "pylint.extensions.code_style",
+    "pylint.extensions.comparison_placement",
+    "pylint.extensions.confusing_elif",
+    "pylint.extensions.for_any_all",
+    "pylint.extensions.consider_refactoring_into_while_condition",
+    "pylint.extensions.consider_ternary_expression",
+    "pylint.extensions.bad_builtin",
+    "pylint.extensions.mccabe",
+    "pylint.extensions.dict_init_mutate",
+    "pylint.extensions.docstyle",
+    "pylint.extensions.dunder",
+    "pylint.extensions.check_elif",
+    "pylint.extensions.empty_comment",
+    "pylint.extensions.eq_without_hash",
+    "pylint.extensions.private_import",
+    "pylint.extensions.magic_value",
+    "pylint.extensions.redefined_variable_type",
+    "pylint.extensions.no_self_use",
+    "pylint.extensions.overlapping_exceptions",
+    "pylint.extensions.docparams",
+    "pylint.extensions.redefined_loop_name",
+    "pylint.extensions.set_membership",
+    "pylint.extensions.typing",
+    "pylint.extensions.while_used",
+]
+persistent = true
+py-version = "3.9"
+recursive = true
+source-roots = ["src"]
+
+[tool.pylint.basic]
+good-names = ["i", "j", "k", "x", "y", "z", "ex", "Run", "_"]
+
+[tool.pylint.design]
+max-args = 10
+max-attributes = 20
+max-bool-expr = 5
+max-branches = 15
+max-locals = 15
+max-public-methods = 50
+max-returns = 10
+max-statements = 50
+min-public-methods = 1
+
+[tool.pylint.format]
+max-line-length = 100
+max-module-lines = 2000
+
+[tool.pylint.imports]
+ext-import-graph = ".local/report/pylint/import_graphs/external.svg"
+import-graph = ".local/report/pylint/import_graphs/all.svg"
+int-import-graph = ".local/report/pylint/import_graphs/internal.svg"
+
+[tool.pylint.logging]
+logging-format-style = "new"
+
+[tool.pylint."messages control"]
+confidence = ["HIGH", "CONTROL_FLOW", "INFERENCE", "INFERENCE_FAILURE", "UNDEFINED"]
+
+[tool.pylint.reports]
+reports = true
+score = true
+msg-template = "{path}\nL[{line}:{end_line}] - Col[{column}:{end_column}] - Obj: {obj}\n\t{msg_id}: {category} - {symbol}\n\t{msg}\n"
+output-format = [
+    "json:.local/report/pylint/report_json.json",
+    "text:.local/report/pylint/report_text.txt",
+    "parseable:.local/report/pylint/report_parseable.txt",
+    "msvs:.local/report/pylint/report_msvs.txt",
+    "colorized",
+]
+
+[tool.pylint.similarities]
+ignore-comments = true
+min-similarity-lines = 8
+
+#[tool.pylint.spelling]
+#spelling-dict = "en_US"
+
+
+[tool.bandit]
+targets = ["src"]
+
+[project]
+name = "testrepo44"
+dynamic = [
+    'version',
+]
+description = "Python Projects Perfected: Innovate, Develop, and Deploy "
+readme = "src/readme_pypi.md"
+requires-python = ">= 3.9"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Armin Ariamajd"},
+]
+maintainers = [
+    {name = "Armin Ariamajd"},
+]
+keywords = [
+    'python',
+    'github',
+    'packaging',
+    'template',
+    'dynamic repository',
+    'repository template',
+    'documentation',
+    'testing',
+    'deployment',
+    'maintenance',
+    'automation',
+    'development',
+    'infrastructure',
+    'streamline',
+]
+classifiers = [
+    'License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)',
+    'Natural Language :: English',
+    'Operating System :: MacOS',
+    'Operating System :: Microsoft :: Windows',
+    'Operating System :: POSIX :: Linux',
+    'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: 3.9',
+    'Typing :: Typed',
+]
+dependencies = [
+    'numpy >= 1.21.2',
+]
+
+[project.urls]
+Homepage = "https://aariam.github.io/testrepo44"
+Download = "https://github.com/AAriam/testrepo44/releases"
+News = "https://aariam.github.io/testrepo44/news"
+Documentation = "https://aariam.github.io/testrepo44"
+Issue-Tracker = "https://github.com/AAriam/testrepo44/issues"
+Sponsor = "https://aariam.github.io/testrepo44/contribute/collaborate/maintain/sponsor"
+Source = "https://github.com/AAriam/testrepo44"

@@ -1,0 +1,13 @@
+CODE_OF_CONDUCT.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/testrepo44/__init__.py
+src/testrepo44/py.typed
+src/testrepo44.egg-info/PKG-INFO
+src/testrepo44.egg-info/SOURCES.txt
+src/testrepo44.egg-info/dependency_links.txt
+src/testrepo44.egg-info/not-zip-safe
+src/testrepo44.egg-info/requires.txt
+src/testrepo44.egg-info/top_level.txt
