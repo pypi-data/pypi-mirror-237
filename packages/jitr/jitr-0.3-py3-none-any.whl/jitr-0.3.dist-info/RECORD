@@ -1,0 +1,13 @@
+jitr/__init__.py,sha256=kdHvzCn2Mwa_nqSIxW8rHC1UjVRZN1aeKd2qCTbiywo,358
+jitr/__version__.py,sha256=70EL5Ao5qU0eh0IaEutgBVj2leAtBIrWHEMJbXxWg5s,406
+jitr/channel.py,sha256=HyubjjlqWhOq_raRXO1gKP4VkBSWvlIWKXio9wBnNMY,2540
+jitr/potentials.py,sha256=23BoUrr9m3lzRRmK5nQbtQgAr8SkjEddpGdc8AKjCKk,1408
+jitr/rmatrix_kernel.py,sha256=Gc75QFUf5Lgv4pU3F1zij0lvxVV7GIpcmfVz2nsPtYk,7020
+jitr/rmatrix_solver.py,sha256=qRS4F9fPevGgSUUedF3t0JQal7CS5h3fyZHIgIKfyQg,4702
+jitr/system.py,sha256=NdvRLmKT918qet9sqC321NFU6QewRoVTrBo981QkNs4,3665
+jitr/utils.py,sha256=1a02rSoxS2sMEWe5QbyXN7LVFIQzaeWd7qdld55QWR8,4836
+jitr-0.3.dist-info/LICENSE,sha256=Yil_HR1lMkve6AK5EyFOr8nPnBWcCgTq8DeMbuG3oFc,1497
+jitr-0.3.dist-info/METADATA,sha256=RejdQQ3twsdA6h4wIJfsfNBw2WsKkGpH6eAf2jZr3lU,3266
+jitr-0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+jitr-0.3.dist-info/top_level.txt,sha256=La1rcq7aQjC9DE0JOooBjE0DbbBqbzR4CAdO1Wzcwac,5
+jitr-0.3.dist-info/RECORD,,
