@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: fhnw-thermo-tools
+Version: 0.0.9
+Author: Raffael Schreiber
+Author-email: raffaelmichael.schreiber@fhnw.ch
+License-File: LICENSE.txt
+Requires-Dist: numpy~=1.26.1
+Requires-Dist: matplotlib~=3.8.0
+Requires-Dist: coolprop==6.5.0.post1
+
+# thermo-tools
+
+## thermo-tools
+Contains a compilation of scripts to do various thermo tasks i.e. calculating state of moist air, combustion etc.
+
+## Description
+Generally different tasks are implemented using submodules. For "feuchte_luft" for the calculation and plotting of moist air states.
+See the "examples" directory for a few basic examples.
+
+## Badges
+
+## Visuals
+
+## Installation
+
+## Usage
+
+## Support
+
