@@ -1,0 +1,6 @@
+easyfaiss/__init__.py,sha256=9qB-OtehnJKgx_6PjxsKduGWyV7IsXLx4ugvVrx_m7E,58
+easyfaiss/vectorembeddings.py,sha256=ToPuVYlm-YNfuj2UXyOvKGLkfOd4x_DoCZtQTaGUBok,2392
+easyfaiss/vectorspace.py,sha256=AhSvTTAdYC6w_3hNWph2VddYamb62CYf9opAH7-T6yk,2720
+easyfaiss-0.1.3.dist-info/METADATA,sha256=gFWrHRC-v6LFZares5WpGK5XBect9EJi75Mw3HpG4kA,4550
+easyfaiss-0.1.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+easyfaiss-0.1.3.dist-info/RECORD,,
