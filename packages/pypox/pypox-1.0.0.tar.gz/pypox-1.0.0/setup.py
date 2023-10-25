@@ -1,0 +1,16 @@
+from setuptools import setup,find_packages
+
+setup(
+    name='pypox',
+    version='1.0.0',
+    author='Karl Robeck Alferez',
+    author_email='karlalferezfx@gmail.com',
+    description='Python to javascript transpiler',
+    packages=find_packages(),
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.11.4',
+)
