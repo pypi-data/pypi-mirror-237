@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: geodesk
+Version: 0.0.3
+Summary: Python port of GeoDesk, a fast and space-efficient spatial database engine for OpenStreetMap features
+Home-page: UNKNOWN
+Author: Clarisma / GeoDesk contributors
+License: LGPL
+Platform: UNKNOWN
+License-File: LICENSE
+License-File: NOTICE
+Requires-Dist: shapely
+
+UNKNOWN
+
