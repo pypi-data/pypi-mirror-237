@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: image-processing-analysis
+Version: 0.0.1
+Summary: Biblioteca para processamento de Imagens
+Home-page: https://github.com/Emeson-Borges/PypiPackages-ImageProcessing
+Author: emeson_borges
+Author-email: borges2016.leh@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scikit-image >=0.16.1
+
+# Pacote de processamento de imagens em Python
+
+
+# image_processing
+Description.
+The package image_processing is used to:
+  Processing:
+      - Histogram matching
+      - Structural similarity
+      - Resize image
+  Utils:
+      - Read image
+      - Save image
+      - Plot image
+      - Plot result
+      - Plot histogram
+
+
+     python -m pip install --upgrade pip
+     python -m pip install --user twine
+     python -m pip install --user setuptools
+
+   - Comandos para criar distribuiÃ§Ãµes
+     python setup.py sdist bdist_wheel
+
+## Installation
+Use the package manager [pip](https://pip.pypa.io/em/stable) to install package_name
+
+```bash
+pip install package_name
+```
+
+## Author 
+Emeson Borges
