@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: MeowerBot
+Version: 3.0
+Summary: A meower bot lib for py
+Home-page: https://github.com/MeowerBots/MeowerBot.py
+License: MIT
+Author: showierdata9978
+Author-email: 68120127+showierdata9978@users.noreply.github.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: dataclasses-json (>=0.6.1,<0.7.0)
+Requires-Dist: httpx (>=0.25.0,<0.26.0)
+Requires-Dist: orjson (>=3.9.4,<4.0.0)
+Requires-Dist: typing-extensions (>=4.8.0,<5.0.0)
+Requires-Dist: ujson (>=5.8.0,<6.0.0)
+Requires-Dist: websockets (>=11.0.3,<12.0.0)
+Project-URL: Repository, https://github.com/MeowerBots/MeowerBot.py
+Description-Content-Type: text/markdown
+
+# MeowerBot.py
+
+A bot lib for Meower
+
+
+## License
+
+see [LICENSE](./LICENSE)
+
+
+## docs
+
+The Docs are located [here](https://meowerbot-py.showierdata.tech/)
+
+
+## Quick Example
+
+look at the [tests directory](./tests) for examples 
