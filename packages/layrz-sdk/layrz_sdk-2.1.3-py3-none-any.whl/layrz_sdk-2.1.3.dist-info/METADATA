@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: layrz-sdk
+Version: 2.1.3
+Summary: Layrz SDK for Python
+Author-email: "Golden M, Inc." <software@goldenm.com>
+Maintainer-email: Kenny Mochizuki <kenny@goldenm.com>
+License: MIT License
+Keywords: sdk,goldenm,lcl,layrz compute language,layrz
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pytz
+Requires-Dist: xlsxwriter
+
