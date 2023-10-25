@@ -1,0 +1,10 @@
+ORTipy/__init__.py,sha256=z-tEwMnL2N50pMyirdYsCQZ-ADXmU6shq94a1R2Z1Dk,172
+ORTipy/gomory_ilpp.py,sha256=QC5HFRXgivEFjqMxH2k7NhJvONmG5qJfj2Ia9OuApEk,1694
+ORTipy/graphical_lpp.py,sha256=XoBVJdhyDOsuW8q9EViCOjhtBQJHwR2o_smZM83sFqk,1471
+ORTipy/perturbation_method.py,sha256=_dAicx3SRarAyg0B6W3036S143N86VqEwLjSmTUfs4g,635
+ORTipy/simplex_lpp.py,sha256=KzjAWSoi-7AKKz3EI6C9wUOet443dHolnfyoMqXnVH4,1107
+ORTipy-0.1.dist-info/LICENSE,sha256=LDFko9Wo8rNufUprAX4W6Ycm9IzOmQTcvUBOBU1szJo,9189
+ORTipy-0.1.dist-info/METADATA,sha256=3qvupeCfJ5qHiylNVgZDefNoLgFCq523cbB3VkLMvAY,348
+ORTipy-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ORTipy-0.1.dist-info/top_level.txt,sha256=HYQ1N8iDsR8nHTx4Cl_vjfCnoqE6iVQtoc6U-jxT0Zk,7
+ORTipy-0.1.dist-info/RECORD,,
