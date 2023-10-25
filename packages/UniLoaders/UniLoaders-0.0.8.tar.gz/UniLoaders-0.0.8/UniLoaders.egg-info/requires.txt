@@ -1,0 +1,4 @@
+langchain
+unstructured[docx]
+docx2txt
+unstructured
