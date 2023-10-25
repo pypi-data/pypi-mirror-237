@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pytiger
+Version: 1.2.2
+Summary: Tiger Computing Ltd Python Utilities
+Author: Tiger Computing Ltd
+Author-email: info@tiger-computing.co.uk
+License-File: COPYING
+Requires-Dist: six
