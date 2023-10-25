@@ -1,0 +1,10 @@
+aiogram_middlewares/__init__.py,sha256=uq9zj74VFm9eqmSn-R1BSxWfw3VPrlfeozPoYE0a4u4,45
+aiogram_middlewares/caches.py,sha256=ouD19HHMkcyD9mmjXr8uyLhLIMqmJPY_xwKIi631Cmo,1802
+aiogram_middlewares/throttling/__init__.py,sha256=bEo0szpSlfbGNUnbcjmCHrJKmB-zOPYfxKdLBc_TgVA,108
+aiogram_middlewares/throttling/models.py,sha256=yeOwuV6i_MnH8A5OlkdZ9t9OVOazUEcYI8fqBjyQ1S4,390
+aiogram_middlewares/throttling/throttling.py,sha256=fnUPCPFtuZIegTKWM7PHbU1fep_pn8vIkDfJ36Teu4I,6880
+aiogram_middlewares/utils.py,sha256=NxSA_hfGuLM1G7Sdnegki8eAOdEJVGAbC4PwWKq_beo,1580
+aiogram_middlewares-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aiogram_middlewares-0.0.2.dist-info/METADATA,sha256=CnZvqKOrn-f6NlRBFI1sxixirAqqJV_WceJdvObuIYo,1245
+aiogram_middlewares-0.0.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+aiogram_middlewares-0.0.2.dist-info/RECORD,,
