@@ -1,0 +1,11 @@
+aap/__init__.py,sha256=dGuWvF5nPBGr1QBNIwNHQGYUSGdzjSaNhzBrkSbjfFQ,265
+aap/__main__.py,sha256=rIXi8B0OVUANCU3uYk9DlrrpvyXYUR_ns39220VMrvg,4253
+aap/base.py,sha256=Y63TrkXEtBYyjwrEQBU7W9nIqRN35yr7l49ggVnrlYw,5364
+aap/endpoints.py,sha256=RDaA7v4pPLsssZ55SlMmg2r4ziXSfOJNsb8meB97FGw,3089
+aap/mixins.py,sha256=IqKCp7tL2cexZiNmr9cj650_oZVL_VpQmiIb0rV0ciw,2038
+python_aap-0.0.10.dist-info/LICENSE,sha256=2P3Y8HtQv1dLdLzeNEUeIT2AVXhty5-L9D2dCR1pZMM,18020
+python_aap-0.0.10.dist-info/METADATA,sha256=knV6DrlnYB3bX3A_8KxU4HVS-sNKzwdwgL6DzY73lTs,5423
+python_aap-0.0.10.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+python_aap-0.0.10.dist-info/entry_points.txt,sha256=13DjoTJqzBAlNL6zGwsT0-X0pMpernL1gAnkVscZV7w,40
+python_aap-0.0.10.dist-info/top_level.txt,sha256=GgZyac2LMzOIrc73o4Mvj8yTx1YKsdk_Eb5aI5kYIws,4
+python_aap-0.0.10.dist-info/RECORD,,
