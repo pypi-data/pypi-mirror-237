@@ -1,0 +1,7 @@
+LICENSE
+README.rst
+setup.py
+SelSensei.egg-info/PKG-INFO
+SelSensei.egg-info/SOURCES.txt
+SelSensei.egg-info/dependency_links.txt
+SelSensei.egg-info/top_level.txt
