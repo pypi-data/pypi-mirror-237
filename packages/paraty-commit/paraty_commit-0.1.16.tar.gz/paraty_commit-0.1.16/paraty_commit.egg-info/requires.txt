@@ -1,0 +1,2 @@
+colorama
+pylint==2.15.10
