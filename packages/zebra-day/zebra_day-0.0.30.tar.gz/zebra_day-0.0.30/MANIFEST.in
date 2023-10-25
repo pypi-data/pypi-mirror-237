@@ -1,0 +1,3 @@
+recursive-include zebra_day/bin *
+recursive-include zebra_day/etc *
+recursive-include zebra_day/etc/label_styles *
