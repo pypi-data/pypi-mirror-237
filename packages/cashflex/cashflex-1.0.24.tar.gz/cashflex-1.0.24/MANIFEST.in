@@ -1,0 +1,8 @@
+include cashflex/src/*.py
+include cashflex/src/ui/*
+include cashflex/src/css/*
+include cashflex/src/db/*
+include cashflex/images/*
+include cashflex/desktop/*
+include cashflex/icons/*/*
+include cashflex/scripts/*
