@@ -1,0 +1,11 @@
+drsync/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drsync/__main__.py,sha256=Ij5ZzsS8GssMuWtbHGQqyHaPN9W6qXI9hLI-HhVoisQ,1769
+drsync/docker_interface.py,sha256=ns2DcwPxeqXCUGPQ2wxE9pf5oJuBsI6jNMRyYo_r2oQ,177
+drsync/io_util.py,sha256=XSSHMmMP5_0Z82fUsJT-kAak2qsKHcG1f7Af4lRVHhs,230
+drsync/subprocess_utils.py,sha256=cC9HHU5qHzB5gZTJrhKphwFvqUxZhGsJNA7ODnr7It0,502
+drsync/sync.py,sha256=kIsHZ7dKBztrN5OhD55GVc7hFPOWlPv7IXiUzTnPbdo,1590
+docker_remote_sync-0.2.3.dist-info/LICENSE,sha256=fRF2U9RivTY-1bKkzoD2_cRuoUE7iSSVZD0HtFKcuV0,1074
+docker_remote_sync-0.2.3.dist-info/METADATA,sha256=D_tF_6agBLWHbWkYrsNJENnNIKmuXmq_r8Znoxuc3pQ,1682
+docker_remote_sync-0.2.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+docker_remote_sync-0.2.3.dist-info/entry_points.txt,sha256=o4wOt9WtttcdAkjb5hqLtf9S-3suCc2OiHQfJYpqrvE,59
+docker_remote_sync-0.2.3.dist-info/RECORD,,
