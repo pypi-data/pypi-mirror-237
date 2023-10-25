@@ -1,0 +1,12 @@
+python_artisan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_artisan/main.py,sha256=XxoLYiCx4WbAJWltMfo6ZO5gWZ7l6QV7s6VLQ1C1zMw,13437
+python_artisan/stubs/handler/default.stub,sha256=FjxNdE7-5joSDagohb7Ej-n7R7MsYe-Hm6j_zCfkdI4,120
+python_artisan/stubs/handler/sns.stub,sha256=Fg7DW2eY2zg0eu0MsNk74jklvyRTnKebsNf0BjbaiU8,188
+python_artisan/stubs/handler/sqs.stub,sha256=-MYYJ3xJi_NqXiVl4tdOoppRyU85rMxe3Vke156tWQs,198
+python_artisan/stubs/model/default.stub,sha256=zEVub15JQTE57k82W0vIeWSTgf1comBR09N0L3APdNY,137
+python_artisan/stubs/request/default.stub,sha256=EFnEWBtzqX7svniXghqwbkauJ0de2GbE08Y00o_jpoA,397
+python_artisan/stubs/response/default.stub,sha256=TfY-AgXkoMZbeD9QRc2RbtFe4aBhBVFpZpOKb3SLAZk,180
+python_artisan-0.1.4.dist-info/entry_points.txt,sha256=iaCuEVesYgp4aNnnbKewudObIMWfdNsYCfE17rySUjk,51
+python_artisan-0.1.4.dist-info/METADATA,sha256=avtHAoxEXX35mwaS4y2dOHV51s06RPzos3rAuoy3FwY,902
+python_artisan-0.1.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+python_artisan-0.1.4.dist-info/RECORD,,

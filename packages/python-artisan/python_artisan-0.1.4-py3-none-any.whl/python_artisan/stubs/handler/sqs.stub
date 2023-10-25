@@ -1,0 +1,11 @@
+import json
+
+def main(event, context):
+    for record in event['Records']:
+        body = json.loads(record['body'])
+
+    # Implement your code here...
+
+    return {
+        "StatusCode": 200
+    }
