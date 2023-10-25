@@ -1,0 +1,86 @@
+from __future__ import annotations
+
+from pathlib import Path
+
+import rich_click as click
+from click.decorators import pass_context
+from rich.prompt import Confirm
+
+from monas.config import Config, pass_config
+from monas.project import InputMetadata, PyPackage, get_metadata_class_for_backend
+from monas.questions import ask_for, package_questions
+from monas.utils import console, err_console, info
+
+
+@click.command()
+@click.argument("package", required=True)
+@click.argument("location", required=False)
+@click.option(
+    "-e",
+    "--explicit-package-entry",
+    is_flag=True,
+    default=False,
+    help="If specified, an explicit package entry "
+    + "will be added to the list of packages",
+)
+@pass_config
+@pass_context
+def new(
+    ctx: click.Context,
+    config: Config,
+    *,
+    package: str,
+    location: str | None = None,
+    explicit_package_entry: bool,
+):
+    """Create a new <package> under <location>.
+
+    The package name must be locally unique and available on PyPI.
+
+    If location isn't given, it defaults to the first location of `packages` config.
+    """
+    parent_dir = config.default_package_dir
+    if location is not None:
+        parent_dir = Path(location)
+
+    if any(package == pkg.name for pkg in config.iter_packages()):
+        raise click.BadParameter(f"{package} already exists")
+
+    package_path = (parent_dir / package).absolute()
+    repo = config.get_repo()
+
+    default_values = {
+        "name": package,
+        "version": config.version,
+        "author": repo.get_user_name(),
+        "author_email": repo.get_user_email(),
+        "homepage": f"{config.homepage}/packages/{package}"
+        if config.homepage
+        else None,
+    }
+
+    inputs = InputMetadata(
+        remote_repo=repo.get_remote_url(),
+        **ask_for(package_questions, **default_values),
+    )
+    metadata_cls = get_metadata_class_for_backend(inputs.build_backend)
+    metadata_contents = metadata_cls.create(inputs)
+    info(f"Writing metadata at [primary]{metadata_cls.filename}[/]:")
+    console.print(metadata_contents.replace("[", "\\["))
+    if "setup.cfg" in inputs.build_backend:
+        err_console.print(
+            "[notice]The latest version of setuptools supports pyproject.toml "
+            "metadata, we highly recommend using it.[/]"
+        )
+    if not Confirm.ask("Is this OK?", console=console, default=True):
+        ctx.abort()
+    package_path.mkdir(parents=True)
+    with package_path.joinpath(metadata_cls.filename).open("w", encoding="utf-8") as f:
+        f.write(metadata_contents)
+    info("Creating project files")
+    PyPackage.create(config, package_path, inputs)
+
+    if explicit_package_entry:
+        config.add_explicit_package_path(package_path)
+    else:
+        config.add_package_path(parent_dir)
