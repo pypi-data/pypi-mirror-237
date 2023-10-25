@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ddddocr/__init__.py
+ddddocr/common.onnx
+ddddocr/common_det.onnx
+ddddocr/common_old.onnx
+ddddocrfix.egg-info/PKG-INFO
+ddddocrfix.egg-info/SOURCES.txt
+ddddocrfix.egg-info/dependency_links.txt
+ddddocrfix.egg-info/requires.txt
+ddddocrfix.egg-info/top_level.txt
