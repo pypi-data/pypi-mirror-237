@@ -1,0 +1,11 @@
+vectordb/__init__.py,sha256=WRq8Azec8h8yI3CGEPJnjVUMyyle2iaNn4eYNJtOewQ,27
+vectordb/chunking.py,sha256=5-legu5h1zlpTysYnKkkZrzDZ0xn1dw6-5jG-bFmgdY,3039
+vectordb/embedding.py,sha256=F93hdKxYGt0EeFDjGnvkrE8qyNIm28EDHf580Qe62yU,2154
+vectordb/memory.py,sha256=fTCSOyaYkUSWUjJmFKKfhZDg3ZYczFPmz5Q4UYr3_50,7930
+vectordb/storage.py,sha256=cnrhIBbgnR5qN7clTa1gUgXm5v7aKaQZClXC5VISK7U,1351
+vectordb/vector_search.py,sha256=UW6kvJdEljHGCvEEL_kwRmSaQeGRuc7hWxREJx4ymlc,2590
+vectordb2-0.1.5.dist-info/LICENSE,sha256=yUg2xoDMuzQeK1osbp6BPAFFqXdn_rOUiKoYt3pEGL0,1068
+vectordb2-0.1.5.dist-info/METADATA,sha256=N8iFQAIm5njrLWuTVsFsGXeMFNyKQaMrgftPyzQfI9M,1087
+vectordb2-0.1.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+vectordb2-0.1.5.dist-info/top_level.txt,sha256=4i-jiNzBF0hyDnpK-MhdA5Vp5LqAc5toymWzf5-i_A8,9
+vectordb2-0.1.5.dist-info/RECORD,,
