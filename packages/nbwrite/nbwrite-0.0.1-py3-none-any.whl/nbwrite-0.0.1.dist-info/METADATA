@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: nbwrite
+Version: 0.0.1
+Summary: 
+Home-page: https://github.com/treebeardtech/nbwrite
+License: Apache-2.0
+Author: alex-treebeard
+Author-email: alex@treebeard.io
+Requires-Python: >=3.8.1,<3.12
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: arize-phoenix[experimental] (>=0.0.49,<0.0.50)
+Requires-Dist: chromadb (>=0.4.14,<0.5.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: langchain[openai] (>=0.0.312,<0.0.313)
+Requires-Dist: nbformat (>=5.9.2,<6.0.0)
+Requires-Dist: openai[embeddings] (>=0.28.1,<0.29.0)
+Requires-Dist: pathlib (>=1.0.1,<2.0.0)
+Requires-Dist: pysqlite3-binary (>=0.5.2,<0.6.0) ; sys_platform == "linux"
+Requires-Dist: pytest (>=6.1.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: rich (>=13.6.0,<14.0.0)
+Description-Content-Type: text/markdown
+
+# Nbwrite
+
+nbwrite writes notebook-based documentation for you
+
+{{ intro }}
+
+
+## Quick start
+
+{{ quick start }}
+
+## Guides
+
+{{ how to write a spec file }}
+
+## Data Security
+
+{embeddings and openai}
