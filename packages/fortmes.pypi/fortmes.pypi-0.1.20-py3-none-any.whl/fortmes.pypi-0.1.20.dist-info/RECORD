@@ -1,0 +1,10 @@
+fortmes_pypi/__init__.py,sha256=hMaHlNCclOhiC1zbBJozXHxjhqBLrhUlcykPxMojK7Q,122
+fortmes_pypi/api_client.py,sha256=19PKeBMkadNrsJeyjP3x4SvKB84q9IKEKPoDI7QMNgk,692
+fortmes_pypi/auth.py,sha256=gxplnb79XR7S6nzW0cUZwaKhKJ_tNnTIHD23aU2SR80,3060
+tests/__init__.py,sha256=OnY9PL0gYeBc5kCl1-32lSeNnoY9iFp6mkxN2Lb1iY0,21
+tests/test_auth0_device_auth.py,sha256=zBP_Ur6FFuDTtbemorIH11bcfsCRkLNwlSvgOWK9Fis,1704
+fortmes.pypi-0.1.20.dist-info/LICENSE,sha256=P3tzuCNRK8PcM2PqEbNzP1NUaUs9a0OgybffZ_gGvkQ,1094
+fortmes.pypi-0.1.20.dist-info/METADATA,sha256=P9Nd-K6Y6HgkQm_dJkAS3ztuCpp32zZveNZ4X0u6uLU,2073
+fortmes.pypi-0.1.20.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fortmes.pypi-0.1.20.dist-info/top_level.txt,sha256=XZbwWRXhpRQk58uAURkieLYafQMRhI__KXJhji6azh8,19
+fortmes.pypi-0.1.20.dist-info/RECORD,,
