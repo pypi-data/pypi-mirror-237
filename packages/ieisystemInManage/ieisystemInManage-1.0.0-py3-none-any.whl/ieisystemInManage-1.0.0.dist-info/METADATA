@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: ieisystemInManage
+Version: 1.0.0
+Summary: ieisystem server manager api
+Home-page: https://github.com/ieisystem/ieisystemInManage
+Author: Wangbaoshan
+Author-email: wangbaoshan@ieisystem.com
+License: Expat License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pycryptodome (>=3.5.0)
+Requires-Dist: PyYAML
+Requires-Dist: requests (>=2.9.1)
+Requires-Dist: Jpype1
+Requires-Dist: requests-toolbelt
+
+# ieisystemInManage
+ieisystemInManage is a support tool for ansible.ieisystem.InManage
+
+## External requirements
+
+Circumstance instruction:
+ieisystemInManage relies on the Ipmitool tool.
+
+Main steps:
+install ieisystemInManage
+yum install ipmitool
+
