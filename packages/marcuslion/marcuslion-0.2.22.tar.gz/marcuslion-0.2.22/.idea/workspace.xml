@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f559e43-197b-4b99-8761-a2c827155f4c" name="Changes" comment="added Documents class">
+      <change beforePath="$PROJECT_DIR$/marcuslion/datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/marcuslion/datasets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marcuslion/documents.py" beforeDir="false" afterPath="$PROJECT_DIR$/marcuslion/documents.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marcuslion/providers.py" beforeDir="false" afterPath="$PROJECT_DIR$/marcuslion/providers.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2WT3XUjTLTtr16uBewUUMF37eMj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;P:/MarcusLion/ml-platform/ml-lib-python/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;debugger.dataViews.python.type.renderers&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\MarcusLion\ml-platform\ml-lib-python\images" />
+      <recent name="P:\MarcusLion\ml-platform\ml-lib-python" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\MarcusLion\ml-platform\ml-lib-python" />
+      <recent name="P:\MarcusLion\ml-platform\ml-lib-python\marcuslion" />
+      <recent name="P:\MarcusLion\ml-platform\ml-lib-python\src\marcuslion" />
+      <recent name="P:\MarcusLion\ml-platform\ml-lib-python\tests" />
+      <recent name="P:\MarcusLion\ml-platform\ml-lib-python\tests\marcuslion" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.ml_lib_test (2)">
+    <configuration name="ml_lib_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ml-lib-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/marcuslion" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/marcuslion/ml_lib_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ml_lib_test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ml-lib-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/ml_lib_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ml_lib_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ml-lib-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="P:\MarcusLion\ml-platform\ml-lib-python\src\marcuslion\ml_lib_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ml_lib_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ml-lib-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/marcuslion" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="P:\MarcusLion\ml-platform\ml-lib-python\tests\ml_lib_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ml_lib_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ml-lib-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="P:\MarcusLion\ml-platform\ml-lib-python\src\marcuslion\ml_lib_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ml_lib_test (2)" />
+        <item itemvalue="Python.ml_lib_test (1)" />
+        <item itemvalue="Python.ml_lib_test (1)" />
+        <item itemvalue="Python.ml_lib_test (1)" />
+        <item itemvalue="Python.ml_lib_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f559e43-197b-4b99-8761-a2c827155f4c" name="Changes" comment="" />
+      <created>1696742781141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696742781141</updated>
+      <workItem from="1696742782184" duration="23000" />
+      <workItem from="1697652823377" duration="4665000" />
+      <workItem from="1697659457757" duration="568000" />
+      <workItem from="1697660142100" duration="806000" />
+      <workItem from="1697660964638" duration="5540000" />
+      <workItem from="1697671715303" duration="4121000" />
+      <workItem from="1697756698096" duration="20806000" />
+      <workItem from="1698169614218" duration="11159000" />
+    </task>
+    <task id="LOCAL-00001" summary="create">
+      <option name="closed" value="true" />
+      <created>1697654465477</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697654465477</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create">
+      <option name="closed" value="true" />
+      <created>1697654499997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697654499997</updated>
+    </task>
+    <task id="LOCAL-00003" summary="0.2.1">
+      <option name="closed" value="true" />
+      <created>1697656963189</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697656963189</updated>
+    </task>
+    <task id="LOCAL-00004" summary="0.2.9 - shows a logo">
+      <option name="closed" value="true" />
+      <created>1697665986669</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697665986669</updated>
+    </task>
+    <task id="LOCAL-00005" summary="remove url log">
+      <option name="closed" value="true" />
+      <created>1697682915361</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697682915361</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add ml_providers()">
+      <option name="closed" value="true" />
+      <created>1697684166350</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697684166350</updated>
+    </task>
+    <task id="LOCAL-00007" summary="read new format json">
+      <option name="closed" value="true" />
+      <created>1697761178413</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697761178413</updated>
+    </task>
+    <task id="LOCAL-00008" summary="read new format json">
+      <option name="closed" value="true" />
+      <created>1697761268700</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697761268700</updated>
+    </task>
+    <task id="LOCAL-00009" summary="0.2.11">
+      <option name="closed" value="true" />
+      <created>1697761371114</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697761371114</updated>
+    </task>
+    <task id="LOCAL-00010" summary="error handling">
+      <option name="closed" value="true" />
+      <created>1697763475768</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697763475768</updated>
+    </task>
+    <task id="LOCAL-00011" summary="beautifying">
+      <option name="closed" value="true" />
+      <created>1698109194258</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698109194258</updated>
+    </task>
+    <task id="LOCAL-00012" summary="adding help to classes">
+      <option name="closed" value="true" />
+      <created>1698109987137</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698109987137</updated>
+    </task>
+    <task id="LOCAL-00013" summary="adding help to classes">
+      <option name="closed" value="true" />
+      <created>1698110542455</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1698110542455</updated>
+    </task>
+    <task id="LOCAL-00014" summary="adding help to classes">
+      <option name="closed" value="true" />
+      <created>1698110632489</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1698110632489</updated>
+    </task>
+    <task id="LOCAL-00015" summary="adding help to classes">
+      <option name="closed" value="true" />
+      <created>1698112206281</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1698112206281</updated>
+    </task>
+    <task id="LOCAL-00016" summary="adding help to classes">
+      <option name="closed" value="true" />
+      <created>1698117274345</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1698117274345</updated>
+    </task>
+    <task id="LOCAL-00017" summary="works">
+      <option name="closed" value="true" />
+      <created>1698194747765</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1698194747765</updated>
+    </task>
+    <task id="LOCAL-00018" summary="works+fixed">
+      <option name="closed" value="true" />
+      <created>1698195251190</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1698195251190</updated>
+    </task>
+    <task id="LOCAL-00019" summary="works+fixed">
+      <option name="closed" value="true" />
+      <created>1698196468979</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1698196468979</updated>
+    </task>
+    <task id="LOCAL-00020" summary="documents interface">
+      <option name="closed" value="true" />
+      <created>1698199306779</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1698199306779</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added Documents class">
+      <option name="closed" value="true" />
+      <created>1698200416439</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1698200416439</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create" />
+    <MESSAGE value="0.2.1" />
+    <MESSAGE value="0.2.9 - shows a logo" />
+    <MESSAGE value="remove url log" />
+    <MESSAGE value="add ml_providers()" />
+    <MESSAGE value="read new format json" />
+    <MESSAGE value="0.2.11" />
+    <MESSAGE value="error handling" />
+    <MESSAGE value="beautifying" />
+    <MESSAGE value="adding help to classes" />
+    <MESSAGE value="works" />
+    <MESSAGE value="works+fixed" />
+    <MESSAGE value="documents interface" />
+    <MESSAGE value="added Documents class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Documents class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/marcuslion/ml_lib_test.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ml_lib_python$ml_lib_test.coverage" NAME="ml_lib_test Coverage Results" MODIFIED="1698190495077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/ml_lib_python$ml_lib_test__2_.coverage" NAME="ml_lib_test (2) Coverage Results" MODIFIED="1698200354882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/ml_lib_python$ml_lib_test__1_.coverage" NAME="ml_lib_test (1) Coverage Results" MODIFIED="1698192023615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/marcuslion" />
+  </component>
+</project>
