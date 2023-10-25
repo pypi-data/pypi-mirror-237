@@ -1,0 +1,13 @@
+name: esda
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - geopandas
+  - libpysal
+  - mapclassify
+  - matplotlib
+  - numba
+  - pandas
+  - scikit-learn
+  - scipy>=0.11
