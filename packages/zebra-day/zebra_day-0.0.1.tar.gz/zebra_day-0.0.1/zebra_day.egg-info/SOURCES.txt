@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+zebra_day/__init__.py
+zebra_day/print_mgr.py
+zebra_day.egg-info/PKG-INFO
+zebra_day.egg-info/SOURCES.txt
+zebra_day.egg-info/dependency_links.txt
+zebra_day.egg-info/requires.txt
+zebra_day.egg-info/top_level.txt
