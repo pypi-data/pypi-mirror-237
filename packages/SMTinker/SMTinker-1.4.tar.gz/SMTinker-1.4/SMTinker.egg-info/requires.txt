@@ -1,0 +1,3 @@
+easyvenv==1.8
+twine
+pillow
