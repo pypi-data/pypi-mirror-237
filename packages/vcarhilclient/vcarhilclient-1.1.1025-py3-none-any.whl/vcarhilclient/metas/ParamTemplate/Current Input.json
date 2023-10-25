@@ -1,0 +1,67 @@
+{
+    "ChannelID": 2,
+    "DisplayName": "Current Input",
+    "Params": [
+        {
+            "Key": "Max Input Current",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "Double",
+            "DefaultValue": 40.0,
+            "MaxValue": 40.0,
+            "MinValue": 0.0,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "A",
+            "ValidRegExp": ""
+        },
+        {
+            "Key": "Min Input Current",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "Double",
+            "DefaultValue": 0.0,
+            "MaxValue": 40.0,
+            "MinValue": 0.0,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "A",
+            "ValidRegExp": ""
+        },
+        {
+            "Key": "Sample Period",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "UInt32",
+            "DefaultValue": 1000,
+            "MaxValue": 100000000,
+            "MinValue": 10,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "us",
+            "ValidRegExp": ""
+        },
+        {
+            "Key": "Average Windows Size",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "UInt32",
+            "DefaultValue": 1,
+            "MaxValue": 100,
+            "MinValue": 1,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "Sample(s)",
+            "ValidRegExp": ""
+        }
+    ],
+    "COMPU_VTABs": []
+}

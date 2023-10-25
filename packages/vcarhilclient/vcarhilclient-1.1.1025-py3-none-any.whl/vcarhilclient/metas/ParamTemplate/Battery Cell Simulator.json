@@ -1,0 +1,37 @@
+{
+    "ChannelID": 11,
+    "DisplayName": "Battery Cell Simulator",
+    "Params": [
+        {
+            "Key": "Discharge Current Max",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "Double",
+            "DefaultValue": 1.0,
+            "MaxValue": 1000.0,
+            "MinValue": 0.0,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "A",
+            "ValidRegExp": ""
+        },
+        {
+            "Key": "Charge Current Max",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "Double",
+            "DefaultValue": 1.0,
+            "MaxValue": 1000.0,
+            "MinValue": 0.0,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "A",
+            "ValidRegExp": ""
+        }
+    ],
+    "COMPU_VTABs": []
+}

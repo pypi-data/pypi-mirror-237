@@ -1,0 +1,37 @@
+{
+    "ChannelID": 3,
+    "DisplayName": "Current Output",
+    "Params": [
+        {
+            "Key": "Max Output Current",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "Double",
+            "DefaultValue": 40.0,
+            "MaxValue": 40.0,
+            "MinValue": 0.0,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "A",
+            "ValidRegExp": ""
+        },
+        {
+            "Key": "Min Output Current",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "Double",
+            "DefaultValue": 0.0,
+            "MaxValue": 40.0,
+            "MinValue": 0.0,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "A",
+            "ValidRegExp": ""
+        }
+    ],
+    "COMPU_VTABs": []
+}

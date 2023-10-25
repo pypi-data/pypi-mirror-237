@@ -1,0 +1,68 @@
+{
+    "ChannelID": 0,
+    "DisplayName": "Voltage Input",
+    "Params": [
+        {
+            "Key": "Max Input Voltage",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "Double",
+            "DefaultValue": 40.0,
+            "MaxValue": null,
+            "MinValue": null,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "V",
+            "ValidRegExp": ""
+        },
+        {
+            "Key": "Min Input Voltage",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "Double",
+            "DefaultValue": 0.0,
+            "MaxValue": null,
+            "MinValue": null,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "V",
+            "ValidRegExp": ""
+        },
+        {
+            "Key": "Sample Period",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "UInt32",
+            "DefaultValue": 1000,
+            "MaxValue": null,
+            "MinValue": null,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "us",
+            "ValidRegExp": ""
+        },
+        {
+            "Key": "Average Windows Size",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "UInt32",
+            "DefaultValue": 1,
+            "MaxValue": null,
+            "MinValue": null,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "Sample(s)",
+            "ValidRegExp": ""
+        }
+
+    ],
+    "COMPU_VTABs": []
+}

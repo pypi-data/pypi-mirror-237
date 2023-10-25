@@ -1,0 +1,22 @@
+{
+    "ChannelID": 29,
+    "DisplayName": "Power Ctrl",
+    "Params": [
+        {
+            "Key": "Reference Source Select",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "UInt8",
+            "DefaultValue": 101,
+            "MaxValue": 103,
+            "MinValue": 1,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "",
+            "ValidRegExp": ""
+        }
+    ],
+    "COMPU_VTABs": []
+}

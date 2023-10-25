@@ -1,0 +1,67 @@
+{
+    "ChannelID": 5,
+    "DisplayName": "Digital Output",
+    "Params": [
+        {
+            "Key": "Polarity",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "UInt8",
+            "DefaultValue": 0,
+            "MaxValue": 1,
+            "MinValue": 0,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "",
+            "ValidRegExp": ""
+        },
+        {
+            "Key": "Drive Type",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "UInt8",
+            "DefaultValue": 1,
+            "MaxValue": 255,
+            "MinValue": 0,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "",
+            "ValidRegExp": ""
+        },
+        {
+            "Key": "Reference Source Select",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "UInt8",
+            "DefaultValue": 101,
+            "MaxValue": 103,
+            "MinValue": 1,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "",
+            "ValidRegExp": ""
+        },
+        {
+            "Key": "Start State",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "UInt8",
+            "DefaultValue": 0,
+            "MaxValue": 1,
+            "MinValue": 0,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "",
+            "ValidRegExp": ""
+        }
+    ],
+    "COMPU_VTABs": []
+}

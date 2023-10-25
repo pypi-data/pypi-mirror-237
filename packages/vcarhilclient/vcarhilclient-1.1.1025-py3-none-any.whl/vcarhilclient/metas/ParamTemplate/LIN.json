@@ -1,0 +1,55 @@
+{
+    "ChannelID": 18,
+    "DisplayName": "LIN",
+    "Params": [
+
+        {
+            "Key": "Bit Rate",
+            "Group": "Bus Parameters",
+            "IsArray": false,
+            "DataType": "Int32",
+            "DefaultValue": 9600,
+            "MaxValue": 115200,
+            "MinValue": 4800,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": 1,
+            "RefVTAB": "",
+            "Unit": "bps",
+            "ValidRegExp": ""
+        },
+        {
+            "Key": "Checksum Type",
+            "Group": "Bus Parameters",
+            "IsArray": false,
+            "DataType": "Int8",
+            "DefaultValue": 0,
+            "MaxValue": 1,
+            "MinValue": 0,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": 1,
+            "RefVTAB": "lin_chksm_type_table",
+            "Unit": "",
+            "ValidRegExp": ""
+        }
+    ],
+    "COMPU_VTABs": [
+
+        {
+            "Name": "lin_chksm_type_table",
+            "ConversionType": "TAB_VERB",
+            "DEFAULT_VALUE": "0",
+            "Description": "",
+            "NumberValuePairs": 2,
+            "InValList": [
+                0,
+                1
+            ],
+            "OutValList": [
+                "Classic",
+                "Enhanced"
+            ]
+        }
+    ]
+}

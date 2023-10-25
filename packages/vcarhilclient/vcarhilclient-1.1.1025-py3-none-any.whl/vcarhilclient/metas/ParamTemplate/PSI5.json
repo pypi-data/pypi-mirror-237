@@ -1,0 +1,835 @@
+{
+  "ChannelID": 21,
+  "DisplayName": "PSI5",
+  "Params": [
+    {
+      "Key": "PSI Mode",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt8",
+      "DefaultValue": 0,
+      "MaxValue": 1,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "psi_mode_table",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Bitrate",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt8",
+      "DefaultValue": 0,
+      "MaxValue": 2,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "psi_bitrate_table",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Check Type",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt8",
+      "DefaultValue": 0,
+      "MaxValue": 1,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "psi_check_type_table",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Slot Number",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt8",
+      "DefaultValue": 1,
+      "MaxValue": 4,
+      "MinValue": 1,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Cycle Time",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt16",
+      "DefaultValue": 0,
+      "MaxValue": 65535,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "us",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Slot Time",
+      "Group": "Channel Parameters",
+      "IsArray": true,
+      "DataType": "UInt16",
+      "DefaultValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MaxValue": 65535,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": 4,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Slot Start Time",
+      "Group": "Channel Parameters",
+      "IsArray": true,
+      "DataType": "UInt16",
+      "DefaultValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MaxValue": 65535,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": 4,
+      "RefVTAB": "",
+      "Unit": "us",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Slot Frame Start Time",
+      "Group": "Channel Parameters",
+      "IsArray": true,
+      "DataType": "UInt16",
+      "DefaultValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MaxValue": 65535,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": 4,
+      "RefVTAB": "",
+      "Unit": "us",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Slot Messaging Bits",
+      "Group": "Channel Parameters",
+      "IsArray": true,
+      "DataType": "UInt8",
+      "DefaultValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MaxValue": 2,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": 4,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Slot Frame Ctrl Bits",
+      "Group": "Channel Parameters",
+      "IsArray": true,
+      "DataType": "UInt8",
+      "DefaultValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MaxValue": 4,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": 4,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Slot Frame Ctrl Mode",
+      "Group": "Channel Parameters",
+      "IsArray": true,
+      "DataType": "UInt8",
+      "DefaultValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MaxValue": 1,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": 4,
+      "RefVTAB": "frame_ctrl_mode_table",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Slot Status Bits",
+      "Group": "Channel Parameters",
+      "IsArray": true,
+      "DataType": "UInt8",
+      "DefaultValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MaxValue": 2,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": 4,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Slot Region B Bits",
+      "Group": "Channel Parameters",
+      "IsArray": true,
+      "DataType": "UInt8",
+      "DefaultValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MaxValue": 12,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": 4,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Slot Region A Bits",
+      "Group": "Channel Parameters",
+      "IsArray": true,
+      "DataType": "UInt8",
+      "DefaultValue": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "MaxValue": 24,
+      "MinValue": 10,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": 4,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Slot Status",
+      "Group": "Channel Parameters",
+      "IsArray": true,
+      "DataType": "UInt16",
+      "DefaultValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "MaxValue": 65535,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": 4,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Init Mode",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt8",
+      "DefaultValue": 0,
+      "MaxValue": 1,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "psi5_init_mode_table",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Init Wait Time",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt8",
+      "DefaultValue": 0,
+      "MaxValue": 255,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Block Repeats",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt8",
+      "DefaultValue": 1,
+      "MaxValue": 4,
+      "MinValue": 1,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Status Cycle",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt8",
+      "DefaultValue": 1,
+      "MaxValue": 255,
+      "MinValue": 1,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Protocol Revision",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt8",
+      "DefaultValue": 0,
+      "MaxValue": 15,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Block Number",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt8",
+      "DefaultValue": 0,
+      "MaxValue": 255,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Manufacture Code",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt8",
+      "DefaultValue": 0,
+      "MaxValue": 255,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Sensor Type",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt8",
+      "DefaultValue": 0,
+      "MaxValue": 255,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Sensor Parameter",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt8",
+      "DefaultValue": 0,
+      "MaxValue": 255,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Sensor Code",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt8",
+      "DefaultValue": 0,
+      "MaxValue": 255,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Vehicle Code",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt16",
+      "DefaultValue": 0,
+      "MaxValue": 4095,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Production Year",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt16",
+      "DefaultValue": 2023,
+      "MaxValue": 9999,
+      "MinValue": 2001,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Production Month",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt8",
+      "DefaultValue": 1,
+      "MaxValue": 12,
+      "MinValue": 1,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Production Day",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt8",
+      "DefaultValue": 1,
+      "MaxValue": 31,
+      "MinValue": 1,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Specific Data",
+      "Group": "Channel Parameters",
+      "IsArray": true,
+      "DataType": "UInt8",
+      "DefaultValue": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "MaxValue": 255,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": 7,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": ""
+    }
+  ],
+  "COMPU_VTABs": [
+    {
+      "Name": "psi5_init_mode_table",
+      "ConversionType": "TAB_VERB",
+      "DefaultValue": null,
+      "Description": "",
+      "NumberValuePairs": 2,
+      "InValList": [
+        0,
+        1
+      ],
+      "OutValList": [
+        "No Init",
+        "Init"
+      ]
+    },
+    {
+      "Name": "psi_mode_table",
+      "ConversionType": "TAB_VERB",
+      "DefaultValue": null,
+      "Description": "",
+      "NumberValuePairs": 2,
+      "InValList": [
+        0,
+        1
+      ],
+      "OutValList": [
+        "PSI_A",
+        "PSI_P"
+      ]
+    },
+    {
+      "Name": "frame_ctrl_mode_table",
+      "ConversionType": "TAB_VERB",
+      "DefaultValue": null,
+      "Description": "",
+      "NumberValuePairs": 2,
+      "InValList": [
+        0,
+        1
+      ],
+      "OutValList": [
+        "Rolling Counter",
+        "Output F_Data"
+      ]
+    },
+    {
+      "Name": "psi_bitrate_table",
+      "ConversionType": "TAB_VERB",
+      "DefaultValue": null,
+      "Description": "",
+      "NumberValuePairs": 3,
+      "InValList": [
+        0,
+        1,
+        2
+      ],
+      "OutValList": [
+        "125 Kbps",
+        "189 Kbps",
+        "83 Kbps"
+      ]
+    },
+    {
+      "Name": "psi_check_type_table",
+      "ConversionType": "TAB_VERB",
+      "DefaultValue": null,
+      "Description": "",
+      "NumberValuePairs": 2,
+      "InValList": [
+        0,
+        1
+      ],
+      "OutValList": [
+        "P",
+        "CRC"
+      ]
+    }
+  ],
+  "GroupInfo": {
+    "ParamKey": "Slot Number",
+    "GroupType": "Copy",
+    "ExpanderName": {
+      "DisplayNames": {
+        "Chinese": "Slot 配置",
+        "English": "Slot Config"
+      }
+    },
+    "ShowGroup": "True",
+    "GroupList": [
+      {
+        "Params": [
+          {
+            "Key": "Slot Time",
+            "ChildGroup": "Basic Config",
+            "DisplayNames": {
+              "Chinese": "Slot长度",
+              "English": "Slot Time"
+            }
+          },
+          {
+            "Key": "Init Mode",
+            "ChildGroup": "Basic Config",
+            "DisplayNames": {
+              "Chinese": "初始化模式",
+              "English": "Init Mode"
+            }
+          },
+          {
+            "Key": "Slot Start Time",
+            "ChildGroup": "Basic Config",
+            "DisplayNames": {
+              "Chinese": "Slot开始发送时间",
+              "English": "Slot Start Time"
+            }
+          },
+          {
+            "Key": "Slot Frame Start Time",
+            "ChildGroup": "Basic Config",
+            "DisplayNames": {
+              "Chinese": "帧开始发送时间",
+              "English": "Slot Frame Start Time"
+            }
+          },
+          {
+            "Key": "Slot Messaging Bits",
+            "ChildGroup": "Frame Structure",
+            "DisplayNames": {
+              "Chinese": "消息传送位",
+              "English": "Slot Messaging Bits"
+            }
+          },
+          {
+            "Key": "Slot Frame Ctrl Bits",
+            "ChildGroup": "Frame Structure",
+            "DisplayNames": {
+              "Chinese": "帧控制位",
+              "English": "Slot Frame Ctrl Bits"
+            }
+          },
+          {
+            "Key": "Slot Frame Ctrl Mode",
+            "ChildGroup": "Frame Structure",
+            "DisplayNames": {
+              "Chinese": "帧控制模式",
+              "English": "Slot Frame Ctrl Mode"
+            }
+          },
+          {
+            "Key": "Slot Region B Bits",
+            "ChildGroup": "Frame Structure",
+            "DisplayNames": {
+              "Chinese": "数据区域B",
+              "English": "Slot Region B Bits"
+            }
+          },
+          {
+            "Key": "Slot Status Bits",
+            "ChildGroup": "Frame Structure",
+            "DisplayNames": {
+              "Chinese": "状态位",
+              "English": "Slot Status Bits"
+            }
+          },
+          {
+            "Key": "Slot Region A Bits",
+            "ChildGroup": "Frame Structure",
+            "DisplayNames": {
+              "Chinese": "数据区域A",
+              "English": "Slot Region A Bits"
+            }
+          },
+          {
+            "Key": "Init Wait Time",
+            "ChildGroup": "Init Config",
+            "DisplayNames": {
+              "Chinese": "初始化等待时间",
+              "English": "Init Wait Time"
+            }
+          },
+          {
+            "Key": "Slot Status",
+            "ChildGroup": "Init Config",
+            "DisplayNames": {
+              "Chinese": "Slot状态",
+              "English": "Slot Status"
+            }
+          },
+          {
+            "Key": "Status Cycle",
+            "ChildGroup": "Init Config",
+            "DisplayNames": {
+              "Chinese": "状态循环次数",
+              "English": "Status Cycle"
+            }
+          },
+          {
+            "Key": "Protocol Revision",
+            "ChildGroup": "Init Config",
+            "DisplayNames": {
+              "Chinese": "协议版本",
+              "English": "Protocol Revision"
+            }
+          },
+          {
+            "Key": "Block Number",
+            "ChildGroup": "Init Config",
+            "DisplayNames": {
+              "Chinese": "数据块数量",
+              "English": "Block Number"
+            }
+          },
+          {
+            "Key": "Manufacture Code",
+            "ChildGroup": "Init Config",
+            "DisplayNames": {
+              "Chinese": "生产代码",
+              "English": "Manufacture Code"
+            }
+          },
+          {
+            "Key": "Sensor Type",
+            "ChildGroup": "Init Config",
+            "DisplayNames": {
+              "Chinese": "传感器类型",
+              "English": "Sensor Type"
+            }
+          },
+          {
+            "Key": "Sensor Parameter",
+            "ChildGroup": "Init Config",
+            "DisplayNames": {
+              "Chinese": "传感器参数",
+              "English": "Sensor Parameter"
+            }
+          },
+          {
+            "Key": "Sensor Code",
+            "ChildGroup": "Init Config",
+            "DisplayNames": {
+              "Chinese": "传感器代码（传感器）",
+              "English": "Sensor Code"
+            }
+          },
+          {
+            "Key": "Vehicle Code",
+            "ChildGroup": "Frame Structure",
+            "DisplayNames": {
+              "Chinese": "传感器代码（整车）",
+              "English": "Vehicle Code"
+            }
+          },
+          {
+            "Key": "Production Date",
+            "ChildGroup": "Init Config",
+            "DisplayNames": {
+              "Chinese": "生产日期",
+              "English": "Manufacture Date"
+            }
+          },
+          {
+            "Key": "Production Year",
+            "ChildGroup": "Init Config",
+            "DisplayNames": {
+              "Chinese": "生产年",
+              "English": "Manufacture Date"
+            }
+          },
+          {
+            "Key": "Production Month",
+            "ChildGroup": "Init Config",
+            "DisplayNames": {
+              "Chinese": "生产月",
+              "English": "Manufacture Date"
+            }
+          },
+          {
+            "Key": "Production Day",
+            "ChildGroup": "Init Config",
+            "DisplayNames": {
+              "Chinese": "生产日",
+              "English": "Manufacture Date"
+            }
+          },
+          {
+            "Key": "Specific Data",
+            "ChildGroup": "Init Config",
+            "DisplayNames": {
+              "Chinese": "特定传感器数据",
+              "English": "Specific Data"
+            }
+          }
+        ],
+        "ChildGroups": [
+          {
+            "Key": "Basic Config",
+            "DisplayNames": {
+              "Chinese": "基本配置",
+              "English": "Basic Config"
+            }
+          },
+          {
+            "Key": "Frame Structure",
+            "DisplayNames": {
+              "Chinese": "帧结构",
+              "English": "Frame Structure"
+            }
+          },
+          {
+            "Key": "Init Config",
+            "DisplayNames": {
+              "Chinese": "初始化配置",
+              "English": "Init Config"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+
+    

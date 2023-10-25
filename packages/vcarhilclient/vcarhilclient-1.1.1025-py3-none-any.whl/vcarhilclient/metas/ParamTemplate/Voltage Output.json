@@ -1,0 +1,67 @@
+{
+    "ChannelID": 1,
+    "DisplayName": "Voltage Output",
+    "Params": [
+        {
+            "Key": "Max Output Voltage",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "Double",
+            "DefaultValue": 40.0,
+            "MaxValue": null,
+            "MinValue": null,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "V",
+            "ValidRegExp": ""
+        },
+        {
+            "Key": "Min Output Voltage",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "Double",
+            "DefaultValue": 0.0,
+            "MaxValue": null,
+            "MinValue": null,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "V",
+            "ValidRegExp": ""
+        },
+        {
+            "Key": "External Gain",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "Double",
+            "DefaultValue": 1.0,
+            "MaxValue": null,
+            "MinValue": null,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "",
+            "ValidRegExp": ""
+        },
+        {
+            "Key": "External Offset",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "Double",
+            "DefaultValue": 0.0,
+            "MaxValue": null,
+            "MinValue": null,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "",
+            "ValidRegExp": ""
+        }
+    ],
+    "COMPU_VTABs": []
+}

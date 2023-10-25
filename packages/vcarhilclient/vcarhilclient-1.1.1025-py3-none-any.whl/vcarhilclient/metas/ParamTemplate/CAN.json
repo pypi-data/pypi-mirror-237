@@ -1,0 +1,185 @@
+{
+  "ChannelID": 17,
+  "DisplayName": "CAN",
+  "Params": [
+    {
+      "Key": "Bus Type",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "Int8",
+      "DefaultValue": 0,
+      "MaxValue": 1,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": 1,
+      "RefVTAB": "bus_type_table",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Work Mode",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "Int8",
+      "DefaultValue": 0,
+      "MaxValue": 1,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": 1,
+      "RefVTAB": "bus_mode_table",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Nominal Bit Rate",
+      "Group": "CAN Timing Parameters",
+      "IsArray": false,
+      "DataType": "Int32",
+      "DefaultValue": 500000,
+      "MaxValue": 1000000,
+      "MinValue": 10000,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": 1,
+      "RefVTAB": "",
+      "Unit": "bps",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Nominal Sample Point",
+      "Group": "CAN Timing Parameters",
+      "IsArray": false,
+      "DataType": "Double",
+      "DefaultValue": 75.0,
+      "MaxValue": 99.9,
+      "MinValue": 0.1,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": 1,
+      "RefVTAB": "",
+      "Unit": "%",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Data Bit Rate",
+      "Group": "CAN FD Timing Parameters",
+      "IsArray": false,
+      "DataType": "Int32",
+      "DefaultValue": 500000,
+      "MaxValue": 8000000,
+      "MinValue": 10000,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": 1,
+      "RefVTAB": "",
+      "Unit": "bps",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "Data Sample Point",
+      "Group": "CAN FD Timing Parameters",
+      "IsArray": false,
+      "DataType": "Double",
+      "DefaultValue": 75.0,
+      "MaxValue": 99.9,
+      "MinValue": 0.1,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": 1,
+      "RefVTAB": "",
+      "Unit": "%",
+      "ValidRegExp": ""
+    }
+  ],
+  "COMPU_VTABs": [
+    {
+      "Name": "bus_mode_table",
+      "ConversionType": "TAB_VERB",
+      "DEFAULT_VALUE": "0",
+      "Description": "",
+      "NumberValuePairs": 2,
+      "InValList": [
+        0,
+        1
+      ],
+      "OutValList": [
+        "Normal Mode",
+        "Listen Only Mode"
+      ]
+    },
+    {
+      "Name": "bus_type_table",
+      "ConversionType": "TAB_VERB",
+      "DEFAULT_VALUE": "0",
+      "Description": "",
+      "NumberValuePairs": 2,
+      "InValList": [
+        0,
+        1
+      ],
+      "OutValList": [
+        "CAN",
+        "CAN FD"
+      ]
+    }
+  ],
+  "GroupInfo": {
+    "ParamKey": "Bus Type",
+    "GroupList": [
+      {
+        "TableInVal": 0,
+        "Params": [
+          {
+            "Key": "Nominal Bit Rate",
+            "DisplayNames": {
+              "Chinese": "波特率",
+              "English": "Bit Rate"
+            }
+          },
+          {
+            "Key": "Nominal Sample Point",
+            "DisplayNames": {
+              "Chinese": "采样点",
+              "English": "Sample Point"
+            }
+          }
+        ]
+      },
+      {
+        "TableInVal": 1,
+        "Params": [
+          {
+            "Key": "Nominal Bit Rate",
+            "DisplayNames": {
+              "Chinese": "仲裁段波特率",
+              "English": "Nominal Sample Rate"
+            }
+          },
+          {
+            "Key": "Nominal Sample Point",
+            "DisplayNames": {
+              "Chinese": "仲裁段采样点",
+              "English": "Nominal Sample Rate"
+            }
+          },
+          {
+            "Key": "Data Bit Rate",
+            "DisplayNames": {
+              "Chinese": "数据段波特率",
+              "English": "Data Bit Rate"
+            }
+          },
+          {
+            "Key": "Data Sample Point",
+            "DisplayNames": {
+              "Chinese": "数据段采样点",
+              "English": "Data Bit Rate"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

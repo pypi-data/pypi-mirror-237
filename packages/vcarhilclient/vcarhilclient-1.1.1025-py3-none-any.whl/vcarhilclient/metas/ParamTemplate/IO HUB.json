@@ -1,0 +1,22 @@
+{
+    "ChannelID": 30,
+    "DisplayName": "IO HUB",
+    "Params": [
+        {
+            "Key": "Work Mode",
+            "Group": "Channel Parameters",
+            "IsArray": false,
+            "DataType": "UInt8",
+            "DefaultValue": 0,
+            "MaxValue": 2,
+            "MinValue": 0,
+            "IsRequired": true,
+            "ReadOnly": false,
+            "MaxCapacity": null,
+            "RefVTAB": "",
+            "Unit": "",
+            "ValidRegExp": ""
+        }
+    ],
+    "COMPU_VTABs": []
+}

@@ -1,0 +1,142 @@
+{
+  "ChannelID": 19,
+  "DisplayName": "Ethernet",
+  "Params": [
+    {
+      "Key": "Interface Name",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UTF8",
+      "DefaultValue": "rtpc-eth1",
+      "MaxValue": null,
+      "MinValue": null,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": "rtpc-eth[0-9]+"
+    },
+    {
+      "Key": "MAC Address",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UTF8",
+      "DefaultValue": "00:00:00:00:00:00",
+      "MaxValue": null,
+      "MinValue": null,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": "[0-9a-fA-F]{2}(:[0-9a-fA-F]{2}){5}"
+    },
+    {
+      "Key": "IPv4 Address",
+      "Group": "IPv4 Parameters",
+      "IsArray": false,
+      "DataType": "UTF8",
+      "DefaultValue": "192.168.100.10/24",
+      "MaxValue": null,
+      "MinValue": null,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": "((25[0-5]|2[0-4]\\d|((1\\d{2})|([1-9]?\\d)))\\.){3}(25[0-5]|2[0-4]\\d|((1\\d{2})|([1-9]?\\d)))/(([1-2]?\\d)|(3[0-2]))"
+    },
+    {
+      "Key": "IPv4 Default Gateway",
+      "Group": "IPv4 Parameters",
+      "IsArray": false,
+      "DataType": "UTF8",
+      "DefaultValue": "192.168.100.1",
+      "MaxValue": null,
+      "MinValue": null,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "",
+      "Unit": "",
+      "ValidRegExp": "((25[0-5]|2[0-4]\\d|((1\\d{2})|([1-9]?\\d)))\\.){3}(25[0-5]|2[0-4]\\d|((1\\d{2})|([1-9]?\\d)))"
+    },
+    {
+      "Key": "Speed Mode",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt8",
+      "DefaultValue": 0,
+      "MaxValue": 20,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "speed_mode_table",
+      "Unit": "",
+      "ValidRegExp": ""
+    },
+    {
+      "Key": "PHY Mode",
+      "Group": "Channel Parameters",
+      "IsArray": false,
+      "DataType": "UInt8",
+      "DefaultValue": 0,
+      "MaxValue": 1,
+      "MinValue": 0,
+      "IsRequired": true,
+      "ReadOnly": false,
+      "MaxCapacity": null,
+      "RefVTAB": "phy_mode_table",
+      "Unit": "",
+      "ValidRegExp": ""
+    }
+  ],
+  "COMPU_VTABs": [
+    {
+      "Name": "phy_mode_table",
+      "ConversionType": "TAB_VERB",
+      "DefaultValue": null,
+      "Description": "",
+      "NumberValuePairs": 2,
+      "InValList": [
+        0,
+        1
+      ],
+      "OutValList": [
+        "Slave",
+        "Master"
+      ]
+    },
+    {
+      "Name": "speed_mode_table",
+      "ConversionType": "TAB_VERB",
+      "DefaultValue": null,
+      "Description": "",
+      "NumberValuePairs": 9,
+      "InValList": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        17,
+        18,
+        19,
+        20
+      ],
+      "OutValList": [
+        "Auto",
+        "10M Half Duplex",
+        "100M Half Duplex",
+        "1G Half Duplex",
+        "10G Half Duplex",
+        "10M Full Duplex",
+        "100M Full Duplex",
+        "1G Full Duplex",
+        "10G Full Duplex"
+      ]
+    }
+  ]
+}
