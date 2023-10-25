@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dayutil.egg-info/PKG-INFO
+dayutil.egg-info/SOURCES.txt
+dayutil.egg-info/dependency_links.txt
+dayutil.egg-info/top_level.txt
