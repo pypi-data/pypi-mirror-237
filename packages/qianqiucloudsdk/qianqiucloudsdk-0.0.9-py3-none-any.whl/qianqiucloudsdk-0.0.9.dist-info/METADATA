@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: qianqiucloudsdk
+Version: 0.0.9
+Summary: Qianqiu Cloud SDK
+Author: qianqiusoft
+Author-email: develop@qianqiusoft.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
