@@ -1,0 +1,18 @@
+druida/Architect.py,sha256=933yMhe-Jsr-xJGcIT0KsaNTrEtW8JOnUAuEZah58NQ,5014
+druida/Stack.py,sha256=J2txyhmWKuwctrm2KjwRt0_BNvDTFZtkCeWraaJDiOI,12987
+druida/__init__ copy.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+druida/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+druida/setup.py,sha256=L4-R94NsOg7UR5DN3AI5Lgq6jyXBR2InP9L7aqk_CgM,82
+druida/DataManager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+druida/DataManager/datamanager.py,sha256=4t49ILHjef6MjcmAWFxvx-gx3lCEow4940ZLp9oSuKU,2739
+druida/atom/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+druida/atom/builder.py,sha256=1aeR0Ps5McIWFuJKPboJYH7Zy9UAwnBL5QEHVzJ3GIU,403
+druida/atom/notes.txt,sha256=eUjSj2Ppru02NpsTQpGTfkqJRlTqPYZFbJ_koyovl94,197
+druida/surface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+druida/surface/metasurface.py,sha256=G0d7XnX-2ovITCVz_UYhhWC1dk2OFcioPwsiVMBJBIc,323
+druida/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+druida/tools/toolkit.py,sha256=9xtXGaQlj9Ms8lUrQSuGNYd8PaeZpyDF1xYbOeYmmWI,6145
+druida/tools/utils.py,sha256=26NRLLTFA-X9Wf_J9IsHWBgPZNGSdDrdipzA3IYYzns,1459
+druida-0.0.12.dist-info/METADATA,sha256=GSccPlY9eGK6ARpBkABrmxUcTQ5rqvmsafqiZFtBYbE,6634
+druida-0.0.12.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+druida-0.0.12.dist-info/RECORD,,
