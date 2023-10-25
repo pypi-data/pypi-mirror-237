@@ -1,0 +1,3 @@
+farcaster-py
+blake3
+pynacl
