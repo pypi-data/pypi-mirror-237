@@ -1,0 +1,19 @@
+name: foxlator-lib pull request check
+
+on:
+  pull_request:
+    branches:
+      - dev
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: "Install dependencies"
+        run: ./bin/install-deps.sh
+      - name: "Build wheel package"
+        run: ./bin/build-package.sh
+      - name: "Perform a smoke test"
+        run: ./bin/smoke-test.sh
+      - name: "Run unit tests"
+        run: ./bin/run-tests.sh
