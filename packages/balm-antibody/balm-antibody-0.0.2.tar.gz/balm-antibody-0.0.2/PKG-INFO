@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: balm-antibody
+Version: 0.0.2
+Summary: BALM: Baseline Antibody Language Model
+Home-page: https://github.com/briney/balm
+Author: Bryan Briney
+Author-email: briney@scripps.edu
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BALM: baseline antibody language model
