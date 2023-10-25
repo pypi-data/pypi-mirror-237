@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: akracer
+Version: 0.0.9
+Summary: akracer is next version of py_mini_racer
+Project-URL: Documentation, https://github.com/akfamily/akracer#readme
+Project-URL: Issues, https://github.com/akfamily/akracer/issues
+Project-URL: Source, https://github.com/akfamily/akracer
+Author-email: Alert King <albertandking@gmail.com>
+License-Expression: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+## AKRacer
+
+方便一键安装 py_mini_racer 到本地
+
+### 安装
+
+```bash
+pip install akracer
+```
+
