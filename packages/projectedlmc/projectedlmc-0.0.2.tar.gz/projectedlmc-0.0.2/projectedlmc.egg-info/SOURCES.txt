@@ -1,0 +1,9 @@
+LICENSE
+README.md
+projected_lmc.py
+setup.py
+projectedlmc.egg-info/PKG-INFO
+projectedlmc.egg-info/SOURCES.txt
+projectedlmc.egg-info/dependency_links.txt
+projectedlmc.egg-info/requires.txt
+projectedlmc.egg-info/top_level.txt
