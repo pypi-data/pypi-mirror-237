@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "env"
+version = "0.1.0"
+description = ""
+authors = ["taidao1901 <19522148@gm.uit.edu.vn>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.27.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
