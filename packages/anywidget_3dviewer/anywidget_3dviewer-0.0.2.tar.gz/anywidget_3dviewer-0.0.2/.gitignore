@@ -1,0 +1,14 @@
+node_modules
+.venv
+dist
+
+# Python
+__pycache__
+.ipynb_checkpoints
+_MY_MODEL_DATA.gltf
+
+src/anywidget_3dviewer/static
+
+*.gltf
+
+pypi-AgEIcHlwaS5vcmcCJGIzODliNDA2LTcxOTktNDA1NC05M2NhLTRmNzQ3OTE1ZThkMAACKlszLCI0ZWE5MDNlMS0xZWQ1LTQxOWUtYjY2Mi0yNzExZTY2ZDFkY2MiXQAABiDH0jiValI-F8xzbCf5CSNta8vNTJBW5grXEmI4rgkIqg
