@@ -1,0 +1,3 @@
+[console_scripts]
+wip=wiptools.wip.__main__:wip
+
