@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: codantic
+Version: 0.0.6
+Summary: CocoDataset reader
+Home-page: UNKNOWN
+Author: nghoangdat
+Author-email: 18.hoang.dat.12@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: all
+License-File: LICENSE.txt
+
+
+# Coco format dataset supporter
+
+## Supported tasks
+
+- Object Detection
+- Face Detection
+- Image Captioning
+
+
