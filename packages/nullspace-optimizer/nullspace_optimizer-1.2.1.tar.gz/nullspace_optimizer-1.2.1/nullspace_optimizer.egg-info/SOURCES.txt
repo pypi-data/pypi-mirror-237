@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+nullspace_optimizer/__init__.py
+nullspace_optimizer/inout.py
+nullspace_optimizer/utils.py
+nullspace_optimizer.egg-info/PKG-INFO
+nullspace_optimizer.egg-info/SOURCES.txt
+nullspace_optimizer.egg-info/dependency_links.txt
+nullspace_optimizer.egg-info/requires.txt
+nullspace_optimizer.egg-info/top_level.txt
+nullspace_optimizer/examples/__init__.py
+test/test_advanced_examples.py
+test/test_basic_examples.py
+test/test_topopt_examples.py
