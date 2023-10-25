@@ -1,0 +1,2 @@
+[console_scripts]
+pdbstore = pdbstore.__main__:main
