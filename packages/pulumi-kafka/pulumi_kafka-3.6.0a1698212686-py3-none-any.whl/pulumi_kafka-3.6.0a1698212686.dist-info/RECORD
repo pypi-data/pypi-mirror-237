@@ -1,0 +1,16 @@
+pulumi_kafka/__init__.py,sha256=2fx2CAxtcoc4r8E5SweqzjqQVL5mEUcGPtuJ5SLqWWw,1372
+pulumi_kafka/_utilities.py,sha256=gEJgwmfYYqdEGeUJsGQtt67DByZiBW4wytye4oezFWY,8705
+pulumi_kafka/acl.py,sha256=zkWoXafadHEjP6QdanI65KarC8a48ifqBBh97MV2grY,19646
+pulumi_kafka/get_topic.py,sha256=zqsiLjZCK1wszCrxMY5WQo_-sOly6xvyUYabPDbJ4Sk,3662
+pulumi_kafka/provider.py,sha256=o3R_yTld-eyY0MyV4Ha6mDkXhO-vLFFU5XULVs4SvXQ,27018
+pulumi_kafka/pulumi-plugin.json,sha256=9gDn34S7hRqL4CQzFqVNPZlSylgg2ABMTtsucw9TKL8,42
+pulumi_kafka/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pulumi_kafka/quota.py,sha256=KGGbsASuFcIkoN6q6DRSCn_Y-VuhQHrMQ5dVW2rRZpQ,11231
+pulumi_kafka/topic.py,sha256=GHS6-4JRcMhl_vI77_zqOEpu-Tcnky2ZvIiRou3BZlE,12764
+pulumi_kafka/user_scram_credential.py,sha256=NNNtL-cm9W1gJpYkPD15rbwD4KoW6Nxclgrit9ib8W8,14612
+pulumi_kafka/config/__init__.py,sha256=cfY0smRZD3fDVc93ZIAxEl_IM2pynmXB52n3Ahzi030,285
+pulumi_kafka/config/vars.py,sha256=QjfYTqDm8UdP6KDoAXLwP7My41fVYbtzawINqX3yWmY,3265
+pulumi_kafka-3.6.0a1698212686.dist-info/METADATA,sha256=eAk9oBrUTjLxXco-KtrdjG2heymTocLwGFv2aAkwTKA,3430
+pulumi_kafka-3.6.0a1698212686.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pulumi_kafka-3.6.0a1698212686.dist-info/top_level.txt,sha256=HCtqWX3HYffzpLjMDhzwthd93lraTV-_-aUkZQZOveU,13
+pulumi_kafka-3.6.0a1698212686.dist-info/RECORD,,
