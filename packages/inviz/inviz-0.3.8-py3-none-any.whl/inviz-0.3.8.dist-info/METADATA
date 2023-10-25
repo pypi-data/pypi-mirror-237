@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: inviz
+Version: 0.3.8
+Summary: inviz is now bsavi
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: bsavi
+
+# inviz is now bsavi
+
+This package has been renamed. Use `pip install bsavi` instead.
+
+New package: https://pypi.org/project/bsavi/
