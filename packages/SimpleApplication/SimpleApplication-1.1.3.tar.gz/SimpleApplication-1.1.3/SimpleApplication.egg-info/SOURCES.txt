@@ -1,0 +1,6 @@
+setup.py
+SimpleApplication.egg-info/PKG-INFO
+SimpleApplication.egg-info/SOURCES.txt
+SimpleApplication.egg-info/dependency_links.txt
+SimpleApplication.egg-info/requires.txt
+SimpleApplication.egg-info/top_level.txt
