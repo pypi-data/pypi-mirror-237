@@ -1,0 +1,10 @@
+ycv/__init__.py,sha256=Du4drNRLeyjf8giKFWc9uty29PdNP5MrBlnH4LBNmD8,88
+ycv/publications.py,sha256=iKXC3HMHzTXDODqlwB0UvDuivjQs4WIVeqWkcvhpnTc,2881
+ycv/yamlToTex.py,sha256=SzQgOQwTVXKJRpS7ku8l5ALsrDQV9uZIpawCKvIcgPA,27422
+ycv/ycv.py,sha256=kZp2jXkHlXI4Vn7MX3_56U8ilTaaxGaMumuyvx0_lsU,1503
+ycv-0.0.dev10.dist-info/LICENSE,sha256=mbkODDEe-iLI8-ANjxWAEx3M1aJyvsi3A6-8NSPlTrc,1071
+ycv-0.0.dev10.dist-info/METADATA,sha256=NmqYVzHdf8gtUE_qmEjj5f--_QvKEBZMnlPmLIV8Qxo,3255
+ycv-0.0.dev10.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ycv-0.0.dev10.dist-info/entry_points.txt,sha256=YnRHcVirYywz_PtH88Ob0PfGsgmFlZWRpSLS5-zraWc,48
+ycv-0.0.dev10.dist-info/top_level.txt,sha256=3FwKcpe0H5lsqnEYFQq6wXFwf3cRRnOLJjfvxuCkw3I,4
+ycv-0.0.dev10.dist-info/RECORD,,
