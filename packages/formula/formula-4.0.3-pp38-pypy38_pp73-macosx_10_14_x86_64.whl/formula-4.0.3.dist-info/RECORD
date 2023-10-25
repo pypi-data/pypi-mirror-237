@@ -1,0 +1,11 @@
+formula/__init__.py,sha256=d5Dvkd1cL-voKQpdOOwl7sR-YdnavYSq02jr2FZKXcY,202
+formula/_formula.pypy38-pp73-darwin.so,sha256=93XZrPMvZBaGc9DQHe99aEY6nnteaex5eO_dBmGu9FQ,22418024
+formula/formula.py,sha256=ueQv8hacvHcV6_sFFm_OWxEuy4xelf90YPYNUBtHn-k,7577
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_operations.py,sha256=nX8ZOXgBHlUpglA6xscPomEeE4JNhqpgrlD0gix_rZ0,2898
+tests/test_simple.py,sha256=HIMeU-AMoFfxnx8dkxSGpBx5Fgp-EOSLm7JZypivV5U,9575
+formula-4.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+formula-4.0.3.dist-info/METADATA,sha256=E9UoB1ipNM2ND64bXC5xpMWp17OIpQjkxwn-4QyhUM4,10585
+formula-4.0.3.dist-info/WHEEL,sha256=UsHrdpCjRDiIzyMi9g3CpZ5k16gFgf3LOe717m4Ywn4,117
+formula-4.0.3.dist-info/top_level.txt,sha256=v8opCu9UubaXLzfwOb_7V4IVaoweuatecu-dIYAgDL4,14
+formula-4.0.3.dist-info/RECORD,,
