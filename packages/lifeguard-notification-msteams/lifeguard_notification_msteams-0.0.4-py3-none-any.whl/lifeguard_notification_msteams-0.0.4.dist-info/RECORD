@@ -1,0 +1,7 @@
+lifeguard_notification_msteams/__init__.py,sha256=OVrnbYL7UeCwf00XMZB3UprTZZ2BExYNtdNIF5KokJ8,480
+lifeguard_notification_msteams/notifications.py,sha256=s1Q736aOULVmZIE3HsEuZjflRZOzb_rqqC34NX3iAGk,2372
+lifeguard_notification_msteams/settings.py,sha256=EcRnI8xDd3nDd5h0mJdah5DTU342VsbkdAvd7Yixm8w,382
+lifeguard_notification_msteams-0.0.4.dist-info/METADATA,sha256=uRhhMMCUbB7qsp0GY0tMizC_8ZJli9piHDSeFCaIcac,1154
+lifeguard_notification_msteams-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+lifeguard_notification_msteams-0.0.4.dist-info/top_level.txt,sha256=KFQEsZXV5SJiSwcCqsDliWBRLbea1bJCUmmiyZk7haI,31
+lifeguard_notification_msteams-0.0.4.dist-info/RECORD,,
