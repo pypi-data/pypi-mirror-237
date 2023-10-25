@@ -1,0 +1,6 @@
+setup.py
+amal/__init__.py
+amal.egg-info/PKG-INFO
+amal.egg-info/SOURCES.txt
+amal.egg-info/dependency_links.txt
+amal.egg-info/top_level.txt
