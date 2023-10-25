@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+helascript/__init__.py
+helascript.egg-info/PKG-INFO
+helascript.egg-info/SOURCES.txt
+helascript.egg-info/dependency_links.txt
+helascript.egg-info/top_level.txt
