@@ -1,0 +1,10 @@
+kanbanize_sdk/__init__.py,sha256=Ke5VL7RIUblRSyveqskRI_IwHbRRec1sIJZHbFdMGRQ,122
+kanbanize_sdk/client.py,sha256=CAeESjCtbgw2fMmWhGnymS_3j-Ze1xEnNNrgNe-pkck,219
+kanbanize_sdk/dataclasses.py,sha256=2ToSzUWR707zExGW8LIfIAxKLZWmA48Vi82ca9md324,963
+kanbanize_sdk/generics.py,sha256=advZZDvevCcb5a6sTXNLQAiT8T2GmDuxKf2kCtElcmI,601
+kanbanize_sdk/users.py,sha256=9F27jV53gSjYe1vK7E54DALOAvxDV7RfZE-3KNWnxO0,2289
+kanbanize_sdk/wrapper.py,sha256=61_oxki78UJ61JzRY3-ZJ3ZCkIIzkT696rl6-GzFyJg,1921
+kanbanize_sdk-0.1.3.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+kanbanize_sdk-0.1.3.dist-info/METADATA,sha256=s0GzY8TZXE5S7XGC8ZyxLuts6m9EFMayzSscuMk5Pgk,990
+kanbanize_sdk-0.1.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+kanbanize_sdk-0.1.3.dist-info/RECORD,,
