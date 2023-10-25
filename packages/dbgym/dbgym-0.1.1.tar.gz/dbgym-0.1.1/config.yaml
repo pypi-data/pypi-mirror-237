@@ -1,0 +1,25 @@
+# Example Configuration File for Your Experiment
+
+seed: 42
+log_dir: 'output'
+
+dataset:
+  dir: "Datasets/"
+  name: 'rdb2-bank'
+  file: 'loan.Status'
+  type: 'graph'
+
+train:
+  epoch: 200
+
+model:
+  type: 'GNN'
+  subtype: 'GCN'
+  hidden_dim: 128
+  layer: 4
+
+optim:
+  optimizer: 'adam'
+  lr: 0.001
+  weight_decay: 0.0001
+  scheduler: 'cos'
