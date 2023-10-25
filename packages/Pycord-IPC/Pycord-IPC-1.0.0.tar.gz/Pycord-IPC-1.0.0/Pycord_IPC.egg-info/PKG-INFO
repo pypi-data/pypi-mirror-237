@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: Pycord-IPC
+Version: 1.0.0
+Summary: A high-performance inter-process communication library designed to work with the latest version of py-cord
+Home-page: https://github.com/sampathgujarathi/pycord-ipc
+Author: Sampath
+Author-email: gujarathisampath@gmail.com
+License: MIT License
+Project-URL: Source, https://github.com/sampathgujarathi/pycord-ipc
+Keywords: Pycord-IPC,ipc,python,py-cord
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Communications
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Requires-Dist: websockets>=10.4
+Requires-Dist: py-cord>=2.4.1
+
+# Pycord IPC
+
+<a href="https://pypi.org/project/pycord-ipc/" target="_blank"><img src="https://img.shields.io/pypi/v/pycord-ipc"></a>
+<img src="https://img.shields.io/pypi/pyversions/pycord-ipc">
+
+## High-performance inter-process communication library designed to work with the latest version of [Pycord](https://github.com/Pycord-Development/pycord)
+
+This library is *based* on [Better-IPC](https://github.com/MiroslavRosenov/better-ipc).
+
+# Installation
+> ### Stable version
+#### For Linux
+```shell
+python3 -m pip install -U pycord-ipc
+```
+#### For Windows
+```shell
+py -m pip install -U pycord-ipc
+```
+
+# Examples
+
+### Client example
+```python
+import asyncio
+import websockets
+import discord
+from discord.ext import commands
+from ipc.server import Server
+from ipc.objects import ClientPayload
+
+intents = discord.Intents.all()
+
+bot = discord.Bot(intents=intents)
+ipc = Server(bot, secret_key="🐼")
+
+@bot.event
+async def on_ready():
+    print(f'Logged in as {bot.user.name}')
+
+
+@Server.route()
+async def get_user_data(self,data: ClientPayload):
+    user = bot.get_user(int(data.user_id))
+    return user._to_minimal_user_json()
+
+async def main():
+    await ipc.start()
+    await bot.start('BOT_TOKEN')
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
+
+### Cog example
+```python
+from typing import Dict
+from discord.ext import commands, ipc
+from discord.ext.ipc.server import Server
+from discord.ext.ipc.errors import IPCError
+from discord.ext.ipc.objects import ClientPayload
+
+class Routes(commands.Cog):
+    def __init__(self, bot: commands.Bot):
+        self.bot = bot
+        if not hasattr(bot, "ipc"):
+            bot.ipc = ipc.Server(self.bot, secret_key="🐼")
+    
+    async def cog_load(self):
+        await self.bot.ipc.start()
+
+    async def cog_unload(self):
+        await self.bot.ipc.stop()
+        self.bot.ipc = None
+
+    @Server.route()
+    async def get_user_data(self, data: ClientPayload):
+        user = self.bot.get_user(int(data.user_id))
+        return user._to_minimal_user_json()
+
+async def setup(bot):
+    await bot.add_cog(Routes(bot))
+```
+
+
+### Inside your web application
+```python
+from quart import Quart
+from discord.ext.ipc import Client
+
+app = Quart(__name__)
+ipc = Client(secret_key="🐼")
+
+@app.route('/user/<user>')
+async def main(user):
+    resp = await ipc.request("get_user_data", user_id=user)
+    return str(resp.response)
+
+if __name__ == '__main__':
+    app.run()
+```
