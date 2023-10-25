@@ -1,0 +1,10 @@
+whisper_client/__about__.py,sha256=FMLge4PTKSXbseS8gyf74ykcVJ_KfLZTPGe-kg_b2Ig,124
+whisper_client/__init__.py,sha256=vIPxnDuUP63xR1jxlmgIdqxE94BlxJq2gOJ8aFwwA_g,191
+whisper_client/cli.py,sha256=SAFUX2GGG--3J6hRiEectHu82Rm0hN4FSRbthYeq1hY,5357
+whisper_client/extractAudio.py,sha256=B6k26cvDai0tecywpbPYr78eNfYZegA3zUYUz1Am7tg,1462
+whisper_client/main.py,sha256=DHlOSchP-Mc7GxHa4SlgQO1EjUhvCYYoeETYGw3ci60,15851
+whisper_client-0.0.17.dist-info/METADATA,sha256=XT7Fe9NqIn_70DgyBZ6qm8LijwP2o7HLEW8fcWTNTcE,1538
+whisper_client-0.0.17.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+whisper_client-0.0.17.dist-info/entry_points.txt,sha256=0bXEC5BvjMHK6jzeDAcxhjFjb9KgtWCDDqjDFC6yaaw,58
+whisper_client-0.0.17.dist-info/licenses/LICENSE.txt,sha256=nrXDQjVWNalbUNXoxDgb-I8m6pcQb394TVPyqm6ZT-4,34561
+whisper_client-0.0.17.dist-info/RECORD,,
