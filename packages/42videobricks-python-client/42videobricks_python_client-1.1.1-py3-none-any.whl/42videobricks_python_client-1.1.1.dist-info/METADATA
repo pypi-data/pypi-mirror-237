@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: 42videobricks-python-client
+Version: 1.1.1
+Summary: Official Pyhton client library for 42videobricks API
+Home-page: http://www.42videobricks.com
+Author: 42videobricks
+Keywords: 42videobricks,video,api,client,sdk,rest
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: urllib3 <2.1.0,>=1.25.3
+Requires-Dist: python-dateutil
+Requires-Dist: pydantic <2,>=1.10.5
+Requires-Dist: aenum
+
+    Official Pyhton client library for 42videobricks API.
+    42videobricks is a Video Platform As A Service (VPaaS).
+    
