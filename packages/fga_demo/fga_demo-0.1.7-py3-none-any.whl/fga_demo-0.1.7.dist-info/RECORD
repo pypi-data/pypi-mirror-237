@@ -1,0 +1,14 @@
+fga_demo/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+fga_demo/cli/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+fga_demo/cli/cli.py,sha256=hwa_1qPAFlBH2HsDdRceFgCzxiOHULdO-nqVAavou1c,3502
+fga_demo/cli/state_manager.py,sha256=JEsnL9Fjj01i3i3E2ukdJgcwZt1OWTM8c0jokH4Rhs4,2830
+fga_demo/cli/terraform_interface.py,sha256=eANoNBOQvehyCkvFO4ZqMQDxdAi1rxi4qivuMg_shxI,1467
+fga_demo/cli/utils.py,sha256=udCd4-g0dHGWOOpHWb8GXmwuodTrj3JpkK1gGLzApuE,4561
+fga_demo/cli/validation.py,sha256=E75cVTCXm-ITx0OE1FohiFfWwQvTXPv4xfQKpgD4mSI,4151
+fga_demo/terraform/.gitignore,sha256=xi0GEO7B1LjZjiocKgrZThH-YLd5gPVm7YmmozM7olM,883
+fga_demo/terraform/README.md,sha256=zRnVsGyy6VBMSiYiqrQsIRp04BSOCShP7vtvoNXQMtA,1186
+fga_demo/terraform/main.tf,sha256=x0v3INBiX2BQlcdQpO5BrmzZorL7_fEdlL7C6NGwi2U,384
+fga_demo-0.1.7.dist-info/METADATA,sha256=Q0UNxZfnapn5MMKa-35JImJ8DmG1jCQpgz08h1vi4MY,1873
+fga_demo-0.1.7.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+fga_demo-0.1.7.dist-info/entry_points.txt,sha256=koPildGxOpSlB61RYA3Wqo7NmXYRXM_NXqxm1gcZ0mg,44
+fga_demo-0.1.7.dist-info/RECORD,,
