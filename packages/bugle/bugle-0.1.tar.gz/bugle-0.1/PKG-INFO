@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: bugle
+Version: 0.1
+Summary: A simple investing package
+Author: htm
+Author-email: hari2608@gmail.com
+Description-Content-Type: text/markdown
+
+A simple investing package with basic operations.
