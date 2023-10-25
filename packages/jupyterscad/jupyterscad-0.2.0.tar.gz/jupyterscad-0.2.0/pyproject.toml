@@ -1,0 +1,49 @@
+[project]
+name = "jupyterscad"
+version = "0.2.0"
+authors = [{name = "Jennifer Reiber Kyle"}]
+description = "Solid 3D Cad (SCAD) renderer and viewer for Jupyter"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = [
+    "openscad",
+    "scad",
+    "jupyter",
+    "jupyterlab",
+    "notebook",
+    "viewer",
+    "render",
+    "solidpython",
+    "solidpython2"]
+license = {text = "GPLv3"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "numpy-stl",
+    "ipywidgets",
+    "pythreejs",
+]
+
+[project.optional-dependencies]
+test = ["pytest", "solidpython2"]
+docs = ["mkdocs<2", "mkdocs-material<10", "mkdocstrings-python"]
+
+[project.urls]
+Homepage = "https://jreiberkyle.github.io/jupyterscad/"
+Documentation = "https://jreiberkyle.github.io/jupyterscad/"
+Repository = "https://github.com/jreiberkyle/jupyterscad"
+Changelog = "https://github.com/jreiberkyle/jupyterscad/blob/main/CHANGELOG.md"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    'ignore:Sentinel:DeprecationWarning'
+]
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

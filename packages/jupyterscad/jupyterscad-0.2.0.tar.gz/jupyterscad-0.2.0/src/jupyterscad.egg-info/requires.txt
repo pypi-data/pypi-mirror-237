@@ -1,0 +1,12 @@
+numpy-stl
+ipywidgets
+pythreejs
+
+[docs]
+mkdocs<2
+mkdocs-material<10
+mkdocstrings-python
+
+[test]
+pytest
+solidpython2
