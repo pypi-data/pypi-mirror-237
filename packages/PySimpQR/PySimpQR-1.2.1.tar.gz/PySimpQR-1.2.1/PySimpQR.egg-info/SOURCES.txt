@@ -1,0 +1,7 @@
+pyproject.toml
+PySimpQR.egg-info/PKG-INFO
+PySimpQR.egg-info/SOURCES.txt
+PySimpQR.egg-info/dependency_links.txt
+PySimpQR.egg-info/requires.txt
+PySimpQR.egg-info/top_level.txt
+pysimpqr/setup.py

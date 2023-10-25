@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: PySimpQR
+Version: 1.2.1
+Summary: pysimpqr is a module that can help you to create qr codes using only two lines
+Home-page: https://github.com/ranujasanmir/pysimpqr
+Author: PixCap
+License: BSD
+Keywords: qrcode,qr
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.5
+Provides-Extra: PNG
