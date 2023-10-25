@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+ramdom/__init__.py
+ramdom.egg-info/PKG-INFO
+ramdom.egg-info/SOURCES.txt
+ramdom.egg-info/dependency_links.txt
+ramdom.egg-info/not-zip-safe
+ramdom.egg-info/top_level.txt
