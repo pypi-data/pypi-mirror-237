@@ -1,0 +1,9 @@
+galgen/__init__.py,sha256=b3P0TQeZGKSa6JwY2Yqwm4lZUSMebB2BS4RUgxbRZeM,103
+galgen/__main__.py,sha256=K5ROKOTCjWdcgus1KMvt8npcliw0eMqdWBB9-RqhiVg,1185
+galgen/build.py,sha256=7IzFZaSMAknVUBq0dBiiHIlHyt3gnQiNYBfzGZM-pMA,1967
+galgen/index.html.j2,sha256=Df-5iRC4TUovRd-xlrZQFfviJloMNqpK5GGj9ibxhNA,2051
+galgen/init.py,sha256=pCmsNidpEsbRa_5rqsLn27bRdTA--mIbjQibODHXuAM,1255
+galgen-0.2.0.dist-info/METADATA,sha256=V7JvHtBiqRVNy3VsFhmPUldxfaqm7M_Kjzf9YpDUFRQ,1843
+galgen-0.2.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+galgen-0.2.0.dist-info/entry_points.txt,sha256=fvdRYaJebB5aEcNO8X_AWYdFnXupS6_0VMnPjO9XqqM,47
+galgen-0.2.0.dist-info/RECORD,,
