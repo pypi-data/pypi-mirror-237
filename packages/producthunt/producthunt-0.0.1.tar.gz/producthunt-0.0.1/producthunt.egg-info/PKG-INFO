@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: producthunt
+Version: 0.0.1
+Summary: Producthunt API wrapper for python
+Home-page: https://github.com/dariubs/producthunt.py
+Author: Dariush Abbasi
+Author-email: poshtehani@gmail.com
