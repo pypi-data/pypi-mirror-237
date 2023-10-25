@@ -1,0 +1,10 @@
+README.md
+setup.py
+cooler_data_processor/__init__.py
+cooler_data_processor/cooler_data_processor.py
+cooler_data_processor/test_cooler_data_processor.py
+cooler_data_processor.egg-info/PKG-INFO
+cooler_data_processor.egg-info/SOURCES.txt
+cooler_data_processor.egg-info/dependency_links.txt
+cooler_data_processor.egg-info/requires.txt
+cooler_data_processor.egg-info/top_level.txt
