@@ -1,0 +1,8 @@
+README.md
+setup.py
+python/potatoEmail.py
+python/xEmail.py
+xEmail.egg-info/PKG-INFO
+xEmail.egg-info/SOURCES.txt
+xEmail.egg-info/dependency_links.txt
+xEmail.egg-info/top_level.txt
