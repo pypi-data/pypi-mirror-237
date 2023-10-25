@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: llm_autoeval
+Version: 0.1.0
+Summary: A placeholder package for llm_autoeval
+Home-page: https://github.com/flowritecom/llm_autoeval
+Author: Bernardo Garcia del Rio
+Author-email: bernardo@flowrite.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+A placeholder package for llm_autoeval.
