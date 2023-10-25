@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: kanbanize-sdk
+Version: 0.1.1
+Summary: Kanbanize-sdk is a python library for interacting with the official Kanbanize tool environment in version 2.
+License: MIT License (MIT)
+Author: darcivieira
+Author-email: darcivieira.junior@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Docs, https://kanbanize-sdk.readthedocs.io/en/latest/
+Project-URL: GitHub, https://github.com/darcivieira/kanbanize-sdk/tree/main
+Description-Content-Type: text/markdown
+
+# Welcome to Kanbanize SDK
+
+
+Kanbanize-sdk is a python library for interacting with the official Kanbanize tool environment in version 2.
+
+
