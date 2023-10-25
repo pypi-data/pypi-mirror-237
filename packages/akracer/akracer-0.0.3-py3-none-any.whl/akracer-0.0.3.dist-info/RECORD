@@ -1,0 +1,8 @@
+py_mini_racer/__init__.py,sha256=X5vMUou4OZzTCNOXgZwvfJQjk5c-so4Nw8pWYP16fgE,204
+py_mini_racer/libmini_racer.dylib,sha256=UEGXYxcPiBxFwN4xFVNTVxua34TLsBAv1hKGQMzR8qM,15619136
+py_mini_racer/libmini_racer.muslc.so,sha256=5xYp-HK27NGkrN52X88lvNB0H_DNH3l6mdXFgW6479Q,17607304
+py_mini_racer/mini_racer.dll,sha256=7b07BOYEWXUdXBnce4SXcotUsKCz4wdUbsDQRuJeCeQ,12103680
+py_mini_racer/py_mini_racer.py,sha256=TLcu7ZFThDm3MMyzQwaxl8t9X1qhEwCJOX5Kjn96T4c,14745
+akracer-0.0.3.dist-info/METADATA,sha256=5o7ORRw4bueA_QOfQuylxxoeM3i3LzTHfn2urVJr1-U,944
+akracer-0.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+akracer-0.0.3.dist-info/RECORD,,
