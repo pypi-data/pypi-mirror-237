@@ -1,0 +1,10 @@
+pr_properties/__init__.py,sha256=6jcX1c81WEBeP6hnbUZmw26S6U8g7ufRmHVHI784Jh8,73
+pr_properties/pr_properties.py,sha256=tDtPjDWwnDHHmqKXVKF1A2uLT3DSgCA4kg766qhCHUU,4192
+pr_properties/test_case/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pr_properties/test_case/test_properties.py,sha256=hcSkeXvDzcuYKV_MKFm-GzBIg44Uj0Pmcttbf1AiSe0,693
+pr_properties-1.8.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pr_properties-1.8.1.dist-info/METADATA,sha256=GaEDqy6y-Ty8mz5JdSrVpiO1SVBpUq0lOlRyZjczq2E,967
+pr_properties-1.8.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pr_properties-1.8.1.dist-info/license.txt,sha256=9xVaMvPvzCnFlpoFtQRMoXDVdmgvALWXlthqvnIdlMI,590
+pr_properties-1.8.1.dist-info/top_level.txt,sha256=1ZHk8MT_jJ1VxHkkvvmELMzr_iM0D2Tss0x1v2YYH8M,14
+pr_properties-1.8.1.dist-info/RECORD,,
