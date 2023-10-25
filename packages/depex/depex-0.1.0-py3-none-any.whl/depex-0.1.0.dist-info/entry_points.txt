@@ -1,0 +1,2 @@
+[console_scripts]
+depex = depex.cli:main

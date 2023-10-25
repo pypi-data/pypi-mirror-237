@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: depex
+Version: 0.1.0
+Summary: Extract project requirements from pyproject.toml.
+Author-email: Josh Duncan <joshbduncan@gmail.com>
+License: MIT License
+Keywords: packaging,pyproject,toml,utility
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: black >=23.9.1 ; extra == 'dev'
+Requires-Dist: flake8 >=6.1.0 ; extra == 'dev'
+Requires-Dist: isort >=5.12.0 ; extra == 'dev'
+Requires-Dist: mypy >=1.5.1 ; extra == 'dev'
+Requires-Dist: pre-commit >=3.4.0 ; extra == 'dev'
+Requires-Dist: pytest >=7.4.2 ; extra == 'dev'
+Requires-Dist: pytest-cov >=4.1.0 ; extra == 'dev'
+Requires-Dist: ruff >=0.0.292 ; extra == 'dev'
+
+# DepEx
+
+Extract Python project dependencies from a `pyproject.toml` file.
+
+## Why?
+
+I haven't completely dropped `requirements.txt` and `requirements-dev.txt` files yet so this helps me keep them in sync with the dependencies I have listed in the `pyproject.toml` file.
+
+
+## Usage
+
+Just provide the path to a Python project directory or a `pyproject.toml` file and extract base dependencies, optional dependencies, or all dependencies from the `pyproject.toml` file.
+
+```bash
+# generate a file with only the base dependencies of a package
+$ depex --no-opts > requirements.txt
+
+# or generate a file with all dependencies (including optional) of a package
+depex > requirements-dev.txt
+```
+
+## Help
+
+
+```bash
+$ depex -h
+usage: depex [-h] [--opts | --no-opts] [--version] path
+
+Extract Python project requirements from a `pyproject.toml` file.
+
+positional arguments:
+  path               path to a project directory or pyproject.toml file
+
+options:
+  -h, --help         show this help message and exit
+  --opts, --no-opts  include all dependencies
+  --version          show program's version number and exit
+
+Copyright 2023 Josh Duncan (joshbduncan.com)
+```

@@ -1,0 +1,10 @@
+depex/__init__.py,sha256=daK06KqkcWDZTSMJnSQrfh4NiRsIU7BOWpI6x6NfyVo,342
+depex/__main__.py,sha256=4JMK66Wj4uLZTKbF-sT3LAxOsr6buig77PmOkJCRRxw,83
+depex/cli.py,sha256=YjfOwnmK3hXWpYnzygN-oFKRr-ekIRXr1cVtLlul24Y,1872
+depex/extractor.py,sha256=vlzH-R3XRDzkcgPeuiZATMalzMV8js_Lj40luEoXRvw,1983
+depex-0.1.0.dist-info/LICENSE,sha256=hPy241x3IaXeG-Cd_KFPR0Lf_ULBTE-MprO40oZrb24,1078
+depex-0.1.0.dist-info/METADATA,sha256=M1IHBGouUIQvhmK-DnJZaOUh1vEL2knRhj1bYZmt13A,2279
+depex-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+depex-0.1.0.dist-info/entry_points.txt,sha256=_Jb76wcvBFyy6Cs6KGwSPqRi6Y6bgC_OT22bce64-Mc,41
+depex-0.1.0.dist-info/top_level.txt,sha256=3bKhKkLtPHfOe6nB3neyej2UNZakx9uAM1U6zD9iGJo,6
+depex-0.1.0.dist-info/RECORD,,
