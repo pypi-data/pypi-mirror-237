@@ -1,0 +1,5 @@
+build
+craft_application
+docs
+tests
+venv
