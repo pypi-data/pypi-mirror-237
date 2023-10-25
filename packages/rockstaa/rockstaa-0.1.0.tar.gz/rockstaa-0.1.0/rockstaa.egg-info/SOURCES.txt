@@ -1,0 +1,6 @@
+setup.py
+rockstaa/__init__.py
+rockstaa.egg-info/PKG-INFO
+rockstaa.egg-info/SOURCES.txt
+rockstaa.egg-info/dependency_links.txt
+rockstaa.egg-info/top_level.txt
