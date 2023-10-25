@@ -1,0 +1,9 @@
+markdown_crawler/__init__.py,sha256=xI7AIqmUVvWPAKxZG8TNnFyi9nrooQmvBbM-HJ0pLDc,10432
+markdown_crawler/cli.py,sha256=EEKPhip4RJ0HSCYVvG-dyiUt-Bx6uz0VbB9kWl58B_E,2579
+markdown_crawler/html2text.py,sha256=bAc55dxaw1GVzq6dGLJ7M6yhenKobOZ0fcTUv8A-mbw,32100
+markdown_crawler-0.0.6.dist-info/LICENSE.txt,sha256=OVdHNEP5cy-oNMKbloqtmrR1w3Pyor24uA0IBoB9FAc,1063
+markdown_crawler-0.0.6.dist-info/METADATA,sha256=uAvtdgtXHWgsQGNsRKs6jPB_kSeoLpjpxE4KVwvTIOk,6174
+markdown_crawler-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+markdown_crawler-0.0.6.dist-info/entry_points.txt,sha256=hwAveDFQVQ74345h5OPIQ5mLsvCy_2eN7Su_XvYweAk,63
+markdown_crawler-0.0.6.dist-info/top_level.txt,sha256=USAEYalQRUDvJ-CuM40OaoGky6ygbV3VGz2N9CCY6lo,17
+markdown_crawler-0.0.6.dist-info/RECORD,,
