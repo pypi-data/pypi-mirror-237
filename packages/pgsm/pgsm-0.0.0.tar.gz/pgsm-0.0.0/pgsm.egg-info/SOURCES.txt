@@ -1,0 +1,8 @@
+README.md
+StateManager.py
+pyproject.toml
+pgsm.egg-info/PKG-INFO
+pgsm.egg-info/SOURCES.txt
+pgsm.egg-info/dependency_links.txt
+pgsm.egg-info/requires.txt
+pgsm.egg-info/top_level.txt
