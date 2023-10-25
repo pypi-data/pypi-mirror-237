@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pycxsim
+Version: 0.1.4
+Summary: PyCxsim is a framework to simulate computational agents in a confined environment.
+Home-page: https://github.com/Aatamte/PyCxsim
+Author: Aaron Tamte
+Author-email: aaron2804@gmail.com
+License: MIT
+Keywords: Artificial Intelligence,Simulation
+Requires-Python: >=3.8
+License-File: LICENSE
