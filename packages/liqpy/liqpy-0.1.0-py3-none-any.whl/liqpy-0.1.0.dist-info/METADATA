@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: liqpy
+Version: 0.1.0
+Summary: Unofficial Python libary for LiqPay API
+Home-page: https://github.com/rostyq/liqpy
+Author: Rostyslav Bohomaz
+Author-email: Rostyslav Bohomaz <rostyslav.db@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/rostyq/liqpy
+Keywords: liqpay,api
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: secret-type
+
+# LiqPy
+
+LiqPy -- unofficial python library for [LiqPay API](https://www.liqpay.ua/documentation/api/)
