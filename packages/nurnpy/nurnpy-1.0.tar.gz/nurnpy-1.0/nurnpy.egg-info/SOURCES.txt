@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+nurnpy/__init__.py
+nurnpy.egg-info/PKG-INFO
+nurnpy.egg-info/SOURCES.txt
+nurnpy.egg-info/dependency_links.txt
+nurnpy.egg-info/not-zip-safe
+nurnpy.egg-info/top_level.txt
