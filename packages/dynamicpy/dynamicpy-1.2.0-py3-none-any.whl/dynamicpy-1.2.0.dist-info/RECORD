@@ -1,0 +1,9 @@
+dynamicpy/__init__.py,sha256=cM2fYcgx6pDEWa-xm_69BWMS0Z38dv1URyRipF5r0Ag,1141
+dynamicpy/dependencies.py,sha256=Up1f15bKqYqIQb5RKan_VR9rQNOdV7LiXKtTk_mz-Ig,3932
+dynamicpy/errors.py,sha256=I-q7jeLEwOToTu5vhDRogFndV-XcMYH-usB1Hr7Nlf0,1056
+dynamicpy/loader.py,sha256=w1gmwou1fRchjEyoQk2P5Zp3XLOttNO1qz88C4lBE4k,7130
+dynamicpy/utils.py,sha256=vyMXmQzgADurDGWjDnsd0LNy59a9ALMHySCHHT_2-pI,5604
+dynamicpy/widgets.py,sha256=-NEZydtWVRWG1uc7W9lRvQ6cuqj2Fd9YZyglffBwhnA,2658
+dynamicpy-1.2.0.dist-info/METADATA,sha256=ZyQKvL9aMSwPomcdCgcz5scGPLol5_qUmMGkZsr8QeE,3986
+dynamicpy-1.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+dynamicpy-1.2.0.dist-info/RECORD,,
