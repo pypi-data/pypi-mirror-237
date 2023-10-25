@@ -1,0 +1,7 @@
+README.md
+setup.py
+Strawberry_PI.egg-info/PKG-INFO
+Strawberry_PI.egg-info/SOURCES.txt
+Strawberry_PI.egg-info/dependency_links.txt
+Strawberry_PI.egg-info/top_level.txt
+strawberry_pi/__init__.py
