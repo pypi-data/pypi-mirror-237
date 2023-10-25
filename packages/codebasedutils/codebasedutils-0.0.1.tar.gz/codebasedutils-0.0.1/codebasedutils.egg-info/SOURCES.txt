@@ -1,0 +1,12 @@
+README.md
+setup.py
+codebasedutils.egg-info/PKG-INFO
+codebasedutils.egg-info/SOURCES.txt
+codebasedutils.egg-info/dependency_links.txt
+codebasedutils.egg-info/entry_points.txt
+codebasedutils.egg-info/requires.txt
+codebasedutils.egg-info/top_level.txt
+core/__init__.py
+core/main.py
+tests/__init__.py
+tests/test_tree.py
