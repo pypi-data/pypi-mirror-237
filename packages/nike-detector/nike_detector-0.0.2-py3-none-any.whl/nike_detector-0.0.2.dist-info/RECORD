@@ -1,0 +1,10 @@
+src/console.py,sha256=Vg07nPxz54wS7VNGSHao3j04wEU8aGkyJrJwXfpANNk,4795
+src/dataset/avatars.py,sha256=eDM0S6MK9DSWbrKmzhMf572GylsZF8dPP1kQqjp_pmM,6987
+src/dataset/collect_brands_data.py,sha256=zq_uTuTF3tLHn_mqgViToLhYvyhxJvNzSunKVWaFdEc,3333
+src/dataset/constants.py,sha256=9CARfC-p3buOQrP7EmeT9qV6KkqYT6gSzAaugeVR8cQ,309
+src/nike_detector/service/service.py,sha256=-uCibY0qMbzrD9m1v4erQWgrqFtOLdm7WIKtrZvcrCQ,2761
+src/nike_detector/service/train.py,sha256=LCzNDdshksftgO2QUwgDr4Ctoy2B-k03CmZbcdjQgu8,42
+nike_detector-0.0.2.dist-info/METADATA,sha256=QMIJVWn9REMmucqrkKeCA5TaMYaW3jrPXsdQ_sgIUy8,332
+nike_detector-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+nike_detector-0.0.2.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+nike_detector-0.0.2.dist-info/RECORD,,
