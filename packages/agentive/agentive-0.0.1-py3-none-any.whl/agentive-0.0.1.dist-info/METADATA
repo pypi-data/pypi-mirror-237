@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: agentive
+Version: 0.0.1
+Summary: Python-based framework for building modular and extensible conversational agents
+Author: Morningside AI
+Requires-Python: >=3.6
+Requires-Dist: requests
+Requires-Dist: pandas
+
