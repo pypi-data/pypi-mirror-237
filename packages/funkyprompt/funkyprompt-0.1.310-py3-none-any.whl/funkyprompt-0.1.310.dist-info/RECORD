@@ -1,0 +1,8 @@
+funkyprompt/__init__.py,sha256=ApeVmQOZrkUOSEmQd3-iF8RoGA4WA2P5rNYoyxOzqsY,26
+funkyprompt/cli.py,sha256=ar-1Qbq87iOfYBMMNYGep-28mOFLPBNU9juOxCUR6XY,299
+funkyprompt/ops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funkyprompt/ops/decorators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funkyprompt-0.1.310.dist-info/METADATA,sha256=PwYDtR-I7ayx63WKlgCv2GtjZ4x0zsyIuuPE4dIu3pc,1480
+funkyprompt-0.1.310.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+funkyprompt-0.1.310.dist-info/entry_points.txt,sha256=jNBlLLGBtCeZx4MulyGWwB_n-BdowAZU2o-nKy7H3y8,47
+funkyprompt-0.1.310.dist-info/RECORD,,
