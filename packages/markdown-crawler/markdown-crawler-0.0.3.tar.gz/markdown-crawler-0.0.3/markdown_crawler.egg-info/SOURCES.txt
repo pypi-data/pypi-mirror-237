@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+markdown_crawler/__init__.py
+markdown_crawler/html2text.py
+markdown_crawler.egg-info/PKG-INFO
+markdown_crawler.egg-info/SOURCES.txt
+markdown_crawler.egg-info/dependency_links.txt
+markdown_crawler.egg-info/top_level.txt
