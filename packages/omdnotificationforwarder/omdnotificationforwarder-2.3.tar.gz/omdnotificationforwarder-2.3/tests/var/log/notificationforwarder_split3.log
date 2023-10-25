@@ -1,0 +1,5 @@
+2023-10-24 14:31:28,005 4182574 - DEBUG - Logger initialized.
+2023-10-24 14:31:28,021 4182574 - INFO - formatter /home/lausser/git/noteventificationforhandlerwarder/notificationforwarder/tests/pythonpath/local/lib/python/notificationforwarder/split3/formatter.py
+2023-10-24 14:31:28,022 4182574 - INFO - i bims dem 3 formanger vong dem Klass Split3Formatter
+2023-10-24 14:31:28,022 4182574 - INFO - forwarder /home/lausser/git/noteventificationforhandlerwarder/notificationforwarder/tests/pythonpath/local/lib/python/notificationforwarder/split3/forwarder.py
+2023-10-24 14:31:28,022 4182574 - INFO - forwarded description=halo i bims 1 alarm vong naemon her_omd_site=get https://omd.consol.de/docs/omd_omd_originating_host=HULSE_omd_originating_fqdn=HULSE.consol.lan_omd_originating_timestamp=1698150688
