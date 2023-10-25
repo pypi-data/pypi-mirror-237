@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/st_bordercontainer/__init__.py
+src/st_bordercontainer/frontend/index.html
+src/st_bordercontainer/frontend/main.js
+src/st_bordercontainer/frontend/streamlit-component-lib.js
+src/st_bordercontainer/frontend/style.css
+src/streamlit_bordercontainer.egg-info/PKG-INFO
+src/streamlit_bordercontainer.egg-info/SOURCES.txt
+src/streamlit_bordercontainer.egg-info/dependency_links.txt
+src/streamlit_bordercontainer.egg-info/requires.txt
+src/streamlit_bordercontainer.egg-info/top_level.txt
