@@ -1,0 +1,14 @@
+mapca/__about__.py,sha256=2KNODjFoB1Od0YdeauFZ_XQaDWWqfYvACbLsv4tHI_o,586
+mapca/__init__.py,sha256=I5WHpn5GYe_AD5KNS2dM6X_w4h7gZ0VIWi-A-E_TezE,397
+mapca/_version.py,sha256=yBVOKdXLEcTVc7YV7ZPqRXhRDRt-pKrfXxcgHkgPY5g,411
+mapca/mapca.py,sha256=zza-QOhAWmLgoYrw9p4hzL2em3yWjfD5pz-WCABy71I,25468
+mapca/utils.py,sha256=dG-JXdbVFN9yieORW6-dVZQw4WMx_qsyrQheQmlL-0E,8696
+mapca/tests/__init__.py,sha256=i7l4_s02mUSfieL9eHkqJ7VsNc-ie4hEv9LnZbvrsYI,123
+mapca/tests/conftest.py,sha256=8SQK6uxhQzVqDER5tRvprIt6NRmbMO4iy55QtYg6HYQ,1670
+mapca/tests/test_integration.py,sha256=tn1RInp2MDLsnj2buZ0W1ELbUgWEdHHM92fFhzqJBU0,977
+mapca/tests/test_mapca.py,sha256=KxuckHPNUDXGe6TVc9CJQv_iSB0f3g03m8qnZyV4cDI,3290
+mapca/tests/test_utils.py,sha256=8e51uQxSDWMvdLydknB7MCrZRs6jxBQDEFPrDmwAPcI,3439
+mapca-0.0.4.dist-info/METADATA,sha256=A5sC7geW6P2f5KAy_c2iMPQZdtZTeu4vGLNS8XtmvUE,24328
+mapca-0.0.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+mapca-0.0.4.dist-info/licenses/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+mapca-0.0.4.dist-info/RECORD,,
