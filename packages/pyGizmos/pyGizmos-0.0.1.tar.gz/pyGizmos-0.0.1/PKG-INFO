@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyGizmos
+Version: 0.0.1
+Summary: This Python package brings you quick, easy, and fun tools to help you with Python development.
+Home-page: https://replit.com/@GrkDev/pyGizmos
+Author: GrkDev
+Author-email: thedevgrk@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+#   pyGizmos
+##  Made by GrkDev
+### Contact at thedevgrk@gmail.com
+
+#### This Python Package is used to give yourself fun and useful tools when writing your Python programs!
