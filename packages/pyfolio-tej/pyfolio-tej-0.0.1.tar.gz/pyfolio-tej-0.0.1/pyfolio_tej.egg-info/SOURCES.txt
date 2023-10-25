@@ -1,0 +1,5 @@
+setup.py
+pyfolio_tej.egg-info/PKG-INFO
+pyfolio_tej.egg-info/SOURCES.txt
+pyfolio_tej.egg-info/dependency_links.txt
+pyfolio_tej.egg-info/top_level.txt
