@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: chainbase-lib
+Version: 0.0.2
+Summary: Common chainbase libraries
+License: MIT
+Author: Eric Robinson
+Requires-Python: >=3.11,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aimbase (>=0.0.4a3,<0.0.5)
+Requires-Dist: langchain (>=0.0.316,<0.0.317)
+Requires-Dist: openai (>=0.28.1,<0.29.0)
+Description-Content-Type: text/markdown
+
+Chainbase common libraries, see `chainbase` pip package for more info.

@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "chainbase-lib"
+version = "0.0.2"
+description = "Common chainbase libraries"
+authors = ["Eric Robinson"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "chainbase"}]
+
+[tool.poetry.dependencies]
+python = "~3.11"
+aimbase = "^0.0.4a3"
+langchain = "^0.0.316"
+openai = "^0.28.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
