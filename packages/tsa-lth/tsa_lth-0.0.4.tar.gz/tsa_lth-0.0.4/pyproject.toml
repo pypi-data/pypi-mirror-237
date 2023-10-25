@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "tsa_lth"
+version = "0.0.4"
+authors = [
+  { name="Filipp Lernbo", email="fi6418le-s@student.lu.se" },
+  { name="Gustaf von Grothusen", email="gustaf.grothusen@gmail.com" },
+]
+description = "Package for time series analysis course on LTH"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies=[
+    "filterpy==1.4.5",
+    "matplotlib==3.7.1",
+    "nfoursid==1.0.1",
+    "pandas==2.1.0",
+    "scipy==1.11.0",
+    "statsmodels==0.14.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/andreasjak/TimeSeriesAnalysis"
+"Bug Tracker" = "https://github.com/andreasjak/TimeSeriesAnalysis/issues"
