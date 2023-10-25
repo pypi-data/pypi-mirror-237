@@ -1,0 +1,3 @@
+[console_scripts]
+gpt-synthesizer = gpt_synthesizer.main:main
+gpt-synthesizer-streamlit = gpt_synthesizer.run_app:main
