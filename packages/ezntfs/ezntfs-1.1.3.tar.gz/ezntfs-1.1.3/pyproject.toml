@@ -1,0 +1,36 @@
+[project]
+name = "ezntfs"
+authors = [{ name = "Matt", email = "lezgomatt@gmail.com" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers=[
+    "Environment :: Console",
+    "License :: OSI Approved :: zlib/libpng License",
+    "Operating System :: MacOS :: MacOS X",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: System :: Filesystems",
+    "Topic :: Utilities",
+]
+requires-python=">=3.6"
+dynamic = ["version", "description"]
+
+dependencies = [
+    # The newest version of pyobjc seems to break things.
+    # See: https://github.com/lezgomatt/ezntfs/issues/10
+    "pyobjc <9",
+]
+
+[project.urls]
+Source = "https://github.com/lezgomatt/ezntfs"
+
+[project.scripts]
+ezntfs = "ezntfs.cli:main"
+
+[project.gui-scripts]
+ezntfs-app = "ezntfs.app:main"
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
