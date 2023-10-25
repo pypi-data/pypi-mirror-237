@@ -1,0 +1,11 @@
+lolclient/__init__.py,sha256=l4ObNDyEOa0Tz3tJeGxr0Ul_CFEsE960lf7tIHZ941g,161
+lolclient/champselect.py,sha256=sB4rcLUolbnC27L6IIgk4rJL7x_-AJJ6PhiO8CTGTfc,876
+lolclient/client.py,sha256=gfIGcbS2PPa-poDhFz3_uAbB1Y1MvB0WNttXyQIJZBw,2551
+lolclient/lobby.py,sha256=rzo5T2W9ha0hgWji4-ndJbvR770sO9jW4HemcqrOUqI,3980
+lolclient/lockfile.py,sha256=TiwwiDr5rZlUdcpy7c-27n_HuwD_t47b3wwiNR-4pag,1384
+lolclient/request.py,sha256=SjPS-R9muIomWlIwUwqOozYghPe6--mZSJL7k0LEuCs,1293
+lolclient_lib-0.0.4.dist-info/LICENSE,sha256=lt8lYjM18rzS7jtSinSBXnzStYIoaNkBVyJiOLVAqBs,1069
+lolclient_lib-0.0.4.dist-info/METADATA,sha256=C3OCOTrcGQ8GJ5Rw7UYK-Bwb5RW3RLbPbZX9l_VxJy8,1493
+lolclient_lib-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+lolclient_lib-0.0.4.dist-info/top_level.txt,sha256=L1pPujYzVXVkyHl3_mzn-S8qP4hUeQHQ3UdPKOB_p7k,10
+lolclient_lib-0.0.4.dist-info/RECORD,,
