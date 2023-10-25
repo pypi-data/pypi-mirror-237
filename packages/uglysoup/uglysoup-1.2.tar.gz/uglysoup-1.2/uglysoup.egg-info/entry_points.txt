@@ -1,0 +1,3 @@
+[gui_scripts]
+uglysoup = uglysoup.uglysoup:main_entry_point
+
