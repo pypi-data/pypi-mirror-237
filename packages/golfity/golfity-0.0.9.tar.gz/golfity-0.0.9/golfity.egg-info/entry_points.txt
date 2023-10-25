@@ -1,0 +1,3 @@
+[console_scripts]
+golf = golfity.__main__:_main
+golfity = golfity.__main__:_main
