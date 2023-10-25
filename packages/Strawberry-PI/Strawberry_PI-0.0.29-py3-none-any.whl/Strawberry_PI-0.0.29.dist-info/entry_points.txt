@@ -1,0 +1,2 @@
+[console_scripts]
+kawaii = Forge:main
