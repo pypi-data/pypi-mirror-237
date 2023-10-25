@@ -1,0 +1,11 @@
+mysql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mysql/mysql.py,sha256=pIVhWG6Sm-qLsznQRI3ypE75clh4JtIv6K6E08Ru-wE,35
+qianqiuvideo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qianqiuvideo/mysql.py,sha256=pIVhWG6Sm-qLsznQRI3ypE75clh4JtIv6K6E08Ru-wE,35
+qianqiuvideo/test.py,sha256=DiCOxSgiLLni33CsniKBIYHRgYpDCNyF009LZzcEG4Q,29
+qianqiuvideo-0.0.9.data/scripts/mysql.py,sha256=pIVhWG6Sm-qLsznQRI3ypE75clh4JtIv6K6E08Ru-wE,35
+qianqiuvideo-0.0.9.data/scripts/test.py,sha256=DiCOxSgiLLni33CsniKBIYHRgYpDCNyF009LZzcEG4Q,29
+qianqiuvideo-0.0.9.dist-info/METADATA,sha256=21M29hW3iXO2xspePqVXGDYkYFILoIobeGlffFSCdIE,441
+qianqiuvideo-0.0.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+qianqiuvideo-0.0.9.dist-info/top_level.txt,sha256=UgcvA0P2FvhhMNvgQBmJBserz4enEgajsvpolBEWk6g,13
+qianqiuvideo-0.0.9.dist-info/RECORD,,
