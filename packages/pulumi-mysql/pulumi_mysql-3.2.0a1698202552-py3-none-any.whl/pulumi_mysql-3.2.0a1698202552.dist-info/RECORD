@@ -1,0 +1,16 @@
+pulumi_mysql/__init__.py,sha256=HpeSw9x132gS_rWPEzx8HVb37OYcEv3KOANsymLLQ2c,1478
+pulumi_mysql/_utilities.py,sha256=gEJgwmfYYqdEGeUJsGQtt67DByZiBW4wytye4oezFWY,8705
+pulumi_mysql/database.py,sha256=9-BJy2Knt62heYZzW2HVqBS36nxH9ss_JrCq2bBmMFU,19280
+pulumi_mysql/grant.py,sha256=YNMPb6Y3Ea-ahcnAfG_hsWn5wB6lQ-CJ8RBXAKA_Yxw,29297
+pulumi_mysql/provider.py,sha256=77T72xrNlYPMLtoWy2xQHfkeiUTJz0SoCBNpWkOD73Q,11724
+pulumi_mysql/pulumi-plugin.json,sha256=QaW4JzwwCAujmh5hdFEO7prRyZdHJNTic_g5A9FlABU,42
+pulumi_mysql/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pulumi_mysql/role.py,sha256=xazHIOTpE-b93tI-Bke1OawF1D8BmGZfYfJVY1v33JE,6539
+pulumi_mysql/user.py,sha256=IRGmL9mXmH7otfAO9wq-SgyKaMXUe0X6aT1-ncwQD74,25985
+pulumi_mysql/user_password.py,sha256=SG-Cv_sPCIfSUHgEDF_Vc8gDWsnue1FHcswYQ_KIIQQ,14885
+pulumi_mysql/config/__init__.py,sha256=cfY0smRZD3fDVc93ZIAxEl_IM2pynmXB52n3Ahzi030,285
+pulumi_mysql/config/vars.py,sha256=IZCoCYaDVJNJibMF6wswS1D3Lun3K0zmloUUIUWiItw,1377
+pulumi_mysql-3.2.0a1698202552.dist-info/METADATA,sha256=ta3cPqrC2Pla9jERDh3-FpIqKNOuGhYsQvwzb2HyiDo,3203
+pulumi_mysql-3.2.0a1698202552.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pulumi_mysql-3.2.0a1698202552.dist-info/top_level.txt,sha256=YQuDOT73Hwh07Tv1JBugii-IBZGk7_h6aYILJIDAh7w,13
+pulumi_mysql-3.2.0a1698202552.dist-info/RECORD,,
