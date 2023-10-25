@@ -1,0 +1,17 @@
+json_streams/__init__.py,sha256=0ujrJlkVc1Swts7VQaTRufP-aWbfOkJ8qkkVGs1fOXc,4592
+json_streams/_types.py,sha256=35DbVCM5waCT_k00nuwWE7XbMZyLKV1ZLSYvE0uEJPI,188
+json_streams/exceptions.py,sha256=RG8G551LYMrgBRUmx1HgJo5-hfT69Nx2_GsKvMjOekQ,128
+json_streams/files.py,sha256=orrY-gxYMpyjN9kELk3eGl6ba7BFfIgB44lQ16gSnqg,2387
+json_streams/json_iter.py,sha256=4-HAJW1IMxcNdZ9Hg8PfCU1FuWl9MbrziAHNULVencU,3288
+json_streams/jsonl_iter.py,sha256=joIGMbhgFjnmD_KDQ_EAQ3IEItXuywJ0ow-I7LYSOFQ,1822
+json_streams/jsonlib.py,sha256=r1L7_rdENOTycAcHGX81dJ2_nVWoHhMVFR3AE2yb_wA,1468
+json_streams/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+json_streams/backends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+json_streams/backends/be_json.py,sha256=Gv0Z_v0NoqjoDDDiUjfPW00JyLLs_G4y7j1qMyBH8R4,350
+json_streams/backends/be_orjson.py,sha256=_16pR_LL4qS3i6bSaGVc3FPJdGV0wFFO0TsIpU9QgOI,62
+json_streams/encoders/__init__.py,sha256=2vI_ssY5iywTEQ5GyppiSFsORtEAoYiVDV4igx4vaEs,75
+json_streams/encoders/decimal_encoders.py,sha256=DMTLy7Qp8emUQdkGF6rWiBVowgwVt0CNfZT6fySNq9A,157
+json_streams/utility/__init__.py,sha256=7-wkS4NUXiTDGJJcuRQbq3qCK4tq7-WuDC6Z7Fu0nv8,1656
+json_streams-0.13.0.dist-info/METADATA,sha256=wAZOpo_TUmGWtFs5oC39l6c1UPGHfewxRNQ7MOXM9jM,3769
+json_streams-0.13.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+json_streams-0.13.0.dist-info/RECORD,,
