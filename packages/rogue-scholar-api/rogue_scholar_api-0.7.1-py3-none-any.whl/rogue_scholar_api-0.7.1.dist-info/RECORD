@@ -1,0 +1,12 @@
+rogue_scholar_api/__init__.py,sha256=SWBXC1pgwbFRAFr3GRZ7qCNr32nYaopButzH_hLZqLs,10268
+rogue_scholar_api/blogs.py,sha256=C4XWTW-NCD8xrjc8YuLTk57LZh8tj3sAFuimMdShjJU,6310
+rogue_scholar_api/posts.py,sha256=D9jitxZwWBoRYPSZQL06EzlFBrtQdvS6aKBUUYGLGDU,31796
+rogue_scholar_api/schema.py,sha256=2h4NMMasI6u6MKxM4Xh47z28WE-7zX84DmPM7ia2uqw,1200
+rogue_scholar_api/supabase.py,sha256=GHJAqcRjrfbYkz_TowXURP6hiDio31rP_8OtB3TL0gs,1950
+rogue_scholar_api/typesense.py,sha256=RE7dE7cq51jmM_fLCORh7TqClTrSAf9VvX-bAavFUEE,443
+rogue_scholar_api/utils.py,sha256=q7C2Bt7w62D-9915kvBCtmx_5zjSNGcLqaQU4ufV0DY,7874
+rogue_scholar_api-0.7.1.dist-info/LICENSE,sha256=LmP199Rrjib6LIfDm1rWMLfyjbn8DsMg4Bp2SDZ6KC0,1069
+rogue_scholar_api-0.7.1.dist-info/METADATA,sha256=jF3olbYHZRqLmj2fG7O71J7VGDVaARHRMGKU3-emdOc,4851
+rogue_scholar_api-0.7.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+rogue_scholar_api-0.7.1.dist-info/entry_points.txt,sha256=P27Ovz81LaFuDHBwjHMxvNdv5tGhUB3QPTm9vW-2Ezg,47
+rogue_scholar_api-0.7.1.dist-info/RECORD,,
