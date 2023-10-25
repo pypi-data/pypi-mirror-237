@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: anymodality
+Version: 0.1.0
+Summary: Make running Multi-Modal LLM easy.
+Home-page: https://github.com/anymodality/anymodality
+License: MIT
+Author: Joey ZHOU
+Author-email: greyjoeyzhou@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: gradio (>=3.50.2,<4.0.0)
+Requires-Dist: replicate (>=0.15.4,<0.16.0)
+Requires-Dist: sagemaker (==2.192.1)
+Project-URL: Repository, https://github.com/anymodality/anymodality
+Description-Content-Type: text/markdown
+
+# AnyModality
+
+AnyModality is an open-source library to simplify MultiModal LLM inference and deployment.
