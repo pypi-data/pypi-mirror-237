@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "yapeco"
+version = "0.1.0"
+description = "Yet Another Python Envvar Config Object"
+authors = ["Michael Lisano <mlisano@protonmail.com>"]
+readme = "README.md"
+license = "AGPL-3.0-or-later"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,51 @@
+# `yapeco`: Yet Another Python Envvar Config Object
+
+A tiny utility module to access `.env` (and otherwise environment-defined) config values through a Python object. Created out of annoyance with not being able to autocomplete said values.
+
+## Usage
+
+Installation:
+
+```bash
+pip3 install yapeco
+```
+
+A simple example:
+
+```python
+# mock environment
+from os import environ
+environ["API_KEY"] = "abc123"
+environ["DELAY_MSEC"] = "18"
+environ["FEATURE_A_ENABLED"] = "false"
+environ["FEATURE_B_ENABLED"] = "1"
+
+# actual usage
+from yapeco import BaseEnvironment as BaseEnv
+
+class Config(BaseEnv):
+    api_key: str
+    delay_msec: int
+    feature_a_enabled: bool
+    feature_b_enabled: bool
+
+cfg = Config()
+
+cfg.api_key # "abc123"
+cfg.delay_msec # 18
+cfg.feature_a_enabled # False
+cfg.feature_b_enabled # True
+```
+
+## Features
+
+- Primitives such as `str`, `bool`, `int` and `float` are supported (no guarantees with the latter, though)
+- Common boolean config formats (i.e. `VAR=0/1/true/false/True/False`) work as expected
+
+## Development
+
+Run Tests:
+
+```
+poetry run pytest
+```
