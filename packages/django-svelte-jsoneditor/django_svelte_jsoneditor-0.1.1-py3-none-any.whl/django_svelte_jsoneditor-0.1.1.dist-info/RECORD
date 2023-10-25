@@ -1,0 +1,9 @@
+django_svelte_jsoneditor/__init__.py,sha256=pU1hqYNmYsdfjb5__eMuJx26P4pwmMcuL-pnlgLPlNo,85
+django_svelte_jsoneditor/apps.py,sha256=mdLpw6hXi_2JqbeUD57ef5-v5drGLrW9jqeZ1jlghDA,317
+django_svelte_jsoneditor/exceptions.py,sha256=EiFQzTA0THDEm72GzjNrV3L-LRs2nj-EtASx9mcFQDg,81
+django_svelte_jsoneditor/static/django_svelte_jsoneditor/.gitignore,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_svelte_jsoneditor/templates/django_svelte_jsoneditor/.gitignore,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_svelte_jsoneditor-0.1.1.dist-info/LICENSE,sha256=j2MWJdUUrrRPRxu3mQqfvYKkuk2UGUq9G7t7BcTvY9I,1066
+django_svelte_jsoneditor-0.1.1.dist-info/METADATA,sha256=FNsoOi0FrOL89bjpB_Sg0x35B3mnMm3p26yeahLx5-U,3206
+django_svelte_jsoneditor-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+django_svelte_jsoneditor-0.1.1.dist-info/RECORD,,
