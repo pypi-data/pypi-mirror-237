@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: fga_demo
+Version: 0.1.0
+Summary: An event driven governance solution, that provides data cataloguing, profiling and data quality processing after ingestion.
+License: MIT
+Author: Ghana BigSpark
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: boto3 (>=1,<2)
+Requires-Dist: gql (>=3,<4)
+Requires-Dist: rich (>=13,<14)
+Requires-Dist: selenium (>=4,<5)
+Requires-Dist: typer (>=0,<1)
+Requires-Dist: webdriver-manager (>=4,<5)
+Description-Content-Type: text/markdown
+
+# Prototype 3 FGA Project
+
+## Setup
+
+- Create a virtual environment: `conda create -n <env_name> python=3.10`
+- Install the test package uisng the pip install command
+
+## Program use
+
+- run command: `fga start` to initialize project to enter prompts
+- run command: `fga init` to intialize the terraform configuration files
+- run command: `fga --help` to see other commands

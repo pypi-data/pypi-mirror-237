@@ -1,0 +1,3 @@
+[console_scripts]
+fga=src.fga_demo.cli.cli:app
+
