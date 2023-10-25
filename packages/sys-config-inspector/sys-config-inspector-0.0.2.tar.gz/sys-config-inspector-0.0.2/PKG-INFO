@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: sys-config-inspector
+Version: 0.0.2
+Author: Sai (Sai Revanth)
+Author-email: gunji.sairevanth@gmail.com
+Keywords: python,sys-config-inspector,sys-config,inspector,config-inspector,sys config inspector
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
