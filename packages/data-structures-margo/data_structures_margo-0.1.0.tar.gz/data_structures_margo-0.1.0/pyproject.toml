@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "data-structures-margo"
+version = "0.1.0"
+description = "Sample package for experimentation purposes"
+authors = ["Hassou Karim <hassoukarim@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.5"
+numpy = "^1.26.1"
+pandas = "^2.1.1"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
