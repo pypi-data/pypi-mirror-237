@@ -1,0 +1,10 @@
+setup.py
+golfity/__init__.py
+golfity/__main__.py
+golfity/arrays.py
+golfity.egg-info/PKG-INFO
+golfity.egg-info/SOURCES.txt
+golfity.egg-info/dependency_links.txt
+golfity.egg-info/entry_points.txt
+golfity.egg-info/requires.txt
+golfity.egg-info/top_level.txt
