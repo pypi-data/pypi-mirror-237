@@ -1,0 +1,17 @@
+
+[dev]
+black
+bumpver
+isort
+mypy
+pip-tools
+pytest
+ruff
+
+[docs]
+
+[interactive]
+matplotlib
+jupyter
+
+[tests]

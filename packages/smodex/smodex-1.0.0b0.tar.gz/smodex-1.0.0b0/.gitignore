@@ -1,0 +1,11 @@
+*.nc
+__pycache__/
+docs/build/
+docs/source/_static/
+docs/source/_templates/
+sma_test_output/
+smodex/__pycache__/
+smodex/sm_downloaded/
+smodex_test.ipynb
+climatology/
+*.pyc 
