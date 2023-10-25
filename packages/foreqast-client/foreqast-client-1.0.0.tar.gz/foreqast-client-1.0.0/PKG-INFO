@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: foreqast-client
+Version: 1.0.0
+Summary: Python client for requests to the ForeQast API.
+Author: Qiyuan Cai
+Author-email: astral@foreqast.ai
+Requires-Dist: pandas
+Requires-Dist: requests
