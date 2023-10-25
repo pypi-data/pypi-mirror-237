@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: colour-workbench
+Version: 0.1.1
+Summary: A workbench environment for developing colour algorithms.
+Home-page: https://github.com/tjdcs/colour-workbench
+License: BSD-3-Clause
+Author: Tucker Downs
+Author-email: tucker@tjdcs.dev
+Maintainer: Tucker Downs
+Maintainer-email: tucker@tjdcs.dev
+Requires-Python: >=3.10,<3.12
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: colour-datasets
+Requires-Dist: colour-science
+Requires-Dist: colour-specio
+Requires-Dist: matplotlib (>=3.7.1,<4.0.0)
+Requires-Dist: numpy (>=1.25.0,<2.0.0)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: python-tsp (>=0.3.1,<0.4.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: scikit-learn (>=1.2.2,<2.0.0)
+Requires-Dist: scipy (>=1.10.1,<2.0.0)
+Requires-Dist: shapely (>=2.0.1,<3.0.0)
+Requires-Dist: xxhash (>=3.2.0,<4.0.0)
+Project-URL: Repository, https://github.com/tjdcs/colour-workbench
+Description-Content-Type: text/markdown
+
+# Colour Workbench
+
+This project can be used as a environment for
+[colour-developers](github.com/colour-science/colour) or for people interested
+in developing and exploring colour-science in general. 
+
+This workbench template installs colour-science, colour-datasets, and
+colour-specio into your python environment with are contain useful color
+algorithms, data, and spectrometer controls respectively.
+
+
+## Installation
+
+To use this repository you need to install python poetry to manage the
+development environment. Poetry can be installed by following the documentation
+[here](https://python-poetry.org/docs/#installation)
+
+
+After installing `poetry` open a terminal into the project directory and run
+`poetry install`. THen open the project folder in vscode.
+
+In visual studio code make sure to select the correct python environment and
+finally you can start experimenting. A good entry point is to look at the
+[README](colour_workbench/ETC/README.ipynb) in the ETD Display Evaluation folder
+and then start your own notebooks in the [notebooks](notebooks) folder. 
+
+## Test Pattern Generator
+
+There is a test pattern generator project that may be useful in combination with
+this project, details can be found on (its github page)[https://github.com/tjdcs/ETC_TestPatterns]. 
