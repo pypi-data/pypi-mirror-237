@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+PyMsOfa/PyMsOfa.py
+PyMsOfa/PyMsOfa_astrometry.py
+PyMsOfa/PyMsOfa_basic.py
+PyMsOfa/PyMsOfa_earth_attitude.py
+PyMsOfa/PyMsOfa_time.py
+PyMsOfa/__init__.py
+PyMsOfa_python.egg-info/PKG-INFO
+PyMsOfa_python.egg-info/SOURCES.txt
+PyMsOfa_python.egg-info/dependency_links.txt
+PyMsOfa_python.egg-info/top_level.txt
