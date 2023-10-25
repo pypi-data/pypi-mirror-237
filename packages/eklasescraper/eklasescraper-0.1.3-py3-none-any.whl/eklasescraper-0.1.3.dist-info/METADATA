@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: eklasescraper
+Version: 0.1.3
+Summary: Can be used to access e-klase.lv programmatically
+Author-email: Kite8409 <em@em.id.lv>
+Project-URL: Homepage, https://github.com/Kite8409/eklasescraper
+Project-URL: Bug Tracker, https://github.com/Kite8409/eklasescraper/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: lxml
+Requires-Dist: requests
+Requires-Dist: urllib3
+Requires-Dist: DateTime
+
+# E-klase scraper
+
+Can be used to access e-klase.lv programmatically
+
+## Install
+
+1. Clone the repository
+1. Create a Python virtual environment  
+1. Install required packages with `pip install -r requirements`
+
+## Usage
+
+1. Rename `env.example` to `.env`
+1. Configure `.env` with your credentials
+1. Run `python3 example.py` to test if everything works properly
