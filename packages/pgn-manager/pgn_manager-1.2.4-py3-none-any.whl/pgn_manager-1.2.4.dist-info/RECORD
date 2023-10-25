@@ -1,0 +1,8 @@
+filter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filter/pfilter.py,sha256=M2sUolAfJRbDDvadmnBUxCWHmbAwYJewIk-gzhmHy6c,6001
+manager/__init__.py,sha256=GBzzFfr2d8KLAnReV_Rw8V93IEKq8_Jer1RjfIreZzI,97
+manager/pmanager.py,sha256=4Sr6eiBe1XbBzokQDX3Ij0pZKImtmvHET-6ne7JPd-Y,4921
+pgn_manager-1.2.4.dist-info/METADATA,sha256=lMf8xamquGACFJMP8VTTOyEW7d82KjhVa9YqPcTDb9Q,183
+pgn_manager-1.2.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pgn_manager-1.2.4.dist-info/top_level.txt,sha256=EJ_7O_054yMBWZPHS0Ea6nf7areXIZ18_EzbUEFVRJc,15
+pgn_manager-1.2.4.dist-info/RECORD,,
