@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.20231024.0
+-------------
+
+* Use redis streams instead of redis pubsub (#629)
