@@ -1,0 +1,16 @@
+plib/__init__.py,sha256=0djYydNcWCYPn6i4UJF9ynZalYKhSUY9YIiBG3iI5EM,98
+plib/base.py,sha256=uzZ1CwHvErKx9MRsygCQ2pVGC0jykE3Wa0vC3U6wO4o,396
+plib/common_folders.py,sha256=dTd4i6RSVO7arwjxhleDSCeug45b9qVwxra_PayqgKo,1045
+plib/content_properties.py,sha256=anfU4Dfpb-7qv3iFaSkJSZa8LwUPFnTxJCEElGo8ao0,2293
+plib/encryption.py,sha256=--GASq9QIi2-szpCSttQNXFwfY4D4MSCytZSAldGvHo,1974
+plib/extra_functionality.py,sha256=pY5hRZ3bt3X_e1II3fnyWS-wx-APr_XD-bYqolkb9rA,8439
+plib/metadata_properties.py,sha256=M1GDCIBSgsnbE-cAyHTZod4vqvVRK_GWClEQ4n9qjBo,3021
+plib/override.py,sha256=NLgw9jINL8IHUSrPQM57IouQi_LCY7mEBLSi0kbZwzI,3591
+plib/py.typed,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+plib/tags.py,sha256=w_eQN-uQOfGLcTUrql3TqDt_RbYJvuu9f0FVhxM1lxE,1486
+plib/utils.py,sha256=BfGcZTGj2-W8x5ty96uFyHn_BYQLpIoonJ4g_6evHm8,857
+superpathlib-1.2.1.dist-info/LICENSE,sha256=coy5XgzwxQweNZLEXayFiokEKOaK232vkE8TFfBDbFw,1069
+superpathlib-1.2.1.dist-info/METADATA,sha256=6Lb1fnyeRogj8Li5IGz133MZmgU34IBBuBufLLWApiE,3769
+superpathlib-1.2.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+superpathlib-1.2.1.dist-info/top_level.txt,sha256=-V_xRFwJBbUgjbv9DhvFKSZizOCXvDIGZcwqg-jGvks,5
+superpathlib-1.2.1.dist-info/RECORD,,
