@@ -1,0 +1,6 @@
+Click
+tomli
+tomli_w
+PyGithub
+py-console
+tomlkit
