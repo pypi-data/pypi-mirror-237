@@ -1,0 +1,6 @@
+embetter[sentence-tfm]
+lazylines
+rich
+scikit-learn
+skops
+spacy
