@@ -1,0 +1,9 @@
+cscdata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cscdata/ckClient.py,sha256=1SoRbMSFAio105llQ0JKZXcUj_oH96ayasw08ZY9eX8,17238
+cscdata/ckServer.py,sha256=rxM2MKKEexa0FcGYdqSSBNDBgTmjiNxkmaEK__Ue99o,688
+cscdata/map.py,sha256=sTlwG_E9wM_Yd0r7F3sHSybdtVC4QfjEA03X91CevYI,368
+cscdata/utils.py,sha256=dy5FCIxhTE45TJ9weQ0xlxRgyaQIIhRQ1f44utbZuWA,5451
+cscdata-0.0.6.dist-info/METADATA,sha256=NgUwBKfcx6U8KvyxqB0CqRFcgN-BAj-sEmLopdrmZyo,83
+cscdata-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cscdata-0.0.6.dist-info/top_level.txt,sha256=ZN2PrykWVj6zpxCfG-xAqrGQFYOU0f1QyY_2IBWhCds,8
+cscdata-0.0.6.dist-info/RECORD,,
