@@ -1,0 +1,2 @@
+def hah():
+    print('lol')
