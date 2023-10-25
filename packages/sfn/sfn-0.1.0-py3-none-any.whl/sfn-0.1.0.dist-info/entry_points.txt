@@ -1,0 +1,3 @@
+[console_scripts]
+sfn=sfn.__main__:main
+
