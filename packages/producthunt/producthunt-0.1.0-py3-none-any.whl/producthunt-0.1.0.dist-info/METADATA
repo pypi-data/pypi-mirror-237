@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: producthunt
+Version: 0.1.0
+Summary: A Python wrapper on Product Hunt API
+Author: Dariush Abbasi
+Author-email: poshtehani@gmail.com
+Requires-Dist: requests (<3.0.0,>=2.0.0)
+Requires-Dist: graphene (<4.0,>=3.0)
+
