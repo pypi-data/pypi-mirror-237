@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: oarepo-communities
+Version: 4.0.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: oarepo <12,>=11
+Requires-Dist: cachetools
+Provides-Extra: tests
+Requires-Dist: oarepo-model-builder-tests >=4.0.0 ; extra == 'tests'
+Requires-Dist: oarepo-model-builder-drafts >=4.0.0 ; extra == 'tests'
+Requires-Dist: oarepo-model-builder-communities >=4.0.0 ; extra == 'tests'
+
+# OARepo requests
