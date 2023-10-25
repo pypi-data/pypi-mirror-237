@@ -1,0 +1,12 @@
+# ignore dist files of pypi
+/dist/
+# ignore all pycache folders in the project directory
+__pycache__/
+# ignore temp files and directories
+/psplpy/debug/
+/psplpy/temp/
+/psplpy/beta/
+/psplpy/gist*.*
+
+/psplpy/scripts/de_*.*
+/psplpy/scripts/de_*/
