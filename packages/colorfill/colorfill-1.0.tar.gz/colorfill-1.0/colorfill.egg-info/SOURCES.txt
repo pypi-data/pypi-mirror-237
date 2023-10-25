@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+colorfill/__init__.py
+colorfill/test.py
+colorfill.egg-info/PKG-INFO
+colorfill.egg-info/SOURCES.txt
+colorfill.egg-info/dependency_links.txt
+colorfill.egg-info/top_level.txt
