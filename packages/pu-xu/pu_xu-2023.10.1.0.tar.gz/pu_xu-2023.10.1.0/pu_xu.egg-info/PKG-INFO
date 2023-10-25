@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pu-xu
+Version: 2023.10.1.0
+Summary: camera IP setting and logitech xu command package
+Home-page: UNKNOWN
+Author: lorry_rui
+Author-email: lrui@logitech.com
+License: UNKNOWN
+Description: # Project Name
+        
+        **Copyright (c) 2021 lorry_rui**
+        
+        ## IQ Set Usage
+        
+        ```python
+        from pu_xu.IQ_set import iqset
+        test = iqset()
+        test.set_exposure("-2")
+        
+        iq1 = {
+            "zoom": "120",
+            "brightness": "120",
+            "contrast": "119",
+            "saturation": "120",
+            "whitebalance": "4000",
+            "gain": "0",
+            "exposure": "-1",
+            "focus": "2",
+            "sharpness": "120",
+            "pan": "-1",
+            "tilt": "-2"
+        }
+        test.set_whitebalance("3000")
+        test.set_pan("-3")
+        test.set_brightness("120")
+        test.set_exposure("-1")
+        test.set_iq(None, True) ## this one is to set iq to be dfaut
+        test.set_iq(iq1) # this one for load all dictionary setting
+        print(test.reading_iq())
+        
+        ####xu_tde Library  #  this is for logitech camera use only 
+        import xu_tde as lv
+        flag, index, value = lv.checkdevice(PID)  # Flag, 0 means found. If -1 means not found.
+        flag1, value1 = lv.inforXURead(PID, address)
+        flag2, value2 = lv.TestXuRead(PID, address)
+        flag3, value3 = lv.TestXuWrite(PID, address, data)
+        flag4, value4 = lv.VideoXuRead(PID, address)
+        flag5, value5 = lv.VideoXuWrite(PID, zoomaddress, zoom_data)
+        flag6, value6 = lv.EepromWrite(PID, address, val_to_write)
+        flag7, value7 = lv.EepromRead(PID, address)
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
