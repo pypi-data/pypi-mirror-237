@@ -1,0 +1,10 @@
+sflkitlib/__init__.py,sha256=_TWzxXrBZ52q2y-_7rw9UQCX3CcdTqzq7JTMOkgrY5U,74
+sflkitlib/lib.py,sha256=Unsnwaj9IK74lmJHQFXTmkZdxe-wompr-5qnSSSYGkw,5124
+sflkitlib/events/__init__.py,sha256=ejzs7w3OaQzcqx2yfTT_sHvWggS5cl2T2h_W7jmv8jQ,375
+sflkitlib/events/codec.py,sha256=e8zcuvvd2wMVCbr0am_InlsgdKwTDpJcMCvRl-PKATk,6083
+sflkitlib/events/event.py,sha256=M9sEn-4UakzK-USkzyl5L8dmTNylAQDczUdl8pSN7Ek,20399
+sflkitlib-0.0.2.dist-info/LICENSE,sha256=2LdaR9dW23UgECPeZIl7Oekqv0QQj4rK9u32TNdrLqU,1071
+sflkitlib-0.0.2.dist-info/METADATA,sha256=LDfrMn4MFhxLFLF2Muyj3qJ05LqDMv2F6U7brVmfzTo,1798
+sflkitlib-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sflkitlib-0.0.2.dist-info/top_level.txt,sha256=dnz2QPadAhzP-12msJQ3cp1Vh2TjFrqKXEnEVMXMXU8,10
+sflkitlib-0.0.2.dist-info/RECORD,,
