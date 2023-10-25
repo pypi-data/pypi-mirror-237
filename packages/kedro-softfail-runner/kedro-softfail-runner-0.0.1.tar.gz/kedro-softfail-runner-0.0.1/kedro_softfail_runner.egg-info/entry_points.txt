@@ -1,0 +1,2 @@
+[nbdev]
+kedro_softfail_runner = kedro_softfail_runner._modidx:d
