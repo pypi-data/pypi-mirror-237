@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: study_buddy
+Version: 1.0.0
+Summary: A simple package for parsing PDFs to text for Linux and Mac OS
+Author: Michael S.
+Author-email: pypi.6b0s8@simplelogin.com
+License: MIT
+Requires-Dist: pytesseract~=0.3.10
+Requires-Dist: pdf2image~=1.16.3
+Requires-Dist: Pillow~=10.1.0
+Requires-Dist: setuptools~=68.2.0
