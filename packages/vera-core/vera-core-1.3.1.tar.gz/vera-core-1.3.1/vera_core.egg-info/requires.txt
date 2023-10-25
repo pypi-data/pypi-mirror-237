@@ -1,0 +1,9 @@
+trame>=3
+trame-vtk
+trame-vuetify
+trame-plotly
+trame-grid-layout
+h5py
+pandas
+plotly
+vtk
