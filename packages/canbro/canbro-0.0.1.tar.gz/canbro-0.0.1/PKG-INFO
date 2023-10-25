@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: canbro
+Version: 0.0.1
+Summary: Python module for working with Controller Area Network (CAN) messages and signals
+Home-page: https://github.com/lki1354/python-canbro
+Author: Lukas Riegler
+Author-email: lukasantonriegler@gmail.com
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE
+Requires-Dist: can>=3.3
+Requires-Dist: cantools>=36.2
+Requires-Dist: broqer>=1.7
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: coverage; extra == "dev"

@@ -1,0 +1,7 @@
+can>=3.3
+cantools>=36.2
+broqer>=1.7
+
+[dev]
+pytest
+coverage

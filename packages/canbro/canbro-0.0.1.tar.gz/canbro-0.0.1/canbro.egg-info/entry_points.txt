@@ -1,0 +1,2 @@
+[console_scripts]
+canbro = canbro.cli:main
