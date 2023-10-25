@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: citros-data-analysis
+Version: 0.7.13
+Summary: Package for data analysis
+Home-page: https://github.com/lulav/citros_data_analysis
+Author: Yalyalieva
+Author-email: yalyalievalida@gmail.com
+License: LICENSE.txt
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pymongo
+Requires-Dist: pandas
+Requires-Dist: psycopg2-binary
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: gmr
+Requires-Dist: prettytable
+Requires-Dist: termcolor
+Requires-Dist: gql
+Requires-Dist: pyjwt
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+
+Package for data access at Lulav Space
+
+# citros_data_analysis
+Package to query and analyze data from Citros database.
+
+Package containes three modules:
+  - data_access
+  - error_analysis
+  - validation
+
+[Documentation](https://citros.io/doc/docs_data_analysis/)
+
+
+## Readmes
+  - [Workflows readme](.github/workflows/workflow_readme.md) - configure workflows.
+  - [git hooks readme](.githooks/README.md) - set right configureation for git hooks.
+
+## data_access
+
+Module to get information about the batch and to query data from the batch.
+
+[Documentation: data_access](docs/documentation/data_access/)
+
+[Examples: data_access](docs/data_access/)
+
+## error_analysis
+
+Module to analyze errors.
+
+[Documentation: erros_analysis](docs/documentation/error_analysis/)
+
+[Examples: error_analysis](docs/error_analysis/)
+
+## validation
+
+Module to check the simulation results
+
+[Documentation: validation](docs/documentation/validation/)
+
+[Examples: validation](docs/validation/)
