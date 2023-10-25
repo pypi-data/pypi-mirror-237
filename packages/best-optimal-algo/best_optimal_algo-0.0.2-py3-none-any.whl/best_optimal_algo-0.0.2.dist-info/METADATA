@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: best-optimal-algo
+Version: 0.0.2
+Author: Atiq Mansoori
+Author-email: er_asm@outlook.com
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: scikit-learn
+Requires-Dist: xgboost
+Requires-Dist: catboost
+
