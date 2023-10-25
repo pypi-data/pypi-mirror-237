@@ -1,0 +1,16 @@
+TejToolAPI/Error.py,sha256=FJIEpLxuKlDdHL9sbAmizuK1bcJGgNrHbkTd1OZwcRo,197
+TejToolAPI/Map_Dask_API.py,sha256=IR7FIybiAaQvrrU1CJS6klnjqldCXi6G3KtNDa3Two0,27287
+TejToolAPI/TejToolAPI.py,sha256=8cNaL5EHWlrubVpRCvn4CzDHRXDANYhqM-_kuU5Co3A,11980
+TejToolAPI/__init__.py,sha256=QK22avPqrDRm6v3qV765iNrcQpXaoVfVv8Ghh1ctYUE,674
+TejToolAPI/exchange_calendar.py,sha256=v6R1cDSzGwdzFvmQvCHw2FnB1UxeZKj0EmwUksCWb6c,3209
+TejToolAPI/meta_types.py,sha256=M51z5aQKu7aD1pkq6NtGlsiAmhaPXf65kk7uS4_gQbI,1528
+TejToolAPI/parameters.py,sha256=6On4RSyYQHqGZyIN-ae5kIp6GJFAWQfo2MoiTSflt14,1669
+TejToolAPI/tables/all_meta.json,sha256=M1jNdhsGkzOP1RbhpgSUj0YYHWi_Y6G9mO41149LH74,24682
+TejToolAPI/tables/alt_event_meta.json,sha256=RojF0S3h0kMgCGqqhQUSfGBppjKmD-8G_XjqTj79npc,12152
+TejToolAPI/tables/columns_group.xlsx,sha256=r1hxpS3jhENvhKSZHGmKdUQeO2v55dN3dhtQ_IdhIn4,63483
+TejToolAPI/tables/fin_meta.json,sha256=hdLDQPfKvKL_UQLgQTa3nS7msWk3XIjvrDv-7699ILY,10707
+TejToolAPI/tables/stk_meta.json,sha256=9XZ5MvN-sAY34ILaDA90-Q1j3D7tjEtHxFRMfakZjcc,3080
+tej_tool_api-1.0.13.dist-info/METADATA,sha256=Nz6-BVXd54jGet_KjQjwzgzHHTgcsW-_YBvNGJ9lTho,5705
+tej_tool_api-1.0.13.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+tej_tool_api-1.0.13.dist-info/top_level.txt,sha256=dW2x_WwBVlKi0xv_ogQ8cxd8-71igtrC6GmqOF2o6WI,22
+tej_tool_api-1.0.13.dist-info/RECORD,,
