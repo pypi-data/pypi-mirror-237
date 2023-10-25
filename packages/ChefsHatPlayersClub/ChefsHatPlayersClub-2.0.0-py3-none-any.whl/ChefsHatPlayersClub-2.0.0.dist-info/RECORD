@@ -1,0 +1,15 @@
+ChefsHatPlayersClub/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ChefsHatPlayersClub/agents/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ChefsHatPlayersClub/agents/classic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ChefsHatPlayersClub/agents/classic/dql.py,sha256=jaCN55Mcd6zqgdu1Z5BvspcCsoTFQJjd3ha0i18xhn0,11810
+ChefsHatPlayersClub/agents/classic/ppo.py,sha256=IokC3uBTHN-6zsKMqd2kwIl1tSkQs9iyHrL_iGgfDgM,13354
+ChefsHatPlayersClub/agents/karma_camaleon_club/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ChefsHatPlayersClub/agents/karma_camaleon_club/airl.py,sha256=4Du1uzDMlaFdIUoJ19h8jpF1W3UGD-y64VtG2oyJybA,19455
+ChefsHatPlayersClub/agents/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ChefsHatPlayersClub/agents/util/memory_buffer.py,sha256=VX2k6kaWFzlDj-AZrAV7OEe2TTztnQKpku3olRbYoSk,3600
+ChefsHatPlayersClub/agents/util/sum_tree.py,sha256=-BbQHiWsjuSJxKFZ9optJvSUM9FfyTGtSLs0uA3l4os,1492
+ChefsHatPlayersClub-2.0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+ChefsHatPlayersClub-2.0.0.dist-info/METADATA,sha256=pK3f-lZtTGKMF-OBuA707AkrBQGjMiZsMRulfS0R9wA,8123
+ChefsHatPlayersClub-2.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ChefsHatPlayersClub-2.0.0.dist-info/top_level.txt,sha256=bFkn46uDsHms2cJkASLD9ZUdDaSx47rtAJi7i15ADHQ,20
+ChefsHatPlayersClub-2.0.0.dist-info/RECORD,,
