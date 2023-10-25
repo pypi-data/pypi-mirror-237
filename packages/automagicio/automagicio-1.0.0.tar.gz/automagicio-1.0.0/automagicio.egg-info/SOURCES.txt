@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.py
+automagicio/__init__.py
+automagicio/automagicio.py
+automagicio.egg-info/PKG-INFO
+automagicio.egg-info/SOURCES.txt
+automagicio.egg-info/dependency_links.txt
+automagicio.egg-info/top_level.txt
