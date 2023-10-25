@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: lifeguard-notification-msteams
+Version: 0.0.4
+Summary: Lifeguard integration with MS Teams
+Home-page: https://github.com/LifeguardSystem/lifeguard-notification-msteams
+Author: Diego Rubin
+Author-email: contact@diegorubin.dev
+License: GPL2
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Monitoring
+Description-Content-Type: text/markdown
+
+# lifeguard-notification-msteams
+MS Teams Notifications
+
+## Usage
+
+```python
+@validation(
+    "Description",
+    actions=[notify_in_single_message],
+    schedule={"every": {"minutes": 1}},
+    settings={
+        "notification": {
+            "template": "jinja2 string template"
+            "msteams": {
+                "channels": ["channelwebhookurl"],
+            }
+        },
+    },
+)
+def a_validation():
+    return ValidationResponse("a_validation", NORMAL, {}, {"notification": {"notify": True}})
+```
