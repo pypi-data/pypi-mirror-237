@@ -1,0 +1,92 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "depex"
+version = "0.1.0"
+authors = [{ name = "Josh Duncan", email = "joshbduncan@gmail.com" }]
+description = "Extract project requirements from pyproject.toml."
+readme = "README.md"
+requires-python = ">=3.11"
+keywords = ["packaging", "pyproject", "toml", "utility"]
+license = { text = "MIT License" }
+classifiers = [
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Typing :: Typed",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["depex"]
+
+[project.scripts]
+depex = "depex.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "black>=23.9.1",
+    "flake8>=6.1.0",
+    "isort>=5.12.0",
+    "mypy>=1.5.1",
+    "pre-commit>=3.4.0",
+    "pytest>=7.4.2",
+    "pytest-cov>=4.1.0",
+    "ruff>=0.0.292",
+]
+
+# TOOL CONFIGURATION
+
+[tool.black]
+line-length = 88
+exclude = '''
+/(
+    \.git
+  | \.mypy_cache
+  | venv
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+addopts = "--cov=depex"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+omit = ["src/depex/__main__.py"]
+
+[tool.mypy]
+mypy_path = "src"
+check_untyped_defs = true
+disallow_any_generics = true
+ignore_missing_imports = true
+no_implicit_optional = true
+show_error_codes = true
+strict_equality = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+no_implicit_reexport = true
+
+[tool.ruff]
+exclude = [".venv"]
+extend-select = ["C4", "I", "SIM", "TCH"]
+select = ["I001"]
+fixable = ["B", "I"]
+output-format = "grouped"
+line-length = 88
+show-fixes = true
+src = ["src", "test"]
+target-version = "py310"
