@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "easyfaiss"
+version = "0.1.4"
+description = ""
+authors = ["Amar <amar439412@gmail.com>"]
+readme = "README.md"
+packages = [{include = "easyfaiss"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.12"
+faiss-cpu = "^1.7.4"
+numpy = "^1.26.1"
+torch = "^2.1.0"
+transformers = "^4.34.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
