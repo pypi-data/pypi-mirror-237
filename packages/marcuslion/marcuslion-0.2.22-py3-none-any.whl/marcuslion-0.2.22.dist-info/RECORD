@@ -1,0 +1,11 @@
+marcuslion/__init__.py,sha256=01RY93WWcvmLq3SJUYICGemtj2btG_-GjAtk728UPBA,1047
+marcuslion/config.py,sha256=Bc2A5tk8VElXQ-YDaT13-NCMOrdGXP0m9yThf1rnHeo,146
+marcuslion/datasets.py,sha256=S3cCa7QQQ79ThAerhBn80km05aMnqtNUE2zr1jy2dOI,1449
+marcuslion/documents.py,sha256=CyvzQcYJMbaSirQ6bL8UzFnBFyHLbdHf1cYZMJvvZYY,1238
+marcuslion/indicators.py,sha256=kMcAZJrj_eQVm-Gfu4ysQKmuOj8_uCrDmhW3NkYtPGw,1503
+marcuslion/providers.py,sha256=3LceDA124eAWjOTBfhNvz_nGELBj3ug0uMcZrcEEtac,1198
+marcuslion/resources/marcus_lion_logo.jpg,sha256=_63b44_g85S1UeEYbj2Z_cXlv8wg7pxXRBk-_4fDLbY,31684
+marcuslion-0.2.22.dist-info/METADATA,sha256=8bw9y0rYbVibXXah_hDgAX8tqJY8bSD1cxdRxZJM28k,1406
+marcuslion-0.2.22.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+marcuslion-0.2.22.dist-info/licenses/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+marcuslion-0.2.22.dist-info/RECORD,,
