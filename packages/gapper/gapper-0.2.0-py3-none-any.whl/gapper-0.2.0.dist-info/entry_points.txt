@@ -1,0 +1,5 @@
+[console_scripts]
+gap=gapper.cli:app
+gapper=gapper.cli:app
+gradescope-assignment-packer=gapper.cli:app
+
