@@ -1,0 +1,11 @@
+matplotlib
+numpy
+tensorboard
+torch
+torchdiffeq
+tqdm
+umnn
+ninja
+scikit-learn
+pandas<2.0
+h5py
