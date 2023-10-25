@@ -1,0 +1,19 @@
+{% extends 'admin/base.html' %}
+
+{% block title %}Collapsar Admin{% endblock %}
+
+{% block head_scripts %}
+<script>
+    window.Collapsar = {
+      sidebar: {
+        items: {{ dashboard_helper.get_resources_navigation() | json_encode() | safe}}
+      },
+      token: document.head.querySelector('meta[name="csrf-token"]').content,
+      user: {% if auth.user %} {{ auth.user | json_encode() | safe }} {% else %} {{ "null" }} {% endif %}
+    }
+</script>
+{% endblock %}
+
+{% block content %}
+    <h1>Collapsar Admin</h1>
+{% endblock %}
