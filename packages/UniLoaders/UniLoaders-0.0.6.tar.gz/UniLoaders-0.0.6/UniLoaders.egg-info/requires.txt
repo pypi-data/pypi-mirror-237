@@ -1,0 +1,8 @@
+langchain
+pypdf
+unstructured[pdf]
+unstructured[docx]
+unstructured[ppt]
+docx2txt
+unstructured
+pdfminer
