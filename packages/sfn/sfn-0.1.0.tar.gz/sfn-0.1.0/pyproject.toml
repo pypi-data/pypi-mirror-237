@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sfn"
+version = "0.1.0"
+description = ""
+authors = ["Naoya Yamashita <conao3@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.scripts]
+sfn = "sfn.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+boto3 = "^1.28.65"
+pydantic = "^2.4.2"
+
+[tool.poetry.group.dev.dependencies]
+boto3-stubs = {extras = ["stepfunctions"], version = "^1.28.65"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
