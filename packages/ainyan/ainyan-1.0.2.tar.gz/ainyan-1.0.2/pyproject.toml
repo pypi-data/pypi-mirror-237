@@ -1,0 +1,56 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ainyan"
+version = "1.0.2"
+description = 'Helpers for AI training'
+readme = "README.md"
+authors = [{ name = "Nicolas Modrzyk", email = "hellonico@gmail.com" }]
+license = { file = "LICENSE.txt" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["feed", "reader", "tutorial"]
+dependencies = [
+    "setuptools==68.2.2",
+    "datasets==2.14.5",
+    "pandas==2.1.0",
+    "boto3==1.28.*",
+    "python-docx==1.0.1",
+    "simplify_docx==0.1.2",
+    "pypdf2==3.0.1",
+    "python-pptx==0.6.22"
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest","twine"]
+
+[project.urls]
+Homepage = "https://github.com/hellonico/ai.training"
+
+[project.scripts]
+realpython = "ainyan.__main__:main"
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+]
+
+[tool.bumpver]
+current_version = "1.0.2"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message  = "Bump version {old_version} -> {new_version}"
+commit          = true
+tag             = true
+push            = false
+
+#[tool.bumpver.file_patterns]
+#"pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
+#"src/reader/__init__.py" = ["{version}"]
