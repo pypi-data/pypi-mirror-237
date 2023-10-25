@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: idelucs
+Version: 0.1.7
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: <3.12,>=3.9.0
+License-File: LICENCE.md
+Requires-Dist: numpy ==1.24.2
+Requires-Dist: torch ==2.0
+Requires-Dist: cython
+Requires-Dist: matplotlib ==3.7
+Requires-Dist: pandas ==2.0.0
+Requires-Dist: scikit-learn ==1.2.1
+Requires-Dist: scipy ==1.10.1
+Requires-Dist: umap-learn ==0.5.3
+Requires-Dist: hdbscan ==0.8.32
+
+Deep-learning based tool for clustering genomic sequences
