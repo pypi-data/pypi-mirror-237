@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: bdw
+Version: 1.1.1
+Summary: This library is needed to check text for bad words in different languages.
+Home-page: https://github.com/FlacSy/bdw
+Author: FlacSy
+Author-email: flacsy.x@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# bdw (Bad Word Filter)
+
+`bdw` (Bad Word Filter) is a Python library designed to filter text and detect obscene words in several languages (en, pl, de, ru, ua). It allows you to determine whether the text contains obscene words depending on the selected language or in several languages at the same time.
+
+## Installation
+
+You can install `bdw` using `pip`:
+
+```shell
+pip install git+https://github.com/FlacSy/bdw.git
+```
+## Examples
+Example of using bdw (Like `check` example):
+
+```python
+from bdw.check import Check
+
+# Use only Russian language
+filter_ru = Check(languages=['ru'])
+
+# Use all available languages
+filter_all = Check(all=True)
+
+# Use multiple languages
+filter_multiple_languages = Check(languages=['ru', 'en', 'de'])
+
+# Checking the text for obscene words in a specific language
+text = input('Word check: ')
+if filter_ru.filter_profanity(text, language='ru'):
+     print("The text contains obscene words in Russian")
+
+# Checking text for obscene words in all languages
+if filter_all.filter_profanity(text):
+     print("The text contains obscene words in one of the available languages")
+
+```
+Example of using bdw - delete:
+```python
+from bdw.delete import Delete
+
+filter = Delete(languages=['ru']) # Specify supported languages
+text = input('Word check: ')
+filtered_text = filter.filter_profanity(text, language='ru')
+print(filtered_text)
+
+```
+Example of using bdw - replace:
+```python
+from bdw.replace import Replace
+
+filter = Replace()
+text = input('Word check: ')
+filtered_text = filter.filter_profanity(text, language='ru', replacement_text='***')
+print(filtered_text)
+
+```
+Example of using bdw - loader:
+```python
+from bdw.loader import WordsLoader
+
+loader = WordsLoader()
+loader.load_file('you_dir/file_name.txt')
+
+```
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+- [FlacSy](https://github.com/FlacSy)
+
+## Links
+
+- [GitHub repository](https://github.com/FlacSy/bdw)
+- [Discord server](https://discord.gg/c4yNwz3uqZ)
+
