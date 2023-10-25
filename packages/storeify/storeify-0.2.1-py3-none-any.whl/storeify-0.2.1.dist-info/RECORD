@@ -1,0 +1,11 @@
+storeify/__init__.py,sha256=jyVIUXiU29dsGawxSRFjk-XSjwxldchrLVNgyqKMh-8,254
+storeify/base.py,sha256=4lNhSamfblxmpyR6dDr-dZhWnYgAX5K-Dz7OeeDk1q4,2622
+storeify/errors.py,sha256=LLLj8kdDJS0wcffsChkJhfROQbTgPnHdbLgmi2L0WTM,85
+storeify/file.py,sha256=8Cd-HNG389ZD47jqJjjdIUjHPk5cYt0x9NZcx6Q5jjY,1457
+storeify/memory.py,sha256=r-0UnrCiRbJUjc9akRlgoeUTTsb5DGWGSzQjldfOOfA,791
+storeify/shared.py,sha256=llbbNpyAnrmieDqJN_fzreOiD29WkzdMwNDEKWOxEao,663
+storeify/utils.py,sha256=KCnbzl_R57AcV_JGTyk4Gjd4pcEJDpNS8NxYqsyannY,348
+storeify-0.2.1.dist-info/LICENSE,sha256=bqTjETBMkLkITdA_tN_yuLqRDhHGEm93iNmx4-rXvCc,1066
+storeify-0.2.1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+storeify-0.2.1.dist-info/METADATA,sha256=zlnp3lyVsoICmMJLzdL_n1OBRSuBbGFIUr5zqm7icB4,1185
+storeify-0.2.1.dist-info/RECORD,,
