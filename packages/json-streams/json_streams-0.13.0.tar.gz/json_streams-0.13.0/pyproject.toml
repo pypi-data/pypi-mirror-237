@@ -1,0 +1,64 @@
+[project]
+name = "json-streams"
+version = "0.13.0"
+description = "Stream JSON and JSON-Lines lazily."
+authors = [
+    { name = "Kristoffer Andersson", email = "kristoffer.andersson@gu.se" },
+    { name = "Språkbanken at Göteborgs universitet", email = "sb-info@svenska.gu.se" },
+]
+license = "MIT"
+dependencies = [
+    "ijson>=3.2.3",
+]
+readme = "README.md"
+requires-python = ">= 3.9"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    # "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Unix",
+    "Operating System :: POSIX",
+    # "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: Implementation :: CPython",
+    # "uncomment if you test on these interpreters:",
+    # "Programming Language :: Python :: Implementation :: IronPython",
+    # "Programming Language :: Python :: Implementation :: Jython",
+    # "Programming Language :: Python :: Implementation :: Stackless",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/spraakbanken/json-streams-py"
+Repository = "https://github.com/spraakbanken/json-streams-py"
+"Bug Tracker" = "https://github.com/spraakbanken/json-streams-py/issues"
+
+[project.optional-dependencies]
+orjson = [
+    "orjson>=3.9.9",
+]
+ci = [
+    "ruff>=0.1.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.black]
+target-version = ["py39"]
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest>=7.4.2",
+    "bump2version>=1.0.1",
+    "mypy>=1.6.1",
+    "pytest-cov>=4.1.0",
+    "types-orjson>=3.6.2",
+    "black>=23.10.0",
+    "watchfiles>=0.21.0",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
