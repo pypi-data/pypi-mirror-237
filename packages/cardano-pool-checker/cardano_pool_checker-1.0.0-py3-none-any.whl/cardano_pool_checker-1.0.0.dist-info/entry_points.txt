@@ -1,0 +1,3 @@
+[console_scripts]
+cardano-pool-checker=cardano_pool_checker.__main__:main
+
