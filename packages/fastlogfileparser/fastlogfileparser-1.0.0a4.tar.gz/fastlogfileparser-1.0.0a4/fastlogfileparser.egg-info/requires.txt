@@ -1,0 +1,9 @@
+
+[demos]
+ase
+cclib
+
+[dev]
+black
+isort
+pytest
