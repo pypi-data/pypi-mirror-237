@@ -1,0 +1,11 @@
+bgen.libs/libgcc_s-a04fdf82.so.1,sha256=E2_sw1FhiQZsCQiywTDdBDMlSUsazp7QUYpklMz_w_s,81256
+bgen.libs/libstdc++-a9383cce.so.6.0.28,sha256=AQF8xpA7y538aY2feICyHGJkLWgDpwHYribC_iWn8Bw,2447392
+bgen/index.py,sha256=WARyRLJNm4Zoklwxay9DRIsupU_55A-_Xn4YSccNR1w,4057
+bgen/reader.cpython-311-x86_64-linux-musl.so,sha256=lBZm6T2de8UZJjVfBTD15wBn1tHCYYkS3Ds73EeiVD4,6177432
+bgen/writer.cpython-311-x86_64-linux-musl.so,sha256=EH6bx04Wkz8lAJe49Dc9g6Bi6lj129mrJ7CSx4ihhao,3627040
+bgen/__init__.py,sha256=57sH4gXytuv5sE4CapJea4o4411YrJoSMrWeOV1LNqs,171
+bgen-1.5.6.dist-info/RECORD,,
+bgen-1.5.6.dist-info/LICENSE.txt,sha256=8xqsNFTZC7SFBJM4k6bQw8tPn0zUKQJpZwdY6zSFBW0,1053
+bgen-1.5.6.dist-info/top_level.txt,sha256=EoVKryxjZc0vkwDWjnOK0IP3dN4fg8YiKIkBcWB9pqw,5
+bgen-1.5.6.dist-info/WHEEL,sha256=gb8gOzhH6NXKAzoi-Vj9DO7cqA3gH_EyTK4-rgw6Obs,113
+bgen-1.5.6.dist-info/METADATA,sha256=GFtK-laDbuX0-WmGCOaCbhQnKzPymds2xNjnD8AyAx0,4536
