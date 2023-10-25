@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/etal.egg-info/PKG-INFO
+src/etal.egg-info/SOURCES.txt
+src/etal.egg-info/dependency_links.txt
+src/etal.egg-info/entry_points.txt
+src/etal.egg-info/requires.txt
+src/etal.egg-info/top_level.txt

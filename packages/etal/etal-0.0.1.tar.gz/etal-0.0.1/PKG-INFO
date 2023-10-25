@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: etal
+Version: 0.0.1
+Summary: Shorten bibliographies.
+Home-page: https://github.com/benjamindkilleen/etal
+Author: Benjamin D. Killeen
+Author-email: killeen@jhu.edu
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: rich
+Requires-Dist: bibtexparser
+
+# `etal`
+
+A tool for shortening bib files, because apparently no one has written this.
+
+## Installation
+
+```sh
+pip install etal
+```
+
+## Usage
+
+```sh
+etal [-h] [-o OUTPUT] [-v] input
+```
