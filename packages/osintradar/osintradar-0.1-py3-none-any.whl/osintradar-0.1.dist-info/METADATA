@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: osintradar
+Version: 0.1
+Summary: Osintradar free asset malicious checker
+Home-page: https://github.com/makarson/osintradar
+Author: makarson
+Author-email: mali@karson.com.tr
+Project-URL: Documentation, https://github.com/makarson/osintradar
+Project-URL: Bug Reports, https://github.com/makarson/osintradar/issues
+Project-URL: Source Code, https://github.com/makarson/osintradar
+Keywords: osint-radar
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: validators
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+
+
+# How to Install
+```shell
+pip install osintradar
+```
+# How to Use It
+```python
+from osintradar import osintradar
+response = osintradar("test.com")
+print(response)
+```
+
+### Allowed Asset Types
+- Url
+- Domain
+- Ipv4
