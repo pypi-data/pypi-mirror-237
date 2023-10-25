@@ -1,0 +1,16 @@
+mod77/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mod77/accesspoint.py,sha256=8sOCs3mpY4rpB4n_89H56A27xllXfBuR9LvWz5eJjbE,1426
+mod77/audio.py,sha256=PnF4yq4mE5DXuf-7Wus_6UodLsQPjj4wELALV_X_0HE,1526
+mod77/fingerprint.py,sha256=7_Ysj5xWQ0DElN5wI5rjAWrDu6rC-SCrT8bN4O5kWMw,759
+mod77/gps.py,sha256=fgUAJWSVrnazWfFXyAsMT9EjX_NZMcUaIouS7B7a4sY,1524
+mod77/led.py,sha256=64iizqJXzqkVOWegIX_I-z7CuUo_E27HP1btxcyQYiI,814
+mod77/photo_video.py,sha256=G-kwoEIcwhTA32NR2B2WHk4gh8aAG0DRSUgGMXSEpPs,1189
+mod77/rfid.py,sha256=2Kar1GZdlCTAMMGneNH-a9avly0owdw0Ua8RvUIfwgY,2556
+mod77/telegram.py,sha256=CXeKxzy3bdHxS_WET2AIjNjqlN8cT4F34zS5b0qcQjE,3089
+mod77/time_1.py,sha256=w2wxbQbPVUolPGv5xy_nwy54DbjS473uk-ojeLW5pok,1388
+mod77/zero.py,sha256=R5vsiGD5fbk2TWPOAvW4WJNg4Pd_VmikC7fD4ZwcXEo,45
+pylibrnew-0.0.1.dist-info/LICENSE,sha256=ULXMs50oRHbO4j7QNGIU6DS5URQhA-uRkyBJIBz2c3g,1066
+pylibrnew-0.0.1.dist-info/METADATA,sha256=NIjxo7uPeNQcEtOyPnUQnuPusQ1gWA2pu7__b9SZDyc,474
+pylibrnew-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pylibrnew-0.0.1.dist-info/top_level.txt,sha256=XVB6ZEABvZADPZFW_dlkH9cWqV7uV_dgaE5zg4wwP3I,6
+pylibrnew-0.0.1.dist-info/RECORD,,
