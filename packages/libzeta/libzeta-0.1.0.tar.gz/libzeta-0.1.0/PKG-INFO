@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: libzeta
+Version: 0.1.0
+Summary: 
+Author: Cristiano Bilacchi
+Requires-Python: >=3.11,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: matplotlib (>=3.8.0,<4.0.0)
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Requires-Dist: pandas (>=2.1.1,<3.0.0)
+Requires-Dist: scipy (>=1.11.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+

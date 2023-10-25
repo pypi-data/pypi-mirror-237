@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "libzeta"
+version = "0.1.0"
+description = ""
+authors = ["Cristiano Bilacchi"]
+readme = "README.md"
+
+packages = [
+    {include = 'zeta'}
+]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+numpy = "^1.26.1"
+matplotlib = "^3.8.0"
+pandas = "^2.1.1"
+scipy = "^1.11.3"
+
+
+[tool.poetry.group.dev.dependencies]
+blue = "^0.9.1"
+isort = "^5.12.0"
+ipykernel = "^6.25.2"
+taskipy = "^1.12.0"
+
+
+[tool.poetry.group.doc.dependencies]
+mkdocs-material = "^9.4.6"
+mkdocstrings = "^0.23.0"
+mkdocstrings-python = "^1.7.3"
+mkdocs-macros-plugin = "^1.0.4"
+jinja2 = "^3.1.2"
+mkdocs = "^1.5.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+[tool.taskipy.tasks]
+lint = "blue --check --diff . && isort --check --diff ."
+lintfix = "blue . && isort ."
+docs = "mkdocs serve"
