@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pycxsim
+Version: 0.1.4
+Summary: PyCxsim is a framework to simulate computational agents in a confined environment.
+Home-page: https://github.com/Aatamte/PyCxsim
+Author: Aaron Tamte
+Author-email: aaron2804@gmail.com
+License: MIT
+Keywords: Artificial Intelligence,Simulation
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: pandas (>=1.5.2)
+Requires-Dist: numpy (>=1.19.5)
+Requires-Dist: dearpygui (>=1.9.1)
+Requires-Dist: names (>=0.3.0)
+Requires-Dist: openai (~=0.27.8)
+Requires-Dist: importlib-resources (~=5.2.0)
+Requires-Dist: setuptools (~=65.6.3)
+Requires-Dist: pydantic (~=2.3.0)
+Requires-Dist: pathlib (~=1.0.1)
+Requires-Dist: plotly (~=5.9.0)
+Requires-Dist: pip (~=23.0.1)
+Requires-Dist: wheel (~=0.38.4)
+Requires-Dist: brotli (~=1.0.9)
+Requires-Dist: cryptography (~=39.0.1)
+Requires-Dist: lxml (~=4.9.2)
+Requires-Dist: tornado (~=6.2)
+Requires-Dist: keyring (~=23.13.1)
+Requires-Dist: pkginfo (~=1.9.6)
+Requires-Dist: future (~=0.18.3)
+Requires-Dist: docutils (~=0.18.1)
+Requires-Dist: tenacity (~=8.0.1)
+
