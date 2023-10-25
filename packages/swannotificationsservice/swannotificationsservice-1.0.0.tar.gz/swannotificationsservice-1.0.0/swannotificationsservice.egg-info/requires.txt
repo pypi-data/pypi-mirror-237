@@ -1,0 +1,2 @@
+jupyterhub~=4.0.0
+kubernetes~=22.0
