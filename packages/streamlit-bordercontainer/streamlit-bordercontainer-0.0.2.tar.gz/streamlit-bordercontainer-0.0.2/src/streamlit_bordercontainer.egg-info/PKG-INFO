@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: streamlit-bordercontainer
+Version: 0.0.2
+Summary: a box which can set style easily
+Author: wuhui
+Author-email: 18896724614@139.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# streamlit-bordercontainer
+
+a box which can set style easily
+
+## Installation instructions 
+
+```sh
+pip install streamlit-bordercontainer
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+
+from st_bordercontainer import st_bordercontainer
+
+value = st_bordercontainer()
+
+st.write(value)
