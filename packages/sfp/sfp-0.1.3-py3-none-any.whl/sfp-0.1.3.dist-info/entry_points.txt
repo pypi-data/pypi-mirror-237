@@ -1,0 +1,2 @@
+[console_scripts]
+sfp = simple_fast_project.main:run
