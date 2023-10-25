@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+conf.py
+setup.py
+CryptoConf/__init__.py
+CryptoConf/main.py
+CryptoConf.egg-info/PKG-INFO
+CryptoConf.egg-info/SOURCES.txt
+CryptoConf.egg-info/dependency_links.txt
+CryptoConf.egg-info/top_level.txt
