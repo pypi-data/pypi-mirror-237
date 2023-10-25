@@ -1,0 +1,144 @@
+# bamboo-ta
+
+A library with technical analysis indicators for trading. Especially made for use with Pandas dataframes.
+
+## Installation
+
+### Stable version
+
+Install bamboo-ta from Pypi with:
+
+``pip install bamboo-ta``
+
+Or you can install this directly from the Github repository with the following command:
+
+``$ pip install -U git+https://github.com/DutchCryptoDad/bamboo-ta``
+
+### Development version
+
+The bleeding edge development version can be installed with:
+
+``$ pip install -U git+https://github.com/DutchCryptoDad/bamboo-ta.git@development``
+
+## Using the library
+
+Import the library into your Python scripts or Notebook as follows:
+
+``import bamboo_ta as bta``
+
+After this, you can use the libraries technical indicators with:
+
+``df['lsma'] = bta.calculate_lsma(df, 14)``
+
+Example script:
+
+```
+# -*- coding: utf-8 -*-
+# Import necessary libraries
+import pandas_ta as pta
+import bamboo_ta as bta
+import pandas as pd
+from pandas import DataFrame
+import numpy as np
+
+# create dataframe and read the json data in the datasets directory
+df = pd.read_json("./testdata/BTC_USDT-1d.json")
+# name the columns that are loaded into the dataframe
+df.columns = ['date', 'open', 'high', 'low', 'close', 'volume']
+# the date column consists of unix time in milliseconds, so this command changes this data into human readable form.
+df['date'] = (pd.to_datetime(df['date'], unit='ms'))
+
+print(df)  # This command outputs the dataframe
+
+# Using the pandas_ta library
+df['imi_ema'] = pta.ema(close=df['close'], length=7)
+
+df['lsma'] = bta.calculate_lsma(df, 14)  # Using the bamboo_ta library
+
+print(df)
+```
+
+Output:
+
+```
+ /dev
+➜  python test.py 
+           date      open      high       low     close         volume
+0    2017-08-17   4261.48   4485.39   4200.74   4285.08     795.150377
+1    2017-08-18   4285.08   4371.52   3938.77   4108.37    1199.888264
+2    2017-08-19   4108.37   4184.69   3850.00   4139.98     381.309763
+3    2017-08-20   4120.98   4211.08   4032.62   4086.29     467.083022
+4    2017-08-21   4069.13   4119.62   3911.79   4016.00     691.743060
+...         ...       ...       ...       ...       ...            ...
+1967 2023-01-05  16850.36  16879.82  16753.00  16831.85  163473.566410
+1968 2023-01-06  16831.85  17041.00  16679.00  16950.65  207401.284150
+1969 2023-01-07  16950.31  16981.91  16908.00  16943.57  104526.568800
+1970 2023-01-08  16943.83  17176.99  16911.00  17127.83  135155.896950
+1971 2023-01-09  17127.83  17398.80  17104.66  17178.26  266211.527230
+
+[1972 rows x 6 columns]
+           date      open      high       low     close         volume       imi_ema          lsma
+0    2017-08-17   4261.48   4485.39   4200.74   4285.08     795.150377           NaN           NaN
+1    2017-08-18   4285.08   4371.52   3938.77   4108.37    1199.888264           NaN           NaN
+2    2017-08-19   4108.37   4184.69   3850.00   4139.98     381.309763           NaN           NaN
+3    2017-08-20   4120.98   4211.08   4032.62   4086.29     467.083022           NaN           NaN
+4    2017-08-21   4069.13   4119.62   3911.79   4016.00     691.743060           NaN           NaN
+...         ...       ...       ...       ...       ...            ...           ...           ...
+1967 2023-01-05  16850.36  16879.82  16753.00  16831.85  163473.566410  16737.537534  16633.800286
+1968 2023-01-06  16831.85  17041.00  16679.00  16950.65  207401.284150  16790.815651  16678.202286
+1969 2023-01-07  16950.31  16981.91  16908.00  16943.57  104526.568800  16829.004238  16746.722286
+1970 2023-01-08  16943.83  17176.99  16911.00  17127.83  135155.896950  16903.710678  16816.734571
+1971 2023-01-09  17127.83  17398.80  17104.66  17178.26  266211.527230  16972.348009  16930.485143
+
+[1972 rows x 8 columns]
+```
+
+
+## Creating the Python pip package (personal notes)
+
+After creating and testing the code, make a Python pip package as follows:
+
+In the library folder, create the package
+
+``python3 setup.py sdist bdist_wheel``
+
+Before uploading the package to Pypi it is wise to test the package on your system.
+
+Load the package to the system with:
+
+``pip install .``
+
+After you've checked that everything is worknig correctly, then use the following command to upload to Pypi.
+You'll have to install twine for this (``pip install twine`` or ``sudo apt install twine``).
+
+```
+# Check first
+
+twine check dist/*
+
+# Test upload first
+
+twine upload -r testpypi dist/*
+
+# Upload to Pypi
+
+twine upload dist/*
+```
+
+### Uploading with 2FA enabled
+
+First create an API token (at https://test.pypi.org/manage/account/token/).
+
+Create a file .pypirc in your home folder (e.g. ``nano $HOME/.pypirc``)
+
+Add the given token to the file like this:
+
+```
+[testpypi]
+  username = __token__
+  password = pypi-AgENdalaljdljhdalkHTaddsdSQtMjBjOS00ZjgxLWIyZDMtYWViMDAwOTk3MWZmAAIqWzMsImU3YjkzMGVmLWQzMFmZkZCJdAAAGIB6NZ-rSrzc8UXj38ijwCRmZwkFLnhhNP
+```
+
+Save the file and reload environment if necessary.
+
+Now you an upload libraries without having to use the password.
