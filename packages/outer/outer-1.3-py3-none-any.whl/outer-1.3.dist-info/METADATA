@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: outer
+Version: 1.3
+Summary: A  module to manage output
+Home-page: https://github.com/memorylorry/outer.git
+Author: memorylorry
+Author-email: memorylorry@outlook.com
+License-File: LICENSE
+
