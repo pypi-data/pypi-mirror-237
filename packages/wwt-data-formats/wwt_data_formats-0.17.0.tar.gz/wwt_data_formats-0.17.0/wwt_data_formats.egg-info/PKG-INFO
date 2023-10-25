@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: wwt-data-formats
+Version: 0.17.0
+Summary: Low-level interface to WorldWide Telescope data formats
+Home-page: https://wwt-data-formats.readthedocs.io/
+Author: WorldWide Telescope Team
+Author-email: hello@worldwidetelescope.org
+License: MIT
+Platform: Linux
+Platform: Mac OS X
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: docs
+License-File: LICENSE
+
+[wwt_data_formats] is a low-level Python package that interfaces with the
+various XML serialization formats used by [WorldWide Telescope].
+
+[wwt_data_formats]: https://wwt-data-formats.readthedocs.io/
+[WorldWide Telescope]: https://worldwidetelescope.org/
+
+
+For more information, including installation instructions, please visit [the
+project homepage].
+
+[the project homepage]: https://wwt-data-formats.readthedocs.io/
