@@ -1,0 +1,11 @@
+data_toolset/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+data_toolset/main.py,sha256=P76ltzv-KcjDw676IOGIjxJ_lI7JoL_lcSHzlHiWn4o,8785
+data_toolset/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_toolset/utils/avro.py,sha256=71rSJeqc_zqTp1kpWQFLT7L0uPbNm2rqDnHgQtPXFoo,10389
+data_toolset/utils/base.py,sha256=Z_jf5DPbfwaaY342Bs5psmT1E5mfxBbwRlbDf5Ejasc,4490
+data_toolset/utils/parquet.py,sha256=2zTMUVs4AklaB1eTY84TSwnTWIXhLh8nE6BVqXjnMuU,9563
+data_toolset-0.1.6.dist-info/LICENSE,sha256=Vok0EKgrPceu6Zx4djfgoezkpAD7eR1sVyhVglj-mnk,1070
+data_toolset-0.1.6.dist-info/METADATA,sha256=y7MGHBer__vfQaE7A1SMnJrjZpdvNCUDhIFtuNeZuME,7188
+data_toolset-0.1.6.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+data_toolset-0.1.6.dist-info/entry_points.txt,sha256=_ioGxu4bSMtCMxptArO81m1Y91ov9rjJXsuO637ReDY,55
+data_toolset-0.1.6.dist-info/RECORD,,
