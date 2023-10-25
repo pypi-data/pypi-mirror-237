@@ -1,0 +1,7 @@
+neo4j_uploader/__init__.py,sha256=Gdbb9m5vIm7g8xUj8uE3ZLP-65oc-gHxCno6uXaEQ68,7642
+neo4j_uploader/logger.py,sha256=wN81Uo0bAsziLHBNMsIgY3UUXxUpTluBw4Uynvzr0EE,1903
+neo4j_uploader/n4j.py,sha256=QokubFeJ-dLXzmHFvqvBn3CP2_AZUCMqqc-poXbUJJY,1284
+neo4j_uploader-0.2.0.dist-info/LICENSE.txt,sha256=FeXSZ3DJKEUQDAhZfrbwh53JND35tBl2hfvFC8nCHkQ,1065
+neo4j_uploader-0.2.0.dist-info/METADATA,sha256=i6xeoTY-xePEB3al4KYexOiNaaWxoTmrPGKY--L7y3g,2287
+neo4j_uploader-0.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+neo4j_uploader-0.2.0.dist-info/RECORD,,
