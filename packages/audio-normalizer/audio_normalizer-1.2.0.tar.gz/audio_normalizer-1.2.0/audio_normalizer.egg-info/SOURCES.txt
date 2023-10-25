@@ -1,0 +1,17 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+audio_normalizer/__init__.py
+audio_normalizer/controller.py
+audio_normalizer/normalizer.py
+audio_normalizer/user_interface.py
+audio_normalizer/utils.py
+audio_normalizer.egg-info/PKG-INFO
+audio_normalizer.egg-info/SOURCES.txt
+audio_normalizer.egg-info/dependency_links.txt
+audio_normalizer.egg-info/requires.txt
+audio_normalizer.egg-info/top_level.txt
+audio_normalizer/assets/UI.png
+audio_normalizer/assets/nor.png
