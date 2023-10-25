@@ -1,0 +1,9 @@
+sys-config-inspector/__init__.py,sha256=nekVVWUugkcJ2RZovvj2gcq1tlNGz3M6-81mRdjSZpg,41
+sys-config-inspector/__main__.py,sha256=qrnUzRsc0lnARBFnPs1djP3D2aOUnTtQaro5lDFuy6s,683
+sys-config-inspector/final_report.html,sha256=a6ocJREHVLYm_wtVNDnZBdrtFvWyy83r3YsHtejBNk8,4174
+sys-config-inspector/helper_wrapper.py,sha256=kkl97KibW15Gfvm1f5Oz4ojEZv1ZqDPtqnkXcB04cls,6086
+sys-config-inspector/inspector.py,sha256=FNbe61dnwwns0F2Tpp3gLP4RrfN6c0q3pNw9nFUeegU,8518
+sys_config_inspector-0.0.2.dist-info/METADATA,sha256=tNubB-tN__TAh6GMnyQxdARhF6D846Wp46vD2gUifbk,434
+sys_config_inspector-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sys_config_inspector-0.0.2.dist-info/top_level.txt,sha256=FMcXyWuP8Fo3WDlKRJOTwoOVCUcpKYOo8GJsa0782ZU,21
+sys_config_inspector-0.0.2.dist-info/RECORD,,
