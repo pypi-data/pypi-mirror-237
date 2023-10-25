@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: eds4jinja2
+Version: 0.2.0
+Summary: Embed the data source specifications in your JINJA templates directly, and enjoy the dynamic data contexts.
+Home-page: https://github.com/meaningfy-ws/eds4jinja2
+Author: Eugeniu Costetchi
+Author-email: costezki.eugen@gmail.com
+Maintainer: Eugeniu Costetchi
+Maintainer-email: costezki.eugen@gmail.com
+License: Apache License 2.0
+Keywords: template,jinja,report,report generation,rdf,sparql,linked-data,data-source,dynamic-context
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Jinja2~=3.1.2
+Requires-Dist: SPARQLWrapper~=2.0.0
+Requires-Dist: pandas~=2.0.3
+Requires-Dist: PyYAML~=6.0.1
+Requires-Dist: toml~=0.10.2
+Requires-Dist: xlrd~=2.0.1
+Requires-Dist: openpyxl~=3.1.2
+Requires-Dist: numpy~=1.24.4
+Requires-Dist: click~=8.1.7
+Requires-Dist: rdflib~=7.0.0
+Requires-Dist: py-singleton~=1.0.0
+Requires-Dist: beautifulsoup4~=4.12.2
+Requires-Dist: requests~=2.31.0
+Provides-Extra: test
+Requires-Dist: tabulate~=0.9.0; extra == "test"
+Requires-Dist: coverage~=7.3.2; extra == "test"
+Requires-Dist: pytest~=7.4.2; extra == "test"
+Requires-Dist: pytest-bdd~=7.0.0; extra == "test"
+Requires-Dist: pytest-cov~=4.1.0; extra == "test"
+Requires-Dist: pytest-subtests~=0.11.0; extra == "test"
+Requires-Dist: tox~=4.11.3; extra == "test"
+Requires-Dist: tox-pytest-summary~=0.1.2; extra == "test"
+Requires-Dist: flake8~=6.1.0; extra == "test"
+Requires-Dist: myst-parser~=2.0.0; extra == "test"
+Requires-Dist: Sphinx~=7.1.2; extra == "test"
+Requires-Dist: sphinxcontrib-apidoc~=0.4.0; extra == "test"
+Requires-Dist: twine~=4.0.2; extra == "test"
+Requires-Dist: setuptools~=68.2.2; extra == "test"
+Requires-Dist: wheel~=0.41.2; extra == "test"
+
+# eds4jinja2
+An easy way to reports generation with Jinja2 templates. 
+
+With Embedded Datasource Specifications inside Jinja2 templates, you can fetch the data you need on the spot. 
+
+![test](https://github.com/meaningfy-ws/eds4jinja2/workflows/test/badge.svg)
+[![codecov](https://codecov.io/gh/meaningfy-ws/eds4jinja2/branch/master/graph/badge.svg)](https://codecov.io/gh/meaningfy-ws/eds4jinja2)
+[![Documentation Status](https://readthedocs.org/projects/eds4jinja2/badge/?version=latest)](https://eds4jinja2.readthedocs.io/en/latest/?badge=latest)
+
+![PyPI](https://img.shields.io/pypi/v/eds4jinja2?color=teal&label=version)
+![PyPI - Status](https://img.shields.io/pypi/status/eds4jinja2)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/eds4jinja2)
+![PyPI - License](https://img.shields.io/pypi/l/eds4jinja2?color=green)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/eds4jinja2)
+
+Specify the data sources in your JINJA templates directly.
+
+```jinja2
+{% set content, error = from_file(path).fetch_tree() %} \n
+content:  {{ content }}\n
+error: {{ error }}\n
+```
+
+```jinja2
+{% set content, error =
+    from_endpoint(endpoint).with_query(query_string).fetch_tabular() %}
+content:  {{ content }} \n
+error: {{ error }} \n
+```
+
+# Installation
+
+```shell script
+pip install eds4jinja2
+```
+
+# Usage
+
+[Read the docs here](https://eds4jinja2.readthedocs.io/en/latest/)  
+
+## Contributing
+You are more than welcome to help expand and mature this project. We adhere to [Apache code of conduct](https://www.apache.org/foundation/policies/conduct), please follow it in all your interactions on the project.   
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the maintainers of this repository before making a change.
+
+## Licence 
+This project is licensed under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+Powered by [Meaningfy](https://github.com/meaningfy-ws).
