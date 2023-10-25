@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "charmeleon"
+version = "0.2.0"
+description = "charmeleon is a character conversion library in Python."
+authors = ["yut-kt <yut.kt59@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/yut-kt/charmeleon"
+exclude = ["charmeleon/table/template"]
+homepage = "https://yut-kt.github.io/charmeleon/"
+classifiers = [
+    "Programming Language :: Python :: 3.12",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.292"
+pre-commit = "^3.4.0"
+jinja2 = "^3.1.2"
+coverage = "^7.3.2"
+sphinx = "^7.2.6"
+sphinx-rtd-theme = "^1.3.0"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.ruff]
+select = ["ALL"]
+ignore = ["FBT", "PT", "S701", "D203", "D212", "RUF002"]
+target-version = "py39"
+
+[tool.ruff.per-file-ignores]
+"./charmeleon/table/*.py" = ["RUF001"]
+"./scripts/*.py" = ["INP001"]
+"./tests/**/*.py" = ["S101", "PT009", "RUF001"]
+"./docs/**/*.py" = ["INP001"]
