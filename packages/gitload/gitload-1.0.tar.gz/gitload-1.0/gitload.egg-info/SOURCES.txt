@@ -1,0 +1,12 @@
+AUTHORS
+LICENSE
+README.md
+setup.py
+gitload.egg-info/PKG-INFO
+gitload.egg-info/SOURCES.txt
+gitload.egg-info/dependency_links.txt
+gitload.egg-info/top_level.txt
+gitload/bitbucket/__init__.py
+gitload/bitbucket/_bitbucket.py
+gitload/github/__init__.py
+gitload/github/_github.py
