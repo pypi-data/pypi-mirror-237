@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+tac_test_package/AutoTAC.py
+tac_test_package/TAC.py
+tac_test_package/__init__.py
+tac_test_package.egg-info/PKG-INFO
+tac_test_package.egg-info/SOURCES.txt
+tac_test_package.egg-info/dependency_links.txt
+tac_test_package.egg-info/requires.txt
+tac_test_package.egg-info/top_level.txt
