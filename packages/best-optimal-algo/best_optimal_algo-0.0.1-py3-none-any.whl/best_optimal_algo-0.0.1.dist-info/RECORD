@@ -1,0 +1,10 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/utils.py,sha256=3BmqQ2uZPCiKuViU8zqz9iKTS7MOA3opcB5npiCUXM0,2025
+src/best_optimal_algo/__init__.py,sha256=bM50X34HId5Eua6QWiWz5qFwJJvNraxyyVTLZ0YDDiM,802
+src/components/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/components/suppliments.py,sha256=_9jBa7JqJ-eM74RH8DVFq5S22NvYHdemAC4V23wsA1w,3022
+best_optimal_algo-0.0.1.dist-info/LICENSE,sha256=nGFNF4cwACDZAPJB7zOcRBI6hVuq_UL9t0hg7rS_E_c,1091
+best_optimal_algo-0.0.1.dist-info/METADATA,sha256=WKtqao15GALQjIdGpWedjHaonQM1d_xPrj_kWbEwokw,251
+best_optimal_algo-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+best_optimal_algo-0.0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+best_optimal_algo-0.0.1.dist-info/RECORD,,
