@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pyepsalarm
+Version: 1.0.0
+Summary: A simple library to interface with EPS systems, built for use with Home-Assistant
+Home-page: https://github.com/parvarm/pyepsalarm
+Download-URL: https://github.com/parvarm/pyepsalarm
+Author: Parv Arm
+Author-email: parvarm@outlook.fr
+License: Apache 2.0
+Keywords: eps,homiris,alarm,hass,home assistant
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyepsalarm
+
+Python library to interface with EPS systems, operated by Homiris for instance.
+
+Example use:
+
+```
+from pyepsalarm import EPS
+
+token = "MYTOKEN"
+username = "123456789"
+password = "mypassword+"
+
+eps = EPS(token, username, password)
+
+eps.get_status()
+eps.arm_night(silent=True)
+eps.get_status()
+eps.disarm()
+```
