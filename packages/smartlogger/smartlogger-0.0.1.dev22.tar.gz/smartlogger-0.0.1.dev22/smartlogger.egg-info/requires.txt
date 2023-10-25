@@ -1,0 +1,2 @@
+requests
+liteindex==0.0.1.dev25
