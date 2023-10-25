@@ -1,0 +1,11 @@
+setup.py
+joestudymodule/__init__.py
+joestudymodule/add.py
+joestudymodule/subtract.py
+joestudymodule.egg-info/PKG-INFO
+joestudymodule.egg-info/SOURCES.txt
+joestudymodule.egg-info/dependency_links.txt
+joestudymodule.egg-info/top_level.txt
+joestudymodule/extras/__init__.py
+joestudymodule/extras/divide.py
+joestudymodule/extras/multiply.py
