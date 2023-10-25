@@ -1,0 +1,7 @@
+setup.py
+alibabacloud_gateway_sls_util/__init__.py
+alibabacloud_gateway_sls_util/client.py
+alibabacloud_gateway_sls_util_py2.egg-info/PKG-INFO
+alibabacloud_gateway_sls_util_py2.egg-info/SOURCES.txt
+alibabacloud_gateway_sls_util_py2.egg-info/dependency_links.txt
+alibabacloud_gateway_sls_util_py2.egg-info/top_level.txt
