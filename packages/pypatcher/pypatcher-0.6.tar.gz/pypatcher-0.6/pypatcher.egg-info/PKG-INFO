@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pypatcher
+Version: 0.6
+Summary: Utility module for handling incremental git patches
+Home-page: https://github.com/sgtpepper9907/pypatcher
+Download-URL: https://github.com/sgtpepper9907/pypatcher/archive/refs/tags/v0.1.tar.gz
+Author: David Angulo
+Author-email: david.angulo.arias@gmail.com
+License: GPL-3.0
+Keywords: git,patches,incremental
+License-File: LICENSE
+Requires-Dist: checksumdir==1.2.0
+Requires-Dist: click==8.1.7
+Requires-Dist: gitdb==4.0.10
+Requires-Dist: GitPython==3.1.40
+Requires-Dist: natsort==8.4.0
+Requires-Dist: smmap==5.0.1
