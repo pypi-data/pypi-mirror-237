@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+SciFiVerse/__init__.py
+SciFiVerse.egg-info/PKG-INFO
+SciFiVerse.egg-info/SOURCES.txt
+SciFiVerse.egg-info/dependency_links.txt
+SciFiVerse.egg-info/top_level.txt
