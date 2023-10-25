@@ -1,0 +1,8 @@
+cashflex
+cashflex/desktop
+cashflex/icons
+cashflex/images
+cashflex/src
+cashflex/src/css
+cashflex/src/db
+cashflex/src/ui
