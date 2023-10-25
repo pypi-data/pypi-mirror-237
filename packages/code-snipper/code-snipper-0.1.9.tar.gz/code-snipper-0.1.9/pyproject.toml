@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "code-snipper"
+authors = [
+    {name = "Mohit Sharma"},
+]
+description = "Snip out code section from a string or text file"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["code-extractor", "two"]
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+  "pydantic"
+]
+dynamic = ["version"]
+
+[tool.setuptools]
+packages = ["codesnipper"]
+
+[tool.setuptools_scm]
+# write_to="codesnipper/_version.py"
+# version_scheme={tag}
