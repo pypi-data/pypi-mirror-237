@@ -1,0 +1,3 @@
+[console_scripts]
+codantic = codantic.__main__:main
+
