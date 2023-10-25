@@ -1,0 +1,6 @@
+README.md
+setup.py
+cfkv.egg-info/PKG-INFO
+cfkv.egg-info/SOURCES.txt
+cfkv.egg-info/dependency_links.txt
+cfkv.egg-info/top_level.txt
