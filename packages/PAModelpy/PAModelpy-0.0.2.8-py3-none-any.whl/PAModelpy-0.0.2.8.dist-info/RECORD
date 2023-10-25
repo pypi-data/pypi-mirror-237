@@ -1,0 +1,12 @@
+PAModelpy/CatalyticEvent.py,sha256=k0JK-S7tSu0EdYFdnybRRnAjK47YKjAR52broz--i-E,15294
+PAModelpy/Constraints.py,sha256=eaIOJ_HpRyYOXBYGilEKkUuBhctNJahrfbJUnoTkD0Q,1020
+PAModelpy/Enzyme.py,sha256=c1OIAC275wujSfckYV0qhWIugA4qVLvkt6e1BCFnySw,28063
+PAModelpy/EnzymeSectors.py,sha256=zo1u5vlrYcC-m4E9J93EpOoDFUfPOol1Dzj_qxj7oW4,13841
+PAModelpy/PAMValidator.py,sha256=KQNzHWCgQBnRORPpBNLSDvrBjTM0nXZZ5pJ3uriyZEY,23003
+PAModelpy/PAModel.py,sha256=IQ_uihCu6giAR0LENDuSbLgJWvuTsIYDZgzJIICj_lQ,75359
+PAModelpy/__init__.py,sha256=78rDWOIjOx_mRUg30ZjrQktlE0dLeC6xfLbYkZLwqFY,50
+PAModelpy/configuration.py,sha256=hvx1mlqJUXbF-VAr4tdJ0lplu2CqfMy6ZDVp6ZxdevE,1274
+PAModelpy-0.0.2.8.dist-info/METADATA,sha256=P7v_uMKcXEwn1XpyrRE8b52QW0K2MYfwBxxkLWFzIFQ,3791
+PAModelpy-0.0.2.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+PAModelpy-0.0.2.8.dist-info/top_level.txt,sha256=IehxkMZ6VK7o3G2k1Px8_qkJU3dHaHds9JkMy-kdvtA,10
+PAModelpy-0.0.2.8.dist-info/RECORD,,
