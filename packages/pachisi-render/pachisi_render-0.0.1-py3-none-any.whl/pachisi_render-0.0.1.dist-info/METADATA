@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pachisi-render
+Version: 0.0.1
+Summary: Flexible rendering of pachisi boards
+Author-email: Jakob Gretenkort <jakob.gretenkort@student.kit.edu>, Michael König <m.koenig@kit.edu>, Hendrik Mahrt <hendrik.mahrt@kit.edu>
+Maintainer-email: Jakob Gretenkort <jakob.gretenkort@student.kit.edu>
+Keywords: game,REST
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Games/Entertainment :: Board Games
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: drawsvg[all]
+Requires-Dist: pydantic
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Provides-Extra: lint
+Requires-Dist: black ; extra == 'lint'
+Requires-Dist: isort ; extra == 'lint'
+Requires-Dist: pylint ; extra == 'lint'
+Requires-Dist: mypy ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: requests ; extra == 'test'
+
+# Pachisi Render
+Easily render a simple, yet customizable pachisi board as an svg.
+
+# Usage
+After installation, start the tool via the `pachisi-render` command.
+This starts a webserver, which provides a single REST API endpoint at `/board`.
+Send an HTTP request containing a json-encoded description of the state of a
+pachisi board to this endpoint and it will return an SVG image showing a pachisi
+board in the provided state.
+
+Details on the API are provided in the documentation, which is included with the
+tool and can be found at the `/docs` url.
+
+# Maintenance
+This tool was developed and is being maintained by the Institute of Telematics
+at the Karlsruhe Institute of Technology for use in it's protocol engineering
+course.
+
+# License
+Copyright Karlsruhe Institute of Technology, Institute of Telematics, 2023
+
+Distributed under the terms of the MIT license.
