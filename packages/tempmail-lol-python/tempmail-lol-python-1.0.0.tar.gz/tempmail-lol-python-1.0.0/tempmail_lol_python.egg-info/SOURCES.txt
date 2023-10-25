@@ -1,0 +1,6 @@
+setup.py
+tempmail_lol_python.egg-info/PKG-INFO
+tempmail_lol_python.egg-info/SOURCES.txt
+tempmail_lol_python.egg-info/dependency_links.txt
+tempmail_lol_python.egg-info/requires.txt
+tempmail_lol_python.egg-info/top_level.txt
