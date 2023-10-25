@@ -1,0 +1,1 @@
+print("Performing setup tasks before package installation...")
