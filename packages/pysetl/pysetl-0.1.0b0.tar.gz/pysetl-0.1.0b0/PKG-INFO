@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pysetl
+Version: 0.1.0b0
+Summary: PySetl: Python Spark ETL Framework.
+Keywords: spark,aws,etl
+Author: Jhosse Paul Marquez Ruiz
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pyspark ; extra == "dev"
+Provides-Extra: dev
+
+# PySetl - Python Spark ETL Framework
+
