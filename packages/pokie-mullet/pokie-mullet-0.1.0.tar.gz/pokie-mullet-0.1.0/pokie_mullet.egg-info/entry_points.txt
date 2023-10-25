@@ -1,0 +1,2 @@
+[console_scripts]
+mullet = pokie_mullet.mullet:run

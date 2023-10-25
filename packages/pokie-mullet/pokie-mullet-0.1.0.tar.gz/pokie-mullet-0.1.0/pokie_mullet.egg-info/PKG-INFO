@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: pokie-mullet
+Version: 0.1.0
+Summary: Development http proxy for SPA applications
+Home-page: https://git.oddbit.org/OddBit/pokie-mullet
+Author: João Pinheiro
+License: BSD-3-Clause
+Project-URL: Source, https://git.oddbit.org/OddBit/pokie-mullet
+Classifier: Environment :: Web Environment
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pokie-mullet
+[![pypi](https://img.shields.io/pypi/v/pokie-mullet.svg)](https://pypi.org/project/pokie-mullet/)
+[![license](https://img.shields.io/pypi/l/pokie-mullet.svg)](https://git.oddbit.org/OddBit/pokie-mullet/src/branch/master/LICENSE)
+
+Barebones HTTP proxy for Python-powered SPA applications - Mounts a Flask or Pokie application on a slug (/api by default)
+and proxies all other requests to a running HTTP server (such as a NodeJS dev server), or to a static SPA on a folder. 
+
+## Basic Usage
+
+Show usage parameters:
+```shell
+$ mullet --help
+```
+
+Proxy a local Flask or Pokie API application from *main.py* and a development SPA application running on http://localhost:3000:
+```shell
+$ mullet
+```
+
+Proxy a local Flask or Pokie API application and a development SPA application locally installed on *../dist*:
+```shell
+$ mullet -fe ../dist/
+```
+
+Proxy a local Flask or Pokie API application on "/slug"  and a development SPA application running on http://localhost:3000:
+```shell
+$ mullet --slug "/slug"
+```
+
