@@ -1,0 +1,8 @@
+sentence_models/__init__.py,sha256=joAOKkknr9UEjFe8TdE_9PIFGR1tOxOCNKnA4zYNB5k,9957
+sentence_models/types.py,sha256=0Qh_fVScBajZULiNxaAYwU5OSiher21qSAZL75tEk04,385
+sentence_models/util.py,sha256=qU_p-y4BuTxSNpT6hpQAA5KAUmcPNEqstHYUsN5wDro,58
+sentence_models-0.1.1.dist-info/LICENSE,sha256=rVeOCUMqbYF2HxDi3f58EWe6QVs0iNrnRtZMAVFCgq4,1077
+sentence_models-0.1.1.dist-info/METADATA,sha256=vOTkQD9jblW8CErexpoLXLmHB4nK5krFeR65EJxZIRM,338
+sentence_models-0.1.1.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+sentence_models-0.1.1.dist-info/top_level.txt,sha256=ojIF8lNbRl3_9kEcEop3Av_fEWKtMkeQdxif8TNi6nA,16
+sentence_models-0.1.1.dist-info/RECORD,,
