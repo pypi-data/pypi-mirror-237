@@ -1,0 +1,3 @@
+[console_scripts]
+up2=uplaybook.internals:cli
+

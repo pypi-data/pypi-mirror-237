@@ -1,0 +1,9 @@
+uplaybook/__init__.py,sha256=OIhKzvGBNiv-FOIxsEDWlqsTR6zicpEyEMsbqxnqLck,851
+uplaybook/core.py,sha256=MyG76YMisBH84GbrkU7h4sn1LRLMPL1czmOsfFIttwY,14227
+uplaybook/fs.py,sha256=SRQENN0R0bVk7VwmkaNv6xmJgnyj6IXoXecWAq2PixA,19910
+uplaybook/internals.py,sha256=05jMoNFov2WXrIqIppqADKwSFYE8lJ-1bSY1oqC1uj4,27081
+uplaybook-0.0.2.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+uplaybook-0.0.2.dist-info/METADATA,sha256=Xd4tY8MjBszdxZEO7C-tXdiugjFFInh54GZ8z9m7eUI,19957
+uplaybook-0.0.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+uplaybook-0.0.2.dist-info/entry_points.txt,sha256=uYCdoMWzgcTS8SHpolO-rko7Kwb3mssOGIkjCGc9PCc,47
+uplaybook-0.0.2.dist-info/RECORD,,
