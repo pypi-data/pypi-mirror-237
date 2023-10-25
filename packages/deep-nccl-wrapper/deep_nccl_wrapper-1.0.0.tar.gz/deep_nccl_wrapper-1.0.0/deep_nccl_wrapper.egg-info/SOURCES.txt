@@ -1,0 +1,8 @@
+README.md
+setup.py
+deep_nccl_wrapper/__init__.py
+deep_nccl_wrapper.egg-info/PKG-INFO
+deep_nccl_wrapper.egg-info/SOURCES.txt
+deep_nccl_wrapper.egg-info/dependency_links.txt
+deep_nccl_wrapper.egg-info/requires.txt
+deep_nccl_wrapper.egg-info/top_level.txt
