@@ -1,0 +1,3 @@
+from f.psgup import *
+if __name__ == "__main__":
+    main()
