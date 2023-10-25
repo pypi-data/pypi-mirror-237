@@ -1,0 +1,17 @@
+setup.py
+BODY_SCAN.egg-info/PKG-INFO
+BODY_SCAN.egg-info/SOURCES.txt
+BODY_SCAN.egg-info/dependency_links.txt
+BODY_SCAN.egg-info/requires.txt
+BODY_SCAN.egg-info/top_level.txt
+structure/modules/BODY_SCAN/START_MULTIPLE_PROCESSES.py
+structure/modules/BODY_SCAN/__init__.py
+structure/modules/BODY_SCAN/aggregate/__init__.py
+structure/modules/BODY_SCAN/functions/exceptions.py
+structure/modules/BODY_SCAN/processes/COLLECT/PATH.py
+structure/modules/BODY_SCAN/processes/COLLECT/START.PROC.PY
+structure/modules/BODY_SCAN/processes/scan/__init__.py
+structure/modules/BODY_SCAN/processes/scan/path.py
+structure/modules/BODY_SCAN/processes/scan/scan.process.py
+structure/modules/BODY_SCAN/processes/scan/KEG/__init__.py
+structure/modules/BODY_SCAN/processes/scan/KEG/scan.py
