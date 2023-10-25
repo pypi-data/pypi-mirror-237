@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+kedro_softfail_runner/__init__.py
+kedro_softfail_runner/_modidx.py
+kedro_softfail_runner/core.py
+kedro_softfail_runner.egg-info/PKG-INFO
+kedro_softfail_runner.egg-info/SOURCES.txt
+kedro_softfail_runner.egg-info/dependency_links.txt
+kedro_softfail_runner.egg-info/entry_points.txt
+kedro_softfail_runner.egg-info/not-zip-safe
+kedro_softfail_runner.egg-info/requires.txt
+kedro_softfail_runner.egg-info/top_level.txt
