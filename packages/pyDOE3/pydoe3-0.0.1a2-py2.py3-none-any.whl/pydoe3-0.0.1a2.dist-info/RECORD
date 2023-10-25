@@ -1,0 +1,17 @@
+pyDOE3/__init__.py,sha256=BYBuZtauVGBskNfie3Ni810tYpGDnOp5C2X4pOpbXS8,911
+pyDOE3/build_regression_matrix.py,sha256=KZ1sXG0NX7Yykdxg_4AVBqTXao-b-OHPvSXGQpKCFrQ,2894
+pyDOE3/doe_box_behnken.py,sha256=xfwtiet3GhLh6fD271Mi1V9ygk05BtBMt8vkN6Tj6hk,2520
+pyDOE3/doe_composite.py,sha256=fvxMFqfT1oeAIYtsmVIEgxh41mX9Bfa0zIcveErCvos,6116
+pyDOE3/doe_factorial.py,sha256=i64brIUjsnFKe5CsPxeN5VBMW6njMnVXt3Tiye1qJ7I,17601
+pyDOE3/doe_fold.py,sha256=4wXEIh1AfOyyfbJMvWWQwd_egwrwj9OeBqmV0F-Ik5M,1486
+pyDOE3/doe_gsd.py,sha256=L67Ir52Jo_RmZ6Nb05XPTKfpDyoQoMAy2jNX-rKAamU,6963
+pyDOE3/doe_lhs.py,sha256=0YC4I4fOStmu9Yhx1-rP22AZjDHic02PxsvghEiSHjA,9140
+pyDOE3/doe_plackett_burman.py,sha256=JkSph_GbD51dcdLCe2XeU209JrNdTU86ZI7scFt6lY0,2902
+pyDOE3/doe_repeat_center.py,sha256=tvUegcQm4-wduIjz6EDsEh05SgJyshMsKy8CpSxvXX0,1082
+pyDOE3/doe_star.py,sha256=-xy2OQkpuZkrUxnka3XwEtMhlly90ZRgVs4kgVZOEgc,2291
+pyDOE3/doe_union.py,sha256=C3-dhYbgrtb8DfptmmAtEMD_2YsK_P2okICx0Tmrxqw,1180
+pyDOE3/var_regression_matrix.py,sha256=5ojlXuShLEXUfwnkA44CCHkKPFMWWw-GrugZEovqBzA,1455
+pydoe3-0.0.1a2.dist-info/METADATA,sha256=clg9NDkABY3U2Hg0cW_y_CQVnayKGn79cf4S9HAWU14,3968
+pydoe3-0.0.1a2.dist-info/WHEEL,sha256=fagL_Tj29mg80flwlxJNW45nBDbboxF04Tnbc_jt3Bg,105
+pydoe3-0.0.1a2.dist-info/licenses/LICENSE,sha256=6akcZf2r8wDKR3ed9GhhHedns_yG6tj--qQG_tKs-wA,1540
+pydoe3-0.0.1a2.dist-info/RECORD,,
