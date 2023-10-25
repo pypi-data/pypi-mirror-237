@@ -1,0 +1,11 @@
+setup.py
+joestudymodule/__init__.py
+joestudymodule/add.py
+joestudymodule/subtract.py
+joestudymodule/extras/__init__.py
+joestudymodule/extras/divide.py
+joestudymodule/extras/multiply.py
+verysimplemoduleboyuan.egg-info/PKG-INFO
+verysimplemoduleboyuan.egg-info/SOURCES.txt
+verysimplemoduleboyuan.egg-info/dependency_links.txt
+verysimplemoduleboyuan.egg-info/top_level.txt
