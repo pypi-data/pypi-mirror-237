@@ -1,0 +1,6 @@
+polars_business-0.1.29.dist-info/METADATA,sha256=68PRRMh2UtDyhvN6zCY7nS4VRKsJwZiH3JVwPru6jDc,5149
+polars_business-0.1.29.dist-info/WHEEL,sha256=Flsljev-KHZij61b0HioeKL708zKJqqDs8LBTPJQhxw,106
+polars_business/__init__.py,sha256=8azTTZGdoipNPbweV6_NieJw9Vndqoy0zSfmWs5w6z4,3760
+polars_business/ranges.py,sha256=xpIpghXLJZlIJXl8vtN8h7FFJJT22Y1ilPtXHvr0L40,5272
+polars_business/polars_business.cpython-311-darwin.so,sha256=G0-o8gkfV1UlhAHx-S2eFlaQnNN9nCCN4IXL64YBGK0,13992808
+polars_business-0.1.29.dist-info/RECORD,,
