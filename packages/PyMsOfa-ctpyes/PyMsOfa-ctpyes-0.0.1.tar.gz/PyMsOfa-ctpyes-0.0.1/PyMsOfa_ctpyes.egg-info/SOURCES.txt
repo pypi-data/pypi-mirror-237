@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+./C/sofa_a.c
+C/sofa_a.c
+PyMsOfa/PyMsOfa.py
+PyMsOfa/PyMsOfa_astrometry.py
+PyMsOfa/PyMsOfa_basic.py
+PyMsOfa/PyMsOfa_earth_attitude.py
+PyMsOfa/PyMsOfa_t.py
+PyMsOfa/PyMsOfa_time.py
+PyMsOfa/__init__.py
+PyMsOfa_ctpyes.egg-info/PKG-INFO
+PyMsOfa_ctpyes.egg-info/SOURCES.txt
+PyMsOfa_ctpyes.egg-info/dependency_links.txt
+PyMsOfa_ctpyes.egg-info/top_level.txt
