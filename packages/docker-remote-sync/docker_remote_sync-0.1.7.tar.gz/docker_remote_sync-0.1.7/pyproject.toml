@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "docker-remote-sync"
+version = "0.1.7"
+description = ""
+authors = ["Vamsi Talupula <tanavamsikrishna@outlook.com>"]
+readme = "Readme.md"
+packages = [{ include = "drsync" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+colorama = "^0.4.6"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.2"
+black = "^23.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+docker-remote-sync = "drsync.drsync:main"
