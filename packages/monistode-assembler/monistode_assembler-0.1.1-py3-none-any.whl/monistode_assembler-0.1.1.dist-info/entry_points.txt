@@ -1,0 +1,3 @@
+[console_scripts]
+mstdas=monistode_assembler.cli:main
+
