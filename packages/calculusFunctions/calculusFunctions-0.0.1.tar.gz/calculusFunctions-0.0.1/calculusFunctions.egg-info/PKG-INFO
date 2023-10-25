@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: calculusFunctions
+Version: 0.0.1
+Summary: basic functions for calculus
+Home-page: 
+Author: Preston Nemeti
+Author-email: prestonnemeti@gmail.com
+License: MIT
+Keywords: calculus
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This does basic calculus functions
+
+Added the functions for the first time
