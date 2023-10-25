@@ -1,0 +1,10 @@
+qianqiuyun/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qianqiuyun/sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qianqiuyun/sdk/mq.py,sha256=GnzvBEmnDm2kCsGRNm_8gH1ADVgH4snVtn5y-vjQuIE,89
+qianqiuyun/sdk/sql.py,sha256=anZYeRdE3WjEBEbXG5YEgRQ__Hl8OgL9p2k43BDeNY4,194
+qianqiuyun/sdk/tsdb.py,sha256=IyZ9HPvO8AxJe9nlh9idIioY-Y_mxNVFC0jdTx7yBiY,173
+qianqiuyun-1.0.0.dist-info/LICENSE,sha256=wuJc6SkaE_G-4alxueHO8BhgWRmEJAlJaPkoFuI9kqk,1070
+qianqiuyun-1.0.0.dist-info/METADATA,sha256=GXDhJYYuGpC9C_9GPcNA_8-Fprl5WpAFh5-0N_xRHO0,458
+qianqiuyun-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+qianqiuyun-1.0.0.dist-info/top_level.txt,sha256=L5bPpk4jUVb-snbjR95oD5V-KGrKCuZ5f3YRWWkc8Mg,11
+qianqiuyun-1.0.0.dist-info/RECORD,,
