@@ -1,0 +1,9 @@
+README.md
+setup.py
+scrapethat/__init__.py
+scrapethat/main.py
+scrapethat.egg-info/PKG-INFO
+scrapethat.egg-info/SOURCES.txt
+scrapethat.egg-info/dependency_links.txt
+scrapethat.egg-info/requires.txt
+scrapethat.egg-info/top_level.txt
