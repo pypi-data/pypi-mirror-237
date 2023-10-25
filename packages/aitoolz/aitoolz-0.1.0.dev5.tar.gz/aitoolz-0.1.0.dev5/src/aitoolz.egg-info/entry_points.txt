@@ -1,0 +1,2 @@
+[console_scripts]
+mep = aitoolz.make_project:cli
