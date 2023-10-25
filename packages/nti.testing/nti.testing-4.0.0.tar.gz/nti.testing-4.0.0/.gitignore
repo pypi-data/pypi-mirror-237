@@ -1,0 +1,8 @@
+.installed.cfg
+
+*.egg-info
+*.pyc
+.coverage
+htmlcov/
+
+docs/_build/

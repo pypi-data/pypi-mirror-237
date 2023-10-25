@@ -1,0 +1,31 @@
+ZODB>=5.6.0
+zope.interface>=5.4.0
+pyhamcrest
+six
+setuptools
+transaction
+zope.component
+zope.configuration
+zope.dottedname
+zope.exceptions
+zope.schema
+zope.testing
+
+[docs]
+Sphinx
+furo
+
+[test]
+Acquisition
+zope.site
+zope.testrunner
+testgres
+
+[test:platform_python_implementation != "PyPy"]
+psycopg2-binary
+
+[testgres]
+testgres
+
+[testgres:platform_python_implementation != "PyPy"]
+psycopg2-binary
