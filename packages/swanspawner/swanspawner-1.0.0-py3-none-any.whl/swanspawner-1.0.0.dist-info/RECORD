@@ -1,0 +1,10 @@
+swanspawner/__init__.py,sha256=LVFRHKmAZQxzFOOJODyUeR0-6h4qN94g0KOdISqrrdU,98
+swanspawner/_version.py,sha256=56jNd_qUE1oK_HiJ19lhZVsoW4VKkFaGJt71xY7DDHc,103
+swanspawner/swandockerspawner.py,sha256=xk05b0vPodb6XwLWcpFrXnsS0NPoZSs8SjVNEU6DMOo,14641
+swanspawner/swankubespawner.py,sha256=Praz-CWvhytDGVqDwOHU0QJiB4OIVsERmbHpKhtXF1A,4570
+swanspawner/swanspawner.py,sha256=VgGXjns5d0QtFdfz668RjP7JypvI7kjxJ6w1X4Z1sHk,8640
+swanspawner/templates/options_form_template.html,sha256=E_Shd3AtD4KAc2gjx3EK_hCNX5mpx38ZBbjl2ChelKE,8303
+swanspawner-1.0.0.dist-info/METADATA,sha256=6SkHMglxb7SEdwmvecbp_X693fPCAQTA30KGRKlLMDI,3614
+swanspawner-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+swanspawner-1.0.0.dist-info/top_level.txt,sha256=Z6CKr7bg3HZGDmNE0mUnU1gX7AA3LBuYTeBAO8cTzl4,12
+swanspawner-1.0.0.dist-info/RECORD,,
