@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "electionGraphs"
+version = "0.2.9"
+authors = [
+  { name="ricochan", email="rico.chan@mailbox.org" },
+]
+description = "Create graphs for displaying the result of a election based on a csv-inputfile."
+readme = "readme.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "plotly",
+  "pandas",
+  "kaleido",
+  "pillow",
+]
+
+[project.urls]
+"GitHub" = "https://github.com/ricochan/electionGraphs"
