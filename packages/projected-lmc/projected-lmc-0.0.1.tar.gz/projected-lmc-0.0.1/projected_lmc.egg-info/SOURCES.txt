@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+experiments/__init__.py
+models/__init__.py
+projected_lmc.egg-info/PKG-INFO
+projected_lmc.egg-info/SOURCES.txt
+projected_lmc.egg-info/dependency_links.txt
+projected_lmc.egg-info/requires.txt
+projected_lmc.egg-info/top_level.txt
