@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: langchain_g4f
+Version: 0.1
+Summary: LangChain gpt4free is an open-source project that assists in building applications using LLM (Large Language Models) and provides free access to GPT4/3.5.
+Home-page: https://github.com/AlexanderKorataev/langchain-gpt4free
+Author: Alexander
+Author-email: alexandkorataev@gmain.com
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+License-File: LICENSE
