@@ -1,0 +1,9 @@
+fastlogfileparser/gaussian/__init__.py,sha256=pn22Qx9Kv47i-jQuOa5gEiajYpLoHzRp95btT1n3230,205
+fastlogfileparser/gaussian/fast_gaussian_logfile_parser.py,sha256=GIV0bIVW3_kGwI7x2Hwms8WzJffsRZuU0bpGuU9E6bc,3795
+fastlogfileparser/gaussian/utils/postprocessing.py,sha256=9UzCCvX5mDJWUpj8iiu2-4prPPg2l_iFEXchp-MPZDE,2250
+fastlogfileparser/gaussian/utils/preprocessing.py,sha256=ZAJhGd-5Uw5uQJHZRWqlpAVqL7SOJdSzUzHwZOR3iKM,1435
+fastlogfileparser/gaussian/utils/regexes.py,sha256=U0Qoc_z1xdFiPBapc46gbSu02XywrB_rQkG-XIEsb4Q,3728
+fastlogfileparser-1.0.0a4.dist-info/METADATA,sha256=svGpEWv5fwyfwx0vei7y_bauUVUvfeKD2aaARz4q5GE,3165
+fastlogfileparser-1.0.0a4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fastlogfileparser-1.0.0a4.dist-info/top_level.txt,sha256=XExvCoBDlS8DvcEsk_BiuzeOi9IK3kcAWhUxXxJlugQ,18
+fastlogfileparser-1.0.0a4.dist-info/RECORD,,
