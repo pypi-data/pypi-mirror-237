@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tap-appsflyer
+Version: 0.2.0
+Summary: Singer.io tap for extracting data from the AppsFlyer API
+Home-page: http://singer.io
+Author: Stitch, Inc.
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
+Requires-Dist: attrs
+Requires-Dist: singer-python==5.13.0
+Requires-Dist: requests==2.31.0
+Requires-Dist: backoff
+Provides-Extra: dev
+Requires-Dist: bottle; extra == "dev"
+Requires-Dist: faker; extra == "dev"
