@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: mkdocs-flux
+Version: 0.0.6
+Summary: Flux: A minimalistic mkdocs theme
+Project-URL: Homepage, https://github.com/yqshao/mkdocs-flux
+Project-URL: Bug Tracker, https://github.com/yqshao/mkdocs-flux/issues
+Author-email: Yunqi Shao <yunqi_shao@yahoo.com>
+License-Expression: BSD-3-Clause
+License-File: LICENSE.txt
+Requires-Python: >=3.7
+Requires-Dist: mkdocs>=1.5
+Provides-Extra: dev
+Requires-Dist: mkdocs-bibtex==2.11.0; extra == 'dev'
+Requires-Dist: mkdocstrings[python]==0.23.0; extra == 'dev'
+Requires-Dist: mknotebooks==0.8.0; extra == 'dev'
+Requires-Dist: pygments==2.16.1; extra == 'dev'
+Requires-Dist: pymdown-extensions==10.3.1; extra == 'dev'
+Requires-Dist: pypandoc-binary==1.12; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Flux: A minimalistic mkdocs theme
+
+This is a minimalist theme for [mkdocs] made by [@yqshao][yqshao] for his
+projects. The look and feel is inspired by the [miniflux] feed reader. See the
+live demo of the theme [here].
+
+[mkdocs]: https://www.mkdocs.org/
+[yqshao]: https://github.com/yqshao
+[miniflux]: https://miniflux.app/
+[here]: https://yqshao.github.io/mkdocs-flux/

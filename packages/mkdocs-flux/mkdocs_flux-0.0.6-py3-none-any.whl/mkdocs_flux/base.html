@@ -1,0 +1,150 @@
+<!--
+  This Basic theme serves as an example for how to create other
+  themes by demonstrating the features with minimal HTML and CSS.
+  Comments like this will be through the code to explain briefly
+  what each feature is and point you to the MkDocs documentation
+  to find out more.
+-->
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!--
+    The page_title contains the title for a page as shown in the navigation.
+    Site name contains the name as defined in the mkdocs.yml
+  -->
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name|striptags }}</title>
+
+  <link rel="stylesheet" href="{{ "css/theme.css"|url }}">
+  <link rel="stylesheet" href="{{ "css/notebook.css"|url }}">
+  <link rel="stylesheet" href="{{ "css/pygments.css"|url }}">
+  <link rel="icon" href="data:,">
+  {% for path in config.extra_css %}
+    <link href="{{ path|url }}" rel="stylesheet">
+  {% endfor %}
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,600;1,400;1,700&family=Noto+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+
+  <script>
+    var base_url = {{ base_url|tojson }};
+    $(document).ready(function(){
+          $('table').wrap('<div class="table-wrapper"></div>');
+    });
+  </script>
+
+  <script src="{{ "js/mike.js"|url }}"></script>
+
+  {% for path in config.extra_javascript %}
+    <script src="{{ path|url }}"></script>
+  {% endfor %}
+
+</head>
+
+<body>
+  <header class="header">
+    <ul>
+      <li id="logo">
+        <a href="{{ ""|url }}">{{ config.site_name }}</a>
+      </li>
+      {% for nav_item in nav %}
+      {% include "tab.html" %}
+      {% endfor %}
+      <li class="tools">
+        {%
+          if (nav | selectattr("active") | list | length) and
+             (nav | selectattr("active") | first).children
+        %}
+          <a id="nav-toggle" class="tool" onclick="nav_toggle()">
+        {% else %}
+          <a id="nav-toggle" class="tool lonely" onclick="nav_toggle()">
+        {% endif %}
+          <svg><use xlink:href="{{ "svg/sprite.svg" | url }}#menu-2"></use></svg>
+        </a>
+        <script>
+           function nav_toggle() {
+               var bar = document.getElementById("tab-bar");
+               if (bar.style.display === "none") {
+                   bar.style.display = "block";
+               } else {
+                   bar.style.display = "none";
+               }
+           }
+          function nav_reset() {
+              var bar = document.getElementById("tab-bar");
+              if (window.innerWidth>950){
+                  bar.style.display = "block";
+              } else {
+                  bar.style.display = "none";
+              }
+          }
+          window.onresize = nav_reset;
+        </script>
+        {% if config.plugins.mike %}
+        <a class="tool">
+          <svg><use xlink:href="{{ "svg/sprite.svg" | url }}#tag"></use></svg>
+          <div class="version"></div>
+        </a>
+        {% endif %}
+        {% if config.repo_url %}
+        <a class="tool" href="{{ config.repo_url }}">
+          <svg><use xlink:href="{{ "svg/sprite.svg" | url }}#brand-github"></use></svg>
+          <span>{{ config.repo_name }}</span>
+        </a>
+        {% endif %}
+      </li>
+    </ul>
+  </header>
+
+
+  <div id="main">
+    <div id="tab-bar">
+      <ul>
+      {% for nav_item in nav %}
+       {% include "tab.html" %}
+         {% if (nav | selectattr("active") | list | length) and (nav | selectattr("active") | first).children   %}
+           <div class="nav-bar">
+             <ul>
+               {% if nav_item.active and nav_item.children %}
+                 {% for nav_item in nav_item.children %}
+                   {% include "nav.html" %}
+                 {% endfor %}
+               {% endif %}
+             </ul>
+           </div>
+         {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+
+    <div id="content">
+      {{ page.content }}
+    </div>
+
+  </div>
+
+  <div class="page">
+    <div class="page-prev">
+      {% if page.previous_page %}
+      <a href="{{ page.previous_page.url|url }}" title="{{ page.previous_page.title }}"><span>«</span> Previous</a>
+      {% endif %}
+    </div>
+    <div class="page-next">
+      {% if page.next_page %}
+      <a href="{{ page.next_page.url|url }}" title="{{ page.next_page.title }}" />Next <span>»</span></a>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="footer">
+    Built with <a href="https://www.mkdocs.org">mkdocs</a> and the <a href="https://github.com/yqshao/mkdocs-flux-theme">flux</a> theme.
+  </div>
+</body>
+</html>
