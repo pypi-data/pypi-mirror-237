@@ -1,0 +1,8 @@
+jax_scipy_spatial/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jax_scipy_spatial/distance.py,sha256=mx_lJ90R-xnr-AM-bnNjXLnXCfSvo73khMo1GB1VGew,5125
+jax_scipy_spatial/transform.py,sha256=M7QN6ZE2p9thOyZs6k7egi1CexI6_RNTOc9LSDT8ZwM,24452
+jax_scipy_spatial-0.2.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+jax_scipy_spatial-0.2.0.dist-info/METADATA,sha256=JvHXKwE8C28FbugrM4xk_FXuuRAlDeqfB8DD2kDFnIU,1674
+jax_scipy_spatial-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+jax_scipy_spatial-0.2.0.dist-info/top_level.txt,sha256=u81qzMGqzPhf4GK0MeBsLfGzLlezGiKIGbOL1JCnq0w,18
+jax_scipy_spatial-0.2.0.dist-info/RECORD,,
