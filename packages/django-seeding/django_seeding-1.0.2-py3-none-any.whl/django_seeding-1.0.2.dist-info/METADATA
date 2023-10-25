@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: django-seeding
+Version: 1.0.2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django
+Requires-Dist: pandas
+
+This is the documentation page of this package
+
+it is comming soon
