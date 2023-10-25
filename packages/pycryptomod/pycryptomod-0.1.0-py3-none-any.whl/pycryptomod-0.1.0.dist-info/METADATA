@@ -1,0 +1,174 @@
+Metadata-Version: 2.1
+Name: pycryptomod
+Version: 0.1.0
+Summary: A simpler plug and play module for prototyping cryptography techniques
+Author: Aditya Bharadwaj
+Author-email: adityabharadwaj47@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pycryptodome
+
+# PyCryptoMod
+
+## Simple Package for working with generic ciphers
+
+## Usage:
+
+## General Ciphers
+
+### Caeser Cipher
+
+```python
+    # Example usage:
+
+    plaintext = "Hello, World!"
+    key = 3
+    encrypted_text = caesar_cipher(plaintext, key)
+    print("Encrypted:", encrypted_text)
+
+    decrypted_text = caesar_cipher(encrypted_text, key, decrypt=True)
+    print("Decrypted:", decrypted_text)
+```
+
+### Monoalphabetic Cipher
+
+```python
+    # Example usage:
+
+    encrypted_text = monoalphabetic_cipher(plaintext, key)
+    print("Encrypted:", encrypted_text)
+
+    decrypted_text = monoalphabetic_cipher(encrypted_text, key, decrypt=True)
+    print("Decrypted:", decrypted_text)
+```
+
+### Vignere Cipher
+
+```python
+    # Example usage:
+
+    plaintext = "HELLO"
+    keyword = "KEY"
+    print("Plaintext:", plaintext)
+    print("Keyword:", keyword)
+
+    encrypted_text = vigenere_cipher(plaintext, keyword)
+    print("Encrypted:", encrypted_text)
+
+    decrypted_text = vigenere_cipher(encrypted_text, keyword, decrypt=True)
+    print("Decrypted:", decrypted_text)
+```
+
+## Symetric Ciphers
+
+### AES
+
+```python
+    # Example usage:
+
+    plaintext = "Hello, AES!"
+    key = get_random_bytes(16)  # 128-bit key
+    print("Plaintext:", plaintext)
+
+    ciphertext = aes_encrypt(plaintext, key)
+    print("Ciphertext:", ciphertext.hex())
+
+    decrypted_text = aes_decrypt(ciphertext, key)
+    print("Decrypted:", decrypted_text)
+```
+
+### DES
+
+```python
+    # Example usage:
+
+    plaintext = "Hello, DES!"
+    key = get_random_bytes(8)  # 64-bit key
+    print("Plaintext:", plaintext)
+
+    ciphertext = des_encrypt(plaintext, key)
+    print("Ciphertext:", ciphertext.hex())
+
+    decrypted_text = des_decrypt(ciphertext, key)
+    print("Decrypted:", decrypted_text)
+```
+
+### DES3:
+
+```python
+    # Example usage:
+
+    plaintext = "Hello, 3DES!"
+    key = get_random_bytes(24)  # 192-bit key for 3DES
+    print("Plaintext:", plaintext)
+
+    ciphertext = triple_des_encrypt(plaintext, key)
+    print("Ciphertext:", ciphertext.hex())
+
+    decrypted_text = triple_des_decrypt(ciphertext, key)
+    print("Decrypted:", decrypted_text)
+```
+
+## Asymetric Ciphers
+
+### RSA
+
+```python
+    #Example Usage(generate using a simple p and q):
+
+    public, pvt = generateMinRSA_keys(11,13)
+    plaintext = "Hello World"
+    cipher = MinRSA_encrypt(plaintext, public)
+    print(cipher)
+    print(MinRSA_decrypt(cipher, pvt))
+
+    # Example usage(Signature Verification):
+
+    message_to_sign = "This is a signed message."
+    signature = create_rsa_signature(message_to_sign, private_key)
+    is_valid_signature = verify_rsa_signature(message_to_sign, signature, public_key)
+    print("Signature is valid:", is_valid_signature)
+
+    # Example usage(Key Generation):
+
+    plaintext = "Hello, RSA!"
+    keypair = generate_rsa_keypair()
+    public_key = keypair.publickey()
+    private_key = keypair
+
+   # Example usage(RSA using pycryptodome):
+
+    ciphertext = rsa_encrypt(plaintext, public_key)
+    decrypted_message = rsa_decrypt(ciphertext, private_key)
+    print("Decrypted message:", decrypted_message)
+```
+
+### Diffie Hellman
+
+```python
+    # Example usage:
+    p = 23  # A small prime number for demonstration purposes
+    g = 5   # A primitive root modulo p
+
+    # Alice and Bob perform Diffie-Hellman key exchange
+    alice_private_key, alice_public_key = diffie_hellman(p, g)
+    bob_private_key, bob_public_key = diffie_hellman(p, g)
+
+    # Both Alice and Bob compute the shared secret key
+    shared_secret_alice = (bob_public_key ** alice_private_key) % p
+    shared_secret_bob = (alice_public_key ** bob_private_key) % p
+
+    # Convert the shared secret to bytes (for AES key)
+    shared_secret_bytes = shared_secret_alice.to_bytes((shared_secret_alice.bit_length() + 7) // 8, byteorder='big')
+    # Derive AES key from shared secret
+    aes_key = derive_aes_key(str(shared_secret_bytes))
+
+    # Use the derived AES key for AES encryption and decryption
+    plaintext = "Hello, Diffie-Hellman!"
+    ciphertext, tag, nonce = aes_encrypt(plaintext, aes_key)
+    decrypted_text = aes_decrypt(ciphertext, tag, nonce, aes_key)
+
+    print("Original:", plaintext)
+    print("Decrypted:", decrypted_text)
+```
