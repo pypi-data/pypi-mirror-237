@@ -1,0 +1,12 @@
+smodex/__init__.py,sha256=3T1sTvvjXiLw-S5M0HCVwAku-NKD9Zpn2d6tmhGeQpY,247
+smodex/sm_anomaly.py,sha256=HWZyTUJRIehvDSn79K_jt9SbtEBsNOeOcCKO7r4er3w,6801
+smodex/sm_climatology.py,sha256=C26o8eQz7OcUWT_sA2dx4riVtcav8YvtObqi7X9472I,4888
+smodex/sm_downloader.py,sha256=S5Tcvdxa1ZJ-_dur3KYamfTxUbGOLClqe5rtGjug61Q,4256
+smodex/version.py,sha256=uWxUMYAkYF3slc1pHqU4oEWSX-N2HCw30tsoDqWwkfg,143
+smodex/visual_sma_ts.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smodex-1.0.0b0.dist-info/LICENSE,sha256=UBy_ShQ3xjrA8YzIJB9XCYfk3ZpJT3o4bbGejciSzMw,969
+smodex-1.0.0b0.dist-info/METADATA,sha256=5aF1CT90KXNUNh25vOERs_tnxOk06qDpYOyDJP_F650,8029
+smodex-1.0.0b0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+smodex-1.0.0b0.dist-info/entry_points.txt,sha256=1m6F15e8cihTKLbFNTiU0K7v6PRF6X7SACKtmQmRRs4,48
+smodex-1.0.0b0.dist-info/top_level.txt,sha256=b9L27ELKjT4c6QTHBKkbx0SIFyJtXnnaLEuBP9_SC2g,7
+smodex-1.0.0b0.dist-info/RECORD,,
