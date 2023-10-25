@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "sdss-tpm-multicast-client"
+version = "0.1.1"
+description = "TPM multicast client"
+authors = ["José Sánchez-Gallego <gallegoj@uw.edu>"]
+license = "BSD 3-Clause"
+readme = "README.md"
+packages = [
+    { include = "tpm_multicast_client", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10,<4.0"
+sdsstools = "^1.0.0"
+
+[tool.poetry.build]
+script = "build.py"
+generate-setup-file = false
+
+[tool.poetry.group.dev.dependencies]
+ipython = ">=8.0.0"
+ipdb = ">=0.13.3"
+black = {version = ">=21.10b0", allow-prereleases = true}
+ruff = "^0.0.289"
+
+[tool.poetry.scripts]
+tpm-multicast-client = "tpm_multicast_client.__main__:tpm_multicast_client"
+
+[tool.black]
+line-length = 88
+target-version = ['py312']
+fast = true
+
+[tool.ruff]
+line-length = 88
+target-version = 'py312'
+select = ["E", "F", "I"]
+unfixable = ["F841"]
+exclude = ["typings/"]
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = ["F401", "F403", "E402"]
+
+[tool.ruff.isort]
+known-first-party = ["tpm_multicast_client"]
+lines-after-imports = 2
+section-order = ["future", "standard-library", "typing", "third-party", "sdss", "first-party", "local-folder"]
+
+[tool.ruff.isort.sections]
+typing = ["typing"]
+sdss = ["sdsstools"]
+
+[build-system]
+requires = ["poetry-core", "setuptools"]
+build-backend = "poetry.core.masonry.api"
