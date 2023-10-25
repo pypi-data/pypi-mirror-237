@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>streamlit-bordercontainer</title>
+    <script src="./streamlit-component-lib.js"></script>
+    <script src="./main.js"></script>
+    <script>
+      window.borderContainerWheelEnabled = true
+      window.keepScrollTop = () => {
+        var ele = document.getElementById("borderContainer");
+        if (
+          ele?.scrollHeight &&
+          ele?.clientHeight &&
+          ele?.scrollHeight > ele?.clientHeight
+        ) {
+          ele.scrollTop = ele.scrollHeight;
+        }
+      };
+
+      window.onwheel = (e) => {
+        console.log(e);
+        let wheelDelta = e.wheelDelta ? e.wheelDelta : -e.detail * 50;
+        // 上滚禁用
+        if (wheelDelta > 0) {
+          window.borderContainerWheelEnabled = false
+        }
+
+        // 下滚动到底部恢复
+        var ele = document.getElementById("borderContainer");
+        const scrollTop = ele?.scrollTop;
+        const clientHeight = ele.clientHeight;
+        const scrollHeight = ele.scrollHeight;
+        if (scrollTop + clientHeight + 20 >= scrollHeight && wheelDelta < 0) {
+          window.borderContainerWheelEnabled = true
+        }
+      };
+
+      window.onload = () => {
+        setInterval(() => {
+          if( window.borderContainerWheelEnabled)
+          window.keepScrollTop();
+        }, 1000);
+      };
+    </script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="borderContainer">
+      <!-- <div class="messageRow">
+        <div class="avator">
+          modle
+        </div>
+        <div class="imgBox">
+          <img src="https://static.openxlab.org.cn/landmarks/pc/footerbanner.png" />
+        </div>
+      </div>
+      <div class="responseRow">
+          <div class="rebotAvator">
+            modle
+          </div>
+          <div class="responseBox">
+            <p>ssssss</p>
+          </div>
+      </div> -->
+    </div>
+  </body>
+</html>
