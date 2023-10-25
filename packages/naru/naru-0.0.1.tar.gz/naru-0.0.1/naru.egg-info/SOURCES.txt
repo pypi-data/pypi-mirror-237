@@ -1,0 +1,10 @@
+README.md
+setup.py
+naru/__init__.py
+naru/modules.py
+naru.egg-info/PKG-INFO
+naru.egg-info/SOURCES.txt
+naru.egg-info/dependency_links.txt
+naru.egg-info/not-zip-safe
+naru.egg-info/requires.txt
+naru.egg-info/top_level.txt
