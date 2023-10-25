@@ -1,0 +1,17 @@
+jupyterlab_pioneer/__init__.py,sha256=c_Ti3pNywW_LGMxT2SpsP7H7Kh9kVHU49s8gGlMwGv8,584
+jupyterlab_pioneer/_version.py,sha256=cUtXKbM1R2GaRpb4q_aOJ_IDbbKXcOZYSGLz8T_E0Ck,171
+jupyterlab_pioneer/application.py,sha256=XjOtoRLpUAxZQQUI9HsgZnpfdFx5UV540RaWI2n_Too,4505
+jupyterlab_pioneer/default_exporters.py,sha256=_2KHy7_iPQOw5sDkUgbIUoP8ykkgkatRADuPAni6bLQ,5383
+jupyterlab_pioneer/handlers.py,sha256=ArsQi91g7YXrDlfxUm8RY23WDyi8hnwfWXDKJ4fKJsQ,5304
+jupyterlab_pioneer-0.1.8.data/data/etc/jupyter/jupyter_server_config.d/jupyterlab_pioneer.json,sha256=mCGUCmMNjyT8DuHfWImhcwP6prlk4RmiX0RtbwAO_qI,93
+jupyterlab_pioneer-0.1.8.data/data/share/jupyter/labextensions/jupyterlab-pioneer/package.json,sha256=gRVxxuGkM_IDsHpt-luwyobry30TVnbakS-smYM-RBk,5904
+jupyterlab_pioneer-0.1.8.data/data/share/jupyter/labextensions/jupyterlab-pioneer/static/462.e343df3add1ddaa1c943.js,sha256=40PfOt0d2qHJQ8QbvXEKvOf4iNzhSoTeMWrxlfVe9gE,8613
+jupyterlab_pioneer-0.1.8.data/data/share/jupyter/labextensions/jupyterlab-pioneer/static/747.a5f5b3cd27c485bf58cf.js,sha256=pfWzzSfEhb9Yz5RFZBVVbBT0ZPpjBY16L0KQkNkB95k,4016
+jupyterlab_pioneer-0.1.8.data/data/share/jupyter/labextensions/jupyterlab-pioneer/static/remoteEntry.c365a8b98c959376e9fb.js,sha256=w2WouYyVk3bp-5iJZ22o7JUv5m-7EeT1QXCBqs_UfVM,6621
+jupyterlab_pioneer-0.1.8.data/data/share/jupyter/labextensions/jupyterlab-pioneer/static/style.js,sha256=6UT5jVVM3CQ1hmCo8K6TQizHPYn2TNx8XiqLYoHUlbw,161
+jupyterlab_pioneer-0.1.8.data/data/share/jupyter/labextensions/jupyterlab-pioneer/static/third-party-licenses.json,sha256=5z5gY0sStbT_P2WqbrAlmEtTHDPn0-v6dtp4O8CCBTs,2452
+jupyterlab_pioneer-0.1.8.data/data/share/jupyter/labextensions/jupyterlab-pioneer/install.json,sha256=K_HpYkPMbozUqDbEZVy8x2_d4ND-od6B4MdvHoTwCB8,197
+jupyterlab_pioneer-0.1.8.dist-info/METADATA,sha256=gHsgupNDjXz9MSVZfc2ygHHKUi7NTAXVr319H69WmPE,10368
+jupyterlab_pioneer-0.1.8.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jupyterlab_pioneer-0.1.8.dist-info/licenses/LICENSE,sha256=jlcC28eplD8dkI7JpmxyEOSg2DnECBeDxEAnW19-zdw,1541
+jupyterlab_pioneer-0.1.8.dist-info/RECORD,,
