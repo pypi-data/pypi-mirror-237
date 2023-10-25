@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+QuantumFiction/__init__.py
+QuantumFiction.egg-info/PKG-INFO
+QuantumFiction.egg-info/SOURCES.txt
+QuantumFiction.egg-info/dependency_links.txt
+QuantumFiction.egg-info/top_level.txt
