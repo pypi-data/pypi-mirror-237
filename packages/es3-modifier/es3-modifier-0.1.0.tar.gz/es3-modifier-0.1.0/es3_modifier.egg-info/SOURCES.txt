@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+es3_modifier/__init__.py
+es3_modifier/main.py
+es3_modifier.egg-info/PKG-INFO
+es3_modifier.egg-info/SOURCES.txt
+es3_modifier.egg-info/dependency_links.txt
+es3_modifier.egg-info/entry_points.txt
+es3_modifier.egg-info/requires.txt
+es3_modifier.egg-info/top_level.txt
