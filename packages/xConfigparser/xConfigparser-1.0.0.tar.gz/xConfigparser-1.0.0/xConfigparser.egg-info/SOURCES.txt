@@ -1,0 +1,8 @@
+README.md
+setup.py
+python/potatoConfig.py
+python/xConfigparser.py
+xConfigparser.egg-info/PKG-INFO
+xConfigparser.egg-info/SOURCES.txt
+xConfigparser.egg-info/dependency_links.txt
+xConfigparser.egg-info/top_level.txt
