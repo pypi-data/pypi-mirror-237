@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: alphai
+Version: 0.0.3
+Summary: 
+Author: Andrew Chang
+Requires-Python: >=3.9,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: docs
+Provides-Extra: jupyter
+Provides-Extra: torch
+Requires-Dist: jupyter (>=1.0.0,<2.0.0) ; extra == "jupyter"
+Requires-Dist: jupyterlab (>=2.3.2,<3.0.0) ; extra == "jupyter"
+Requires-Dist: matplotlib (>=3.8.0,<4.0.0) ; extra == "jupyter"
+Requires-Dist: mkdocs (>=1.5.3,<2.0.0) ; extra == "docs"
+Requires-Dist: mkdocs-material (>=6.2.8,<7.0.0) ; extra == "docs"
+Requires-Dist: mkdocstrings (>=0.18.0,<0.19.0) ; extra == "docs"
+Requires-Dist: openai (>=0.28.1,<0.29.0)
+Requires-Dist: torch (==2.*) ; extra == "torch"
+Requires-Dist: torchaudio (==2.*) ; extra == "torch"
+Requires-Dist: torchvision (==0.*) ; extra == "torch"
+Requires-Dist: transformers (>=4.34.1,<5.0.0)
+Requires-Dist: wget (>=3.2,<4.0)
+Description-Content-Type: text/markdown
+
+# AlphAI
+
