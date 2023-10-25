@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+#
+#
+
+
+"daemon"
+
+
+from bot.spec import Cfg, Storage
+from bot.spec import daemon, forever, privileges, scan
+from bot      import modules
+
+
+Storage.workdir = Cfg.workdir
+Cfg.mod         = ",".join(modules.__dir__())
+
+
+daemon(Cfg.pidfile)
+privileges(Cfg.user)
+scan(modules, Cfg.mod, True)
+forever()
