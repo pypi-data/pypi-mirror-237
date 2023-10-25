@@ -1,0 +1,11 @@
+formula/__init__.py,sha256=2mEZVxP8hwevZE6gag_dS0vm8UqnlvgsiCb218sFcxU,209
+formula/_formula.cp36-win32.pyd,sha256=vGDPolw9coG1kmocn3fa5bjnttOC0nHIGEVVpSj1PMw,5263360
+formula/formula.py,sha256=tQm6N7MYoeP2J-9mA37hx7GJzvoBZLcFO9KtKBNkPnY,7773
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_operations.py,sha256=ItGKvw13QzS-AViPgjDH1ewMU2QuzORc4ro9PxrNkmg,2989
+tests/test_simple.py,sha256=O5DwYWl-ZHlIZW8VL_stSpfIV53oK4Yf5G8UgZxCzVA,9849
+formula-4.0.3.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+formula-4.0.3.dist-info/METADATA,sha256=7cD5tSDkduQqtqgaIN2hIbDKZ7QX1jxdh1s06BTZRX0,10607
+formula-4.0.3.dist-info/WHEEL,sha256=ZX-iFFGFiHZRWPwXowAnONYwAL2TBxDHVbhC1HaSV9Q,97
+formula-4.0.3.dist-info/top_level.txt,sha256=v8opCu9UubaXLzfwOb_7V4IVaoweuatecu-dIYAgDL4,14
+formula-4.0.3.dist-info/RECORD,,
