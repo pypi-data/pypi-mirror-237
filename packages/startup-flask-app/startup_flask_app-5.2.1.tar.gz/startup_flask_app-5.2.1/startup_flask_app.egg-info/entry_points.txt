@@ -1,0 +1,2 @@
+[console_scripts]
+startup_flask_app = src.main:startup_flask_app

@@ -1,0 +1,9 @@
+Flask
+Flask-Login
+Flask-CKEditor
+Flask-Migrate
+Flask-SQLAlchemy
+Flask-WTF
+psycopg2-binary
+SQLAlchemy
+WTForms
