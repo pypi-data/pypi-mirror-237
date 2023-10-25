@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: mkchangelog
+Version: 1.0.1
+Summary: Generate changelog from git log with convencional commits'
+Project-URL: Documentation, https://github.com/unknown/mkchangelog#readme
+Project-URL: Issues, https://github.com/unknown/mkchangelog/issues
+Project-URL: Source, https://github.com/unknown/mkchangelog
+Author-email: Marek Wywiał <onjinx@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: gitpython
+Requires-Dist: semver
+Provides-Extra: colors
+Requires-Dist: rich; extra == 'colors'
+Description-Content-Type: text/markdown
+
+# mkchangelog
+
+[![PyPI - Version](https://img.shields.io/pypi/v/mkchangelog.svg)](https://pypi.org/project/mkchangelog)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mkchangelog.svg)](https://pypi.org/project/mkchangelog)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install mkchangelog
+```
+
+## License
+
+`mkchangelog` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
