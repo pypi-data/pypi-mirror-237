@@ -1,0 +1,16 @@
+electionGraphs/.DS_Store,sha256=FwrUuQlmbsQxVa4KAtqUbI1MJxiNeRD2cK62IE0JkP4,6148
+electionGraphs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+electionGraphs/electionGraphs.py,sha256=sZ-pzyxB1F8bNCuOeFyuK1YyIUCHCkcYnxrRCcKrgVk,32616
+electionGraphs/example.py,sha256=Jk4frMMfXARFU4t-gp79R8l03oSLKPlbKU1_WLo5VBM,380
+electionGraphs/data/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+electionGraphs/data/exampleData.csv,sha256=MtPngS3Vr0mQCPUDfV9AitQozOu_2VRk7goHgqiO_dw,873
+electionGraphs/output/ElectionResults_2017.png,sha256=YyG_EQWXkatndYEIysEDfrXNaar-E6K3mDGrket9Ghg,207101
+electionGraphs/output/ElectionResults_2021.png,sha256=0bAA0N-HLn86VFcXmX8xUy7D28WLw9lbUvxrcf1H_vM,213901
+electionGraphs/output/barCoalition.png,sha256=alXhGaMWiwkqYZQLPzEN46DtcQi2ZlPxPclKP8zTe80,64416
+electionGraphs/output/barDifference.png,sha256=m-kB3DSshmZ12_N1Ddl_yTFhGvdM1ghdoAgJ4bCDKBw,79117
+electionGraphs/output/barResult.png,sha256=8tRYPzxA79CwMBsujXCKxqjPVcYOLte5Hoo2Iid5VTE,72598
+electionGraphs/output/pieParliament.png,sha256=LlfFYXxmyxOpVvGQV9zfkqsg_D0xD50YxR4a4lNZ8k0,63951
+electiongraphs-0.2.9.dist-info/METADATA,sha256=zkQ0Gdi-xOiY6AltxXAW_1oKfjWcUeSvUhdtw9lkLvo,8728
+electiongraphs-0.2.9.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+electiongraphs-0.2.9.dist-info/licenses/LICENSE,sha256=9CQz1LcJyW6oHgSacl-GOASKaARkA4QKO7quaJ1q2sU,1068
+electiongraphs-0.2.9.dist-info/RECORD,,
