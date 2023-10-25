@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: blivomdeler-api
+Version: 0.1.0
+Summary: A python library for doing all sorts of things on the https://blivomdeler.nu site.
+Home-page: https://github.com/objectiveSquid/blivomdeler-api
+Author: Magnus Zahle
+Author-email: objectivesquid@outlook.com
+License: MIT
+Keywords: python,api,api-wrapper,blivomdeler
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Danish
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Blivomdeler-API
+An API wrapper for the danish Blivomdeler site: https://blivomdeler.nu <br>
+The words "Bliv Omdeler" in danish translates to "Become Distributor", as in a newpaper distributor.
+
+
+# Changelog
+
+## 0.1.0
+First release
+Added main class
+Added function to get earned points
+Added login functionality
+Added logout functionality
