@@ -1,0 +1,24 @@
+{
+    "labs": {
+        "scan-results": {
+            "Download-Label-png": {
+                "ip_address": "dl_png",
+                "label_zpl_styles": [
+                    "test_2inX1in"
+                ],
+                "print_method": "generate png",
+                "model": "na",
+                "serial": "na"
+            },
+            "SOMENAMENOSPACES": {
+                "ip_address": "#.#.#.#",
+                "label_zpl_styles": [
+                    "test_2inX1in"
+                ],
+                "print_method": "unk",
+                "model": "MODEL",
+                "serial": "SERIAL"
+            }
+        }
+    }
+}
