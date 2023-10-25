@@ -1,0 +1,11 @@
+WorkflowError in file /mnt/d/Lab/Estancia/Phyllogenomics/package/phyfum/src/phyfum/workflow/Snakefile, line 7:
+Error validating config file.
+ValidationError: None is not of type 'string'
+
+Failed validating 'type' in schema['properties']['patientInfo']:
+    {'description': 'Path to patient metadata in CSV format.',
+     'type': 'string'}
+
+On instance['patientInfo']:
+    None
+  File "/mnt/d/Lab/Estancia/Phyllogenomics/package/phyfum/src/phyfum/workflow/Snakefile", line 7, in <module>
