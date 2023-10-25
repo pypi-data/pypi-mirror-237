@@ -1,0 +1,8 @@
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/check_links.py,sha256=HAexXZlb2B8hnXeEgCScrq37UMrqhJKg76Zk2BoeQRo,1743
+scripts/helper.py,sha256=m9iBLFQy8Rnrfbhs4lom1FF-BE6DHmZEGLQSNOBF1Oc,526
+scripts/melusina_projects.py,sha256=QLk1heIZuGzYpWUCJT8Fai4Mlwcu2kj8Rt2K9zEQbSg,1203
+testpypi_pzhu-1.0.0.dist-info/METADATA,sha256=9e4UWY-m6TDv0kMm3HnKqnw23zVCsBfYzCS6tsOD-w8,143
+testpypi_pzhu-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+testpypi_pzhu-1.0.0.dist-info/top_level.txt,sha256=rmzd5mewlrJy4sT608KPib7sM7edoY75AeqJeY3SPB4,8
+testpypi_pzhu-1.0.0.dist-info/RECORD,,
