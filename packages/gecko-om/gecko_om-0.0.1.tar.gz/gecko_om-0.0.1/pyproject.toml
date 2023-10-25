@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gecko-om"
+version = "0.0.1"
+authors = [
+  { name="Unyime Etim", email="lordunyime@gmail.com" },
+]
+description = "Async object mapping for Redis and Python."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "redis>=4.1.1,<=5.0.1",
+  "pydantic>=1.10.4,<=2.4.2"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/unyime1/gecko-om"
+"Bug Tracker" = "https://github.com/unyime1/gecko-om/issues"
