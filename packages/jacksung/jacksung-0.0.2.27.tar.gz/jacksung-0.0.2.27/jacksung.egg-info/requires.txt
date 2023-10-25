@@ -1,0 +1,5 @@
+tqdm
+pymysql
+pytz
+selenium
+termcolor
