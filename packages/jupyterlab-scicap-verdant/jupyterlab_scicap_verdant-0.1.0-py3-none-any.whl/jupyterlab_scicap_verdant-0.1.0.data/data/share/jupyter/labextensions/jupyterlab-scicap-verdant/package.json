@@ -1,0 +1,140 @@
+{
+  "name": "jupyterlab-scicap-verdant",
+  "version": "0.1.0",
+  "description": "An adaptation of the Verdant library for logging jupyter lab events in Science Capsule.",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "homepage": "https://github.com/abessiari/Verdant",
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "Abdelilah Essiari",
+    "url": "https://github.com/abessiari"
+  },
+  "contributors": [
+    {
+      "name": "Cody O'Donnell",
+      "url": "https://github.com/codytodonnell"
+    },
+    {
+      "name": "Mary Beth Kery",
+      "url": "https://github.com/mkery"
+    }
+  ],
+  "files": [
+    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png, py,svg,woff2,ttf}",
+    "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abessiari/Verdant.git"
+  },
+  "scripts": {
+    "build": "jlpm build:lib && jlpm build:labextension:dev",
+    "build:prod": "jlpm clean && jlpm build:lib:prod && jlpm build:labextension",
+    "build:labextension": "jupyter labextension build .",
+    "build:labextension:dev": "jupyter labextension build --development True .",
+    "build:lib": "tsc --sourceMap",
+    "build:lib:prod": "tsc",
+    "build:dist": "rm -rf dist/* && python -m build",
+    "clean": "jlpm clean:lib",
+    "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
+    "clean:lintcache": "rimraf .eslintcache .stylelintcache",
+    "clean:labextension": "rimraf jupyterlab_scicap_verdant/labextension jupyterlab_scicap_verdant/_version.py",
+    "clean:all": "jlpm clean:lib && jlpm clean:labextension && jlpm clean:lintcache",
+    "install:extension": "jlpm build",
+    "publish": "twine upload dist/*.whl",
+    "start": "jupyter labextension install . && jupyter lab .",
+    "test": "jest",
+    "watch": "jupyter lab --watch .",
+    "commit": "npx git-cz"
+  },
+  "dependencies": {
+    "@jupyterlab/application": "3.6.5",
+    "@jupyterlab/apputils": "3.6.5",
+    "@jupyterlab/builder": "^3.6.5",
+    "@jupyterlab/cells": "~3.6.5",
+    "@jupyterlab/codemirror": "3.6.5",
+    "@jupyterlab/coreutils": "^5.0.0",
+    "@jupyterlab/docmanager": "3.6.5",
+    "@jupyterlab/docregistry": "~3.6.5",
+    "@jupyterlab/nbformat": "~3.6.5",
+    "@jupyterlab/notebook": "3.6.5",
+    "@jupyterlab/observables": "^4.0.1",
+    "@jupyterlab/outputarea": "~3.6.5",
+    "@jupyterlab/rendermime": "3.6.5",
+    "@jupyterlab/services": "^6.6.6",
+    "@lumino/coreutils": "^1.5.3",
+    "@lumino/messaging": "^1.4.3",
+    "@lumino/signaling": "^1.4.3",
+    "@lumino/widgets": "^1.16.1",
+    "@types/react-redux": "^7.1.5",
+    "diff": "^4.0.2",
+    "fast-levenshtein": "2.0.6",
+    "raw-loader": "^4.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "~7.2.0",
+    "react-tooltip": "^4.2.10",
+    "redux": "~4.0.5",
+    "style-loader": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@jupyterlab/testutils": "^3.0.2",
+    "@types/diff": "^4.0.2",
+    "@types/fast-levenshtein": "0.0.1",
+    "@types/jest": "^26.0.15",
+    "@types/node": "~14.0.5",
+    "@types/react": "~16.9.16",
+    "@types/react-dom": "~16.9.4",
+    "@types/text-encoding": "^0.0.35",
+    "babel-jest": "^26.6.3",
+    "css-loader": "^3.5.3",
+    "cz-conventional-changelog": "3.3.0",
+    "jest": "^26.6.3",
+    "source-map-loader": "^0.2.4",
+    "svg-url-loader": "~6.0.0",
+    "ts-jest": "^26.4.4",
+    "ts-loader": "^7.0.5",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "resolutions": {
+    "@lumino/widgets": "1.37.2",
+    "@jupyterlab/services": "6.6.6"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "jupyterlab": {
+    "discovery": {
+      "server": {
+        "managers": [
+          "pip"
+        ],
+        "base": {
+          "name": "jupyterlab_scicap_verdant"
+        }
+      }
+    },
+    "extension": true,
+    "outputDir": "jupyterlab_scicap_verdant/labextension",
+    "_build": {
+      "load": "static/remoteEntry.85269238288de7222138.js",
+      "extension": "./extension"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
