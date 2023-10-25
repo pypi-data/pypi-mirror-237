@@ -1,0 +1,132 @@
+#load packages
+import saspy, sys, re, requests, warnings
+from IPython.core.magic import register_cell_magic
+from IPython.display import HTML
+from saspy.SASLogLexer import SASLogStyle, SASLogLexer
+from saspy.sasbase import SASsession
+from pygments.formatters import HtmlFormatter
+from pygments import highlight
+
+#surpress warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+warnings.filterwarnings("ignore", category=ResourceWarning)
+warnings.filterwarnings("ignore", category=ImportWarning)
+warnings.filterwarnings("ignore", category=FutureWarning)
+warnings.filterwarnings("ignore", category=UserWarning)
+
+#define log-in module
+def SASLogin(id, pw):
+    def SASMagic(sas) : 
+      sas.submit("""
+      proc template;
+        define style Styles.Hangul;
+        parent = Styles.HTMLBlue;
+        style graphfonts from graphfonts /
+              'NodeDetailFont' = ("Gulim",7pt)
+              'NodeInputLabelFont' = ("Gulim",9pt)
+              'NodeLabelFont' = ("Gulim",9pt)
+              'NodeTitleFont' = ("Gulim",9pt)
+              'GraphDataFont' = ("Gulim",7pt)
+              'GraphUnicodeFont' = ("Gulim",9pt)
+              'GraphValueFont' = ("Gulim",9pt)
+              'GraphLabel2Font' = ("Gulim",10pt)
+              'GraphLabelFont' = ("Gulim",10pt)
+              'GraphFootnoteFont' = ("Gulim",10pt)
+              'GraphTitleFont' = ("Gulim",11pt,bold)
+              'GraphTitle1Font' = ("Gulim",14pt,bold)
+              'GraphAnnoFont' = ("Gulim",10pt);         
+        end;
+      run;
+      """)
+      sas.HTML_Style = "Hangul"
+      sas.submit("""
+      OPTIONS VALIDVARNAME=ANY;
+      
+      %LET TEMP=%SYSFUNC(GETOPTION(WORK));
+      FILENAME KOSIS "&TEMP/MACROS.SAS";
+      PROC HTTP URL="HTTPS://WWW.GOOGLEAPIS.COM/DRIVE/V3/FILES/15L96RVERDU10G9O-U-8LNLO9XTVZJWMZ?ALT=MEDIA&KEY=AIZASYBFJIZUU9X7AZJGTR0UHBRXNTZ0VQBYWV0" METHOD='GET' OUT=KOSIS;
+      RUN;
+      %INCLUDE "&TEMP/MACROS.SAS";
+      %SYMDEL TEMP;
+                    
+      %LET MARKER=MARKERS MARKERATTRS=(SYMBOL=CIRCLEFILLED SIZE=11); 
+      %LET DATALABEL=DATALABEL DATALABELATTRS=(SIZE=11); 
+      %LET PRINTIT=%STR(PROC PRINT DATA=RAW(OBS=3);RUN;); 
+      %LET XAXIS=XAXIS TYPE=DISCRETE VALUEATTRS=(SIZE=10.5) LABELATTRS=(SIZE=10.5) DISPLAY=(NOLABEL); 
+      %LET YAXIS=YAXIS GRID VALUEATTRS=(SIZE=10.5) LABELATTRS=(SIZE=10.5) LABELPOS=TOP;
+      
+      ODS GRAPHICS/IMAGEMAP;
+
+      """)
+      print("알림 : KOSIS_MACRO_V3_5, ECOS, ECOS3, ENARA, POSTDATA, MODIFY_DATA, LOCALFINANCE, SAS7BDAT 매크로를 로드하였습니다.")
+      print("알림 : 매크로 변수 MARKER, DATALABEL, PRINTIT, XAXIS, YAXIS를 로드하였습니다.")
+      print("알림 : ODS GRAPHICS IMAGEMAP 옵션을 로드하였습니다.")
+      print("알림 : Jupyter Notebook Cell Magic %%SASK를 로드하였습니다.")        
+              
+      def _which_display(sas, log, output):
+        lst_len = 30762
+        lines = re.split(r'[\n]\s*', log)
+        i = 0
+        elog = []
+        for line in lines:
+            i += 1
+            e = []
+            if line[sas.logoffset:].startswith('ERROR'):
+                e = lines[(max(i - 15, 0)):(min(i + 16, len(lines)))]
+            elog = elog + e
+        if len(elog) == 0 and len(output) > lst_len:   # no error and LST output
+            return HTML(output)
+        elif len(elog) == 0 and len(output) <= lst_len:   # no error and no LST
+            color_log = highlight(log, SASLogLexer(), HtmlFormatter(full=True, style=SASLogStyle, lineseparator="<br>"))
+            return HTML(color_log)
+        elif len(elog) > 0 and len(output) <= lst_len:   # error and no LST
+            color_log = highlight(log, SASLogLexer(), HtmlFormatter(full=True, style=SASLogStyle, lineseparator="<br>"))
+            return HTML(color_log)
+        else:
+            color_log = highlight(log, SASLogLexer(), HtmlFormatter(full=True, style=SASLogStyle, lineseparator="<br>"))
+            return HTML(color_log + output)
+
+      @register_cell_magic
+      def SASK(line, cell):
+          sas.submit("proc optsave out=__jupyterSASKernel__; run;")
+          if len(line) > 0 :
+              res = sas.submit("ods layout gridded columns=" + str(line) + " advance=table;" + cell + "ods layout end;")
+          else :
+              res = sas.submit(cell)        
+          dis = _which_display(sas, res['LOG'], res['LST'])
+          sas.submit("proc optload data=__jupyterSASKernel__; run;")
+          return dis
+
+    servers = [
+        "Asia Pacific Home Region 1",
+        "Asia Pacific Home Region 2",
+        "US Home Region 1",
+        "US Home Region 2"
+    ]
+    
+    iomhost_map = {
+        "Asia Pacific Home Region 2": ['odaws01-apse1-2.oda.sas.com', 'odaws02-apse1-2.oda.sas.com'],
+        "US Home Region 1": ['odaws01-usw2.oda.sas.com', 'odaws02-usw2.oda.sas.com', 'odaws03-usw2.oda.sas.com', 'odaws04-usw2.oda.sas.com'],
+        "US Home Region 2": ['odaws01-usw2-2.oda.sas.com', 'odaws02-usw2-2.oda.sas.com'],
+        "Asia Pacific Home Region 1": ['odaws01-apse1.oda.sas.com', 'odaws02-apse1.oda.sas.com']
+    }
+    
+    for server in servers:
+        try:
+            sas = saspy.SASsession(
+                java='/usr/bin/java',
+                iomhost=iomhost_map[server],
+                iomport=8591,
+                encoding='utf-8',
+                omruser=str(id),
+                omrpw=str(pw)
+            )
+            if sas:
+                SASMagic(sas)                
+                return sas
+        except Exception as e:
+            print(f"Failed to connect to {server}: {e}")
+            continue
+    
+    return None
+
