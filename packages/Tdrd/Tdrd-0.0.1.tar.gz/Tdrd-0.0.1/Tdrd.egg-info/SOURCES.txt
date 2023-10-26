@@ -1,0 +1,9 @@
+README.md
+setup.py
+Tdrd.egg-info/PKG-INFO
+Tdrd.egg-info/SOURCES.txt
+Tdrd.egg-info/dependency_links.txt
+Tdrd.egg-info/top_level.txt
+tdrn/Tdrn.py
+tdrn/__init__.py
+tdrn/creat.py
