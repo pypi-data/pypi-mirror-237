@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mff-lib2to3-fake
+Version: 0.1.0
+Summary: Stub copying part of the lib2to3 API to allow Py-Feat to work with Python 3.10+ (no functionality).
+License: MIT
+Author: Marc Fraile
+Author-email: marc.fraile.fabrega@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# Lib2to3 Fake
+
+This package provides a partial imitation of the `lib2to3` API (without any functionality). This is done in order to allow Py-Feat 0.6.1 to work in Python 3.10+.
+

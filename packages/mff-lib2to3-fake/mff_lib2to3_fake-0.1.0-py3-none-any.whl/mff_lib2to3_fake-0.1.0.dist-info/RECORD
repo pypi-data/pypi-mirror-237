@@ -1,0 +1,5 @@
+lib2to3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib2to3/pytree.py,sha256=bcXv8jJwdcoriytS7ymMv22Odyz8d9E_Q0Y2_UUL1yg,36
+mff_lib2to3_fake-0.1.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+mff_lib2to3_fake-0.1.0.dist-info/METADATA,sha256=W3BmmwEt3eebiYnMYLyU00B5dDL9u0LxDPwN-C4LCk4,645
+mff_lib2to3_fake-0.1.0.dist-info/RECORD,,
