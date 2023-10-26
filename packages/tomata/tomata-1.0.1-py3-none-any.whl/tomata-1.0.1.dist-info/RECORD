@@ -1,0 +1,9 @@
+tomata/__init__.py,sha256=Vcq4cwxv8zbAWAbPLX3ZIsJUOh9FzNVqSD6EYz4j2fA,96
+tomata/async_emitter.py,sha256=pTvnUbuAZEahBWGQPceuAJAZNqclQ5mnozC09hWgFWQ,3498
+tomata/base.py,sha256=z34VGyjtGJaft6gtF3sC6tDXwylTf5wqRhBpYuB6VcY,1190
+tomata/emitter.py,sha256=YbzDcRDgWLkj_PvhqX4r5XyaC3l9nmBeDf_p3J6t5Vc,2792
+tomata/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tomata-1.0.1.dist-info/LICENSE,sha256=7EA4hL2RBru9tzz8_Ko3UTpwdrvgrOZmJRwf7AR7vpY,1073
+tomata-1.0.1.dist-info/METADATA,sha256=Qb7vT5tK8ay7303h6PbMDALZBomMK1-4IYPfuVm-TDY,8933
+tomata-1.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+tomata-1.0.1.dist-info/RECORD,,
