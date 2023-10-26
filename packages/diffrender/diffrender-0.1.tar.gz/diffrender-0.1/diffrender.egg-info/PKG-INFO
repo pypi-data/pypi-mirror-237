@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: diffrender
+Version: 0.1
+Summary: GenDR - The Generalized Differentiable Renderer
+Home-page: https://pypi.python.org/pypi/gendr/
+Author: Felix Petersen
+Author-email: ads0475@felix-petersen.de
+Maintainer: Felix Petersen
+Maintainer-email: ads0740@felix-petersen.de
+Platform: all
+
+Use `gendr <https://pypi.python.org/pypi/gendr/>`_ instead.

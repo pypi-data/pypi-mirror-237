@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+diffrender.egg-info/PKG-INFO
+diffrender.egg-info/SOURCES.txt
+diffrender.egg-info/dependency_links.txt
+diffrender.egg-info/not-zip-safe
+diffrender.egg-info/requires.txt
+diffrender.egg-info/top_level.txt
