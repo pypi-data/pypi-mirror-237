@@ -1,0 +1,17 @@
+FPSim2/FPSim2.py,sha256=54Pbw1KtX14MuGanFvYOlZnMY78Qv1ocm1HZQyBxArU,18039
+FPSim2/FPSim2Cuda.py,sha256=4GEcdzJt5qEbWpTOyBKfhoqKXCGvKTcTElGqr2DlFeI,8267
+FPSim2/FPSim2lib.cp312-win_amd64.pyd,sha256=qTqWrqykg9ET5gcocJ6s-4GgkzMKIRTStk20sstv5cE,174592
+FPSim2/__init__.py,sha256=vWTw2LRjuZAKyVSlA-ncmxYr4n7ejXK_cxF5G0VSQNg,145
+FPSim2/__main__.py,sha256=hO-uCeA0dJDKOwLQTJT2rLQsmFLtC7K51SvziFiEfmg,53649
+FPSim2/base.py,sha256=Qn-SbRLfj9sH9Ix9qzprxg9z5aVHlfXYzumySb_JwMY,3087
+FPSim2/io/__init__.py,sha256=vSNtpAHYgnuwKTayn8JjQcSiP0jrKRvF0y21KsTDICo,91
+FPSim2/io/chem.py,sha256=OZQwQVslVqrF_SnDeRFWOKVdZGtGmlZhEh9NGcG2QrE,10039
+FPSim2/io/backends/__init__.py,sha256=GlOu4hD3Jiy5OUN8RFGIlSBO2NMoEsxzVv41PWrzrjs,82
+FPSim2/io/backends/base.py,sha256=hwyV5ikU-32mC9Jah_w4RSkgtHuX4lGaLgwn6l53P24,1128
+FPSim2/io/backends/pytables.py,sha256=PWn74hcWIdjTi0V49a6hjbMYcyxeefBQ37z7SMEwYwc,9411
+FPSim2/io/backends/sqla.py,sha256=JayQJ0b9I13npIRItuW9zSlwadLczAPRQ1preBrgXvw,5198
+FPSim2-0.5.0.dist-info/LICENSE,sha256=7vAZMhEVJxPV_XBegla7WvRztSQhQiAvGEbCfz6vpxE,1103
+FPSim2-0.5.0.dist-info/METADATA,sha256=7cv45ZioApjEEVrs8Wl8sbAZDFCPmziUW8BxQxyy-Rs,2588
+FPSim2-0.5.0.dist-info/WHEEL,sha256=aDrgWfEd5Ac7WJzHsr90rcMGiH4MHbAXoCWpyP5CEBc,102
+FPSim2-0.5.0.dist-info/top_level.txt,sha256=bx_H7ivPXd4An008uQTT6bX2zMfHMEjOeyWNwrQoLiQ,7
+FPSim2-0.5.0.dist-info/RECORD,,
