@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: algo-bus-sdk
+Version: 0.0.2
+Summary: YunChi Algo Bus SDK
+Author: dwzx
+Author-email: yunchi@idwzx.com
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: six (==1.16.0)
+Requires-Dist: websocket-client (==1.2.3)
+Requires-Dist: protobuf (==3.17.3)
+Requires-Dist: pyzmq (==19.0.2)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: cachetools (==4.2.4)
+Requires-Dist: pandas (==1.4.3)
+Requires-Dist: Cython (~=3.0.3)
+Requires-Dist: setuptools (~=65.5.1)
+Requires-Dist: PyYAML (~=6.0.1)
+Requires-Dist: logbook
+
