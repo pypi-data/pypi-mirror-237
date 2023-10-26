@@ -1,0 +1,15 @@
+pirogue/__init__.py,sha256=ARMREOxinnk249QrJ9ajL0s3I-YLOrsHntuVZkPovT4,165
+pirogue/exceptions.py,sha256=sNOBKR-IyCc5CsO7MXJ14nWSNGHueI1F7hUvqAe3mw0,300
+pirogue/information_schema.py,sha256=voYPoupKaYWcJv_hpJweAd2T3REyFe_R5PWZcIDL_3o,6922
+pirogue/multiple_inheritance.py,sha256=W12MJ2L7SSj4jZQmII9Dcsv9QYy85warggT1YBr1lK0,26707
+pirogue/simple_joins.py,sha256=8S4n_-Lf0C7qFl_uErIENBNYXz3pdff5IrteoDjmt7k,5896
+pirogue/single_inheritance.py,sha256=Vyl-oheZxYFCqEN0tHVwAY-456oivjnwUXQoAr3k7Lk,7811
+pirogue/utils.py,sha256=NzsWW5QYPNxfmEugdasCRE2idSdUcswG6plmKib2UHI,18328
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/pirogue.py,sha256=lc9QSJGPdahPWM7zn9hGcuLc1W261iqUee0v2EH5wmE,4652
+pirogue-1.4.2.4.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+pirogue-1.4.2.4.dist-info/METADATA,sha256=_VAtH84hZblBfINyFdQOszqVTi2NDyWIk-ygFE9t3Ck,1242
+pirogue-1.4.2.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pirogue-1.4.2.4.dist-info/entry_points.txt,sha256=xr9HxwgO2iBfL51i6wQtyZLQcv_NiFl20S5NKCU60vk,49
+pirogue-1.4.2.4.dist-info/top_level.txt,sha256=F4PwJ40tWuGqgxouXONx-XSwnpuzAtxtfbhLX5ceTiI,16
+pirogue-1.4.2.4.dist-info/RECORD,,
