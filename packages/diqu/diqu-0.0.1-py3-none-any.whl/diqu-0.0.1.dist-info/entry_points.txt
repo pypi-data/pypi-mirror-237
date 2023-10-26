@@ -1,0 +1,3 @@
+[console_scripts]
+dqt=dqt.__entrypoint__:main
+
