@@ -1,0 +1,28 @@
+## -*- coding: utf-8 -*-
+## COPYRIGHT (C) 2023 New Entity Operations Inc. ALL RIGHTS RESERVED
+## INSTANCE: pyproject.toml
+## CREATED: 2023/10/25
+## OVERVIEW: configure entityscript with a .toml file
+
+## host
+host = "https://entityscript.com"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "entityscript"
+version = "0.0.1"
+keywords=["C.ORE", "AI", "entityscript", "CORE.HOST", "corehost", "New Entity Operations"]
+authors = [
+ { name = "New Entity Operations Inc.", email = "entityscript@outlook.com" },
+]
+description = "The client-side entityscript creator program that allows you to build CORE.HOST compliant data-structures."
+readme = "README.md"
+requires-python = ">=3.12"
+
+[project.urls]
+"Homepage" = "https://github.com/entityscript/entityscript"
+"Bug Tracker" = "https://github.com/entityscript/entityscript/issues"
+
