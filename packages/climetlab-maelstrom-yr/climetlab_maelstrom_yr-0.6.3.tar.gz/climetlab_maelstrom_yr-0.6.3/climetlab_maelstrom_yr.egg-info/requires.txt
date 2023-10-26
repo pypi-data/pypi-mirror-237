@@ -1,0 +1,10 @@
+argparse
+datetime
+climetlab>=0.9.0
+future
+numpy
+six
+
+[test]
+coverage
+pep8
