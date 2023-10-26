@@ -1,0 +1,7 @@
+chardet
+huggingface-hub
+jsonlines
+pandas
+pyarrow
+pyzstd
+seppl>=0.0.6
