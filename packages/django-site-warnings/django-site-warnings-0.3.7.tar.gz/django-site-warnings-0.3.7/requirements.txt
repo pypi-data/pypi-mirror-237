@@ -1,0 +1,5 @@
+django
+django-safe-fields
+django-simpletask2
+python-sendmail
+zenutils

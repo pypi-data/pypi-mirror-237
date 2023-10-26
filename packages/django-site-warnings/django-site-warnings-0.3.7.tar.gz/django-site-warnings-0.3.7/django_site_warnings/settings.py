@@ -1,0 +1,42 @@
+from django.conf import settings
+
+DJANGO_SITE_WARNING_NOTIFY_MAIL_CONFIG = getattr(
+    settings,
+    "DJANGO_SITE_WARNING_NOTIFY_MAIL_CONFIG",
+    None,
+)
+DJANGO_SITE_WARNING_NOTIFY_MAIL_FROM = getattr(
+    settings,
+    "DJANGO_SITE_WARNING_NOTIFY_MAIL_FROM",
+    None,
+)
+DJANGO_SITE_WARNING_NOTIFY_MAIL_TO = getattr(
+    settings,
+    "DJANGO_SITE_WARNING_NOTIFY_MAIL_TO",
+    None,
+)
+DJANGO_SITE_WARNING_NOTIFY_MAIL_SERVER = getattr(
+    settings,
+    "DJANGO_SITE_WARNING_NOTIFY_MAIL_SERVER",
+    None,
+)
+DJANGO_SITE_WARNING_NOTIFY_MAIL_PORT = getattr(
+    settings,
+    "DJANGO_SITE_WARNING_NOTIFY_MAIL_PORT",
+    465,
+)
+DJANGO_SITE_WARNING_NOTIFY_MAIL_SSL = getattr(
+    settings,
+    "DJANGO_SITE_WARNING_NOTIFY_MAIL_SSL",
+    True,
+)
+DJANGO_SITE_WARNING_NOTIFY_MAIL_USER = getattr(
+    settings,
+    "DJANGO_SITE_WARNING_NOTIFY_MAIL_USER",
+    None,
+)
+DJANGO_SITE_WARNING_NOTIFY_MAIL_PASSWORD = getattr(
+    settings,
+    "DJANGO_SITE_WARNING_NOTIFY_MAIL_PASSWORD",
+    None,
+)
