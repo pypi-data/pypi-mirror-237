@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: comp-reporting-app
+Version: 0.1.0
+Summary: 
+Author: drose15-chwy
+Author-email: drose15@chewy.com
+Requires-Python: ==3.10.*
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: ydata-profiling
+Description-Content-Type: text/markdown
+
+
