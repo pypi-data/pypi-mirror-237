@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: dataplot
+Version: 0.0.0
+Summary: Provides plotters useful in datascience.
+Home-page: https://github.com/Chitaoji/dataplot
+Author: Chitaoji
+Author-email: 2360742040@qq.com
+License: BSD
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+
+# dataplot
+Provides plotters useful in datascience.
+
+## History
+
+### v0.0.0
+* Test version coming soon!
