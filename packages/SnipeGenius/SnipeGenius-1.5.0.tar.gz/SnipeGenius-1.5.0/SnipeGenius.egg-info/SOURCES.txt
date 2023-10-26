@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+SnipeGenius.egg-info/PKG-INFO
+SnipeGenius.egg-info/SOURCES.txt
+SnipeGenius.egg-info/dependency_links.txt
+SnipeGenius.egg-info/entry_points.txt
+SnipeGenius.egg-info/requires.txt
+SnipeGenius.egg-info/top_level.txt
