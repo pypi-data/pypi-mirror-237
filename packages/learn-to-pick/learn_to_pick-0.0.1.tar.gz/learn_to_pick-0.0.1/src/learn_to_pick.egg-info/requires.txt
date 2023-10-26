@@ -1,0 +1,11 @@
+numpy
+pandas
+parameterfree
+pyskiplist
+sentence-transformers
+torch
+vowpal-wabbit-next
+
+[dev]
+black==23.10.0
+pytest
