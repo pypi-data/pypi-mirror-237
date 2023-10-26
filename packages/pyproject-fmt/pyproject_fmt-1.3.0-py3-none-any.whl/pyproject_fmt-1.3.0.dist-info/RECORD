@@ -1,0 +1,17 @@
+pyproject_fmt/__init__.py,sha256=4tME-IF0FqQigUxQ81vJ4vI-YK_EeRM0oYgGLOd00aw,264
+pyproject_fmt/__main__.py,sha256=7JyGvlaTw66jo0ryY1WSb__0YWqF7dnyJl9wqWu2lys,2085
+pyproject_fmt/_version.py,sha256=HGwtpza1HCPtlyqElUvIyH97K44TO13CYiYVZNezQ1M,411
+pyproject_fmt/cli.py,sha256=K4_2eV0d6UILqtVwG-QlJnQjanCUr52YwdaeiLV6-5k,2779
+pyproject_fmt/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyproject_fmt/formatter/__init__.py,sha256=5GtuiAMlXqaEqwNEqlvCIdbXJoGReZE6EIXvIrA1CCQ,854
+pyproject_fmt/formatter/build_system.py,sha256=jayAD3S4lf24WRwol4uOQPkFW5YG5p-eC_QJA8fI8tI,998
+pyproject_fmt/formatter/config.py,sha256=U4xusHpdG7o74_jz0y-9eS_FQU4yd0Wo7DjG4agD7v4,553
+pyproject_fmt/formatter/pep508.py,sha256=bOElpE4WGiEWjCq90eNdm9abWPHYS0N_XkxvN5WyB_U,2256
+pyproject_fmt/formatter/project.py,sha256=SYWvKoIPAmIzY4u3fpkIXMGYQ5ID55BVCxbwtLMjjUE,6043
+pyproject_fmt/formatter/tools.py,sha256=WJXRwv7TlYct9B6tkyCrApIctI-tUwn8k7ur05XTaZE,992
+pyproject_fmt/formatter/util.py,sha256=K86IynZLMlNjPUq1DNu3BhVaqzQ0yc1sgZAsidpYHRc,4884
+pyproject_fmt-1.3.0.dist-info/METADATA,sha256=qsnJ32JmKbqcH2PLmcX9d7Vq-0ef5EXD9kAT8Gj1wW4,3843
+pyproject_fmt-1.3.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pyproject_fmt-1.3.0.dist-info/entry_points.txt,sha256=qQOxIRyVFyDkdhw528Owa8CBbL2BN0iQJSsHQKYVkkA,61
+pyproject_fmt-1.3.0.dist-info/licenses/LICENSE.txt,sha256=kOJeH68qSq6o2V7o5_VziwUqGswMnFgGgQH5Mahr1Yg,1023
+pyproject_fmt-1.3.0.dist-info/RECORD,,
