@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+./C/sofa_a.c
+C/makefile
+C/sofa.h
+C/sofa_a.c
+C/sofam.h
+PyMsOfa/PyMsOfa_cffi.py
+PyMsOfa/PyMsOfa_ctypes.py
+PyMsOfa/PyMsOfa_python.py
+PyMsOfa/__init__.py
+PyMsOfa.egg-info/PKG-INFO
+PyMsOfa.egg-info/SOURCES.txt
+PyMsOfa.egg-info/dependency_links.txt
+PyMsOfa.egg-info/top_level.txt
