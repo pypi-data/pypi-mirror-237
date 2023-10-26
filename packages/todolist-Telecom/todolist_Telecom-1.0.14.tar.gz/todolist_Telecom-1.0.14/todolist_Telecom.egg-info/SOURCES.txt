@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+exceptions/__init__.py
+exceptions/task_exceptions.py
+models/__init__.py
+models/task.py
+models/task_list.py
+todolist_Telecom.egg-info/PKG-INFO
+todolist_Telecom.egg-info/SOURCES.txt
+todolist_Telecom.egg-info/dependency_links.txt
+todolist_Telecom.egg-info/requires.txt
+todolist_Telecom.egg-info/top_level.txt
