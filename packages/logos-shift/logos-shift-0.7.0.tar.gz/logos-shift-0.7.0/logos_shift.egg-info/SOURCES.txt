@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+logos_shift.egg-info/PKG-INFO
+logos_shift.egg-info/SOURCES.txt
+logos_shift.egg-info/dependency_links.txt
+logos_shift.egg-info/requires.txt
+logos_shift.egg-info/top_level.txt
+logos_shift_client/__init__.py
+logos_shift_client/bohita.py
+logos_shift_client/logos_shift.py
+logos_shift_client/router.py
+tests/test_logos_shift.py
+tests/test_router.py
