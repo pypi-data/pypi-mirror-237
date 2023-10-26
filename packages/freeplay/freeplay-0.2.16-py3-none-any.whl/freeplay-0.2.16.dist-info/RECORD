@@ -1,0 +1,12 @@
+freeplay/__init__.py,sha256=74A9S9hmLq9BNHsdx0-37yDxlSukudNl9bJ0TE60Z30,61
+freeplay/api_support.py,sha256=mWauXzpZx9DwIzuqlnfEAXX2LsILE3an4G_6OVMHopI,1834
+freeplay/completions.py,sha256=M1vlziRTIfmO-TGdqNI_eHHq4zYpMj0n8dzH-boz7bY,992
+freeplay/errors.py,sha256=RFJtcgVvNsrVOeojnnh4TGvj3wYKglVshLEFpUHzafM,340
+freeplay/flavors.py,sha256=nxnZnRAv4P_RBzvikg50KKlT4XN-B1V8GgT1XBqwQ5Q,13261
+freeplay/freeplay.py,sha256=mPpv5IE2Err4xbbwd9heubBYufK-NrwVYL4MZVAN8gI,27997
+freeplay/llm_parameters.py,sha256=ANlau8qbFc5OTtvcnYzItZOicyiejS3VHfh8wnJYSmU,937
+freeplay/provider_config.py,sha256=EkRHDV4zehqS0Vo5ZQHZHRgqdiw63PRN7rLwvm3Wiig,1871
+freeplay/utils.py,sha256=n7iZGvgSJcDYL31QpYxpJyPzRpYhhqEi_r7g6t6L04I,369
+freeplay-0.2.16.dist-info/METADATA,sha256=RlNTAiRrj8-02Ep-MaIIJLWLuYvPTq2JmsxSiE21Wc4,680
+freeplay-0.2.16.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+freeplay-0.2.16.dist-info/RECORD,,
