@@ -1,0 +1,81 @@
+{
+    "device_automation": {
+        "action_type": {
+            "brightness_decrease": "Suma\u017einti {entity_name} ry\u0161kum\u0105",
+            "brightness_increase": "Padidinti {entity_name} ry\u0161kum\u0105",
+            "flash": "Blyks\u0117ti {entity_name}"
+        }
+    },
+    "entity_component": {
+        "_": {
+            "state": {
+                "off": "I\u0161jungta"
+            },
+            "state_attributes": {
+                "brightness": {
+                    "name": "Ry\u0161kumas"
+                },
+                "color_mode": {
+                    "name": "Spalv\u0173 re\u017eimas",
+                    "state": {
+                        "brightness": "Tik ry\u0161kumas",
+                        "color_temp": "Spalvos temperat\u016bra",
+                        "hs": "HS",
+                        "onoff": "\u012ejungta / i\u0161jungta",
+                        "rgb": "RGB",
+                        "rgbw": "RGBW",
+                        "rgbww": "RGBWW",
+                        "unknown": "Ne\u017einoma",
+                        "white": "Balta",
+                        "xy": "XY"
+                    }
+                },
+                "color_temp": {
+                    "name": "Spalvos temperat\u016bra (mireds)"
+                }
+            }
+        }
+    },
+    "selector": {
+        "color_name": {
+            "options": {
+                "silver": "Sidabras",
+                "skyblue": "Dangaus m\u0117lyna",
+                "slateblue": "\u0160iferio m\u0117lyna",
+                "slategray": "\u0160iferio pilka",
+                "slategrey": "\u0160iferio pilka",
+                "snow": "Sniegas",
+                "springgreen": "Pavasario \u017ealia",
+                "steelblue": "Plienin\u0117 m\u0117lyna",
+                "thistle": "Er\u0161k\u0117tis",
+                "tomato": "Pomidoras"
+            }
+        }
+    },
+    "services": {
+        "turn_off": {
+            "description": "I\u0161junkite vien\u0105 ar daugiau \u0161vies\u0173."
+        },
+        "turn_on": {
+            "description": "\u012ejunkite vien\u0105 ar daugiau lempu\u010di\u0173 ir sureguliuokite \u0161viesos savybes, net kai jos jau \u012fjungtos.",
+            "fields": {
+                "brightness": {
+                    "description": "Skai\u010dius, nurodantis ry\u0161kum\u0105, kur 0 i\u0161jungia \u0161vies\u0105, 1 yra ma\u017eiausias ry\u0161kumas, o 255 yra did\u017eiausias ry\u0161kumas.",
+                    "name": "Ry\u0161kumo vert\u0117"
+                },
+                "brightness_pct": {
+                    "description": "Skai\u010dius, nurodantis viso ry\u0161kumo procent\u0105, kai 0 i\u0161jungia \u0161vies\u0105, 1 yra ma\u017eiausias ry\u0161kumas, o 100 yra did\u017eiausias ry\u0161kumas.",
+                    "name": "Ry\u0161kumas"
+                },
+                "brightness_step": {
+                    "description": "Pakeiskite ry\u0161kum\u0105 tam tikru kiekiu.",
+                    "name": "Ry\u0161kumo \u017eingsnio vert\u0117"
+                },
+                "brightness_step_pct": {
+                    "description": "Pakeiskite ry\u0161kum\u0105 procentais."
+                }
+            }
+        }
+    },
+    "title": "Lempa"
+}
