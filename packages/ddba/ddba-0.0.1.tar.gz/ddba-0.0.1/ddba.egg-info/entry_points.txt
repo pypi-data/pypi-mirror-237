@@ -1,0 +1,3 @@
+[console_scripts]
+ddba = ddba.command:cli
+
