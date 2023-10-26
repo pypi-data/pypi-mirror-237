@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nufi
+Version: 0.0.1
+Summary: Find words or sentences containing or starting/ending with a substring
+Home-page: UNKNOWN
+Author: Shck Tchamna
+Author-email: <tchamna@gmail.com>
+License: UNKNOWN
+Keywords: python,nufi,sentences extraction,word extraction,word finder,sentence finder
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A package that allows to Find words or sentences containing or starting/ending with a substring, from text file where sentences are separated by new lines
+
