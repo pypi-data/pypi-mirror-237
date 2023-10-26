@@ -1,0 +1,9 @@
+numpy
+matplotlib
+scipy
+astropy
+photutils
+PyAstronomy
+sslf
+radio_beam
+tqdm
