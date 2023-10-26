@@ -1,0 +1,11 @@
+qianqiuyun/__init__.py,sha256=3iq63oMsjjUKG9yYz82x4gKsR0nF_FGkqXDUFza231w,9
+qianqiuyun/sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qianqiuyun/sdk/mq.py,sha256=8qd23sEIrYb8ixYnjuabvBKk9gATQpVQeEqtKvpn3wo,163
+qianqiuyun/sdk/sql.py,sha256=OVtwKXU0HGpdpT8P5m2scY_qAuyKuVdUqb7j2OnBQ5o,267
+qianqiuyun/sdk/tsdb.py,sha256=YhVGrM-nTvfG3BX8GRVOeadWkrYUV0Bry56DsxigeHY,246
+qianqiuyun/sdk/util.py,sha256=Reukc-BCJGvt1ebr_duD-u68QJYm3BGS9duF2U_9avw,162
+qianqiuyun-0.0.1.dist-info/LICENSE,sha256=wuJc6SkaE_G-4alxueHO8BhgWRmEJAlJaPkoFuI9kqk,1070
+qianqiuyun-0.0.1.dist-info/METADATA,sha256=KDRnIfSiTrezqY3O4LLj7nFhrd_AqnD-9XcWn3oATIk,458
+qianqiuyun-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+qianqiuyun-0.0.1.dist-info/top_level.txt,sha256=L5bPpk4jUVb-snbjR95oD5V-KGrKCuZ5f3YRWWkc8Mg,11
+qianqiuyun-0.0.1.dist-info/RECORD,,
