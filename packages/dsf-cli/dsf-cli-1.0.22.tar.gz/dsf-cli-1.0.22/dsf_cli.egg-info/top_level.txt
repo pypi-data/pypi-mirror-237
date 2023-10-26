@@ -1,0 +1,6 @@
+dist
+dsfcli
+swagger
+swagger_client
+test
+venv
