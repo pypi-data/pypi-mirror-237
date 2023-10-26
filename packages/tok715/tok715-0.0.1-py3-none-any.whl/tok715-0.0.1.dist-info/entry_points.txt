@@ -1,0 +1,4 @@
+[console_scripts]
+tok715_vectorstor=tok715.vectorstor.cli:main
+tok715_voicerecog=tok715.voicerecog.cli:main
+
