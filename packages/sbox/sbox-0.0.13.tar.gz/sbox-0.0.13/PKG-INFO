@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sbox
+Version: 0.0.13
+Summary: hala bolo
+Home-page:  
+Author: M0F0IAm
+Author-email:  
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.txt
