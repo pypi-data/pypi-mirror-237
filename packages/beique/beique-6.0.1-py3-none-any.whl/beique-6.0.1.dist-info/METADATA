@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: beique
+Version: 6.0.1
+Summary: Ricequant Algorithm Trading System
+Home-page: https://github.com/ricequant/rqalpha
+Author: beique
+Author-email: public@ricequant.com
+License: Apache License v2
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: numpy
+Requires-Dist: pandas >=1.0.5
+Requires-Dist: python-dateutil
+Requires-Dist: six
+Requires-Dist: logbook
+Requires-Dist: click >=7.0.0
+Requires-Dist: jsonpickle
+Requires-Dist: simplejson
+Requires-Dist: PyYAML
+Requires-Dist: tabulate
+Requires-Dist: rqrisk >=1.0.6
+Requires-Dist: h5py
+Requires-Dist: matplotlib >=3.1.0
+Requires-Dist: openpyxl
+Requires-Dist: methodtools
+Provides-Extra: profiler
+Requires-Dist: line-profiler ; extra == 'profiler'
+
