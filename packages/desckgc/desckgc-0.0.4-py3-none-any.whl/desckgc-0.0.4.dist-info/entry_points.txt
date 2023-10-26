@@ -1,0 +1,3 @@
+[console_scripts]
+desckgc=DescKGC.scripts.cli:main
+
