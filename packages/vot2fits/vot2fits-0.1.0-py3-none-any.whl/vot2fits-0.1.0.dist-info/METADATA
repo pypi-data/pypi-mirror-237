@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: vot2fits
+Version: 0.1.0
+Summary: Convert VOTable to  FITS
+License: MIT
+Author: Alec Thomson (S&A, Kensington WA)
+Author-email: alec.thomson@csiro.au
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: astropy (>=5,<6)
+Requires-Dist: click (>=8,<9)
+Description-Content-Type: text/markdown
+
+# VOTable to FITS
+VOTables are slow to read. Yuck. This is a simple tool to convert time to FITS tables.
+
+Nice.
+
+## Installation
+
+### Stable
+```
+pip install vot2fits
+```
+
+### Latest
+```
+pip install git+https://github.com/AlecThomson/vot2fits.git
+```
+
+## Usage
+```
+❯ vot2fits --help
+Usage: vot2fits [OPTIONS] [FILE_NAMES]...
+
+Options:
+  -o, --overwrite  Overwrite existing files
+  --help           Show this message and exit.
+```
+
+## License
+MIT.
