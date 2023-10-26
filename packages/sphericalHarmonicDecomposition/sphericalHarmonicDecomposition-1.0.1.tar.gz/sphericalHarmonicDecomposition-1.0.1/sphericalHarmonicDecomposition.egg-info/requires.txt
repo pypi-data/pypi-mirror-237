@@ -1,0 +1,7 @@
+tqdm
+matplotlib
+numpy
+icosphere
+orthopoly
+MDAnalysis
+scipy
