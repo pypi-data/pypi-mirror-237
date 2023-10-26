@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pydlt_plus
+Version: 1.0.0
+Summary: A class to read and filter DLT message from DLT file BASE ON DltFileReader.
+Home-page: https://gitee.com/nostmabole/pydlt_plus
+Author: Arthur Nostmabole Zhang
+Author-email: nostmabole@sina.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+A class to read and filter DLT message from DLT file BASE ON DltFileReader.
