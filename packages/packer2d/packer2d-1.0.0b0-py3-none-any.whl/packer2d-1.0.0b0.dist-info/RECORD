@@ -1,0 +1,10 @@
+packer2d/__init__.py,sha256=wFxtNY6uUzrdb8znvJ8Yes79VL7JIZxeIOXC8BlS4A0,139
+packer2d/packer.py,sha256=TvGw7MAZ_KUPXV2_Y8mIaNSS8s8DyNdvxQt39b5oMic,9486
+packer2d/qtree.py,sha256=bg8-acpW2IkJiH4agVim0c-gadoVRFO46wIsJLp1zDI,9550
+packer2d/rect.py,sha256=njFuRGg35P-ZnJ8H8AuC1Tni4eUnOMw6YCd7siLT47E,7940
+packer2d/test.py,sha256=15osSZ8QzQnof9v3soYS4uLJs9p8yCBIxdxpql5HqxU,3693
+packer2d-1.0.0b0.dist-info/LICENSE.txt,sha256=GCDCqtpfvQOYIIrTifuVb3o5PyPhB477GIFGlAjUufE,1286
+packer2d-1.0.0b0.dist-info/METADATA,sha256=4WSwwswBFlldmdR-n87lpCDPHsw88TfSG4V4m3VvDOY,9168
+packer2d-1.0.0b0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+packer2d-1.0.0b0.dist-info/top_level.txt,sha256=gHNEym_d5gguDpkJt5JlhtIhOsau_55R1tyl0WWGYQQ,9
+packer2d-1.0.0b0.dist-info/RECORD,,
