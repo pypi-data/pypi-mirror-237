@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--suppress ALL -->
+<html lang="">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="Icon" type="image/ico" href="#"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js"
+        integrity="sha512-zoJXRvW2gC8Z0Xo3lBbao5+AS3g6YWr5ztKqaicua11xHo+AvE1b0lT9ODgrHTmNUxeCw0Ry4BGRYZfXu70weg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/index.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<link href="/style.css" rel="stylesheet">
+<head>
+    <title>Sys Stats</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-auto bg-light sticky-top">
+            <div class="d-flex flex-sm-column flex-row flex-nowrap bg-light align-items-center sticky-top">
+                <a href="/" class="d-block p-3 link-dark text-decoration-none" title="" data-bs-toggle="tooltip"
+                   data-bs-placement="right" data-bs-original-title="Sys Stats"
+                   style="padding-top: 30px !important; padding-bottom: 30px !important;">
+                    <i class="bi-clipboard-heart fs-1"></i>
+                </a>
+                <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center justify-content-between w-100 px-3 align-items-center">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                           data-bs-placement="right" data-bs-original-title="Processes">
+                            <i class="bi-list-nested fs-1"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/ports/" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                           data-bs-placement="right" data-bs-original-title="Ports">
+                            <i class="bi-wifi fs-1"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/stats/" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                           data-bs-placement="right" data-bs-original-title="Resources">
+                            <i class="bi-speedometer2 fs-1"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                           data-bs-placement="right" data-bs-original-title="Settings">
+                            <i class="bi-gear-wide-connected fs-1"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/info/" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                           data-bs-placement="right" data-bs-original-title="Info">
+                            <i class="bi-info-lg fs-1"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/amithkoujalgi/sys-stats/issues" class="nav-link py-3 px-2" title=""
+                           data-bs-toggle="tooltip"
+                           data-bs-placement="right" data-bs-original-title="Report issue" target="_blank">
+                            <i class="bi-exclamation-triangle fs-1"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm  p-3 min-vh-100">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <h2>Sys Stats</h2>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://github.com/amithkoujalgi/sys-stats" class="nav-link py-3 px-2 gh-link" title=""
+                       data-bs-toggle="tooltip"
+                       data-bs-placement="right" data-bs-original-title="Project on GitHub" target="_blank">
+                        <i class="bi-github fs-1"></i>
+                    </a>
+                </div>
+            </div>
+            <h5>Processes</h5>
+            <div class="input-group search-bar">
+                <input type="search" class="form-control rounded" placeholder="Search by PID or process name or command"
+                       aria-label="Search"
+                       aria-describedby="search-addon" id="proc-search"/>
+            </div>
+            <table class="process-list table w-auto small"></table>
+        </div>
+
+        <div class="position-fixed bottom-0 end-0 p-3">
+            <div id="toast" class="toast" style="float:right;" role="alert" aria-live="assertive" aria-atomic="true"
+                 data-delay="3000">
+                <div class="toast-header">
+                    <strong class="me-auto">Alert</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
