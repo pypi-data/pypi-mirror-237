@@ -1,0 +1,5 @@
+ast-scope
+nbconvert
+panel>=1.2
+param==1.13.0
+pathvalidate>=3.1.0
