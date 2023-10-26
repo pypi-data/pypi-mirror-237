@@ -1,0 +1,13 @@
+py21cmemu/__init__.py,sha256=GGy4DJ0VSUJS0jEZQjX5c-uzcSKROv70yv9k1MUuSPo,405
+py21cmemu/config.py,sha256=u_ZBFB84wdvwZOQQ6djVpbOXluxDmFICLqFEWGIZUhY,3359
+py21cmemu/emulator.py,sha256=ETXJFQLQM_-twUsrI81qsdB5kStXnguFnGU85C2B110,3564
+py21cmemu/emulator_constants.npz,sha256=OthMsCSEhjPimZ8f6rDY-G2DNKQo7JC3uEJF1nH8NF4,16226
+py21cmemu/get_emulator.py,sha256=x9ZHhpa4zKvI9RJcvYJ8uv_ObaogXYvmfI5DhsedYO4,2444
+py21cmemu/inputs.py,sha256=pwFh48TsJh7IvZYKEckx7Z2zgdJMGswjbJ27CUW7MWA,5399
+py21cmemu/outputs.py,sha256=xLB-EKX1qGYDyt9qV8gyyxBly7UUwr3dmR357f-892A,7670
+py21cmemu/properties.py,sha256=HWc5Mr8UJSIqXBw6tIoepVEiUdfdWT9i_CVYyg6oJzA,2860
+py21cmemu-1.1.1.dist-info/LICENSE,sha256=etWS8QwAdwbsZoXF_vDeHjKEFXrvSnjNMxu6bUMCqDs,1073
+py21cmemu-1.1.1.dist-info/METADATA,sha256=DOoq1WY4z1am1BlM7QX3lVY3Sm5MZY8a3W13m4C_2B4,3796
+py21cmemu-1.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+py21cmemu-1.1.1.dist-info/entry_points.txt,sha256=Z7vyI0p-At4s02IfmsL-DbOfS35-04WxENYxqjVqCds,53
+py21cmemu-1.1.1.dist-info/RECORD,,
