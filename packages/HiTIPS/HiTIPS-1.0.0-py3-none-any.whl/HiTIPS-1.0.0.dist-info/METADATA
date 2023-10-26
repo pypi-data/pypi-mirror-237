@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: HiTIPS
+Version: 1.0.0
+Summary: High throughput image processing software for analyzing cell dynamics and DNA/RNA
+Author: Adib Keikhosravi
+Author-email: adib.k.bme@gmail.com
+Requires-Dist: pyqt5
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: pillow
+Requires-Dist: matplotlib
+Requires-Dist: imageio
+Requires-Dist: tifffile
+Requires-Dist: scikit-image ==0.18.3
+Requires-Dist: btrack
+Requires-Dist: qimage2ndarray
+Requires-Dist: aicsimageio
+Requires-Dist: cellpose
+Requires-Dist: opencv-python-headless
+Requires-Dist: deepcell
+Requires-Dist: hmmlearn
+Requires-Dist: aicsimageio[nd2]
+Requires-Dist: nd2reader
+Requires-Dist: joblib
+Requires-Dist: tensorflow
+Requires-Dist: scikit-learn
+Requires-Dist: dask
+Requires-Dist: imaris-ims-file-reader
+Requires-Dist: imagej
+Requires-Dist: jnius
+
