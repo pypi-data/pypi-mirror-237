@@ -1,0 +1,70 @@
+project:
+  type: website
+
+metadata-files:
+  - api/_sidebar.yml
+
+quartodoc:
+  package: profiplots
+  dir: api
+  sidebar: api/_sidebar.yml
+
+  sections:
+    - title: Base
+      contents:
+        - set_theme
+        - reset_theme
+        - set_style
+        - style_context
+        - name: color
+          children: separate
+    - title: Style
+      contents:
+        - style.grey
+        - style.colored
+        - style.grid
+        - style.spines
+        - style.ticks
+    - title: Profile
+      contents:
+        - profile.exploration
+        - profile.publish
+
+website:
+  title: "profiplots"
+  repo-url: https://git.profinit.eu/datascience/sablony/profiplots
+  repo-branch: main
+  repo-subdir: docs
+  repo-actions: [edit]
+
+  navbar:
+    search: true
+    tools:
+      - icon: git
+        url: https://git.profinit.eu/datascience/sablony/profiplots
+    left:
+      - sidebar:users
+      - 
+        text: API
+        href: api/index.qmd
+
+  sidebar: 
+    - id: users
+      title: Users
+      style: docked
+      contents: 
+        - users/quickstart.qmd
+        - users/customization.qmd
+        - section: users/examples/index.qmd
+          contents: 
+            - text: Basic
+              file: users/examples/basic.qmd
+
+format:
+  profinit-html:
+    toc: true
+    title-block-banner: false
+    warning: false
+
+execute:
+  freeze: auto
