@@ -1,0 +1,18 @@
+[console_scripts]
+pydjinni = pydjinni.__main__:main
+
+[pydjinni.builder]
+conan = pydjinni.builder.conan:ConanTarget
+
+[pydjinni.generator]
+cpp = pydjinni.generator.cpp:CppTarget
+java = pydjinni.generator.java:JavaTarget
+objc = pydjinni.generator.objc:ObjcTarget
+yaml = pydjinni.generator.yaml:YamlTarget
+
+[pydjinni.packaging]
+aar = pydjinni.packaging.aar:AndroidArchiveTarget
+swiftpackage = pydjinni.packaging.swiftpackage:SwiftpackageTarget
+
+[pygments.lexers]
+djinni = pydjinni.lexer:PyDjinniLexer
