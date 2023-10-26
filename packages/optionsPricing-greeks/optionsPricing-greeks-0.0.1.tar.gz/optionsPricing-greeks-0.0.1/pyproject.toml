@@ -1,0 +1,15 @@
+[project]
+name = "optionsPricing-greeks"
+version = "0.0.1"
+authors = [
+  { name="Filippo Tomelleri", email="filippo.tomelleri01@gmail.com" },
+]
+description = "A package to calculate the price of options and the greeks"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+
+]
+
+[project.urls]
+"Homepage" = "https://github.com/FilippoTomelleri/optionsPricing-Greeks"
