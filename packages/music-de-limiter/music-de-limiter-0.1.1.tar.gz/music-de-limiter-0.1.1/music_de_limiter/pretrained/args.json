@@ -1,0 +1,146 @@
+{
+  "classifier_params": {
+    "chosen_source_mean": 0.7,
+    "chosen_source_std": 0.15,
+    "classifier_activation": "softmax",
+    "classifier_n_classes": 4,
+    "classifier_n_srcs": 4,
+    "freeze_when_mixit": true,
+    "melspec_power": 2.0,
+    "model_name": "hrnet_w18_small",
+    "n_mels": 128,
+    "other_source_mean": 0.3,
+    "other_source_std": 0.15,
+    "pretrained_model": false,
+    "use_one_source_prob": 0.2,
+    "use_stereo": true
+  },
+  "conv_tasnet_params": {
+    "bn_chan": 128,
+    "decoder_activation": "sigmoid",
+    "encoder_activation": "relu",
+    "hid_chan": 512,
+    "kernel_size": 128,
+    "mask_act": "relu",
+    "n_blocks": 5,
+    "n_filters": 512,
+    "n_repeats": 2,
+    "skip_chan": 128,
+    "stride": 64
+  },
+  "data_params": {
+    "custom_limiter_attack_range": null,
+    "custom_limiter_release_range": null,
+    "limitaug_custom_target_lufs": null,
+    "limitaug_custom_target_lufs_std": null,
+    "limitaug_method": "ozone",
+    "limitaug_mode": null,
+    "nb_channels": 2,
+    "nfft": 4096,
+    "nhop": 1024,
+    "random_mix": true,
+    "sample_rate": 44100,
+    "samples_per_track": 128,
+    "seq_dur": 4.0,
+    "singleset_num_frames": null,
+    "target_limitaug_custom_target_lufs": null,
+    "target_limitaug_custom_target_lufs_std": null,
+    "target_limitaug_mode": null,
+    "target_loudnorm_lufs": -14.0,
+    "use_fixed": 0.019
+  },
+  "dir_params": {
+    "continual_train": false,
+    "delimit_valid_L_root": null,
+    "delimit_valid_root": null,
+    "exp_name": "convtasnet_35",
+    "output_directory": "/data2/personal/jeon/delimit/results",
+    "ozone_root": "/data5/personal/jeon/delimit/data",
+    "pretrained_classifier": null,
+    "resume": null,
+    "root": "/data1/Music/musdb18hq"
+  },
+  "gpu": 0,
+  "hyperparams": {
+    "batch_size": 8,
+    "ema": false,
+    "epochs": 200,
+    "gradient_clip": 5.0,
+    "lr": 3e-05,
+    "lr_decay_gamma": 0.5,
+    "lr_decay_patience": 15,
+    "lr_scheduler": "step_lr",
+    "optimizer": "adamw",
+    "patience": 50,
+    "weight_decay": 0.01
+  },
+  "img_check": "/data2/personal/jeon/delimit/results/img_check/convtasnet_35",
+  "invest_unet_params": {
+    "bn_factor": 16,
+    "f_down_layers": null,
+    "first_conv_activation": "relu",
+    "input_channels": 4,
+    "internal_channels": 24,
+    "kernel_size_f": 3,
+    "kernel_size_t": 3,
+    "last_activation": "identity",
+    "min_bn_units": 16,
+    "n_blocks": 7,
+    "n_internal_layers": 5,
+    "t_down_layers": null,
+    "tfc_tdf_activation": "relu",
+    "tfc_tdf_bias": true,
+    "tif_init_mode": null
+  },
+  "model_loss_params": {
+    "architecture": "conv_tasnet_mask_on_output",
+    "efficient_mixit_threshold": null,
+    "train_loss_func": [
+      "si_sdr"
+    ],
+    "train_loss_scales": [
+      1.0
+    ],
+    "valid_loss_func": [
+      "si_sdr"
+    ],
+    "valid_loss_scales": [
+      1.0
+    ]
+  },
+  "ngpus_per_node": 1,
+  "output": "/data2/personal/jeon/delimit/results/checkpoint/convtasnet_35",
+  "resume": {},
+  "sample_rate": {},
+  "sys_params": {
+    "n_nodes": 1,
+    "nb_workers": 4,
+    "port": null,
+    "rank": 0,
+    "seed": 777,
+    "world_size": 1
+  },
+  "task_params": {
+    "bleeding_nsrcs": null,
+    "dataset": "delimit",
+    "target": "all",
+    "train": true
+  },
+  "umx_params": {
+    "activation": "relu",
+    "dropout_rate": 0.05,
+    "hidden_size": 512,
+    "instead_tanh_activation": "tanh",
+    "lstm_dropout_rate": 0.4,
+    "nb_layers": 3,
+    "normalization": "bn",
+    "umx_get_statistics": false
+  },
+  "wandb_params": {
+    "entity": "vinyne",
+    "project": "delimit",
+    "rerun_id": null,
+    "sweep": false,
+    "use_wandb": true
+  }
+}

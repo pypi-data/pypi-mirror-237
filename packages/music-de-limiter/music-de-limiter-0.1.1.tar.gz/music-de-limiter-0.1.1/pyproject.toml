@@ -1,0 +1,20 @@
+[project]
+name = "music-de-limiter"
+version = "0.1.1"
+authors = [
+    { name = "Ishotihadus", email = "webmaster@ishotihadus.com" }
+]
+dynamic = ["dependencies"]
+
+[project.urls]
+"Homepage" = "https://github.com/kimagure-humoresque/de-limiter"
+"Bug Tracker" = "https://github.com/kimagure-humoresque/de-limiter/issues"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.setuptools.package-data]
+"music_de_limiter.pretrained" = ["*.json", "*.pth"]
