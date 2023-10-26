@@ -1,0 +1,12 @@
+bci_dataset/__init__.py,sha256=sR2rK2kMm8HwIjyOccQEfOSmcsPka4ExvwDU0FQ2B2Y,58
+bci_dataset/hdf_controller.py,sha256=1qZ-J28lRHh5LDE9imIT2DtuNfzyTZFw33L8GT6xAvs,757
+bci_dataset/importer.py,sha256=92cFhC226GZHHkKx2Gir823K8KeLiH-8QHXgi4VvVX0,192
+bci_dataset/test_hdf_controller.py,sha256=PhbZgZTMwB42R_vSKdDAgNb-pPorjem3b2SRVDVCp3U,893
+bci_dataset/test_importer.py,sha256=Ik-fUOnsIJXr1ikX0BDkemtXyk2eD-PHoAyKFfVhl9Y,217
+bci_dataset/test_updater_class.py,sha256=Ufu09L6QEBgg6gtSuaCiOSYmE46q1AWTw614qfQIyPk,3914
+bci_dataset/updater.py,sha256=VfXloCieYqQ_Gbabo7HjZAexCFe9TS58U3fsAvZCU30,4307
+bci_dataset-1.0.0.dist-info/LICENSE,sha256=aCRrw8JEZ5NWIULJvKf3C6dtvB0NGgQ9-DoM6JYFqxA,1085
+bci_dataset-1.0.0.dist-info/METADATA,sha256=_SVbrNkM0Xlfo_5SJu-hJNJKF01JrFndQagYZKN4t-M,3767
+bci_dataset-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bci_dataset-1.0.0.dist-info/top_level.txt,sha256=O4l-XPVIC_PlayHogD-IByJxHtNXvkmYkVnvG4h2nDc,12
+bci_dataset-1.0.0.dist-info/RECORD,,
