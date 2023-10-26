@@ -1,0 +1,65 @@
+from pathlib import Path
+from typing import Optional
+
+from pydantic import BaseModel
+from requests_cache import SQLiteCache, CachedSession
+
+
+class Website:
+    """
+    Represents a Website. You can make cached requests to the website by
+    using the `self.session` object.
+    """
+
+    def __init__(
+        self,
+        cache_name: str,
+        cache_dir: Path,
+        cache_methods: tuple = ("GET", "POST"),
+        user_agent: str = "legisph (code@tjpalanca.com)",
+    ):
+        cache_dir.mkdir(exist_ok=True, parents=True)
+        self.session = CachedSession(
+            backend=SQLiteCache(cache_dir / f"{cache_name}.sqlite"),
+            allowable_methods=cache_methods,
+        )
+        self.session.headers["User-Agent"] = user_agent
+
+
+class WebsiteException(Exception):
+    """
+    General class for exceptions from a website. Has a resource string that can be
+    accessed to know about the problem.
+    """
+
+    def __init__(self, message: str, resource: str):
+        super().__init__(message, resource)
+
+    # We have to do this instead of using instance fields because it is not possible
+    # to unpickle this exception with fields.
+    @property
+    def message(self):
+        return self.args[0]
+
+    @property
+    def resource(self):
+        return self.args[1]
+
+
+class NotFoundError(WebsiteException):
+    """Raised when the resource is not found."""
+
+
+class ServerError(WebsiteException):
+    """Raised when the server reports an internal error."""
+
+
+class ParsingError(WebsiteException):
+    """Raised when there are issues parsing the exception"""
+
+
+class Link(BaseModel):
+    """A link to a resource on the internet"""
+
+    url: str
+    name: Optional[str]
