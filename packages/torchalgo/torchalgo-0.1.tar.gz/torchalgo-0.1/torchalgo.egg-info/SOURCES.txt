@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+torchalgo.egg-info/PKG-INFO
+torchalgo.egg-info/SOURCES.txt
+torchalgo.egg-info/dependency_links.txt
+torchalgo.egg-info/not-zip-safe
+torchalgo.egg-info/requires.txt
+torchalgo.egg-info/top_level.txt

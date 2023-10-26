@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: torchalgo
+Version: 0.1
+Summary: AlgoVision - A Framework for Differentiable Algorithms and Algorithmic Supervision
+Home-page: https://pypi.python.org/pypi/algovision/
+Author: Felix Petersen
+Author-email: ads0399@felix-petersen.de
+Maintainer: Felix Petersen
+Maintainer-email: ads0740@felix-petersen.de
+Platform: all
+
+Use `algovision <https://pypi.python.org/pypi/algovision/>`_ instead.
