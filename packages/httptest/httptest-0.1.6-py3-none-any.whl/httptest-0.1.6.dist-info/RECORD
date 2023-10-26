@@ -1,0 +1,11 @@
+httptest/__init__.py,sha256=P_pPZZBn1Kpg02MhqSKtUaeXayH4cSRkCXWb70xylFM,32
+httptest/cli.py,sha256=BxdGMU_Rh8SiCaTFWigh5CdFi2pEgExyEdyjtLv7b84,1287
+httptest/httptest.py,sha256=W4eucmLlTgh39SANOTmgDXIavgB3SSMdxpJVb3xAlqo,12191
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_httptest.py,sha256=VpbCG9DrbdukMYt0R5vB9ltUwgKBqJcA7FjyHKVf-2k,3986
+httptest-0.1.6.dist-info/LICENSE,sha256=R7Zt5ZA7qHEBbBaiZtRSD2x5Rbu1tOTGp2tI_3jd-2s,1053
+httptest-0.1.6.dist-info/METADATA,sha256=Jrm8YWmfGuUKFU7LN_4FqZUzIPIw9crFY-sTqrKbF18,5556
+httptest-0.1.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+httptest-0.1.6.dist-info/entry_points.txt,sha256=nfshgsLbmkKcjLPhU9cLC5VlI44pCO5eDm0tvWzFaWo,54
+httptest-0.1.6.dist-info/top_level.txt,sha256=sNUwtJUP6j8AKTrOkx9sXdeBufL-rau0jzhP-JRMYgs,15
+httptest-0.1.6.dist-info/RECORD,,
