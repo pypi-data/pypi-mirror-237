@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+astra_vector.egg-info/PKG-INFO
+astra_vector.egg-info/SOURCES.txt
+astra_vector.egg-info/dependency_links.txt
+astra_vector.egg-info/not-zip-safe
+astra_vector.egg-info/top_level.txt
