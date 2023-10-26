@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: autoencoders
+Version: 0.0.1
+Summary: autoencoders for PyTorch
+Home-page: https://github.com/Jyonn/autoencoders
+Author: Jyonn Liu
+Author-email: i@6-79.cn
+License: MIT Licence
+Keywords: encoder,autoencoder,deep learning,pytorch
+Platform: any
+Description-Content-Type: text/markdown
+
+# autoencoders
+
+
+
