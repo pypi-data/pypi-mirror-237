@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mff-lib2to3-fake"
+version = "0.1.0"
+description = "Stub copying part of the lib2to3 API to allow Py-Feat to work with Python 3.10+ (no functionality)."
+authors = ["Marc Fraile <marc.fraile.fabrega@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "lib2to3"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
