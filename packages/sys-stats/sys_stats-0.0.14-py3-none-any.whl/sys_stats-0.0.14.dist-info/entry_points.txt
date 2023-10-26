@@ -1,0 +1,3 @@
+[console_scripts]
+sys-stats = sys_stats.sys_stats_cli:main
+
