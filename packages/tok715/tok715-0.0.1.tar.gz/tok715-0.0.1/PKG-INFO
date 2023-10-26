@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tok715
+Version: 0.0.1
+Summary: CODENAME: TOK715
+License: MIT
+Author: GUO YANKE
+Author-email: hi@guoyk.xyz
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyMySQL (>=1.1,<2.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: SQLAlchemy (>=2.0,<3.0)
+Requires-Dist: click (>=8.1,<9.0)
+Requires-Dist: pika (>=1.3,<2.0)
+Requires-Dist: pymilvus (>=2.3,<3.0)
+Requires-Dist: torch (>=2.1,<3.0)
+Requires-Dist: torchaudio (>=2.1,<3.0)
+Requires-Dist: torchvision (>=0.16,<0.17)
+Requires-Dist: transformers (>=4.34,<5.0)
+Description-Content-Type: text/markdown
+
+# tok715
+
+开发代号: TOK715
+
+## 许可证
+
+TOK715 Developers, MIT License
+
