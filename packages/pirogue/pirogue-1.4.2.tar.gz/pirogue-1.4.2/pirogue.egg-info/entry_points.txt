@@ -1,0 +1,2 @@
+[console_scripts]
+pirogue = scripts.pirogue:main
