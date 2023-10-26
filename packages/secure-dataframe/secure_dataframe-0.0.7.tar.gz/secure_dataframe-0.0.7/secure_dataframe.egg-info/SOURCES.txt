@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+secure_dataframe/__init__.py
+secure_dataframe/secure_dataframe.py
+secure_dataframe.egg-info/PKG-INFO
+secure_dataframe.egg-info/SOURCES.txt
+secure_dataframe.egg-info/dependency_links.txt
+secure_dataframe.egg-info/requires.txt
+secure_dataframe.egg-info/top_level.txt
