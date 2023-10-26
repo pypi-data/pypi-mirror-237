@@ -1,0 +1,13 @@
+numpy
+matplotlib
+
+[test]
+pytest
+scipy
+matplotlib
+html5lib
+matrepr
+
+[testextra]
+python-graphblas
+sparse
