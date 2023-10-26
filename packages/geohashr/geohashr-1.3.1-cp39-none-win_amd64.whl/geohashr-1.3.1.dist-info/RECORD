@@ -1,0 +1,9 @@
+geohashr-1.3.1.dist-info/METADATA,sha256=XuidSgdgtlWzndeQnzDTw1DoKcawYzP6cUoSblM9xo4,2489
+geohashr-1.3.1.dist-info/WHEEL,sha256=l9tZIuihe7DLgMbT1yScgibzO02a7xvFMvWV9eNZE9E,94
+geohashr-1.3.1.dist-info/license_files/LICENSE,sha256=GZV2_v0XbKDyI3NfOXzz3goTFpNXGXURYZT8edOK6vg,1528
+geohashr/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geohashr/_geohashr.pyi,sha256=AR2l5t9gmT73I2eDkPTwGBoktwLS9RdtmzGElf0MGK4,678
+geohashr/__init__.py,sha256=JEyjk08butNitbDEwP5vI86AYrWBB7zuwUnn0xOCWfg,169
+geohashr/__version__.py,sha256=CSb0sMeIUQb-6NXZxUJsGKmmUrzMqxcSTAF3JYeSYmw,23
+geohashr/_geohashr.cp39-win_amd64.pyd,sha256=hdxMQCUwxaqDLkV50ihda7Gee8RB-5yxpN1zNuCtIws,300544
+geohashr-1.3.1.dist-info/RECORD,,
