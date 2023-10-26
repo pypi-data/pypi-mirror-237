@@ -1,0 +1,8 @@
+README.md
+setup.py
+mdpiroi/__init__.py
+mdpiroi/hello.py
+mdpiroi.egg-info/PKG-INFO
+mdpiroi.egg-info/SOURCES.txt
+mdpiroi.egg-info/dependency_links.txt
+mdpiroi.egg-info/top_level.txt
