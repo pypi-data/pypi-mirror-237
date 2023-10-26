@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+matplotsup/__init__.py
+matplotsup/collatz.py
+matplotsup/sort.py
+matplotsup.egg-info/PKG-INFO
+matplotsup.egg-info/SOURCES.txt
+matplotsup.egg-info/dependency_links.txt
+matplotsup.egg-info/requires.txt
+matplotsup.egg-info/top_level.txt
