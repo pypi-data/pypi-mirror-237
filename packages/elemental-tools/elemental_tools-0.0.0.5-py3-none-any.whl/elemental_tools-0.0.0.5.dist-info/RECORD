@@ -1,0 +1,14 @@
+elemental_tools/__init__.py,sha256=0WPqN4oOh4j4Qfowe3gP4zk1mg8b_QjyBSP_EQFzWOQ,153
+elemental_tools/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elemental_tools/db/couch.py,sha256=HXsccHMmOGmwqnVLSg9cKHlyfXanu52lj0w01jstxBM,4512
+elemental_tools/design/__init__.py,sha256=Jrdq-3CBD7b3j-oQ7_8R8eSzxAWjZvmutq-_JEXQb5I,267
+elemental_tools/file_manager/__init__.py,sha256=R6xtViaKrIXyW64fyDdybDSVnEPUYh3jmYH0CGC041w,532
+elemental_tools/logger/__init__.py,sha256=xxRsGR8Un0JcIA7xGx24x5Fna1PQECRmYOAV3H12qx0,1687
+elemental_tools/logger/test.py,sha256=pvKYojX3sz4JqPhJXYuMrALUQGnvKY9fXy3soxEBq18,146
+elemental_tools/path/__init__.py,sha256=Tm6POn3bDQS3at5RwhewaElA7GSpAg5r7dKxRWkdHm0,202
+elemental_tools/patterns/__init__.py,sha256=J1rE448V73QGRL_8qltoaieUhqf0qrioJS41WYC_jl4,77
+elemental_tools/storage/__init__.py,sha256=uzfoayXRPQ4XVgOMs3G4aX5Szj20FgfgYwERYijUZ40,936
+elemental_tools-0.0.0.5.dist-info/METADATA,sha256=TSJ7HH0zAJ9nAXleNdU1uIHtaJ_5peB-DzOGEmfScIY,1808
+elemental_tools-0.0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+elemental_tools-0.0.0.5.dist-info/top_level.txt,sha256=pQ-DwAcAL19wFA8B6zXbM9opvSYDYVCfGcpZx00O-2U,16
+elemental_tools-0.0.0.5.dist-info/RECORD,,
