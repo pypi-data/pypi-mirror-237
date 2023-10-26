@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jelloow_names"
+version = "0.0.9"
+authors = [
+  { name="Michael Lucky", email="michael@llab.dev" },
+]
+description = "Package for maintaining centralized goverance of data for company data extraction"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+
+]
