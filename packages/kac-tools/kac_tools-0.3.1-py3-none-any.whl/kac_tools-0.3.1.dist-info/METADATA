@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: kac-tools
+Version: 0.3.1
+Summary: Python CLI tool to parse keep-a-changelog formatted files and extract parts.
+Author-email: Elias Rosch <eliasrosch@googlemail.com>
+License: MIT
+Project-URL: Homepage, https://gitlab.com/EvilEli/kac-tools
+Project-URL: Documentation, https://gitlab.com/EvilEli/kac-tools
+Project-URL: Repository, https://gitlab.com/EvilEli/kac-tools.git
+Project-URL: Changelog, https://gitlab.com/EvilEli/kac-tools
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# kac-tools
+`kac-tools` is a CLI python tool which parses CHANGELOG.md (in the keep-a-changelog format).
+It can be used to extract only specific sections.
+
+## Installation
+### Release
+The latest release is available in the public PyPi repo. 
+Install via pip:
+```
+pip install kac-tools
+```
+
+### From git repo
+You can also install directly from the git repo.
+
+1. Clone the repository
+
+```
+git clone <git-url> <destination>
+```
+
+2. Change into the clone directory
+```
+cd <destination>
+```
+
+3. Install via pip
+```
+pip install .
+```
+
+## Usage
+```
+usage: kac-tools [-h] [-c CHANGELOG_FILE] [-s SECTION]
+
+options:
+  -h, --help            show this help message and exit
+  -c CHANGELOG_FILE, --changelog-file CHANGELOG_FILE
+                        Path to changelog file to parse (default: CHANGELOG.md).
+  -s SECTION, --section SECTION
+                        Section that should be extracted (default: latest).
+```
