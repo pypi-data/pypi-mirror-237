@@ -1,0 +1,11 @@
+learn_to_pick/__init__.py,sha256=e73ymjNdVJW5ppyEKqCughgr4T__e1czrSmtWOfxqd0,1106
+learn_to_pick/base.py,sha256=tgSuBrho2_TzH1NblyjxAkugb1hT9HM5dgs1w9edLDY,20695
+learn_to_pick/metrics.py,sha256=XzL1u6unkdpyzNTS9FqiRL2xo-0w6GshhQfAChwZz0k,2098
+learn_to_pick/model_repository.py,sha256=J5IIVpCBA_xCT61HLb3is1CgRlPslvRSg_wbFmJ3FM4,2107
+learn_to_pick/pick_best.py,sha256=9q5q-93vdHhXRXjfr8N7U61YP77OQWyuSzXWJcOpdc4,15869
+learn_to_pick/vw_logger.py,sha256=goDa60E-43ZcI6kLCmmWBuW9XjETh5NM5ESIcxT0tAs,516
+learn_to_pick-0.0.1.dist-info/LICENSE,sha256=9c2632l5eHb2pqryZMAh3e7U6RLx4CV8SWlRKG_uCp8,1070
+learn_to_pick-0.0.1.dist-info/METADATA,sha256=wbIo58pcwCrjELZPWFce7t-8KvqNCoTOL0VF9RvPg7M,14978
+learn_to_pick-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+learn_to_pick-0.0.1.dist-info/top_level.txt,sha256=XJwK318dzdvUELVr4tKFqTxDbA-l2JwiXfEieblBpro,14
+learn_to_pick-0.0.1.dist-info/RECORD,,
