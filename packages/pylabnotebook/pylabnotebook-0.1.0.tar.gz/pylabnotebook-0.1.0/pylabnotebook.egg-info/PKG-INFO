@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pylabnotebook
+Version: 0.1.0
+Summary: This package provides functions to write an automated labnotebook using git.
+Author: Matteo Miotto
+Author-email: miotsdata@gmail.com
+Requires-Dist: argparse
