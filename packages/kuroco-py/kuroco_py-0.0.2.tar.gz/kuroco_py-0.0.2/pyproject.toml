@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "kuroco-py"
+version = "0.0.2"
+description = "A Python client for Kuroco Headless CMS"
+authors = ["Aurelien Vialon <aurelien@diverta.co.jp>"]
+maintainers = ["Aurelien Vialon <aurelien@diverta.co.jp>"]
+readme = "README.md"
+license = "Apache-2.0"
+keywords = ["kuroco", "headless", "cms", "api", "client", "langchain"]
+packages = [
+    { "include"= "kuroco_api" }, 
+    { "include"= "kuroco_embedding" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.8.5"
+pandas = "^2.1.0"
+asyncclick = "^8.1.3.4"
+langchain = "^0.0.323"
+openai = "^0.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
