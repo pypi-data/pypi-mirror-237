@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: jupyter-base16-theme
+Version: 0.0.6
+Summary: Base16-theme for JupyterLab
+Home-page: https://github.com/protogia/jupyter_base16_theme
+Author: protogia.engineering
+License: BSD-3-Clause
+Keywords: Jupyter,JupyterLab,JupyterLab3
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Framework :: Jupyter
+Classifier: Framework :: Jupyter :: JupyterLab
+Classifier: Framework :: Jupyter :: JupyterLab :: 3
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions :: Prebuilt
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# jupyter_base16_theme
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinRenou/jupyterlab-night/main?urlpath=lab)
+
+jupyter-base16-theme inspired by [chriskempson/base16](https://github.com/chriskempson/base16).
+
+## Requirements
+
+* JupyterLab >= 3.0
+
+## Install
+
+To install the extension, execute:
+
+
+```bash
+pip install jupyter_base16_theme
+```
+
+## Thanks
+
+I used the jupyterlab-theme-template [jupyter-night](https://github.com/martinRenou/jupyterlab-night) by Martin Renou and the css-stylesheet [base16](https://github.com/chriskempson/base16) by Chris Kempson.
