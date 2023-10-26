@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: azcam-webtools
+Version: 23.0
+Summary: A azcam web application for interacting with azcamserver.
+Keywords: ccd,imaging,astronomy,sensors
+Author: Michael Lesser
+Author-email: mlesser@arizona.edu
+Description-Content-Type: text/markdown
+Requires-Dist: azcam
+Requires-Dist: fastapi
+Project-URL: Documentation, https://azcam.readthedocs.io/
+Project-URL: Repository, https://github.com/mplesser/azcam-webtools/
+
+# azcam-webtools
+
+*azcam-webtools* contains azcam web applications which interact with azcamserver over the web interface. Current functions include a status page and an exposure control page.
+
+## Installation
+
+`pip install azcam-webtools`
+
+Or download from github: https://github.com/mplesser/azcam-webtools.git.
+
+## Usage:
+
+ToDo
+
