@@ -1,0 +1,10 @@
+openbb_oecd/__init__.py,sha256=P9M9SjE65q03Ki-6uVz83Y41KxJfruvXkn9QYfXBMH0,525
+openbb_oecd/models/gdpforecast.py,sha256=2HzVGotaFr4ZSPZsJuxGzfJkpPiQJcd0L9YBGbAXPlY,4105
+openbb_oecd/models/gdpnom.py,sha256=jKojbBWRN1bWlJgo9OroVcRWWwfF1u2piu_nw3UGSRo,2984
+openbb_oecd/models/gdpreal.py,sha256=l_LGf__xd9Du5b3w4wpL97ElH3kjZoE2-344m1Gqzgo,3400
+openbb_oecd/utils/constants.py,sha256=3y9S-_bp9DNVupf4aOgogKsrZeAnM1Hdvv1fUXJGuQA,10253
+openbb_oecd/utils/helpers.py,sha256=FckNMG2IUwrAuL4HsBJCrZS5-QzRrpPl38CTTOZTKI0,1616
+openbb_oecd-0.1.0a4.dist-info/METADATA,sha256=kQBLazaXdTeG2Ui4ShsVCLYWZTLMu6V8O59rSpgNALI,542
+openbb_oecd-0.1.0a4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+openbb_oecd-0.1.0a4.dist-info/entry_points.txt,sha256=v5MO-mQ_6qHhxdPCVAaAcT7ZWb0TwKphvI5Gl9kwA_w,60
+openbb_oecd-0.1.0a4.dist-info/RECORD,,
