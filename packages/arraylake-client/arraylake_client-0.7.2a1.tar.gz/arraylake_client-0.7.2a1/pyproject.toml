@@ -1,0 +1,40 @@
+[build-system]
+requires = ["poetry-core>=1.0.0,<1.7.0", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.poetry]
+name = "arraylake-client"
+version = "0.7.2a1"  # placeholder
+description = "dummy arraylake client"
+authors = ["Joseph Hamman <joe@earthmover.io>"]
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+style = "pep440"
+strict = true
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+arraylake = ">=0.7.2"
+
+[tool.poetry.group.dev.dependencies]
+arraylake = {path = "../client", develop = true}
+pytest = "^7.3"
+pytest-cov = "^4.0.0"
+
+[tool.poetry.extras]
+cli = ["ruamel-yaml", "typer", "rich", "click"]
+virtual = ["fsspec", "kerchunk", "h5py", "s3fs"]
+widgets = ["ipytree"]
+
+[tool.flake8]
+exclude = ['**/tests/*', '**/__init__.py']
+max-line-length = 140
+
+[tool.isort]
+profile = "black"
+sections = "FUTURE,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER,ARRAYLAKE,ARRAYLAKE_CLIENT,ARRAYLAKE_API"
+known_arraylake = "arraylake"
+known_arraylake_client = "arraylake_client"
+known_arraylake_api = "arraylake_api"

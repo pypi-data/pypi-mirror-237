@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: arraylake-client
+Version: 0.7.2a1
+Summary: dummy arraylake client
+Author: Joseph Hamman
+Author-email: joe@earthmover.io
+Requires-Python: >=3.8,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: cli
+Provides-Extra: virtual
+Provides-Extra: widgets
+Requires-Dist: arraylake (>=0.7.2)
