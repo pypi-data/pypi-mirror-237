@@ -1,0 +1,4 @@
+[console_scripts]
+magic_combo=magic_combo.__main__:main
+mcx=magic_combo.__main__:main
+
