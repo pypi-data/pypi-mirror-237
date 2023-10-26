@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/flatway/__init__.py
+src/flatway/flatten.py
+src/flatway.egg-info/PKG-INFO
+src/flatway.egg-info/SOURCES.txt
+src/flatway.egg-info/dependency_links.txt
+src/flatway.egg-info/top_level.txt
