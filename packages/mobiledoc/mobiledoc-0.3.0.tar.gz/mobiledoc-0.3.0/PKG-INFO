@@ -1,0 +1,156 @@
+Metadata-Version: 2.1
+Name: mobiledoc
+Version: 0.3.0
+Summary: A Python package aimed to simplify the processing of the mobiledoc format.
+Author-email: Suh Jae <wonyul@joseon.space>
+Project-URL: Homepage, https://github.com/SuhJae/mobiledoc-py/
+Project-URL: Bug Tracker, https://github.com/SuhJae/mobiledoc-py/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: markdownify
+
+# **Mobiledoc**
+
+A Python package aimed to simplify the processing of the mobiledoc format.
+
+## **Features**
+
+- **Simple API**: Intuitive methods to easily add text, formatted text, dividers, and custom data.
+- **Markdown-like Formatting**: Write using familiar markdown-like syntax, and let the package do the heavy lifting.
+- **Convert HTML to Markdown**: Convert HTML to markdown using the `add_markdown_from_html()` method.
+- **Serialization**: Serialize the mobiledoc object into a JSON-friendly format.
+
+## **Installation**
+
+`pip install mobiledoc`
+[PyPi](https://pypi.org/project/mobiledoc/)
+
+## **Example**
+
+```python
+from mobiledoc import Mobiledoc
+import json
+
+mobiledoc = Mobiledoc()
+mobiledoc.add_basic_text("This is a basic text, which is not formatted.")
+mobiledoc.add_basic_text(["You may also add a list of strings.", "To add multiple paragraphs."])
+mobiledoc.add_divider()  # add a divider
+mobiledoc.add_formatted_text("Using **markdown-like** syntax, you can *format* the text.")
+mobiledoc.add_formatted_text(["You may also add a `list of strings`.", "To ^add^ ^^multiple^^ paragraphs.",
+                              "You can also add [hyperlinks](https://python.org)."])
+
+mobiledoc = mobiledoc.serialize()  # This will save the mobiledoc as a dictionary
+
+with open('doc.json', 'w') as f:
+    json.dump(mobiledoc, f, indent=4)  # check out the doc.json file to see the mobiledoc just created!
+
+```
+This will create redy-to-use mobiledoc like below. (click expand to see the mobiledoc)
+<details>
+  <summary>Full mobiledoc</summary>
+
+  ```json
+  {
+      "version": "0.3.2",
+      "markups": [
+          ["b"],
+          ["i"],
+          ["code"],
+          ["sub"],
+          ["sup"],
+          ["a", ["href", "https://python.org"]]
+      ],
+      "atoms": [],
+      "cards": [
+          ["hr", {}]
+      ],
+      "sections": [
+          [1, "p", [
+              [0, [], 0, "This is a basic text, which is not formatted."]
+          ]],
+          [1, "p", [
+              [0, [], 0, "You may also add a list of strings."]
+          ]],
+          [1, "p", [
+              [0, [], 0, "To add multiple paragraphs."]
+          ]],
+          [10, 0],
+          [1, "p", [
+              [0, [], 0, "Using "],
+              [0, [0], 1, "markdown-like"],
+              [0, [], 0, " syntax, you can "],
+              [0, [1], 1, "format"],
+              [0, [], 0, " the text."]
+          ]],
+          [1, "p", [
+              [0, [], 0, "You may also add a "],
+              [0, [2], 1, "list of strings"],
+              [0, [], 0, "."]
+          ]],
+          [1, "p", [
+              [0, [], 0, "To "],
+              [0, [3], 1, "add"],
+              [0, [], 0, " "],
+              [0, [4], 1, "multiple"],
+              [0, [], 0, " paragraphs."]
+          ]],
+          [1, "p", [
+              [0, [], 0, "You can also add "],
+              [0, [5], 1, "hyperlinks"],
+              [0, [], 0, "."]
+          ]]
+      ]
+  }
+  ```
+</details>
+
+## **API**
+
+### Composing mobiledoc
+- **`add_basic_text(text: Union[str, List[str]])`**: Adds basic text to mobiledoc.
+- **`add_formatted_text(text: Union[str, List[str]])`**: Adds markdown-like formatted text to mobiledoc.
+  - **Supported Markdown-like Patterns:**
+    ```
+    **: bold
+    *: italic
+    ~~: strikethrough
+    ^^: superscript
+    ^: subscript
+    __: underline
+    `: code
+    [text](link): hyperlink
+    ```
+- **`add_divider()`**: Adds a divider to mobiledoc.
+- **`add_image(url: str, caption: str = None)`**: Adds an image to mobiledoc.
+- **`add_button(text: str, url: str, alignment:str = "center")`**: Adds a button to mobiledoc.
+- **`add_HTML(self, html:str):`**: Adds raw HTML card to mobiledoc.
+- **`add_markdown(self, markdown:str):`**: Adds raw markdown card to mobiledoc.
+- **`add_file(self, url: str, filename: str, filetitle: str, filesize: int, filecaption: str = ""):`**: Adds a file to mobiledoc.
+- **`add_callout(self, text: str, emoji: str = "", color: str = "accent"):`**: Adds a callout to mobiledoc.
+- **`add_markdown_from_html(html_string: str):`**: Adds markdown from HTML to mobiledoc.
+
+
+- **`custom_data(name: str, value)`**: Adds custom data to mobiledoc.
+
+### Serializing mobiledoc
+- **`serialize()`**: Returns the serialized mobiledoc Python dictionary that can be passed to `json.dump()`.
+
+### Checking mobiledoc
+- **`get_markups()`**: Returns the current markups.
+- **`get_sections()`**: Returns the current sections.
+- **`get_atoms()`**: Returns the current atoms.
+- **`get_cards()`**: Returns the current cards.
+- **`get_custom()`**: Returns the current custom data.
+
+
+## **Contributing**
+
+Contributions are welcome! Please submit a pull request or open an issue on GitHub.
+
+---
+
+I hope this README provides a clear overview of the **`mobiledoc`** package. You can further customize it as per your needs!
