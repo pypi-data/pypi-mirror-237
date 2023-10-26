@@ -1,0 +1,12 @@
+releases1c/__init__.py,sha256=smYuWJR9iBotUYt6BkWv_fvC_mQkbb8VIEP8R2z1-rI,46
+releases1c/__main__.py,sha256=ZRb5qGPE7whXfTtPCj8dOn9DUdAfWuCV5e9fAk9TomY,48
+releases1c/downloader.py,sha256=myl4ow_fQ1PRGnXRUJv2XCWbc9M8wFrMzJf-b-tIDMA,3109
+releases1c/parsing.py,sha256=JlqvJOicZt_ayeDg5WhqfsBgUvsrR5DdmrfQiasVOtk,2806
+releases1c/progress.py,sha256=sOHspjCt8yF_vA7VuZ7ZA6YcMvhloo13KBEJCkt-Q60,1088
+releases1c/request1c.py,sha256=SrQlOVgbu0D-IyovgiNBaJUY_5j_X-Xed9tIOuE_9dg,4217
+releases1c/secrets.py,sha256=n7yw3LEe6MZcaIb8nsMZdR54KlXRXc3y7lq2RRF4E4c,168
+releases1c/shell_commands.py,sha256=f0tvwQqqS7AEp4l-MlwIoGBi-Dz86On1hY1rUVZi1SM,3396
+releases1c-0.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+releases1c-0.2.1.dist-info/METADATA,sha256=FUJQpGCJQvwAeFv3xf3oB7m8lx5it2g0jLsciJofstU,1425
+releases1c-0.2.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+releases1c-0.2.1.dist-info/RECORD,,
