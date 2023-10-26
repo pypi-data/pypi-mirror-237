@@ -1,0 +1,110 @@
+[build-system]
+requires = [
+    "setuptools>=68",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bob-the-developer"
+version = "0.2.0"
+description = "A collection of scripts to build C++ projects"
+readme = "README.rst"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [
+    {name = "René Moll"}
+]
+keywords = ["build tool", "c++"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Build Tools"
+]
+dependencies = [
+    "docopt",
+    "toml",
+]
+
+[project.urls]
+Repository = "https://github.com/renemoll/bob"
+Issues = "https://github.com/renemoll/bob/issues"
+# Homepage = "https://github.com/renemoll/bob"
+# Documentation = "https://readthedocs.org"
+# Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+
+[project.scripts]
+bob = "bob.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "flake8",
+    "flake8-annotations",
+    "flake8-bandit",
+    "flake8-black",
+    "flake8-bugbear",
+    "flake8-docstrings",
+    "flake8-import-order",
+    "darglint",
+    "hacking",
+    "pylint",
+    "pytest",
+    "pytest-cov",
+    "pytest-mock",
+    "mypy",
+    "types-docopt",
+    "types-toml",
+]
+test = [
+    "docopt",
+    "pytest",
+    "pytest-cov",
+    "pytest-mock",
+    "toml",
+]
+tox = [
+    "tox",
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.coverage.paths]
+source = ["bob/", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["bob"]
+# omit = ["bob/compat.py"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
+
+[tool.coverage.html]
+directory = "build/cov-html/"
+
+[tool.pytest.ini_options]
+addopts = "--cov -vv"
+minversion = 6.0
+required_plugins = "pytest-cov>=3.0.0"
+testpaths = [
+    "tests",
+]
+
+[tool.pydocstyle]
+convention = "google"
+
+[tool.mypy]
+mypy_path = "./bob/;./tests/"
+show_error_codes = true
