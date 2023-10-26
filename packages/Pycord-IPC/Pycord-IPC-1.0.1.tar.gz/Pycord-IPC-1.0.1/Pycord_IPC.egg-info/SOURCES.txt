@@ -1,0 +1,13 @@
+LICENCE
+README.md
+setup.py
+Pycord_IPC.egg-info/PKG-INFO
+Pycord_IPC.egg-info/SOURCES.txt
+Pycord_IPC.egg-info/dependency_links.txt
+Pycord_IPC.egg-info/requires.txt
+Pycord_IPC.egg-info/top_level.txt
+discord/ext/ipc/__init__.py
+discord/ext/ipc/client.py
+discord/ext/ipc/errors.py
+discord/ext/ipc/objects.py
+discord/ext/ipc/server.py
