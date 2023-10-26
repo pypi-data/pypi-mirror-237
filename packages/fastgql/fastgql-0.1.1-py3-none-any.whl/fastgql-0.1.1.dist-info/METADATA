@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fastgql
+Version: 0.1.1
+Summary: The easiest, fastest python GraphQL framework.
+Home-page: https://github.com/jerber/fastgql
+License: MIT
+Author: Jeremy Berman
+Author-email: jerber@sas.upenn.edu
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: edgedb
+Requires-Dist: edgedb (>=1.7.0,<2.0.0) ; extra == "edgedb"
+Requires-Dist: fastapi (>=0.104.0,<0.105.0)
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Project-URL: Documentation, https://jerber.github.io/fastgql/
+Project-URL: Repository, https://github.com/jerber/fastgql
+Description-Content-Type: text/markdown
+
+FastGQL
