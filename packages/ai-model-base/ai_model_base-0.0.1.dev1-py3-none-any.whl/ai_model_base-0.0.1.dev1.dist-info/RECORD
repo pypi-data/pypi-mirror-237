@@ -1,0 +1,11 @@
+ai_model_base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai_model_base/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai_model_base/model/BaseModel.py,sha256=ji8A_TtcKmgyMMr46UCly2oCsaoJnyhUBUraqOAEwDc,358
+ai_model_base/resource/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai_model_base/resource/factory/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai_model_base/resource/factory/ModelFactory.py,sha256=WecrXrWgC9SrcejO2gefcJ8vy9GbKnq4vWjWjqUSQcE,227
+ai_model_base/resource/pool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai_model_base/resource/pool/ModelPool.py,sha256=HMBco--cA9skGrFXMQu56iLXEWwBvhWFTFVmKqBmSSA,873
+ai_model_base-0.0.1.dev1.dist-info/METADATA,sha256=u0uNrmTsZUBrLqzbae3SO7Jn-rvY2kXJj_EINxHx6zc,518
+ai_model_base-0.0.1.dev1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ai_model_base-0.0.1.dev1.dist-info/RECORD,,
