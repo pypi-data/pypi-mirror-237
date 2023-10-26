@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/tidybib/__init__.py
+src/tidybib/__main__.py
+src/tidybib/biblib.py
+src/tidybib.egg-info/PKG-INFO
+src/tidybib.egg-info/SOURCES.txt
+src/tidybib.egg-info/dependency_links.txt
+src/tidybib.egg-info/entry_points.txt
+src/tidybib.egg-info/top_level.txt
