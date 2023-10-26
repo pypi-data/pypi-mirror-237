@@ -1,0 +1,5 @@
+setup.py
+simpleadder.egg-info/PKG-INFO
+simpleadder.egg-info/SOURCES.txt
+simpleadder.egg-info/dependency_links.txt
+simpleadder.egg-info/top_level.txt
