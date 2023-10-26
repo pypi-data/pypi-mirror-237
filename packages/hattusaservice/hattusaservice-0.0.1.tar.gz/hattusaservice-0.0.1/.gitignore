@@ -1,0 +1,17 @@
+!.*
+!.git*
+!.editorconfig
+!.dockerignore
+!.pylintrc
+__pycache__
+*.log*
+
+# for virtual env
+virtualenv/
+venv/
+.venv/
+.vscode/
+.env/
+.flenv/
+.idea/
+temp_dir/

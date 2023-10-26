@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hattusaservice"
+version = "0.0.3"
+authors = [
+  { name="Mustafa Yilmaz", email="mustafa.yilmaz@spp42.com" },
+]
+description = "Hattusa Processor First Build"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["orjson", "shortuuid", "redis", "reactivex", "s3fs", "boto3==1.24.59", "pytz", "apscheduler"

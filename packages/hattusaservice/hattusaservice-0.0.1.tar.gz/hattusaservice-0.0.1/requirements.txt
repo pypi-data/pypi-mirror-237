@@ -1,0 +1,8 @@
+orjson
+shortuuid
+redis
+reactivex
+s3fs
+boto3==1.24.59
+pytz
+apscheduler
