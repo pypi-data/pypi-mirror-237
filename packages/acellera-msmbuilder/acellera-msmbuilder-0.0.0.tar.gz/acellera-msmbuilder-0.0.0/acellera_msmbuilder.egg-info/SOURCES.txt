@@ -1,0 +1,7 @@
+setup.py
+acellera_msmbuilder.egg-info/PKG-INFO
+acellera_msmbuilder.egg-info/SOURCES.txt
+acellera_msmbuilder.egg-info/dependency_links.txt
+acellera_msmbuilder.egg-info/not-zip-safe
+acellera_msmbuilder.egg-info/requires.txt
+acellera_msmbuilder.egg-info/top_level.txt
