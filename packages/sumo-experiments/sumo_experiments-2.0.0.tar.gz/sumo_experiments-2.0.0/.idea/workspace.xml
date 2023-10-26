@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c786c12d-f721-40df-9033-6331b518768d" name="Changes" comment="Added a class variable random (true if infrastructures are generated randomly, false otherwise) to the SquareNetwork">
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JulesBompard&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="58dc64e0-6073-4472-bcf7-60ba77bc3c59" />
+        <option name="url" value="git@github.com:cristal-smac/sumo-experiments.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2WZoiXE5OfAKTCYHuF4EWOJvCCg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/julesbompard/Bureau/sumo-experiments&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/dist" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/core" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c786c12d-f721-40df-9033-6331b518768d" name="Changes" comment="" />
+      <created>1696949590967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696949590967</updated>
+      <workItem from="1696949592462" duration="326000" />
+      <workItem from="1696949939279" duration="5825000" />
+      <workItem from="1697005687738" duration="23667000" />
+      <workItem from="1697093090052" duration="6014000" />
+      <workItem from="1697114365859" duration="527000" />
+      <workItem from="1697118688181" duration="1840000" />
+      <workItem from="1697178992041" duration="664000" />
+      <workItem from="1697192971279" duration="4449000" />
+      <workItem from="1697445569757" duration="4472000" />
+      <workItem from="1697610889683" duration="7307000" />
+      <workItem from="1697698641260" duration="6118000" />
+      <workItem from="1697783507589" duration="2327000" />
+      <workItem from="1697787108413" duration="5451000" />
+      <workItem from="1697793925369" duration="2359000" />
+      <workItem from="1697802121057" duration="393000" />
+      <workItem from="1697803684848" duration="12642000" />
+      <workItem from="1697816806813" duration="286000" />
+      <workItem from="1698044877045" duration="1198000" />
+      <workItem from="1698047767831" duration="8083000" />
+      <workItem from="1698064937327" duration="7091000" />
+      <workItem from="1698136869148" duration="4822000" />
+      <workItem from="1698150816270" duration="810000" />
+      <workItem from="1698152070393" duration="7782000" />
+      <workItem from="1698159943080" duration="1907000" />
+      <workItem from="1698218807347" duration="483000" />
+      <workItem from="1698219410490" duration="3960000" />
+      <workItem from="1698223913704" duration="2004000" />
+      <workItem from="1698234776146" duration="1974000" />
+      <workItem from="1698236851419" duration="8052000" />
+      <workItem from="1698245253666" duration="1503000" />
+      <workItem from="1698303262277" duration="1465000" />
+      <workItem from="1698305477077" duration="4191000" />
+      <workItem from="1698309998919" duration="1257000" />
+    </task>
+    <task id="LOCAL-00001" summary="Repository restructurating for deployment on PyPi">
+      <option name="closed" value="true" />
+      <created>1696950500514</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696950500514</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add requirements.txt and changes in TraCi imports">
+      <option name="closed" value="true" />
+      <created>1696950904905</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696950904905</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Deleted unused adds to path to import TraCi">
+      <option name="closed" value="true" />
+      <created>1696951370605</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696951370605</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Replaced Readme.md for Readme.rst">
+      <option name="closed" value="true" />
+      <created>1697007463550</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697007463550</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changes on different files to launch the project on PyPI">
+      <option name="closed" value="true" />
+      <created>1697018480298</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697018480298</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Created README.md">
+      <option name="closed" value="true" />
+      <created>1697037850912</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697037850912</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Deleted sumo image from README.md">
+      <option name="closed" value="true" />
+      <created>1697037958951</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697037958951</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Undo previous commit and adding image">
+      <option name="closed" value="true" />
+      <created>1697038080388</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697038080388</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Created tutorial 1">
+      <option name="closed" value="true" />
+      <created>1697102742803</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697102742803</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Changed network to infrastructures in Experiment signature">
+      <option name="closed" value="true" />
+      <created>1697102961730</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697102961730</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add some corrections to example 1">
+      <option name="closed" value="true" />
+      <created>1697114386888</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697114386888</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update of pyproject.toml">
+      <option name="closed" value="true" />
+      <created>1697114603449</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697114603449</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Created tutorial 2 - Exports and plots">
+      <option name="closed" value="true" />
+      <created>1697199237484</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1697199237484</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Created tutorial 3 - Pre-set networks">
+      <option name="closed" value="true" />
+      <created>1697460376938</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1697460376938</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Created tutorial 5 - Custom networks">
+      <option name="closed" value="true" />
+      <created>1697637672751</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1697637672751</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Created tutorial 6 - Run simulations with TraCi">
+      <option name="closed" value="true" />
+      <created>1697703819311</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1697703819312</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Adding + 1 to simulation duration, to ensure that the simulation last the right amount of simulation steps">
+      <option name="closed" value="true" />
+      <created>1697727013903</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1697727013903</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Correct a major issue when an experiment launch traci without detectors">
+      <option name="closed" value="true" />
+      <created>1697727177756</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1697727177756</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add the capacity to delete warnings on execution of run and run_traci&#10;Arguments seed is now managed by build_arguments">
+      <option name="closed" value="true" />
+      <created>1697728367848</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1697728367848</updated>
+    </task>
+    <task id="LOCAL-00020" summary="run_traci is now returning the result of the traci_function.">
+      <option name="closed" value="true" />
+      <created>1697786497555</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1697786497555</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Modified the way to get data from simulations.&#10;Data are exported by TraCi functions, that directly get stats in sim.&#10;Multiple TraCi functions can be set for a simulation, with the new object TraciWrapper.&#10;Two types of traci functions : stats and behavioural.&#10;Stats functions just get data.&#10;Behavioural functions just modify the behaviour of simulation infrastructures.&#10;Default configurations have been deleted because it causes bugs when running TraCi behavioural functions. All parameters must be manually set in the Experiment declaration.&#10;Export data to csv function has been deleted because couldn't be used anymore.&#10;Traci function returns stats got by the traci functions in a Pandas DataFrame.">
+      <option name="closed" value="true" />
+      <created>1698070818641</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1698070818641</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Created LineNetwork in place of TwoCrossroadsNetwork.&#10;It's an extension of the TwoCrossroadsNetwork with witch you can generate network with n consecutive crossroads.">
+      <option name="closed" value="true" />
+      <created>1698161768419</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1698161768419</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add documentation to traci_wrapper.py">
+      <option name="closed" value="true" />
+      <created>1698219818911</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1698219818911</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Modified flow order dans generate_flow_with_matrix in one_crossroad_network.py to uniformize wih other preset networks.">
+      <option name="closed" value="true" />
+      <created>1698237121945</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1698237121945</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Uniformized flow frequency for all generate_flow_all_direction : flow frequency is the frequency for an entry, not for a route or for the entire network.">
+      <option name="closed" value="true" />
+      <created>1698237562655</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1698237562655</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Added parameter 'distribution' to custom floxs distribution law for each preset network">
+      <option name="closed" value="true" />
+      <created>1698238660849</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1698238660849</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Boolean detectors can now be added to a randomly generated square network">
+      <option name="closed" value="true" />
+      <created>1698307247527</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1698307247527</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Added a class variable random (true if infrastructures are generated randomly, false otherwise) to the SquareNetwork">
+      <option name="closed" value="true" />
+      <created>1698307436365</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1698307436365</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Replaced Readme.md for Readme.rst" />
+    <MESSAGE value="Changes on different files to launch the project on PyPI" />
+    <MESSAGE value="Created README.md" />
+    <MESSAGE value="Deleted sumo image from README.md" />
+    <MESSAGE value="Undo previous commit and adding image" />
+    <MESSAGE value="Created tutorial 1" />
+    <MESSAGE value="Changed network to infrastructures in Experiment signature" />
+    <MESSAGE value="Add some corrections to example 1" />
+    <MESSAGE value="Update of pyproject.toml" />
+    <MESSAGE value="Created tutorial 2 - Exports and plots" />
+    <MESSAGE value="Created tutorial 3 - Pre-set networks" />
+    <MESSAGE value="Created tutorial 5 - Custom networks" />
+    <MESSAGE value="Created tutorial 6 - Run simulations with TraCi" />
+    <MESSAGE value="Adding + 1 to simulation duration, to ensure that the simulation last the right amount of simulation steps" />
+    <MESSAGE value="Correct a major issue when an experiment launch traci without detectors" />
+    <MESSAGE value="Add the capacity to delete warnings on execution of run and run_traci&#10;Arguments seed is now managed by build_arguments" />
+    <MESSAGE value="run_traci is now returning the result of the traci_function." />
+    <MESSAGE value="Modified the way to get data from simulations.&#10;Data are exported by TraCi functions, that directly get stats in sim.&#10;Multiple TraCi functions can be set for a simulation, with the new object TraciWrapper.&#10;Two types of traci functions : stats and behavioural.&#10;Stats functions just get data.&#10;Behavioural functions just modify the behaviour of simulation infrastructures.&#10;Default configurations have been deleted because it causes bugs when running TraCi behavioural functions. All parameters must be manually set in the Experiment declaration.&#10;Export data to csv function has been deleted because couldn't be used anymore.&#10;Traci function returns stats got by the traci functions in a Pandas DataFrame." />
+    <MESSAGE value="Created LineNetwork in place of TwoCrossroadsNetwork.&#10;It's an extension of the TwoCrossroadsNetwork with witch you can generate network with n consecutive crossroads." />
+    <MESSAGE value="Add documentation to traci_wrapper.py" />
+    <MESSAGE value="Modified flow order dans generate_flow_with_matrix in one_crossroad_network.py to uniformize wih other preset networks." />
+    <MESSAGE value="Uniformized flow frequency for all generate_flow_all_direction : flow frequency is the frequency for an entry, not for a route or for the entire network." />
+    <MESSAGE value="Added parameter 'distribution' to custom floxs distribution law for each preset network" />
+    <MESSAGE value="Boolean detectors can now be added to a randomly generated square network" />
+    <MESSAGE value="Added a class variable random (true if infrastructures are generated randomly, false otherwise) to the SquareNetwork" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a class variable random (true if infrastructures are generated randomly, false otherwise) to the SquareNetwork" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sumo_experiments$full_output.coverage" NAME="full_output Coverage Results" MODIFIED="1698307357450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/sumo_experiments$experiment.coverage" NAME="experiment Coverage Results" MODIFIED="1697791174123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/sumo_experiments" />
+    <SUITE FILE_PATH="coverage/sumo_experiments$simple_crossroad.coverage" NAME="simple_crossroad Coverage Results" MODIFIED="1698063739422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/sumo_experiments/preset_networks" />
+    <SUITE FILE_PATH="coverage/sumo_experiments$double_crossroad.coverage" NAME="double_crossroad Coverage Results" MODIFIED="1697017841086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/sumo_experiments/preset_networks" />
+    <SUITE FILE_PATH="coverage/sumo_experiments$square_crossroad.coverage" NAME="square_crossroad Coverage Results" MODIFIED="1698068087454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/sumo_experiments/preset_networks" />
+    <SUITE FILE_PATH="coverage/sumo_experiments$square_network.coverage" NAME="square_network Coverage Results" MODIFIED="1698305617131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/sumo_experiments/preset_networks" />
+    <SUITE FILE_PATH="coverage/sumo_experiments$traci_wrapper.coverage" NAME="traci_wrapper Coverage Results" MODIFIED="1698048882945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/sumo_experiments/traci_util" />
+    <SUITE FILE_PATH="coverage/sumo_experiments$line_network.coverage" NAME="line_network Coverage Results" MODIFIED="1698158225195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/sumo_experiments/preset_networks" />
+  </component>
+</project>
