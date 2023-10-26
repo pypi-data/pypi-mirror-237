@@ -1,0 +1,22 @@
+site_name: CodeSnipper
+site_description: Snip out code from texts
+site_url: https://mohit2152sharma.github.io/codesnipper
+theme:
+  name: material
+  features:
+  - search.suggest
+  - search.highlight
+  - content.tooltips
+  - content.code.copy
+  - content.code.select
+  - navigation.path
+  - content.tabs.link
+  - navigation.indexes
+  - navigation.tabs
+plugins:
+  - mkdocstrings
+  - search: null
+
+nav:
+  - CodeSnipper: index.md
+  - Reference: reference.md
