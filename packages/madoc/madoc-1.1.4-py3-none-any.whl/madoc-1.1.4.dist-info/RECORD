@@ -1,0 +1,16 @@
+madoc/__init__.py,sha256=PjrAut5wUOgcQz79krZcrxCW7JYdU9nfMwMc8EdCaFo,22
+madoc/loader.py,sha256=DeRK5JGo8hhApZgYeduOxZ9WU2A1HIVYeAABZ_7e1ls,496
+madoc/madoc_recursive.py,sha256=B4T_2MnZoarPL80iGSs1F4JEnDaPHiwl864RArBgtKU,5407
+madoc/main.py,sha256=VLoB2flaTwA6030L5loeVVM8kbNeu0PEVILnCQ0-YsI,2714
+madoc/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madoc/templates/madoc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madoc/templates/madoc/_recursive_menu.html,sha256=ivBKeMNDqPdiH2w_3l7qX4DQTLKZgaRfVG32eH1YiHY,771
+madoc/templates/madoc/recursive_index.html,sha256=OBeT-cNR2BDbAQQQxTPBrNYQxIkZo4tZnj124Xjh7_k,6296
+madoc/templates/madoc/recursive_render.html,sha256=7sxisuviNor-YYhb39d6DA9-FrGzwv1R1KmDiinuFTk,8924
+madoc/templates/madoc/render.html,sha256=Cs8mKM2PCXDz_ESZRH1g5RRQ9Ureg27DxgXfpqH7MOc,7507
+madoc-1.1.4.dist-info/LICENSE.md,sha256=zWoPbm3cT3SYIMdQF3U7AwV_ufYK3T8xoYa4szXKu1A,1070
+madoc-1.1.4.dist-info/METADATA,sha256=LM5VQGyEyc_sVy2YGRexDaWcVVDdg8FqnNHFodlb8RA,1304
+madoc-1.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+madoc-1.1.4.dist-info/entry_points.txt,sha256=BGgRdEEGBpIgubAQn9BfDyt4qQz8NpGTk4OE7RrS14E,42
+madoc-1.1.4.dist-info/top_level.txt,sha256=xN-fnTwpZ2GOxBrOCWMu802O7YECttiJqlxTAcZ7CFQ,6
+madoc-1.1.4.dist-info/RECORD,,
