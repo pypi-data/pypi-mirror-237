@@ -1,0 +1,5 @@
+abqpy==2016.6.1
+
+[jupyter]
+ipynbname
+nbconvert
