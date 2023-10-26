@@ -1,0 +1,28 @@
+## -*- coding: utf-8 -*-
+## COPYRIGHT (C) 2023 CORE.HOST, LLC. ALL RIGHTS RESERVED
+## INSTANCE: pyproject.toml
+## CREATED: 2023/10/25
+## OVERVIEW: configure corehost with a .toml file
+
+## host
+host = "https://core.host/ping"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "corehost"
+version = "0.0.1"
+keywords=["C.ORE", "AI", "CORE.HOST", "corehost"]
+authors = [
+ { name = "CORE.HOST, LLC.", email="Operator@CORE.HOST" },
+]
+description = "The client-side program to interact with CORE.HOST"
+readme = "README.md"
+requires-python = ">=3.12"
+
+[project.urls]
+"Homepage" = "https://github.com/corehost/corehost"
+"Bug Tracker" = "https://github.com/corehost/corehost/issues"
+
