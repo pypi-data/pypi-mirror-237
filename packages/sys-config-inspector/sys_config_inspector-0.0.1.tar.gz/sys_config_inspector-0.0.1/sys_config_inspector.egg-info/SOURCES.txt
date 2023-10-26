@@ -1,0 +1,12 @@
+README.md
+setup.py
+sys_config_inspector/__init__.py
+sys_config_inspector/__main__.py
+sys_config_inspector/final_report.html
+sys_config_inspector/helper_wrapper.py
+sys_config_inspector/inspector.py
+sys_config_inspector.egg-info/PKG-INFO
+sys_config_inspector.egg-info/SOURCES.txt
+sys_config_inspector.egg-info/dependency_links.txt
+sys_config_inspector.egg-info/requires.txt
+sys_config_inspector.egg-info/top_level.txt
