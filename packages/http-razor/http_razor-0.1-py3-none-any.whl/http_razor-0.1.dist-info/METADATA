@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: http-razor
+Version: 0.1
+License-File: LICENSE
+Requires-Dist: aiofiles
+Requires-Dist: http-router
+Requires-Dist: uvicorn
+Requires-Dist: uvloop
+Requires-Dist: multidict
+Requires-Dist: markupsafe
+Requires-Dist: python-multipart
+
