@@ -1,0 +1,3 @@
+[console_scripts]
+add_margin = moodlemarking.add_margin:main
+moodlezip = moodlemarking.moodlezip:main
