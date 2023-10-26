@@ -1,0 +1,7 @@
+setup.py
+nufi/__init__.py
+nufi/sent_proc.py
+nufi.egg-info/PKG-INFO
+nufi.egg-info/SOURCES.txt
+nufi.egg-info/dependency_links.txt
+nufi.egg-info/top_level.txt
