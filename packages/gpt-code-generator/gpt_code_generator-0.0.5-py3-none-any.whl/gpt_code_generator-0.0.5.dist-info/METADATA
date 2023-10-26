@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: gpt-code-generator
+Version: 0.0.5
+Summary: GPT code generator refer to GitHub repository
+License: MIT
+Author: wakuwaku3
+Author-email: takushi.yokoyama@sansan.com
+Requires-Python: >=3.11,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: google-cloud-storage (>=2.12.0,<3.0.0)
+Requires-Dist: httpx (>=0.25.0,<0.26.0)
+Requires-Dist: llama-index (>=0.8.48,<0.9.0)
+Requires-Dist: poetry (>=1.6.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# gpt-code-generator
+
+## summery
+
+GPT code generator refer to GitHub repository
+
+## for user
+
+### Environment Variables
+
+### use GitHub Actions
+
+```yml
+name: Save precondition indexes from GitHub repositry for generate code
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # every day at midnight
+
+permissions:
+  actions: read
+  contents: read
+  id-token: write
+  checks: write
+  pull-requests: write
+
+jobs:
+  save:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Auto GPT Review With Preconditions
+        uses: wakuwaku3/gpt-code-generator@v0.0.0
+        with:
+          AZURE_OPEN_AI_KEY: "${{ secrets.AZURE_OPEN_AI_KEY }}"
+          AZURE_OPEN_AI_ENDPOINT: "${{ secrets.AZURE_OPEN_AI_ENDPOINT }}"
+          AZURE_OPEN_AI_VERSION: "2023-05-15"
+          AZURE_OPEN_AI_MODEL_NAME: "gpt-35-turbo"
+          AZURE_OPEN_AI_MODEL_DEPLOY_NAME: "gpt-35-turbo"
+          AZURE_OPEN_AI_EMBEDDING_MODEL_NAME: "text-embedding-ada-002"
+          AZURE_OPEN_AI_EMBEDDING_MODEL_DEPLOY_NAME: "text-embedding-ada-002"
+          GOOGLE_APPLICATION_CREDENTIALS_JSON: "${{ secrets.GOOGLE_APPLICATION_CREDENTIALS_JSON }}"
+          GOOGLE_INDEX_BUCKET_NAME: "${{ secrets.GOOGLE_INDEX_BUCKET_NAME }}"
+          GITHUB_OWNER: wakuwaku3 # optional, default: ${GITHUB_REPOSITORY_OWNER}
+          GITHUB_REPO: gpt-code-generator # optional, default: ${GITHUB_REPOSITORY#${GITHUB_REPOSITORY_OWNER}/}
+          GITHUB_TOKEN:  "${{ secrets.TOKEN }}" # optional, default: ${{ secrets.GITHUB_TOKEN }}
+          IGNORE_FILE_EXTENSIONS: "" # optional
+          IGNORE_DIRECTORIES: "" # optional
+```
+
+### install command
+
+```shell
+pip install gpt-code-generator
+```
+
+### save-code-generating-precondition command
+
+```shell
+save-code-generating-precondition --help
+```
+
+### gpt-code-generator command
+
+```shell
+gpt-code-generator --help
+```
+
+## for developer setup
+
+```shell
+pip install poetry
+poetry config virtualenvs.in-project true --local
+make install
+```
+
