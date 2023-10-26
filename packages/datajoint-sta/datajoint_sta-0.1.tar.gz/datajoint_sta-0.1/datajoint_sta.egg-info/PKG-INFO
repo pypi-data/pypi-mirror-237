@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: datajoint-sta
+Version: 0.1
+Summary: calculating spike trigerred average
+Home-page: https://github.com/AghilZadeh/datajoint_sta
+Download-URL: https://github.com/AghilZadeh/datajoint_sta/archive/v_01.tar.gz
+Author: Aghil Zadeh
+Author-email: agheal@gmail.com
+License: MIT
+Keywords: spike,neural activity,datajoint
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENCE.txt
+Requires-Dist: matplotlib
+Requires-Dist: pickle
+Requires-Dist: numpy

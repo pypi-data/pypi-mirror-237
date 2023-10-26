@@ -1,0 +1,11 @@
+LICENCE.txt
+README.md
+setup.cfg
+setup.py
+datajoint_sta/__init__.py
+datajoint_sta/src.py
+datajoint_sta.egg-info/PKG-INFO
+datajoint_sta.egg-info/SOURCES.txt
+datajoint_sta.egg-info/dependency_links.txt
+datajoint_sta.egg-info/requires.txt
+datajoint_sta.egg-info/top_level.txt
