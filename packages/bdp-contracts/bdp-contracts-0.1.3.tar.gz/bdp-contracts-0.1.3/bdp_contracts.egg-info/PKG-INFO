@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: bdp-contracts
+Version: 0.1.3
+Summary: blef data platform data contracts manager
+Author: Christophe Blefari <hi@blef.fr>
+License: MIT
+License-File: LICENSE.txt
