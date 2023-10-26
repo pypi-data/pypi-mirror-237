@@ -1,0 +1,12 @@
+juliacall/__init__.py,sha256=iiApcwkHwn_jB4eXybggkbJYcejkZrrUCALHFiOBWao,8254
+juliacall/importer.py,sha256=YhbM2yvVx4Xbn8yRiPxHxHRBTElMONnKmXrbknf9lQo,3280
+juliacall/init.jl,sha256=VQsWUo1PB3TO5P3xDDYHq43oh_qCOlhSy_jM6HhW1TA,70
+juliacall/ipython.py,sha256=vDjUdk99cLvqTSt4UEP1VyNvuYtlHt5norYvoQuRIn0,3690
+juliacall/juliapkg-dev.json,sha256=d31PAsT1SV-QHIKknn-IlUhJs68sHhhIrR6UwKtsCnc,231
+juliacall/juliapkg.json,sha256=MEvux8npRGQm4whprAxjcNjKyr00q1SI76VFlX3MQ7k,177
+juliacall/matplotlib.py,sha256=aNxeqbB7KHi36ryxX6Mt7FHnC3Sek7O1vN-A-YC7QoU,991
+juliacall-0.9.15.dist-info/LICENSE,sha256=10vGWetV-eSErRF5_UFZmOfo3_89v34A0RfFQ7BClpY,1064
+juliacall-0.9.15.dist-info/METADATA,sha256=dt5CYGShzGEzdP--05SmfIkAJnvuXliikhHyAo4OMvk,4734
+juliacall-0.9.15.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+juliacall-0.9.15.dist-info/top_level.txt,sha256=tou3dsFjkaSXHukY_7NL6lavind9oT1H8fRhkkVF5Ms,10
+juliacall-0.9.15.dist-info/RECORD,,
