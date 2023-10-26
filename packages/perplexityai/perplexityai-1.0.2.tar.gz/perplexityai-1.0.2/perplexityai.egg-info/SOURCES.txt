@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+perplexityai/__init__.py
+perplexityai.egg-info/PKG-INFO
+perplexityai.egg-info/SOURCES.txt
+perplexityai.egg-info/dependency_links.txt
+perplexityai.egg-info/requires.txt
+perplexityai.egg-info/top_level.txt
