@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: etched
+Version: 0.1.2
+Summary: Compiler for microchips from Etched AI
+Author-email: Tom Shlomi <tom@etched.ai>, Gavin Uberti <gavin@etched.ai>
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+Provides-Extra: test
+Requires-Dist: hypothesis ==6.84.2 ; extra == 'test'
+Requires-Dist: typing-extensions ==4.7.1 ; extra == 'test'
+
+UNKNOWN

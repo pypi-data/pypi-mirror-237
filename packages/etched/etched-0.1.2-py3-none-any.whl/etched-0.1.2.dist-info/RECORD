@@ -1,0 +1,14 @@
+etched/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+etched/pytorch/__init__.py,sha256=7QqLLX4WkHoq7e5SMSJAsbdHqr_v_doOGjp4liGudT0,30
+etched/pytorch/frontend.py,sha256=u7HLNG8buc3sZnUHOzv3HVW7PKSA_S4Aj_vUrqoQZlQ,12733
+etched/pytorch/func_groups.py,sha256=oEY3f_z3RdFC0g1z3Fj7W5wvjTmKAqujsduAGv_ygb4,1679
+etched/pytorch/iir.py,sha256=moHriEgogcGcEh6B3yM-S-MWCK_Q2TpsyIvZIkSUbCY,2603
+etched/pytorch/module.py,sha256=LmM5EJsVfy4lg7YrmUdvcGSyxPAsbjby2aAdJkiz5ng,2022
+etched/pytorch/te_equivalent.py,sha256=sHnYVIIGNVfrlGJpDILVyPdvY6IszxefwOfHITdN79E,20284
+etched/pytorch/torch_equivalent.py,sha256=5tRVh9wMo445FVpTz9W_n45Kq9RQVcHL72E56cNYiCs,7645
+etched/pytorch/transformations.py,sha256=yyLohciYfO9TfsVQLHX36dm8sZLPI_jI2-rIvgmSI6E,22423
+etched/pytorch/utils.py,sha256=wmaGW_kM4iFB0UyytigJWZa3eIMzXV8tk4pAnmpLjqg,760
+etched-0.1.2.dist-info/METADATA,sha256=1pc7QovKqfpw48_VYghbBL7sJtJydvgseptoZhZUjcM,838
+etched-0.1.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+etched-0.1.2.dist-info/top_level.txt,sha256=EPXeEkESb3r_fBa_wPGO-3YIxs2rn8AWyrxsmoleRR4,7
+etched-0.1.2.dist-info/RECORD,,
