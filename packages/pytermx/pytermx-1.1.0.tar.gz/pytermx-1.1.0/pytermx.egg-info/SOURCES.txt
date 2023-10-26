@@ -1,0 +1,9 @@
+LICENCE.md
+README.md
+setup.py
+pytermx/__init__.py
+pytermx/pytermx.py
+pytermx.egg-info/PKG-INFO
+pytermx.egg-info/SOURCES.txt
+pytermx.egg-info/dependency_links.txt
+pytermx.egg-info/top_level.txt
