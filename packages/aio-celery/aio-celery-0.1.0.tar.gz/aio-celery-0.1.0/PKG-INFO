@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: aio-celery
+Version: 0.1.0
+Summary: Celery worker for running asyncio coroutine tasks
+Author: Kirill Kondratenko
+Author-email: kk92@ya.ru
+Keywords: asyncio,celery
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: Software Development :: Object Brokering
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: aio-pika>=9.3.0
+Provides-Extra: redis
+Requires-Dist: redis>=4.5.4; extra == "redis"
+
+AsyncIO Celery Worker
+=====================
+
+Overview
+--------
+
+This project is an alternative asyncio implementation of the Celery Worker protocol.
+
+* Feature parity with upstream Celery project IS NOT the goal
+* Support of different brokers/result backends IS NOT the goal
+
+The following are the actual goals:
+* The code base of this project must be as simple as possible to understand and reason about
+* There should be as little code as possible (less code means less bugs)
+* There should be as little external dependencies as possible
+* This project must not have celery as an external dependency 
+
+Usage
+-----
+
+```python
+import asyncio
+from aio_celery import Celery
+
+app = Celery()
+
+@app.task(name='add-two-numbers')
+async def mul(a, b):
+    await asyncio.sleep(5)
+    return a + b
+```
+
+Then run worker:
+
+```bash
+$ aio_celery -A hello:app worker --concurrency=50000
+$ aio_celery worker hello:app
+```
+
+Queue some tasks:
+
+```python
+import asyncio
+from hello import add, app
+
+async def fill_queue():
+    async with app.setup():
+        for n in range(50000):
+            await add.delay(n, n)
+
+asyncio.run(fill_queue())
+```
