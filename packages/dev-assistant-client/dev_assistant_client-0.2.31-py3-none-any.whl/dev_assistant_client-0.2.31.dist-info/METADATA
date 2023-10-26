@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: dev-assistant-client
+Version: 0.2.31
+Summary: Dev Assistant client
+Author: Luciano T.
+Author-email: tonetlds@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: ably (>=2.0.1,<3.0.0)
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: gitpython (>=3.1.35,<4.0.0)
+Requires-Dist: inquirer (>=3.1.3,<4.0.0)
+Requires-Dist: packaging (>=23.2,<24.0)
+Requires-Dist: plyer (>=2.1.0,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: rich (>=13.5.2,<14.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: unidiff (>=0.7.5,<0.8.0)
+Description-Content-Type: text/markdown
+
+# Dev Assistant Client
+
+## Introdução
+
+O Dev Assistant Client é uma ferramenta que se integra ao ChatGPT para fornecer funcionalidades avançadas, como manipulação de arquivos, operações git e execução de comandos no terminal.
+
+## Recursos
+
+- Manipulação de arquivos
+- Operações Git
+- Execução de comandos no terminal
+
+## Requisitos
+
+- Python 3.8 ou superior
+
+## Instalação
+
+1. Clone o repositório
+2. Instale as dependências
+3. Execute o script de instalação
+
+## Uso
+
+1. Após a instalação, execute o comando `dev-assistant`.
+2. Você será solicitado a inserir seu e-mail e senha, caso ainda não esteja autenticado.
+3. Uma vez autenticado, o cliente estabelecerá automaticamente uma conexão com o servidor.
+4. Se tudo correr bem, você verá a apresentação do CLI do Dev Assistant e um ID de CLIENTE exclusivo.
+5. Você pode interromper o cliente a qualquer momento com `CRTL+C`.
+6. Para sair, use o comando `dev-assistant logout`, que removerá seu token de autenticação salvo.
+
+**Nota:** A inserção manual do token após a autenticação pode ser melhorada para uma experiência do usuário mais fluida.
+
+## Contribuindo
+
+Se você deseja contribuir, sinta-se à vontade para enviar um pull request.
+
+## Licença
+
+MIT
+
+## Suporte
+
+Para obter suporte, entre em contato conosco através do e-mail support@devassistant.com.
+
+## Agradecimentos
+
+Agradecemos a todos os contribuidores e usuários que tornaram este projeto possível.
+
+## Autores
+
+- John Doe
+- Jane Smith
