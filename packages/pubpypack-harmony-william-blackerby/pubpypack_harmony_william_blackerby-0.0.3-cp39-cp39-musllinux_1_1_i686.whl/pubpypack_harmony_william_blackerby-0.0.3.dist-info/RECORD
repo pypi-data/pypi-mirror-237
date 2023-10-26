@@ -1,0 +1,13 @@
+imppkg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imppkg/harmony.py,sha256=DiahVpfAIrCMrCNOO6N4-DksiY2E-AO0YwntdNWIZEA,704
+imppkg/harmonic_mean.pyx,sha256=ODWzhoGQ56bwqKt_A1Nxymz1udLqbq1qP-65fiVaGHw,119
+imppkg/harmonic_mean.c,sha256=PDQm7AcZkxFx3TYZqsTEOMnCa3YgZKe4K8NzhUAyMLs,334046
+imppkg/harmonic_mean.cpython-39-i386-linux-gnu.so,sha256=_tuXQskaORPLJrMK0VCaZ5LzP8SSioqRvi0pHfm9_Q4,311984
+imppkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imppkg/data.json,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pubpypack_harmony_william_blackerby-0.0.3.dist-info/METADATA,sha256=Pl-Xx1f7y6aUO3IafWDVjn5xhrVLrAc_4VwE-inDbcw,564
+pubpypack_harmony_william_blackerby-0.0.3.dist-info/LICENSE,sha256=ChKZdP8JN4ZZpqgmir00FSoO5l6Zu3I-LqBsmtZL9vE,1093
+pubpypack_harmony_william_blackerby-0.0.3.dist-info/entry_points.txt,sha256=feiUFKolyjyA-i9QN-YuipocWPVf07pii8AbrEjvfW8,48
+pubpypack_harmony_william_blackerby-0.0.3.dist-info/WHEEL,sha256=v-8vN2Z1wRfhJEi3opfRVfxTNuxBOvco3uYBajkO8Zw,109
+pubpypack_harmony_william_blackerby-0.0.3.dist-info/RECORD,,
+pubpypack_harmony_william_blackerby-0.0.3.dist-info/top_level.txt,sha256=I91hjGcw_F0H8zGbV0bRxPlcQJVwYHLtIyAPaQ9x-hE,7
