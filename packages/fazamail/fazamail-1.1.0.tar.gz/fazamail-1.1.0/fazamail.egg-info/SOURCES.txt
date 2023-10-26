@@ -1,0 +1,7 @@
+setup.py
+fazamail/__init__.py
+fazamail.egg-info/PKG-INFO
+fazamail.egg-info/SOURCES.txt
+fazamail.egg-info/dependency_links.txt
+fazamail.egg-info/requires.txt
+fazamail.egg-info/top_level.txt
