@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: entityscript
+Version: 0.0.1
+Summary: The client-side entityscript creator program that allows you to build CORE.HOST compliant data-structures.
+Author-email: "New Entity Operations Inc." <entityscript@outlook.com>
+Project-URL: Homepage, https://github.com/entityscript/entityscript
+Project-URL: Bug Tracker, https://github.com/entityscript/entityscript/issues
+Keywords: C.ORE,AI,entityscript,CORE.HOST,corehost,New Entity Operations
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## README.md for entityscript
+
+This is the barebones skeleton package for entityscript. We will be pushing a version
+0.0.2 shortly that expands on this package greatly. This is mainly to get the
+packaging format correct with the essential build-system in place.
+
+More to come on that soon!
+
+New Entity Operations Inc.
+
