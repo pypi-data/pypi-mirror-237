@@ -1,0 +1,145 @@
+# cython: binding=True, embedsignature=True, c_string_type=unicode, c_string_encoding=utf8
+
+{{py:
+type_name_list = [
+    'ColorMatrix',
+    'WilsonMatrix',
+    'NonRelWilsonMatrix',
+    'IsospinMatrix',
+    'SpinMatrix',
+    'WilsonVector',
+    'Complex',
+    'ComplexF',
+    'Double',
+    'Float',
+    'Long',
+    'Int',
+    'Int64t',
+    'Int8t',
+    'Char',
+    ]
+}}
+
+from qlat_utils.all cimport *
+from . cimport everything as cc
+from cpython cimport Py_buffer
+from cpython.buffer cimport PyBUF_FORMAT
+from .geometry cimport *
+from .field_selection cimport *
+from .field_types cimport *
+from .selected_points_types cimport *
+
+import qlat_utils as q
+import numpy as np
+
+from .field_type_dict import selected_field_type_dict
+
+### -------------------------------------------------------------------
+
+{{for name in type_name_list}}
+
+cdef void set_field_sf_sp_{{name}}(SelectedField{{name}} self, SelectedPoints{{name}} other):
+    # psel may not have to be subset of fsel
+    cc.set_selected_field(self.xx, other.xx, self.fsel.xx, other.psel.xx)
+
+cdef void set_field_sf_sf_{{name}}(SelectedField{{name}} self, SelectedField{{name}} other):
+    # two fsel do not need to match
+    if self.fsel is other.fsel:
+        cc.assign_direct(self.xx, other.xx)
+        # self.xx = other.xx
+    else:
+        cc.set_selected_field(self.xx, other.xx, self.fsel.xx, other.fsel.xx)
+
+cdef void set_field_sf_f_{{name}}(SelectedField{{name}} self, Field{{name}} other):
+    cc.set_selected_field(self.xx, other.xx, self.fsel.xx)
+
+cdef class SelectedField{{name}}(SelectedFieldBase):
+
+    ctype = ElemType{{name}}
+
+    def __cinit__(self):
+        self.cdata = <long>&(self.xx)
+        self.view_count = 0
+
+    def __init__(self, FieldSelection fsel, int multiplicity=0):
+        self.fsel = fsel
+        if multiplicity > 0 and self.fsel is not None:
+            if self.view_count > 0:
+                raise ValueError("can't re-init while being viewed")
+            self.xx.init(self.fsel.xx, multiplicity)
+        else:
+            self.xx.init()
+
+    def __getbuffer__(self, Py_buffer *buffer, int flags):
+        cdef long n_elems = self.xx.n_elems
+        cdef int multiplicity = self.xx.get_geo().multiplicity
+        cdef cc.Vector[cc.{{name}}] fvec = cc.get_data(self.xx)
+        cdef int ndim = 2 + ElemType{{name}}.ndim()
+        cdef char* fmt = ElemType{{name}}.format()
+        cdef Buffer buf = Buffer(self, ndim, ElemType{{name}}.itemsize())
+        cdef cc.std_vector[Py_ssize_t] vec = ElemType{{name}}.shape()
+        cdef Py_ssize_t* shape = &buf.shape_strides[0]
+        cdef Py_ssize_t* strides = &buf.shape_strides[buf.ndim]
+        cdef int i
+        shape[0] = n_elems
+        shape[1] = multiplicity
+        for i in range(ElemType{{name}}.ndim()):
+            shape[2 + i] = vec[i]
+        buf.update_strides_from_shape()
+        buffer.buf = <char*>(fvec.data())
+        if flags & PyBUF_FORMAT:
+            buffer.format = fmt
+        else:
+            buffer.format = NULL
+        buffer.internal = NULL
+        buffer.itemsize = buf.itemsize
+        buffer.len = buf.get_len()
+        buffer.ndim = buf.ndim
+        buffer.obj = buf
+        buffer.readonly = 0
+        buffer.shape = shape
+        buffer.strides = strides
+        buffer.suboffsets = NULL
+        assert buffer.len * buffer.itemsize == fvec.size() * ElemType{{name}}.size()
+        self.view_count += 1
+
+    def release_buffer(self, Buffer buf):
+        assert buf.obj is self
+        self.view_count -= 1
+
+    def __imatmul__(self, other):
+        """
+        won't change self.fsel
+        """
+        if isinstance(other, SelectedField{{name}}):
+            # two fsel do not need to match
+            set_field_sf_sf_{{name}}(self, <SelectedField{{name}}>other)
+        elif isinstance(other, Field{{name}}):
+            set_field_sf_f_{{name}}(self, <Field{{name}}>other)
+        elif isinstance(other, SelectedPoints{{name}}):
+            # psel may not have to be subset of fsel
+            set_field_sf_sp_{{name}}(self, <SelectedPoints{{name}}>other)
+        else:
+            raise Exception(f"SelectedField{{name}} @= type mismatch {type(self)} {type(other)}")
+        return self
+
+    @q.timer
+    def copy(self, cc.bool is_copying_data=True):
+        f = type(self)(self.fsel)
+        if is_copying_data:
+            f @= self
+        return f
+
+    @q.timer
+    def set_zero(self):
+        cc.set_zero(self.xx)
+
+    def swap(self, SelectedField{{name}} f1):
+        assert f1.fsel is self.fsel
+        cc.qswap(f1.xx, self.xx)
+
+selected_field_type_dict[ElemType{{name}}] = SelectedField{{name}}
+
+{{endfor}}
+
+### -------------------------------------------------------------------
