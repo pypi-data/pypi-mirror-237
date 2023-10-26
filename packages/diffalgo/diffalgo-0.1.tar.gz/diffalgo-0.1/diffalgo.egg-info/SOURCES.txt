@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+diffalgo.egg-info/PKG-INFO
+diffalgo.egg-info/SOURCES.txt
+diffalgo.egg-info/dependency_links.txt
+diffalgo.egg-info/not-zip-safe
+diffalgo.egg-info/requires.txt
+diffalgo.egg-info/top_level.txt
