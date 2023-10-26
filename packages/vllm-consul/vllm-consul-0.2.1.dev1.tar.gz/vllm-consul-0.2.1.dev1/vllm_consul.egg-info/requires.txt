@@ -1,0 +1,16 @@
+ninja
+psutil
+ray>=2.5.1
+pandas
+pyarrow
+sentencepiece
+numpy
+torch==2.0.1
+transformers>=4.34.0
+xformers==0.0.22
+fastapi
+uvicorn[standard]
+pydantic==1.10.13
+python-consul
+fschat
+python-json-logger
