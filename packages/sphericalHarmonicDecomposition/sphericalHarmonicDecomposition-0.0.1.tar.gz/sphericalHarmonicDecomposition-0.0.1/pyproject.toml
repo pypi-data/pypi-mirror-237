@@ -1,0 +1,30 @@
+[project]
+name = "sphericalHarmonicDecomposition"
+version="0.0.1"
+authors = [
+    {name = "Pablo Ibáñez-Freire", email = "p.ibanez.fre@gmail.com"},
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "GPL-3.0-or-later"}
+classifiers = [
+        "Development Status :: 3 - Alpha",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+]
+dependencies = [
+    "sys","os",
+    "itertools",
+    "tqdm","logging",
+    "matplotlib","numpy",
+    "icosphere","orthopoly",
+    "MDAnalysis","scipy"
+]
+
+[project.urls]
+"Homepage"    = "https://github.com/PabloIbannez/sphericalHarmonicDecomposition"
+"Bug Tracker" = "https://github.com/PabloIbannez/sphericalHarmonicDecomposition/issues"

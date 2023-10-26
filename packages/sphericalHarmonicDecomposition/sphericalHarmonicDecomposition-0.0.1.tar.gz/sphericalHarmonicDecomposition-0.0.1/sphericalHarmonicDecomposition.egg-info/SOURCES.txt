@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+sphericalHarmonicDecomposition/__init__.py
+sphericalHarmonicDecomposition.egg-info/PKG-INFO
+sphericalHarmonicDecomposition.egg-info/SOURCES.txt
+sphericalHarmonicDecomposition.egg-info/dependency_links.txt
+sphericalHarmonicDecomposition.egg-info/requires.txt
+sphericalHarmonicDecomposition.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+sys
+os
+itertools
+tqdm
+logging
+matplotlib
+numpy
+icosphere
+orthopoly
+MDAnalysis
+scipy
