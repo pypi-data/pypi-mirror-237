@@ -1,0 +1,11 @@
+docstrings2pep727-0.2.0.dist-info/METADATA,sha256=8QcmNLuXjFMIb7M5KzTlAxz1DcU_QdpQ3XdW3Zxxi74,2457
+docstrings2pep727-0.2.0.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+docstrings2pep727-0.2.0.dist-info/entry_points.txt,sha256=aByC9uctdjtpdl2hb6mQ05Kh52uvqMzmYUh1yc_uPG0,66
+docstrings2pep727-0.2.0.dist-info/licenses/LICENSE,sha256=GZ4fS4Z6WtxHYD5ZqFT9vlpdOXvzm-cvjYmOIHXhqMc,754
+docstrings2pep727/__init__.py,sha256=oML2vACGGyKSm-WWeBzi1FRNl2pZNZecdlxOHzp5T3w,160
+docstrings2pep727/__main__.py,sha256=3wL8jUETSJ9Q99mgpzwrotsJVowtkv4DVTjmZY_6s04,359
+docstrings2pep727/cli.py,sha256=u6Pfv8znFRiWISHUu0ZPFhF3gJD4gPubaDetYyE45hw,2872
+docstrings2pep727/debug.py,sha256=aojdVFlf3a6oNUI-XJx3vAzZT_f-hBOJAtNx9FGl5zk,2722
+docstrings2pep727/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docstrings2pep727/transformer.py,sha256=yzjNnmPJ9PRtNJqWk7rXSp4SO5mzfrfOx-mSd0TQKBA,12260
+docstrings2pep727-0.2.0.dist-info/RECORD,,
