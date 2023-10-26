@@ -1,0 +1,36 @@
+
+Introducing the Buckaroo Data Table for dataframes in jupyter.
+
+The Buckaroo Data Table streamlines one of the most common tasks in data analysis, looking at the raw data (pandas and polars).
+
+Buckaroo is built around a modern performant javascript table that displays dataframes in the jupyter notebook.
+
+
+* A high performance data table with intelligent downsampling
+* Sensible Defaults that are overidable for your own workflow
+* Built in sortable columns
+* Summary stats a click away
+* Histograms
+* Auto cleaning of dataframes
+* Pluggable analysis to add summary stats and extend/change built in functionality
+* A low code UI for common data cleaning operations (to_datetime, dropna, groupby)
+* Python code gen so you can take the generated code anywhere
+* Extensible command palette so you can add your own transforms
+
+This removes the drudgery of df.head(), df.describe(), exporting to excel, and other awkward workflows we have come to expect as normal.
+
+Install buckaroo today with
+"pip install buckaroo"
+
+repo here:
+https://github.com/paddymul/buckaroo
+
+I will be giving a webinar about Buckaroo this Thursday, October 19⋅ 1:00 – 2:00pm EST.
+https://us06web.zoom.us/webinar/register/4216971226817/WN_P7u0oNqrRcCeYx8yOm_DWg#/registration
+
+
+I'm excited to hear feedback and suggestions
+
+Thanks,
+Paddy
+
