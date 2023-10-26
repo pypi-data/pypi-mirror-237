@@ -1,0 +1,2 @@
+[console_scripts]
+bresh = bresh.cli:cli
