@@ -1,0 +1,9 @@
+dskernels/__init__.py,sha256=lTLbj_Um7NbotB8WOWYTwg7jxBV0Oc4hf3VmXF32t-c,259
+dskernels/libblockedflash.so,sha256=Gk4br7Wf2as97Gd2fC5FRAiUYCVYZvh7VASJCg0z7dU,44018272
+dskernels/libdeepspeedft.so,sha256=nNMDf8SbZg6CheCua7O3XvO_dUqXoL8eD0_LEdXwRxU,145747120
+dskernels/version.py,sha256=kbX3wqBpeaF5ifyBnfJceA5_e5-IxgiVku3ZcnCyC3M,36
+deepspeed_kernels-0.0.1.dev1698255861.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+deepspeed_kernels-0.0.1.dev1698255861.dist-info/METADATA,sha256=F2K7WuGZmkkVG8aTzx0z9KshDkXoUfy02Y3bFSUe7Uw,680
+deepspeed_kernels-0.0.1.dev1698255861.dist-info/WHEEL,sha256=CAuuk_9zz9TklvSaKKuyDpVMPSzU9xWV6t1vK7KC7-A,103
+deepspeed_kernels-0.0.1.dev1698255861.dist-info/top_level.txt,sha256=8EJEjXICzwFzQKvf_baaMgFd_xxVs_qCjZobmSuj9n0,52
+deepspeed_kernels-0.0.1.dev1698255861.dist-info/RECORD,,
