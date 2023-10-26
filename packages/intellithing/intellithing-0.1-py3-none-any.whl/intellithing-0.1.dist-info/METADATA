@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: intellithing
+Version: 0.1
+Requires-Dist: transformers
+Requires-Dist: matplotlib
+
