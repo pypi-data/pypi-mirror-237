@@ -1,0 +1,11 @@
+Click
+google-cloud-asset
+google-auth-oauthlib
+google-cloud-bigquery
+google-api-python-client
+jinja2
+pyperclip
+pyyaml
+readchar
+rich
+loguru
