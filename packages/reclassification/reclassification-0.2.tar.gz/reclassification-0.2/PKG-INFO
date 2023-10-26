@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: reclassification
+Version: 0.2
+Summary: Functions for calculation of reclassification metrics NRI and IDI.
+Home-page: https://github.com/user/morleytj
+Download-URL: https://github.com/morleytj/reclassification/archive/refs/tags/v_02.tar.gz
+Author: Theodore Morley
+Author-email: ted@elmgatefarm.com
+License: MIT
+Keywords: RECLASSIFICATION,DATA,MACHINE LEARNING,NRI,IDI,MODELLING,PERFORMANCE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+Requires-Dist: pandas
+
+Defines NRI(Net reclassification index) and IDI(Integrated discrimination improvement)
