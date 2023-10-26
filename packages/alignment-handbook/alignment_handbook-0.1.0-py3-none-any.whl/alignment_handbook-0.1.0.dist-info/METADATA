@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: alignment-handbook
+Version: 0.1.0
+Summary: The Alignment Handbook
+Home-page: https://github.com/huggingface/alignment-handbook
+Author: The Hugging Face team (past and future)
+Author-email: lewis@huggingface.co
+License: Apache
+Keywords: nlp deep learning rlhf llm
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.10.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: accelerate ==0.23.0
+Requires-Dist: bitsandbytes ==0.41.1
+Requires-Dist: einops ==0.6.1
+Requires-Dist: evaluate ==0.4.0
+Requires-Dist: datasets ==2.12.0
+Requires-Dist: deepspeed ==0.9.5
+Requires-Dist: huggingface-hub <1.0,>=0.14.1
+Requires-Dist: ninja ==1.11.1
+Requires-Dist: numpy >=1.24.2
+Requires-Dist: packaging >=23.0
+Requires-Dist: peft ==0.5.0
+Requires-Dist: protobuf <=3.20.2
+Requires-Dist: safetensors ==0.3.3
+Requires-Dist: tensorboard
+Requires-Dist: tqdm >=4.64.1
+Requires-Dist: transformers
+Requires-Dist: trl
+Provides-Extra: dev
+Requires-Dist: hf-doc-builder >=0.4.0 ; extra == 'dev'
+Requires-Dist: black ==23.1.0 ; extra == 'dev'
+Requires-Dist: isort >=5.12.0 ; extra == 'dev'
+Requires-Dist: flake8 >=6.0.0 ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: parameterized >=0.9.0 ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: hf-doc-builder >=0.4.0 ; extra == 'docs'
+Provides-Extra: quality
+Requires-Dist: black ==23.1.0 ; extra == 'quality'
+Requires-Dist: isort >=5.12.0 ; extra == 'quality'
+Requires-Dist: flake8 >=6.0.0 ; extra == 'quality'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: parameterized >=0.9.0 ; extra == 'tests'
+Provides-Extra: torch
+Requires-Dist: torch ==2.0.1 ; extra == 'torch'
+
+# The Alignment Handbook
+
+Robust recipes to align language models with human and AI preferences.
+
+## What is this?
+
+Just one year ago, chatbots were out of fashion and most people hadn't heard about techniques like Reinforcement Learning from Human Feedback (RLHF) to align language models with human preferences. Then, OpenAI broke the internet with ChatGPT and Meta followed suit by releasing the Llama series of language models which enabled the ML community to build their very own capable chatbots. This has led to a rich ecosystem of datasets and models that have mostly focused on teaching language models to follow instructions through supervised fine-tuning (SFT).
+
+However, we know from the [InstructGPT](https://huggingface.co/papers/2203.02155) and [Llama2](https://huggingface.co/papers/2307.09288) papers that significant gains in helpfulness and safety can be had by augmenting SFT with human (or AI) preferences. At the same time, aligning language models to a set of preferences is a fairly novel idea and there are few public resources available on how to train these models, what data to collect, and what metrics to measure for best downstream performance.
+
+The Alignment Handbook aims to fill that gap by providing the community with a series of robust training recipes that span the whole pipeline.
+
+## Contents
+
+The initial release of the handbook will focus on the following techniques:
+
+* **Supervised fine-tuning:** teach language models to follow instructions and tips on how to collect and curate your own training dataset.
+* **Reward modeling:** teach language models to distinguish model responses according to human or AI preferences.
+* **Rejection sampling:** a simple, but powerful technique to boost the performance of your SFT model.
+* **Direct preference optimisation (DPO):** a powerful and promising alternative to PPO.
+
+## Getting started
+
+To run the code in this project, first create a Python virtual environment using e.g. Conda:
+
+```shell
+conda create -n handbook python=3.10 && conda activate handbook
+```
+
+Next, install PyTorch v2.1.0. Since this hardware-dependent, we
+direct you to the [PyTorch Installation Page](https://pytorch.org/get-started/locally/).
+
+Once PyTorch is installed, you can install the remaining package dependencies as follows:
+
+```shell
+pip install .
+```
+
+Next, log into your Hugging Face account as follows:
+
+```shell
+huggingface-cli login
+```
+
+Finally, install Git LFS so that you can push models to the Hugging Face Hub:
+
+```shell
+sudo apt-get install git-lfs
+```
+
+## Citation
+
+If you find the content of this repo useful in your work, please cite it as follows:
+
+```bibtex
+@misc{alignment_handbook2023,
+  author = {Lewis Tunstall and Edward Beeching and Nathan Lambert and Nazneen Rajani and Sasha Rush and Thomas Wolf},
+  title = {The Alignment Handbook},
+  year = {2023},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/huggingface/alignment-handbook}}
+}
+```
