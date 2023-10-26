@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: antmiral
+Version: 0.0.1
+Summary: Python web async nanoframework
+Author: zuczekgnojak
+Project-URL: Homepage, https://github.com/zuczekgnojak/antmiral
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# antmiral
+cowptain but awsgi

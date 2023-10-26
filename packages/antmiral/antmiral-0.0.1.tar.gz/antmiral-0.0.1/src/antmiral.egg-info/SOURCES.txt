@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/antmiral/__init__.py
+src/antmiral/foo.py
+src/antmiral.egg-info/PKG-INFO
+src/antmiral.egg-info/SOURCES.txt
+src/antmiral.egg-info/dependency_links.txt
+src/antmiral.egg-info/top_level.txt
