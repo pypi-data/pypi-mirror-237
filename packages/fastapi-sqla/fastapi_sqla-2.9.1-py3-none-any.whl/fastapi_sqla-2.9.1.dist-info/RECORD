@@ -1,0 +1,12 @@
+fastapi_sqla/__init__.py,sha256=Jf_PeWjPPcytPm5hlKiA-3kIHr4Ee6bAiQuaGFn1uPU,1486
+fastapi_sqla/_pytest_plugin.py,sha256=foMW5iV6PzaGgt_CrDI5DOV2fRTEg5yftqiczf0kqUQ,5549
+fastapi_sqla/asyncio_support.py,sha256=2vIcTdoGtR6bhwgwKj2IcMrAQWxM_JKfBtw6vMP_YI0,6604
+fastapi_sqla/aws_aurora_support.py,sha256=4dxLKOqDccgLwFqlz81L6f4HzrOXMZkY7Zuf4t_310U,838
+fastapi_sqla/aws_rds_iam_support.py,sha256=hGs8erX4e7zYCqwandiokw9LHx_jlW83_fJBIYAb7c4,1090
+fastapi_sqla/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_sqla/sqla.py,sha256=va920A-NEy67CSDseepIFGTgig4NkQUHAJh-I7keZBQ,10528
+fastapi_sqla-2.9.1.dist-info/LICENSE,sha256=8G0-nWLqi3xRYRrtRlTE8n1mkYJcnCRoZGUhv6ZE29c,1064
+fastapi_sqla-2.9.1.dist-info/METADATA,sha256=6PHDWgQt13jc9cNihMBU3zmRgWyPwOr6tIKuY-VA4G8,16667
+fastapi_sqla-2.9.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+fastapi_sqla-2.9.1.dist-info/entry_points.txt,sha256=haa0EueKcRo8-AlJTpHBMn08wMBiULNGA53nkvaDWj0,53
+fastapi_sqla-2.9.1.dist-info/RECORD,,
