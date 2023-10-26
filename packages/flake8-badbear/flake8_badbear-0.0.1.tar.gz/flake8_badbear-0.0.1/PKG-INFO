@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: flake8_badbear
+Version: 0.0.1
+Summary: flake8 plugin which checks for additional bad codes
+Home-page: https://github.com/trungtv/flake8_badbear
+Author: Tran Viet Trung
+Author-email: mr.trungtv@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+flake8-badbear
+===========
+
+flake8 plugin which checks common error-prone code
+
+
+## installation
+
+```bash
+pip install flake8-badbear
+```
+
+## flake8 codes
+
+| Code   | Description                                            |
+|--------|--------------------------------------------------------|
+| BB001 | 'Prone to Error "NoneType" object is not iterable. Check None or list length.'              |
+

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+badbear.py
+setup.cfg
+setup.py
+flake8_badbear.egg-info/PKG-INFO
+flake8_badbear.egg-info/SOURCES.txt
+flake8_badbear.egg-info/dependency_links.txt
+flake8_badbear.egg-info/entry_points.txt
+flake8_badbear.egg-info/requires.txt
+flake8_badbear.egg-info/top_level.txt
