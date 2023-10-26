@@ -1,0 +1,27 @@
+[metadata]
+icon = "octicon:info-16"
+status = "new"
+
+[[resources.css]]
+filename = "compactadmonition.css"
+
+
+[examples.types]
+title = "Types"
+jinja = """
+{{ "Different types." | MkCompactAdmonition(typ="warning") | MkReprRawRendered }}
+"""
+
+[examples.collapsible]
+title = "Collapsible and expandable"
+jinja = """
+{{ "Admonitions can also be collapsible." | MkAdmonition(collapsible=True, title="Expand me!", expanded=True) | MkReprRawRendered }}
+"""
+
+[output.html]
+template = """
+<div class="mdx-grid-wrapper{{ node.typ | add(prefix=" mdx-admo--") }}">
+  <div class="mdx-grid-child mdx-grid-child--icon"></div>
+  <div class="mdx-grid-child">{{ node.text }}</div>
+</div>
+"""
