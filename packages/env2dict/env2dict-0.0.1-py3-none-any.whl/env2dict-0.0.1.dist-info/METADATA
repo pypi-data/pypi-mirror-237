@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: env2dict
+Version: 0.0.1
+Summary: Environment to python dictionary parser util
+Home-page: https://github.com/PasaOpasen/py-env-parser
+Author: Demetry Pascal
+Author-email: qtckpuhdsa@gmail.com
+Maintainer: Demetry Pascal
+License: MIT
+Keywords: env,environment
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# py-env-parser
+
+environment to python dictionary parser util
+
+```python
+from env2dict import parse_vars
+```
+
+Please take a look at `tests`
+
