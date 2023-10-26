@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: repo-scraper
+Version: 0.1.2
+Summary: Restful API for the codesurvey Python library.
+Author-email: Elliot Simpson <elliot@p-s.co.nz>
+License: GNU AGPL
+Project-URL: Homepage, https://github.com/ByteCampNZ/repo-scraper
+Keywords: repository,scraper,git
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: codesurvey==0.1.3
+Requires-Dist: flasgger==0.9.7.1
+Requires-Dist: Flask==3.0.0
+Requires-Dist: Flask_RESTful==0.3.10
+Requires-Dist: shortuuid==1.0.11
+
+RepoScraper
+============
+
+A REST API which uses the Python package ``codesurvey`` behind the
+scenes to sample git repositories and return results about language
+features. Uses OpenAPI 3.0 for documentation.
+
+Running
+-------
+
+When deploying RepoScraper, pass a filename to the database as a single
+argument where you want results to be saved. Once running, you can
+find OpenAPI specification under the path: ``/apidocs``.
+
+Contact
+-------
+
+For any questions or feedback, reach out to me via my email:
+elliot@p-s.co.nz

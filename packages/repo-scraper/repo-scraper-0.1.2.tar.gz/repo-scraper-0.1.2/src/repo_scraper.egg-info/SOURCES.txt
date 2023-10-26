@@ -1,0 +1,14 @@
+.gitignore
+CHANGELOG.rst
+LICENSE
+README.rst
+pyproject.toml
+src/repo_scraper.egg-info/PKG-INFO
+src/repo_scraper.egg-info/SOURCES.txt
+src/repo_scraper.egg-info/dependency_links.txt
+src/repo_scraper.egg-info/requires.txt
+src/repo_scraper.egg-info/top_level.txt
+src/reposcraper/__init__.py
+src/reposcraper/lib/main.py
+src/reposcraper/lib/utils.py
+src/reposcraper/swagger/swagger_config.json
