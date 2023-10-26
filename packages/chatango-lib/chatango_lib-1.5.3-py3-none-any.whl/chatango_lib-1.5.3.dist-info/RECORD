@@ -1,0 +1,14 @@
+chatango/__init__.py,sha256=HsXlgOAyJWX3p2k3NdA3CUC7NhoxQNQ-1pV9OmEAjN8,196
+chatango/client.py,sha256=aCYsumVc5S1dye-cc3kd7hGnad3Qjk4w_OuK7hMU5nE,4369
+chatango/exceptions.py,sha256=1Fkew9ssMWk7zc1ZdP6O6k0rIaGGhP3OFIEuWHTlYUE,323
+chatango/handler.py,sha256=2rbw1a1AAxA8rczT2ocvi6YcDYk978nDvtqmhxpmqA4,7211
+chatango/hasher.py,sha256=8cj_gEKmcMFh0ncamgdUZh4PmvuK4UX9YzRSbmkv66A,12579
+chatango/message.py,sha256=P1a9uBLSZ5ogDB3_S3RKl1F4nKuECdQKfdr26JM7dt0,6202
+chatango/pm.py,sha256=H7s_Ifn9ekA4rjYwlY7FyHtOwPmSanOM42ezFNRldDY,11402
+chatango/room.py,sha256=F6wR5J0v5VtGaezIwVFGodIyEWKIrsGIBdhXS5B2DyU,31915
+chatango/user.py,sha256=wb9LJfeYsjFmlN3EVNOE68m_h7m9SSuuzghWlnpqQbM,13265
+chatango/utils.py,sha256=2z8vD79XTqid7-j6EJyBVcNbDWBvtLz5vh_4NWtt05w,11861
+chatango_lib-1.5.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+chatango_lib-1.5.3.dist-info/METADATA,sha256=67TX_MRFym28Nrdz_gcxT40-dZ7jqwutSF0tCiUq2Xg,3377
+chatango_lib-1.5.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+chatango_lib-1.5.3.dist-info/RECORD,,
