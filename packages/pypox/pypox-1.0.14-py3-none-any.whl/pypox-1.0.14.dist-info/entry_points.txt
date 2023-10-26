@@ -1,0 +1,2 @@
+[console_scripts]
+pypox = pypox.__main__:main
