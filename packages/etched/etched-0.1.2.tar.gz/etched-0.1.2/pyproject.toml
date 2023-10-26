@@ -1,0 +1,33 @@
+[project]
+name = "etched"
+authors = [
+    {name = "Tom Shlomi", email = "tom@etched.ai"},
+    {name = "Gavin Uberti", email = "gavin@etched.ai"},
+]
+version = "0.1.2"
+description = "Compiler for microchips from Etched AI"
+readme = "README.rst"
+requires-python = ">=3.9"
+dependencies = []
+
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Other Environment",
+    "Intended Audience :: Developers",
+    "Operating System :: Unix",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+[project.optional-dependencies]
+test = [
+	"hypothesis==6.84.2",
+	"typing_extensions==4.7.1",
+]
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,33 @@
+runners:
+  - name: gcp-gpu-runner
+    cloud: gcp
+    instance_type: g2-standard-4
+    gpu: nvidia-l4
+    machine_image: fastesttransformer-ci:transformer-engine-cuda-12-2-v2
+    region:
+      - us-west1-a
+      - us-west1-b
+      - us-west1-c
+      - us-central1-a
+      - us-central1-b
+      - us-east1-b
+      - us-east1-d
+      - us-east4-a
+      - us-east4-c
+      - europe-west1-c
+      - europe-west2-a
+      - europe-west2-b
+      - europe-west4-a
+      - europe-west4-b
+      - europe-west4-c
+      - asia-east1-a
+      - asia-east1-c
+      - asia-northeast1-a
+      - asia-northeast1-c
+      - asia-southeast1-a
+      - asia-southeast1-b
+      - asia-southeast1-c
+      - asia-south1-a
+    preemptible: false
+    labels:
+      - "cirun-gcp-runner"

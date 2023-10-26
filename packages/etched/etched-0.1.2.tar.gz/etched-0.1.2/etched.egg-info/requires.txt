@@ -1,0 +1,4 @@
+
+[test]
+hypothesis==6.84.2
+typing_extensions==4.7.1
