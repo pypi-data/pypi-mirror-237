@@ -1,0 +1,13 @@
+chainbase/hybrid_rerank_retrieval/__init__.py,sha256=Yo8slMleaHrC0Xzs1RgdusclIg1ebaoO10vg_mO041I,589
+chainbase/hybrid_rerank_retrieval/ai_services.py,sha256=2Kswo1BuS-YTeYjKjZ_R0Ssc8IUXtjztxLM1hKIF3dg,860
+chainbase/hybrid_rerank_retrieval/document.py,sha256=Tk66IHzi-5OKm9v-oq1Mfq6L05r5P4N67X24zIw4X5E,759
+chainbase/hybrid_rerank_retrieval/document_crud.py,sha256=NHZRVobjLF3qwM3JR4wFOeEJQDZxVXz_SF45DitAnOk,1013
+chainbase/hybrid_rerank_retrieval/marco_rerank_retriever.py,sha256=TzlC7sgOqKroEFCaIP5VxUIRczJJeuhSgUN5hR8RpMU,4158
+chainbase/hybrid_rerank_retrieval/openai_retrieve_summarize_service.py,sha256=pNX2SuIqb80jkHLNyFFGQy4Af1-wQsQLEylB1HaspGc,1289
+chainbase/hybrid_rerank_retrieval/retrieval_service.py,sha256=-voNKRfY6LQGstFN60pZkB6OP6Jo5XB2rp58Ik-tfGE,5344
+chainbase/hybrid_rerank_retrieval/router.py,sha256=lR6PbjyyYRqpe7jK3TOyqgSDhPjpzocg7bkv8_HNVeY,1839
+chainbase/hybrid_rerank_retrieval/stis_embeddings.py,sha256=X_Gyr7Szp795Ak8gq0VGR_ZP4airWDIHmAV32LaYkc8,1454
+chainbase/hybrid_rerank_retrieval/template.html,sha256=RUZ9N8Sf37gV_WkBPUvloGFz8eB--Fyqoe93Lx--9d0,2431
+chainbase_hrr-0.0.2.dist-info/METADATA,sha256=K1giXdWSaQw6oW5ECaDNJzBpGZ_U2wYnedareozrTVg,671
+chainbase_hrr-0.0.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+chainbase_hrr-0.0.2.dist-info/RECORD,,
