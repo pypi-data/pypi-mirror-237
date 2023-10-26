@@ -1,0 +1,10 @@
+invrs_opt/__init__.py,sha256=8IAqmdZkbAQb67Hp9Jggd-oWsKWHpLQ33e5PYsCklqU,309
+invrs_opt/base.py,sha256=dm5nzlO4KXFfuIfyHcTn9V1VCU6hAy1w3IA2vfzaQD8,1481
+invrs_opt/lbfgsb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+invrs_opt/lbfgsb/lbfgsb.py,sha256=nZqotWv9oGbY56UKSI3zcetexpwMoaDsvqwJSgXjvwc,19597
+invrs_opt/lbfgsb/transform.py,sha256=n3YM22Aq6xRcYnC_peMK1CQf0NY_x7pylKjk40NbsEE,5752
+invrs_opt-0.1.0.dist-info/LICENSE,sha256=ty6jHPvpyjHy6dbhnu6aDSY05bbl2jQTjnq9u1sBCfM,1078
+invrs_opt-0.1.0.dist-info/METADATA,sha256=fNdANPuZ2gtHQC26NCEcDGnN51QdTOO8lzpVwRQmlyA,3222
+invrs_opt-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+invrs_opt-0.1.0.dist-info/top_level.txt,sha256=hOziS2uJ_NgwaW9yhtOfeuYnm1X7vobPBcp_6eVWKfM,10
+invrs_opt-0.1.0.dist-info/RECORD,,
