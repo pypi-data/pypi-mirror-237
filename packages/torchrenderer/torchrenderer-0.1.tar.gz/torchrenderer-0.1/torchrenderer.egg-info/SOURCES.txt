@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+torchrenderer.egg-info/PKG-INFO
+torchrenderer.egg-info/SOURCES.txt
+torchrenderer.egg-info/dependency_links.txt
+torchrenderer.egg-info/not-zip-safe
+torchrenderer.egg-info/requires.txt
+torchrenderer.egg-info/top_level.txt
