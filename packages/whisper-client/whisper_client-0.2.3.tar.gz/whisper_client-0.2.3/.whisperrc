@@ -1,0 +1,25 @@
+{
+    "api-key": "tiens_félix_essaie_avec_cette_clé",
+
+    "api-scheme": "https",
+    "api-host": "whisper.marceau-h.fr",
+    "api-port": 443,
+
+    "api-url": None,
+
+    "audio-folder": None,
+    "video-folder": None,
+    "text-folder": None,
+
+    "verbose": False,
+    "timeout": None,
+    "interval": None,
+
+    "stdout": False,
+    "stderr": False,
+
+    "no-verify": False,
+    "no-skip": False,
+
+    "mode": None
+}
