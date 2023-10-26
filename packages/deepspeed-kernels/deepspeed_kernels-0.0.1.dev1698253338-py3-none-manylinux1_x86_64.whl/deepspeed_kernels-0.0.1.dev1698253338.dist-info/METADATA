@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: deepspeed-kernels
+Version: 0.0.1.dev1698253338
+Summary: deepspeed kernels
+Home-page: http://deepspeed.ai
+Author: DeepSpeed Team
+Author-email: deepspeed@microsoft.com
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/microsoft/DeepSpeed-Kernels
+Project-URL: Source, https://github.com/microsoft/DeepSpeed-Kernels
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+Requires-Dist: cmake (>=3.24)
+Requires-Dist: packaging
+Provides-Extra: dev
+
+UNKNOWN
+
