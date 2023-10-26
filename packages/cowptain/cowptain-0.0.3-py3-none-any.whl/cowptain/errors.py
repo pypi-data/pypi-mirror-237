@@ -1,0 +1,2 @@
+class CowptainError(Exception):
+    pass
