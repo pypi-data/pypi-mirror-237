@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: streamlit-aggrid-redux
+Version: 2023.10.post1
+Summary: Reimplementation of ag-grid component for streamlit
+Home-page: https://github.com/jwood983/streamlit-aggrid-redux
+Author: JD Wood
+Author-email: j.d.wood83@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit>=1.27
+Requires-Dist: pandas>=1.2
+Requires-Dist: pyarrow>=11.0
+Requires-Dist: numpy>=1.24
+Requires-Dist: python-decouple>=3.8
