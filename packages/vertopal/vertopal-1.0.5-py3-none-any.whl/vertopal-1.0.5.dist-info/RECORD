@@ -1,0 +1,17 @@
+vertopal/__init__.py,sha256=TrR0nitRq9Up09R3my6GSFqnhE5PJc6-zMpLddHPNmo,378
+vertopal/build.py,sha256=aWJ6JK7CCa1EphysEZ1tEBre0sjPQ1uBZ3j9U_ZE5i8,4963
+vertopal/vertopal.py,sha256=YHRADavupoEyJQU8bpbNDNWjrpY7qYF-pTpvsKsSmt8,2364
+vertopal/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vertopal/api/converter.py,sha256=oO3TIre1JsH2Mn5TgbfqOGMAUQ7wVnHam2sQhxPTOhs,11588
+vertopal/api/exception.py,sha256=Ih5UPJv6uyVq5jBMRSX_HCVD_VpkHJolTSMtKnYniQY,10986
+vertopal/api/interface.py,sha256=dvTChojwr1b4a3GIcGRlcjMstdNgDSl4ocfhL3TsK0o,7329
+vertopal/api/v1.py,sha256=N1GeBbzvheyuXVyaRh3dKFCfSe4tQYrnpJ2jXSIf4g8,6842
+vertopal/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vertopal/utils/config.py,sha256=IUtn4RnwWZTI6FzhNZjeDx4kJm5Lzq4GonmC0PCo-tM,2618
+vertopal/utils/terminal.py,sha256=WwN-DBM2i57ixbS975JGJRR2qMbPC7uIIr0oJBHTw_Y,25821
+vertopal-1.0.5.dist-info/LICENSE,sha256=m2lDYAFnEUw_xB9HofnFJQ4TjE-KOcX4EHgYieCLbUU,1065
+vertopal-1.0.5.dist-info/METADATA,sha256=u-tYskE_Av5Xoo499_eiH-dKU80AHENW3P8c4FTBKu4,3809
+vertopal-1.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+vertopal-1.0.5.dist-info/entry_points.txt,sha256=E3N-SazQXnSEy6JH3yaVjLzc8RsF5AKXKOyE1UTj9DE,52
+vertopal-1.0.5.dist-info/top_level.txt,sha256=EC3afD3aTz6jtIAbbnL3kYQ1UZUMBw91HXWqBs6yJGA,9
+vertopal-1.0.5.dist-info/RECORD,,
