@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "diningcodeapi"
+version = "0.1.0"
+description = "test"
+authors = ["kukkuk989 <kukkuk989@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sphinx = "^7.2.6"
+pymongo = "^4.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
