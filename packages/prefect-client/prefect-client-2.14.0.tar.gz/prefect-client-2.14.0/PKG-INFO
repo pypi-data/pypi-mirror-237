@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: prefect-client
+Version: 2.14.0
+Summary: Workflow orchestration and management.
+Home-page: https://www.prefect.io
+Author: Prefect Technologies, Inc.
+Author-email: help@prefect.io
+License: UNKNOWN
+Project-URL: Changelog, https://github.com/PrefectHQ/prefect/blob/main/RELEASE-NOTES.md
+Project-URL: Documentation, https://docs.prefect.io
+Project-URL: Source, https://github.com/PrefectHQ/prefect
+Project-URL: Tracker, https://github.com/PrefectHQ/prefect/issues
+Description: # Overview
+        
+        This directory contains files for building and publishing the `prefect-client` 
+        library. `prefect-client` is built by removing source code from `prefect` and 
+        packages its own `requirements.txt` and `setup.py`. This process can happen 
+        in one of three ways:
+        
+        - automatically whenever a PR is created (see 
+        `.github/workflows/prefect-client.yaml`)
+        - automatically whenever a Github release is published (see 
+        `.github/workflows/prefect-client-publish.yaml`)
+        - manually by running the `client/build_client.sh` script locally
+        
+        Note that whenever a Github release is published the `prefect-client` will 
+        not only get built but will also be distributed to PyPI. `prefect-client` 
+        releases will have the same versioning as `prefect` - only the package names 
+        will be different.
+        
+        This directory also includes a "minimal" flow that is used for smoke 
+        tests to ensure that the built `prefect-client` is functional.
+        
+        In general, these builds, smoke tests, and publish steps should be transparent. 
+        It these automated steps fail, use the `client/build_client.sh` script to run 
+        the build and smoke test locally and interate on a fix. The failures will likely 
+        be from:
+        
+        - including a new dependency that is not installed in `prefect-client`
+        - re-arranging or adding files in such a way that a necessary file is rm'd at 
+          build time
+        
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: notifications
