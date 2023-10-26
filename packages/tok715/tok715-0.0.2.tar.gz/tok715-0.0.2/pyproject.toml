@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "tok715"
+version = "0.0.2"
+description = "CODENAME: TOK715"
+authors = ["GUO YANKE <hi@guoyk.xyz>"]
+license = "MIT"
+readme = "README.md"
+
+packages = [
+    { include = "tok715" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1"
+pymilvus = "^2.3"
+SQLAlchemy = "^2.0"
+PyMySQL = "^1.1"
+pika = "^1.3"
+PyYAML = "^6.0"
+transformers = "^4.34"
+torch = "^2.1"
+torchvision = "^0.16"
+torchaudio = "^2.1"
+redis = { extras = ["hiredis"], version = "^5.0.1" }
+oss2 = "^2.18.2"
+aliyun-python-sdk-core = ">=2.13.3"
+matplotlib = ">=3.3.4"
+
+[tool.poetry.scripts]
+tok715-voicerecog = 'tok715.voicerecog.cli:main'
+tok715-vectorstor = 'tok715.vectorstor.cli:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
