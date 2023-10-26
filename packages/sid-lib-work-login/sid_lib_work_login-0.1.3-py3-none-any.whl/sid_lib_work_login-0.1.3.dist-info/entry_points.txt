@@ -1,0 +1,2 @@
+[console_scripts]
+mylogin = sid_lib_work_login.__main__:mainfn

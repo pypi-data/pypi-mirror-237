@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sid-lib-work-login
+Version: 0.1.3
+Summary: Logs you into work
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pynput ==1.7.6
+
