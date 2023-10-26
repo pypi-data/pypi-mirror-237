@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+bci_dataset/__init__.py
+bci_dataset/hdf_controller.py
+bci_dataset/importer.py
+bci_dataset/test_hdf_controller.py
+bci_dataset/test_importer.py
+bci_dataset/test_updater_class.py
+bci_dataset/updater.py
+bci_dataset.egg-info/PKG-INFO
+bci_dataset.egg-info/SOURCES.txt
+bci_dataset.egg-info/dependency_links.txt
+bci_dataset.egg-info/requires.txt
+bci_dataset.egg-info/top_level.txt
