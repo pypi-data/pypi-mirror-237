@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: XSocket
+Version: 0.0.1a2
+Summary: Cross-Language Socket
+Home-page: https://github.com/DuelitDev/XSocket-Python
+Author: DuelitDev
+Author-email: jyoon07dev@gmail.com
+Maintainer: DuelitDev
+Maintainer-email: jyoon07dev@gmail.com
+Keywords: socket
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# XSocket-Python
+ 
