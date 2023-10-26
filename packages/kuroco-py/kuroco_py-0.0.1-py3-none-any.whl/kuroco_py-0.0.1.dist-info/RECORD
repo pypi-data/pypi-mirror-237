@@ -1,0 +1,10 @@
+kuroco_api/CONFIG.py,sha256=XxhUXZnhXtLaYzqj6QKrJARNpwYpthZEQbONzCVSg5E,203
+kuroco_api/__init__.py,sha256=ImfqmIevz8RyZlnnbhThv_jwip6At_36_dSHtTvRliE,291
+kuroco_api/kuroco_api.py,sha256=WYaXwyejWPjO_MscOymwx82ckcNn17elp1p5u2fnlIw,14641
+kuroco_api/kuroco_content.py,sha256=0HXhc6pV6P7L7oL3x4nz_5QJ9SFMv09KlpbLDv_Kq7k,10798
+kuroco_embedding/__init__.py,sha256=HEkoE-yDA7r8xLcJWl1nhqm-7E6-_ClnIHqcRGjprZk,161
+kuroco_embedding/kuroco_embedding.py,sha256=qjq8n6L97WXtN-KTOHu3SKn934gxSHflnsrwIXazK-g,20852
+kuroco_embedding/kuroco_retriever.py,sha256=94Nrp3vIJkkkJpblI3IpA4WQ6Mtf8JvljJNI6i6iU-w,2568
+kuroco_py-0.0.1.dist-info/METADATA,sha256=xYxAAoT0CKuBHt0LMxSM5LXRlyyAhA4UGyIDHIqkfJ8,1212
+kuroco_py-0.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+kuroco_py-0.0.1.dist-info/RECORD,,
