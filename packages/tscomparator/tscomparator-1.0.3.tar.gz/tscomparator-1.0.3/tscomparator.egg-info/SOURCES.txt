@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+tscomparator/__init__.py
+tscomparator/bounding.py
+tscomparator/comparator.py
+tscomparator/dynamic_time_warping.py
+tscomparator/utils.py
+tscomparator.egg-info/PKG-INFO
+tscomparator.egg-info/SOURCES.txt
+tscomparator.egg-info/dependency_links.txt
+tscomparator.egg-info/requires.txt
+tscomparator.egg-info/top_level.txt
