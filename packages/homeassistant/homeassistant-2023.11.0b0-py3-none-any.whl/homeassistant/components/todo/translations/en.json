@@ -1,0 +1,64 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "To-do List"
+        }
+    },
+    "selector": {
+        "status": {
+            "options": {
+                "completed": "Completed",
+                "needs_action": "Needs Action"
+            }
+        }
+    },
+    "services": {
+        "create_item": {
+            "description": "Add a new To-do List Item.",
+            "fields": {
+                "status": {
+                    "description": "A status or confirmation of the To-do item.",
+                    "name": "Status"
+                },
+                "summary": {
+                    "description": "The short summary that represents the To-do item.",
+                    "name": "Summary"
+                }
+            },
+            "name": "Create To-do List Item"
+        },
+        "delete_item": {
+            "description": "Delete an existing To-do List Item either by its Unique Id or Summary.",
+            "fields": {
+                "summary": {
+                    "description": "The short summary that represents the To-do item.",
+                    "name": "Summary"
+                },
+                "uid": {
+                    "description": "Unique Identifiers for the To-do List Items.",
+                    "name": "To-do Item Unique Ids"
+                }
+            },
+            "name": "Delete a To-do List Item"
+        },
+        "update_item": {
+            "description": "Update an existing To-do List Item based on either its Unique Id or Summary.",
+            "fields": {
+                "status": {
+                    "description": "A status or confirmation of the To-do item.",
+                    "name": "Status"
+                },
+                "summary": {
+                    "description": "The short summary that represents the To-do item.",
+                    "name": "Summary"
+                },
+                "uid": {
+                    "description": "Unique Identifier for the To-do List Item.",
+                    "name": "To-do Item Unique Id"
+                }
+            },
+            "name": "Update To-do List Item"
+        }
+    },
+    "title": "To-do List"
+}
