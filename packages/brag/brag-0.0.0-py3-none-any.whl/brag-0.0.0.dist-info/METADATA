@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: brag
+Version: 0.0.0
+Summary: A CLI tool for maintaining and rendering a career brag document, automating file organization, and tracking accomplishments.
+Home-page: https://github.com/sderev/brag
+Author: Sébastien De Revière
+License: Apache Licence, Version 2.0
+Project-URL: Documentation, https://github.com/sderev/brag
+Project-URL: Issues, http://github.com/sderev/brag/issues
+Project-URL: Changelog, https://github.com/sderev/brag/releases
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# brag
+A CLI tool for maintaining and rendering a career brag document, automating file organization, and tracking accomplishments.
