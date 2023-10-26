@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: desckgc
+Version: 0.0.7
+Summary: DescKGC is a python package for knowledge graph automically construction.
+Home-page: https://guangchen811.github.io/DescKGC/
+Author: guangchen
+Author-email: guangchen811@gmail.com
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: arxiv (>=1.4.7,<2.0.0)
+Requires-Dist: chromadb (==0.3.26)
+Requires-Dist: langchain (>=0.0.274,<0.0.275)
+Requires-Dist: neo4j (==5.7.0)
+Requires-Dist: openai (>=0.27.4,<0.28.0)
+Requires-Dist: oyaml (>=1.0,<2.0)
+Requires-Dist: pydantic (==1.10.8)
+Requires-Dist: pytest (>=7.4.0,<8.0.0)
+Requires-Dist: sentence-transformers (>=2.2.2,<3.0.0)
+Project-URL: Repository, https://github.com/guangchen811/DescKGC
+Description-Content-Type: text/markdown
+
+# DescKGC
+[![lint](https://github.com/guangchen811/ComplexKG/actions/workflows/lint.yml/badge.svg)](https://github.com/guangchen811/ComplexKG/blob/main/.github/workflows/lint.yml)
+[![unit test](https://github.com/guangchen811/ComplexKG/actions/workflows/test.yml/badge.svg)](https://github.com/guangchen811/ComplexKG/blob/main/.github/workflows/test.yml)
+[![PyPI Version](https://img.shields.io/pypi/v/desckgc)](https://pypi.org/project/desckgc/)
+
+This is a package for Knowledge Graph Construction. The official document can be found [here](https://guangchen811.github.io/DescKGC/).
+
