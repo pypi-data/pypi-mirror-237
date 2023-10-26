@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: planestress
+Version: 0.0.4
+Summary: A python package for plane stress analysis using the finite element method.
+Home-page: https://github.com/robbievanleeuwen/plane-stress
+License: MIT
+Keywords: plane-stress,structural-engineering,finite-element-analysis,computational-mechanics
+Author: Robbie van Leeuwen
+Author-email: robbie.vanleeuwen@gmail.com
+Maintainer: Robbie van Leeuwen
+Maintainer-email: robbie.vanleeuwen@gmail.com
+Requires-Python: >=3.9.0,<3.12
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: gmsh (>=4.11.1,<5.0.0)
+Requires-Dist: matplotlib (>=3.8.0,<4.0.0)
+Requires-Dist: numpy (>=1.24.0,<2.0.0)
+Requires-Dist: rich (>=13.5.0,<14.0.0)
+Requires-Dist: scipy (>=1.10.0,<2.0.0)
+Requires-Dist: shapely (>=2.0.2,<3.0.0)
+Project-URL: Bug Tracker, https://github.com/robbievanleeuwen/plane-stress/issues
+Project-URL: Changelog, https://github.com/robbievanleeuwen/plane-stress/releases
+Project-URL: Documentation, https://plane-stress.readthedocs.io
+Project-URL: Repository, https://github.com/robbievanleeuwen/plane-stress
+Description-Content-Type: text/markdown
+
+# plane-stress
+
+currently work in progress...
+
