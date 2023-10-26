@@ -1,0 +1,6 @@
+pyfiglet>=0.7.2
+Pillow>=2.7.0
+wcwidth
+
+[:sys_platform == "win32"]
+pywin32
