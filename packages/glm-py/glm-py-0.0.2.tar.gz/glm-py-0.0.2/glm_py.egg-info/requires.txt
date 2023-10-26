@@ -1,0 +1,8 @@
+pandas[excel]>=2.0.0
+fastapi[all]>=0.88.0
+python-multipart
+
+[toml]
+
+[toml:python_version < "3.11"]
+tomli
