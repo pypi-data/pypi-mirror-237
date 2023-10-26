@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+document_qa/document_qa_engine.py
+document_qa/grobid_processors.py
+document_qa_engine.egg-info/PKG-INFO
+document_qa_engine.egg-info/SOURCES.txt
+document_qa_engine.egg-info/dependency_links.txt
+document_qa_engine.egg-info/top_level.txt
