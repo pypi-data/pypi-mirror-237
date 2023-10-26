@@ -1,0 +1,12 @@
+pydanticscim/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydanticscim/enterprise_user.py,sha256=XwBxjrjydH8jQi3GR7sguseCD9BlgiiNmWl9qt68Hko,1606
+pydanticscim/group.py,sha256=0Ufugews5S3p52we8MI5CHynLLEc9CQYPgiIzzT9gvQ,534
+pydanticscim/resource_type.py,sha256=L1FWh6W2TQ_eiGdKyDuZB1ZayimJVk3ANb0-867ybMg,1681
+pydanticscim/responses.py,sha256=E-P25rIXbSnVhdBHE2hNhemYkeHK-2auue-PKhCPV1k,1966
+pydanticscim/service_provider.py,sha256=ZNH_U9zhMWfWOi5rN0V4APJmVsfD3TjdwSGl80UDGcU,2868
+pydanticscim/user.py,sha256=2VQlPCG2jz-uNPQpqKj-f_ogGHqXgbt3SxBGOvnUme8,12844
+pydantic_scim-0.0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pydantic_scim-0.0.8.dist-info/METADATA,sha256=A2XK1Te2QygKhnDtiGh6u1ts0aSr9i2LQXt9Q5TCbO8,562
+pydantic_scim-0.0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pydantic_scim-0.0.8.dist-info/top_level.txt,sha256=uYIjlfBoNcRdg-KeGT0eJBa8T6IMnuu_gkiXjpKMI5E,13
+pydantic_scim-0.0.8.dist-info/RECORD,,
