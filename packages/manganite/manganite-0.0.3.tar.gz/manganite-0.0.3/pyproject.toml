@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "manganite"
+dynamic = ["version"]
+dependencies = [
+  "ast-scope",
+  "nbconvert",
+  "panel>=1.2",
+  "param==1.13.0",
+  "pathvalidate>=3.1.0"
+]
+authors = [
+  { name="Hubert Kosiacki", email="hubert@quantego.com" },
+  { name="Daniel Dobos", email="danielandras.dobos@gmail.com" },
+  { name="Nils Lohndorf", email="nils@loehndorf.com" },
+]
+description = "ashboarding tool built on the powerful Panel framework."
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.scripts]
+mnn = "manganite.command:main"
+
+[project.urls]
+"Homepage" = "https://github.com/LCL-CAVE/manganite"
+"Bug Tracker" = "https://github.com/LCL-CAVE/manganite/issues"
+
+[tool.setuptools.dynamic]
+version = {attr = "manganite.__version__"}
+
+[tool.setuptools.data-files]
+"etc/jupyter/jupyter_server_config.d" = [
+  "jupyter-config/jupyter_server_config.d/manganite.json"
+]
