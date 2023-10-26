@@ -1,0 +1,12 @@
+gradio_mymodel3d/__init__.py,sha256=_XvpgZsfVJ0SjBt7aoMh4S-fgTNetfKqh-jumqv_LWU,59
+gradio_mymodel3d/mymodel3d.py,sha256=6MmVgpvAbnp8lJqVCSrBXQPAw8K6mDC7JCygr3FLmg0,6467
+gradio_mymodel3d/mymodel3d.pyi,sha256=H8-vRVW1Wez99uXTdFqR--Rv0bUN1SuFFENYzfADGyY,22290
+gradio_mymodel3d/templates/component/__vite-browser-external-2447137e.mjs,sha256=-MRWAx5QAcDNpIN82e46M9eb7roSDsYz7J2ZBjL7KqY,41
+gradio_mymodel3d/templates/component/index.js,sha256=jHcoSRpsiy5ouLsDq-SNnpIxPfmiEPYE6HraFDcMQVs,4821212
+gradio_mymodel3d/templates/component/style.css,sha256=9jz8VnUEr4Qa3FHCyR3yS3L5clnrk6MnxiwH6fZBAcE,12114
+gradio_mymodel3d/templates/component/wrapper-6f348d45-492a1cb9.mjs,sha256=7h0T9XVGGU2CRwogHSVe59vgFr6m_Vb7KBes2HAClls,78110
+gradio_mymodel3d/templates/example/index.js,sha256=AcEKu2d4hjZyQsKf4pvOMqUT-QB_uFGbfbtGYc7mf9o,1549
+gradio_mymodel3d/templates/example/style.css,sha256=Aj4k-S41TV83pot-J9j9Fi2UonrXHFC1Jl4Zb1xaYo4,61
+gradio_mymodel3d-0.0.1.dist-info/METADATA,sha256=B-y2mcwVzIodHdOPk-QGcugyaJHI1xJgqQHbz7ftMJQ,1085
+gradio_mymodel3d-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+gradio_mymodel3d-0.0.1.dist-info/RECORD,,
