@@ -1,0 +1,2 @@
+[console_scripts]
+beique = rqalpha.__main__:entry_point
