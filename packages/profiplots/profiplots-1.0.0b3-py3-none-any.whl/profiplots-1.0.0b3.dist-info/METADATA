@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: profiplots
+Version: 1.0.0b3
+Summary: Package for helping data scientists create beautiful profinit-styled plots.
+Requires-Dist: matplotlib
+Requires-Dist: seaborn >=0.13.0
+Provides-Extra: ci
+Requires-Dist: pip-tools ; extra == 'ci'
+Requires-Dist: black ; extra == 'ci'
+Requires-Dist: pytest ; extra == 'ci'
+Requires-Dist: ruff ; extra == 'ci'
+Requires-Dist: pre-commit ; extra == 'ci'
+Requires-Dist: jupyter ; extra == 'ci'
+Requires-Dist: tabulate ; extra == 'ci'
+Requires-Dist: quartodoc ; extra == 'ci'
+Requires-Dist: setuptools-scm ; extra == 'ci'
+Provides-Extra: docs
+Requires-Dist: jupyter ; extra == 'docs'
+Requires-Dist: tabulate ; extra == 'docs'
+Requires-Dist: quartodoc ; extra == 'docs'
+Requires-Dist: setuptools-scm ; extra == 'docs'
+
