@@ -1,0 +1,11 @@
+kz_iin_validator/__init__.py,sha256=LafYe2AMy9OwZ35KAx29xhgq1EEYEtM5E-hlK4cHXNY,221
+kz_iin_validator/exceptions.py,sha256=VreAL-aM3AHge7Kzo1lC-RJisFWV50OkdfeDWZwIKsU,248
+kz_iin_validator/iin_extractor.py,sha256=0mTjluQUpXcfNWPIRoBqH1XR32EvaZBo6OnRT-D7k50,538
+kz_iin_validator/iin_generator.py,sha256=Qu1nxPdm5jku6HPxf4jNvDH4NGJyOTm0XfydW7MMpFY,1920
+kz_iin_validator/iin_validator.py,sha256=pjDfUnX4mvX_9MgtPPmt_rgXrliqo3Qfoydnc8SCtIg,4212
+kz_iin_validator/utils.py,sha256=ByChJZP6AySpckHjWYDDY9esRYGIwvDvdLRjU_saGmU,471
+kz_iin_validator-0.7.1.dist-info/LICENSE.txt,sha256=Tiobz9Lt5XdWldhVNuOUKq36liJeIGV5qVCldKyR9g0,1071
+kz_iin_validator-0.7.1.dist-info/METADATA,sha256=CyJXLycc7e-QKsX2sBKJvBdb-U0TI_cX6J2EOyRd_C0,4741
+kz_iin_validator-0.7.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+kz_iin_validator-0.7.1.dist-info/top_level.txt,sha256=Ahd3x007g7Jyk3BxAJu0mWCXSdmN68aYpcRQZENmxI8,17
+kz_iin_validator-0.7.1.dist-info/RECORD,,
