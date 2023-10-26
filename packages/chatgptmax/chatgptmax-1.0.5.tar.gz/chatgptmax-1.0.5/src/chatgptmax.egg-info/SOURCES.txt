@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/chatgptmax/__init__.py
+src/chatgptmax/chatgptmax.py
+src/chatgptmax.egg-info/PKG-INFO
+src/chatgptmax.egg-info/SOURCES.txt
+src/chatgptmax.egg-info/dependency_links.txt
+src/chatgptmax.egg-info/top_level.txt
+tests/test_chatgptmax.py
