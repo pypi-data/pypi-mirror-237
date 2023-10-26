@@ -1,0 +1,9 @@
+pyproject.toml
+src/FalconSearch/FalconSearch.py
+src/FalconSearch/__init__.py
+src/FalconSearch/clear.py
+src/FalconSearch.egg-info/PKG-INFO
+src/FalconSearch.egg-info/SOURCES.txt
+src/FalconSearch.egg-info/dependency_links.txt
+src/FalconSearch.egg-info/requires.txt
+src/FalconSearch.egg-info/top_level.txt
