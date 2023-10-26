@@ -1,0 +1,11 @@
+pylist/__init__.py,sha256=oCIgIN2DRhET720CQS00SXO_KTqwkLPM1Gr1wTXUlGQ,28
+pylist/cli.py,sha256=cgBqGXbrSXAizrYaBr6tYLpVCzxpwgvA_6e3zY_c924,3728
+pylist/downloader.py,sha256=lllhfIIgVJZGWmi9hZ8x_Zih_t3eQHEvFxuUQTsmnVI,11526
+pylist/gui.py,sha256=KsEhD-VzYnQXVQ_1ilnG3IMrblmRJn_qrvINBlKiRLM,18786
+pylist/logging_config.py,sha256=hNcJzmdqiYTJ-ZSyuJWhbp97cVfgC7HiduM9YHrOckA,503
+pylist/utils.py,sha256=Ug-VgMbs5ad4DQl3pvLWzfyFMhtaDvu5bDB8ikPeab8,1545
+pylist_grab-0.0.4.dist-info/METADATA,sha256=tnlNx3TzPvuiJAsqdXNNat8eNP2awSPz9QiTNlZw-p0,5086
+pylist_grab-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pylist_grab-0.0.4.dist-info/entry_points.txt,sha256=WBUWZZWEbvSreqSVWQzkEcwHrFoIrIMDjLTowGuYRG4,79
+pylist_grab-0.0.4.dist-info/top_level.txt,sha256=QjQnqGc97DGipj_emSBjYWUFaQKcuDkdcruUFQlvhC4,7
+pylist_grab-0.0.4.dist-info/RECORD,,
