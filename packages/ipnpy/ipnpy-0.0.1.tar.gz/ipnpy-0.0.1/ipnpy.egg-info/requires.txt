@@ -1,0 +1,5 @@
+requests
+pydantic
+web3
+base58
+tronpy
