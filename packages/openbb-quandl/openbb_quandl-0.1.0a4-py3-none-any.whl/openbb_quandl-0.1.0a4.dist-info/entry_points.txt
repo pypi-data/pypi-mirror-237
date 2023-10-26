@@ -1,0 +1,3 @@
+[openbb_provider_extension]
+quandl=openbb_quandl:quandl_provider
+

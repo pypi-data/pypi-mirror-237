@@ -1,0 +1,11 @@
+openbb_quandl/__init__.py,sha256=vUIOHLXHz0_3QuOSgI2a1uKsZpr9w18IHxZennPtDk4,1053
+openbb_quandl/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openbb_quandl/models/cot.py,sha256=MCXyi4gcoZn4-ti53cSwdkcxYXgOiq84SF-4FZtlbg0,6498
+openbb_quandl/models/cot_search.py,sha256=ImY13Wls0bYu7J00BpYVhJ5t8QYsgd6dDqnA_WUy9-k,2046
+openbb_quandl/models/sp500_multiples.py,sha256=946vaJ1U8cwlEASMFCAGJIMrdqnGBSWFxvN-Bq1UTqk,2151
+openbb_quandl/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openbb_quandl/utils/series_ids.py,sha256=5xJ0-OJ7SnhC3_UzIrH04kBoeeQNlH81dGRwjVLuvyk,48773
+openbb_quandl-0.1.0a4.dist-info/METADATA,sha256=iPNO0Xv868vPnCY7hO0_oEDDL5ZVD5a6FpdDF69D9xs,999
+openbb_quandl-0.1.0a4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+openbb_quandl-0.1.0a4.dist-info/entry_points.txt,sha256=aYM0irXJmYJ9bXtWYHrzhAuFyOKOkW16Q566YT-kAY8,66
+openbb_quandl-0.1.0a4.dist-info/RECORD,,
