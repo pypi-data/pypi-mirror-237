@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: softsort
+Version: 0.1
+Summary: Differentiable Sorting, Ranking, and Top-k.
+Home-page: https://pypi.python.org/pypi/difftopk/
+Author: Felix Petersen
+Author-email: ads0600@felix-petersen.de
+Maintainer: Felix Petersen
+Maintainer-email: ads0740@felix-petersen.de
+Platform: all
+
+Use `difftopk <https://pypi.python.org/pypi/difftopk/>`_ instead.

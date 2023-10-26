@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+softsort.egg-info/PKG-INFO
+softsort.egg-info/SOURCES.txt
+softsort.egg-info/dependency_links.txt
+softsort.egg-info/not-zip-safe
+softsort.egg-info/requires.txt
+softsort.egg-info/top_level.txt
