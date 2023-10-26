@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pykeksikapi
+Version: 0.11
+Summary: This library is needed for working with api.keksik.io. It provides convenient tools for processing the API of this website.
+Home-page: https://github.com/unnecessaryss/pykeksikapi
+Author: unneccessaryss
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.9
+License-File: LICENSE
