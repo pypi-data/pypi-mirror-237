@@ -1,0 +1,11 @@
+satus_sdk/Job.py,sha256=QbUKGX0rR4vPOQM02i9v4CgVpgRIPEmEw7oUo8GjH7Q,2185
+satus_sdk/JobOptions.py,sha256=pC62wV15pGfsDUBxzYQ1-JVUY5KF8ZN5t9_-wlyjUHI,1305
+satus_sdk/ReturnTypes.py,sha256=muoIb8PyF-6XSs40mpirBp9vwQ1NT7ws0X-tPHLZzQA,648
+satus_sdk/SatusClient.py,sha256=Jvteyifx4cYsKmuXGHxMyM9vCRVZvfq4ykvrcypNVAs,7280
+satus_sdk/__init__.py,sha256=xmNA4gOM39EBTrE12ebInAlhyH03n_1iDI1MRMkQqlo,92
+satus_sdk/utils.py,sha256=Ikaqk16D7GLEms0i-ToKvczcBEFk1sWJ0WkuUw3p1Xc,347
+satus_sdk-0.0.3.dist-info/LICENSE,sha256=cpQErPzsgN5JzjoGkHswvBJwflpYEbVD258ILulp6bs,1102
+satus_sdk-0.0.3.dist-info/METADATA,sha256=uqc_GblBG7s37Nq9utR6ZXVBAOnReC2Q3LjVMhqv4yY,840
+satus_sdk-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+satus_sdk-0.0.3.dist-info/top_level.txt,sha256=zcCpLcYrB-Ub9g_Iizz6eOXxBFUC4JBUNiPcgoIZI5M,10
+satus_sdk-0.0.3.dist-info/RECORD,,
