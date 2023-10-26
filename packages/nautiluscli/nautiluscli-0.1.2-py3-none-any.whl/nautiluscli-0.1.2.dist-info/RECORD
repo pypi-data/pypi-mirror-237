@@ -1,0 +1,10 @@
+nautiluscli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nautiluscli/api.py,sha256=hksxfjMCRQzOyzQjASAinD4-gNMEO5kr3ovJQE3GRjE,3163
+nautiluscli/cli.py,sha256=Du8pep1T6ByqIHq1HNGWZizXMKy_YpuEf_ZOrVgMQ3U,3732
+nautiluscli/embedding_model.py,sha256=0gyAP273isffcrtewEjG6WYpA4aMxdLUbzyVWTqUn44,149
+nautiluscli/model.py,sha256=xsAHDLbgczoDOz3HQxIuLuAm37L9GdN_8Z0k9LWvukU,1011
+nautiluscli-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nautiluscli-0.1.2.dist-info/METADATA,sha256=0sovNLi_jD7OlH9onajpnHDhri3et8Ie59Nv8YfIf_Q,1580
+nautiluscli-0.1.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+nautiluscli-0.1.2.dist-info/entry_points.txt,sha256=zUtxrI_3FFTV_bbA5wO5Vw_Q6nXRheQ4qGKslCGDxNY,51
+nautiluscli-0.1.2.dist-info/RECORD,,
