@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "comp-reporting-app"
+version = "0.1.1"
+description = ""
+authors = ["drose15-chwy <drose15@chewy.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+ydata-profiling="*"
+numba = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
