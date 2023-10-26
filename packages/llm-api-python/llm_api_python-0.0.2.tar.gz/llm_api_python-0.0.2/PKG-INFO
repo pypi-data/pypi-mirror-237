@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: llm-api-python
+Version: 0.0.2
+Summary: A python lib to call LLM API models.
+Home-page: https://github.com/1b5d/llm-api-python
+License: MIT
+Author: 1b5d
+Author-email: 8110504+1b5d@users.noreply.github.com
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8,<4.0)
+Requires-Dist: requests (>=2.28,<3.0)
+Project-URL: Repository, https://github.com/1b5d/llm-api-python
+Description-Content-Type: text/markdown
+
+# LLM API for python
+
+This python library connects to [llm-api](https://github.com/1b5d/llm-api) using python, it was build to mimic [OpenAI's python library](https://github.com/openai/openai-python)
+
+# Usage
+
+You can install this library using pip
+
+```
+pip install llm-api-python
+```
+
+After running [llm-api](https://github.com/1b5d/llm-api), simply configure your client as if it's OpenAI's python binding
+
+```python
+import llm_api
+
+llm_api.api_key = "<your llm-api api key here>"
+
+completion = llm_api.ChatCompletion.create(messages=[
+    {
+        "role": "system", 
+        "content": "You are a helpful assistant, please answer the users' questions with honesty and accuracy."
+    }, {
+        "role": "user", "content": "What is the capital of France?"
+    }
+])  # returns a chat completion object
+
+completion = llm_api.ChatCompletion.create(messages=[
+    ...
+], stream=True) # returns a generator
+
+completion = await llm_api.ChatCompletion.acreate(messages=[
+    ...
+]) # returns a chat completion object
+
+completion = await llm_api.ChatCompletion.acreate(messages=[
+    ...
+], stream=True) # returns a async generator
+
+```
+
+# Limitations
+
+- `request_id` and `request_ms` are currently returned empty
+- `created` timestamp is not set by the server
+- `finish_reason` is hardcoded to `stop`
+- `usage` values are set to `None`
+- the `model` attribute is not being used
+
+# Credit
+
+OpenAI's python implementation since this implementation is technically a fork of it.
+

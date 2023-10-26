@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "llm-api-python"
+version = "0.0.2"
+description = "A python lib to call LLM API models."
+authors = ["1b5d <8110504+1b5d@users.noreply.github.com>"]
+homepage = "https://github.com/1b5d/llm-api-python"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/1b5d/llm-api-python"
+packages = [{ include = "llm_api" }]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+requests = "^2.28"
+aiohttp = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.20"
+black = "^23.3"
+scriv = "^1.2"
+pylint = "^2.17.5"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.scriv]
+format = "md"
+
+[tool.pylint]
+init-hook = 'from pylint.config import find_default_config_files; import os, sys; sys.path.append(os.path.dirname(next(find_default_config_files())))'
+disable = [
+    "C0103",
+    "R0913",
+    "R0903",
+    "R0902",
+    "E1101",
+    "R0911",
+    "R0801",
+    "R0401",
+]
+
+[build-system]
+requires = ["poetry-core>=1.1.0"]
+build-backend = "poetry.core.masonry.api"
