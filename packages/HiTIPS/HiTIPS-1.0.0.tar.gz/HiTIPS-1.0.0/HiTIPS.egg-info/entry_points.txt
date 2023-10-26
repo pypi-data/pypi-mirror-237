@@ -1,0 +1,2 @@
+[console_scripts]
+HiTIPS = HiTIPS.HiTIPS:main
