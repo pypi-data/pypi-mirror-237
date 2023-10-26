@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: chainbase-hrr
+Version: 0.0.2
+Summary: A hybrid approach to semantic query retrieval using the Beir rerank methodology
+License: MIT
+Author: Eric Robinson
+Requires-Python: >=3.11,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: chainbase-lib (==0.0.2)
+Requires-Dist: faiss-cpu (>=1.7.4,<2.0.0)
+Requires-Dist: pydantic (>=1.10,<2.0)
+Requires-Dist: rank-bm25 (>=0.2.2,<0.3.0)
+Description-Content-Type: text/markdown
+
+# Get started
+1. `poetry install`
+2. `uvicorn hybrid_rerank_retrieval.tests.example_app:auto_app --reload`
+

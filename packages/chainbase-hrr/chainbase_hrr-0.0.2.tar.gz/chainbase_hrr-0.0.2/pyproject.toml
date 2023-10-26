@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "chainbase-hrr"
+version = "0.0.2"
+description = "A hybrid approach to semantic query retrieval using the Beir rerank methodology"
+authors = ["Eric Robinson"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "chainbase"}]
+
+[tool.poetry.dependencies]
+python = "~3.11"
+chainbase-lib = "0.0.2"
+faiss-cpu = "^1.7.4"
+rank-bm25 = "^0.2.2"
+pydantic = "^1.10"
+
+[[tool.poetry.source]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
