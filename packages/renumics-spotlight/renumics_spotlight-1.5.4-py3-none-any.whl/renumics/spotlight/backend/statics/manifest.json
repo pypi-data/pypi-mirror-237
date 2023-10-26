@@ -1,0 +1,28 @@
+{
+  "_lib-24c50843.js": {
+    "file": "lib-24c50843.js"
+  },
+  "_lib-9f1b9f59.cjs": {
+    "file": "lib-9f1b9f59.cjs"
+  },
+  "src/lib.ts": {
+    "file": "lib.cjs",
+    "imports": [
+      "_lib-9f1b9f59.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/lib.ts"
+  },
+  "src/main.tsx": {
+    "file": "main.cjs",
+    "imports": [
+      "_lib-9f1b9f59.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/main.tsx"
+  },
+  "style.css": {
+    "file": "style.css",
+    "src": "style.css"
+  }
+}
