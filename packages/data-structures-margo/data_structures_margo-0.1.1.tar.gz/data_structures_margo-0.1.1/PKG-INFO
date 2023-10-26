@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: data-structures-margo
+Version: 0.1.1
+Summary: Sample package for experimentation purposes
+Author: Hassou Karim
+Author-email: hassoukarim@gmail.com
+Requires-Python: ==3.11.5
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Requires-Dist: pandas (>=2.1.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+## Sample package
+
+This is a sample package in order to experiment with python packagin tools.
