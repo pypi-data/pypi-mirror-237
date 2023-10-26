@@ -1,0 +1,5 @@
+setup.py
+thds.egg-info/PKG-INFO
+thds.egg-info/SOURCES.txt
+thds.egg-info/dependency_links.txt
+thds.egg-info/top_level.txt
