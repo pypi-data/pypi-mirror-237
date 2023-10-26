@@ -1,0 +1,7 @@
+numpy
+pandas
+pandas_datareader
+pandas_ta
+plotly
+requests
+scipy
