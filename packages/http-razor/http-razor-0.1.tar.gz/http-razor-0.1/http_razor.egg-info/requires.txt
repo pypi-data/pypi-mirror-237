@@ -1,0 +1,7 @@
+aiofiles
+http-router
+uvicorn
+uvloop
+multidict
+markupsafe
+python-multipart

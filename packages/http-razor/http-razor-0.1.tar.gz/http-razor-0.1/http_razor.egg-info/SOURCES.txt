@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+http_razor.egg-info/PKG-INFO
+http_razor.egg-info/SOURCES.txt
+http_razor.egg-info/dependency_links.txt
+http_razor.egg-info/requires.txt
+http_razor.egg-info/top_level.txt
