@@ -1,0 +1,6 @@
+postman_api/__init__.py,sha256=Qyts_9QqUnDZIYcZRXYq_vL9lJ6iXEheMzXxTxh3Ai4,84
+postman_api/main.py,sha256=0tsE02dGK9x6oEeoYsqA8oQ850A8wjDrY8gqcy8viy0,97513
+postman_api/schemas.py,sha256=cKaTSbuyXNYebage76loKxUW4QfMLQIsr5mZ4NDcBoE,1570460
+sideko_postman_api-1.0.0.dist-info/METADATA,sha256=iQhBoJX2AigJSfD0iFDNpnYjB3__zBeApPc3Q-Cwo5g,483
+sideko_postman_api-1.0.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+sideko_postman_api-1.0.0.dist-info/RECORD,,
