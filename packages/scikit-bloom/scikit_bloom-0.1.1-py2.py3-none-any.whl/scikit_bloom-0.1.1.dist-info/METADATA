@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: scikit-bloom
+Version: 0.1.1
+Summary: Bloom tricks for text pipelines in scikit-learn.
+Home-page: https://koaning.github.io/scikit-bloom/
+Author: Vincent D. Warmerdam
+License: UNKNOWN
+Project-URL: Documentation, https://koaning.github.io/scikit-bloom/
+Project-URL: Source Code, https://github.com/koaning/scikit-bloom/
+Project-URL: Issue Tracker, https://github.com/koaning/scikit-bloom/issues
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scikit-learn >=1.0.0
+Requires-Dist: scikit-partial >=0.1.0
+Provides-Extra: dev
+Requires-Dist: black >=19.3b0 ; extra == 'dev'
+Requires-Dist: flake8-print >=4.0.0 ; extra == 'dev'
+Requires-Dist: flake8 >=3.6.0 ; extra == 'dev'
+Requires-Dist: interrogate >=1.5.0 ; extra == 'dev'
+Requires-Dist: pre-commit >=2.2.0 ; extra == 'dev'
+Requires-Dist: pytest >=4.0.2 ; extra == 'dev'
+Requires-Dist: scikit-learn >=1.0.0 ; extra == 'dev'
+Requires-Dist: scikit-partial >=0.1.0 ; extra == 'dev'
+
+# scikit-bloom
+
+Bloom tricks for text pipelines in scikit-learn. To learn more about this trick, check out [this blogpost](https://explosion.ai/blog/bloom-embeddings).
+
+You can install it via:
+
+```
+python -m pip install scikit-bloom
+```
+
+And you can import the components via: 
+
+```python
+from skbloom import BloomVectorizer, BloomishVectorizer
+```
+
+In fairness, while this trick is interesting ... you _might_ be fine just using the `HashingVectorizer` that just comes with sklearn.
+
+
