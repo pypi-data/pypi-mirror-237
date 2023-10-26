@@ -1,0 +1,17 @@
+text_correction_benchmarks/__init__.py,sha256=dxu4BLSk7nObNAIlVPcTNeuqrmcfWPYbzeOtFN_9n7I,59
+text_correction_benchmarks/version.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+text_correction_benchmarks/baselines/__init__.py,sha256=DPOJP9J4DtKbPAJfw0NTUPg6uA36yAIJ4mRjTIukWPU,5581
+text_correction_benchmarks/baselines/general.py,sha256=kvS0QQILJBqZbZLXFJ45fKqcnqroV7NmQSiYUeRMNXc,2649
+text_correction_benchmarks/baselines/sec.py,sha256=yZpvYeu_uRD2cs0g_bfhh_NFLlTw1RufKVIsO3jCBdY,283
+text_correction_benchmarks/baselines/seds.py,sha256=C7CiLcrmhhNeRm6zjhWg28M4tUS4pdOw-8qRMyg9E3A,724
+text_correction_benchmarks/baselines/sedw.py,sha256=QiWLySWhVKaglQkjDfKAMKH1pX0u8TMkuEsDCemweDw,928
+text_correction_benchmarks/baselines/wsc.py,sha256=Xp-oKul2r0qpULNXUA0TXTrrsbwTqBURKVnYsFdUIuI,801
+text_correction_benchmarks/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+text_correction_benchmarks/cli/download.py,sha256=GyJGZK4513XCMC7abfTSqbk1jJ8UY6DeKosWiIWKOiE,1667
+text_correction_benchmarks/cli/evaluate.py,sha256=1P86wk5mn5Xw-nzR8Kye-NFzuGMcSTU9skNZn_fnYmg,15277
+text_correction_benchmarks-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+text_correction_benchmarks-0.2.0.dist-info/METADATA,sha256=y6x7YYlcgjt5kJ9dBFOt-jafTZACrSh5a8e4E8Ca880,20377
+text_correction_benchmarks-0.2.0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+text_correction_benchmarks-0.2.0.dist-info/entry_points.txt,sha256=8XlGMQPslYCgbpi8oqDWLDEHmBCcTdVN1DO0rQkRIr4,195
+text_correction_benchmarks-0.2.0.dist-info/top_level.txt,sha256=ShNBaFrYwDLBDA2bzRnYiawcrd1mMUg9jK9IyARVEQ4,27
+text_correction_benchmarks-0.2.0.dist-info/RECORD,,
