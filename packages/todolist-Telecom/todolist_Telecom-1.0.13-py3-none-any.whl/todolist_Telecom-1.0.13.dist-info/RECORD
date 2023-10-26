@@ -1,0 +1,9 @@
+exceptions/__init__.py,sha256=fniYXeue0__k25P0DJhStMq4Du6qux-tdB0ACOnXDvI,77
+exceptions/task_exceptions.py,sha256=N0Fll7UOzQBAe3T3leIE1BoiTUIBTtX1lLZ1bst_l4U,268
+models/__init__.py,sha256=PqOJFBsy7e8LzKAo1qeP9ZeYph9staxeUsHT4B1Fe7U,63
+models/task.py,sha256=dFm4eBupp_fu6h9a4CDq4QKeie4zkl2GFXloWOn497w,1062
+models/task_list.py,sha256=ViiTWjLppyymDMmndXVMB4gQrqUUuk1uxPndxC0i1DU,1924
+todolist_Telecom-1.0.13.dist-info/METADATA,sha256=Qjj9SjYtKhjxaXYs6UE4rp3mk6tbLGaOK-uLj_5KBvA,3007
+todolist_Telecom-1.0.13.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+todolist_Telecom-1.0.13.dist-info/top_level.txt,sha256=v7U2TkT2a6QC36VeI5akWzMmSfWQPqatcuC2htCGJ-0,18
+todolist_Telecom-1.0.13.dist-info/RECORD,,
