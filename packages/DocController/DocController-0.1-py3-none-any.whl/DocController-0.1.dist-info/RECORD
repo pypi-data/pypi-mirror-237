@@ -1,0 +1,11 @@
+documentation/__init__.py,sha256=pvEOJNqZ-miIwW1LDawX5XGGlvruppR_n5_zDq6mX3g,186
+documentation/doc_dao.py,sha256=fEZtjgs2wbSFXHRYkEEFtJvoSr0euV_QllEKQC9CCpk,2380
+documentation/doc_dto.py,sha256=SomNuForcLuOR-YqU6idKWSTy_kA37XuBUVSreJGlJY,2503
+tutorial/__init__.py,sha256=fN4Ll0GzDFc-LF0EifgQbwWrXuCVm6VRQjKx94BFQRM,182
+tutorial/step_dto.py,sha256=sj-GlePKbCgFPSBhgKaK0e1Smt_h0erGu3Lpej4R7GY,854
+tutorial/tut_dto.py,sha256=KAIZ_0ihAVWN7hf_CCQsvimZqH4Nn_t5i-y1cMC8rdY,815
+DocController-0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DocController-0.1.dist-info/METADATA,sha256=B8yHCx4Zg_2JNUmWRQVxYOK4nxfWm6fNbxKjGa7FpkE,83
+DocController-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+DocController-0.1.dist-info/top_level.txt,sha256=1bneQ8BaStMuQ15HkaP9ALmDe8Hqdv7ImoK6bMWg35w,23
+DocController-0.1.dist-info/RECORD,,
