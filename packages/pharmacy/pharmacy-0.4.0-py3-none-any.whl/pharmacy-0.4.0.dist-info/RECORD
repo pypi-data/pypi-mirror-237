@@ -1,0 +1,7 @@
+pharmacy/__init__.py,sha256=KlCc9IQ0BwJ6-rnBM5UwcW8tgDFJA81e0kLPtmG_wbQ,7720
+pharmacy/__main__.py,sha256=kRQWOSqgXa8fTCn_Z69KKBsI8lMdpv0cTm8I-yQNzhM,1318
+pharmacy/fuzzyjoin.py,sha256=VGhycOpxNI-nztPtGUGPeiogEqO8xQDbXC0khLESuJ4,3348
+pharmacy-0.4.0.dist-info/LICENSE.txt,sha256=V_3GWfUCH2P5jPB-VBXrwCTkzu_o2PqGXDs57GE9_gs,35822
+pharmacy-0.4.0.dist-info/METADATA,sha256=VsR7PP0m5GWZDkNjRC3SvtTAkBB2tdlcJtRUvjbAe74,4432
+pharmacy-0.4.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pharmacy-0.4.0.dist-info/RECORD,,
