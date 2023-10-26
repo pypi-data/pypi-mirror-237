@@ -1,0 +1,12 @@
+csockets-4.2.26.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+csockets-4.2.26.dist-info/METADATA,sha256=Rc2SiTiXWK2tm6YnVJFCiEHyUgtGiWBg5HczS9ldhxM,338
+csockets-4.2.26.dist-info/RECORD,,
+csockets-4.2.26.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+csockets-4.2.26.dist-info/top_level.txt,sha256=gA5WTc90cEOERRzvGcPrnG7nZWg05MJYRJMXFKk1sRQ,9
+csockets/__init__.pyi,sha256=-5XZbWuD4ssn7PgVvXsEw0AjTvRA4pF7SfP9IHmgNuc,2281
+csockets/socket.pyi,sha256=EM8aniWgiVpBY4ePkYzf9tCKh270AX6g98HYvEcotu4,22922
+csockets\__init__.pyc,sha256=SBZNyVDcAXbpWJ4mGshmsR_SY4yzqYLlNM7O2KIOJJQ,131
+csockets\_connection.pyc,sha256=PwZvZDr4K2YC53UQjUGXPusMTX4-eXL4_CcI6auMz2Y,2585
+csockets\_encryption.pyc,sha256=_BvIhB3kZOmmWr2QiSnb3tB78OGt7UpZ8zyZAlS0ng0,29360
+csockets\_protocols.pyc,sha256=rg7UeUfJXuGwXp6FU9NwxF7mNScvzgorDu_tCFIBygo,16869
+csockets\socket.pyc,sha256=5EJoMlBX_NIHRjV2ZXznkdb5GjaG2YJs3LVXu8AMuMg,54245
