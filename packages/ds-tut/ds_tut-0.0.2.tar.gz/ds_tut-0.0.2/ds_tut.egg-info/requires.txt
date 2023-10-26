@@ -1,0 +1,8 @@
+httpx
+rich
+pandas
+
+[dev]
+nbdev
+jupyterlab
+twine
