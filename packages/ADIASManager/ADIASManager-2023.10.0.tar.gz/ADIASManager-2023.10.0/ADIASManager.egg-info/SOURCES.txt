@@ -1,0 +1,5 @@
+setup.py
+ADIASManager.egg-info/PKG-INFO
+ADIASManager.egg-info/SOURCES.txt
+ADIASManager.egg-info/dependency_links.txt
+ADIASManager.egg-info/top_level.txt
