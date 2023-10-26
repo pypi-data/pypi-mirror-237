@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+torch3d.egg-info/PKG-INFO
+torch3d.egg-info/SOURCES.txt
+torch3d.egg-info/dependency_links.txt
+torch3d.egg-info/not-zip-safe
+torch3d.egg-info/requires.txt
+torch3d.egg-info/top_level.txt
