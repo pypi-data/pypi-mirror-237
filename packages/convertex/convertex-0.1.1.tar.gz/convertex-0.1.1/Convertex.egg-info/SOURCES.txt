@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+Convertex.egg-info/PKG-INFO
+Convertex.egg-info/SOURCES.txt
+Convertex.egg-info/dependency_links.txt
+Convertex.egg-info/entry_points.txt
+Convertex.egg-info/requires.txt
+Convertex.egg-info/top_level.txt
+convertex.egg-info/PKG-INFO
+convertex.egg-info/SOURCES.txt
+convertex.egg-info/dependency_links.txt
+convertex.egg-info/entry_points.txt
+convertex.egg-info/requires.txt
+convertex.egg-info/top_level.txt
