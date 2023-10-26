@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: torchrank
+Version: 0.1
+Summary: Differentiable Sorting Networks.
+Home-page: https://pypi.python.org/pypi/diffsort/
+Author: Felix Petersen
+Author-email: ads0740@felix-petersen.de
+Maintainer: Felix Petersen
+Maintainer-email: ads0740@felix-petersen.de
+Platform: all
+
+Use `diffsort <https://pypi.python.org/pypi/diffsort/>`_ instead.

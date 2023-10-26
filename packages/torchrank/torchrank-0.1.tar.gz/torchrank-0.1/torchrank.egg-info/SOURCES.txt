@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+torchrank.egg-info/PKG-INFO
+torchrank.egg-info/SOURCES.txt
+torchrank.egg-info/dependency_links.txt
+torchrank.egg-info/not-zip-safe
+torchrank.egg-info/requires.txt
+torchrank.egg-info/top_level.txt
