@@ -1,0 +1,6 @@
+sqlmath-2023.10.25.dist-info/LICENSE,sha256=KhokKrD65FnQuqeH79rJDSG_VdYZxu6rNKSHSAxpbYI,1051
+sqlmath-2023.10.25.dist-info/WHEEL,sha256=g3Q8kHDnExJ71MubYFRMMDGdksVfs362dyj9499fZpc,109
+sqlmath-2023.10.25.dist-info/METADATA,sha256=GmluiHKSX_4TXxeTNyleybJdV0MO0NSOdcZwb2H44uQ,6687
+sqlmath-2023.10.25.dist-info/RECORD,,
+sqlmath/_sqlmath.cpython-312-x86_64-linux-gnu.so,sha256=tJaYoLAef1GAN72DDbHl2U4UmCK5o8nG7ZBLn6fJ0g4,14136488
+sqlmath/__init__.py,sha256=JW5QiaJKYZ9DvoYWmUqbcRb_uwfe3OQgY2b-4T00vpc,19983
