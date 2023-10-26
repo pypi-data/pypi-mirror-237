@@ -1,0 +1,212 @@
+type AcceptanceTestCase
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    tags: [String]
+    preconditions: [Precondition]
+    inputs: [SemanticSmokeTestInput]!
+    outputs: [SemanticSmokeTestOutput]!
+  }
+
+type AcceptanceTestSuite
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    tags: [String]
+    testMetadata: TestMetadata
+    testPersona: TestPersonaEnum
+    testCases: [TestCase]
+    testCaseSpecification: TestCaseSpecification
+  }
+
+type BenchmarkTestSuite
+  {
+  }
+
+type Input
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    tags: [String]
+  }
+
+type OneHopTestSuite
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    tags: [String]
+    testMetadata: TestMetadata
+    testPersona: TestPersonaEnum
+    testCases: [TestCase]
+    testCaseSpecification: TestCaseSpecification
+  }
+
+type Output
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    tags: [String]
+  }
+
+type Precondition
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    tags: [String]
+  }
+
+type QueryAnswerPair
+  {
+    name: String
+    description: String
+    inputId: Uriorcurie
+    inputName: String
+    outputId: Uriorcurie
+    outputName: String
+    expectedOutput: ExpectedOutputEnum
+    testIssue: TestIssueEnum
+    semanticSeverity: SemanticSeverityEnum
+    inV1: Boolean
+    wellKnown: Boolean
+    id: Uriorcurie!
+    tags: [String]
+  }
+
+type SemanticSmokeTestInput
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    tags: [String]
+    mustPassDate: Date
+    mustPassEnvironment: EnvironmentEnum
+    query: String
+    stringEntry: String
+    direction: DirectionEnum
+    answerInformalConcept: String
+    expectedResult: ExpectedResultsEnum
+    curie: Curie
+    topLevel: String
+    node: String
+    notes: String
+  }
+
+type SemanticSmokeTestOutput
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    tags: [String]
+  }
+
+type StandardsComplianceTestSuite
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    tags: [String]
+    testMetadata: TestMetadata
+    testPersona: TestPersonaEnum
+    testCases: [TestCase]
+    testCaseSpecification: TestCaseSpecification
+  }
+
+type TestAsset
+  {
+    name: String
+    description: String
+    inputId: Uriorcurie
+    inputName: String
+    outputId: Uriorcurie
+    outputName: String
+    expectedOutput: ExpectedOutputEnum
+    testIssue: TestIssueEnum
+    semanticSeverity: SemanticSeverityEnum
+    inV1: Boolean
+    wellKnown: Boolean
+    id: Uriorcurie!
+    tags: [String]
+  }
+
+type TestAssetCollection
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    testAssets: [TestCase]!
+    tags: [String]
+  }
+
+type TestCase
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    tags: [String]
+    inputs: [Input]
+    outputs: [Output]
+    preconditions: [Precondition]
+  }
+
+type TestCaseSpecification
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    tags: [String]
+  }
+
+type TestEdgeData
+  {
+    name: String
+    description: String
+    inputId: Uriorcurie
+    inputName: String
+    outputId: Uriorcurie
+    outputName: String
+    expectedOutput: ExpectedOutputEnum
+    testIssue: TestIssueEnum
+    semanticSeverity: SemanticSeverityEnum
+    inV1: Boolean
+    wellKnown: Boolean
+    id: Uriorcurie!
+    tags: [String]
+  }
+
+interface TestEntity
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    tags: [String]
+  }
+
+type TestMetadata
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    tags: [String]
+    testSource: TestSourceEnum
+    testReference: Uriorcurie
+    testObjective: TestObjectiveEnum
+  }
+
+type TestSuite
+  {
+    id: Uriorcurie!
+    name: String
+    description: String
+    tags: [String]
+    testMetadata: TestMetadata
+    testPersona: TestPersonaEnum
+    testCases: [TestCase]
+    testCaseSpecification: TestCaseSpecification
+  }
+
