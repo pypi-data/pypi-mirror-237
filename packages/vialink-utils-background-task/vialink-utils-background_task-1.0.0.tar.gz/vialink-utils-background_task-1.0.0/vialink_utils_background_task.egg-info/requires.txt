@@ -1,0 +1,4 @@
+boto3<1.18.0,>=1.17.90
+bson<0.6.0,>=0.5.10
+pydantic>=2.1.1
+pydantic-settings>=2.0.0
