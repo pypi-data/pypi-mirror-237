@@ -1,0 +1,13 @@
+diningcodeapi/__init__.py,sha256=R2VgwQUntx90p7upS5H9HMysm0_UTqmsDLGU-zsPJYM,479
+diningcodeapi/config.py,sha256=s2wjM4Wv3BTsKsdu8yToIKGUXJo5sYb9EGMpbPOwbAM,272
+diningcodeapi/mxins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diningcodeapi/mxins/blog.py,sha256=C6S8EO3gj-HtTkJM2WeOY3LNMWcRxcj71hMoToDuUew,1222
+diningcodeapi/mxins/district.py,sha256=9D83tXJfiOgebQagJ1XZl8fyBOplKiRF3PNsfR2pG7k,493
+diningcodeapi/mxins/magazine.py,sha256=3cZrxltIw-3XTESzAJatp_zE292bWlsiPQ_XkB6CcqU,2971
+diningcodeapi/mxins/review.py,sha256=WJVSigsQvgBXg8R2bRHrDkCsyeqZSGySH7mlhjRJVbg,4234
+diningcodeapi/mxins/store.py,sha256=ADMjZdkQ3-p0QxmG84Y8eE1xOCJixs-nOxqym4ppC7M,12777
+diningcodeapi/mxins/theme.py,sha256=y3TLKiBq3AHvKGUXYX5PngZ1TmzFN_0E5yXDAzO4eF0,737
+diningcodeapi/utils.py,sha256=hLeXGI62HBxs0PXZ0pg6J9-k5SwgjpdjcryNmImpBlg,3342
+diningcodeapi-0.1.4.dist-info/METADATA,sha256=4NnVOZJxVEWIt3_r3zOZNn-wc_wOZDorXtZ8eiSWSs0,502
+diningcodeapi-0.1.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+diningcodeapi-0.1.4.dist-info/RECORD,,
