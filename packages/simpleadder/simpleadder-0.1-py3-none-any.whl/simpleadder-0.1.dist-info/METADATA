@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: simpleadder
+Version: 0.1
+Summary: A simple package to add two numbers.
+Home-page: https://github.com/hahnandrew/simpleadder
+Author: Andrew Hahn
+Author-email: hahnandy0201@gmail.com
+Keywords: add addition math
+
