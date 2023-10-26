@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: kbinxml
+Version: 2.0
+Summary: Decoder/encoder for Konami's binary XML format
+Home-page: https://github.com/mon/kbinxml/
+Download-URL: https://github.com/mon/kbinxml/archive/2.0.tar.gz
+Author: mon
+Author-email: me@mon.im
+License-File: LICENSE
+
+See Github for up to date documentation

@@ -1,0 +1,2 @@
+[console_scripts]
+kbinxml = kbinxml:main
