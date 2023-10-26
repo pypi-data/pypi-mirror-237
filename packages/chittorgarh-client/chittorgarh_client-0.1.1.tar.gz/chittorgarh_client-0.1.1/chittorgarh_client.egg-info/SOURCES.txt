@@ -1,0 +1,7 @@
+README.md
+setup.py
+chittorgarh_client.egg-info/PKG-INFO
+chittorgarh_client.egg-info/SOURCES.txt
+chittorgarh_client.egg-info/dependency_links.txt
+chittorgarh_client.egg-info/requires.txt
+chittorgarh_client.egg-info/top_level.txt
