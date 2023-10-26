@@ -1,0 +1,11 @@
+README.md
+setup.py
+study_buddy/__init__.py
+study_buddy/image.py
+study_buddy/pdf.py
+study_buddy/text.py
+study_buddy.egg-info/PKG-INFO
+study_buddy.egg-info/SOURCES.txt
+study_buddy.egg-info/dependency_links.txt
+study_buddy.egg-info/requires.txt
+study_buddy.egg-info/top_level.txt
