@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: qckit
+Version: 0.0.1
+Summary: Quantum computing research utils
+Author: Chuanqi Xu
+Author-email: chuanqi.xu@yale.edu
+License-File: LICENSE
