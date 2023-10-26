@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: dash_vega_components
+Version: 0.8.0
+Summary: Dash Vega Components
+Author: Stefan Binder <binder_stefan@outlook.com>
+License: BSD
+Classifier: Framework :: Dash
+License-File: LICENSE
