@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: dynamoplus-core
+Version: 0.5.5
+Summary: Core library for dynamoplus
+Author: antessio
+Author-email: <antessio7@gmail.com>
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: apispec (>=4.3.0,<4.4.0)
+Requires-Dist: attrs (>=22.1.0,<22.2.0)
+Requires-Dist: boto3 (>=1.17.8,<1.18.0)
+Requires-Dist: botocore (>=1.20.8,<1.21.0)
+Requires-Dist: certifi (>=2020.12.5,<2020.13.0)
+Requires-Dist: cryptography (>=38.0.3,<38.1.0)
+Requires-Dist: fastjsonschema (>=2.15.0,<2.16.0)
+Requires-Dist: jinja2 (==3.1.2)
+Requires-Dist: jmespath (>=0.10.0,<0.11.0)
+Requires-Dist: mock (>=4.0.2,<4.1.0)
+Requires-Dist: parameterized (>=0.8.1,<0.9.0)
+Requires-Dist: pip (>=21.3.1,<21.4.0)
+Requires-Dist: pyasn1 (>=0.4.8,<0.5.0)
+Requires-Dist: pyjwt (>=2.4.0,<2.5.0)
+Requires-Dist: python-dateutil (>=2.8.1,<2.9.0)
+Requires-Dist: rsa (>=4.8,<5.0)
+Requires-Dist: s3transfer (>=0.3.4,<0.4.0)
+Requires-Dist: setuptools (>=60.2.0,<60.3.0)
+Requires-Dist: six (>=1.15.0,<1.16.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: urllib3 (>=1.26.5,<1.27.0)
+Requires-Dist: wheel (>=0.37.1,<0.38.0)
+Description-Content-Type: text/markdown
+
+# Core library for dynamoplus
+
+### build it locally
+
+```bash
+# create venv
+python3 -m venv core_venv
+# activate venv
+source core_venv/bin/activate
+# install dependencies
+python3 install -r requirements.txt
+# build the package
+python3 setup.py sdist bdist_wheel
+```
