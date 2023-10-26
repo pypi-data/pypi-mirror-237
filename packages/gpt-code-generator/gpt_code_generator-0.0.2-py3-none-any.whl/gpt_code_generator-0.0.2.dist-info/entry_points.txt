@@ -1,0 +1,4 @@
+[console_scripts]
+gpt-code-generator=gpt_code_generator.generator:main
+save-code-generating-precondition=gpt_code_generator.save:main
+
