@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: snakemakehelpers
+Version: 0.0.2
+Summary: A bundle of snakemake helper functions.
+Project-URL: Homepage, https://github.com/nsiccha/snakemakehelpers
+Project-URL: Bug Tracker, https://github.com/nsiccha/snakemakehelpers/issues
+Author-email: Nikolas Siccha <nikolassiccha@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: inquirerpy
+Requires-Dist: pandas
+Requires-Dist: snakemake
