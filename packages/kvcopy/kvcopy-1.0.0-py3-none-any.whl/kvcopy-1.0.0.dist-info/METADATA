@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: kvcopy
+Version: 1.0.0
+Summary: Copys Secrets from one Azure Key Vault to another
+License: MIT
+Author: Chris Pressland
+Author-email: mail@cpressland.io
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: azure-identity (>=1.14.1,<2.0.0)
+Requires-Dist: azure-keyvault (>=4.2.0,<5.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Description-Content-Type: text/markdown
+
+# kvcopy
+
+Copies Secret objects from one Azure Key Vault to another.
+
+> Disclaimer: This requires Azure CLI (`az`) to be installed and logged in.
+
+## Installation
+
+via pipx:
+
+```shell
+$ pipx install kvcopy
+```
+
+## Usage
+
+Copy a secret
+
+```shell
+$ kvcopy --src example-src-vault --dest example-dest-vault --name my_secret
+```
+
