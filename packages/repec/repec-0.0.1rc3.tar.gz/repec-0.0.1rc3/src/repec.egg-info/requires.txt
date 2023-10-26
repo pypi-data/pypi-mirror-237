@@ -1,0 +1,6 @@
+requests
+lxml
+cld2-cffi
+html5lib
+nameparser
+titlecase
