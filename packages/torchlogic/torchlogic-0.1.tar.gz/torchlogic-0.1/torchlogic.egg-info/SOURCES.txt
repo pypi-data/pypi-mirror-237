@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+torchlogic.egg-info/PKG-INFO
+torchlogic.egg-info/SOURCES.txt
+torchlogic.egg-info/dependency_links.txt
+torchlogic.egg-info/not-zip-safe
+torchlogic.egg-info/requires.txt
+torchlogic.egg-info/top_level.txt
