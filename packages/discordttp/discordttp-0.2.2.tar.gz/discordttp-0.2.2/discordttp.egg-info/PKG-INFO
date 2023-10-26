@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: discordttp
+Version: 0.2.2
+Summary: A python module used for editing and using discord tokens!
+Author: viie
+Author-email: viie@femboy.cx
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
