@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: otSpec
+Version: 0.0.0
+Summary: Useful constants for OpenType.
+Home-page: https://gitlab.com/fontstuff/otSpec
+Author: Andreas Eigendorf
+License: MIT
+Project-URL: Source, https://gitlab.com/fontstuff/otSpec
+Project-URL: Documentation, https://fontstuff.gitlab.io/otSpec
+Project-URL: Tracker, https://gitlab.com/fontstuff/otSpec/-/issues
+Platform: Any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# otSpec
+
+## What is it?
+
+This package contains some useful constants and functions to deal with 
+the [OpenType® Specification](https://learn.microsoft.com/de-de/typography/opentype/spec/).
+
+## How to install it?
+
+```shell
+pip install otSpec
+```
+
+## How to use it?
+
+```python
+>>> from otSpec.table.name import getNameDescription
+>>> getNameDescription(nameID=3)
+'Unique Font Identifier'
+
+>>> from otSpec.table.head import getMacStyleBitNames
+>>> getMacStyleBitNames(3)
+['Bold', 'Italic']
+```
+
+## What's next
+
+For details read the full [Documentation](https://fontstuff.gitlab.io/otSpec).
