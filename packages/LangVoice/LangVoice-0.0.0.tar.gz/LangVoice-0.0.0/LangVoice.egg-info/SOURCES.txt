@@ -1,0 +1,9 @@
+setup.py
+LangVoice.egg-info/PKG-INFO
+LangVoice.egg-info/SOURCES.txt
+LangVoice.egg-info/dependency_links.txt
+LangVoice.egg-info/requires.txt
+LangVoice.egg-info/top_level.txt
+src/__init__.py
+src/audio.py
+src/server.py
