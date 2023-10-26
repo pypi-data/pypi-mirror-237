@@ -1,0 +1,11 @@
+kite_connection_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kite_connection_manager/connect_without_apikey.py,sha256=mJfDQuJ4CSQKLq6LCyzJ4JrGM39fJbElsMRzZmw8o88,11541
+kite_connection_manager/connection_manager.py,sha256=wnGkhuybciVaAs9CAFL4elHoEDruQMxaXlbokaXBAqQ,10364
+kite_connection_manager/repeat_timer.py,sha256=nBRE59Q2AKRBRdkEHtDp0lOwfdJhog4r6v-zD73Jz0Q,235
+kite_connection_manager/utils.py,sha256=VTB-SBtzyQMC9-yBeyCHbCmmzYm4HdDUo7SpYoP3Rhk,149
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/login_tests.py,sha256=opOtLWf0VOfBhkrGieC-Mja3Mw0fROZMvrW-H3kTWmY,1152
+kite_connection_manager-0.4.9.dist-info/METADATA,sha256=m0oYicGSwr0wI5wzv8u6mIUI0lGfygXUxkJWJQIRyes,832
+kite_connection_manager-0.4.9.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+kite_connection_manager-0.4.9.dist-info/top_level.txt,sha256=mAms78sQ0t5DkS4YJA_G_vqcNJhCAuetbTyFXs0zNPY,30
+kite_connection_manager-0.4.9.dist-info/RECORD,,
