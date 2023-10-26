@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/agodzoYTRenderer/__init__.py
+src/agodzoYTRenderer/custom_exception.py
+src/agodzoYTRenderer/logger.py
+src/agodzoYTRenderer/site.py
+src/agodzoYTRenderer/youtube.py
+src/agodzoYTRenderer.egg-info/PKG-INFO
+src/agodzoYTRenderer.egg-info/SOURCES.txt
+src/agodzoYTRenderer.egg-info/dependency_links.txt
+src/agodzoYTRenderer.egg-info/requires.txt
+src/agodzoYTRenderer.egg-info/top_level.txt
