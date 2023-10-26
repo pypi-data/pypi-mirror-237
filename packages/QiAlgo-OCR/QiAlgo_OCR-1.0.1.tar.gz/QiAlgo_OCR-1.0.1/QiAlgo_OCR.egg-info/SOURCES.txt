@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+QiAlgo_OCR/Qi.py
+QiAlgo_OCR/__init__.py
+QiAlgo_OCR.egg-info/PKG-INFO
+QiAlgo_OCR.egg-info/SOURCES.txt
+QiAlgo_OCR.egg-info/dependency_links.txt
+QiAlgo_OCR.egg-info/requires.txt
+QiAlgo_OCR.egg-info/top_level.txt
+QiAlgo_OCR/model/model.onnx

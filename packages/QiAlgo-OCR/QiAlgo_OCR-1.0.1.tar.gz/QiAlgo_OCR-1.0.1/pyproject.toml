@@ -1,0 +1,17 @@
+[project]
+name = "QiAlgo_OCR"
+version = "1.0.1"
+authors = [
+  { name="Morton Li", email="Morton.L@Outlook.com" },
+]
+description = "QiAlgo_OCR(青祁OCR)是基于'QiAlgoML青祁机器学习项目'中的神经网络子项目分离开发的Python库，是一种对特定场景进行光学字符识别（Optical Character Recognition，简称OCR）的解决方案。"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Morton-L/QiAlgo_OCRt"
+"Bug Tracker" = "https://github.com/Morton-L/QiAlgo_OCR/issues"
