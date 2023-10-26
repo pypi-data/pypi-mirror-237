@@ -1,0 +1,9 @@
+README.md
+setup.py
+zip_read_yaml/__init__.py
+zip_read_yaml/zip_read.py
+zip_read_yaml.egg-info/PKG-INFO
+zip_read_yaml.egg-info/SOURCES.txt
+zip_read_yaml.egg-info/dependency_links.txt
+zip_read_yaml.egg-info/not-zip-safe
+zip_read_yaml.egg-info/top_level.txt
