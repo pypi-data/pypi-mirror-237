@@ -1,0 +1,37 @@
+services:
+  app-service:
+    image: registry.gitlab.com/empaia/services/app-service:0.7.34@sha256:22d4c1a88ab05aa9d12485bfdd55112d2cf461e2c146b389d66c3874a72fd725
+  annotation-service:
+    image: registry.gitlab.com/empaia/services/annotation-service:0.18.3@sha256:4a9638d6c5fa64de4c533d4a3249067d61817ae4518ea07be6dbb74da844130e
+  job-service:
+    image: registry.gitlab.com/empaia/services/job-service:0.8.4@sha256:aa7fe6c2f310f4214d8407dcc776e6c936745a9662cc8e5d169e97137ee6b29c
+  examination-service:
+    image: registry.gitlab.com/empaia/services/examination-service:0.8.6@sha256:ed6acc5284c04010f678548996dd868865cd08628d5afe293d8638d2fdb18897
+  clinical-data-service:
+    image: registry.gitlab.com/empaia/services/clinical-data-service:0.4.9@sha256:a2f8fac75a79da9ce3d2939c4c1cae819d4c7c93764660a70fdc4bcc469b23fc
+  storage-mapper-service:
+    image: registry.gitlab.com/empaia/services/storage-mapper-service:0.3.3@sha256:e846da4539cca0073e880b19af80ec933fb787cedb9798cd1e9ce70dd6a294aa
+  wsi-service:
+    image: registry.gitlab.com/empaia/services/wsi-service-plugin-integration:0.11.45@sha256:4a315194a5f289dcf295ff1eb864508e0a0e01b56d73468deab83eb68ff6f7ed
+  medical-data-service:
+    image: registry.gitlab.com/empaia/services/medical-data-service:0.8.10@sha256:1fed60f252cc7bf1de83f6576a1879a4e5a55b01a9e39e114e8510677d72ef1b
+  marketplace-service-mock:
+    image: registry.gitlab.com/empaia/service-mocks/marketplace-service-mock:0.2.2@sha256:1052812e91ef9d8b68b110d026dfcd7f5ed51f8593bb071be39a71a04f6b4ac3
+  aaa-service-mock:
+    image: registry.gitlab.com/empaia/service-mocks/aaa-service-mock:0.2.2@sha256:7477c72612e9f849e46eeaf17b1b86f3d78903bef8327d41dc878a385c104b9b
+  job-execution-service:
+    image: registry.gitlab.com/empaia/services/job-execution-service:0.6.2@sha256:7228f7e86896b927b7db426ff78358940dda9732159cbb63120a2f55deeaf6b1
+  workbench-daemon:
+    image: registry.gitlab.com/empaia/services/workbench-service:0.10.15@sha256:06a5a4093adc7af2a26c6afbd4709f86fa8eac71248558488197aecb6f3b40c1
+  workbench-service:
+    image: registry.gitlab.com/empaia/services/workbench-service:0.10.15@sha256:06a5a4093adc7af2a26c6afbd4709f86fa8eac71248558488197aecb6f3b40c1
+  workbench-client-v3:
+    image: registry.gitlab.com/empaia/integration/frontend-workspace/workbench-client-v3:3.2.7@sha256:ded42ef7ca9e69918724b06d7c8a3e60a647092d05ee4eea32c0e0e05c232338
+  workbench-client-v3-sample-ui:
+    image: registry.gitlab.com/empaia/integration/frontend-workspace/sample-app-v3:3.3.7@sha256:a9961c62daa0e08c3c1b64baf3097ed9cbeb5a9bacd7b460f3677a4bd671e4a1
+  workbench-client-v3-generic-ui:
+    image: registry.gitlab.com/empaia/integration/frontend-workspace/generic-app-ui-v3:3.8.7@sha256:a4683d133bcd6a231acbd7faa82e595e58543f3d10ddec1ecfff7d63a57ec4d3
+  eats-postgres-db:
+    image: registry.gitlab.com/empaia/integration/ci-docker-images/custom-postgres:0.2.8@sha256:8387cbb927cc1e8469b5ea60f97da504c16a71832825e3de2a583914addc063d
+  eats-mongo-db:
+    image: mongo:5.0.21@sha256:7c81758cb2950b7e26bea6c9f1e0ce0da0cdc2fde040c70cfef4d957ccf23c52
