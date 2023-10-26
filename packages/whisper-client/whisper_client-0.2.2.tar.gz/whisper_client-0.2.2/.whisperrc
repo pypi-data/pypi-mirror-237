@@ -1,0 +1,25 @@
+{
+    "api-key": None,
+
+    "api-scheme": None,
+    "api-host": None,
+    "api-port": None,
+
+    "api-url": None,
+
+    "audio-folder": None,
+    "video-folder": None,
+    "text-folder": None,
+
+    "verbose": False,
+    "timeout": None,
+    "interval": None,
+
+    "stdout": False,
+    "stderr": False,
+
+    "no-verify": False,
+    "no-skip": False,
+
+    "mode": None
+}
