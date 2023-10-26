@@ -1,0 +1,13 @@
+flowright/__init__.py,sha256=MtV7nGWkXaj_AcEY9uEF4pmrRAB9epus1rMyau4j1cI,66
+flowright/client.py,sha256=f3yEVbKouvF6ULKw8GC7AU85wEG6lJVEjf72NxBgJgs,12421
+flowright/commands.py,sha256=UF1vKg_Oy1CB4bnTkxc3lD3dkikaluuR5na1g28aQTQ,5025
+flowright/components.py,sha256=cVWbF9rwU3Xrf3b9r7LOUGs2jtSS4UIWmYGBczL1N8k,12599
+flowright/config.py,sha256=E3XiE5J_CbVrERpdru9a6J_GLnDN0l09p_HXHUGI9XE,647
+flowright/customization.py,sha256=5lULss_YlTH_D4SG-x6CeYuCsXEzHWfHbavIEnSnCHE,5241
+flowright/messages.py,sha256=BFrLLYJ_Oi4QgHWSWNNf7vWAwEukE1Gojfnte9Ff9J8,1089
+flowright/res/client.html,sha256=dfPPOXcEDJeUTb_PMxUP2x1fB09AAgHLhBs1-CCcDmY,5999
+flowright/server.py,sha256=8_9n2bweJw7LkMpP2FmsW-fEb5NtTBNd-mAa6axiShI,9010
+flowright-0.1.4.dist-info/METADATA,sha256=35-WpQu-G2ODZkqfu85iVAT-T-AG-aV_Cu2Jn-daOCU,1813
+flowright-0.1.4.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+flowright-0.1.4.dist-info/entry_points.txt,sha256=eil4NYdw9ttJyly9QjYAOTAnNG2kPx1qFKKyqfJYv8k,90
+flowright-0.1.4.dist-info/RECORD,,
