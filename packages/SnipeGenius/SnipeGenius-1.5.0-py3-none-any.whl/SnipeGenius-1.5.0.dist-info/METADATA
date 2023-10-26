@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: SnipeGenius
+Version: 1.5.0
+Summary: A sniping bot for detecting and trading new token pairs safely
+Home-page: https://github.com/ELHARAKA/SnipeGenius
+Author: Fahd El Haraka
+Author-email: fahd@web3dev.ma
+License: https://github.com/ELHARAKA/SnipeGenius/blob/main/LICENSE
+Requires-Python: >=3.0
+License-File: LICENSE
+Requires-Dist: pyfiglet
+Requires-Dist: colorlog
+Requires-Dist: termcolor
+Requires-Dist: web3
+Requires-Dist: requests
+Requires-Dist: cryptography
+Requires-Dist: google-api-python-client ==2.104.0
+Requires-Dist: pwinput
+
