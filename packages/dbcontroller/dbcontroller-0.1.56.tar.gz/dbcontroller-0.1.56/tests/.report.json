@@ -1,0 +1,13 @@
+{
+    "created": 1698253695.0770648,
+    "duration": 66.13230776786804,
+    "exitcode": 2,
+    "root": "C:\\Users\\el_to\\Documents\\GitHub\\dbcontroller",
+    "environment": {},
+    "summary": {
+        "failed": 1,
+        "passed": 1,
+        "total": 2,
+        "collected": 26
+    }
+}
