@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "desckgc"
+version = "0.0.3"
+description = "DescKGC is a python package for knowledge graph automically construction."
+authors = ["guangchen <guangchen811@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/guangchen811/DescKGC"
+homepage = "https://guangchen811.github.io/DescKGC/"
+
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+arxiv = "^1.4.7"
+chromadb = "0.3.26"
+langchain = "^0.0.274"
+pytest = "^7.4.0"
+PyYAML = "^6.0"
+pydantic = "1.10.8"
+neo4j = "5.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.plugins."console_scripts"]
+desckgc = "DescKGC.scripts.cli:main"
