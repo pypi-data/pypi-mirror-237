@@ -1,0 +1,154 @@
+[tool.poetry]
+name = "Exo_k"
+version = "1.2.2"
+description = "Library to handle radiative opacities from various sources for atmospheric applications"
+authors = ["Jeremy Leconte <jeremy.leconte@u-bordeaux.fr>"]
+
+license = "GPLv3"
+readme = "README.md"
+homepage = "https://forge.oasu.u-bordeaux.fr/jleconte/exo_k-public"
+repository = "https://forge.oasu.u-bordeaux.fr/jleconte/exo_k-public"
+documentation = "http://perso.astrophy.u-bordeaux.fr/~jleconte/exo_k-doc/index.html"
+
+keywords = ["opacities", "cross sections", "correlated-k", "spectra",
+    "atmosphere", "atmospheric", "exoplanet", "radiative transfer"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Framework :: Jupyter",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Unix",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Software Development :: Libraries",
+]
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+style = "pep440"
+bump = true
+pattern = "default-unprefixed"
+
+[tool.poetry.dependencies]
+python = ">=3.8, <3.12"
+
+numpy = [
+    { version = ">=1.21, <1.26", python = ">=3.9, <3.12" },
+    { version = ">=1.20, <1.26", python = "3.8" }]
+scipy = [
+    { version = ">1.10.1", python = ">=3.9, <3.12" },
+    { version = ">=1.10.1", python = "3.8" }]
+numba = ">=0.58.0"
+llvmlite = ">=0.41.0"
+
+astropy = [
+    { version = ">5.1", python = ">=3.9, <3.12" },
+    { version = ">=5.1", python = "3.8" }]
+h5py = ">=3.10.0"
+matplotlib = [
+    { version = ">3.7.3", python = ">=3.9, <3.12" },
+    { version = ">=3.7.3", python = "3.8" }]
+pandas = [
+    { version = ">2.0.3", python = ">=3.9, <3.12" },
+    { version = ">=2.0.3", python = "3.8" }]
+nestle = "^0.2.0"
+
+
+[tool.poetry.group.doc.dependencies]
+nbclient = "^0.8.0"
+papermill = "^2.4.0"
+
+Sphinx = [
+    { version = "^7.2.6", python = ">=3.9, <3.12" },
+    { version = "7.1.2", python = "3.8" }]
+nbsphinx = "^0.9.3"
+nbsphinx-link = "^1.3.0"
+sphinx-argparse = "^0.4.0"
+sphinx-autoapi = "^3.0.0"
+sphinx-autobuild = "^2021.3.14"
+sphinx-rtd-theme = "^2.0.0rc2"
+sphinx-math-dollar = "^1.2.1"
+sphinx-paramlinks = "^0.6.0"
+sphinx-autodoc-typehints = "^1.24.0"
+
+
+[tool.poetry.group.dev.dependencies]
+setuptools = "^68.2.2"
+
+types-decorator = "^5.1.8.4"
+
+jupyter = "^1.0.0"
+nptyping = "^2.5.0"
+ipympl = "^0.9.3"
+
+
+[tool.poetry.group.tools.dependencies]
+deptry = "^0.12.0"
+nb-clean = "^3.0.1"
+pydocstyle = { extras = ["toml"], version = "^6.3.0" }
+
+
+[tool.poetry.group.testing.dependencies]
+bandit = "^1.7.5"
+coverage = "^7.3.2"
+
+tox = "^4.11.3"
+
+pytest = "^7.4.2"
+pytest-cov = "^4.1.0"
+pytest-clarity = "^1.0.1"
+pytest-mypy = "^0.10.3"
+pytest-sugar = "^0.9.7"
+pytest-xdist = { extras = ["psutil"], version = "^3.3.1" }
+
+pytest-parallel = "^0.1.1"
+pytest-regtest = "^1.5.1"
+pytest-regressions = "^2.5.0"
+
+netCDF4 = "^1.6.4"
+
+
+[tool.pytest.ini_options]
+minversion = '7.0'
+addopts = '-p no:warnings --cov' # --capture=no
+testpaths = ['tests']
+
+
+[tool.bandit]
+exclude_dirs = [ 'tests' ]
+
+
+[tool.coverage.report]
+show_missing = true
+exclude_lines = [
+    'if TYPE_CHECKING:',
+    'pragma: no cover',
+    "if __name__ == '__main__':",
+]
+
+[tool.coverage.run]
+omit = [
+    "tests/*",
+]
+
+[tool.deptry]
+ignore_notebooks = true
+
+[tool.pydocstyle]
+convention = 'numpy'
+#ignore = 'D105, D200, D205, D212, D213, D400, D413, D415, D417'
+
+[build-system]
+requires = ["poetry-core>=1.1.0", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
