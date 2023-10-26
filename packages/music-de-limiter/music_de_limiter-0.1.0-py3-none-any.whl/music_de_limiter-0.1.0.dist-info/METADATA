@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: music-de-limiter
+Version: 0.1.0
+Author-email: Ishotihadus <webmaster@ishotihadus.com>
+Project-URL: Homepage, https://github.com/kimagure-humoresque/de-limiter
+Project-URL: Bug Tracker, https://github.com/kimagure-humoresque/de-limiter/issues
+License-File: LICENSE
+Requires-Dist: asteroid
+Requires-Dist: dotmap
+Requires-Dist: einops
+Requires-Dist: torch
+
