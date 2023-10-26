@@ -1,0 +1,2 @@
+[console_scripts]
+kac-tools = kac_tools.cli.cli:main
