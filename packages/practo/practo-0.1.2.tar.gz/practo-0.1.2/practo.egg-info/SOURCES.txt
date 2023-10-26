@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+practo/__init__.py
+practo.egg-info/PKG-INFO
+practo.egg-info/SOURCES.txt
+practo.egg-info/dependency_links.txt
+practo.egg-info/top_level.txt

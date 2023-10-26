@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: practo
+Version: 0.1.2
+Summary: It contains Algorithms
+Home-page: 
+Author: Hemanshu Pathak
+Author-email: himanshu2002pathak@gmail.com
+License: MIT
+Keywords: algorithms
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+<This Library contains two algorithms which can be used to Get the Required Output in Practicals>
+1. Bankers algorithms
+2. Bully algorithms
+3. Flask commands
+
+Change Log
+==========
+
+0.0.1 (14/10/2023)
+-------------------
+- First Release
+
+0.1.2 (25/10/2023)
+-------------------
+- Updated Algorithms
