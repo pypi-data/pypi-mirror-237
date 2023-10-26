@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = ["braidz-parser/braidz-chunked-iter/pybraidz-chunked-iter", "csv-eof", "datetime-conversion", "flydra-types", "withkey", "zip-or-dir"]
+
+exclude = [
+    "led-box-firmware",
+]
+
+[profile.release]
+debug = true
+
+# [replace]
+# "tokio-threadpool:0.1.6" = {git="https://bare-git.strawlab.org/tokio.git", rev="472e64c1ea67f3976191cb1b291061faf2082735"}
+
+[patch.crates-io]
+webm = { git = "https://github.com/strawlab/rust-webm", rev="66d341cb308cab6da323c3b1d65a63e75e579830"}
+yew-tincture = {git="https://github.com/astraw/yew-tincture", rev="8a4f02b867538f0dbb3b3e9407aeb1328faa07a4"}

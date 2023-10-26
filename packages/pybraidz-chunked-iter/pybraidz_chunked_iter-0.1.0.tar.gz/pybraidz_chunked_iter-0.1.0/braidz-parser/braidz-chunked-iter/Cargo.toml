@@ -1,0 +1,16 @@
+[package]
+name = "braidz-chunked-iter"
+version = "0.1.0"
+edition = "2021"
+license = "MIT/Apache-2.0"
+authors = ["Andrew Straw <strawman@astraw.com>"]
+
+[dependencies]
+anyhow = "1"
+csv = "1.1"
+chrono = "0.4.31"
+
+flydra-types = { path = "../../flydra-types" }
+
+[dev-dependencies]
+clap = { version = "4", features = ["derive"] }

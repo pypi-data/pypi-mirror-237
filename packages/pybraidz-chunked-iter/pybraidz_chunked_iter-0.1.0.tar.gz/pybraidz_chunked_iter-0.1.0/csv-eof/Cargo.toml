@@ -1,0 +1,10 @@
+[package]
+name = "csv-eof"
+version = "0.1.0"
+authors = ["Andrew Straw <strawman@astraw.com>"]
+edition = "2021"
+rust-version="1.60"
+license = "MIT/Apache-2.0"
+
+[dependencies]
+csv = "1.1"
