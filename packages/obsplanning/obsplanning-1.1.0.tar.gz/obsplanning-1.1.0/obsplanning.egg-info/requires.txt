@@ -1,0 +1,15 @@
+numpy
+matplotlib
+astropy
+datetime
+pytz
+timezonefinder
+ephem
+astroquery
+tqdm
+
+[multicolorfits]
+multicolorfits
+
+[scipy]
+scipy
