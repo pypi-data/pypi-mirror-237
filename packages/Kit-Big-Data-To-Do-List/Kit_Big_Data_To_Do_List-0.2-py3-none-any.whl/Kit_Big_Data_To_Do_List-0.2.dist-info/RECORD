@@ -1,0 +1,15 @@
+tests/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tests/test_db.py,sha256=fLyHuczR6rbPz1X2jcXe_T4PIlDa8yDVm9AxtQITsUs,3868
+tests/test_main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_task.py,sha256=DOkRxUBZIDGs1vKip3WM4r07vaeCXN7J7t1tYX-_r7s,6420
+tests/test_task_manager.py,sha256=YwxHnMdE-C4D-tFSCZ6IyPNmHL3G0Ru_K0Rjxg1rS8E,2978
+to_do_list_project/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+to_do_list_project/db.py,sha256=TEs6hcIKvXB6VukkLRGrRw3mqrDeZLec37Csv_5yXx0,6668
+to_do_list_project/main.py,sha256=21qFMzifvMSboLCgOPS93X6RDoujYfzCgRp9vLlfoFQ,4736
+to_do_list_project/streamlit_app.py,sha256=L_zZIqf_SK3b7dqn87fAAktXDLnaUrqwk-KQmleGhSs,2439
+to_do_list_project/task.py,sha256=TuEkbtQmjFdANJMK3uJMBsbgd1sKk-bwsAXMGlw4ssY,4162
+to_do_list_project/task_manager.py,sha256=FvFL3kBj70y9cCE1A6iq4-1KTaAdR9yBkzOtG6ndMVw,3840
+Kit_Big_Data_To_Do_List-0.2.dist-info/METADATA,sha256=m15kMNI_tYsBq2rHcaLRYV5kSVVepIcSoapOKWnDEdY,358
+Kit_Big_Data_To_Do_List-0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+Kit_Big_Data_To_Do_List-0.2.dist-info/top_level.txt,sha256=dc4D3fmUDwUEEhpwngAXh7XR97Dl-3Au7tSAJJUpEtk,25
+Kit_Big_Data_To_Do_List-0.2.dist-info/RECORD,,
