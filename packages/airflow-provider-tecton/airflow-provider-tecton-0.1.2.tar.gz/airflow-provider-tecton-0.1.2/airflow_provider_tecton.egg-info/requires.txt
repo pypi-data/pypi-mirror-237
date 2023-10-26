@@ -1,0 +1,14 @@
+apache-airflow>=2.0
+fastparquet
+pandas
+pyarrow
+requests
+
+[tests]
+mypy
+types-requests
+parameterized
+pytest
+pytest-asyncio
+pytest-cov
+requests_mock
