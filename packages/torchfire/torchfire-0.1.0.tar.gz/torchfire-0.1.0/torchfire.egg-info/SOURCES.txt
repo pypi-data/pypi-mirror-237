@@ -1,0 +1,9 @@
+setup.py
+torchfire/Fire.py
+torchfire/__init__.py
+torchfire/models.py
+torchfire/mup.py
+torchfire.egg-info/PKG-INFO
+torchfire.egg-info/SOURCES.txt
+torchfire.egg-info/dependency_links.txt
+torchfire.egg-info/top_level.txt
