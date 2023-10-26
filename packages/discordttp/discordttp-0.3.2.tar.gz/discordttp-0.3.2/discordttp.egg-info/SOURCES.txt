@@ -1,0 +1,7 @@
+setup.py
+discordttp/__init__.py
+discordttp/ttp.py
+discordttp.egg-info/PKG-INFO
+discordttp.egg-info/SOURCES.txt
+discordttp.egg-info/dependency_links.txt
+discordttp.egg-info/top_level.txt
