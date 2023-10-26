@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: logos-shift
+Version: 0.7.0
+Author: Saurabh Bhatnagar
+Author-email: saurabh@virevol.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: asyncio
+Requires-Dist: tenacity
+Requires-Dist: httpx
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: ruff >=0.1.2 ; extra == 'dev'
+Requires-Dist: bump2version ==1.0.1 ; extra == 'dev'
+
