@@ -1,0 +1,11 @@
+ciostream.cp310-win_amd64.pyd,sha256=P3sxSQTpxSno1_cqp1PItJZFdXGkBzw7c-GKA5kUVcs,59904
+ciostream/__init__.cpp,sha256=nW7KUzCYcEABrCFpyDcg2mOgwQBeqKgtk1zqjv8vESk,387586
+ciostream/__init__.h,sha256=ycmBzCQo5Em44yDq4yptsjX4ZRh3sPEM0IO7EmN0MEQ,2083
+ciostream/__init__.pxd,sha256=DCWjQkoSDQ7LkjvvFOpCXLPcZHDrNwN_od08oSOKCdM,1484
+ciostream/ciostream_native.cpp,sha256=-hWlChM9IgVx9lf8M9zmKrAykobACJpyi4qsSpyQP14,1895
+ciostream/ciostream_native.h,sha256=LsRbunFDEjWZT8_AG4Cz4Qr8RNWYCaXiF8U4IsPkxb8,1443
+ciostream-0.0.1.post6662861892.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+ciostream-0.0.1.post6662861892.dist-info/METADATA,sha256=5KAeIr3RdfvlYBwnDxpUzxIR2fNvHGkW-3S5Q5SN2D0,398
+ciostream-0.0.1.post6662861892.dist-info/WHEEL,sha256=yrvteVAZzxQvtDnzdCRh4dP01sPIxYhLXIXplC7o50E,102
+ciostream-0.0.1.post6662861892.dist-info/top_level.txt,sha256=0BjcWNn5zlV-UgYC5i-4jKCVLzhzCwBobW7ZXP0NjaI,10
+ciostream-0.0.1.post6662861892.dist-info/RECORD,,
