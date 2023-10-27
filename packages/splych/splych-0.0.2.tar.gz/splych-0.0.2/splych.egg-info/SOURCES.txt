@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+splych/__init__.py
+splych.egg-info/PKG-INFO
+splych.egg-info/SOURCES.txt
+splych.egg-info/dependency_links.txt
+splych.egg-info/top_level.txt
