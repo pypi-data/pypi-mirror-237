@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "optionsPricingAndGreeks"
+version = "0.0.3"
+authors = [
+  { name="Filippo Tomelleri", email="filippo.tomelleri01@gmail.com" },
+]
+description = "A package to calculate the price of options and the greeks"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/FilippoTomelleri/optionsPricing-Greeks"
