@@ -1,0 +1,8 @@
+LICENSE
+README.md
+lyylog.py
+setup.py
+yyjdgui.egg-info/PKG-INFO
+yyjdgui.egg-info/SOURCES.txt
+yyjdgui.egg-info/dependency_links.txt
+yyjdgui.egg-info/top_level.txt
