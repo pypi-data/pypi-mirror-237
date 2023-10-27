@@ -1,0 +1,12 @@
+prevail.txt
+pyproject.toml
+fields/structures/prevail/__init__.py
+fields/structures/prevail.egg-info/PKG-INFO
+fields/structures/prevail.egg-info/SOURCES.txt
+fields/structures/prevail.egg-info/dependency_links.txt
+fields/structures/prevail.egg-info/top_level.txt
+fields/structures/prevail/kinds/header.py
+fields/structures/prevail/kinds/academics/__init__.py
+fields/structures/prevail/kinds/company/__init__.py
+fields/structures/prevail/kinds/company/status/__init__.py
+fields/structures/prevail/kinds/project/__init__.py
