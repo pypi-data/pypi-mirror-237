@@ -1,0 +1,50 @@
+from extras.plugins import PluginTemplateExtension
+from django.conf import settings
+from .models import Subsystem, System
+
+plugin_settings = settings.PLUGINS_CONFIG.get('netbox_subsystems', {})
+
+
+class SubsystemsList(PluginTemplateExtension):
+    model = 'tenancy.tenant'
+
+    def get_context(self):
+        return {
+            'systems': System.objects.filter(tenant=self.context['object'])
+        }
+
+    def left_page(self):
+        if plugin_settings.get('enable_subsystems') and plugin_settings.get('subsystems_location') == 'left':
+
+            return self.render('netbox_subsystems/system_include.html', extra_context=self.get_context())
+        else:
+            return ""
+
+    def right_page(self):
+        if plugin_settings.get('enable_subsystems') and plugin_settings.get('subsystems_location') == 'right':
+
+            return self.render('netbox_subsystems/system_include.html', extra_context=self.get_context())
+        else:
+            return ""
+
+    def full_width_page(self):
+        if plugin_settings.get('enable_subsystems') and plugin_settings.get('subsystems_location') == 'full_width_page':
+            return self.render('netbox_subsystems/system_include.html', extra_context=self.get_context())
+        else:
+            return ""
+
+    def buttons(self):
+        if plugin_settings.get('enable_subsystems') and plugin_settings.get('subsystems_location') == 'buttons':
+            return self.render('netbox_subsystems/system_include.html', extra_context=self.get_context())
+        else:
+            return ""
+
+    def list_buttons(self):
+        if plugin_settings.get('enable_subsystems') and plugin_settings.get('subsystems_location') == 'list_buttons':
+            return self.render('netbox_subsystems/system_include.html', extra_context=self.get_context())
+        else:
+            return ""
+
+
+
+template_extensions = [SubsystemsList]
