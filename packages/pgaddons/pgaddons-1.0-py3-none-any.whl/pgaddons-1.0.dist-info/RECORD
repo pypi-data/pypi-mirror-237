@@ -1,0 +1,11 @@
+pgaddons/__init__.py,sha256=pH83YXSpf-1YblkASSGY-MqyVXH3mXJgN9xXrBCozEI,117
+pgaddons/base_class.py,sha256=k60EZUEFJCTnRrMhzLo8Rd0eUezdl3FG_8uU7P6nOHk,203
+pgaddons/button.py,sha256=1uT6D7KdmhTRKSlqqbnz_-M8u8h3_1KBnXHEjxN1U6c,1427
+pgaddons/errors.py,sha256=TdWsF00PxNruPqoaMs_sBra1aj8QhfSeddM13OxnU1w,359
+pgaddons/input_field.py,sha256=up81nRYRf4bBbJgD2lPOUU18HjttmylvAfKuPtP9sKA,2579
+pgaddons/link.py,sha256=tQdBxQLvodADTUTZJc4wzbmZzX6w-SuUdfd6IY0wtl8,1471
+pgaddons/slider.py,sha256=IMIty4HKZD3CTV5ZZYLsqf-aEi2PPNAzEAeGFspGgGg,3995
+pgaddons-1.0.dist-info/METADATA,sha256=UQeJKAMXtdXjikXO-TojMqYAMPg4PYKOPVW8FPk-NU0,618
+pgaddons-1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pgaddons-1.0.dist-info/licenses/LICENCE,sha256=haiT5sROk6gcwGrsMxtis_VG73EPkFTLI1Kuymovu_Y,1086
+pgaddons-1.0.dist-info/RECORD,,
