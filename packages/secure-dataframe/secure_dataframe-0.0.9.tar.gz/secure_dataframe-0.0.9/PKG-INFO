@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: secure_dataframe
+Version: 0.0.9
+Summary: A way to secure and filter dataframe on pandas
+Home-page: https://github.com/Grayfados/SecureDataframe
+Download-URL: https://github.com/Grayfados/SecureDataframe/archive/refs/tags/v0.0.2.tar.gz
+Author: Pedro Pinho
+Author-email: pepeupepeo@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
