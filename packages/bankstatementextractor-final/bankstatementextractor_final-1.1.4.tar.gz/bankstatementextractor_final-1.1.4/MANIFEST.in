@@ -1,0 +1,10 @@
+include bankstatementextractor_final/*.jpg
+include bankstatementextractor_final/*.jpeg
+include bankstatementextractor_final/*.png
+include bankstatementextractor_final/*.xml
+include bankstatementextractor_final/*.h5
+include bankstatementextractor_final/*.json
+include bankstatementextractor_final/haarcascades/*.xml
+recursive-include bankstatementextractor_final/models *
+include bankstatementextractor_final/*.py
+include bankstatementextractor_final/*.csv
