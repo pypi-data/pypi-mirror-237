@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: alida-notebook-utils
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Alida research team
+Author-email: engineering-alida-lab@eng.it
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: ds-io-utilities
+Requires-Dist: alida-arg-parser
+Requires-Dist: file-io-utilities
+Requires-Dist: pandas
+
+UNKNOWN
+
+
