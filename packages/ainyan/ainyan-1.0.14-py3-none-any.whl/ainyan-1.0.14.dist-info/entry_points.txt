@@ -1,0 +1,2 @@
+[console_scripts]
+realpython = ainyan.__main__:main
