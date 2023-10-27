@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atsphinx-buildtime"
+description = "Simple build-time logger for Sphinx."
+requires-python = ">=3.7"
+dependencies = [
+    "Sphinx",
+]
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "atsphinx.buildtime.__version__"}
+
+[tool.setuptools.package-dir]
+atsphinx = "atsphinx"
+
