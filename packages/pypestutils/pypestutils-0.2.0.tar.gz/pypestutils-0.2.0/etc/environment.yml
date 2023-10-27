@@ -1,0 +1,36 @@
+# a conda/mamba env for development and testing
+name: pypestutils
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - appdirs
+  - fprettify
+  - jupytext
+  - matplotlib
+  - meson!=0.63.0
+  - ninja
+  - numpy
+  - pandas
+  - pip
+  - pytest
+  - pytest-cases
+  - pytest-dotenv
+  - pytest-order
+  - pytest-xdist
+  - flaky
+  - cython
+  - jupyter
+  - notebook
+  - nbconvert
+  - pip
+  - pip:
+    - git+https://github.com/pypest/pyemu.git
+    - git+https://github.com/modflowpy/flopy.git
+    - pdoc3
+
+
+# Win64 may also want
+# - m2w64-gcc-fortran
