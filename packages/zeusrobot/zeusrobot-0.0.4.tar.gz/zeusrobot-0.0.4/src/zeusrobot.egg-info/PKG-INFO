@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: zeusrobot
+Version: 0.0.4
+Summary: Zeus Robot Python API
+Home-page: https://github.com/schooldevops/python-tutorials
+Author: GlobalZeus
+Author-email: hj.park@globalzeus.com
+Project-URL: Bug Tracker, https://github.com/schooldevops/python-tutorials/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy>=1.19.5
+
+# ZeusRobot API
+## 이 모듈은 ZeusRobot의 사용을 위해 제공되는 유저 API 라이브러리 입니다.
