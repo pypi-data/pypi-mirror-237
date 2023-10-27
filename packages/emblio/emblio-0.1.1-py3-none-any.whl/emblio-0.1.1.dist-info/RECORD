@@ -1,0 +1,10 @@
+emblio/__init__.py,sha256=dWN5CEnZNO4hGFGqNK4mLz3uyXiay2jisvpJEvjVyQ8,357
+emblio/embedding.py,sha256=1I0Iwi2vbPGaTZcUPmTYUvtTtLStpCFZpWNhvz_rvi0,4917
+emblio/embedding_new.py,sha256=q_JDyxmD9rCtn7kmrMqpeRec7PTY74y5BHpPWbedMHc,3492
+emblio/example.py,sha256=BCHDBoxtr8nhq0lFHKkisUJ02G2F2ceHcBjAUHTkoes,72
+emblio/whisper.py,sha256=fde7s09E23LzA-xALbXIseBQ43z7hJrKKa7-PyM7JB4,1136
+emblio-0.1.1.dist-info/LICENSE,sha256=ixMVampZ4aaV7mJCCeCmM-RWaHVa_jSBAfJodjdFrko,1082
+emblio-0.1.1.dist-info/METADATA,sha256=8oCRQgDRoFTqNgKJz2rF7V_xgEs9yHalpzkXKpoLsbY,1527
+emblio-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+emblio-0.1.1.dist-info/top_level.txt,sha256=1OA0WsGyGcVYhdEud3vmuUvg5J8CxkMtgLF0fx1qRVY,7
+emblio-0.1.1.dist-info/RECORD,,
