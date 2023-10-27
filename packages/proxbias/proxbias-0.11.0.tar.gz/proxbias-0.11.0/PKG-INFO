@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: proxbias
+Version: 0.11.0
+Author-email: Recursion Pharmaceuticals <devs@recursionpharma.com>
+Keywords: proxbias
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: efaar-benchmarking>=0.1.0
+Requires-Dist: fastparquet
+Requires-Dist: importlib_resources
+Requires-Dist: infercnvpy
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: s3fs
+Requires-Dist: s3fs
+Requires-Dist: scanpy
+Requires-Dist: scikit-image
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: statsmodels
+Requires-Dist: tqdm
+Requires-Dist: wget
+Provides-Extra: dev
+Requires-Dist: bandit; extra == "dev"
+Requires-Dist: black[jupyter]; extra == "dev"
+Requires-Dist: coverage; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: ipython; python_version > "3.8" and extra == "dev"
+Requires-Dist: ipython<8.13.0; python_version <= "3.8" and extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pip-tools; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pyupgrade; extra == "dev"
+Requires-Dist: radon; extra == "dev"
+Requires-Dist: types-pkg_resources; extra == "dev"
+Requires-Dist: tox; extra == "dev"
+Requires-Dist: validate-pyproject[all]; extra == "dev"
+
+# proxbias
+
+Code to support the publication "High-resolution genome-wide mapping of chromosome-arm-scale truncations induced by 
+CRISPR-Cas9 editing". The preprint is on bioRxiv [here](https://www.biorxiv.org/content/10.1101/2023.04.15.537038v1.article-metrics)
+
+# Installation
+
+This package is installable via [Nexus](nexus.rxrx.io). 
+
+```bash
+pip install proxbias
+```
+
+# Notebooks
+
+Notebooks to reproduce plots from public datasets are included in the `notebooks` directory. Note that this doesn't include rxrx3 for IP reasons at this time. 
+
+- `cpg0016_loading.ipynb` - Load the JUMP CP data, apply PCA and proximity bias correction and save data locally.
+- `cpg0016_plots.ipynb` - Create whole-genome plots from cpg0016, calculate Brunner-Munzel statistics and make bar plots.
+- `shinyDepMap_benchmark.ipynb` - Load DepMap 19Q3 data and create plots showing an enrichment for within-chromosome arm relationships.
+- `DepMap_PB_Drivers.ipynb` - Use DepMap 22Q4 data to look at differential proximity bias when TP53 and other genes are wild-type vs loss/gain of function.
+- `DepMap_22q4_vs_23q2.ipynb` - Generate whole-genome plots and Brunner-Munzel probability plots for DepMap 22Q4 and 23Q2 data.
+- `scPerturb_tables_heatmaps.ipynb` - Load scRNASeq datasets from scPerturb, run infercnv, compute chromosomal loss, generate result tables, and plot infercnv heatmaps for cells with specific loss.
+
+# TODO:
+- Code to search DepMap for drivers of proximity bias

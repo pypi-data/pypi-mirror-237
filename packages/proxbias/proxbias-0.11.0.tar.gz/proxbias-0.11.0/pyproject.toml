@@ -1,0 +1,105 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "wheel", "toml"]
+build-backend = "setuptools.build_meta"
+
+[tool.distutils.bdist_wheel]
+universal = "true"
+
+[tool.setuptools_scm]
+
+[project]
+name = "proxbias"
+authors = [
+	{ name = "Recursion Pharmaceuticals", email = "devs@recursionpharma.com" },
+]
+readme = "README.md"
+classifiers = [
+	"Operating System :: OS Independent",
+	"Programming Language :: Python",
+	"Programming Language :: Python :: 3",
+]
+keywords = ["proxbias"]
+requires-python = ">=3.8"
+dynamic = ["version"]
+
+dependencies = [
+	"efaar-benchmarking >= 0.1.0",
+	"fastparquet",
+	"importlib_resources",
+	"infercnvpy",
+	"numpy",
+	"pandas",
+	"pyarrow",
+	"s3fs",
+	"s3fs",
+	"scanpy",
+	"scikit-image",
+	"scikit-learn",
+	"scipy",
+	"seaborn",
+	"statsmodels",
+	"tqdm",
+	"wget",
+]
+
+[project.optional-dependencies]
+dev = [
+	"bandit",
+	"black[jupyter]",
+	"coverage",
+	"flake8",
+	"ipython; python_version > '3.8'",
+	"ipython<8.13.0; python_version <= '3.8'",
+	"isort",
+	"mypy",
+	"pip-tools",
+	"pre-commit",
+	"pytest",
+	"pytest-cov",
+	"pyupgrade",
+	"radon",
+	"types-pkg_resources",
+	"tox",
+	"validate-pyproject[all]",
+]
+
+[tool.pytest.ini_options]
+addopts = [
+	"--ignore",
+	"setup.py",
+	"--ignore",
+	"run_test.py",
+	"--tb",
+	"native",
+	"--strict-markers",
+	"--durations=20",
+	"--cov-report",
+	"term-missing",
+	"--cov=proxbias",
+]
+testpaths = ["tests"]
+env = ["PYTHONHASHSEED=0"]
+
+[tool.mypy]
+files = "proxbias"
+python_version = "3.9"
+ignore_missing_imports = true
+show_error_codes = true
+# strict = true
+allow_untyped_calls = true
+plugins = "numpy.typing.mypy_plugin"
+
+[tool.isort]
+profile = "black"
+py_version = "auto"
+line_length = 120
+
+[tool.bandit]
+exclude = "tests"
+
+[tool.black]
+line-length = 120
+target-version = ["py39"]
+
+[tool.setuptools]
+packages = ["proxbias"]
