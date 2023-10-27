@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: narizaka
+Version: 1.0.0
+Summary: Tool to make high quality text to speech (tts) corpus from audio + text books.
+Author-email: Serhiy Stetskovych <patriotyk+narizaka@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/patriotyk/narizaka
+Project-URL: Bug Tracker, https://github.com/patriotyk/narizaka/issues
+Keywords: tts,text-to-speech,audio corpus
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: faster-whisper
+Requires-Dist: transformers
+Requires-Dist: ffmpeg
+Requires-Dist: ffmpeg-python
+Requires-Dist: regex
+Requires-Dist: fuzzysearch
+Requires-Dist: python-magic
+Requires-Dist: num2words
+Requires-Dist: pandas
+Requires-Dist: torch
+Requires-Dist: torchaudio ==2.0.2
+Requires-Dist: auditok
+Requires-Dist: pydub
+Requires-Dist: stable-ts
+
+# Narizaka
+Tool to make high quality text to speech (tts) corpus from audio + text books.
+
+## How it works
+First it splits audio files in to small segments 5-15 seconds, then it iterates over each segment
+and transcribes with whisper ASR and alligns this transcription with original text, if distance is very small we consider it as match and add it to the dataset.
+

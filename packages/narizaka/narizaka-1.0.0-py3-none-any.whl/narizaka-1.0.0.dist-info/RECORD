@@ -1,0 +1,11 @@
+narizaka/__init__.py,sha256=NI9UtL6WF1aovZXjHKEtOwtsW8fX_QkfCQYc3RN0Pyg,17
+narizaka/aligner.py,sha256=8JSvAHDQ0hr2_yeeR-GrGuIYYKNVkcKdtFSMzSihwpg,5116
+narizaka/audiobook.py,sha256=iFUtVFW7K1rrTrGBjyd4HDlk6PXVv2k51TD9hRyIJUw,7654
+narizaka/narizaka.py,sha256=c-xHXSTe240jA7LOF5i_5ybmPWFtHAc6PNrfgMrs3Ao,945
+narizaka/textbook.py,sha256=yYWcP2FeIrNeNBVfT8xZstU_4alXUMkuWkzIszoSkZ0,1251
+narizaka-1.0.0.dist-info/LICENSE,sha256=pALZBVoP1dsnM-SoMsWam-GCGPbOzdxAIVcDaalbiVE,1075
+narizaka-1.0.0.dist-info/METADATA,sha256=a3KDI6y3xgbwPSjwwRkM5Z0th6qtM0NyR8n20xfmRz4,1248
+narizaka-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+narizaka-1.0.0.dist-info/entry_points.txt,sha256=MrXxhLUDKE-fE-Zbk0D0ydoiNSDZ3L2RoT222UUWux4,51
+narizaka-1.0.0.dist-info/top_level.txt,sha256=NzkoFoG6wwe9MCBfk0M8OnodGJrUFiD1I9rQuVAftek,9
+narizaka-1.0.0.dist-info/RECORD,,
