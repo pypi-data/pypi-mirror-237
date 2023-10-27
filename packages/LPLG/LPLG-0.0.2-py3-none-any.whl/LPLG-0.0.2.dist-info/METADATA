@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: LPLG
+Version: 0.0.2
+Summary: Gather date for LPL players
+Home-page: UNKNOWN
+Author: Mateus Paulo
+Author-email: maatanalista@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: msgspec
+Requires-Dist: polars
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+
+UNKNOWN
+
+

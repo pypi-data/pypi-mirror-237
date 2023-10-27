@@ -1,0 +1,10 @@
+LPLG/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LPLG/parse.py,sha256=l1uKgLNafWqt3msUoHjJEIgLZQdVIiXkRC2c1jh3-lg,21802
+LPLG/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LPLG/config/config.py,sha256=82aFcgJLIg30pTjaK4rJpS7YCBt4PkPvLiwyuuJPzAc,612
+LPLG/schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LPLG/schemas/schemas.py,sha256=M_J3oSPcKf9Q5K0PzyARQj7hhOEjaD_7P-KqrS_kMac,4040
+LPLG-0.0.2.dist-info/METADATA,sha256=0uXUsdv-m9QAfxkgszZxaSvEsD3lru-sJv2c634axEE,329
+LPLG-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+LPLG-0.0.2.dist-info/top_level.txt,sha256=xhm2YAPFLSwnKqI4oSsBjWMgse76tetrOkEwuieAC80,5
+LPLG-0.0.2.dist-info/RECORD,,
