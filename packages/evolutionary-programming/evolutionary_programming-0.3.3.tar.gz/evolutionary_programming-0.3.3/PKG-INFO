@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: evolutionary-programming
+Version: 0.3.3
+Summary: 
+Author: Gabriel Soares Baptista
+Author-email: gsoaresbaptista@gmail.com
+Requires-Python: >=3.11,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+

@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "evolutionary-programming"
+version = "0.3.3"
+description = ""
+authors = ["Gabriel Soares Baptista <gsoaresbaptista@gmail.com>"]
+readme = "README.md"
+
+build = 'build.py'
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+numpy = "^1.26.1"
+
+[tool.taskipy.tasks]
+clear = "find evolutionary_programming/ -type f \\( -iname \\*.c -o -iname \\*.cpp -o -iname \\*.pyd -o -iname \\*.so \\) -delete; rm -rf build/ dist/"
+build = "python build.py && poetry build"
+test =  "pytest tests --verbose"
+
+[tool.poetry.group.dev.dependencies]
+cython = "^3.0.4"
+taskipy = "^1.12.0"
+setuptools = "^68.2.2"
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core", "setuptools", "cython", "numpy"]
+build-backend = "poetry.core.masonry.api"
