@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: alexislib
+Version: 0.1.0
+Summary: libreria de suma
+Home-page: https://gitlab.com/udea3/cursofci-2023-2.git
+Author: ALexis
+Author-email: anderson.ruales@udea.edu.co
+License: MIT
+Requires-Python: >=3.11.3
+Description-Content-Type: text/markdown
+Requires-Dist: numpy ==1.26.1
+Requires-Dist: pandas
+
+# Mi primera libreria
