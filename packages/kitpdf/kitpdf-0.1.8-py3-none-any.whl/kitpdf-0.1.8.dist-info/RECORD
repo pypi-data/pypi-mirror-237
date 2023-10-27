@@ -1,0 +1,25 @@
+kitpdf/__init__.py,sha256=zypGWeNJVk8u-V9gP2_eAmr4ejvrBPUe8Jtp9g28xvY,15617
+kitpdf/data/Brewfile,sha256=cwPKHKnxlZcSN_Z-wkeo1GzKO5DjZsqbWiIPULkFYXQ,120
+kitpdf/data/Puntos.png,sha256=0GmM9ZKFtP39ZvuvD_Dojn7tGsKaEGqZumYP-s5C6w8,46338
+kitpdf/data/tests/5.2M.pdf,sha256=50HGSuwP2J9x6fN2Iy6liNhSw0G3JyEcuhJT9s37GvI,1309705
+kitpdf/data/tests/BBVA.pdf,sha256=0Gl4j9G4VAzcoWTkV7lQv4Prl7q9ZPHSxdSq8T8GCD8,13072
+kitpdf/data/tests/BBVA.png,sha256=q8oEOS-kRaOkWGALKHfRybE_zhKG8ShbyLb7jWagytQ,281560
+kitpdf/data/tests/Biosalud Stamp Transparent.png,sha256=FfU5eA0unN33JyfNueNwd04vhrmTx-Su1tldS5UIe-I,37247
+kitpdf/data/tests/Biosalud Stamp.png,sha256=hTsSagQ6LL7D58uixw_fHoLi8f691grH4bkH6SuCOdY,589115
+kitpdf/data/tests/ING.pdf,sha256=VV1Wb73vhBhERkqiJI0aUt4dbHqlBA4dwYGI-CNVDy0,305210
+kitpdf/data/tests/folded.png,sha256=UlTrciAmPMyOtFwzwDPg59w-LeTApc3JCpzOmIUun5Y,133269
+kitpdf/data/tests/generated/BBVA-picture_paste.png,sha256=5uD-jAaoQ8cFj8BMskPn7rHP3QVFVKhh4Wh3U7cVS5Q,443414
+kitpdf/data/tests/generated/BBVA-putalpha_random.png,sha256=q8oEOS-kRaOkWGALKHfRybE_zhKG8ShbyLb7jWagytQ,281560
+kitpdf/data/tests/generated/BBVA-white_alpha-picture_paste.png,sha256=7f-6pEZGYZRDAW916kDmeeDpQmBkz8sPSaaGTpIr7AY,116622
+kitpdf/data/tests/generated/BBVA-white_alpha.png,sha256=w4XqBiZrxk2MkIKyEtHptGcW77O8mO0patHi4cgA9qo,334791
+kitpdf/data/tests/generated/BioSalud Stamp Transparent-picture_paste.png,sha256=bWeKw3kX2WXxRZss5mpSopEY9V9p_BcBQHYWXm6LaWI,122171
+kitpdf/data/tests/generated/Biosalud Stamp-white_alpha.png,sha256=-OJp6SEf8HFt07r9mDUYIEqX7S6UjKfDPV49xTVU4-4,570779
+kitpdf/data/tests/generated/folded-BBVA-picture_paste.png,sha256=wkaeyO0WWY2HkNoM4w4uqlK4HBLGc2myeCG2gPKa9uQ,454993
+kitpdf/data/tests/generated/scanned_5.2M.pdf,sha256=hZGMa8y3275RAROBSPk1H2_HQ00T7A5LEeFTegEFbDU,5518612
+kitpdf/data/tests/generated/scanned_BBVA.pdf,sha256=zbYICa5lLu_mnRu7KEF6uaO72znWQJwAKFT8ciCG28s,1617467
+kitpdf/data/tests/generated/scanned_ING.pdf,sha256=KJU_rBE9v-Ty7fOgby9OPOyPVoEzxHwveQBskmbvgC4,1770784
+kitpdf-0.1.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+kitpdf-0.1.8.dist-info/METADATA,sha256=W68V7tVakhDXi4sslf2CK_bFvtAx9E-VKEOXYj-s3mE,2080
+kitpdf-0.1.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+kitpdf-0.1.8.dist-info/top_level.txt,sha256=4xN7B4ln-jhSYvE4lFFkHXPmjzQuTpDGP7k2MdXkppY,7
+kitpdf-0.1.8.dist-info/RECORD,,
