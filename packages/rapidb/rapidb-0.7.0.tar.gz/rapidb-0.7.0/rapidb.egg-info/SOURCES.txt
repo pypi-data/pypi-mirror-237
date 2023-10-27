@@ -1,0 +1,7 @@
+setup.py
+rapidb/__init__.py
+rapidb.egg-info/PKG-INFO
+rapidb.egg-info/SOURCES.txt
+rapidb.egg-info/dependency_links.txt
+rapidb.egg-info/requires.txt
+rapidb.egg-info/top_level.txt
