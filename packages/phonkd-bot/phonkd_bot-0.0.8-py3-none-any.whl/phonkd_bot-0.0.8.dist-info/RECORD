@@ -1,0 +1,9 @@
+phonkd_bot/__init__.py,sha256=YlsLmy0FS8V0L5f-36MBI8RT_z1P89ovpbBzHIxM89E,36
+phonkd_bot/api_handler.py,sha256=BFq4PakTsLp-y6NlcHi1KogjzueGAze2a9UWkoH9ay0,2687
+phonkd_bot/bot.py,sha256=Im3hEckkMBCGumW1RK8YAfJkQCfpm2X7OhWOJWEgnuk,1051
+phonkd_bot/logger.py,sha256=D8tnN6ta2oPcdlEwyXndsaRv1G9Fs-qhoGLoyIdZMRc,1745
+phonkd_bot-0.0.8.dist-info/LICENSE,sha256=Hg4OuRgmSwMg73uwWBXgJBPtI08L9AkdPqmx36TMSlA,1062
+phonkd_bot-0.0.8.dist-info/METADATA,sha256=K2VV2W3-w4bRb55epFr8eZZpO6ZMmQz-QPU1ZSIJ8T8,5500
+phonkd_bot-0.0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+phonkd_bot-0.0.8.dist-info/top_level.txt,sha256=27FdW99HcBDhRelFxAcKsOYToAHE-NVhpJv39qxeg5E,11
+phonkd_bot-0.0.8.dist-info/RECORD,,
