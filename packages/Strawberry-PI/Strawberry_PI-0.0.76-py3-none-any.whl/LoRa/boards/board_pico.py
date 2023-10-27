@@ -1,0 +1,69 @@
+from machine import Pin, SPI
+
+from .board import Board as IBoard
+
+
+class Board(IBoard):
+    # --- Pins --- #
+    nss: Pin
+
+    def __init__(self):
+        super().__init__(
+            8,
+            19,
+            16,
+            18,
+            9,
+            7,
+            10,
+            None,
+            None,
+            None,
+            None,
+        )
+
+        # Creo il pin NSS
+        self.nss = self.pin(self.nss, in_out=Pin.OUT)
+
+    # -------------------------------------------------------------------------------------------- #
+    def spi(self) -> object:
+        spi = SPI(
+            1,
+            baudrate=10000000,
+            sck=Pin(self.pin_sck, Pin.OUT, Pin.PULL_DOWN),
+            mosi=Pin(self.pin_mosi, Pin.OUT, Pin.PULL_UP),
+            miso=Pin(self.pin_miso, Pin.IN, Pin.PULL_UP),
+        )
+        spi.init()
+
+        return spi
+
+    def pin(self, pin_id: int | None, **args: object) -> object:
+        return Pin(pin_id, args["in_out"])
+
+    def add_event(self, pin_id: int | None, callback: object) -> None:
+        if pin_id is not None:
+            pin = self.pin(pin_id, in_out=Pin.IN)
+            pin.irq(handler=callback, trigger=Pin.IRQ_RISING)
+
+    # -------------------------------------------------------------------------------------------- #
+    def _write(self, reg: int, value: list[int]) -> None:
+        try:
+            self.nss.value(0)
+            self.spi.write([reg | 0x80] + value)
+        finally:
+            self.nss.value(1)
+
+    def read(self, reg: int) -> int:
+        try:
+            self.nss.value(0)
+            return self.spi.read(2, [reg])[1]
+        finally:
+            self.nss.value(1)
+
+    def reads(self, reg: int, length: int) -> list[int]:
+        try:
+            self.nss.value(0)
+            return self.spi.read(length + 1, [reg])[1:]
+        finally:
+            self.nss.value(1)
