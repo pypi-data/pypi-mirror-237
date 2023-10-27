@@ -1,0 +1,6 @@
+QUERY_KW: str = "vector_search"
+
+EMBEDDING_COLUMN_VECTORS: str = "EMBEDDING_COLUMN_VECTORS"
+
+COLUMN_NAME_FOR_TOPICS_ID: str = "topics_id"
+SCORE_DISTANCE_COLUMN_NAME: str = "vector_distance"
