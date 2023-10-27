@@ -1,0 +1,13 @@
+[metadata]
+icon = "mdi:web-box"
+
+[examples.with_caption]
+title = "With caption"
+jinja = """
+{{ "https://phil65.github.io/mknodes/" | MkIFrame(width=600, height=800) | MkReprRawRendered }}
+"""
+
+[output.html]
+template = """
+<iframe frameborder="0" width="{{width}}" height="{{height}}" src="{{url}}"></iframe>
+"""
