@@ -1,0 +1,9 @@
+README.md
+setup.py
+libdir/__init__.py
+libdir/helloworld.py
+metastasiz.egg-info/PKG-INFO
+metastasiz.egg-info/SOURCES.txt
+metastasiz.egg-info/dependency_links.txt
+metastasiz.egg-info/requires.txt
+metastasiz.egg-info/top_level.txt
