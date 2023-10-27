@@ -1,0 +1,37 @@
+# -*- python -*-
+#
+# Copyright 2023 Inria
+# SPDX-License-Identifier: Apache-2.0
+
+import settings
+
+EnvSettings.agent_frequency = 200
+EnvSettings.discounted_horizon_duration = 1.0
+EnvSettings.env_id = "UpkieGroundVelocity-v1"
+EnvSettings.init_rand = {"pitch": 0.1, "v_x": 1.0, "omega_y": 2.0}
+EnvSettings.max_episode_duration = 10.0
+EnvSettings.max_ground_accel = 10.0
+EnvSettings.max_ground_velocity = 1.0
+EnvSettings.seed = None
+EnvSettings.sim_torque_control_kd = 0.2
+EnvSettings.spine_frequency = 1000
+EnvSettings.total_timesteps = 1e6
+EnvSettings.velocity_filter = None
+EnvSettings.velocity_filter_rand = None
+
+PPOSettings.batch_size = 64
+PPOSettings.clip_range = 0.2
+PPOSettings.clip_range_vf = None
+PPOSettings.ent_coef = 0.0
+PPOSettings.gae_lambda = 0.95
+PPOSettings.learning_rate = 3e-4
+PPOSettings.max_grad_norm = 0.5
+PPOSettings.n_epochs = 10
+PPOSettings.n_steps = 2048
+PPOSettings.normalize_advantage = True
+PPOSettings.net_arch_pi = (64, 64)
+PPOSettings.net_arch_vf = (64, 64)
+PPOSettings.sde_sample_freq = -1
+PPOSettings.target_kl = None
+PPOSettings.use_sde = False
+PPOSettings.vf_coef  = 0.5
