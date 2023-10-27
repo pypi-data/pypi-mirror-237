@@ -1,0 +1,8 @@
+up_lib/__init__.py,sha256=4kjOUUvxMERI4iuEG_m3nj6L9tZAV6w2yj_M7NxzdB4,227
+up_lib/containers.py,sha256=9-t94BkOv4GozpJxsPx-Rf6aRSWgVx9RN8wblnxcr6Q,1748
+up_lib/hookspec.py,sha256=a-Hszcyaav1d7Km8nD6dRiwu7eii0LwtlUKWbQAyG7U,249
+up_lib/match.py,sha256=8PipIdKJMsrOM9CicyuPBuavuDJHqoU7jckJKoqeWZk,622
+up_lib/plugins.py,sha256=nOUdFkZiluP8dZLcM0WGt_yjL04FO5XYnSgl6QSHF5o,645
+up_lib-0.2.17.dist-info/METADATA,sha256=yW4508xmN9t_pDEqzpUJExv_6dqAsJqMXInOXz5lkTk,339
+up_lib-0.2.17.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+up_lib-0.2.17.dist-info/RECORD,,
