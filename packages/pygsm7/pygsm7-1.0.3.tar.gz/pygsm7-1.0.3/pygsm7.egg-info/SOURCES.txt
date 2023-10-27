@@ -1,0 +1,9 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pygsm7.py
+setup.py
+pygsm7.egg-info/PKG-INFO
+pygsm7.egg-info/SOURCES.txt
+pygsm7.egg-info/dependency_links.txt
+pygsm7.egg-info/top_level.txt
