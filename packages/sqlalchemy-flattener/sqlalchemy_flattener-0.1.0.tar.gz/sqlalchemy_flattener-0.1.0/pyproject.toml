@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sqlalchemy-flattener"
+version = "0.1.0"
+description = "Flatten SQLAlchemy model trees to raw data"
+authors = ["LonelyVikingMichael <michael@lonelyviking.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+SQLAlchemy = "^2.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff.isort]
+known-first-party = ["sqlalchemy_flattener", "tests", "examples"]
