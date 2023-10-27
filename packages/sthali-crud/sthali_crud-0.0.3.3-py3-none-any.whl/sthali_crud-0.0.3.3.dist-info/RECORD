@@ -1,0 +1,15 @@
+sthali_crud/__init__.py,sha256=1CiLIuuz-p1TIhhKeAjt_RBmFAPXZrJI7aMgrQGnJt0,1059
+sthali_crud/config.py,sha256=DU6Af8tk8XV1ONLsy09sCkM45ZmzeXNihb8S4XE37QA,1958
+sthali_crud/crud.py,sha256=YvqfE66utf96xD31OxgjtHt90VkpKsKCqJWYO069YP4,4159
+sthali_crud/db.py,sha256=QhkRWVk3-cKFrlQNhxec_oes4lUJHpg0I8S9pqRBFTQ,868
+sthali_crud/models.py,sha256=1qtdNZmiPUzhERgo7NUdsHw_1s-ISVvesgOignCBKvo,1494
+sthali_crud/types.py,sha256=hC8SiG0bIncu2XfHhxwrxr14vsTUIIMLExn1qrHGISg,1052
+sthali_crud/db_engines/__init__.py,sha256=pQjCXwSM5QpxNUsuqkbm9SJ82rqvpqELfkka5EPKLfs,959
+sthali_crud/db_engines/base.py,sha256=26J5hqi-l4UNJIQ-SsmkEYf7_dUuAhTYPfmhYY0x8do,358
+sthali_crud/db_engines/postgres.py,sha256=YnTFNHPLsIhlUte30fpUr5phXiC5I7CR4XXK-M0od8A,180
+sthali_crud/db_engines/tinydb.py,sha256=ZARyARAAAQZK20bpcQ9iAST9BLljba_2IcCt-eVQyOU,1834
+sthali_crud-0.0.3.3.dist-info/LICENSE,sha256=UTKkFZAJuxQO-YPB6hZMUIfD3NV0EUwkC_cNJ9CBJEU,1072
+sthali_crud-0.0.3.3.dist-info/METADATA,sha256=5GEzlxptN6hBTwlUt0eFz4NFMmVo4DPAlxNOFICF7KY,3580
+sthali_crud-0.0.3.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sthali_crud-0.0.3.3.dist-info/top_level.txt,sha256=LPX4AAXgOEHH4LnfHk8BzgqLo5vv6IOrG4EunzXalH8,12
+sthali_crud-0.0.3.3.dist-info/RECORD,,
