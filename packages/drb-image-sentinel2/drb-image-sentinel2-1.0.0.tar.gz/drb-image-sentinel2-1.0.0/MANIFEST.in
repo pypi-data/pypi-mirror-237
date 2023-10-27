@@ -1,0 +1,2 @@
+include versioneer.py
+include drb/addons/image/sentinel2/level1c/_version.py
