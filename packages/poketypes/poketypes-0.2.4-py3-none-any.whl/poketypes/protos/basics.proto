@@ -1,0 +1,106 @@
+syntax = "proto3";
+
+/* Represents possible stats
+
+Options:<br/>
+    >- 0: Unassigned
+    >- 1: Attack
+    >- 2: Defence
+    >- 3: Special Attack
+    >- 4: Special Defence
+    >- 5: Speed
+    >- 6: Health
+    >- 7: Evasion
+    >- 8: Accuracy
+*/
+enum DexStat {
+    option allow_alias = true;
+    STAT_UNASSIGNED = 0;
+    STAT_ATTACK = 1;
+    STAT_ATT = 1;
+    STAT_DEFENCE = 2;
+    STAT_DEF = 2;
+    STAT_SPECIAL_ATTACK = 3;
+    STAT_SPA = 3;
+    STAT_SPECIAL_DEFENCE = 4;
+    STAT_SPD = 4;
+    STAT_SPEED = 5;
+    STAT_SPE = 5;
+    STAT_HEALTH = 6;
+    STAT_HP = 6;
+    STAT_EVASION = 7;
+    STAT_EVA = 7;
+    STAT_ACCURACY = 8;
+    STAT_ACC = 8;
+}
+
+/* Represents supported Generations
+
+Each integer gen is represented as its integer value.
+*/
+enum DexGen {
+    GEN_UNASSIGNED = 0;
+    GEN_1 = 1;
+    GEN_2 = 2;
+    GEN_3 = 3;
+    GEN_4 = 4;
+    GEN_5 = 5;
+    GEN_6 = 6;
+    GEN_7 = 7;
+    GEN_8 = 8;
+    GEN_9 = 9;
+}
+
+/* Represents possible move categories
+
+Options:<br/>
+    >- 0: Unassigned
+    >- 1: Physical
+    >- 2: Special
+    >- 3: Status
+*/
+enum DexMoveCategory {
+    MOVECATEGORY_UNASSIGNED = 0;
+    MOVECATEGORY_PHYSICAL = 1;
+    MOVECATEGORY_SPECIAL = 2;
+    MOVECATEGORY_STATUS = 3;
+}
+
+/* Represents possible move targets
+
+Options:<br/>
+    >- 0: Unassigned
+    >- 1: Self
+    >- 2: Adjacent Ally
+    >- 3: Adjacent Ally or Self
+    >- 4: All
+    >- 5: All Adjacent
+    >- 6: All Adjacent Foes
+    >- 7: Allies
+    >- 8: Ally Side
+    >- 9: Ally Team
+    >- 10: Any
+    >- 11: Foe Side
+    >- 12: Normal
+    >- 13: Random Normal
+    >- 14: Scripted
+    >- 15: Adjacent Foe
+*/
+enum DexMoveTarget {
+    MOVETARGET_UNASSIGNED = 0;
+    MOVETARGET_SELF = 1;
+    MOVETARGET_ADJACENTALLY = 2;
+    MOVETARGET_ADJACENTALLYORSELF= 3;
+    MOVETARGET_ALL = 4;
+    MOVETARGET_ALLADJACENT = 5;
+    MOVETARGET_ALLADJACENTFOES = 6;
+    MOVETARGET_ALLIES = 7;
+    MOVETARGET_ALLYSIDE = 8;
+    MOVETARGET_ALLYTEAM = 9;
+    MOVETARGET_ANY = 10;
+    MOVETARGET_FOESIDE = 11;
+    MOVETARGET_NORMAL = 12;
+    MOVETARGET_RANDOMNORMAL = 13;
+    MOVETARGET_SCRIPTED = 14;
+    MOVETARGET_ADJACENTFOE = 15;
+}
