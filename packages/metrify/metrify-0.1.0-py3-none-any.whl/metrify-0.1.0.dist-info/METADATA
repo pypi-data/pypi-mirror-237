@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: metrify
+Version: 0.1.0
+Summary: A package for computing informedness, markedness and phi score
+Project-URL: Homepage, https://github.com/giacomopiccinini/metrify
+Author-email: Giacomo Piccinini <giacomo.piccinini@proton.me>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Description-Content-Type: text/markdown
+
+# metrify
