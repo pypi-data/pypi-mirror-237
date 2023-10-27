@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: aws-org-client
+Version: 0.0.0
+Summary: Browse and manage AWS identity and organization resources.
+Author: Sam Holden
+Author-email: sam.holden@digital.cabinet-office.gov.uk
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: boto3 (>=1.28.66,<2.0.0)
+Requires-Dist: moto (>=4.2.6,<5.0.0)
+Requires-Dist: pytest (>=7.4.2,<8.0.0)
+Requires-Dist: typing-extensions (>=4.8.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+## Coverage report
+
+run coverage report:
+```bash
+poetry run coverage run -m --source=aws_org_client pytest tests
+poetry run coverage report
+```
+
+## Linting
+
+run pylint with:
+```bash
+poetry run pylint aws_org_client
+poetry run pylint tests
+```
+
+run black formatter with:
+```bash
+poetry run black .
+```

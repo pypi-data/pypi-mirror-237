@@ -1,0 +1,7 @@
+aws_org_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_org_client/identity_store.py,sha256=wQFUxbvo4HdnC3uT00TUwIvh5p45f3k1SHgmoEZ_xVQ,1033
+aws_org_client/organizations.py,sha256=7NBDAcuMRo-BMtaYuIpPlLOzrHTDFpgZQcZWsowZo54,587
+aws_org_client/sso_admin.py,sha256=Lg-Q36umZZAnLD_Ra_GaZHS7rJwv8h8taHCfO7cDjbM,2369
+aws_org_client-0.0.0.dist-info/METADATA,sha256=1L8ZFyIIbYeRcXk6YRWL1DO6ASlcRHuoYuJN_XY5To8,836
+aws_org_client-0.0.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+aws_org_client-0.0.0.dist-info/RECORD,,
