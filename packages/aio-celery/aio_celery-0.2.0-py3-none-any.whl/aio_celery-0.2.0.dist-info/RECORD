@@ -1,0 +1,15 @@
+aio_celery/__init__.py,sha256=_dAaP7TWt_WyhEW5qnA_n_grf25-PWY6BSYh-BOrSNU,149
+aio_celery/__main__.py,sha256=JoL56oAR-sikk0sam099zxNB4EXNryTzXCwy_LssCLg,2031
+aio_celery/amqp.py,sha256=pJaJOVi9An0riNM8-8esPHwoEaZTUwMVYtSQOTeuggc,1696
+aio_celery/annotated_task.py,sha256=RyXXIaN9Iamx0wTX64lxuPBhZIyoKmroaddPmgJwdu8,799
+aio_celery/app.py,sha256=dsv2jq7K4NHJ51P5jmwYGx89yPPFdotEQLvkIyxt3Mg,5648
+aio_celery/backend.py,sha256=P69wa5q0ehamqO-mLuRBoZSSkOkkaUSrF3ZOJbXIG8w,699
+aio_celery/config.py,sha256=8nAZgB9u1eWaMMZMPSmoSYCKlDkz9osZFptXEpJaWbM,935
+aio_celery/result.py,sha256=ddCqb02gxzvTYLzPyX8uWffU9ThYMfXNkdGOwP9Gr6s,1167
+aio_celery/task.py,sha256=koSgjoSSvGpuxDlHbQMMymYQzkOV8ZQRrJsXjpVzRts,4947
+aio_celery/worker.py,sha256=7jVCP8x225EGgTO57cGIDMs3_evj1S0s9Rn85QKy418,6324
+aio_celery-0.2.0.dist-info/METADATA,sha256=GHETwkNycf_lHSPtpcsO5HM2oVfO4LiDeOS69eYIfDA,5907
+aio_celery-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+aio_celery-0.2.0.dist-info/entry_points.txt,sha256=rxIlyX-a_HaqPmvDg_CRcApBKAn-01xqLZXpX-AtqmA,56
+aio_celery-0.2.0.dist-info/top_level.txt,sha256=66N0xse1WQvHNduWXrJcGKDDRLB5xwYPXU8lIKYMCL0,11
+aio_celery-0.2.0.dist-info/RECORD,,
