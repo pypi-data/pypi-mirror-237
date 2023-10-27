@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: optimism-python
+Version: 0.1.1
+Summary: Unofficial Python Client for the OP-Stack
+Home-page: https://github.com/rafalum/optimism-python
+License: MIT
+Author: rafalum
+Author-email: rafalum@pm.me
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: python-dotenv (==1.0.0)
+Requires-Dist: web3 (==6.11.1)
+Project-URL: Repository, https://github.com/rafalum/optimism-python
