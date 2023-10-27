@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: Blaze-Sudio
+Version: 1.1.0
+Summary: Lots of AIs, lots of features :)
+Home-page: https://github.com/Tsunami014/Blaze-Sudio
+Author: Max Worrall
+Author-email: max.worrall@education.nsw.gov.au
+License: Apache
+Download-URL: https://github.com/Tsunami014/Blaze-Sudio/archive/refs/tags/v1.1.0-alpha.tar.gz
+Description: UNKNOWN
+Keywords: AI,Python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
