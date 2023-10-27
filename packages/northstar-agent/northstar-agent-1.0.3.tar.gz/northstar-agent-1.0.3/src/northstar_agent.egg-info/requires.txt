@@ -1,0 +1,12 @@
+psutil
+
+[dev]
+black
+build
+flake8
+flake8-black
+invoke
+pydantic
+pylint
+twine
+wheel
