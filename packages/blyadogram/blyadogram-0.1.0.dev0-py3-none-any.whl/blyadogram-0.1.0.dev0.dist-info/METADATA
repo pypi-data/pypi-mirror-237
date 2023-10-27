@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: blyadogram
+Version: 0.1.0.dev0
+Summary: 
+Author: DiorDS
+Requires-Python: >3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8.6,<4.0.0)
+Requires-Dist: aiosqlite (>=0.19.0,<0.20.0)
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: asyncpg (>=0.28.0,<0.29.0)
+Requires-Dist: redis (>=5.0.1,<6.0.0)
+Description-Content-Type: text/x-rst
+
+BLYADOOGRAM - is a library for make Telegram Bots.
+
+**Install**
+
+
+.. code-block:: console
+
+
+  $ pip install blyadogram
+
+
+
+**Example of use:**
+
+
+.. code-block:: python
+
+
+
+  from blyadogram import Bot, Dispatcher
+  from blyadogram.types import Message, CallbackQuery, ReplyKeyboardMarkup, KeyboardButton
+  from blyadogram.filters import Command, Data
+  from blyadogram.enums import ParseMode
+  import asyncio
+
+
+  async def start_command(message: Message):
+      kb = ReplyKeyboardMarkup()
+      button = KeyboardButton(text='BUTTON')
+      kb.add_button(button)
+      await message.answer(text='Hello World!', reply_markup=kb)
+
+
+  async def some_func(callback: CallbackQuery):
+      await callback.answer(text='Hello World!', show_alert=True)
+
+
+  async def main():
+      bot = Bot(token='YOUR-BOT-TOKEN', parse_mode=ParseMode.HTML)
+      dp = Dispatcher()
+      dp.message.register(start_command, Command("start"))
+      dp.callback_query.register(some_func, Data("BUTTON_DATA"))
+      await bot.skip_updates()
+      try:
+          await dp.start_polling(bot)
+      finally:
+          await bot.session.close()
+
+
+  if __name__ == '__main__':
+      asyncio.run(main())
+
+
+**Developer - @ovflw A.K.A. DiorDS**
