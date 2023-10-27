@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: sliding-window-counter
+Version: 0.0.0
+Summary: Counter with a time based sliding window
+Author-email: Nicholas Hairs <info@nicholashairs.com>
+License: MIT License
+        
+        Copyright (c) 2023 Nicholas Hairs
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
+License-File: NOTICE
+Provides-Extra: dev
+Requires-Dist: freezegun ; extra == 'dev'
+Requires-Dist: validate-pyproject[all] ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: mkdocs ; extra == 'dev'
+Requires-Dist: mkdocs-material >=8.5 ; extra == 'dev'
+Requires-Dist: mkdocs-awesome-pages-plugin ; extra == 'dev'
+Requires-Dist: mdx-truly-sane-lists ; extra == 'dev'
+Requires-Dist: bpython ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: freezegun ; extra == 'test'
+
+# Sliding Window Counter
+
+[![PyPi](https://img.shields.io/pypi/v/sliding-window-counter.svg)](https://pypi.python.org/pypi/sliding-window-counter/)
+[![PyPI - Status](https://img.shields.io/pypi/status/sliding-window-counter)](https://pypi.python.org/pypi/sliding-window-counter/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/sliding-window-counter.svg)](https://github.com/nhairs/sliding-window-counter)
+[![License](https://img.shields.io/github/license/nhairs/sliding-window-counter.svg)](https://github.com/nhairs/sliding-window-counter)
+
+`sliding-window-counter` provides time based sliding window counters. These are useful for tracking things like throughput metrics for long running applications.
+
+## Installation
+### Install via pip
+```shell
+pip3 install sliding-window-counter
+```
+
+## Quick Start
+
+```python
+## Creating Counters
+## -----------------------------------------------------------------------------
+import datetime as dt
+from sliding_window_counter import SlidingWindowCounter
+
+# Count across 1 minute with 5 second resolution
+small_counter = SlidingWindowCounter(60, 5)
+
+# Count across 1 hour with 1 minute resolution
+long_counter = SlidingWindowCounter(dt.timedelta(hours=1), dt.timedelta(minutes=1))
+
+# Count across 12 hours with 10 second resolution (not a good idea to be honest)
+long_and_precise_counter = SlidingWindowCounter(dt.timdelta(hours=12), 10)
+
+## Using Counters
+## -----------------------------------------------------------------------------
+import random
+import time
+
+mini_counter = SlidingWindowCounter(10, 1)
+
+# fill it up and check it's state
+for i in range(20):
+    add = random.randint(1,20)
+    mini_counter.increment(add)
+    print(f"{i:>3}s Added: {add:<3} Window: {mini_counter.current_count:<6} Total: {mini_counter.grand_total:<6} Avg: {mini_counter.current_count/mini_counter.window_size:>5.2f}/s")
+    time.sleep(1)
+
+# Watch it drain
+for i in range(12):
+    time.sleep(1)
+    print(f"Window: {mini_counter.current_count:<5} Total: {mini_counter.grand_total:<5} Avg: {mini_counter.current_count/mini_counter.window_size:>5.2f}/s")
+```
+
+## Bugs, Feature Requests etc
+TLDR: Please [submit an issue on github](https://github.com/nhairs/sliding-window-counter/issues).
+
+In the case of bug reports, please help me help you by following best practices [1](https://marker.io/blog/write-bug-report/) [2](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html).
+
+In the case of feature requests, please provide background to the problem you are trying to solve so to help find a solution that makes the most sense for the library as well as your usecase.
+
+## Development
+The only development dependency is bash and docker. All actions are run within docker for ease of use. See `./dev.sh help` for commands. Typical commands are `format`, `lint`, `test`, `repl`, `build`.
+
+I am still working through open source licencing and contributing, so not taking PRs at this point in time. Instead raise and issue and I'll try get to it as soon a feasible.
+
+## Licence
+This project is licenced under the MIT Licence - see [`LICENCE`](https://github.com/nhairs/sliding-window-counter/blob/master/LICENCE).
+
+This project may include other open source licenced software - see [`NOTICE`](https://github.com/nhairs/sliding-window-counter/blob/master/NOTICE).
+
+## Authors
+A project by Nicholas Hairs - [www.nicholashairs.com](https://www.nicholashairs.com).
