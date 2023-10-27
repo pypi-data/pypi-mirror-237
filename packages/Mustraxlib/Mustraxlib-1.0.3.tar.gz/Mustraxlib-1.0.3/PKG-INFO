@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: Mustraxlib
+Version: 1.0.3
+Summary: Simple tools for convenient programming
+Home-page: 
+Author: Programmer101
+Author-email: wsl.com.uk@gmail.com
+License: MIT
+Keywords: Efficiency
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENCE.txt
+Requires-Dist: bs4
+Requires-Dist: requests
+
+This is a very simple Python Library to make things slightly more convenient. Here are the commands:
+matrixify(columns, rows, filler)
+display(matrix)
+replace_index(matrix, x, y, filler)
+contains(matrix, string)
+replace(matrix, string, filler)
+wait(seconds)
+webscrape(url)
+clear()
+
+0.0.1 - Tried making a stable version
+1.0.1 - Failed to make a stable version
+1.0.2 - Actually made a stable version
+1.0.3 - Added some userinput functions
