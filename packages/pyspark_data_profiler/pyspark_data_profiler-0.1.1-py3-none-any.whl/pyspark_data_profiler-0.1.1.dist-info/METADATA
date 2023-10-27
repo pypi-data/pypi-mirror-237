@@ -1,0 +1,293 @@
+Metadata-Version: 2.1
+Name: pyspark_data_profiler
+Version: 0.1.1
+Summary: Data profiling with PySpark
+License: MIT
+Author: Moises Salum
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyspark (==3.5.0)
+Description-Content-Type: text/markdown
+
+# pyspark_data_profiler
+
+Data profiling with PySpark.
+
+## Installation
+
+```bash
+$ pip install pyspark_data_profiler
+```
+
+## Usage
+
+### Quickstart
+```python
+import json
+from pyspark_data_profiler.data_reader.reader import Reader
+from pyspark_data_profiler.data_profiler.profiler import Profiler
+
+# read the data
+data = Reader('annual.csv').data
+
+# profile the data
+profiler = Profiler(data)
+
+global_stats = profiler.global_report()
+col_stats = profiler.column_report()
+col_pattern = profiler.column_pattern()
+
+filename = 'output.json'
+with open(filename, 'w') as json_file:
+    json.dump(global_stats, json_file)
+```
+
+### Importing the Library
+The first step is to import the library.
+
+```python
+>>> from pyspark_data_profiler.data_reader.reader import Reader
+>>> from pyspark_data_profiler.data_profiler.profiler import Profiler
+```
+
+### Reading Data
+To read the data, you can either read a single file or a folder.
+
+#### Reading a Single File
+You can read a single file with or without a configuration file.
+The configuration file should always be a JSON file.
+Currently, the system only supports CSV and Parquet files, any other file type will fail.
+This will always return a dictionary.
+
+```python
+# single file without a configuration file
+>>> data = Reader('annual.csv').data
+>>> print(data)
+{'annual': {'df': DataFrame[Year: int, Industry_aggregation_NZSIOC: string, Industry_code_NZSIOC: string, Industry_name_NZSIOC: string, Units: string, Variable_code: string, Variable_name: string, Variable_category: string, Value: string, Industry_code_ANZSIC06: string], 'file_name': 'annual.csv', 'config_file': None}}
+
+# single file with a configuration file
+>>> data = Reader('test_file.csv', 'test_json.json').data
+>>> print(data)
+{'annual': {'df': DataFrame[Year: int, Industry_aggregation_NZSIOC: string, Industry_code_NZSIOC: string, Industry_name_NZSIOC: string, Units: string, Variable_code: string, Variable_name: string, Variable_category: string, Value: string, Industry_code_ANZSIC06: string], 'file_name': 'annual.csv', 'config_file': {'column9': {'calculations': {'avg': {'additionalParameters': [], 'enable': 'Y'}}, 'enable': 'Y', 'name': 'Value'}, 'col1': {'calculations': {'mean': {'additionalParameters': [], 'enable': 'Y'}}, 'enable': 'Y', 'name': 'Year'}}}}
+```
+
+#### Reading a Folder
+To read a folder, you should put the path of the folder.
+If you want to add a configuration file to the logic, both the data file and the JSON file should have the same name (for example: 'address.csv', 'address.json').
+This will always return a dictionary.
+
+```python
+# reading data from a folder
+>>> data = Reader('/home/user/Desktop/folder_data').data
+/home/user/Desktop/folder_data is a directory.
+Analyzing all the files in the directory.
+WARNING: The file format for test_excel.xlsx has not been implemented.
+WARNING: The file format for test_ods.ods has not been implemented.
+
+>>> print(data)
+{'annual': {'df': DataFrame[Year: int, Industry_aggregation_NZSIOC: string, Industry_code_NZSIOC: string, Industry_name_NZSIOC: string, Units: string, Variable_code: string, Variable_name: string, Variable_category: string, Value: string, Industry_code_ANZSIC06: string], 'file_name': 'annual.csv', 'config_file': {'column9': {'calculations': {'avg': {'additionalParameters': [], 'enable': 'Y'}}, 'enable': 'Y', 'name': 'Value'}, 'col1': {'calculations': {'mean': {'additionalParameters': [], 'enable': 'Y'}}, 'enable': 'Y', 'name': 'Year'}}}}
+```
+
+### Profiling Data
+To profile data, you need to use the Profiler class.
+Only insert the data you read on the Reading Data step.
+If more than one file is read from a folder, then all the files will be profiled at the same time.
+```python
+>>> profiler = Profiler(data)
+```
+
+#### Global Data Statistics
+The global data statistics gets an overview of the data you're profiling.
+* Column count
+* Duplicated row ratio
+* File name
+* Row count
+* Timestamp
+* Unique row count
+* Unique row ratio
+
+
+A key at the beginning of the dictionary will identify which stats are from which file.
+For this example, we're working with the 'annual' file.
+```python
+>>> global_stats = profiler.global_report()
+>>> print(global_stats)
+{'annual': {'columns_count': 10,
+            'duplicate_row_count': 0,
+            'file_name': 'annual.csv',
+            'row_count': 41715,
+            'timestamp': '2023-10-26 08:57:00',
+            'unique_row_count': 41715,
+            'unique_row_ratio': 1.0}}
+```
+
+#### Column Level Statistics
+The column level statistics gets all the statistics that can be calculated from the columns of the file.
+* Average
+* Covariance
+* Maximum
+* Mean
+* Median
+* Minimum
+* Mode
+* Null count
+* Outliers
+* Standard Deviation
+* Unique values
+* Variance
+
+A key at the beginning of the dictionary will identify which stats are from which file.
+For this example, we're working with the 'annual' file that already has a configuration file read from the Data Reader step.
+```python
+# column stats with a configuration file available
+>>> column_report_json_file = profiler.column_report()
+>>> print(column_report_json_file)
+{'annual': [{'avg': 190.8764624317532,
+             'categorical': 'No',
+             'column_name': 'Value',
+             'data_type': StringType(),
+             'samples': ['675',
+                         '6,299',
+                         '1,559',
+                         '2,557',
+                         '372,700',
+                         '1,217',
+                         '2,782',
+                         '54,516',
+                         '691',
+                         '467']},
+            {'categorical': 'Yes',
+             'column_name': 'Year',
+             'data_type': IntegerType(),
+             'mean': '2017.0',
+             'samples': [2018,
+                         2019,
+                         2020,
+                         2016,
+                         2017,
+                         2021,
+                         2015,
+                         2013,
+                         2014]}]}
+                         
+# column stats without a configuration file
+# this output is truncated for readibility purposes
+>>> column_report = profiler.column_report()
+>>> print(column_report)
+{'annual': [{'avg': 2017.0,
+             'categorical': 'Yes',
+             'column_name': 'Year',
+             'data_type': IntegerType(),
+             'max': '2021',
+             'mean': '2017.0',
+             'median': 2017.0,
+             'min': '2013',
+             'mode': 2018,
+             'null_count': 0,
+             'outliers': {'count': 0, 'samples': []},
+             'samples': [2018, 2019, 2020, 2016, 2017, 2021, 2015, 2013, 2014],
+             'stddev': '2.5820198459941994',
+             'unique': 9,
+             'variance': 6.666826485107909},
+            {'avg': 99999.0,
+             'categorical': 'No',
+             'column_name': 'Industry_code_NZSIOC',
+             'data_type': StringType(),
+             'max': 'ZZ11',
+             'mean': '99999.0',
+             'median': 99999.0,
+             'min': '99999',
+             'mode': 'CC211',
+             'null_count': 0,
+             'outliers': {'count': 0, 'samples': []},
+             'samples': ['CC211',
+                         'CC611',
+                         'II131',
+                         'GH21',
+                         'MN21',
+                         'AA141',
+                         'LL112',
+                         'MN',
+                         'II12',
+                         'CC81'],
+             'stddev': '0.0',
+             'unique': 139,
+             'variance': 0.0},
+            {'avg': None,
+             'categorical': 'No',
+             'column_name': 'Industry_code_ANZSIC06',
+             'data_type': StringType(),
+             'max': 'ANZSIC06 groups S951, S952, and S953',
+             'mean': None,
+             'median': None,
+             'min': 'ANZSIC06 Group F380',
+             'mode': 'ANZSIC06 groups C141 and C149',
+             'null_count': 0,
+             'samples': ['ANZSIC06 groups D281, D291, and D292',
+                         'ANZSIC06 group Q840',
+                         'ANZSIC06 group I510',
+                         'ANZSIC06 group S955',
+                         'ANZSIC06 groups C141 and C149',
+                         'ANZSIC06 groups M697 and M699',
+                         'ANZSIC06 group A016',
+                         'ANZSIC06 division L',
+                         'ANZSIC06 group M693',
+                         'ANZSIC06 groups J541, J542, J551, J552, J561, J562, '
+                         'and J570'],
+             'stddev': None,
+             'unique': 121,
+             'variance': None}]}
+```
+
+#### Column Pattern
+The column pattern method lets you understand what are the different patterns of the data you're working with.
+The data output will be truncated for readability purposes.
+```python
+>>> column_pattern = profiler.column_pattern()
+>>> print(column_pattern)
+{'annual': [{'column_name': 'Year',
+             'patterns': [{'count': 41715,
+                           'length': 4,
+                           'pattern': 'NNNN',
+                           'percentage': 100.0}]},
+            {'column_name': 'Industry_aggregation_NZSIOC',
+             'patterns': [{'count': 41715,
+                           'length': 7,
+                           'pattern': 'CccccSN',
+                           'percentage': 100.0}]},
+            {'column_name': 'Industry_code_NZSIOC',
+             'patterns': [{'count': 4752,
+                           'length': 2,
+                           'pattern': 'CC',
+                           'percentage': 11.39},
+                          {'count': 13851,
+                           'length': 4,
+                           'pattern': 'CCNN',
+                           'percentage': 33.2},
+                          {'count': 279,
+                           'length': 5,
+                           'pattern': 'NNNNN',
+                           'percentage': 0.67},
+                          {'count': 22833,
+                           'length': 5,
+                           'pattern': 'CCNNN',
+                           'percentage': 54.74}]}]
+
+```
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`pyspark_data_profiler` was created by Moises Salum. It is licensed under the terms of the MIT license.
+
+## Credits
+
+`pyspark_data_profiler` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
