@@ -1,0 +1,13 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+argskwargsmodifierclass/README.MD
+argskwargsmodifierclass/__init__.py
+argskwargsmodifierclass/requirements.txt
+argskwargsmodifierclass/thirdparty.json
+argskwargsmodifierclass.egg-info/PKG-INFO
+argskwargsmodifierclass.egg-info/SOURCES.txt
+argskwargsmodifierclass.egg-info/dependency_links.txt
+argskwargsmodifierclass.egg-info/top_level.txt

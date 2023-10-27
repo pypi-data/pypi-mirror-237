@@ -1,0 +1,3 @@
+include argskwargsmodifierclass/requirements.txt
+include argskwargsmodifierclass/thirdparty.json
+include argskwargsmodifierclass/README.MD
