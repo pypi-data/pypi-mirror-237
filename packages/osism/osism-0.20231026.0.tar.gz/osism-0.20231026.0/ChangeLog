@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.20231026.0
+-------------
+
+* Timeout on custom plays explicitly set to 60 seconds (#638)
