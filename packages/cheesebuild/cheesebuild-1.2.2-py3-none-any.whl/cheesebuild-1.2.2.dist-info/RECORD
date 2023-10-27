@@ -1,0 +1,10 @@
+cheesebuild/__init__.py,sha256=Tko0TV35dFQ3fHOvpKCfU4AOgdyHAp0r3BcOJ8JXf18,143
+cheesebuild/_builder.py,sha256=Tz_ZzYP2G8wZvYiEsXnCAON-o9d1YUdgeaR-GzsdxAI,4787
+cheesebuild/cheesebuild.py,sha256=onE7gqirKem6U5lpihMOMtbH467VEZjfjplYmEeTgTs,163
+cheesebuild/compilers.py,sha256=bDmeXG07Gsclw9HBCJBcyjxmqGp0TgvLiTMtwx4pqKU,434
+cheesebuild/project.py,sha256=XfWcBQgv7NY7CV4_cvjctXI3VfxPvXIcYXcTLr4BrRk,4546
+cheesebuild-1.2.2.dist-info/LICENSE,sha256=n0Oa94LaG4wyGFSmbv_cM9eYUPdCeGnyKc5naWLA9MI,1061
+cheesebuild-1.2.2.dist-info/METADATA,sha256=fWXTA7K1f-_TjNlkY8COinRKc4Yeh2bfC4F-RvajDvw,586
+cheesebuild-1.2.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+cheesebuild-1.2.2.dist-info/top_level.txt,sha256=8Nqt6Ow2TaEEQm0wW0T6i4v8MGkLh2E9Z1HaY5PRYGA,12
+cheesebuild-1.2.2.dist-info/RECORD,,
