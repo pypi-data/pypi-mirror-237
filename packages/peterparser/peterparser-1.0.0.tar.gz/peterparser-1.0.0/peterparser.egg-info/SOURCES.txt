@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+peterparser/__init__.py
+peterparser/peterparser.py
+peterparser.egg-info/PKG-INFO
+peterparser.egg-info/SOURCES.txt
+peterparser.egg-info/dependency_links.txt
+peterparser.egg-info/top_level.txt
