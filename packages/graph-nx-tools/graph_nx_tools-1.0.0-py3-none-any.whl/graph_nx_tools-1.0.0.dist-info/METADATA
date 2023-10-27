@@ -1,0 +1,30 @@
+Metadata-Version: 2.0
+Name: graph-nx-tools
+Version: 1.0.0
+Summary: Utility functions for creating and manipulating networkx graphs to perform networkx science functions
+Home-page: UNKNOWN
+Author: Brendan Celii
+Author-email: brendanacelii@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/reimerlab/graph_tools
+Project-URL: Documentation, https://reimerlab.github.io/graph_tools/
+Platform: UNKNOWN
+Requires-Dist: matplotlib (>=3.3.4)
+Requires-Dist: ndlib (>=5.1.1)
+Requires-Dist: netsci (>=0.0.3)
+Requires-Dist: networkx (>=2.5)
+Requires-Dist: numpy (>=1.19.5)
+Requires-Dist: pandas (>=1.1.5)
+Requires-Dist: powerlaw (>=1.5)
+Requires-Dist: scipy (>=1.5.4)
+Requires-Dist: seaborn (>=0.11.2)
+Requires-Dist: tqdm (>=4.62.2)
+Requires-Dist: ipython
+Requires-Dist: ipython-genutils
+Requires-Dist: datasci-stdlib-tools (>=1.0.0)
+
+Algorithms and preprocessing methods for network science and graph
+machine learning. Applications include projects from Rice University
+Network Analysis class and Graph Machine Learning class.
+
+
