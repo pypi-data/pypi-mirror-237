@@ -1,0 +1,26 @@
+[project]
+name = "schmorter"
+authors = [
+  { name="Dante Gates", email="dantedgates@gmail.com" },
+]
+description = "porter is a framework for exposing machine learning models via REST APIs."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dynamic = ["dependencies", "optional-dependencies", "version"]
+
+[project.urls]
+"Homepage" = "https://github.com/dantegates/porter"
+"Bug Tracker" = "https://github.com/dantegates/porter/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = {attr = "porter.__version__"}
