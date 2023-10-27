@@ -1,0 +1,11 @@
+README.md
+setup.py
+pyapks/__init__.py
+pyapks/apkdownloadertools.py
+pyapks/apkpure.py
+pyapks/aptoide.py
+pyapks.egg-info/PKG-INFO
+pyapks.egg-info/SOURCES.txt
+pyapks.egg-info/dependency_links.txt
+pyapks.egg-info/requires.txt
+pyapks.egg-info/top_level.txt
