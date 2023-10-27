@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+markov_word_generator.egg-info/PKG-INFO
+markov_word_generator.egg-info/SOURCES.txt
+markov_word_generator.egg-info/dependency_links.txt
+markov_word_generator.egg-info/requires.txt
+markov_word_generator.egg-info/top_level.txt
