@@ -1,0 +1,16 @@
+pyfigure98/__init__.py,sha256=SvDkt3GUrdRRZ_XkL5ZGe6XHdORjYcZ6A4wLLE77wMw,62
+pyfigure98/Figure/__init__.py,sha256=nytnuTukKtU3SXc2b-mUK8VN50k4U0_Pkw-lxBCFBxw,1123
+pyfigure98/Figure/_place_holder.py,sha256=E7Gpyl-dDKIBWaTBMRZIJD2iFknb63CIK4Vr8SOtjnI,457
+pyfigure98/Figure/_set_figure.py,sha256=W5LlW4QWnooNyfp4X2VvcaUzUcccW56hBcuDIyqq41g,3317
+pyfigure98/Figure/_template_handling.py,sha256=I1PKGzdWZpNzaKEeQ-QBfW1RdtaWDJrXI8MTe_MbHp8,1624
+pyfigure98/Figure/Graph/__init__.py,sha256=SGX0l8whXMmCiZBRUaesBOrp3biF22t8WBNXHzWD5RE,1440
+pyfigure98/Figure/Graph/_axes_methods.py,sha256=n33GFDq2OLnoPt7uS3Uja-Sd4IqCw7lSRjBiYoxXDuU,6711
+pyfigure98/Figure/Graph/_graph_methods.py,sha256=G05F8twBjOHlBZUY91WZScV-h0cKiVbhCbPAYREG93o,1760
+pyfigure98/Figure/Graph/_place_holder.py,sha256=hd0iv5PJpmkN6wWhvikLI6VkV77Uz4YC33pLoYuUDJM,389
+pyfigure98/Figure/Graph/_plot_methods.py,sha256=dywIl0jMDGKPp54b5gMv_BVosIwec0ZLn5_Mj2jrpUQ,10791
+pyfigure98/Figure/Templates/default.json,sha256=BiVTa-g2pWLQPfK2i7aCYzZNZr62YtlXJQ805H--Qqg,332
+pyfigure98-1.1.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pyfigure98-1.1.0.dist-info/METADATA,sha256=YZJS1HK9RKL7ZhyKoCwDBksbKvYu0SFiTVckiWfxxuw,6276
+pyfigure98-1.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pyfigure98-1.1.0.dist-info/top_level.txt,sha256=RXjdKY-C_q5FIX2mvqxlrKT7Xhv6G1lH2_g5XNfm_A4,11
+pyfigure98-1.1.0.dist-info/RECORD,,
