@@ -1,0 +1,2 @@
+[console_scripts]
+nppy = nppy.inference.nppy_inference:main
