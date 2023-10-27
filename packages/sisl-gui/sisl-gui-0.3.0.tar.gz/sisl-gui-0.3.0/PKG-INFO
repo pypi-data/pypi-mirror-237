@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: sisl-gui
+Version: 0.3.0
+Summary: Graphical interface for the sisl visualization module
+Home-page: http://github.com/pfebrer/sisl-gui
+Author: Pol Febrer
+Author-email: pfebrer96@gmail.com
+License: MIT
+Description: This is the graphical interface that you can use to interact with [sisl's](https://github.com/zerothi/sisl) visualization module.
+        
+        It consists of two parts:
+        - [Back-end](sisl_gui): A `Session` class, which stores and manipulates the state of the application. This app can then be connected
+        to the frontend in multiple ways. Currently, it is possible to use the `Session` directly in the browser (thanks to pyodide) or connect
+        it to the frontend via sockets (implemented as a `flask` app that uses `flask-socketio`).
+        - [Front-end](frontend): A javascript/typescript UI, which is developed using [React](https://reactjs.org/). The build is shipped with
+        the python module and it is also available at https://pfebrer.github.io/sisl-gui/.
+        
+        # User guide
+        
+        ## Installation
+        
+        It is extremely simple to install `sisl-gui` with `pip`:
+        
+        ```
+        pip install sisl-gui
+        ```
+        
+        ## Usage
+        
+        ### From a terminal
+        
+        You can use the `sisl-gui` command.
+        
+        ### From python
+        
+        ```python
+        import sisl_gui
+        
+        app = sisl_gui.launch()
+        ```
+        
+        # 
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
