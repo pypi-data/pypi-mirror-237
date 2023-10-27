@@ -1,0 +1,15 @@
+asyncpgdb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asyncpgdb/asyncpg.py,sha256=NmG4-uBVJQtwI8-OpwT_drAC68wg5aOR04ahW3NFseo,218
+asyncpgdb/connection.py,sha256=Ii3rLAwlqUT_9cAVHMMORP0kRvw7h0ujaeAt4zS_Ttg,2675
+asyncpgdb/database.py,sha256=DSONeH1SVF1wub-gjsDXFJLM9hvzf3u5qZrEUrBWXUs,2739
+asyncpgdb/dsn.py,sha256=5SeEYiF-hmjLyuon2pp33a1-rJkEEhTba9cDG7xgbDM,680
+asyncpgdb/exception.py,sha256=2cFI7ce4fmSmlkLQr5LDEjighp_HH0wrS7jawe8eKO0,377
+asyncpgdb/execute.py,sha256=65ssUUiE93Aa32Sei0LE2IS-kyO8pJnb0bXinT7Z_GM,6278
+asyncpgdb/pool.py,sha256=P6Fh4zMPXQFODOEt5s94_LWwdo1WXt0V-ael34AaLWU,137
+asyncpgdb/row.py,sha256=YjYKUay7avuLXbnk7IMe7pSVVJvL8Xwj8MEC5_GJR-8,1197
+asyncpgdb/settings.py,sha256=O5mHzQU_OFlNdvTNsBdkB0iCoIa0gwyObCOORKAGgK0,3125
+asyncpgdb/sql.py,sha256=56LcQJceZoQ4msYWwSjvOhJQlW8RoVBnaH99XwL0z9Q,2452
+asyncpgdb/typing.py,sha256=s-GkyhZXGft5aiLkjmyNQuaKgjN4VMlxVdd4LIJfMIw,46
+asyncpgdb-0.0.17.dist-info/METADATA,sha256=qUnDmKOCjHvWM1et2IwNYYkgiSqk12CpFoWIEHBNYWI,3432
+asyncpgdb-0.0.17.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+asyncpgdb-0.0.17.dist-info/RECORD,,
