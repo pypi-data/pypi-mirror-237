@@ -1,0 +1,9 @@
+base_descriptor/__init__.py,sha256=X1-D8XKa1Dlidy84yHw0OzHzmFJoqyVGGOYJhUekA0E,597
+base_descriptor/data_descriptor.py,sha256=nkpDnx1jLjEXLA_bytXP8w8hmKcqay7O93bBixP4CJE,11202
+base_descriptor/non_data_descriptor.py,sha256=jLHi5cUW3fIc3S5Tz-42WmbFq5z9mGVz9wGNDuiy-nM,1779
+base_descriptor/slottable_data_descriptor.py,sha256=oI4wLQwCCeGBCtHGVFo8eQGO7h3UlYmnp1cV23Ydtwk,9214
+base_descriptor-1.1.dist-info/LICENSE,sha256=c54DDGbpcFiyz7-0meBq9qur4yOtMD4hgS8HIqc5WyY,1068
+base_descriptor-1.1.dist-info/METADATA,sha256=zxwHbhXuumsG3FaNYz76BTKlQ_JSZZqBwBexpV61_Ak,10093
+base_descriptor-1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+base_descriptor-1.1.dist-info/top_level.txt,sha256=MN3klw7GSYra9fLZnzJN6UPm9WYAgB2l1bifsUab9Ag,16
+base_descriptor-1.1.dist-info/RECORD,,
