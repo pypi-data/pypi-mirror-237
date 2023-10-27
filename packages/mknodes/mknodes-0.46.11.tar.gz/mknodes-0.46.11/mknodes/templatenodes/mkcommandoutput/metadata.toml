@@ -1,0 +1,13 @@
+[metadata]
+icon = "mdi:bash"
+
+[[resources.css]]
+filename = "terminal.css"
+
+[output.html]
+template = """
+<div data-terminal>
+  <span data-ty="input">{{ node.call | join(" ") }}</span>
+  <span data-ty>{{ node.output }}</span>
+</div>
+"""
