@@ -1,0 +1,10 @@
+homepress/__init__.py,sha256=9ntw8LAdyFaHtmJC7pjpk2vAJvhQFcGHlSgdp5paPhM,23
+homepress/bindermath.py,sha256=2d4myvAsymoMOzaKcmMpKKyW-Zm-6J666k6-fML3YW8,1036
+homepress/cli.py,sha256=nFsqbxnCOlJZRLUc-5hVknIpCk2LrOgF8UR-p6knhHk,7629
+homepress/errors.py,sha256=9ThafvdbiL0lOInCIeYfLoNBeaWOcIXbpC53I5ddlVw,164
+homepress/pdfbinder.py,sha256=GjVr5XxI53KHYUvl-FATelsuFXMCRZHBNu9PmasSEcE,15588
+homepress-0.3.1.dist-info/entry_points.txt,sha256=IyNIvxTBsvPAlOqoo3NaEqdt4B__fQW5JU1zsjx67FU,47
+homepress-0.3.1.dist-info/LICENSE.txt,sha256=kaoezSsHVmXbU9oaFecgVAkmaAINxSjWp7xJ5y4uh4I,1091
+homepress-0.3.1.dist-info/METADATA,sha256=LJq1UoU2MmbqxJOHrddznWArc-lPlXJeLO8tVyaiQlM,890
+homepress-0.3.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+homepress-0.3.1.dist-info/RECORD,,
