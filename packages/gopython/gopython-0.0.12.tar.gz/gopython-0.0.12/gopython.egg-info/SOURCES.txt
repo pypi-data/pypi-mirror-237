@@ -1,0 +1,8 @@
+README.md
+setup.py
+gopython/__init__.py
+gopython/hello.py
+gopython.egg-info/PKG-INFO
+gopython.egg-info/SOURCES.txt
+gopython.egg-info/dependency_links.txt
+gopython.egg-info/top_level.txt
