@@ -1,0 +1,13 @@
+xibs/__init__.py,sha256=o1l7sXsQ1Mt1NhaKklJo4E-nqkoPJWvySgfbVqv38y4,1000
+xibs/_old_michalis.py,sha256=pwLRXoQsWn_y5Wa96LCRP8tyFZgzwbEoVla24Jg9p3U,25135
+xibs/analytical.py,sha256=elIU5WqrSO7Zjaiw3_1eOpFxwYMbw_Fb_A2LeU14ZM4,20907
+xibs/formulary.py,sha256=tRU0V5CaOh2cCwRsrJY2rsyl4dCJFpLZvv8yhhIUDx8,8141
+xibs/inputs.py,sha256=dhPxNX1XsA_oeZtRQqtrm8efKfmTC1RcnSNkiZkdUWA,7270
+xibs/version.py,sha256=a2dPXs2W3wzINgQr6TVX5bVaf-ZVHwu2f2PLZzpTVj4,631
+xibs/kicks/__init__.py,sha256=CXbVppwMPp1diFJNKtraQrqeKwQq9aPLM4Hvyyv3d-o,113
+xibs/kicks/kinetic.py,sha256=XcUFq21cZbzKVkILzffv3j_0Xdo4HKtm2J3THhyoX2Y,2604
+xibs/kicks/simple.py,sha256=Hu1pBwKh_nAoVgv7lMIWsyhaj4mO9mItQrnk9Hx8SUc,1280
+xibs-0.2.0.dist-info/METADATA,sha256=yP0oud2rr9FScqKhnug4YHB_Nb4y-ePKDip1IYvmU_0,3224
+xibs-0.2.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+xibs-0.2.0.dist-info/licenses/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+xibs-0.2.0.dist-info/RECORD,,
