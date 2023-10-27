@@ -1,0 +1,12 @@
+darth_d/__init__.py,sha256=NTSPKyWMX1yVEam3B_yXtDXEyDy7Y7cKLkGTMV-78fY,112
+darth_d/_create.py,sha256=1VHEyyPL3qDutl3MMgToid430nTgL5sTI5DdiNNAVOY,941
+darth_d/_napari_plugin.py,sha256=EpOwGjBJYvaY4xBGvdMHp88tyW_orDIVtd-LOxWX8QY,2838
+darth_d/_replace.py,sha256=mQQNiDQ0sNvEfRVe_dk7h5Nf25dWMu6-h-ySA2HA-Pk,3816
+darth_d/_utilities.py,sha256=duSUfOIhg3bjjLI2WKo7JO8rW4fc3nedf715pRtgn8Q,1487
+darth_d/_vary.py,sha256=jLyNiFo4_u6Kd7HSDdNjP3Ogb1O3jMPRAZWL_wQ7lrM,1240
+darth_d-0.1.0.dist-info/LICENSE,sha256=84foK14mR-blWbDxijE3aKw-cEpyzPYw9XXp0T0hOdA,1500
+darth_d-0.1.0.dist-info/METADATA,sha256=L8rApDHMvetNcpFbfpgQGCyyUR6OvvI5JgT-CjQzeYA,4646
+darth_d-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+darth_d-0.1.0.dist-info/entry_points.txt,sha256=SEyoemSTWyWhJzCmsNs5mrgGdj-Y0PAW9iq7b1gHDfk,49
+darth_d-0.1.0.dist-info/top_level.txt,sha256=t5VTbE6yiWs2sSa8LOBd5pFixQ9QmcDBqPQlsuRN94Q,8
+darth_d-0.1.0.dist-info/RECORD,,
