@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: worstpassword
+Version: 0.1.0
+Summary: Generating worst passwords.
+License: LICENSE
+Author: bespontoff
+Author-email: bespontoff@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# WorstPassword
+
+## Generating a worst passwords.
+
+options:
+  `-l LENGTH, --length LENGTH`
+                        Length of password. **Default: 8**
+
