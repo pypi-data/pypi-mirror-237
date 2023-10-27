@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+xnbs/__init__.py
+xnbs/_modidx.py
+xnbs/load.py
+xnbs.egg-info/PKG-INFO
+xnbs.egg-info/SOURCES.txt
+xnbs.egg-info/dependency_links.txt
+xnbs.egg-info/entry_points.txt
+xnbs.egg-info/not-zip-safe
+xnbs.egg-info/requires.txt
+xnbs.egg-info/top_level.txt
