@@ -1,0 +1,13 @@
+phonkd_bot/__init__.py,sha256=YlsLmy0FS8V0L5f-36MBI8RT_z1P89ovpbBzHIxM89E,36
+phonkd_bot/api_handler.py,sha256=K37LPBCPFXnZM0Ogyxi6agmgi8BXi8XuoShiCCau8zo,3082
+phonkd_bot/bot.py,sha256=TFgZbxTBRl0Z6uHHZlMdGSeRji5epcIHvc_IYN-iQ2U,1382
+phonkd_bot/logger.py,sha256=D8tnN6ta2oPcdlEwyXndsaRv1G9Fs-qhoGLoyIdZMRc,1745
+phonkd_bot/cogs/on_message.py,sha256=WhqUziSRa2xBw9PWMhgWqtJQ8zvIIbsLbl9TZsvkdgs,887
+phonkd_bot/cogs/on_ready.py,sha256=8SrCMvcLh79hGmI4m-1vWlatJhqTcDEQrDQc8-tkvNw,814
+phonkd_bot/cogs/__pycache__/on_message.cpython-311.pyc,sha256=hT7NAt3JxJffG6Pyiz9TuDIMcf6VN-7wjUuSgfWzTMY,2106
+phonkd_bot/cogs/__pycache__/on_ready.cpython-311.pyc,sha256=jTl2Pd6hiMMWq5Ok_VvewrSoxzqANNhkuTyDSs5woa8,2227
+phonkd_bot-0.0.11.dist-info/LICENSE,sha256=Hg4OuRgmSwMg73uwWBXgJBPtI08L9AkdPqmx36TMSlA,1062
+phonkd_bot-0.0.11.dist-info/METADATA,sha256=UvCW8-ApIN0wYisMAwPDloafMB-vscOwmK-XMz6esTs,5682
+phonkd_bot-0.0.11.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+phonkd_bot-0.0.11.dist-info/top_level.txt,sha256=27FdW99HcBDhRelFxAcKsOYToAHE-NVhpJv39qxeg5E,11
+phonkd_bot-0.0.11.dist-info/RECORD,,
