@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "styled"
+dynamic = ["version"]
+license = {text = "Apache Software License 2.0"}
+authors = [
+    {name = "Paul K Korir, PhD"},
+    {email = "pkorir@ebi.ac.uk"},
+]
+description = "Style your terminal with ease!"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["style, terminal, colours, format"]
+# enter the list of trove classifiers below
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Terminals",
+    "Topic :: Text Processing",
+    "Topic :: Text Processing :: Markup",
+    "Topic :: Utilities"
+]
+dependencies = [
+
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>6.0",
+    "pytest-cov",
+]
+
+[project.urls]
+homepage = "https://github.com/emdb-empiar/styled"
+documentation = "https://github.com/emdb-empiar/styled"
+repository = "https://github.com/emdb-empiar/styled"
+changelog = "https://github.com/emdb-empiar/styled"
+
+[project.scripts]
+styled = "styled.__main__:main"
