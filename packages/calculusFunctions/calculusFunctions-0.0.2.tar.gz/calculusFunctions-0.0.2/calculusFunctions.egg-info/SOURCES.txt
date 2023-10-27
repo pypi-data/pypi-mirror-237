@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+calculusFunctions.egg-info/PKG-INFO
+calculusFunctions.egg-info/SOURCES.txt
+calculusFunctions.egg-info/dependency_links.txt
+calculusFunctions.egg-info/top_level.txt
