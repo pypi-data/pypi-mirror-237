@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ACT4E-exercises
+Version: 7.3.2310261700
+Home-page: 
+Author: Andrea Censi
+Author-email: Andrea Censi <acensi@ethz.ch>
+Requires-Dist: ruamel.yaml
+Requires-Dist: typing-extensions
+Requires-Dist: zuper-commons-z7
+Requires-Dist: zuper-html-plus-z7
+Requires-Dist: zuper-html-z7
+Requires-Dist: zuper-testint-z7
+Requires-Dist: zuper-typing-z7
+Provides-Extra: test
+
