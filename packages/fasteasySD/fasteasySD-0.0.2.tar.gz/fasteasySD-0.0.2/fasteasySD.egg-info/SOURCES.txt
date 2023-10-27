@@ -1,0 +1,6 @@
+README.md
+setup.py
+fasteasySD.egg-info/PKG-INFO
+fasteasySD.egg-info/SOURCES.txt
+fasteasySD.egg-info/dependency_links.txt
+fasteasySD.egg-info/top_level.txt
