@@ -1,0 +1,321 @@
+Metadata-Version: 2.1
+Name: ontolearn
+Version: 0.6.0
+Summary: Ontolearn is an open-source software library for structured machine learning in Python. Ontolearn includes modules for processing knowledge bases, inductive logic programming and ontology engineering.
+Home-page: https://github.com/dice-group/dice-embeddings
+Author: Caglar Demir
+Author-email: caglardemir8@gmail.com
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scikit-learn>=0.24.1
+Requires-Dist: matplotlib>=3.3.4
+Requires-Dist: owlready2>=0.40
+Requires-Dist: torch>=1.7.1
+Requires-Dist: rdflib>=6.0.2
+Requires-Dist: pandas>=1.5.0
+Requires-Dist: sortedcontainers>=2.4.0
+Requires-Dist: flask>=1.1.2
+Requires-Dist: deap>=1.3.1
+Requires-Dist: httpx>=0.21.1
+Requires-Dist: parsimonious>=0.8.1
+Requires-Dist: tqdm>=4.64.0
+Requires-Dist: tokenizers>=0.12.1
+Requires-Dist: transformers>=4.19.2
+Requires-Dist: pytest>=7.2.2
+Provides-Extra: test
+Requires-Dist: pytest>=6.2.4; extra == "test"
+Requires-Dist: pytest-codeblocks>=0.11.2; extra == "test"
+Requires-Dist: tox>=3.24.3; extra == "test"
+Requires-Dist: tox-run-before>=0.1; extra == "test"
+Provides-Extra: docs
+Requires-Dist: sphinx>=4.0.2; extra == "docs"
+Requires-Dist: sphinxext-autox>=0.0.2; extra == "docs"
+Requires-Dist: sphinx-theme>=1.0; extra == "docs"
+Requires-Dist: sphinx-rtd-theme>=0.5.1; extra == "docs"
+Requires-Dist: sphinxcontrib-plantuml>=0.21; extra == "docs"
+Requires-Dist: plantuml-local-client>=1.2021.10; extra == "docs"
+Requires-Dist: myst-parser>=0.15.2; extra == "docs"
+Provides-Extra: lint
+Requires-Dist: flake8>=3.9.2; extra == "lint"
+Provides-Extra: dev
+Requires-Dist: build>=0.6.0; extra == "dev"
+Requires-Dist: pytest>=6.2.4; extra == "dev"
+Requires-Dist: pytest-codeblocks>=0.11.2; extra == "dev"
+Requires-Dist: tox>=3.24.3; extra == "dev"
+Requires-Dist: tox-run-before>=0.1; extra == "dev"
+Requires-Dist: sphinx>=4.0.2; extra == "dev"
+Requires-Dist: sphinxext-autox>=0.0.2; extra == "dev"
+Requires-Dist: sphinx-theme>=1.0; extra == "dev"
+Requires-Dist: sphinx-rtd-theme>=0.5.1; extra == "dev"
+Requires-Dist: sphinxcontrib-plantuml>=0.21; extra == "dev"
+Requires-Dist: plantuml-local-client>=1.2021.10; extra == "dev"
+Requires-Dist: myst-parser>=0.15.2; extra == "dev"
+
+# Ontolearn
+
+*Ontolearn* is an open-source software library for description logic learning problem.
+- **Drill** &rarr; [Neuro-Symbolic Class Expression Learning](https://www.ijcai.org/proceedings/2023/0403.pdf)
+- **EvoLearner** &rarr; [EvoLearner: Learning Description Logics with Evolutionary Algorithms](https://dl.acm.org/doi/abs/10.1145/3485447.3511925)
+- **NCES2** &rarr; (soon) [Neural Class Expression Synthesis in ALCHIQ(D)](https://papers.dice-research.org/2023/ECML_NCES2/NCES2_public.pdf)
+- **NCES** &rarr; [Neural Class Expression Synthesis](https://link.springer.com/chapter/10.1007/978-3-031-33455-9_13) 
+- **NERO** &rarr; [Learning Permutation-Invariant Embeddings for Description Logic Concepts](https://link.springer.com/chapter/10.1007/978-3-031-30047-9_9)
+- **CLIP** &rarr; (soon) [Learning Concept Lengths Accelerates Concept Learning in ALC](https://link.springer.com/chapter/10.1007/978-3-031-06981-9_14)
+- **CELOE** &rarr; [Class Expression Learning for Ontology Engineering](https://www.sciencedirect.com/science/article/abs/pii/S1570826811000023)
+- **OCEL** &rarr; A limited version of CELOE
+
+You can find more details about these algorithms and what *Ontolearn* has to offer in the [documentation](https://ontolearn-docs-dice-group.netlify.app/index.html).
+
+Quick navigation: 
+- [Installation](#installation)
+- [Quick try-out](#quick-try-out)
+- [Usage](#usage)
+- [Relevant Papers](#relevant-papers)
+
+## Installation
+For detailed instructions please refer to the [installation guide](https://ontolearn-docs-dice-group.netlify.app/usage/installation.html) in the documentation.
+
+### Installation from source
+
+Make sure to set up a virtual python environment like [Anaconda](https://www.anaconda.com/)  before continuing with the installation. 
+
+To successfully pass all the tests you need to download some external resources in advance 
+(see [_Download external files_](#download-external-files)). You will need
+at least to download the datasets. Also, install _java_ and _curl_ if you don't have them in your system already:
+
+```commandline
+sudo apt install openjdk-11-jdk
+sudo apt install curl
+```
+
+A quick start up will be as follows:
+
+```shell
+git clone https://github.com/dice-group/Ontolearn.git && conda create --name onto python=3.8 && conda activate onto 
+pip3 install -r requirements.txt && python -c "import ontolearn"
+# wget https://files.dice-research.org/projects/Ontolearn/KGs.zip -O ./KGs.zip && unzip KGs.zip
+# python -m pytest tests # Partial test with pytest
+```
+or
+```shell
+pip install ontolearn  # more on https://pypi.org/project/ontolearn/
+```
+
+## Quick try-out
+
+You can execute the script `deploy_cl.py` to deploy the concept learners in a local web server and try
+the algorithms using an interactive interface made possible by [Gradio](https://www.gradio.app/). Currently, 
+you can only deploy the following concept learners: **NCES**, **EvoLearner**, **CELOE** and **OCEL**.
+
+> **NOTE: In case you don't have a dataset, don't worry, you can use
+> the datasets we store in our data server. See _[Download external files](#download-external-files)_.**
+
+For example the command below will launch an interface using **EvoLearner** as the model on 
+the **Family** dataset which is a simple dataset with 202 individuals:
+
+```shell
+python deploy_cl.py --model evolearner --path_knowledge_base KGs/Family/family-benchmark_rich_background.owl
+```
+
+Once you run this command, a local URL where the model is deployed will be provided to you.
+
+
+In the interface you need to enter the positive and the negative examples. For a quick run you can
+click on the **Random Examples** checkbox, but you may as well enter some real examples for
+the learning problem of **Aunt**, **Brother**, **Cousin**, etc. which
+you can find in the file `examples/synthetic_problems.json`. Just copy and paste the IRIs of
+positive and negative examples for a specific learning problem directly
+in their respective fields.
+
+Run the help command to see the description on this script usage:
+
+```shell
+python deploy_cl.py --help
+```
+
+## Usage
+
+In the [examples](https://github.com/dice-group/Ontolearn/tree/develop/examples) folder, you can find examples on how to use
+the learning algorithms. Also in the [tests](https://github.com/dice-group/Ontolearn/tree/develop/tests) folder you can find the test cases.
+
+For more detailed instructions we suggest to follow the [guides](https://ontolearn-docs-dice-group.netlify.app/usage/06_concept_learners) in the documentation.
+
+Below we give a simple example on using CELOE to learn class expressions for a small dataset.
+
+```python
+from ontolearn.concept_learner import CELOE
+from ontolearn.model_adapter import ModelAdapter
+from ontolearn.owlapy.model import OWLNamedIndividual, IRI
+from ontolearn.owlapy.namespaces import Namespaces
+from ontolearn.owlapy.render import DLSyntaxObjectRenderer
+from ontolearn.owlapy.owlready2.complex_ce_instances import OWLReasoner_Owlready2_ComplexCEInstances
+
+NS = Namespaces('ex', 'http://example.com/father#')
+
+# Defining the learning problem
+positive_examples = {OWLNamedIndividual(IRI.create(NS, 'stefan')),
+                     OWLNamedIndividual(IRI.create(NS, 'markus')),
+                     OWLNamedIndividual(IRI.create(NS, 'martin'))}
+negative_examples = {OWLNamedIndividual(IRI.create(NS, 'heinz')),
+                     OWLNamedIndividual(IRI.create(NS, 'anna')),
+                     OWLNamedIndividual(IRI.create(NS, 'michelle'))}
+
+# Create a model of CELOE using ModelAdapter
+# Only the class of the learning algorithm is specified 
+model = ModelAdapter(learner_type=CELOE,
+                     reasoner_type=OWLReasoner_Owlready2_ComplexCEInstances,
+                     path="KGs/father.owl")
+
+# Fit the learning problem to the model
+model.fit(pos=positive_examples,
+          neg=negative_examples)
+
+# Used to render to description logics syntax
+renderer = DLSyntaxObjectRenderer()
+
+# Print the rendered top best hypothesis
+for desc in model.best_hypotheses(1):
+    print('The result:', renderer.render(desc.concept), 'has quality', desc.quality)
+```
+The goal in this example is to learn a class expression for the concept "father". 
+The output is as follows:
+```
+The result: (¬female) ⊓ (∃ hasChild.⊤) has quality 1.0
+```
+
+NCES is a powerful algorithm implemented recently.
+For a quick start on how to use it, please refer to the notebook [simple usage NCES](examples/simple-usage-NCES.ipynb).
+
+----------------------------------------------------------------------------
+
+#### Download external files
+
+Some resources like pre-calculated embeddings or `pre_trained_agents` and datasets (ontologies)
+are not included in the repository directly. Use the command line command `wget`
+ to download them from our data server.
+
+> **NOTE: Before you run this commands in your terminal, make sure you are 
+in the root directory of the project!**
+
+To download the datasets:
+
+```shell
+wget https://files.dice-research.org/projects/Ontolearn/KGs.zip -O ./KGs.zip
+```
+
+Then depending on your operating system, use the appropriate command to unzip the files:
+
+```shell
+# Windows
+tar -xf KGs.zip
+
+# or
+
+# macOS and Linux
+unzip KGs.zip
+```
+
+Finally, remove the _.zip_ file:
+
+```shell
+rm KGs.zip
+```
+
+And for NCES data: 
+
+```shell
+wget https://files.dice-research.org/projects/NCES/NCES_Ontolearn_Data/NCESData.zip -O ./NCESData.zip
+unzip NCESData.zip
+rm NCESData.zip
+```
+
+
+----------------------------------------------------------------------------
+
+#### Building (sdist and bdist_wheel)
+
+You can use <code>tox</code> to build sdist and bdist_wheel packages for Ontolearn.
+- "sdist" is short for "source distribution" and is useful for distribution of packages that will be installed from source.
+- "bdist_wheel" is short for "built distribution wheel" and is useful for distributing packages that include large amounts of compiled code, as well as for distributing packages that have complex dependencies.
+
+To build and compile the necessary components of Ontolearn, use:
+```shell
+tox -e build
+```
+
+To automatically build and test the documentation of Ontolearn, use:
+```shell
+tox -e docs
+```
+
+----------------------------------------------------------------------------
+
+#### Simple Linting
+
+Using the following command will run the linting tool [flake8](https://flake8.pycqa.org/) on the source code.
+```shell
+flake8
+```
+
+----------------------------------------------------------------------------
+
+### Citing
+Currently, we are working on our manuscript describing our framework. 
+If you find our work useful in your research, please consider citing the respective paper:
+```
+# DRILL
+@inproceedings{demir2023drill,
+  added-at = {2023-08-01T11:08:41.000+0200},
+  author = {Demir, Caglar and Ngomo, Axel-Cyrille Ngonga},
+  booktitle = {The 32nd International Joint Conference on Artificial Intelligence, IJCAI 2023},
+  title = {Neuro-Symbolic Class Expression Learning},
+  url = {https://www.ijcai.org/proceedings/2023/0403.pdf},
+ year={2023}
+}
+
+# NCES2
+@inproceedings{kouagou2023nces2,
+author={Kouagou, N'Dah Jean and Heindorf, Stefan and Demir, Caglar and Ngonga Ngomo, Axel-Cyrille},
+title={Neural Class Expression Synthesis in ALCHIQ(D)},
+url = {https://papers.dice-research.org/2023/ECML_NCES2/NCES2_public.pdf},
+booktitle={Machine Learning and Knowledge Discovery in Databases},
+year={2023},
+publisher={Springer Nature Switzerland},
+address="Cham"
+}
+
+# NCES
+@inproceedings{kouagou2023neural,
+  title={Neural class expression synthesis},
+  author={Kouagou, N’Dah Jean and Heindorf, Stefan and Demir, Caglar and Ngonga Ngomo, Axel-Cyrille},
+  booktitle={European Semantic Web Conference},
+  pages={209--226},
+  year={2023},
+  publisher={Springer Nature Switzerland}
+}
+
+# EvoLearner
+@inproceedings{heindorf2022evolearner,
+  title={Evolearner: Learning description logics with evolutionary algorithms},
+  author={Heindorf, Stefan and Bl{\"u}baum, Lukas and D{\"u}sterhus, Nick and Werner, Till and Golani, Varun Nandkumar and Demir, Caglar and Ngonga Ngomo, Axel-Cyrille},
+  booktitle={Proceedings of the ACM Web Conference 2022},
+  pages={818--828},
+  year={2022}
+}
+
+
+# CLIP
+@inproceedings{kouagou2022learning,
+  title={Learning Concept Lengths Accelerates Concept Learning in ALC},
+  author={Kouagou, N’Dah Jean and Heindorf, Stefan and Demir, Caglar and Ngonga Ngomo, Axel-Cyrille},
+  booktitle={European Semantic Web Conference},
+  pages={236--252},
+  year={2022},
+  publisher={Springer Nature Switzerland}
+}
+```
+
+In case you have any question, please contact:  ```onto-learn@lists.uni-paderborn.de```
