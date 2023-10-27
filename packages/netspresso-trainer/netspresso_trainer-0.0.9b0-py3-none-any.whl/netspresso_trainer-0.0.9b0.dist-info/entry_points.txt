@@ -1,0 +1,3 @@
+[console_scripts]
+netspresso-train = netspresso_trainer.train:train_with_yaml
+
