@@ -1,0 +1,9 @@
+odoo/addons/vertical_carsharing_rest_api/__init__.py,sha256=8UI5hOzSpvGeHRcZk9JWUKr3VOYFVrknNoNUs2mwcp0,46
+odoo/addons/vertical_carsharing_rest_api/__manifest__.py,sha256=ApH7EKG9W2Jz3Oa8iYhpmGah9rM4gpZlT8Chk1m3AkA,634
+odoo/addons/vertical_carsharing_rest_api/services/__init__.py,sha256=hWt-vKFAm0GRktVWURrA-Yj-BmHTkgpnjiRHye59MZY,34
+odoo/addons/vertical_carsharing_rest_api/services/schemas.py,sha256=jO_o6B-S-gvxadzFhFDGyku1N1QNTwMl5QjzhYF19hM,1730
+odoo/addons/vertical_carsharing_rest_api/services/services_res_partner.py,sha256=vrBcEMUeswHmOFQ8b0qz0hYCp5NCK55h1y0QZUEurf4,3113
+odoo12_addon_vertical_carsharing_rest_api-12.0.0.0.2.dev1.dist-info/METADATA,sha256=qxGOppvJ-9MqvCdSdExUnEb2d5CasZ47BZR4rn2j6d8,450
+odoo12_addon_vertical_carsharing_rest_api-12.0.0.0.2.dev1.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+odoo12_addon_vertical_carsharing_rest_api-12.0.0.0.2.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_vertical_carsharing_rest_api-12.0.0.0.2.dev1.dist-info/RECORD,,
