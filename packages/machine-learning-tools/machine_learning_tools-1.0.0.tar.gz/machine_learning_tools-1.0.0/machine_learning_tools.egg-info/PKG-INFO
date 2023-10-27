@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: machine-learning-tools
+Version: 1.0.0
+Summary: Utility functions for sklearn and other machine learning utilities
+Home-page: UNKNOWN
+Author: Brendan Celii
+Author-email: brendanacelii@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/reimerlab/machine_learning_tools
+Project-URL: Documentation, https://reimerlab.github.io/machine_learning_tools/
+Platform: UNKNOWN
+
+machine\_learning\_tools
+========================
+
+Implemented algorithms (dimensionality reduction, clustering, etc.) and
+wrapper modules for common machine learning (sklearn) and visualizaiton
+modules. Applications include example projects from Rice University
+Machine Learning course and other Medical research application projects.
+
+
