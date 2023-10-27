@@ -1,0 +1,12 @@
+isotp/__init__.py,sha256=kcvruaEDRCTUdUZPXsQo4AbLvaj4JywI-HLoWP0HiiQ,226
+isotp/address.py,sha256=pcxYw12KnKYoxr99dG8LJpS7qRyoFNcHjIrrPfTlqME,16096
+isotp/can_message.py,sha256=-Nih8GjmPqv1pjyx9kyhnRNeQRcsswJGX4A3figdjgY,1466
+isotp/errors.py,sha256=2Fu045hW5eZ_AyipTHydNbgnFs6Q4v6UAaL9cjfe19I,3309
+isotp/protocol.py,sha256=Qsr6-yDbpiMhLQUhikZNFULyGmi81x07OTJ-T3-DGLQ,53675
+isotp/tpsock/__init__.py,sha256=Dk6fzJCibMlZbGfjdrGmr0kjQEurt45aoHrPCCa71aY,7927
+isotp/tpsock/opts.py,sha256=F4pOBIYvNnlAVgQZsPUIaJqZNXIDxNmcgJJlr2EydKg,9143
+can_isotp_fork-1.9.dist-info/LICENSE.txt,sha256=8VXiVrKDz0VepPv0Rfy2nV0eIFqQnXLYtbeWJSUfcdo,1095
+can_isotp_fork-1.9.dist-info/METADATA,sha256=BuZ2lSxnlsnwHR6I6PAfHB8Ff1YUcR833TAlCso6Vs8,1444
+can_isotp_fork-1.9.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+can_isotp_fork-1.9.dist-info/top_level.txt,sha256=0VQCFG43Qx457ZavpSCgmbprVWCrSkfpcUFw6t7IIzI,6
+can_isotp_fork-1.9.dist-info/RECORD,,
