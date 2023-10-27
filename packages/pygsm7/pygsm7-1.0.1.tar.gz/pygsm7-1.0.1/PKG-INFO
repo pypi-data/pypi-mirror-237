@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pygsm7
+Version: 1.0.1
+Summary: GSM 7-bit Encoding and Decoding Module
+Author: Alvin Mayende
+Author-email: alvinmayende@gmail.com
+Requires-Python: >=3.6
+License-File: LICENSE
