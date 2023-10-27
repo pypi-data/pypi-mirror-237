@@ -1,0 +1,11 @@
+tictacsync/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tictacsync/device_scanner.py,sha256=ybMGhSPbrfFvSWEjv0zYtwDSClVQRfGYQVJcakpuU54,18522
+tictacsync/entry.py,sha256=kboDNw_VA5-bOPMiJS6JMftqlTW0FsHxrsHMfW5ckp0,8689
+tictacsync/timeline.py,sha256=q0jhHqhj2cdjL4UIWv6_dAC7VfjQUb69Tu4VP5kULzg,34829
+tictacsync/yaltc.py,sha256=qWLhV2PP1KWoLmSVlSGGYCiCzImm6bnbPTVYilYrzzQ,69123
+tictacsync-0.1a11.dist-info/LICENSE,sha256=ZAOPXLh1zlQAnhHUd7oLslKM01YZ5UiAu3STYjwIxck,1068
+tictacsync-0.1a11.dist-info/METADATA,sha256=RvufymvGNYowOv8iwEREhXTHXT96VaqtyRn1iFui4Y0,4256
+tictacsync-0.1a11.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+tictacsync-0.1a11.dist-info/entry_points.txt,sha256=7Ih9Xas4RWMDqt2adwXpt7x9j2YtXwj_jl-jNhkIArg,54
+tictacsync-0.1a11.dist-info/top_level.txt,sha256=eaCWG-BsYTRR-gLTJbK4RfcaXajr0gjQ6wG97MkGRrg,11
+tictacsync-0.1a11.dist-info/RECORD,,
