@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: apigptcloud
+Version: 0.0.9
+Summary: All in one AIGC API package for Python
+Home-page: UNKNOWN
+Author: gantianyuneil
+Author-email: apigpt@quseit.com
+License: UNKNOWN
+Description: All in one AIGC API package for Python
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
