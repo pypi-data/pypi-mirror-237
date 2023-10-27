@@ -1,0 +1,12 @@
+cov_change/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cov_change/cov_change_check.py,sha256=LMIs432X3DQsXXeYtSe9F4zZBTuk9KEvgdlGK8S77RY,1557
+cov_change/coverage_parser.py,sha256=MGJPXcCgaeAJoO2ce6UmM0iLpeCxBTqqa-B6pVtLCZM,5428
+cov_change/diff_parser.py,sha256=1GCQUN2XgaVRzIFXeDzTj0pu5hccBYnrxb_VlenUa2c,2054
+cov_change/main.py,sha256=hjiqlzu1Eq6nXFe4-G2Y7Q2GcsVN2GGXgtOtSOSTczM,3791
+cov_change/output_writer.py,sha256=Qow8i88sCWUhlczsAZsfmkPxVy2hgx2hfzApVTQgccI,2213
+cov_change/utils.py,sha256=NOahbD60c8JQNta4UNDjR8ntr9XPWjlEw9XDDe1b49U,312
+cov_change-0.1.4.dist-info/LICENSE,sha256=uaPlXYPld4s0dSpRjV9U5aoIwX1D1LC1s34Twak57OU,1066
+cov_change-0.1.4.dist-info/METADATA,sha256=_14miZkS1813tqgV6XkBDZKTQB7xccFfQU9mwAtjI_g,3639
+cov_change-0.1.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+cov_change-0.1.4.dist-info/entry_points.txt,sha256=UyCR7RdswSQ1Jf0lNOrZYmZ4u1ynostIc_dAXGbhxgw,101
+cov_change-0.1.4.dist-info/RECORD,,
