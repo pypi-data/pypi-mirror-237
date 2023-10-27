@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: graph_nx_tools
+Version: 1.0.0
+Summary: Utility functions for creating and manipulating networkx graphs to perform networkx science functions
+Home-page: UNKNOWN
+Author: Brendan Celii
+Author-email: brendanacelii@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/reimerlab/graph_tools
+Project-URL: Documentation, https://reimerlab.github.io/graph_tools/
+Platform: UNKNOWN
+
+Algorithms and preprocessing methods for network science and graph
+machine learning. Applications include projects from Rice University
+Network Analysis class and Graph Machine Learning class.
+
+
