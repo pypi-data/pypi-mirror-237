@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+synlinkpy/__init__.py
+synlinkpy.egg-info/PKG-INFO
+synlinkpy.egg-info/SOURCES.txt
+synlinkpy.egg-info/dependency_links.txt
+synlinkpy.egg-info/requires.txt
+synlinkpy.egg-info/top_level.txt
