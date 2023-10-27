@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: lyn-env
+Version: 0.0.7
+Summary: A OpenAI Env for lyn
+Description-Content-Type: text/markdown
+Requires-Dist: gym
+
