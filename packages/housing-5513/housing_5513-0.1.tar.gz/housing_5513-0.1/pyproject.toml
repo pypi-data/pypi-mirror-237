@@ -1,0 +1,36 @@
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.black]
+line-length=88
+target-version=["py311"]
+
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "housing_5513"
+version = "0.1"
+description = "Sample code for coding practice"
+readme = "README.md"
+authors = [{ 'name' = "ananya kanagarla", 'email' = "ananya.kanagarla@tigeranalytics.com" }]
+license = { file = "LICENSE" }
+ 
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+keywords = ["housing","data training"]
+ 
+dependencies = [ "numpy", "pandas", "scikit-learn"]
+ 
+requires-python = ">=3.11"
+
+[project.urls]
+Homepage = "https://github.com/ananyaTiger/mle-training/issues/8"
+ 
+[project.scripts]
+ingest_data = "ingest_data:main"
+train = "train:main"
+score = "score:main"
