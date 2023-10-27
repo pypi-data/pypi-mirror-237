@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ADIASManager
+Version: 2023.10.4
+Summary: Tools for simplifying processes on ADIAS
+Home-page: UNKNOWN
+Author: Lachlan Phillips
+Author-email: lachlan.phillips@csiro.au
+License: UNKNOWN
+Keywords: python,ADIAS,clusters
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+Tools for launching remote clusters and managing S3 storage on ADIAS
+
