@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "worstpassword"
+version = "0.1.1"
+description = "Generating worst passwords."
+authors = ["bespontoff <bespontoff@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.scripts]
+worstpassword = 'worstpassword:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
