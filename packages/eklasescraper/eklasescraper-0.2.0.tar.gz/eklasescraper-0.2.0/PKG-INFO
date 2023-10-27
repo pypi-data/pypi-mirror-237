@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: eklasescraper
+Version: 0.2.0
+Summary: Can be used to access e-klase.lv programmatically
+Author-email: Kite8409 <em@em.id.lv>
+Project-URL: Homepage, https://github.com/Kite8409/eklasescraper
+Project-URL: Bug Tracker, https://github.com/Kite8409/eklasescraper/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: lxml
+Requires-Dist: requests
+Requires-Dist: urllib3
+Requires-Dist: DateTime
+
+# E-klase scraper
+
+Can be used to access e-klase.lv programmatically
+
+## Example
+
+    import eklasescraper.eklase
+
+    eklase = eklasescraper.eklase.Scraper()
+
+    eklase.login("peterisi", "parole123")
+
+    # Fetch diary
+    diary = eklase.fetch_diary("2023-11-01")
+        
+    # Fetch timetable
+    lesson_times_list = eklase.fetch_lesson_times()

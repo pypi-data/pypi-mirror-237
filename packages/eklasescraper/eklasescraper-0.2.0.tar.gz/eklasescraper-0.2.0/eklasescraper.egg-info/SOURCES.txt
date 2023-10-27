@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+eklasescraper/__init__.py
+eklasescraper/classes.py
+eklasescraper/eklase.py
+eklasescraper.egg-info/PKG-INFO
+eklasescraper.egg-info/SOURCES.txt
+eklasescraper.egg-info/dependency_links.txt
+eklasescraper.egg-info/requires.txt
+eklasescraper.egg-info/top_level.txt
