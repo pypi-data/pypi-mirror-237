@@ -1,0 +1,2 @@
+[console_scripts]
+testapis = testapis.cli:main

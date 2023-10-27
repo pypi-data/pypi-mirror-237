@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: testapis
+Version: 0.0.2
+Summary: api自动化测试框架
+Home-page: https://gitee.com/bluepang2021/kuto
+Author: 杨康
+Author-email: 772840356@qq.com
+Platform: API
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
