@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cross-moment
+Version: 0.0.1
+Summary: Package for cross-moment algorithm
+Author-email: Yaroslav Kivva <26yaroslav@gmail.com>
+Project-URL: Homepage, https://github.com/pypa/cross_moments
+Project-URL: Bug Tracker, https://github.com/pypa/cross_moments/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# README
+
+## Getting started
+To reproduce the experiments from the work "A Cross-Moment Approach for Causal Effect Estimation", please run the ```main.ipynb``` jupyter notebook. The necessary packages for the experiments are specified in the ```requirements.txt```.
+
+An implementation of Cross-Moment method can be found in ```methods.py```. Cross-Moment method is implemented by function ```compute_beta```. Moreover, function ```get_beta_sensor_fusion``` performs Cross-Moment method having two proxies.
