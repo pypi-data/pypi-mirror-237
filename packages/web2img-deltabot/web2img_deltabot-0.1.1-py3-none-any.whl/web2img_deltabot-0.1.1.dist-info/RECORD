@@ -1,0 +1,12 @@
+web2img_deltabot/__init__.py,sha256=XIaSgM828sCIL_0_vDDn5819vNJsI51_SdcNRaCNwn0,192
+web2img_deltabot/__main__.py,sha256=TI1buwKNFbPWIdaJHz2h0q9BEZt9vf4BI7hDvhUuiac,89
+web2img_deltabot/const.py,sha256=EOOOduTlbiT8tmXnJojWZDlkFLBzlsb9JfA2tjFBeXE,139
+web2img_deltabot/hooks.py,sha256=LW3qmiZzNS9VVk00Gnodb-j1cmjunhaFQqTJgHReFjw,4364
+web2img_deltabot/orm.py,sha256=JRLzoV84t3oM2E6Vp91A4DkSwFTzHUmMFUvKtUB38XM,1211
+web2img_deltabot/utils.py,sha256=x5SGMCvUxFkQwxcL8cfyW7UCLA9VwQFNRxhVLp5upt4,1436
+web2img_deltabot-0.1.1.dist-info/LICENSE.txt,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+web2img_deltabot-0.1.1.dist-info/METADATA,sha256=KAyvQE_K8XVxQKX8rz5LsA12dHpFOhbrSa8pUS4MqkA,42490
+web2img_deltabot-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+web2img_deltabot-0.1.1.dist-info/entry_points.txt,sha256=CYMzK_spvUxo2HA9JLQBjxoCbfBcL_8Z_youwFEZ4iw,54
+web2img_deltabot-0.1.1.dist-info/top_level.txt,sha256=A8gK2Fkm6jvadyclJZ_tGh5gFcI2LQX6SeiCOU_MqHk,17
+web2img_deltabot-0.1.1.dist-info/RECORD,,
