@@ -1,0 +1,63 @@
+[project]
+name = "fastapi_ccli"
+version = "0.0.2"
+description = "Tool to automatically clone existing fastapi repositories based on command line conditions"
+authors = [
+    { name = "Wu Clan", email = "jianhengwu0407@gmail.com" },
+]
+readme = "README.md"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries",
+]
+requires-python = ">=3.7,<4.0"
+dependencies = [
+    "typer[all]==0.9.0",
+    "requests>=2.31.0",
+    "questionary==1.10.0",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/wu-clan/fastapi_ccli"
+repository = "https://github.com/wu-clan/fastapi_ccli"
+
+[project.scripts]
+fastapi-ccli = "fastapi_ccli.main:run"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest<8.0,>=7.0",
+]
+lint = [
+    "pre-commit>=2.21.0",
+    "ruff>=0.1.2",
+]
+
+[tool.ruff]
+line-length = 120
+cache-dir = "./.ruff_cache"
+
+[tool.ruff.isort]
+order-by-type = true
+
+[tool.ruff.flake8-quotes]
+inline-quotes = "single"
+multiline-quotes = "single"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
