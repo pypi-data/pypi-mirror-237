@@ -1,0 +1,13 @@
+requests
+typing-extensions
+
+[aws]
+boto3
+
+[azure]
+azure-mgmt-compute
+azure-identity
+
+[gcp]
+google-cloud-billing
+google-cloud-compute
