@@ -1,0 +1,7 @@
+setup.py
+beautiful_rainbow/__init__.py
+beautiful_rainbow/beautiful_rainbow.py
+beautiful_rainbow.egg-info/PKG-INFO
+beautiful_rainbow.egg-info/SOURCES.txt
+beautiful_rainbow.egg-info/dependency_links.txt
+beautiful_rainbow.egg-info/top_level.txt
