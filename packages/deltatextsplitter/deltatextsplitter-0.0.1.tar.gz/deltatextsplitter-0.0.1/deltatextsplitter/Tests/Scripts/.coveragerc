@@ -1,0 +1,5 @@
+[run]
+source = ../../Source/
+omit =
+    ./*
+    ../../Source/__init__.py
