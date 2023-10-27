@@ -1,0 +1,10 @@
+logics/__init__.py,sha256=pAp93gPwbYbZFzYTajIfmCdIpUhruSAvx075rti5dLs,111
+logics/__main__.py,sha256=aWqoSDPt8vienZ82YFaD5ZnMAkcRPnRk1gqxnHzTZF8,1249
+logics/logics.py,sha256=67VLhkK37AsFmlL142dwOQ5-lziiZcj4FMEPzxqgX-s,10588
+logics/parser.py,sha256=moKC2zvp5MwnmhrOJIWAed2noxCmX1hKlaesc6QC-HA,52025
+logics/value.py,sha256=4yLSrnNxakEJcyAt1pKvfHyUW1qo2ASRK18s5hmlfxY,10226
+logics/version.py,sha256=OaIl7v-6zEWEY90Jlh6yoBjO3zWX1oX7RsvqrK3o1TU,23
+logics_py-0.0.11.dist-info/METADATA,sha256=3_XNic35Az-pGNOn3RDhCKI2rB1fQRkATPzGfgXrabM,8186
+logics_py-0.0.11.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+logics_py-0.0.11.dist-info/top_level.txt,sha256=k4PbpunfAANVRYaepXPwZDw2AFgKSX1sq5YoimPJLN4,7
+logics_py-0.0.11.dist-info/RECORD,,
