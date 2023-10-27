@@ -1,0 +1,17 @@
+README.md
+setup.py
+dimension_reduction_gagan.egg-info/PKG-INFO
+dimension_reduction_gagan.egg-info/SOURCES.txt
+dimension_reduction_gagan.egg-info/dependency_links.txt
+dimension_reduction_gagan.egg-info/requires.txt
+dimension_reduction_gagan.egg-info/top_level.txt
+logs/logger.py
+my_dimension_reduction/__init__.py
+my_dimension_reduction/dimension_reduction.py
+my_dimension_reduction/isomap.py
+my_dimension_reduction/lle.py
+my_dimension_reduction/mds.py
+my_dimension_reduction/pca.py
+my_dimension_reduction/random_projection.py
+my_dimension_reduction/tsne.py
+tests/test_dimension_reduction.py
