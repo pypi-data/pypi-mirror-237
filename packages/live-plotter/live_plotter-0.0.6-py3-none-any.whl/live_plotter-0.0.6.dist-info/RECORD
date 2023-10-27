@@ -1,0 +1,9 @@
+live_plotter/__init__.py,sha256=hgPLJuJgiphfLdCfjsDD7fTibOIlZWBL87jhV1CzDsE,133
+live_plotter/fast_live_plotter_core.py,sha256=ccsU5yCMYb1mVUbYU0PJyFfKNHZRsPa0U0TvJhi_fsY,9808
+live_plotter/live_plotter_core.py,sha256=jarxmY4DwO8zn__8ZFAWrzZjcrUjGEz1QhT1C84mFM8,8635
+live_plotter/utils.py,sha256=Z6pkJgY6LEqZvelFDVoQOwDV5BQL9525eo6TSEi98wk,576
+live_plotter-0.0.6.dist-info/LICENSE,sha256=fjRdz0e6D74KAWACf62i5qocrMQUQxialtwG8VGGgRU,1066
+live_plotter-0.0.6.dist-info/METADATA,sha256=tnVBvFauY8bZ-MrSsmjzK16-zn-LUmHHH7_sveYi4go,4233
+live_plotter-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+live_plotter-0.0.6.dist-info/top_level.txt,sha256=0l95J7zm_eM7N1-QFHRd0rKn1CBJUUMevyKaJdomwK0,13
+live_plotter-0.0.6.dist-info/RECORD,,
