@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.py
+vandu/__init__.py
+vandu/test2.py
+vandu/vandu.py
+vandu.egg-info/PKG-INFO
+vandu.egg-info/SOURCES.txt
+vandu.egg-info/dependency_links.txt
+vandu.egg-info/top_level.txt
