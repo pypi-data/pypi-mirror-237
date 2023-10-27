@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+published/__init__.py
+published/published.py
+test/test_published.py
+wasimtest.egg-info/PKG-INFO
+wasimtest.egg-info/SOURCES.txt
+wasimtest.egg-info/dependency_links.txt
+wasimtest.egg-info/top_level.txt
