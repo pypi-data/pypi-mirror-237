@@ -1,0 +1,8 @@
+pymssql/__init__.py,sha256=aoucRbgTXnGza0I2U9w9UGItd6R2prv859icX8WjCaM,105
+pymssql/_mssql.cp310-win_amd64.pyd,sha256=-2AQ6Pg9NspWlTCl1_77Z7Xpgh249aY9AaX6jTjHZA4,4627456
+pymssql/_pymssql.cp310-win_amd64.pyd,sha256=zYlPZWn-LAqOt2nlmmz-uygVzOWfeNebLbyumOINT1g,242688
+pymssql-2.2.10.dist-info/LICENSE,sha256=MZ2u_jjr7q098Xjlk3iYpS1nwMeV9U8cC7EKw7nP-2M,26940
+pymssql-2.2.10.dist-info/METADATA,sha256=5v5_8czM9zhZS4PD1zFEN9RhB_oKrOlYqumsw-dMJ3w,4710
+pymssql-2.2.10.dist-info/WHEEL,sha256=yrvteVAZzxQvtDnzdCRh4dP01sPIxYhLXIXplC7o50E,102
+pymssql-2.2.10.dist-info/top_level.txt,sha256=HlTBOE3UmM9y83_GIjyFhGMgISoya2SiN-iIO9Efa8o,8
+pymssql-2.2.10.dist-info/RECORD,,
