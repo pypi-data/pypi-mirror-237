@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/awesome_py_utils/__init__.py
+src/awesome_py_utils/example.py
+src/awesome_py_utils.egg-info/PKG-INFO
+src/awesome_py_utils.egg-info/SOURCES.txt
+src/awesome_py_utils.egg-info/dependency_links.txt
+src/awesome_py_utils.egg-info/top_level.txt
