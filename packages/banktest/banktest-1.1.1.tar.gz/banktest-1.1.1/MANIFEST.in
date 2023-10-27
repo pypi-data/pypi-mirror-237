@@ -1,0 +1,10 @@
+include banktest/*.jpg
+include banktest/*.jpeg
+include banktest/*.png
+include banktest/*.xml
+include banktest/*.h5
+include banktest/*.json
+include banktest/haarcascades/*.xml
+recursive-include banktest/models *
+include banktest/*.py
+include banktest/*.csv
