@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: HyresRebuilder
+Version: 0.3.7
+Summary: Rebuild atomistic model from HyRes model.
+Home-page: https://github.com/wayuer19/HyresRebuilder
+Download-URL: https://github.com/wayuer19/HyresRebuilder/releases
+Author: Shanlong Li
+Author-email: shanlongli@umass.edu
+Platform: Tested on Ubuntu 22.04
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: MDAnalysis
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: coverage; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: collective.checkdocs; extra == "test"
+Requires-Dist: pygments; extra == "test"
+Requires-Dist: MDAnalysis; extra == "test"
+
+# HyresRebuilder
+This packe is used to build atomic model from HyRes model.
