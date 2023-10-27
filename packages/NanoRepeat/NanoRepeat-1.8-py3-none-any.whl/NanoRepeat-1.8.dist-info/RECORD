@@ -1,0 +1,16 @@
+NanoRepeat/__init__.py,sha256=_utcuSS1KZBZXgn9nk5PrW4WzWC-v9YIdtqdDZiPSyY,186
+NanoRepeat/nanoRepeat-joint.py,sha256=XOrm-hqnJI7L2GPYdoyXZn6sbWsD3v57D3UZUCrGrGE,36432
+NanoRepeat/nanoRepeat.py,sha256=F2d1en3PfTeKrYkcv8ZLcNASNIfqRDTc6ZcadRvWtr0,11353
+NanoRepeat/nanoRepeat_bam.py,sha256=bNxXjHw-XOXhy169VV1ECn0db0SDlAl-CNRRwSVzR1w,33019
+NanoRepeat/paf.py,sha256=U4w66t7O3TyafiD4qWiy2qfdiR-Gnyr3l77uh31UWOA,3078
+NanoRepeat/repeat_region.py,sha256=AWh9nEU9pUmTIhqYiPG9MxjDovoPIuD8vE5qBSIQMhM,6899
+NanoRepeat/split_alleles.py,sha256=6ge6Aqe4cBYz89N7v8CbpIXkyxM7JH8NGVt65ibcCus,32948
+NanoRepeat/tk.py,sha256=ViO-XSzrpuUNXUpa2a3LkcQn4FLN2u1Ny448nHCBucA,16195
+NanoRepeat-1.8.data/data/LICENSE,sha256=8x-Hva1dCdIpTYCWuja31rw9RKSnXi-cL_xkcQGTA9M,1097
+NanoRepeat-1.8.data/scripts/nanoRepeat-joint.py,sha256=f-P8dMVNnIwTTq3IO49lPr1QX3HzzTHg9j1L9MWRM0Y,36418
+NanoRepeat-1.8.data/scripts/nanoRepeat.py,sha256=L--xVTwxoke6sjxeao4RMzEuKdgvYVMH9sd_YVZNJ-E,11339
+NanoRepeat-1.8.dist-info/LICENSE,sha256=8x-Hva1dCdIpTYCWuja31rw9RKSnXi-cL_xkcQGTA9M,1097
+NanoRepeat-1.8.dist-info/METADATA,sha256=dNjFVmOh3Xo80zO2bh8Pok9hUruaBshY74gjjyz5FfI,16519
+NanoRepeat-1.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+NanoRepeat-1.8.dist-info/top_level.txt,sha256=VXfxHIPv-PLfRc6yScYbrBoYdjsPkOOTyVI-4XpJIFk,11
+NanoRepeat-1.8.dist-info/RECORD,,
