@@ -1,0 +1,3 @@
+cdef class BaseFunction:
+    cpdef double evaluate(self, double[:] individual) noexcept:
+        ...
