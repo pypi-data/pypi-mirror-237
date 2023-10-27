@@ -1,0 +1,11 @@
+typedal/__about__.py,sha256=tKxhCMcomuWVNZ5gqzROThMa5-gQ346ItwCvt3hcvNQ,213
+typedal/__init__.py,sha256=QQpLiVl9w9hm2LBxey49Y_tCF_VB2bScVaS_mCjYy54,366
+typedal/core.py,sha256=b4Sxbs6z2e6msL9iFYJuyxYVs2Sqi1p5E8kmkjTEw1M,79570
+typedal/fields.py,sha256=z2PD9vLWqBR_zXtiY0DthqTG4AeF3yxKoeuVfGXnSdg,5197
+typedal/for_py4web.py,sha256=_nK9cc9TV2x2Kj6S_F8MGB-gdWSS4eY_u0PPuQN0TP4,893
+typedal/helpers.py,sha256=YrfeMt3V6I4WwvwtaHYTy1_UCwrwimFjQU4QpPeZg4A,6353
+typedal/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typedal/types.py,sha256=jm4huTHMq0LJjcviqJLu87xxBfi3lOg7z6da271GDYg,480
+typedal-2.0.0b4.dist-info/METADATA,sha256=CBtwjwL_7sk9N-joYNuQ5tvtbz7gLjRZg35osb9JXt4,6399
+typedal-2.0.0b4.dist-info/WHEEL,sha256=KGYbc1zXlYddvwxnNty23BeaKzh7YuoSIvIMO4jEhvw,87
+typedal-2.0.0b4.dist-info/RECORD,,
