@@ -1,0 +1,2 @@
+[console_scripts]
+tracery = tracery.__main__:main
