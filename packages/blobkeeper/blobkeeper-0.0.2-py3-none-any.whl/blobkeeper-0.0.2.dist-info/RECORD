@@ -1,0 +1,9 @@
+blobkeeper/__init__.py,sha256=uwbxbxL6sZCcnTiSKgL4ARkhwXi9x-RruY-Fjbils3k,1980
+blobkeeper/data.py,sha256=B0Mz-IMLh2bPqSuv78QzfqWo0bFE1CaAjFSw_-sYkFg,834
+blobkeeper/index.py,sha256=E_hW0NMMb1QYYJFX8SUxdb-8WtjTFwcrpoqQm10AaJ8,1742
+blobkeeper/types.py,sha256=mnTpDAlPVpBvq7cott6XTpZI9gO3UeVnytYK9O4Lfms,89
+blobkeeper-0.0.2.dist-info/LICENSE,sha256=CUHhlD6HyfsLfT8TJwIMnf-L3xURscbHXPyVVPzexIA,1069
+blobkeeper-0.0.2.dist-info/METADATA,sha256=_3yIW7ozBGEvnJhhKHKDG9J32LJH7Pa3cAY3fouDYaA,4308
+blobkeeper-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+blobkeeper-0.0.2.dist-info/top_level.txt,sha256=rUxvxkDRVs6_Qe2YopsgPwOYgxFniWwTFgECZT2AERg,11
+blobkeeper-0.0.2.dist-info/RECORD,,
