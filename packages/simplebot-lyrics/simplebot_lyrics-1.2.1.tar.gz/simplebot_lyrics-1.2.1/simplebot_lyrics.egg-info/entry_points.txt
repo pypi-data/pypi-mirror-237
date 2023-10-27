@@ -1,0 +1,2 @@
+[simplebot.plugins]
+simplebot_lyrics = simplebot_lyrics
