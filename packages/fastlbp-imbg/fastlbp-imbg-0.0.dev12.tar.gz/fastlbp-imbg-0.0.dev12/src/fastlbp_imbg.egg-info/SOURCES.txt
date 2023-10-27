@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/fastlbp_imbg/__init__.py
+src/fastlbp_imbg/example.py
+src/fastlbp_imbg/fastlbp.py
+src/fastlbp_imbg/show_results.py
+src/fastlbp_imbg.egg-info/PKG-INFO
+src/fastlbp_imbg.egg-info/SOURCES.txt
+src/fastlbp_imbg.egg-info/dependency_links.txt
+src/fastlbp_imbg.egg-info/requires.txt
+src/fastlbp_imbg.egg-info/top_level.txt
