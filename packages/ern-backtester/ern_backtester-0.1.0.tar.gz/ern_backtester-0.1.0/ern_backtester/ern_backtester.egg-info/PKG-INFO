@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ern-backtester
+Version: 0.1.0
+Summary: Ernest Backtest Framework Library
+Author: Ernest Yuen
+Author-email: ernestyuen08@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: vectorbt
+Requires-Dist: pandas
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: Bottleneck
+Requires-Dist: matplotlib
+Requires-Dist: pyarrow
+Requires-Dist: statsmodels
+Requires-Dist: seaborn

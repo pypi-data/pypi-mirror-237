@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ern_backtester/ern_backtester.egg-info/PKG-INFO
+ern_backtester/ern_backtester.egg-info/SOURCES.txt
+ern_backtester/ern_backtester.egg-info/dependency_links.txt
+ern_backtester/ern_backtester.egg-info/not-zip-safe
+ern_backtester/ern_backtester.egg-info/requires.txt
+ern_backtester/ern_backtester.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+vectorbt
+pandas
+numba
+numpy
+Bottleneck
+matplotlib
+pyarrow
+statsmodels
+seaborn
