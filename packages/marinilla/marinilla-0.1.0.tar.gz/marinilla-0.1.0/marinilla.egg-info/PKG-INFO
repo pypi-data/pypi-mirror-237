@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: marinilla
+Version: 0.1.0
+Summary: Libreria de suma
+Home-page: UNKNOWN
+Author: Juan Esteban Ospina 
+Author-email: juan.ospina25@udea.edu.co
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.10.12
+Description-Content-Type: text/markdown
+
+## Mi primera libreria
+
