@@ -1,0 +1,14 @@
+logs/__init__.py,sha256=sBwdrNeS6qKXuhTcfK7p1YsOrgqc0QwM-TNuKWJNvKU,65
+logs/logs.py,sha256=jGL43VglBAeoelEbzxvUf4JjSwRSvp7lGTu2gQQO3oI,1827
+tasks/__init__.py,sha256=gAo5lw0UoJcDf8Bnta8e0L7YH7UX3nAo0Ckko6_IOD8,29
+tasks/main.py,sha256=2A8USqqJoFxeV91ywpJh5C3sYMUOK3zsQkGoVL7GViU,2631
+tasks/main_gui.py,sha256=eJCxyutPNx2Kd6HtAKUA1X5ALeOh8fAAAR1YtLB1onA,13976
+tasks/task.py,sha256=55s3-gQB7Az5Bzj7J1ClJTqbEvleIg3t9k2kTmTX96U,4651
+tasks/tasklist.py,sha256=zjNXgP6zSzIDHoJ2HHxBGORBW2uCZCzhoohwGY51iNI,5203
+tests/__init__.py,sha256=gAo5lw0UoJcDf8Bnta8e0L7YH7UX3nAo0Ckko6_IOD8,29
+tests/test_task.py,sha256=2dviEi_mOJIakWKddmXzK9qZ0VrHwQTsAc0CrHwqLt8,3812
+tests/test_tasklist.py,sha256=eG7rh_lNXi5u1E60FSg90egz-PnOOskpNP8nHmEzJ5s,4389
+my_task_manager-1.2.dist-info/METADATA,sha256=LO0IToaUc82vir87pt7uIS7D_sHOj7Jqtta5InvdOhE,368
+my_task_manager-1.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+my_task_manager-1.2.dist-info/top_level.txt,sha256=vwLHpb1Wa3HuiTKnX8g6MkP8w2pX-2ZSO4G2ehT49i4,17
+my_task_manager-1.2.dist-info/RECORD,,
