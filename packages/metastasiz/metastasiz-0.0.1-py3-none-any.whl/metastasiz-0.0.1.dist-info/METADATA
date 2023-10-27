@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: metastasiz
+Version: 0.0.1
+Summary: placeholder
+Requires-Python: >=3.6
+Provides-Extra: dev
+Requires-Dist: twine >=4.0.2 ; extra == 'dev'
+
