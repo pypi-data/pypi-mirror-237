@@ -1,0 +1,10 @@
+aws_cdk/aws_apigatewayv2_integrations_alpha/__init__.py,sha256=LyC0rUiFSE1UWMHqD6O-7oygcIF3cCluC2NezTE2-Ec,83171
+aws_cdk/aws_apigatewayv2_integrations_alpha/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_apigatewayv2_integrations_alpha/_jsii/__init__.py,sha256=uOABUGJ6azdDT-e5RVPhed8_oBQjgooht6PZuhVO0iM,523
+aws_cdk/aws_apigatewayv2_integrations_alpha/_jsii/aws-apigatewayv2-integrations-alpha@2.103.1-alpha.0.jsii.tgz,sha256=xMzXiMKY5PMNUo7nte3-4BZiHP23vfNJiJlrP7CcGkQ,46590
+aws_cdk.aws_apigatewayv2_integrations_alpha-2.103.1a0.dist-info/LICENSE,sha256=YA6CL2YE08NgoURWXRTrec3mNy-KAR-_UNdiMqgNVMI,11391
+aws_cdk.aws_apigatewayv2_integrations_alpha-2.103.1a0.dist-info/METADATA,sha256=-RsdOrDS8PFTS05_aXBVu8fHBprMRp9PVn6DCxI4tME,9328
+aws_cdk.aws_apigatewayv2_integrations_alpha-2.103.1a0.dist-info/NOTICE,sha256=XtGET2JQh3C41orQUenLTefWItOqLmu2N-mGwW7t3Fo,113
+aws_cdk.aws_apigatewayv2_integrations_alpha-2.103.1a0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+aws_cdk.aws_apigatewayv2_integrations_alpha-2.103.1a0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_apigatewayv2_integrations_alpha-2.103.1a0.dist-info/RECORD,,
