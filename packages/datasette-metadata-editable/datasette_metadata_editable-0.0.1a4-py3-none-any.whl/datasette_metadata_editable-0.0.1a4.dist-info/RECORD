@@ -1,0 +1,11 @@
+datasette_metadata_editable/__init__.py,sha256=2R3X_rcvobuTUECxb_o6YWQN3nCaKiENmup5V39TfzM,8417
+datasette_metadata_editable/internal_migrations.py,sha256=JbUmLvhwn72KKaOiIcjSN_nvuVYtvWhOeoWnGuJ5bqU,318
+datasette_metadata_editable/schema.sql,sha256=s416YQ7YWwVTxMfElVB74DP-SkGeKSDF8z9K12u3KJ4,564
+datasette_metadata_editable/static/plugin.js,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datasette_metadata_editable/templates/edit.html,sha256=6eNJWP7GqQ-4GpQ70ulLVO1ICC7xt7dn9HzLcjPu9Bo,1929
+datasette_metadata_editable-0.0.1a4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_metadata_editable-0.0.1a4.dist-info/METADATA,sha256=Lux08cwzErTBKyBqAtaBfHYzLw5Buw2koqdEvGyjolk,2218
+datasette_metadata_editable-0.0.1a4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+datasette_metadata_editable-0.0.1a4.dist-info/entry_points.txt,sha256=WAGBQXk6Y4tRhfxDvE_-mbFr6nf5TRJoSMfX_-5LXwk,60
+datasette_metadata_editable-0.0.1a4.dist-info/top_level.txt,sha256=-J_0vv_ZWXEEUyL5IOYcmcaQA6apwEUGeT7qfNS9KV0,28
+datasette_metadata_editable-0.0.1a4.dist-info/RECORD,,
