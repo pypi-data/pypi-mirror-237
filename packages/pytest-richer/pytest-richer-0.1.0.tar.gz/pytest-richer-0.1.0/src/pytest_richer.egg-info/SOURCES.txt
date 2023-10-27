@@ -1,0 +1,17 @@
+LICENSE
+README.rst
+pyproject.toml
+src/pytest_richer/__init__.py
+src/pytest_richer/compat.py
+src/pytest_richer/header.py
+src/pytest_richer/helpers.py
+src/pytest_richer/plugin.py
+src/pytest_richer/progress.py
+src/pytest_richer/reporting.py
+src/pytest_richer/terminal.py
+src/pytest_richer.egg-info/PKG-INFO
+src/pytest_richer.egg-info/SOURCES.txt
+src/pytest_richer.egg-info/dependency_links.txt
+src/pytest_richer.egg-info/entry_points.txt
+src/pytest_richer.egg-info/requires.txt
+src/pytest_richer.egg-info/top_level.txt
