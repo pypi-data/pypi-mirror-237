@@ -1,0 +1,12 @@
+starpoint/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+starpoint/_utils.py,sha256=DkE9lQ-F-nDJYzi3IiXIFeSwUp22icEUPoarazaFNzo,3440
+starpoint/db.py,sha256=0mfkK-IU3FrXBy2GAp4P0icJdZMQ-k3XL-0gY184As8,11913
+starpoint/embedding.py,sha256=zHr-vuRQHYHiZSsCB41IY34ixjED8E_uZsom2uZrsyY,7273
+starpoint/openai.py,sha256=N_ohlK6yIiCRF2XL3xHZGo0vJlqE_rVCiW6VXxntxjM,7159
+starpoint/pandas.py,sha256=09yk65usryrJc2XIeRGRlx_dEHMJU5E9L1oOzZtfIfU,3808
+starpoint/reader.py,sha256=5SZph6vf_S-Pmj8OOa3XuaLl88Gd1qnR_-HPFLBnz2E,6061
+starpoint/writer.py,sha256=3AS3s826p5-oWpDWItQ7H6RoOhJMSYkjg5Cn4bnpHmg,14810
+starpoint-0.5.0.dist-info/METADATA,sha256=rr1I6HFGm0PT5TTwxlWAP1y7djpJ7d6vq4qyrEMMLj4,1576
+starpoint-0.5.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+starpoint-0.5.0.dist-info/licenses/LICENSE,sha256=23tRc0wLCYQHwSFTDYEAJnQxRfETM7yum1i0Qhl_lpU,1056
+starpoint-0.5.0.dist-info/RECORD,,
