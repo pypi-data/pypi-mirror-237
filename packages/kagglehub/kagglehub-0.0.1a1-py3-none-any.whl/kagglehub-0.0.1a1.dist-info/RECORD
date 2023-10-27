@@ -1,0 +1,14 @@
+kagglehub/__init__.py,sha256=Xvz_mVCmc5wyQ4in_FNvAz2hdpHseyxd1t31PMAAsUo,284
+kagglehub/auth.py,sha256=lSOChVLveqcPoW9qbqjJeHgpfQi7zHNwp6SvazgvT6E,45
+kagglehub/cache.py,sha256=1WKO3ta-HgYVs-_WgZVsGS7Os8jzPoHkzZyK2eM1KcA,2750
+kagglehub/clients.py,sha256=ZTMdSCxRoiHbn3BIXQF485wpDlwDAZa-CQznxK48AwU,1987
+kagglehub/config.py,sha256=Sd_PYChQ2t18MWU0sO94hJektIuBSrSwl8UAg6XqDR8,2560
+kagglehub/handle.py,sha256=6F6xSGYcjIdM3Qc6G-8JFtKK54jEMMfqTZbDtzztJrY,1270
+kagglehub/http_resolver.py,sha256=dqhUXTNjd40twBDxnItzruO_gE_QnpucJZk96fHLwWI,2067
+kagglehub/models.py,sha256=aSq9RHTdc6XNf6Ime3zdJr22pcFGIEZQs2sYCfs8MLg,466
+kagglehub/registry.py,sha256=FKqF2-G1elq9FtMvmLftv3upfgn6xgpDnmjMN6KvOeE,1073
+kagglehub/resolver.py,sha256=RSi8tdxn9p8n3SjxuivquxoETyuzp55vpiZCHkZ-H-Y,754
+kagglehub-0.0.1a1.dist-info/METADATA,sha256=kxIXs2UfAimGTLrPzJ0Hc2KKJqXTaBlZHROTI_Uqq1Q,15372
+kagglehub-0.0.1a1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+kagglehub-0.0.1a1.dist-info/licenses/LICENSE,sha256=IzhfWrxIlFAci3lzZCg5WWHZJBI1QSzsHxO0plI63vk,11541
+kagglehub-0.0.1a1.dist-info/RECORD,,
