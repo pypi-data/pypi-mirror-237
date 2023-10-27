@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: atsphinx-buildtime
+Version: 0.0.0
+Summary: Simple build-time logger for Sphinx.
+Author-email: Kazuya Takei <myself@attakei.net>
+License: Apache-2.0
+Requires-Python: >=3.7
+Requires-Dist: Sphinx
+
