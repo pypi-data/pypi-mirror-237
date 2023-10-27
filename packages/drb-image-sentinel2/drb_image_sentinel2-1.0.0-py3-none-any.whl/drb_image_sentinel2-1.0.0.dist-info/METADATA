@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: drb-image-sentinel2
+Version: 1.0.0
+Summary: Sentinel-2 Product
+Author: GAEL Systems
+Author-email: drb-python@gael.fr
+License: LGPLv3
+Project-URL: Source, https://gitlab.com/drb-python/add-ons/image/add-ons/sentinel2
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Requires-Dist: drb-topic-sentinel2 ~=1.3.0
+Requires-Dist: drb-image ~=1.3.0
+Requires-Dist: drb-driver-image ~=1.3.0
+Requires-Dist: drb-driver-zip ~=1.3.0
+Requires-Dist: drb-xquery ~=1.3.0
+
+# DRB Sentinel-2 Image AddOn
+
+This addon enrich the `Sentinel-2 Product` topics with a preview image extractor.
+
+## Available Images
+|Product|Image name|Path|
+|-------|----------|----|
+|Level-1C|preview|GRANULE/*/QI_DATA/*_PVI.jp2|
+|Level-1C|TrueColorImage|GRANULE/*/IMG_DATA/*_TCI*.jp2|
+|Level-1C|{band_name}]|GRANULE/*/IMG_DATA/{band_name}|
+|Level-2A|preview|GRANULE/*/QI_DATA/*_PVI.jp2|
+|Level-2A|TrueColorImage|GRANULE/*/IMG_DATA/*_TCI*.jp2|
+|Level-2A|{band_name}|GRANULE/*/IMG_DATA/*/{band_name}|
+
+{band_name} correspond to the name of the actual .jp2 file
+
+## Example
+```python
+zip_node = resolver.create('/path/to/sentinel2.zip')
+safe_node = zip_node[0]
+# Retrieve the addon image object corresponding to the product (preview by default)
+image = AddonImage.apply(safe_node)
+# The image name can be specified
+image = AddonImage.apply(safe_node, image_name='preview')
+# Retrieve the drb-driver-image node corresponding to the addon using the default extraction
+addon_image_node = image.image_node()
+# Retrieve the rasterio implementation of the default image
+dataset = image.get_impl(rasterio.DatasetReader) 
+```

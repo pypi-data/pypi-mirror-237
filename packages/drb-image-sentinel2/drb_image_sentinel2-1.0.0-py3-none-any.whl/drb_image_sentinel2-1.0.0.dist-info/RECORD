@@ -1,0 +1,14 @@
+drb/addons/image/sentinel2/_version.py,sha256=fDAPl-QcMAbjYNaLnWg5di4R12vZaQjQbdBzrKx9uhA,497
+drb/addons/image/sentinel2/level1c/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drb/addons/image/sentinel2/level1c/cortex.yml,sha256=_iuY5c-NezrfGeka5J790ltHjQ6I_nEF_smwHxBZYes,1258
+drb/addons/image/sentinel2/level2a/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drb/addons/image/sentinel2/level2a/cortex.yml,sha256=lV6U5USdyoH84lQPsUL2rgCvfIx2mtXa9Bx3ooiRuM8,2882
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_sentinel2_level1c_image.py,sha256=K_1yYJKEzkehVT-NX88tuJ7l61dPVlGzHSyPkmUOxm8,3512
+test/test_sentinel2_level2a_image.py,sha256=kyN6o1fo248F-JahF6PNz5C4wNsRu0KqsI0gXab_fOk,4493
+drb_image_sentinel2-1.0.0.dist-info/LICENCE.txt,sha256=cwary-_aHQ6S_dXCLN5o0OPt-VedPIZ4DfpOhrz842Q,7816
+drb_image_sentinel2-1.0.0.dist-info/METADATA,sha256=EiY3rH3szlSlQ6h22RcpIBDEgINh3vJnzIjNMbs09lI,1775
+drb_image_sentinel2-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+drb_image_sentinel2-1.0.0.dist-info/entry_points.txt,sha256=QybtvOw0zNdiz6DdiWm0Bc1RZ69A3lJkiMPYXr1gjak,128
+drb_image_sentinel2-1.0.0.dist-info/top_level.txt,sha256=8YeLSfaxdPUIhzngfyt9Du46_YCCwKJhjeC70ifvRdc,9
+drb_image_sentinel2-1.0.0.dist-info/RECORD,,

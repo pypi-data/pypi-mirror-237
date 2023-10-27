@@ -1,0 +1,41 @@
+topic: 242ce8e2-e1af-11ec-8fea-0242ac120002 # Sentinel-2 User Product Level-1C
+image:
+  - name:
+      constant: preview
+    source:
+      python: |
+        from drb.core.predicate import Predicate
+        import re
+
+        class RegexNamePredicate(Predicate):
+          def __init__(self, regex: str):
+            super().__init__()
+            self._regex = regex
+
+          def matches(self, node) -> bool:
+            return re.match(self._regex, node.name) is not None
+
+        qi_data = node['GRANULE'][0]['QI_DATA']
+        return qi_data[RegexNamePredicate('.*_PVI.jp2$')][0]
+  - name:
+      constant: TrueColorImage
+    source:
+      python: |
+        from drb.core.predicate import Predicate
+        import re
+
+        class RegexNamePredicate(Predicate):
+          def __init__(self, regex: str):
+            super().__init__()
+            self._regex = regex
+
+          def matches(self, node) -> bool:
+            return re.match(self._regex, node.name) is not None
+
+        img_data = node['GRANULE'][0]['IMG_DATA']
+        return img_data[RegexNamePredicate('.*_TCI.jp2$')][0]
+  - name:
+      python: |
+        return [n.name for n in node['GRANULE'][0]['IMG_DATA']]
+    source:
+      python: return node['GRANULE'][0]['IMG_DATA'][image_name]

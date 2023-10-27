@@ -1,0 +1,3 @@
+[drb.addon.image]
+sentinel2_level1c = drb.addons.image.sentinel2.level1c
+sentinel2_levela2 = drb.addons.image.sentinel2.level2a
