@@ -1,0 +1,7 @@
+setup.py
+monerorequest/__init__.py
+monerorequest/monerorequest.py
+monerorequest.egg-info/PKG-INFO
+monerorequest.egg-info/SOURCES.txt
+monerorequest.egg-info/dependency_links.txt
+monerorequest.egg-info/top_level.txt
