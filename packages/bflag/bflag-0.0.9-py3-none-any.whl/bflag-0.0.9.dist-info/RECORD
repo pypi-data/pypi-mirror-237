@@ -1,0 +1,15 @@
+bflag/__init__.py,sha256=VzrE2h4EhnV9wCsV6sYcEeRYp_YOk-r42OkfPcQYdi8,420
+bflag/_modidx.py,sha256=yJ5Hl8qdSTGp1get5hM35baHpJNd_88bIEb3es-jkwQ,6381
+bflag/bflag.py,sha256=Mh8uxFSuaFnVOiLOoMyYcYiMKg6-42D_yf8m7d0pGqg,16843
+bflag/butil.py,sha256=yOLnOto_UyT1kLfsZFFjGTS3n_uR40TygL-6fZUdToQ,10136
+bflag/core.py,sha256=uI8AHJ8gZDaTSO9PLyps5CAtyBC4mCT4TCs8GN0fbuE,16839
+bflag/flags.py,sha256=iM_f28CsL3i_DZAo0brLm6-n6qDCa0wbhJYBkOrzLaU,1040
+bflag/futil.py,sha256=x_FUJf_i6R50qsYy1zqbRAYm291j8FAuLVpk66FBnUU,3828
+bflag/inst.py,sha256=VMOxffhbmbI2mKpyaMXMEdFAZxzYxNGuNxlujI1T4Mg,1035
+bflag/types.py,sha256=ccSA6DAfYKeR0DcBn2BIxljhZfb5u3AvWyLLWmn8fpc,743
+bflag-0.0.9.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+bflag-0.0.9.dist-info/METADATA,sha256=NEo_2-swRiGAyzx5l30yXeJktzChtlHY4SFlcV-xkqw,2834
+bflag-0.0.9.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+bflag-0.0.9.dist-info/entry_points.txt,sha256=zn0RYMD6MGOUd33ewA_CMziqV45FvjtQAe8ncC31MQA,32
+bflag-0.0.9.dist-info/top_level.txt,sha256=KYMBjhH1UGulcM8V9sjcpSqDWdNMjA8GjvQxa9ySGtE,6
+bflag-0.0.9.dist-info/RECORD,,
