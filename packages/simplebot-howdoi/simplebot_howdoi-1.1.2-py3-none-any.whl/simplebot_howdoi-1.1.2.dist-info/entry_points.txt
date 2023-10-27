@@ -1,0 +1,2 @@
+[simplebot.plugins]
+simplebot_howdoi = simplebot_howdoi
