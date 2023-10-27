@@ -1,0 +1,7 @@
+README.md
+setup.py
+Holiday_Manager.egg-info/PKG-INFO
+Holiday_Manager.egg-info/SOURCES.txt
+Holiday_Manager.egg-info/dependency_links.txt
+Holiday_Manager.egg-info/requires.txt
+Holiday_Manager.egg-info/top_level.txt
