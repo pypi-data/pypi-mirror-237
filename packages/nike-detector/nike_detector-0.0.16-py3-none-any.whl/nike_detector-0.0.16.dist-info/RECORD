@@ -1,0 +1,11 @@
+dataset/avatars.py,sha256=eDM0S6MK9DSWbrKmzhMf572GylsZF8dPP1kQqjp_pmM,6987
+dataset/collect_brands_data.py,sha256=zq_uTuTF3tLHn_mqgViToLhYvyhxJvNzSunKVWaFdEc,3333
+dataset/constants.py,sha256=9CARfC-p3buOQrP7EmeT9qV6KkqYT6gSzAaugeVR8cQ,309
+nike_detector/nike_detector/service/evaluation_pipeline_params.py,sha256=aPYkiPztQYGH8zNu4DHBs2Cz2uBYCvDsJ8coFX6wncs,741
+nike_detector/nike_detector/service/service.py,sha256=NhRG3c6cA2ZFWmws6rC3UWIIH6TAWd_t5NufoPKs5yI,2902
+nike_detector/nike_detector/service/train.py,sha256=LCzNDdshksftgO2QUwgDr4Ctoy2B-k03CmZbcdjQgu8,42
+nike_detector/nike_detector/service/configs/base_config.yaml,sha256=3b9kxT-LuNjoXJ0WqFiCTBHzJkIw5smkGI2tEWuWMus,135
+nike_detector-0.0.16.dist-info/METADATA,sha256=31D9ujBxbMBhZQ-M1zm4aoLMUyIf-yTaJx8QI-piy10,470
+nike_detector-0.0.16.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+nike_detector-0.0.16.dist-info/top_level.txt,sha256=7c0IRGaKYW6uqnRrgluI4TJ97WSiiIgJ1EDMQ8c1iWs,22
+nike_detector-0.0.16.dist-info/RECORD,,
