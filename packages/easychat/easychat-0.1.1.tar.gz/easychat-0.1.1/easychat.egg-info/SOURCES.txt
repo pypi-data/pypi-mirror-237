@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+easychat/WXBizMsgCrypt3.py
+easychat/__init__.py
+easychat/easychat.py
+easychat/ierror.py
+easychat/wework.py
+easychat.egg-info/PKG-INFO
+easychat.egg-info/SOURCES.txt
+easychat.egg-info/dependency_links.txt
+easychat.egg-info/requires.txt
+easychat.egg-info/top_level.txt
