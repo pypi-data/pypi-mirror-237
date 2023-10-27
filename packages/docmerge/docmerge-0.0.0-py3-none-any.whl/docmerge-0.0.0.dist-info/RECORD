@@ -1,0 +1,11 @@
+docmerge/__init__.py,sha256=lJixfrlorPrliMzz882Czun8DUSFNz7T6lwm5DE5IKk,93
+docmerge/__version__.py,sha256=7Mp8iqklf3_AKmDXbtfWFufmP2NUURhE5CXW4A0vn-c,22
+docmerge/decorator.py,sha256=YJqhVW4ze1hCffFoDzNPVJ-infuiSZHahOBmhi1tvqU,2108
+docmerge/merger.py,sha256=D9lbsTihC6sAEWYRmfnz-Yht11szZoWU6FqPxhe7C-8,2520
+docmerge/misc.py,sha256=1Iz0c2URpI2_HoepZiSzVOTqcY80b1AeajdwdHWfzlw,307
+docmerge-0.0.0.dist-info/LICENSE,sha256=h_GNRVuGRoKse99yirsJx9Cjw6A6HCNxKSJjwE8v5Dc,1071
+docmerge-0.0.0.dist-info/METADATA,sha256=7Ul9myIDrkz-TpYQTRY-erWyIKQKBl_FnYnESdm6yfs,791
+docmerge-0.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+docmerge-0.0.0.dist-info/top_level.txt,sha256=XSd7Du2oohZ-9c4rn71Mpi3Ia_RJ6-jSmUXQ9_0gXKM,9
+docmerge-0.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+docmerge-0.0.0.dist-info/RECORD,,

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: docmerge
+Version: 0.0.0
+Summary: A simple tool to merge docstrings from parent classes to child classes.
+Home-page: https://github.com/bigdatabr/docmerge
+Author: Marcos Bressan
+Author-email: bressan@dee.ufc.br
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: numpydoc
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+
+docmerge
+--------
+
+docmerge is simple tool to merge docstrings from parent classes into child classes.
+
+
