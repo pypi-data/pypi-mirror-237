@@ -1,0 +1,10 @@
+atyp
+nchr
+nlit
+chck
+ropts
+idfunc
+ispec
+pstr
+
+[dev]
