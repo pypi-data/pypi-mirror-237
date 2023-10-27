@@ -1,0 +1,17 @@
+# Test Configuration File for MLP CI CD
+
+dataset:
+  dir: tests/Datasets/
+  name: 'example'
+  query: 'loan.Status'
+  join: 1
+
+train:
+  epoch: 200
+
+model:
+  name: 'XGBoost'
+
+optim:
+  lr: 0.001
+  weight_decay: 0.001

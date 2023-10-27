@@ -1,0 +1,19 @@
+# Test Configuration File for MLP CI CD
+
+dataset:
+  dir: tests/Datasets/
+  name: 'example'
+  query: 'loan.Status'
+  join: 0
+
+train:
+  epoch: 200
+
+model:
+  name: 'MLP'
+  hidden_dim: 128
+  layer: 4
+
+optim:
+  lr: 0.001
+  weight_decay: 0.001
