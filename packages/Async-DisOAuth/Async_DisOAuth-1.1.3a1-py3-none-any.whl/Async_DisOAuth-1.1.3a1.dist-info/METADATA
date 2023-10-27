@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: Async-DisOAuth
+Version: 1.1.3a1
+Summary: Helps with discord oauth2
+Project-URL: Homepage, https://github.com/Arcader717/DiscordOAuth2
+Project-URL: Bug Tracker, https://github.com/Arcader717/DiscordOAuth2/issues
+Project-URL: Repository, https://github.com/Arcader717/DiscordOAuth2
+Project-URL: Documentation, https://async-disoauth2.readthedocs.io/en/latest/index.html
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# DiscordOAuth2
+automatically follows through with the requests for Discord OAuth
+
+[![Documentation Status](https://readthedocs.org/projects/async-disoauth2/badge/?version=latest)](https://async-disoauth2.readthedocs.io/en/latest/?badge=latest)
+
+***
+
+## Features
+- Makes a Authorization Url automatically, using the client ID, redirect_uri, and the scopes you want
+- Nothing else, working on getting the json data from the query string
+
+***
+
+## What I'm working on for version 2.0.0
+
+- [x] Get Guilds
+- [ ] Models
+- [ ] Bot OAuth
