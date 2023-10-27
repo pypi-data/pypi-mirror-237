@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: convertex
+Version: 0.1.3
+Summary: Convertex is a helpful tool that assists with small text or code-based tasks. It allows you to modify text based on prompts you define. This is particularly useful for repetitive tasks or when you need to make specific changes to different pieces of text or code.
+Home-page: https://github.com/Saik0s/convertex
+License: MIT
+Author: Igor Tarasenko
+Author-email: igor@tarasenko.dev
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: argparse (>=1.4.0,<2.0.0)
+Requires-Dist: marvin (>=1.5.4,<2.0.0)
+Requires-Dist: pathlib (>=1.0.1,<2.0.0)
+Requires-Dist: rich (>=13.3.5,<14.0.0)
+Project-URL: Repository, https://github.com/Saik0s/convertex
+Description-Content-Type: text/markdown
+
+# Convertex: Your Daily Text and Code Transformation Tool
+
+Convertex is a helpful tool that assists with small text or code-based tasks. It allows you to modify text based on prompts you define. This is particularly useful for repetitive tasks or when you need to make specific changes to different pieces of text or code.
+
+To install Convertex, run the command:
+
+```bash
+pip install convertex
+```
+
+Here is a simple guide on how to use Convertex:
+
+1. Add a new prompt: Define the transformation rules using the command:
+
+```bash
+convertex add_prompt 'current content' 'desired content' 'additional info' 'prompt name'
+```
+
+2. Transform content based on a prompt: Apply a prompt to your content using the command:
+
+```bash
+convertex transform_content 'prompt name' 'current content'
+```
+
+3. List all available prompts: View all your prompts with the command:
+
+```bash
+convertex list_prompts
+```
+
+To test Convertex, run the following command:
+
+```bash
+make test
+```
+
+## License
+
+Convertex is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file in the project root.
+
