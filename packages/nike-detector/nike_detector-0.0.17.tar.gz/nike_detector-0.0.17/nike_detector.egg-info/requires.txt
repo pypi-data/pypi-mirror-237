@@ -1,0 +1,6 @@
+torch==1.13.1
+ultralytics==8.0.164
+Pillow==9.2.0
+gdown==4.5.1
+marshmallow_dataclass==8.5.6
+dataclasses==0.6
