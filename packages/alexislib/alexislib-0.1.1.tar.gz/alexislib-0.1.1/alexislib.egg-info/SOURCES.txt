@@ -1,0 +1,9 @@
+README.md
+setup.py
+alexislib/__init__.py
+alexislib/modulo.py
+alexislib.egg-info/PKG-INFO
+alexislib.egg-info/SOURCES.txt
+alexislib.egg-info/dependency_links.txt
+alexislib.egg-info/requires.txt
+alexislib.egg-info/top_level.txt
