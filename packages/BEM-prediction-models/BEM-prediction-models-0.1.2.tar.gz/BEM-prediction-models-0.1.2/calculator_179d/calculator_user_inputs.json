@@ -1,0 +1,22 @@
+{
+	"building_type": "small office",
+	"climate_zone": "4A",
+	"hvac_system":"PSZ-AC with gas coil",
+	"gross_floor_area": 11250,
+	"number_of_floors": 1,
+	"aspect_ratio": 2.959,
+	"window_wall_ratio": 0.13,
+	"roof_thermal_perf_type": 0.209,
+	"wall_thermal_perf_type": 0.265,
+	"window_u_factor": 2.956,
+	"window_shgc": 0.351,
+	"proposed_lpd": 5.705,
+	"water_heating_energy_factor": 0.705,
+	"air_system_fan_total_efficiency": 0.95,
+	"boiler_average_efficiency": 0,
+	"dx_cooling_cop": 3.799,
+	"zone_hvac_fan_total_efficiency": 0,
+	"dx_heating_cop": 0,
+	"gas_coil_average_efficiency": 0,
+	"chiller_average_cop": 0
+}

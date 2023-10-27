@@ -1,0 +1,66 @@
+{
+	"1A": {
+		"Electricity": 0.0976,
+		"NaturalGas": 10.4950
+	},
+	"2A": {
+		"Electricity": 0.0934,
+		"NaturalGas": 10.4950
+	},
+	"2B": {
+		"Electricity": 0.1059,
+		"NaturalGas": 10.4950
+	},
+	"3A": {
+		"Electricity": 0.0976,
+		"NaturalGas": 10.4950
+	},
+	"3B-coast": {
+		"Electricity": 0.0976,
+		"NaturalGas": 10.4950
+	},
+	"3B": {
+		"Electricity": 0.0976,
+		"NaturalGas": 10.4950
+	},
+	"3C": {
+		"Electricity": 0.0976,
+		"NaturalGas": 10.4950
+	},
+	"4A": {
+		"Electricity": 0.0976,
+		"NaturalGas": 10.4950
+	},
+	"4B": {
+		"Electricity": 0.0976,
+		"NaturalGas": 10.4950
+	},
+	"4C": {
+		"Electricity": 0.0976,
+		"NaturalGas": 10.4950
+	},
+	"5A": {
+		"Electricity": 0.0976,
+		"NaturalGas": 10.4950
+	},
+	"5B": {
+		"Electricity": 0.0976,
+		"NaturalGas": 10.4950
+	},
+	"6A": {
+		"Electricity": 0.0976,
+		"NaturalGas": 10.4950
+	},
+	"6B": {
+		"Electricity": 0.0976,
+		"NaturalGas": 10.4950
+	},
+	"7": {
+		"Electricity": 0.0976,
+		"NaturalGas": 10.4950
+	},
+	"8": {
+		"Electricity": 0.0976,
+		"NaturalGas": 10.4950
+	}
+}
