@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ryax
+Version: 0.0.2
+Summary: Ryax is an open-source platform that streamlines the design, deployment, and monitoring of Cloud automations and APIs.
+License: MPL-2.0
+Author: Charles Marshall
+Author-email: charlesmarshallj@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# ryax
+Complex development and deployment made easy
+

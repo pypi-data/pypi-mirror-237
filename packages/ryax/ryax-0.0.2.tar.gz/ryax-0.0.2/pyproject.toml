@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "ryax"
+version = "0.0.2"
+description = "Ryax is an open-source platform that streamlines the design, deployment, and monitoring of Cloud automations and APIs."
+authors = ["Charles Marshall <charlesmarshallj@gmail.com>"]
+license = "MPL-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+pip = "^23.3.1"
+build = "^1.0.3"
+twine = "^4.0.2"
+
+[tool.poetry.scripts]
+ryax = "ryax.command_line:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project.scripts]
+ryax = "ryax.command_line:main"
+
+
