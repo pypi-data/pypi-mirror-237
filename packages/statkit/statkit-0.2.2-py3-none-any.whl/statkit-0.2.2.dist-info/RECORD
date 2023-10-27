@@ -1,0 +1,12 @@
+statkit/__init__.py,sha256=XzZsQzlJW7NheBsTPoGFXiPd4gUi7B5eV5RHdvg_ATA,687
+statkit/decision.py,sha256=0Cm7p73kdCPpMbzPmfxNJzatoSWiFqbcUlYs6WqZZ1g,10287
+statkit/feature_selection.py,sha256=w4zb6HislyD6aabtwdDp-ttyoSHBohCbdssskzfqwC4,4600
+statkit/metrics.py,sha256=TsHsMCC9NDBRTbiOnswgp5-mbi84d8cTtTq6mqe_CUE,7677
+statkit/non_parametric.py,sha256=7_14GPPQGBU13t99oMvkgkXoeTS4PUQqbKvFpdDY6wM,8606
+statkit/power.py,sha256=MCgaW-ITwiltiTAhFcrUhYKgZXG0o_6otib6V4TmVpo,1873
+statkit/types.py,sha256=9bXu0lKz10FGlml4jhPRzQVciTT9wIRvfiTl9JIk_6c,5104
+statkit/views.py,sha256=ym-GG2V0vKhd2-RWyJ0PV0zY_d2yZR8o2Rrmg4Med7I,2470
+statkit-0.2.2.dist-info/METADATA,sha256=uNWZHNCkLAn-CNEo1EYW2tuC5bMi3l1RQaGFjwf6FWk,4794
+statkit-0.2.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+statkit-0.2.2.dist-info/licenses/LICENSE,sha256=VbL3SeezkaROfSbPjnjB0G7BWK4MvFWmQA7JIgga1As,1071
+statkit-0.2.2.dist-info/RECORD,,
