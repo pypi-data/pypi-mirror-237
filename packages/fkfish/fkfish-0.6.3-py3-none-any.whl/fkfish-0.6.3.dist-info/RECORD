@@ -1,0 +1,13 @@
+fkfish/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fkfish/__main__.py,sha256=db62eNHTYoB8Hu2PhOG29V-463bEDi8pMZ9vVJWEopE,3410
+fkfish/black_screen.py,sha256=YtNnf4k0WOj3ZuMlYD5RQ4OPX0Q37hoEqsatA046isY,341
+fkfish/linux_boot.log,sha256=3iz18AYTcifzuEVssCeDEoL_ERVeFX8gtpqtVYwDcsI,590733
+fkfish/linux_reboot.py,sha256=ghuY1gRTy4ZZP4cslCeOZyn8CgwZDsOqKcKFpZ1j08c,1596
+fkfish/windows_blue.png,sha256=GGpmOZORkP91M5YGTn_AUtc-GC52BwbG9P0Ph6zKUmk,272546
+fkfish/windows_blue.py,sha256=yx9_fWmoG9s6i3e2ReX8ZrKkmjdYa746GHE5a8UIyq0,1550
+fkfish-0.6.3.dist-info/LICENSE,sha256=sqMxddSf3pYR8jx3feIt_Eeem8ZA8nbM0ACXNZ4Tqbc,1062
+fkfish-0.6.3.dist-info/METADATA,sha256=PKUGInJOeUsmXLhWjSKVS_QucYQ5uuEdFJzgdqkpuOY,125
+fkfish-0.6.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fkfish-0.6.3.dist-info/entry_points.txt,sha256=oFyHP0DOTx-OpkPtbe8nTXfGrLhJBJYBVWqpZQ9FJnI,48
+fkfish-0.6.3.dist-info/top_level.txt,sha256=8PHcsZGKpO2H3s1VcEDodSwSz2KVzfawm2SntFuqawQ,7
+fkfish-0.6.3.dist-info/RECORD,,
