@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/pkgbuild_language_server/__init__.py
+src/pkgbuild_language_server.egg-info/PKG-INFO
+src/pkgbuild_language_server.egg-info/SOURCES.txt
+src/pkgbuild_language_server.egg-info/dependency_links.txt
+src/pkgbuild_language_server.egg-info/requires.txt
+src/pkgbuild_language_server.egg-info/top_level.txt
