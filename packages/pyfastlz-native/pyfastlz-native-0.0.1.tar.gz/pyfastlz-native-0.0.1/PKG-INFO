@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyfastlz-native
+Version: 0.0.1
+Summary: FastLZ implementation in native python3
+Author-email: Oscar Diaz <odiaz@ieee.org>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyfastlz-native
+
+This is a native python3 implementation of the FastLZ algorithm (more info in [Lempel-Ziv 77 algorithm](https://en.wikipedia.org/wiki/LZ77_and_LZ78#LZ77)).
+
+Currently it only implements decompression.
+
+## Usage
+
+```
+import fastlz_native
+
+comp_data = bytes(raw_data)
+decompressed = fastlz_native.fastlz_decompress(comp_data)
+```
+
+## Expected format
+
+This implementation expects the decompressed size in bytes in the first uint32_t chunk.

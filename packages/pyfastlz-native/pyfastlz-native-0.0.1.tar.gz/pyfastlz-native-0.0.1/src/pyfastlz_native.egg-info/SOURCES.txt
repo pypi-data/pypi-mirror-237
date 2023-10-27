@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/fastlz_native/__init__.py
+src/fastlz_native/decompress.py
+src/pyfastlz_native.egg-info/PKG-INFO
+src/pyfastlz_native.egg-info/SOURCES.txt
+src/pyfastlz_native.egg-info/dependency_links.txt
+src/pyfastlz_native.egg-info/top_level.txt
