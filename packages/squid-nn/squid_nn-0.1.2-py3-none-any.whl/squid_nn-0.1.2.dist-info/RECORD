@@ -1,0 +1,13 @@
+squid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+squid/impress.py,sha256=mBRFPw4_GU8iWWrKnttt9VHY1bFWsuPPnrct9UhU7BA,8159
+squid/mave.py,sha256=ajoWcJ58ZXOgbgqpbzuKfudcH8gaLiUTqTt7Il2hOMc,3610
+squid/mutagenizer.py,sha256=ly4RBM7O3S-Ho3prORhDMEXpG2Vsz_pCD5sis8fn2WA,2954
+squid/predictor.py,sha256=1EZUxTRtvUhnauRA9_gSikTGy2gjBWHe9jLPajLtZpk,4422
+squid/run_squid.py,sha256=7QQVwBVOP_paVyeY4OX3p2ZyLPvELHzltbR-Lbxc32E,7062
+squid/surrogate_zoo.py,sha256=kljcXVcKzynBuP_EzGnbOyHRUaCf8Gv0EeFYUfBTSe0,13654
+squid/utils.py,sha256=L5vwZv1ttik_dh6lQUpJlkRXhh3376bKhxuEwVlyseI,3580
+squid_nn-0.1.2.dist-info/LICENSE,sha256=96nopFjTbEs9P7WoBuJnKerLRwnDd_KmVw57TGNk48g,1116
+squid_nn-0.1.2.dist-info/METADATA,sha256=Q-E4N7-0Qr1g4zS_dzvJaqcJNi9FtcXNG4ejdFUjv3A,456
+squid_nn-0.1.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+squid_nn-0.1.2.dist-info/top_level.txt,sha256=g9KMU4jZeantU_Qzy3XYMhCchzmiXuLJtf-VJwfTuj0,6
+squid_nn-0.1.2.dist-info/RECORD,,
