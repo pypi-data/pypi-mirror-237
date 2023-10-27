@@ -1,0 +1,52 @@
+{% extends 'generic/object.html' %}
+{% load helpers %}
+{% block content %}
+  <div class="row mb-3">
+    <div class="col col-md-6">
+      <div class="card">
+        <h5 class="card-header">Подсистема</h5>
+        <div class="card-body">
+          <table class="table table-hover attr-table">
+            <tr>
+              <th scope="row">Название</th>
+              <td>{{ object.name|placeholder }}</td>
+            </tr>
+            <tr>
+              <th scope="row">SSID</th>
+              <td>{{ object.security_id|placeholder }}</td>
+            </tr>
+            <tr>
+              <th scope="row">Короткое именование</th>
+              <td>{{ object.slug|placeholder }}</td>
+            </tr>
+            <table class="table table-hover attr-table">
+              <tr>
+                <th scope="row">Учреждение</th>
+                <td><a href="{% url 'tenancy:tenant' pk=object.tenant.pk %}">{{ object.tenant }}</a></td>
+              </tr>
+              <tr>
+                <td>Группа</td>
+                <td>{{ object.group|linkify|placeholder }}</td>
+              </tr>
+              <tr>
+                <th scope="row">В составе системы</th>
+                <td>{{ object.parent|linkify|placeholder }}</td>
+              </tr>
+
+              <tr>
+                <td>Описание</td>
+                <td>{{ object.description|placeholder }}</td>
+              </tr>
+            </table>
+          </table>
+        </div>
+      </div>
+      {% include 'inc/panels/custom_fields.html' %}
+    </div>
+    <div class="col col-md-6">
+      {% include 'inc/panels/related_objects.html' %}
+      {% include 'inc/panels/tags.html' %}
+      {% include 'inc/panels/comments.html' %}
+    </div>
+  </div>
+{% endblock content %}
