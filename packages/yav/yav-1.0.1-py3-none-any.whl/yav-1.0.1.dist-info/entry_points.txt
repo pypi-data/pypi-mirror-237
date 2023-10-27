@@ -1,0 +1,2 @@
+[console_scripts]
+yav = yav.main:main
