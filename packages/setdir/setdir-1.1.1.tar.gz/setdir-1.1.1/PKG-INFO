@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: setdir
+Version: 1.1.1
+Summary: Recognises parent and ? dirs from the script main file
+Home-page: https://github.com/acalasanzs/py3Settings
+License: MIT
+Keywords: json,settings,manager
+Author: Albert Calasanz
+Author-email: acalasanzs@gmail.com
+Requires-Python: >=3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Documentation, https://github.com/acalasanzs/py3Settings/blob/master/README.md
+Project-URL: Repository, https://github.com/acalasanzs/py3Settings
+Description-Content-Type: text/markdown
+
+Hecho con mucho amor por Albert Calasanz Sallen
+v1.0
+
