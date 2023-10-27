@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mt_testpackage_python
+Version: 0.0.1
+Summary: my very first PyPI project
+Home-page: https://pypi.org/project/mt_testpackage_python
+Author: author
+Author-email: heinz.werner73@gmx.de
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
