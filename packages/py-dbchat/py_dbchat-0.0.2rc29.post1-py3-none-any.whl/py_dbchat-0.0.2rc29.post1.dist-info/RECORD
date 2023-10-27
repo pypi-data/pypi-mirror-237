@@ -1,0 +1,9 @@
+db_chat/__init__.py,sha256=ZmHeQPc5V_Zq5SjV00yYqcKeJJiBZ60Q_JA_-k7PZR8,374
+db_chat/hello_world.py,sha256=6CTpKoo6hAfA9n6OaDMbCzD_rlfQzeTTSKeeXhae_80,662
+db_chat/sql_builder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+db_chat/sql_builder/mappings.py,sha256=5ixSjHLu2BZwf9iC9cih87fgw7FWpdCT7OFiUxcuXR4,15223
+db_chat/sql_builder/sql_builder.py,sha256=Ft1d5Erghv9x0cWUZ89a69vPS0eonlQ2bcetoZqvUrs,9519
+py_dbchat-0.0.2rc29.post1.dist-info/LICENSE,sha256=ws_MuBL-SCEBqPBFl9_FqZkaaydIJmxHrJG2parhU4M,1141
+py_dbchat-0.0.2rc29.post1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+py_dbchat-0.0.2rc29.post1.dist-info/METADATA,sha256=rJA0DhT_w8fnQar6HXhwN54UFXRJszialjsWBSXP-YA,1658
+py_dbchat-0.0.2rc29.post1.dist-info/RECORD,,
