@@ -1,0 +1,12 @@
+imppkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imppkg/data.json,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imppkg/harmonic_mean.c,sha256=B0uZpU5bimIwhgWLyvEKGY4sVWEAbFuZBk6TD7HKFb0,332439
+imppkg/harmonic_mean.cp39-win32.pyd,sha256=iEj4XrE4Im4u6v2A3Kv383mCkaxmaiWzg6LMf0IW76Q,40448
+imppkg/harmonic_mean.pyx,sha256=QRCCLRetCofX0CB6wGmOy1nPCTX4zaAJ-21yFLgmZXk,79
+imppkg/harmony.py,sha256=DYi-zAlpnxRcWyiwS3ZcOeHbmxBK4Ly5QoxHWz35M3U,654
+imppkg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pubpypack_harmony_b_drs-0.0.2.dist-info/METADATA,sha256=llsORkxkSl9rlcb_OA6qlMvAVOHJko_tgh0pyqUGKWU,527
+pubpypack_harmony_b_drs-0.0.2.dist-info/WHEEL,sha256=f7KcxEC-t0Gqz4jsLWrEKtFkz8Ns4-1YqJU5A6LXwLY,96
+pubpypack_harmony_b_drs-0.0.2.dist-info/entry_points.txt,sha256=feiUFKolyjyA-i9QN-YuipocWPVf07pii8AbrEjvfW8,48
+pubpypack_harmony_b_drs-0.0.2.dist-info/top_level.txt,sha256=I91hjGcw_F0H8zGbV0bRxPlcQJVwYHLtIyAPaQ9x-hE,7
+pubpypack_harmony_b_drs-0.0.2.dist-info/RECORD,,
