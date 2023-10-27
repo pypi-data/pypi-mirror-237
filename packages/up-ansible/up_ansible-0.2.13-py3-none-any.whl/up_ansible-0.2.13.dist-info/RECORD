@@ -1,0 +1,5 @@
+up_ansible/__init__.py,sha256=KNUyCmktitL-ETbSWEo_HmPAkBI7T9Fd-cLsZc03o3Y,88
+up_ansible/run_for_prompt.py,sha256=iqXkMdzCFGl6oTKDKtMUl2-H12Eo3onIGUL0F8wZfeA,284
+up_ansible-0.2.13.dist-info/METADATA,sha256=fguREroHYMW6l3Uj9xdvqGmJbT30kEb89oTaVA2iPcI,280
+up_ansible-0.2.13.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+up_ansible-0.2.13.dist-info/RECORD,,
