@@ -1,0 +1,12 @@
+vaimm/__main__.py,sha256=WvdGcAHS7lJCbPGHcr26t2JbhI8Grrx2zKeMv17T9nE,250
+vaimm/_version.py,sha256=j90u3VVU4UrJf1fgMUhaZarHK_Do2XGYXr-vZvOFzVo,411
+vaimm/cli.py,sha256=u8Ji7DEZrwX_hBEHu68DJgG3PC8W6vKHrCrNRLjTy8k,7555
+vaimm/net.py,sha256=T9eZhWVcDdthnT7ORpEVKTBucB85onszmqCNXQxa83k,5875
+vaimm/tensorrt.py,sha256=fnQFvIcrGAKJXKOpMoorfC6a4AntZskeVxqQ7ABnE10,3659
+vaimm/vai.py,sha256=TiWlhl2HCG14kL4uDYMYHIrOkVfmmJjEtuQ5JCPWqZA,3505
+vaimm/version.py,sha256=Q8wBJWwHN8T-cp_VMc9O87GRK6WMLy3YXvUmEc6tYn8,95
+vaimm-0.4.0.dist-info/METADATA,sha256=D6kRSgqWk57Vx3rbMk4nNGMCU5LRtHZ9OLba8RWzH-w,13174
+vaimm-0.4.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+vaimm-0.4.0.dist-info/entry_points.txt,sha256=fo1EoiDwG46i4AeOlLCBH3yBzgN8_5OU9kjoknA4Cfo,41
+vaimm-0.4.0.dist-info/top_level.txt,sha256=Dn2XWjq5AQG9dvJaI6BrhAqHpYLYKD-uCnBVDcj9mc0,6
+vaimm-0.4.0.dist-info/RECORD,,
