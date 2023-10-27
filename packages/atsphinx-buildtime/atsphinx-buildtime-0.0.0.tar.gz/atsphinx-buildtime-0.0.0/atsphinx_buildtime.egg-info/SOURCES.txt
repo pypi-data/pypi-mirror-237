@@ -1,0 +1,8 @@
+.gitignore
+pyproject.toml
+atsphinx/buildtime.py
+atsphinx_buildtime.egg-info/PKG-INFO
+atsphinx_buildtime.egg-info/SOURCES.txt
+atsphinx_buildtime.egg-info/dependency_links.txt
+atsphinx_buildtime.egg-info/requires.txt
+atsphinx_buildtime.egg-info/top_level.txt
