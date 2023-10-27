@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pubmed_searchx/__init__.py,sha256=4B-boQBeIr4AHq_tWtsDhhq9ix56zcz9LhRIHCJ_oJA,36
+pubmed_searchx/api.py,sha256=ZQwFM9QcExSBHGmuf5JXfvh2JvQG_ygf3y30djjow3g,921
+pubmed_searchx/gene_search.py,sha256=P8II5BxoeRA02Sm140FJ7r0mQqajrTtlCAtA2FSMM5A,1163
+pubmed_searchx/parser.py,sha256=cfmEdmP41cF832eRkkC4b-3_m_Kv5kY73EuI_4CiJRY,1026
+pubmed_searchx-0.1.0.dist-info/LICENSE,sha256=4mT_lp7iCFlMUtNrV3g-_f4HZNeYjhDSH7HBDmBmxxs,1073
+pubmed_searchx-0.1.0.dist-info/METADATA,sha256=cX2f4EqBxMhzNqXNf8gHu-JcgwE7PRxn2uOGpKC_9d4,668
+pubmed_searchx-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pubmed_searchx-0.1.0.dist-info/top_level.txt,sha256=iDsgi3DZKAEDV1ZQtV0EmRko_2EIxe6D_uF0UcC1U8g,24
+pubmed_searchx-0.1.0.dist-info/RECORD,,
