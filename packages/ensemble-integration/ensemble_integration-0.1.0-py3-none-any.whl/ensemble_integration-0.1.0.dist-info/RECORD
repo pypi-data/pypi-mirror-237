@@ -1,0 +1,11 @@
+eipy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eipy/additional_ensembles.py,sha256=AaXP16SB9mETPsjMuwciwHZHrOKSfH_gTIBqOoZTAyc,4937
+eipy/datasets.py,sha256=EUWoHwPVtS2pq68Ymk3ldxzMl6vn2aREUs4tv9vZv6A,3248
+eipy/ei.py,sha256=qXbBQ4j1dQV4UsjoCsSNlUcP5TrxJbcPC9R0EjMmbyg,24632
+eipy/interpretation.py,sha256=WERJWJaaz492iDEbJgmhJ87G7e6wDdVmxsODeA2_wFY,13877
+eipy/metrics.py,sha256=fsgOYjzjg3Nor2W0zQagTqriNATFEP0ivtFGpMR5cW0,6700
+eipy/utils.py,sha256=8yqLkvG4h6LYYC6-8qxubgsM6jW-WqRay6v1G3rqI40,5718
+ensemble_integration-0.1.0.dist-info/COPYING,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+ensemble_integration-0.1.0.dist-info/METADATA,sha256=cyol9TY52EVmNstZHRFjLkKQht9JQqP3aOdDq17nJx4,2991
+ensemble_integration-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ensemble_integration-0.1.0.dist-info/RECORD,,
