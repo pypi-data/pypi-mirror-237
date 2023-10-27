@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: up-lib
+Version: 0.2.1
+Summary: 
+Author: Julio Faerman
+Author-email: 356476+faermanj@users.noreply.github.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
