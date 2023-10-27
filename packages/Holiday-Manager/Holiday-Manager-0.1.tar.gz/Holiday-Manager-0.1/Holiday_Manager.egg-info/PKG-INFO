@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: Holiday-Manager
+Version: 0.1
+Summary: A package for planning holidays
+Author: Sasha Bagrov
+Author-email: sasha@fluffik.co.uk
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+
+# Holiday Package
+
+## Introduction
+This package is designed to help you plan your holidays. It includes functionalities for finding flights, hotels, and attractions.
+
+## Installation
+```
+pip install Holiday
+```
+
+## Usage
+Here are some example usages of the package.
+
+### Find Flights
+```python
+from Holiday import Flight, setup
+
+setup(<your amadeus client id>, <your amadeus client secret>, <your google place api key>)
+
+
+get_flights = Flight('LHR', 'JFK')
+budget = 1000
+flight_offers = get_flights.find_flights()
+for i in flight_offers:
+    print("\n")
+    print(f"Airline: {i['airline']}")
+    print(f"Departure time: {i['departure_time']}")
+    print(f"Arrival time: {i['arrival_time']}")
+    if int(float(i['adult_ticket_price'])) < budget: 
+        print(f"This offer fits your budget as one ticket costs {i['adult_ticket_price']}")
+    else:
+        print(f"This offer does not fit your budget as one ticket costs {i['adult_ticket_price']}")
+
+```
+
+### Find Hotels
+```python
+from Holiday import Hotel, setup
+
+setup(<your amadeus client id>, <your amadeus client secret>, <your google place api key>)
+
+
+hotel = Hotel('2023-11-31', '2023-12-05', 'LON', 1)
+rooms = hotel.find_hotel_rooms()
+print(rooms)
+
+```
+
+### Find Attractions
+```python
+from Holiday import Attractions, setup
+
+setup(<your amadeus client id>, <your amadeus client secret>, <your google place api key>)
+
+places = Attractions.Functions('Pensylvania, USA', 'ta')
+output = places.get_attractions()
+
+
+for i in output:
+    print('\n')
+    print(f"{i['name']} ({i['rating']}⋆)")
+    print(f"Address: {i['address']}")
+    print(f"Type: {i['type']}")
+```
+
+### Find Food
+```python
+from Holiday import Attractions, setup
+
+setup(<your amadeus client id>, <your amadeus client secret>, <your google place api key>)
+
+places = Attractions.Functions('London', 'food')
+output = places.get_attractions()
+
+
+for i in output:
+    print('\n')
+    print(f"{i['name']} ({i['rating']}⋆)")
+    print(f"Address: {i['address']}")
+    print(f"Type: {i['type']}")
+```
+
+
+## Contribution
+Feel free to contribute to this package. For any bugs, please open an issue.
+
+## License
+MIT
