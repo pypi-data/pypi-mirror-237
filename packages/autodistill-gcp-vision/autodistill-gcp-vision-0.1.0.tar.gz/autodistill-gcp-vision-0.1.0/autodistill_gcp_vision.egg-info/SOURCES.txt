@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+autodistill_gcp_vision/__init__.py
+autodistill_gcp_vision/gcp_vision_model.py
+autodistill_gcp_vision.egg-info/PKG-INFO
+autodistill_gcp_vision.egg-info/SOURCES.txt
+autodistill_gcp_vision.egg-info/dependency_links.txt
+autodistill_gcp_vision.egg-info/requires.txt
+autodistill_gcp_vision.egg-info/top_level.txt
