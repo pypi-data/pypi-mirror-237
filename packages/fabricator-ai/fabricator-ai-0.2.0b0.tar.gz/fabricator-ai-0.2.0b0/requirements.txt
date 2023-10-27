@@ -1,0 +1,4 @@
+datasets
+farm-haystack>=1.18.0
+spacy
+loguru
