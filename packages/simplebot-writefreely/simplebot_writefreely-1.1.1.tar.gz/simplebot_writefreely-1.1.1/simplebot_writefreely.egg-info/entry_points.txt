@@ -1,0 +1,2 @@
+[simplebot.plugins]
+simplebot_writefreely = simplebot_writefreely
