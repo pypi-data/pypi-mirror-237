@@ -1,0 +1,2 @@
+[pytest11]
+richer = pytest_richer.plugin
