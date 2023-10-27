@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: fastapi-core
+Version: 1.0.2
+Summary: Reusable core, repositories and utilities for FastAPI in Ecred Platform
+Author: yuri hartmann
+Author-email: yurihartmann@icloud.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: database
+Provides-Extra: redis
+Requires-Dist: alembic (==1.11.*) ; extra == "database"
+Requires-Dist: asyncpg (>=0.27.0,<0.28.0) ; extra == "database"
+Requires-Dist: fastapi (>=0.101.1,<0.102.0)
+Requires-Dist: fastapi-pagination (>=0.12.9,<0.13.0)
+Requires-Dist: greenlet (>=2.0.2,<3.0.0) ; extra == "database"
+Requires-Dist: httpx (==0.24.*)
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Requires-Dist: psycopg2-binary (>=2.9.6,<3.0.0) ; extra == "database"
+Requires-Dist: redis (>=5.0.0,<6.0.0) ; extra == "redis"
+Requires-Dist: sqlmodel (==0.0.8) ; extra == "database"
+Requires-Dist: starlette-context (==0.3.*)
