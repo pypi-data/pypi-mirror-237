@@ -1,0 +1,12 @@
+pandabear/__init__.py,sha256=gZdZmOwzoIML2ElSAsK_sTUoX-8j3Y5Qk6AQJPA5lMY,424
+pandabear/column_checks.py,sha256=mmqFa87Ad50PIF-pbLDlhGZGxWg8TeshZ9hl4l1-a_U,1559
+pandabear/decorators.py,sha256=7d4AzoRJruO667tTJ6tduFCB6QXUcvZZTF1Hxf8Er3A,7141
+pandabear/exceptions.py,sha256=mR_EIT6mctn7ucteukMSNf8dA-m3ll8k1p1gKq940E8,3522
+pandabear/model.py,sha256=QGfcTTAeWeJ-RX86b3Pv_cGPl4EeqSyArYpsmBG5cIA,23177
+pandabear/model_components.py,sha256=46JFzItf5njxNtYYBic3ioLxNhs1W5Bxk4pJ9Z9N9s4,3452
+pandabear/type_checking.py,sha256=Yef5QPtQP7GSoav9ocqgQI5clmF2bvhhfVL5mqHpINc,1374
+pandabear/typehints.py,sha256=mAM__MhpW5vGULL-JltirltdCUXAph-6f3Mba9DbN-o,1420
+pandabear-0.8.0.dist-info/METADATA,sha256=TO8y-mExVtu8DMTAZYgTWT88EYogI2PDQG23p7lNS7o,696
+pandabear-0.8.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pandabear-0.8.0.dist-info/top_level.txt,sha256=5egvFFiXxBuYW7EOCXOWITrZGu81CBoU82gAJsWEGeY,10
+pandabear-0.8.0.dist-info/RECORD,,
