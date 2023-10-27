@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: torch-sparsify
+Version: 1.0
+Home-page: https://github.com/MingxuanZhangPurdue/pytorch_sparsify
+Author: Mingxuan Zhang
+Author-email: zhan3692@purdue.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: scipy
+
