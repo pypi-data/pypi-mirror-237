@@ -1,0 +1,11 @@
+odapt/__init__.py,sha256=30ephefuME_Joex4fjb4ABLaVRMRrsWzX01rPd9GFek,246
+odapt/_version.py,sha256=vs6W4yrsz3i8OMGT2jlW8NQDmpo9yxVa6jtyzIhHvWw,411
+odapt/_version.pyi,sha256=j5kbzfm6lOn8BzASXWjGIA1yT0OlHTWqlbyZ8Si_o0E,118
+odapt/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odapt/operations/__init__.py,sha256=XEKcTCHQgU0OV-qzme5k7A7M4qA6NB2H9hwaqU8Zl2Y,95
+odapt/operations/hadd.py,sha256=9UWJfUuHqEwzw5SIJaRm_B7EUlxVK1UK1H7NXcgmtsQ,17253
+odapt-1.0.3.dist-info/METADATA,sha256=NXzK2k-NBrycDgE4KrdzW-TXKVRoaBhCBGFv8ZJgOiU,3169
+odapt-1.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+odapt-1.0.3.dist-info/entry_points.txt,sha256=g1NMsmx0YsAU871nTuMYz5CsFe0Fzs5Za6qWTZoDSQA,56
+odapt-1.0.3.dist-info/licenses/LICENSE,sha256=GOaGDfU4p4Fs1LEzXcFi5ydjdSMeWkICZFjs96yTTkE,1523
+odapt-1.0.3.dist-info/RECORD,,
