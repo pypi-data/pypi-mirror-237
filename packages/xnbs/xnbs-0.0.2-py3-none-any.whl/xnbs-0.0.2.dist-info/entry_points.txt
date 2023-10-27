@@ -1,0 +1,2 @@
+[nbdev]
+xnbs = xnbs._modidx:d
