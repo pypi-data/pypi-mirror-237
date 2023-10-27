@@ -1,0 +1,14 @@
+sdrdm_database/__init__.py,sha256=G2c4kO5WLT4LHyvT00vC1AraasdAgKtGQRVNeN2cqwo,246
+sdrdm_database/cli.py,sha256=u0Hy8TcHd8fwPc8qtNwX6zi9uNsKb0AEWoHxSqO3HXc,995
+sdrdm_database/commands.py,sha256=wxtgyuYWiPAz3cb6RzwvRKAD8wsReTFzDEjRDdh6YqQ,3694
+sdrdm_database/dataio.py,sha256=8OOMG9t9zyYEkTyIZ0aCqyTht_w7ray0mfJbLvoS0iU,8048
+sdrdm_database/dbconnector.py,sha256=KiWmuUKm-Nq50WeuFDcWBSSUB1Ale6rjHLIomzcxjfk,10365
+sdrdm_database/graphql.py,sha256=wIwtQ52mBMi6-nJaMilw0qcS6VZtXkuHkOJOT2qnOOo,4359
+sdrdm_database/modelutils.py,sha256=aal1ql4dfGqtILZ5GZUKQCp_K9oxfPfxjYMeJV-_7-g,1316
+sdrdm_database/tablecreator.py,sha256=ppx55ti0v7fTupx2d19CaAK0CwaZHvugLI04P9t4Y1Q,13591
+sdrdm_database/tableutils.py,sha256=8UglM7lKYxScLSUQ1AgVqUixpKGOLifsOoohiKAthkI,3005
+sdrdm_database-0.4.0.dist-info/LICENSE,sha256=I1yQsUyJbRKjBgaiY8wOFwRpBiimgCqNeIfrCRYEI7U,1066
+sdrdm_database-0.4.0.dist-info/METADATA,sha256=UXv16x3_hUQhf_BQcxkH2QTY4--nGXumGUNyovNEhBU,1942
+sdrdm_database-0.4.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+sdrdm_database-0.4.0.dist-info/entry_points.txt,sha256=NwpDr19larnkDzaT1D6WlikQng4HJARKLayPQpautAM,51
+sdrdm_database-0.4.0.dist-info/RECORD,,
