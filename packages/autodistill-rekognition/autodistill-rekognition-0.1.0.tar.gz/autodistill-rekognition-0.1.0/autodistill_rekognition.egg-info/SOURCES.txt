@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+autodistill_rekognition/__init__.py
+autodistill_rekognition/rekognition_model.py
+autodistill_rekognition.egg-info/PKG-INFO
+autodistill_rekognition.egg-info/SOURCES.txt
+autodistill_rekognition.egg-info/dependency_links.txt
+autodistill_rekognition.egg-info/requires.txt
+autodistill_rekognition.egg-info/top_level.txt
