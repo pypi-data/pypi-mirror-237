@@ -1,0 +1,4 @@
+openai
+Pillow
+numpy
+stackview>=0.7.1
