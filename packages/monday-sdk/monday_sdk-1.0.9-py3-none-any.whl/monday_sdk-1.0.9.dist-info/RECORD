@@ -1,0 +1,10 @@
+LICENSE.txt,sha256=y1J4g2H_eElD8yw0FdSUJOsLjps0S3IM0cmZWbhISTg,1089
+monday_sdk/__init__.py,sha256=RjYenzaUCjZXoyLsEzZJSgi8f6T2lKf3VIlNgrVzIrs,499
+monday_sdk/authentication.py,sha256=nyIr_MM9nbAbPWVWRT5wRXYPkX3ne3_9VKKCEqG1Tms,2764
+monday_sdk/graphql_loader.py,sha256=rf_vTiXS6ElcoNrGM-V_EOVl2RG_UVxbpOKlXhekpt8,853
+monday_sdk/monday.py,sha256=c7WHbsTuKggpoxyATtlz_VDVh6DnIJjo7e8IF2kRV2M,4285
+README.md,sha256=chw3WpRq1zjLr_VqLOAWwadctIAbn8MiFZA6LNXG4Ws,29
+monday_sdk-1.0.9.dist-info/LICENSE.txt,sha256=y1J4g2H_eElD8yw0FdSUJOsLjps0S3IM0cmZWbhISTg,1089
+monday_sdk-1.0.9.dist-info/METADATA,sha256=dBw-sAyx8mN5wZF0DHYX2zL34B9P9qpdH5fEUa_98BI,1096
+monday_sdk-1.0.9.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+monday_sdk-1.0.9.dist-info/RECORD,,
