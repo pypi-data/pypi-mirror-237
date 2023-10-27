@@ -1,0 +1,2 @@
+[console_scripts]
+hyresrebuilder = HyresRebuilder.Rebuilder:rebuild
