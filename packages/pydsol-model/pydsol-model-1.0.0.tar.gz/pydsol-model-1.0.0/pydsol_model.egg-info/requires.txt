@@ -1,0 +1,5 @@
+pydsol-core
+numpy
+
+[dev]
+pytest
