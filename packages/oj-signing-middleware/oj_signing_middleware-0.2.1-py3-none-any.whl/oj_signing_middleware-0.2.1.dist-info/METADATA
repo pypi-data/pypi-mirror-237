@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: oj-signing-middleware
+Version: 0.2.1
+Summary: ASGI signing middlewares.
+Maintainer-email: Kabira K <kabira@monallabs.in>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: blake2signer == 2.1.0
+Requires-Dist: starlette == 0.31.0
+Project-URL: Source, https://github.com/ofjustpy/oj-signing-middleware
+
+Derived from [asgi-signing-middleware](https://github.com/HacKanCuBa/asgi-signing-middleware/) to work with the [Ofjustpy](https://github.com/ofjustpy) framework.
+
+
+
