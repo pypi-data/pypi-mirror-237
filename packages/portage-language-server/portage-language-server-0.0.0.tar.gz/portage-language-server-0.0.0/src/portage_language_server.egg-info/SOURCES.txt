@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/portage_language_server/__init__.py
+src/portage_language_server/py.typed
+src/portage_language_server.egg-info/PKG-INFO
+src/portage_language_server.egg-info/SOURCES.txt
+src/portage_language_server.egg-info/dependency_links.txt
+src/portage_language_server.egg-info/requires.txt
+src/portage_language_server.egg-info/top_level.txt
