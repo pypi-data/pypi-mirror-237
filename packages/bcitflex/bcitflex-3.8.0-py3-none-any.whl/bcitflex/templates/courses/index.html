@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Courses{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+    <div class="filter">
+      <form action="/courses" method="POST">
+        <div class="display: table">
+
+{#        <label for="term">Term:</label>#}
+{#        <select id="term" name="term">#}
+{#          <option value="">Select term</option>#}
+{#          {% for term in terms %}#}
+{#            <option value="{{ term.term_id }}">{{ term.name }}</option>#}
+{#          {% endfor %}#}
+{#        </select>#}
+
+        <label for="subject">Subject:</label>
+        <select id="subject" name="subject">
+          <option value="">Select subject</option>
+          {% for subject in subjects %}
+            <option value="{{ subject.subject_id }}">{{ subject.subject_id }}</option>
+          {% endfor %}
+        </select>
+
+        <label for="campus">Campus:</label>
+        <select id="campus" name="campus">
+          <option value="">Select campus</option>
+          {% for campus in locations %}
+            <option value="{{ campus }}">{{ campus }}</option>
+          {% endfor %}
+        </select>
+
+        <label for="code">Code:</label>
+        <input type="text" id="code" name="code" placeholder="Enter code">
+
+        <label for="available">Available:</label>
+        <input type="checkbox" id="available" name="available" value="true">
+
+        <input type="submit" value="Search">
+        </div>
+      </form>
+    </div>
+
+  <table>
+     <thead>
+        <tr>
+           <th>Subject</th>
+           <th>Code</th>
+           <th>Name</th>
+        </tr>
+     </thead>
+
+     <tbody>
+        {% for course in courses %}
+           <tr>
+              <td>{{ course.subject_id }}</td>
+              <td>{{ course.code }}</td>
+              <td><a href="{{url_for('course.show', course_id = course.course_id)}}">{{ course.name }}</a></td>
+           </tr>
+        {% endfor %}
+     </tbody>
+  </table>
+{% endblock %}
