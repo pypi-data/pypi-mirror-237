@@ -1,0 +1,11 @@
+pypar/__init__.py,sha256=I4UT7XcOnVidSKOk6W0Ao0OcaIuaMTLbInpvDCLL3qk,152
+pypar/alignment.py,sha256=z34TSKUreeA5YJx_QGPB7Czjy7iJwVioOqlHXNKLETo,18613
+pypar/compare.py,sha256=BpQfBxoodccTTQ0NYy-P-4QFr1U87tejCThwIsua4yI,2620
+pypar/phoneme.py,sha256=HbrkX0aNh0lAgxZn6Dss0tVeV8qdkMRlgROMwbIrkwc,1693
+pypar/textgrid.py,sha256=k29ldM0mf3GnAGuEtJTXDxWrBf2MF4GUQc_o5NvP6gw,5861
+pypar/word.py,sha256=feVdj1fJeSrFQPO4UWADPyjSGB1aEFQn04RSE6QlDXw,4035
+pypar-0.0.5.dist-info/LICENSE,sha256=J6P2pCwjaZR28AIEBIpXsFn8mLBQzL5nTmeCyimCmR4,1069
+pypar-0.0.5.dist-info/METADATA,sha256=OWJZkS0t7XaIjz5-mP5fa2A9vgpalzUm03VilfAqJUE,13843
+pypar-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pypar-0.0.5.dist-info/top_level.txt,sha256=hrActn-NUEXzhVcnBNy4mElOcJRsS0D8N4xhKqLJ8z0,6
+pypar-0.0.5.dist-info/RECORD,,
