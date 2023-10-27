@@ -1,0 +1,3 @@
+[console_scripts]
+pbstool = pbstool.__main__:fastpbs
+qsubs = pbstool.__main__:qsubs
