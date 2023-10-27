@@ -1,0 +1,9 @@
+h5py
+Pillow
+six
+
+[:python_version < "3" and os_name == "posix"]
+subprocess32
+
+[:python_version >= "3.10"]
+packaging
