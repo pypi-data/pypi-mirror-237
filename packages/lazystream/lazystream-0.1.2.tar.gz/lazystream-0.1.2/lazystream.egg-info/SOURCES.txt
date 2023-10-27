@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+lazystream/__init__.py
+lazystream.egg-info/PKG-INFO
+lazystream.egg-info/SOURCES.txt
+lazystream.egg-info/dependency_links.txt
+lazystream.egg-info/top_level.txt
+tests/test_lazystream.py
