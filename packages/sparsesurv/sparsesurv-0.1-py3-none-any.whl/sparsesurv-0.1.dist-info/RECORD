@@ -1,0 +1,17 @@
+sparsesurv/__init__.py,sha256=Fk_DPGDWKbnM_HK4pkEfaJSKCftHg88MHebZv0x4fgw,22
+sparsesurv/_base.py,sha256=7m3F6A4R98a8gXBD2nF8hwiz4jVfKLPbwDOaXoJn6D4,6294
+sparsesurv/aft.py,sha256=0Vz2KezuFheIBHxSfbkRVKJ0KqssLRpamvCro1XtLgw,6229
+sparsesurv/baseline_hazard_estimation.py,sha256=bAWg44-C9OGMEmOn90zL9pIbgUSBZ8gslQhuEp5G2h0,13399
+sparsesurv/compat.py,sha256=h76JNztI2FyAE-FKF1Tpz-ZeCzjnTHHE_bY89ZPq1B0,1192
+sparsesurv/constants.py,sha256=Mj-gZkv_ZxBXNfhNTGfj0NTkTo_QH54m9hldH480XkY,238
+sparsesurv/cv.py,sha256=M5VhuXskNmZnYRLXzjBc1kGyhlU_bxhsQvcbRQXnyko,60032
+sparsesurv/eh.py,sha256=OOrj5iE3Xcyw3BGH_ibOzHwAUL3FmjEEK5oCtBOTwp0,7254
+sparsesurv/gradients.py,sha256=yCkKz30Bp5KhDTXtOxlKyqGoYPIlljND80DFIabU2Ig,13097
+sparsesurv/loss.py,sha256=Ot0p85OGR0MJEG3VagGlNXvHXcHH_0d7vF6KPY47Wq4,13037
+sparsesurv/utils.py,sha256=BkNIQYuicasoGI0wNrwHfXoZ9oMs2O4Qm11FFUpcghc,23084
+sparsesurv-0.1.dist-info/AUTHORS,sha256=_4EoQrKT4hxWtaFNT8rZCmTyqY5jxWmEJHDd9Sv3cPI,259
+sparsesurv-0.1.dist-info/LICENSE,sha256=9uYbFUz4RTmdhBZJqDKNz1TVsc0nnxvGgk-T2iCLBNE,1558
+sparsesurv-0.1.dist-info/METADATA,sha256=Gh13-pnmqLJuhUBnTP7LQu5A0vUic6IiWFoboQ_ACjU,4312
+sparsesurv-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sparsesurv-0.1.dist-info/top_level.txt,sha256=aN5H1uI-eOMWRkYGnD9peevw7jDVdbFMRDZncQpSGlo,11
+sparsesurv-0.1.dist-info/RECORD,,
