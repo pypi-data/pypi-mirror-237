@@ -1,0 +1,13 @@
+fqdn
+platformdirs
+rfc3987
+tree-sitter-languages
+tree-sitter-lsp
+
+[colorize]
+tree-sitter-lsp[colorize]
+
+[dev]
+pytest-cov
+
+[termux]
