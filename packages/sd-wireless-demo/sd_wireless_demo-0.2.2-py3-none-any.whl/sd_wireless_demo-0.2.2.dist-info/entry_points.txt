@@ -1,0 +1,4 @@
+[console_scripts]
+build_exe=wireless_demo.pyinstaller:make_exe
+wireless_demo=wireless_demo.main:run
+
