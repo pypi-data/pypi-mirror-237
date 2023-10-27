@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: django-mp-countries
+Version: 0.0.1
+Summary: Django countries app
+Home-page: https://github.com/pmaigutyak/mp-countries
+Download-URL: https://github.com/pmaigutyak/mp-countries/archive/0.0.1.tar.gz
+Author: Paul Maigutyak
+Author-email: pmaigutyak@gmail.com
+License: MIT

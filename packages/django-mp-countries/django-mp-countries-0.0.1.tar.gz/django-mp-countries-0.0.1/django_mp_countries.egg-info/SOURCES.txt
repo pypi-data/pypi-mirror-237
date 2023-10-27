@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+countries/__init__.py
+countries/admin.py
+countries/apps.py
+countries/models.py
+countries/locale/uk/LC_MESSAGES/django.mo
+countries/locale/uk/LC_MESSAGES/django.po
+countries/migrations/0001_initial.py
+countries/migrations/__init__.py
+django_mp_countries.egg-info/PKG-INFO
+django_mp_countries.egg-info/SOURCES.txt
+django_mp_countries.egg-info/dependency_links.txt
+django_mp_countries.egg-info/top_level.txt
