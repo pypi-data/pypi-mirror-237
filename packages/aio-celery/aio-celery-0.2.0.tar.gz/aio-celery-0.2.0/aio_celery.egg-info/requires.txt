@@ -1,0 +1,4 @@
+aio-pika>=9.3.0
+
+[redis]
+redis>=4.5.4
