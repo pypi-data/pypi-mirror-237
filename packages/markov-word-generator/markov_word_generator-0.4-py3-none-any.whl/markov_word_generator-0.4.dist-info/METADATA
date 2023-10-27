@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: markov-word-generator
+Version: 0.4
+Summary: A small Python librairy to generate random credible words based on a list of words by esimating the probability of the next character from the frequency of the previous ones
+Home-page: https://github.com/ggouzi/markov-word-generator
+Author: Gaetan GOUZI
+Author-email: gouzi.gaetan@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: Unidecode
+
+A small Python librairy to generate random credible words based on a list of words by esimating the probability of the next character from the frequency of the previous ones
+
