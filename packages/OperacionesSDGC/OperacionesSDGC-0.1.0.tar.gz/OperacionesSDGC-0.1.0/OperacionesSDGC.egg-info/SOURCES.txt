@@ -1,0 +1,9 @@
+README.md
+setup.py
+OperacionesSDGC/__init__.py
+OperacionesSDGC/modulo.py
+OperacionesSDGC.egg-info/PKG-INFO
+OperacionesSDGC.egg-info/SOURCES.txt
+OperacionesSDGC.egg-info/dependency_links.txt
+OperacionesSDGC.egg-info/requires.txt
+OperacionesSDGC.egg-info/top_level.txt
