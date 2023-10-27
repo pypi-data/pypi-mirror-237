@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: roadrunnerloopdetect
+Version: 0.0.2
+Summary: Find the loops presented in the Jacobin matrix of Roadrunner using LoopDetect
+Home-page: https://github.com/adelhpour/RoadRunnerLoopDetect
+Author: Adel Heydarabadipour
+Author-email: adelhp@uw.edu
+Project-URL: Bug Tracker, https://github.com/adelhpour/RoadRunnerLoopDetect/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: libroadrunner (>=2.1)
+Requires-Dist: loopdetect (>=0.1)
+
+# RoadRunnerLoopDetect
+
+A python script to find the loops presented in the Jacobin matrix of Roadrunner using LoopDetect.
+
+
