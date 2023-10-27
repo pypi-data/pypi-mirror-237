@@ -1,0 +1,1 @@
+This is a repo intended for testing python packaging and publishing
