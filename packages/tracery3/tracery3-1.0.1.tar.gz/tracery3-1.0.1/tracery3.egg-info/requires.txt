@@ -1,0 +1,5 @@
+
+[development]
+black
+black[d]
+build

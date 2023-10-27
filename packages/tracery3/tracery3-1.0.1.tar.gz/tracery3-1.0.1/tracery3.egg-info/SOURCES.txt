@@ -1,0 +1,17 @@
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+tests/test_modifiers.py
+tests/test_tracery.py
+tracery/__init__.py
+tracery/__main__.py
+tracery/modifiers.py
+tracery/py.typed
+tracery3.egg-info/PKG-INFO
+tracery3.egg-info/SOURCES.txt
+tracery3.egg-info/dependency_links.txt
+tracery3.egg-info/entry_points.txt
+tracery3.egg-info/requires.txt
+tracery3.egg-info/top_level.txt
