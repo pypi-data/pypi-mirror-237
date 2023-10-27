@@ -1,0 +1,13 @@
+northgravity_utils/BackTest.py,sha256=qjg7UhWnvT-oz_6Y2T9Ng6Ka2nZa8tsNZnXiAT876_o,4954
+northgravity_utils/DataHandler.py,sha256=B-ndF3L8kMvEqqm7Pf-XJ6E4rtjO2GLEVBNL2IpgSqQ,17149
+northgravity_utils/FileHandler.py,sha256=kNzJUbiu2jqXrEmd7Du_rQ7PpOd9whZQug0O7izse1o,6274
+northgravity_utils/StatTests.py,sha256=Gh8Ga-9DqxzmNx007uNsJlQ7STMq8HKGTreLUkbOrj0,3416
+northgravity_utils/TaskExecUtils.py,sha256=GBbyJ03FYl35WiS1neHozeGpszsDDDuqat8EUyfej6c,2913
+northgravity_utils/__init__.py,sha256=xbmiVWsL56shvZkuPtQzLqtMoTuF14vQTzn_AxHrduA,575
+northgravity_utils/constants.py,sha256=dI1DFsf9ZAlTzTzwmF4KGij8eDH45zmJGoFyedmJoh4,122
+northgravity_utils/utils.py,sha256=GY2BH6H1aGiMoEg85P668IV4h9Eo0rQ2jYzcPt3MbdU,1221
+northgravity_utils-0.1.0.dist-info/LICENSE,sha256=_B5ZJKrsekIeaQBmWnvEcObTctHzG_dKJ8EOhJmyftk,1055
+northgravity_utils-0.1.0.dist-info/METADATA,sha256=dUVZQ2xTiirjVh4enPlrJFCvMQCnRAJmSqLh_BVWt8M,3223
+northgravity_utils-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+northgravity_utils-0.1.0.dist-info/top_level.txt,sha256=SkQIJJPeinjK0dBud_W8QNeUCKJB6XLcTZQWolYUDLo,19
+northgravity_utils-0.1.0.dist-info/RECORD,,
