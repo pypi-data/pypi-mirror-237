@@ -1,0 +1,6 @@
+README.md
+setup.py
+FdoLib.egg-info/PKG-INFO
+FdoLib.egg-info/SOURCES.txt
+FdoLib.egg-info/dependency_links.txt
+FdoLib.egg-info/top_level.txt
