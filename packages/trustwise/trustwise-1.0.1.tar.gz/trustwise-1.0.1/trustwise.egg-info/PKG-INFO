@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: trustwise
+Version: 1.0.1
+Summary: Hallucinations Observability Plugin
+Home-page: https://github.com/tw-gtm/tw-hop
+Author: Trustwise
+Author-email: nihal@trustwise.ai
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Trustwise Hallucinations Safety Module
