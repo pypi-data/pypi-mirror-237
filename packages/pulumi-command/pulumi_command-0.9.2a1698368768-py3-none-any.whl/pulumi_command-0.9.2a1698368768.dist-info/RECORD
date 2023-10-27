@@ -1,0 +1,17 @@
+pulumi_command/__init__.py,sha256=Yr_ShJYfBk3EJlYYDzkvdnt7A3NhwmLv5Z3JWde-eos,1106
+pulumi_command/_utilities.py,sha256=O8ZYf6bGpcgE1CUxgSUqVMQmVAlslC3oaromh_R14t4,8687
+pulumi_command/provider.py,sha256=2V5RWhWdqRUWGc9RaPbng4X067ZiIVLTrPThQfHDuIw,3093
+pulumi_command/pulumi-plugin.json,sha256=ZH085JBJK-FYGBr6N_UTkGMwP74Br_6_wYEHhE8MvWA,44
+pulumi_command/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pulumi_command/local/__init__.py,sha256=b9-q3zDpy2sVeMZzJXq0pbO3K7sG_hOUK4BpuvYVIiY,293
+pulumi_command/local/command.py,sha256=By549yeKobPn6iykewlzVC5UAjjGN_VvwxJlAdz9TR4,32172
+pulumi_command/local/run.py,sha256=b6QiVSLlkVzMCLJ7WnssU1zQKRp-ohFPX_LOddzTc-4,17427
+pulumi_command/remote/__init__.py,sha256=GmL0KqUM5paBQDW0rhOODYDMxlk2poTFq0EE_PsSJWU,344
+pulumi_command/remote/_inputs.py,sha256=OYyWhZ1W3QXMrm9CQxXvuqWVKCkyy1wQOVwTDmr8ZmU,17425
+pulumi_command/remote/command.py,sha256=fkEwZ3XC9ypUWzKyp57TblgMlvu47bgX7ja19B6hW4I,15620
+pulumi_command/remote/copy_file.py,sha256=sMRpD2BvBGkKSY9T9bpbIDErLr4C6pu7KfAb24hYFjk,10001
+pulumi_command/remote/outputs.py,sha256=7rPIt08cDuE7yZMr_R7_td9pXC5ZVqLGKIpELjuDG_E,15760
+pulumi_command-0.9.2a1698368768.dist-info/METADATA,sha256=az70ezy5YYQehJXfx7z4CZXHAUq41Tlim-qzPhmYhbg,15201
+pulumi_command-0.9.2a1698368768.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pulumi_command-0.9.2a1698368768.dist-info/top_level.txt,sha256=9M511kLm0IQF3I3ZuoV79i50MmDHaRXi4uDOdZnq8Qs,15
+pulumi_command-0.9.2a1698368768.dist-info/RECORD,,
