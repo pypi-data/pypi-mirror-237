@@ -1,0 +1,9 @@
+MDAnalysis
+
+[test]
+pytest
+coverage
+pytest-cov
+collective.checkdocs
+pygments
+MDAnalysis
