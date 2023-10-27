@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: quecpython-api-stubs
+Version: 0.0.1
+Summary: quecpython_api_stubs for IDE
+Home-page: https://github.com/QuecPython/quecpython_api_stubs
+Author: dustin.wei
+Author-email: dustin.wei@quectel.com
+License: MIT License
+Keywords: QuecPython,quecpython_api_stubs
+Platform: windows
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+
+News
+====
+
+- October 2023: quecpython_api_stubs 0.1.1 released!
+
+Overview
+========
+
+Provides a programing autocomplete of QuecPython for IDE.It is pure Python and works on
+Python 3.7+.
+
+Install most recent stable with "pip install quecpython_api_stubs".
+
+Useful links:
+
+- Project on PyPI: https://pypi.org/project/quecpython_api_stubs/
+- The documentation for latest code is at: https://github.com/QuecPython/quecpython_api_stubs
