@@ -1,0 +1,10 @@
+poetry.lock,sha256=TnEPdqgcZ0Mfq6mgVwWFcDYS3KKM2Rv848ngkWQZ2Ms,251440
+pycalf/__init__.py,sha256=X4KG3FscE5AhbGbcdDDgdDC550CVpxNMwdNLcx6EQ7M,23
+pycalf/metrics.py,sha256=j_puwWorSYaLyyoAgfRvwJNVnYIlgUxasV7M5lfh4xM,7006
+pycalf/propensity.py,sha256=cJqT4ul1dyoe8qLrwaLLVVm-1hr-SHUxsB0sUGzaLKc,13404
+pycalf/uplift.py,sha256=x8gojqJJCWCzsC0Rcoq2i-E3gDVwiDpYu1KTx8xVxGk,4071
+pycalf/visualize.py,sha256=2aao9jppo4CefOtATQvLz-EroR_Rz_6gjkstmYlT45M,6168
+pycalf-0.2.12.dist-info/LICENSE,sha256=7j1GgZaRseSFSHC5fjUASCHnYOQuWuFaYEWvyI-k-rQ,1067
+pycalf-0.2.12.dist-info/METADATA,sha256=kq8W8lLdmJBdSdPvsccsLjDhgDHEovHtHr3j1nbBYAQ,3948
+pycalf-0.2.12.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pycalf-0.2.12.dist-info/RECORD,,
