@@ -1,0 +1,10 @@
+avipy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+avipy/atmosphere.py,sha256=_7J00FxIocuG4NpL7qzUznYOWe_c7EjTOB3VCBarSZc,891
+avipy/constants.py,sha256=nsgwH5w6tvbf5N0oxDzDm18xFFKoHAdPx24lNsockCA,490
+avipy/geo.py,sha256=qZOzeAkU0h8nv8Oh_8gAXo4Xj_2T0APJV9kBWY9Fmms,6681
+avipy/qty.py,sha256=zvAEsihIhEJHoa7ey1rKpX2EBo7mCvBPqvCT94R4_fs,16113
+AviPy-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+AviPy-0.2.0.dist-info/METADATA,sha256=F5kdKRmURCppHM063NcAO2ZcA0Sgf4_MoWJSYKES8as,2616
+AviPy-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+AviPy-0.2.0.dist-info/top_level.txt,sha256=c_k4hEeYu7cmwR6q9PFdqyWsrwbBS1huy05oEPLX2P4,6
+AviPy-0.2.0.dist-info/RECORD,,
