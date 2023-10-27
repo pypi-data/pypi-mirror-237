@@ -1,0 +1,5 @@
+setup.py
+thds.atacama.egg-info/PKG-INFO
+thds.atacama.egg-info/SOURCES.txt
+thds.atacama.egg-info/dependency_links.txt
+thds.atacama.egg-info/top_level.txt
