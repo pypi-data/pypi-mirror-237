@@ -1,0 +1,9 @@
+nanopq/__init__.py,sha256=pSzAu08nUiIfYkT5qpQ3nhZsTLlBDRg0dIvFY3ZATVI,222
+nanopq/convert_faiss.py,sha256=NVBeQQzwkqwFBRYlV3wMsi1B6uEs_Hh3Tzzw6SOOQd8,4052
+nanopq/opq.py,sha256=6jnYzkQJeK67H7h6zKG4TflZ_-yj4ZrN884VgiOFfDM,8391
+nanopq/pq.py,sha256=2AGPgztgLw-sSPguYPVRDUZ-vlb32qExvIm5r5kpZQo,9536
+nanopq-0.2.1.dev1.dist-info/LICENSE,sha256=51s2NaJ2PRI_pme3WVaKXhY4om23fYzbyVc4fLb3nOA,1070
+nanopq-0.2.1.dev1.dist-info/METADATA,sha256=RTZtIumb0bfMUOLLWpUPa4QSCpMIAcjW5bCa7IQqEK8,4228
+nanopq-0.2.1.dev1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nanopq-0.2.1.dev1.dist-info/top_level.txt,sha256=zMpVKmhAlDomo9mOoigfX1eICzWimQpv8MOYqeLEhn4,7
+nanopq-0.2.1.dev1.dist-info/RECORD,,
