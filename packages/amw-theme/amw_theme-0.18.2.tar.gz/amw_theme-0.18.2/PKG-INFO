@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: amw_theme
+Version: 0.18.2
+Summary: A modern Sphinx theme.
+Home-page: https://github.com/ansible-middleware/amw_theme
+Author: Guido Grazioli
+Author-email: ggraziol@redhat.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Framework :: Sphinx :: Theme
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Ansible Middlware Sphinx Theme
+
+A clean and modern Sphinx theme based on piccolo.
+
