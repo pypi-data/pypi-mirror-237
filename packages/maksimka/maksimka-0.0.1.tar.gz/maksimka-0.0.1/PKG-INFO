@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: maksimka
+Version: 0.0.1
+Summary: Very useful thing
+Home-page: 
+Author: barashek
+Author-email: ffmarkov@yandex.ru
+License: MIT
+Keywords: kod
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+tishe, tishe, ne crichi
+
+Change Log
+============================
+
+0.0.1 (17/06/2023 02:51)
+---------------------------
+- First Release
+

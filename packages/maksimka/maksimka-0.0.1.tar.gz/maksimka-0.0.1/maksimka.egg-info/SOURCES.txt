@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+maksimka/__init__.py
+maksimka.egg-info/PKG-INFO
+maksimka.egg-info/SOURCES.txt
+maksimka.egg-info/dependency_links.txt
+maksimka.egg-info/top_level.txt
