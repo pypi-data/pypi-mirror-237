@@ -1,0 +1,12 @@
+functionalpy/__init__.py,sha256=94-uhDHFj5TFLfmHzDl7Az_ReD_macLHR4rdkvy3d24,46
+functionalpy/sequence.py,sha256=UTteqJL4-GL3Q2-t2VNYZcUl3E_R6JjGhAIgySr6YZU,1728
+functionalpy/test_sequence.py,sha256=uU6rsuFFvaGEaEILPqAfSgDH1bwim7ej7VI94MwVH0c,710
+functionalpy/benchmark/utils.py,sha256=v8XvCkPgfT-rcAojRBMiz3YkGaQw1C8_hwBYdPGXtQE,1288
+functionalpy/benchmark/query_1/input_data.py,sha256=i3wwwJef_HD31Gt5sosNLpqJT2nxbU8WsBdu3Jpy50k,466
+functionalpy/benchmark/query_1/iterators_q1.py,sha256=NXcMa1POhhDTMz9GdZyBxME8tA2yT9EsxPmL--kWw54,2983
+functionalpy/benchmark/query_1/polars_q1.py,sha256=v7adgPA0AHjW1hpXsks7KaVagsc-zMr_vPAPT84FpIM,1363
+functionalpy-0.5.0.dist-info/LICENSE,sha256=dYOLlaCjPtQ1wWaHKRYlmKsBeIOYZbzMfPANBaRd77Y,1073
+functionalpy-0.5.0.dist-info/METADATA,sha256=it7y6TbKzQro6qn3CijMIUnmZN8OCdhtFNAnKHnp6sU,4461
+functionalpy-0.5.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+functionalpy-0.5.0.dist-info/top_level.txt,sha256=g6_R3TZfzfO2YXIxDDJ86PQTOGctbczV8hhaDDRAmW0,13
+functionalpy-0.5.0.dist-info/RECORD,,
