@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bdp_contracts/__init__.py
+bdp_contracts/contracts.py
+bdp_contracts.egg-info/PKG-INFO
+bdp_contracts.egg-info/SOURCES.txt
+bdp_contracts.egg-info/dependency_links.txt
+bdp_contracts.egg-info/requires.txt
+bdp_contracts.egg-info/top_level.txt
+bdp_contracts/versions/v1.yml
