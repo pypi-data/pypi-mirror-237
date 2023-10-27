@@ -1,0 +1,4 @@
+msgspec
+polars
+python-dotenv
+requests
