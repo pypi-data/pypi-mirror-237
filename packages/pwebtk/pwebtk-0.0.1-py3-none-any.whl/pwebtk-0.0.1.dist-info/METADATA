@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pwebtk
+Version: 0.0.1
+Summary: Simple python library for creating web-based desktop apps
+Home-page: https://github.com/Pyxelsuft/webtk
+Author: Pixelsuft
+License: GPLV3+
+Project-URL: Readme, https://github.com/Pyxelsuft/webtk/blob/main/README.md
+Project-URL: Issue tracker, https://github.com/Pyxelsuft/webtk/issues
+Keywords: webtk
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Software Development
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: whichcraft
+
+# Web Toolkit
+Simple python library for creating web-based desktop apps
+## Installing
+```shell
+python -m pip install pwebtk
+```
+## Supported Backends
+ - [WebView](https://github.com/webview/webview/)
+ - Chrome
+ - Edge (Untested)
+## Example
+See [here](main.py)
+## TODO
+ - FireFox Support

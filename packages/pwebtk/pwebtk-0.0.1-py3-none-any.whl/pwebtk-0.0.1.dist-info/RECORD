@@ -1,0 +1,13 @@
+webtk/__init__.py,sha256=cVTMOZG7paj42pWo9PZSHnfbWhY31hTRkJ5lr-y8hTo,157
+webtk/binder.py,sha256=u-ovL1IZudVoDrBUwR7cglRohJ79K7VzZNXSwFHDDXI,305
+webtk/chrome.py,sha256=pAi7NBiIEilZRMc1QNKWQi0qrX8YtCjhSvn9HiWlg3k,3240
+webtk/edge.py,sha256=5S1yS3AJB2foPUEiXRTpnrUcrhkjaCY1HIXiIBldtoM,583
+webtk/server.py,sha256=ZBR7yJ0s-k2qzH2reV4zo8WEPWZfJfM09hhNC6m6xFE,1240
+webtk/utils.py,sha256=U9of-8oXJwDlTDfvVO50Bln9xlleVVa2FybRHz_i0sM,1168
+webtk/webview.py,sha256=JoMXA8wHEevCYnyu6qRWQQB8gujfF8gB467dTtzJAO0,7176
+pwebtk-0.0.1.dist-info/LICENSE.md,sha256=idHHct050J8PAd7ER8AqVWJA8Fj8WxkM-1l616mQALY,35499
+pwebtk-0.0.1.dist-info/METADATA,sha256=7AxXri-andCP6xJ4ml8t5qEeu105tZ9os8GLzzlDgaY,1533
+pwebtk-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pwebtk-0.0.1.dist-info/top_level.txt,sha256=c4DGnopgU11hQsdYjmwZjAHRWwILtlMxZkDTm2wU4sU,6
+pwebtk-0.0.1.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+pwebtk-0.0.1.dist-info/RECORD,,
