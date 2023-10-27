@@ -1,0 +1,16 @@
+README.md
+setup.py
+my_dimension_reduction/__init__.py
+my_dimension_reduction/dimension_reduction.py
+my_dimension_reduction/isomap.py
+my_dimension_reduction/lle.py
+my_dimension_reduction/mds.py
+my_dimension_reduction/pca.py
+my_dimension_reduction/random_projection.py
+my_dimension_reduction/tsne.py
+my_dimension_reduction.egg-info/PKG-INFO
+my_dimension_reduction.egg-info/SOURCES.txt
+my_dimension_reduction.egg-info/dependency_links.txt
+my_dimension_reduction.egg-info/requires.txt
+my_dimension_reduction.egg-info/top_level.txt
+tests/test_dimension_reduction.py
