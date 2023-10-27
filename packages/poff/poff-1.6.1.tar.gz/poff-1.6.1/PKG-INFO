@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: poff
+Version: 1.6.1
+Summary: A quite small pdns frontend
+Home-page: https://github.com/thusoy/poff
+Author: Tarjei Husøy
+Author-email: git@thusoy.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: test
+Provides-Extra: postgres
