@@ -1,0 +1,12 @@
+pandabear/README.md,sha256=EJmirqz_z3-qkf-AiPqazDFaBU-P_eE4u8TGJDIjff0,2039
+pandabear/__init__.py,sha256=yKqQcan8qwU4CgpsJVIBFV-Ka0BxSRghxr7yqyHx9Fk,424
+pandabear/column_checks.py,sha256=sNnP9Tf3srgROA2wXQvkmWckDw8FrQg1UAKmS547jPs,1413
+pandabear/decorators.py,sha256=ue79c_AorY_3GjXiVfaP6C5LWVKkWi6hwswPvXZLyss,7084
+pandabear/exceptions.py,sha256=mR_EIT6mctn7ucteukMSNf8dA-m3ll8k1p1gKq940E8,3522
+pandabear/model.py,sha256=KHmKR9OcYoPemN19VuxHoe5iXx_jTfERLuI8Tm874bk,21961
+pandabear/model_components.py,sha256=m8KIyWDrTsylkGbetTNXJlg-nJiz1JjtZcovVbhX860,2254
+pandabear/typehints.py,sha256=mAM__MhpW5vGULL-JltirltdCUXAph-6f3Mba9DbN-o,1420
+pandabear-0.6.1.dist-info/METADATA,sha256=d0KWtB3v-GkUYv61Rquds9zBC2HM2WCFuVAB254yJMY,2735
+pandabear-0.6.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pandabear-0.6.1.dist-info/top_level.txt,sha256=5egvFFiXxBuYW7EOCXOWITrZGu81CBoU82gAJsWEGeY,10
+pandabear-0.6.1.dist-info/RECORD,,
