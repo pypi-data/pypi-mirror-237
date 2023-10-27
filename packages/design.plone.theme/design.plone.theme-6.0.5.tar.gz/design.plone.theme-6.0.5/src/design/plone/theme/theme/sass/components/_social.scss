@@ -1,0 +1,73 @@
+#header-social {
+    text-align: right;
+
+    p {
+        display: inline-block;
+        margin: 0;
+    }
+
+    ul {
+        @extend .list-inline;
+        display: inline-block;
+        padding-left: 1rem;
+
+        li {
+            padding-right: 0;
+
+            a {
+                display: inline-block;
+                border-radius: 100%;
+                background-color: $brand-primary;
+                color: #fff;
+                width: 3rem;
+                height: 3rem;
+                text-align: center;
+                font-size: 2rem;
+                line-height: 30px;
+                vertical-align: middle;
+                overflow: hidden;
+
+                &.sc-storify:before {
+                    content: '';
+                    vertical-align: bottom;
+                    background-image: url($img-path+'storifyHover.svg');
+                    background-size: 2rem;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                }
+
+                &:focus,
+                &:hover {
+                    background-color: $gray;
+                }
+
+                span {
+                    @extend .sr-only;
+                }
+
+                &[title~='twitter']::before {
+                    height: 17px;
+                    width: 17px;
+                    content: '';
+                    -webkit-mask: url($img-path+'x-twitter.svg') no-repeat 50%
+                        50%;
+                    mask: url($img-path+'x-twitter.svg') no-repeat 50% 50%;
+                    -webkit-mask-size: contain;
+                    mask-size: contain;
+                    background-color: $link-color;
+                    display: inline-block;
+                    margin-top: 6px;
+                    margin-left: 1px;
+                }
+
+                &[title~='twitter']:hover::before {
+                    background-color: #fff;
+                }
+
+                svg.fa-twitter {
+                    display: none;
+                }
+            }
+        }
+    }
+}
