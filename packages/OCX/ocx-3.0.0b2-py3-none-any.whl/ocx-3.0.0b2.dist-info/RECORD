@@ -1,0 +1,14 @@
+ocx/OCX_Schema.xsd,sha256=33lmhfZOYg4vTKJdXqWTahHDFBdj2PC6M_viOtlzpjM,257399
+ocx/__init__.py,sha256=9qQLmSS8Ph2RYgxLEZb8046phdQ1Nuw0Vlo1xQZ_dzc,24
+ocx/ocx_286/__init__.py,sha256=XQ5MhIhudYklXJd_kNqJkCHY3z45DtXspnKXIMBYVNs,9684
+ocx/ocx_286/ocx_286.py,sha256=q_qj4PaHMOe0m0WReND57h1pYCyliGDkKlKKL2Ekm3Q,306394
+ocx/ocx_286_fix/__init__.py,sha256=mlx43r4UuU3ep1fY5-m-rYJpu50fveRMgyJycWfFaCY,10427
+ocx/ocx_286_fix/ocx_286.py,sha256=_qxn_vYXo08d70qgTWnQQeIReZXc9LTYsCLe-lEh8wI,370511
+ocx/ocx_300b0/__init__.py,sha256=xg7mJzbAgHAHZUf6Hs6txgOEYl_CndUMIWYIEMZZKEA,10269
+ocx/ocx_300b0/ocx_300b0.py,sha256=ezVbxVl5ZfOY67YA3rv-jtF148ViZPdCawcHNTkrYVI,359814
+ocx/ocx_300b2/__init__.py,sha256=xg7mJzbAgHAHZUf6Hs6txgOEYl_CndUMIWYIEMZZKEA,10269
+ocx/ocx_300b2/ocx_300b2.py,sha256=YNEbNYGMdPFJQHE30U5ihpjgJyL09XKhK3QXErVS4jg,360029
+ocx-3.0.0b2.dist-info/LICENSE,sha256=LA5ArohJRCDgf1lgpz59d9qUW_-j_cTKB4QSZn7qzg8,11359
+ocx-3.0.0b2.dist-info/METADATA,sha256=HmGvL0NOu_m-IztrcQcC1CdMWvdTBKX5SwVZ55T9UKw,2723
+ocx-3.0.0b2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ocx-3.0.0b2.dist-info/RECORD,,
