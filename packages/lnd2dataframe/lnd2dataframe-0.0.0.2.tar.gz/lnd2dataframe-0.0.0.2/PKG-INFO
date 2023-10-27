@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: lnd2dataframe
+Version: 0.0.0.2
+Summary: Library to read grpc messages into dataframes
+License: MIT
+Author: feelancer21
+Author-email: feelancer21@users.noreply.github.com
+Requires-Python: >=3.9,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: fl21-lnd-grpc-client (>=0.6.0,<0.7.0)
+Requires-Dist: pandas (>=2.1.1,<3.0.0)
+Requires-Dist: pb2dataframe (>=0.0.0.2,<0.0.1.0)
+Requires-Dist: setuptools (>=68.2.2,<69.0.0)
+Description-Content-Type: text/markdown
+
+# lnd2dataframe
+Library to read lnd grpc messages into datafames
+
