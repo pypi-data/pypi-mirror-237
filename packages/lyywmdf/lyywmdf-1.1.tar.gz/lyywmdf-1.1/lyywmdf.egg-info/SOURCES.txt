@@ -1,0 +1,7 @@
+README.md
+setup.py
+lyywmdf.egg-info/PKG-INFO
+lyywmdf.egg-info/SOURCES.txt
+lyywmdf.egg-info/dependency_links.txt
+lyywmdf.egg-info/requires.txt
+lyywmdf.egg-info/top_level.txt
