@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: OperacionesSDGC
+Version: 0.1.0
+Summary: libreria de operaciones
+Home-page: https://gitlab.com/sebasdgc14/personal
+Author: Sebastian Diaz Granados Cano
+Author-email: sebasdgc14@gmail.com
+License: MIT
+Requires-Python: >=3.11.4
+Description-Content-Type: text/markdown
+Requires-Dist: numpy ==1.26.1
+
+# mi primera libreria
