@@ -1,0 +1,10 @@
+jsonpyth<0.2,>=0.1.3
+pygal<4,>=3.0.0
+
+[:python_version >= "3.12"]
+setuptools
+
+[manual]
+sphinx<5,>=4
+sphinxcontrib-programoutput<0.18
+sphinx-copybutton<0.6
