@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+dcflags/__init__.py
+dcflags/_src.py
+dcflags/py.typed
+dcflags.egg-info/PKG-INFO
+dcflags.egg-info/SOURCES.txt
+dcflags.egg-info/dependency_links.txt
+dcflags.egg-info/top_level.txt
+dcflags.egg-info/zip-safe
