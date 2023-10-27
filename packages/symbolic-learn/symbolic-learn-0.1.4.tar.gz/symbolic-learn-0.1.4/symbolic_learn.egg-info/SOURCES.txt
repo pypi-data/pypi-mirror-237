@@ -1,0 +1,13 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+setup.py
+sblearn/__init__.py
+sblearn/compute.c
+sblearn/models.py
+sblearn/trees.c
+symbolic_learn.egg-info/PKG-INFO
+symbolic_learn.egg-info/SOURCES.txt
+symbolic_learn.egg-info/dependency_links.txt
+symbolic_learn.egg-info/requires.txt
+symbolic_learn.egg-info/top_level.txt

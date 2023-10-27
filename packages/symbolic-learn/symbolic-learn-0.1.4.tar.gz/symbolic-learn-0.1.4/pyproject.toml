@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "Cython", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "symbolic-learn"
+version = "0.1.4"
+authors = [
+  { name="Vincent Papelard", email="papelardvincent@gmail.com" },
+]
+description = "A sklearn-compatible package that implements a symbolic regression model"
+readme = "README.rst"
+requires-python = ">=3.7"
+dependencies = [
+    'Cython',
+    'joblib',
+    'numpy',
+    'pandas',
+    'scikit_learn',
+    'setuptools',
+    'sympy'
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/vinpap/symbolic-learn"
+"Documentation" = "https://symbolic-learn.readthedocs.io/en/latest/"
