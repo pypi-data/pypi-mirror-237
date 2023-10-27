@@ -1,0 +1,7 @@
+README.md
+setup.py
+libreriaNueva.egg-info/PKG-INFO
+libreriaNueva.egg-info/SOURCES.txt
+libreriaNueva.egg-info/dependency_links.txt
+libreriaNueva.egg-info/requires.txt
+libreriaNueva.egg-info/top_level.txt
