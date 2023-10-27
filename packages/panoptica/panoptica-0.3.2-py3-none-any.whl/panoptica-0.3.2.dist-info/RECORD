@@ -1,0 +1,15 @@
+panoptica/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+panoptica/evaluator.py,sha256=va0W8TTCqFBIDmft8fnkFRehMapG7I8GhYb0zyYwRM4,4459
+panoptica/instance-matchin-new.py,sha256=uc3qTgMRafHPwv0rHQ2irSNpctGFPzmLize_riVvi10,2098
+panoptica/instance.py,sha256=qCXC7yeIjJU6A9Oac67ljY52GsJTHoNXnZ2yMR71K6U,3648
+panoptica/instance_matching.py,sha256=JAxNxH7iNa1GxOjI645tuZbe6yx4LD8JISRLYKzkbjA,3229
+panoptica/panoptica_evaluation.py,sha256=6xntqkcaDfBUYsEXU3BVnGqzaIU2fyqyOG4GhjGkbLQ,4606
+panoptica/result.py,sha256=6yIK4M6J0aKVvazypBPdUMpxhlFVQ_YVgP2cd54ypXo,4092
+panoptica/returned_instance.py,sha256=2xLV6POebD8StNa590QWUXCeQGvKahn75rU-UUP7NeE,166
+panoptica/semantic.py,sha256=vhsz03q7b3G3PffOUmVvzajtrGZp2DAdtL_pI23aFDg,7337
+panoptica/timing.py,sha256=2dgt-AVL059Cbq3MmBBhDJiyCE-rbfHt0QD7VTmuXzw,336
+panoptica/utils.py,sha256=iC5BPPnZhZhxDapYwzZ7rn72DHhROTOWn8GEIKgGsLI,3718
+panoptica-0.3.2.dist-info/LICENSE,sha256=FEtVvQ1bqfYqgOL7r62WahaLZglsv13ZBKnRu22zf4A,1068
+panoptica-0.3.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+panoptica-0.3.2.dist-info/METADATA,sha256=Npb8cugSxlHmfIFWlriv-1lbuvGLdqApxR6qb4cAH18,534
+panoptica-0.3.2.dist-info/RECORD,,
