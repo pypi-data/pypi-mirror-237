@@ -1,0 +1,37 @@
+Metadata-Version: 2.0
+Name: machine-learning-tools
+Version: 1.0.0
+Summary: Utility functions for sklearn and other machine learning utilities
+Home-page: UNKNOWN
+Author: Brendan Celii
+Author-email: brendanacelii@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/reimerlab/machine_learning_tools
+Project-URL: Documentation, https://reimerlab.github.io/machine_learning_tools/
+Platform: UNKNOWN
+Requires-Dist: graphviz (>=0.16)
+Requires-Dist: ipython
+Requires-Dist: matplotlib (>=3.3.4)
+Requires-Dist: networkx (>=2.5)
+Requires-Dist: numpy (>=1.19.5)
+Requires-Dist: pandas (>=1.1.5)
+Requires-Dist: scikit-learn
+Requires-Dist: scipy (>=1.5.4)
+Requires-Dist: seaborn (>=0.11.2)
+Requires-Dist: statsmodels (>=0.11.1)
+Requires-Dist: tqdm (>=4.62.2)
+Requires-Dist: trimesh (>=3.9.0)
+Requires-Dist: umap-learn (>=0.5.3)
+Requires-Dist: webcolors (>=1.11.1)
+Requires-Dist: ipython-genutils
+Requires-Dist: datasci-stdlib-tools (>=1.0.0)
+
+machine\_learning\_tools
+========================
+
+Implemented algorithms (dimensionality reduction, clustering, etc.) and
+wrapper modules for common machine learning (sklearn) and visualizaiton
+modules. Applications include example projects from Rice University
+Machine Learning course and other Medical research application projects.
+
+
