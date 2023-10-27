@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+autodistill_azure_vision/__init__.py
+autodistill_azure_vision/azure_vision_model.py
+autodistill_azure_vision.egg-info/PKG-INFO
+autodistill_azure_vision.egg-info/SOURCES.txt
+autodistill_azure_vision.egg-info/dependency_links.txt
+autodistill_azure_vision.egg-info/requires.txt
+autodistill_azure_vision.egg-info/top_level.txt
