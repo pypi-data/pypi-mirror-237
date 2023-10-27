@@ -1,0 +1,55 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="28">
+            <item index="0" class="java.lang.String" itemvalue="pyarrow" />
+            <item index="1" class="java.lang.String" itemvalue="pyinstaller" />
+            <item index="2" class="java.lang.String" itemvalue="customtkinter" />
+            <item index="3" class="java.lang.String" itemvalue="pytest" />
+            <item index="4" class="java.lang.String" itemvalue="cython" />
+            <item index="5" class="java.lang.String" itemvalue="iniconfig" />
+            <item index="6" class="java.lang.String" itemvalue="black" />
+            <item index="7" class="java.lang.String" itemvalue="numpy" />
+            <item index="8" class="java.lang.String" itemvalue="requests" />
+            <item index="9" class="java.lang.String" itemvalue="darkdetect" />
+            <item index="10" class="java.lang.String" itemvalue="pandas" />
+            <item index="11" class="java.lang.String" itemvalue="getmac" />
+            <item index="12" class="java.lang.String" itemvalue="pillow" />
+            <item index="13" class="java.lang.String" itemvalue="openpyxl" />
+            <item index="14" class="java.lang.String" itemvalue="pathspec" />
+            <item index="15" class="java.lang.String" itemvalue="tk" />
+            <item index="16" class="java.lang.String" itemvalue="mypy-extensions" />
+            <item index="17" class="java.lang.String" itemvalue="dateparser" />
+            <item index="18" class="java.lang.String" itemvalue="pytz" />
+            <item index="19" class="java.lang.String" itemvalue="fsspec" />
+            <item index="20" class="java.lang.String" itemvalue="boto3" />
+            <item index="21" class="java.lang.String" itemvalue="pytest-cov" />
+            <item index="22" class="java.lang.String" itemvalue="pytest-mock" />
+            <item index="23" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="24" class="java.lang.String" itemvalue="pyspark" />
+            <item index="25" class="java.lang.String" itemvalue="mock" />
+            <item index="26" class="java.lang.String" itemvalue="py4j" />
+            <item index="27" class="java.lang.String" itemvalue="findspark" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="src.rasOne.lambdas.rasOne_lambda.rasOne.*" />
+          <option value="src.rasOne.lambdas.rasOne_lambda.rasOne.wait_time" />
+          <option value="src.rasOne.lambdas.rasOne_lambda.rasOne.steps_completefor" />
+          <option value="src.rasOne.lambdas.rasOne_lambda.rasOne.RasOne.add_step" />
+          <option value="src.rasOne.lambdas.gumma_lambda.gumma2.*" />
+          <option value="pandas.read_csv" />
+          <option value="numpy.dot" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
