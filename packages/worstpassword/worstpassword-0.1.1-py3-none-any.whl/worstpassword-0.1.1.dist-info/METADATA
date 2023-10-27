@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: worstpassword
+Version: 0.1.1
+Summary: Generating worst passwords.
+License: MIT
+Author: bespontoff
+Author-email: bespontoff@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# WorstPassword
+
+## Generating a worst passwords.
+
+##### Installation:
+
+`pip install worstpassword`
+
+##### Usage:
+
+`worstpassword`
+
+###### options:
+
+  `-l LENGTH, --length LENGTH`
+                        Length of password. **Default: 10**
