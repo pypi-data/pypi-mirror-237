@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: netcdf-unpacker
+Version: 1.0.0
+Summary: Introducing the nc_unpack tool! Simplify NetCDF data extraction and analysis. Explore and unpack NETCDF files effortlessly.
+Home-page: https://github.com/Ananya0703/NetCDF_Unpacker
+Download-URL: https://github.com/Ananya0703/NetCDF_Unpacker/archive/refs/tags/v1.0.0.tar.gz
+Author: Ananya Giliyal, Atishay Gwari, Isha Paranjpe, Mansi Katgire
+Author-email: giliyal.ananya@gmail.com, atishay345@gmail.com, ishaparanjpe28@gmail.com, katgiremansi@gmail.com
+License: MIT
+License-File: LICENSE
+
