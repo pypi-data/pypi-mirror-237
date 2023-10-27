@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: CCC-DoU
+Version: 0.0.1
+Summary: Chatterjee Correlation coefficient calculator with p-value
+Home-page: https://github.com/Partha0312bio/CCC_DU
+Author: Shubhabrata Dokal
+License: UNKNOWN
+Keywords: Chatterjee Correlation Coefficient,non linear correlation calculation ,
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# Chatterjee Correlation Coefficient in Python
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)   
+
+[Tutorial of Publishing Python Package](https://youtu.be/7AF3HvKz070)
+
+## Usage
+
+- Make sure you have Python installed in your system.
+- Run Following command in the CMD.
+ ```
+  pip install CCC_DoU
+  ```
+## Example
+
+ ```
+# test.py
+from CCC_DoU import CCC
+
+## Taking the Dataset and calculate the Chaterjee Correlation Coefficient.
+x=np.random.uniform(-2,2,100)
+y=sin(2*x+3)
+
+# Calculate CCC
+CC=CCC(x,y)
+  ```
+
+## Run the following Script.
+ ```
+  python test.py
+ ```
+
+
+
+
+
