@@ -1,0 +1,3 @@
+[console_scripts]
+ryax=ryax.command_line:main
+
