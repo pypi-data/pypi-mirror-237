@@ -1,0 +1,2 @@
+[sphinx.html_themes]
+amw_theme = amw_theme
