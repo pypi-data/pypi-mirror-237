@@ -1,0 +1,5 @@
+oxbow-0.3.0.dist-info/METADATA,sha256=RUdEyHkOZNOaVO0uXbAT2xSc6-wHF9QRr_mB-Njhcd4,1546
+oxbow-0.3.0.dist-info/WHEEL,sha256=jiceAx2Ltg6i6xco31Dpv0QHXM-l5FbAHOBBuWbwdOk,125
+oxbow/__init__.py,sha256=WDBUFswZUqN88PqLWR4bEJmhLLIUZdq-ZBWF4oNI-Uk,103
+oxbow/oxbow.cpython-310-i386-linux-gnu.so,sha256=_Y9w1kUkIghK499cODXVnJvTJdYVnygih0OYjG1O7M0,8838396
+oxbow-0.3.0.dist-info/RECORD,,
