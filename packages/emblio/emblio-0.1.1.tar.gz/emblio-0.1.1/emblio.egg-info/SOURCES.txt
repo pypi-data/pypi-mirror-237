@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.py
+emblio/__init__.py
+emblio/embedding.py
+emblio/embedding_new.py
+emblio/example.py
+emblio/whisper.py
+emblio.egg-info/PKG-INFO
+emblio.egg-info/SOURCES.txt
+emblio.egg-info/dependency_links.txt
+emblio.egg-info/top_level.txt
+tests/test_sample.py
