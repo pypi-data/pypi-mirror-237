@@ -1,0 +1,5 @@
+cython
+extension-helpers
+numpy>=1.17
+scikit-learn
+scipy>=1.9

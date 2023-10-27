@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: nqe
+Version: 0.1.0.dev1
+Summary: Neural Quantile Estimation.
+Home-page: https://github.com/h3jia/nqe
+Author: He Jia
+Maintainer: He Jia
+Maintainer-email: he.jia.phy@gmail.com
+License: Apache License, Version 2.0
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Neural Quantile Estimation
+
+Simulation-Based Inference with Quantile Regression.
+
+## Installation
+
+To install, clone this repo and run
+
+```
+pip install -e .
+```
+
+We are yet to have the first release of NQE.
+While already available on pypi, it is likely some not-up-to-date dev version,
+so please directly build from GitHub for now.
+
+## Documentation
+
+Coming soon, please check back later.
+
+## Citing NQE
+
+If you find NQE useful for your research, please consider citing our papers accordingly:
+
+* He Jia,
+*Simulation-Based Inference with Quantile Regression*
