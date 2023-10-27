@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fasteasySD
+Version: 0.0.4
+Summary: Simplified library for comfyUI-lcm extensions. support txt2img or img2img
+Home-page: https://github.com/m4a1carbin4/fasteasysd
+Author: WaGaNaWa
+Author-email: WaGaNaWa <m4a1carbin4@gmail.com>
+Project-URL: Homepage, https://github.com/m4a1carbin4/fasteasysd
+Project-URL: Bug Tracker, https://github.com/m4a1carbin4/fasteasysd/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
