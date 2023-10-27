@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pandas007
+Version: 1.0.0
+Summary: A simple Python package
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
