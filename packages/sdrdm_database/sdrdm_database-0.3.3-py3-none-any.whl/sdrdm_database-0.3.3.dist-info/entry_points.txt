@@ -1,0 +1,3 @@
+[console_scripts]
+sdrdm-db=sdrdm_database.cli:app
+
