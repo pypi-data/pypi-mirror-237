@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: libreriaNueva
+Version: 0.1.1
+Summary: libreria de suma
+Author: Ana Maria
+Author-email: aarcila01@gmail.com
+License: MIT
+Requires-Python: >=3.9.12
+Description-Content-Type: text/markdown
+Requires-Dist: numpy ==1.26.1
+Requires-Dist: pandas ==2.1.1
+
+# Mi primera librería
