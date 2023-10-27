@@ -1,0 +1,15 @@
+jupyterlab_filesystem_access/__init__.py,sha256=vopvBOQ2_qL5_3Z7QWospjIgAj0vLXStYfrmegHrrds,614
+jupyterlab_filesystem_access/_version.py,sha256=R8GOimC_Hh53eDda_s-vZZrN5QnwLC0Mup6gSmHYGvs,171
+jupyterlab_filesystem_access-0.6.0.data/data/share/jupyter/labextensions/jupyterlab-filesystem-access/package.json,sha256=GKp32QUZepggiqY2sLNNdQmVZfJdiGDrItb7ctX5wzo,5987
+jupyterlab_filesystem_access-0.6.0.data/data/share/jupyter/labextensions/jupyterlab-filesystem-access/schemas/jupyterlab-filesystem-access/package.json.orig,sha256=CMdMUxJIbnT3QqmGZ7hnsqLoAzu-vIeyVyJ9RXJI7dk,6737
+jupyterlab_filesystem_access-0.6.0.data/data/share/jupyter/labextensions/jupyterlab-filesystem-access/schemas/jupyterlab-filesystem-access/plugin.json,sha256=WmCxb6W9CUfD7obspdgPIMLz2pir8Njx0VlNJAJ5g7o,2109
+jupyterlab_filesystem_access-0.6.0.data/data/share/jupyter/labextensions/jupyterlab-filesystem-access/static/611.704b967c99220ce1ea0f.js,sha256=cEuWfJkiDOHqDygNVAZb97zeefiJmodwEsAGFYMWXvs,6681
+jupyterlab_filesystem_access-0.6.0.data/data/share/jupyter/labextensions/jupyterlab-filesystem-access/static/747.0bb2cded1867b1473bdd.js,sha256=C7LN7RhnsUc73Z0SGY45jydgv8fTOYPef6hWK8zjkvs,4036
+jupyterlab_filesystem_access-0.6.0.data/data/share/jupyter/labextensions/jupyterlab-filesystem-access/static/remoteEntry.ffa5f565ff781bbfab6e.js,sha256=_6X1Zf94G7-rble4qEp9yjuMyjdF6tB6WoDMQBZehTw,6877
+jupyterlab_filesystem_access-0.6.0.data/data/share/jupyter/labextensions/jupyterlab-filesystem-access/static/style.js,sha256=gZvseDcCinWZSF6oZdSflgS1f0LnF6Q9O37iC6agR9w,171
+jupyterlab_filesystem_access-0.6.0.data/data/share/jupyter/labextensions/jupyterlab-filesystem-access/static/third-party-licenses.json,sha256=5z5gY0sStbT_P2WqbrAlmEtTHDPn0-v6dtp4O8CCBTs,2452
+jupyterlab_filesystem_access-0.6.0.data/data/share/jupyter/labextensions/jupyterlab-filesystem-access/install.json,sha256=oTDcEcN02LZOgkGj5AG8i8ReuEgmE7Z1GzhabkbTovc,217
+jupyterlab_filesystem_access-0.6.0.dist-info/METADATA,sha256=qPhNWvHDfXDEMs_eJaeBjkrkJ2Vy2YJFd4QCd1arZgQ,6492
+jupyterlab_filesystem_access-0.6.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jupyterlab_filesystem_access-0.6.0.dist-info/licenses/LICENSE,sha256=DHnSMtDTwc0KCxc_q4sIbaLl-IaHjj_E1BECC353zc8,1531
+jupyterlab_filesystem_access-0.6.0.dist-info/RECORD,,
