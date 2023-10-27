@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+django-ansible-base/__init__.py
+django_ansible_base.egg-info/PKG-INFO
+django_ansible_base.egg-info/SOURCES.txt
+django_ansible_base.egg-info/dependency_links.txt
+django_ansible_base.egg-info/top_level.txt

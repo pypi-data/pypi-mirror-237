@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: django-ansible-base
+Version: 0a1
+Summary: Reserved package
+Author: Rick Elrod
+Author-email: rick@elrod.me
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+
+Reserved package
