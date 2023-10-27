@@ -1,0 +1,8 @@
+numpydoc
+
+[dev]
+flake8
+black
+mypy
+pytest
+isort

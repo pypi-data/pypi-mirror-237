@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+setup.py
+docmerge/__init__.py
+docmerge/__version__.py
+docmerge/decorator.py
+docmerge/merger.py
+docmerge/misc.py
+docmerge.egg-info/PKG-INFO
+docmerge.egg-info/SOURCES.txt
+docmerge.egg-info/dependency_links.txt
+docmerge.egg-info/requires.txt
+docmerge.egg-info/top_level.txt
+docmerge.egg-info/zip-safe
