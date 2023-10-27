@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pykeksikapi
+Version: 0.22
+Summary: This library is needed for working with api.keksik.io. It provides convenient tools for processing the API of this website.
+Home-page: https://github.com/unnecessaryss/pykeksikapi
+Author: unneccessaryss
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pykeksikapi
+
+<br>
+
+Для начала импортируем и инициализируем экземпляр класса:
+```Python
+from pykeksikapi import KeksikAPI
+
+keksik = KeksikAPI(token='your_keksik_token', group_id='your_id_group')
+```
+
+<br>
+
+Пример получения списка донатов сообщества, сортировка по сумме доната:
+```Python
+await keksik.donates.get(sort='amount')
+```
+
+<br>
+
+Пример получения текущего баланса кексика:
+```Python
+outcome = await keksik.other.balance()
+
+print(outcome.balance) # Покажет текущий баланс кексика
+```
