@@ -1,0 +1,2 @@
+[console_scripts]
+work-journal = work_journal.cli:main

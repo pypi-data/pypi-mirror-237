@@ -1,0 +1,11 @@
+work_journal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+work_journal/cli.py,sha256=CG2brs7oPQUFog95ueEn4WrrAOg6_fq9vMHt40lTvzI,6625
+work_journal/config.ini,sha256=ZDEpVIjsAVOI_F85yX9kFmbqrPhnJ-lcp7rHqj0vkQQ,42
+work_journal/config.py,sha256=kfgBlmxgVhrBW7VcZUidQo0NSyskkkuYb1VeYkIFaoc,1048
+work_journal/create.py,sha256=yAaVsH-szgWHDxPEmtEiBH3eUGdaP_jjc8FPIEueeVE,3128
+work_journal_cli-2.1.1.dist-info/LICENSE,sha256=-OBblsSzr60If78z1o_f4YNwngAcWguioc3Ak9mho5I,1061
+work_journal_cli-2.1.1.dist-info/METADATA,sha256=1Vr6ky6QTZcAFWMSWcFOynKjTZuTssSgYbuusdapdeA,2606
+work_journal_cli-2.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+work_journal_cli-2.1.1.dist-info/entry_points.txt,sha256=LiVVGg-Ad64P8MMIGPdBwW5ZsPXsa9GxSPKsJZznWYo,55
+work_journal_cli-2.1.1.dist-info/top_level.txt,sha256=jDItSJcJrltpRlEDZw4E-eGGjBHb60ulBzLPN8SEV-g,13
+work_journal_cli-2.1.1.dist-info/RECORD,,
