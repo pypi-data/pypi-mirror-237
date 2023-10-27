@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: keyword-extract-LLM
+Version: 1.0.2
+Summary: using LLM to extract keywords
+Home-page: https://github.com/Emekaborisama/keywordExtractorLLM
+Author: Emeka Boris Ama
+Author-email: borisphilosophy@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools (>=47.1.1)
+Requires-Dist: torch
+Requires-Dist: transformers
+
+# keywordExtractorLLM
+extract keywords from a corpus using pretrain LLM via Huggingface
+
+
+
+Contribution guide
+
+- 
+
