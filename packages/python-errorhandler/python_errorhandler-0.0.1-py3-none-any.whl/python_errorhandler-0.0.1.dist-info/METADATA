@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: python-errorhandler
+Version: 0.0.1
+Summary: This package is used for error handling you dont have to right try catch every time.just import the package and add as decorator with your function.
+Author: Nimesh Prajapati
+Author-email: prajapatin953@gmail.com
+Requires-Dist: Django
+Requires-Dist: djangorestframework
+
+To import this you have to just do this ->> from python_errorhandler import error_handler
