@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: django-dbbackup-admin
+Version: 1.0.0
+Summary: Get Backup From Database Through Admin Panel
+Home-page: https://github.com/HosseinSayyedMousavi
+Author: Hossein Sayyedmousavi
+Author-email: Hossein.Sayyedmousavi@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: django,database,media,backup,amazon,s3,dropbox
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Environment :: Console
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Database
+Classifier: Topic :: System :: Archiving
+Classifier: Topic :: System :: Archiving :: Backup
+Classifier: Topic :: System :: Archiving :: Compression
