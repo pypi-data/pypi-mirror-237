@@ -1,0 +1,12 @@
+quickmachotkey/__init__.py,sha256=V-vdBOSw6-4KZ9VqLwF9NSw0CMzCJIyhX7ccFXtxGac,4919
+quickmachotkey/constants.py,sha256=Nl3MJU6tkj17yTqUtmNA8UQ3_caZsVQ1JMtgbycScoE,4470
+quickmachotkey/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quickmachotkey/_MinimalHIToolbox/PyObjC.bridgesupport,sha256=8jIz_zo3OUznj1Cd2hLZByba3XdoTbz2roa8WBNGmMM,8297
+quickmachotkey/_MinimalHIToolbox/__init__.py,sha256=UkPhvD053t9c91rCv5HJBkJrkaK_sNBjf385TV1Oc7A,1332
+quickmachotkey/configurators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quickmachotkey/configurators/jsonfile.py,sha256=sfAjjuoRfGsKAiXHR7QHoXNJPBzTfDTENrpJEPmqAmI,1709
+quickmachotkey-2023.10.26.dist-info/LICENSE,sha256=YPpDF66XpoUdWPLcsptLjBh4vjgtWllRGgoC0x_QQQ0,1073
+quickmachotkey-2023.10.26.dist-info/METADATA,sha256=vodGpMNTkulGM4YkNHrP2IqerEOxxJYZ5AVWvXPRfwY,1407
+quickmachotkey-2023.10.26.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+quickmachotkey-2023.10.26.dist-info/top_level.txt,sha256=G4xlDU6PDpwTkyLX2EaXAeXnCOj0RRk91ZQM5sCU9Hc,15
+quickmachotkey-2023.10.26.dist-info/RECORD,,
