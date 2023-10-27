@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pipercell
+Version: 0.0.0
+Summary: Orchestrate ML processing using pipes
+Home-page: https://www.pipercell.com
+Author: Ginko Balboa
+Author-email: ginkobalboa3@gmail.com
+License: UNKNOWN
+Project-URL: github, https://github.com/GinkoBalboa/pipercell
+Project-URL: documentation, https://www.pipercell.com
+Description: # Pipercell
+        
+        Library for orchestrating processing cells using pipes.
+        
+        ## Quick start
+        
+        You can quickly install and try `pipercell` by doing the following in your terminal:
+        
+        ``` bash
+        pip install pipercell
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: C++
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Code Generators
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

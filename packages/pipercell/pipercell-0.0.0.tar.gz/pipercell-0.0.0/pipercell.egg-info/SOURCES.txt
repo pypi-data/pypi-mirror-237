@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pipercell/__init__.py
+pipercell.egg-info/PKG-INFO
+pipercell.egg-info/SOURCES.txt
+pipercell.egg-info/dependency_links.txt
+pipercell.egg-info/not-zip-safe
+pipercell.egg-info/top_level.txt
