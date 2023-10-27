@@ -1,0 +1,12 @@
+LICENSE
+pyproject.toml
+setup.py
+IOTAILibrary.egg-info/PKG-INFO
+IOTAILibrary.egg-info/SOURCES.txt
+IOTAILibrary.egg-info/dependency_links.txt
+IOTAILibrary.egg-info/top_level.txt
+IOTData/Processor.py
+IOTData/Structure.py
+IOTData/__init__.py
+IOTModel/Generator.py
+IOTModel/__init__.py
