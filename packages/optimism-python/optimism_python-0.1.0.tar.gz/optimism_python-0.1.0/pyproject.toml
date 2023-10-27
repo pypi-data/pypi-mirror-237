@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "optimism-python"
+version = "0.1.0"
+description = "Unofficial Python Client for the OP-Stack"
+authors = ["rafalum <rafalum@pm.me>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "optimism" },
+]
+include = ["optimism/assets/*.abi", "optimism/assets/*.json"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+web3 = "6.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
