@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: mcnets
+Version: 1.3.0
+Summary: A package that demonstrates deep neural nets using unique Monte Carlo-type parameter training.
+Project-URL: Homepage, https://github.com/SciCapt/Monte-Carlo-Neural-Nets
+Project-URL: Bug Tracker, https://github.com/SciCapt/Monte-Carlo-Neural-Nets/issues
+Author-email: Sean <svs.2k15@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Monte-Carlo-Neural-Nets
+
+## Overview / Lore
+
+A package made to see how well a basic architecture of neural nets could be. The nets can be created with custom input and output heights, as well as full customization of the hidden layers' sizes (height and count of layers) and activation functions that are applied at each space between the layers.
+
+The basic operation of these nets is that they can be trained to some data set (or some score in an unsupervised case) by randomly 'tweaking' the different parameter weight values within the net. These weight values are clipped to be restrained to the range [-1, 1].
+
+Some more examples and technicals can be found on the GitHub page:
+https://github.com/SciCapt/Monte-Carlo-Neural-Nets
+
+## Quickstart Example
+### Fitting various models to the function f(x) = x^0.5
+
+Given below, this quick start code shows the syntax for creating a network, a few ways to write in the activation functions to be used, how to write the sizing (automatic input and output sizes to come soon), the included train-test split function, fitting the models, getting their predictions, and the plots of the resulting predictions.
+
+'''
+import matplotlib.pyplot as plt
+import numpy as np
+
+import mcnets as mc
+
+# Data to fit to (f(x) = x^0.5)
+# You can increase the number of samples by changing the X variable
+X = np.random.rand(20)*2 # Gives domain of [0, 2)
+Y = X**0.5
+
+# Assemble a few models to test
+net_atan  = mc.AdvNet(1, [25], 1, 'atan')
+net_lin   = mc.AdvNet(1, [25], 1)
+net_combo = mc.AdvNet(1, [25], 1, ['relu', 'elu', 'lin'])
+
+# An equal alternative definition for the ATAN model:
+# net_atan = AdvNet(1, [25], 1, ['atan', 'atan', 'atan'])
+
+# An equal alternative definition for the linear model (lin is default):
+# net_atan = AdvNet(1, [25], 1)  
+
+# Train-Test Split (Taking only the train group)
+x, y, _, _ = mc.TTSplit(X, Y, percentTrain=50)
+
+# Fit the models to the training data group
+# (Note that .Fit does NOT return in-place)
+print("ATAN Model Training:")
+net_atan  = net_atan.Fit(x, y)
+
+print("\nLinear Model Training:")
+net_lin   = net_lin.Fit(x, y)
+
+print("\nCombo Model Training")
+net_combo = net_combo.Fit(x, y)
+
+# Get the models predictions to the full data set
+ym_atan  = net_atan.Predict(X)
+ym_lin   = net_lin.Predict(X)
+ym_combo = net_combo.Predict(X)
+
+# Plot and compare the results of the models
+print("\nPlotted Results:")
+plt.plot(Y, 'o')
+plt.plot(ym_atan, 'r--')
+plt.plot(ym_lin, 'g--')
+plt.plot(ym_combo, 'b--')
+plt.title(f"y=x^0.5 vs Networks of Various Activation Functions")
+plt.legend(["True Data", "ATAN Model", "Linear Model", "Combo Model"])
+plt.show()
+'''
