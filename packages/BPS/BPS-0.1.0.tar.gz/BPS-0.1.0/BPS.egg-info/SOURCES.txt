@@ -1,0 +1,7 @@
+README.md
+setup.py
+BPS.egg-info/PKG-INFO
+BPS.egg-info/SOURCES.txt
+BPS.egg-info/dependency_links.txt
+BPS.egg-info/top_level.txt
+test/test_import.py
