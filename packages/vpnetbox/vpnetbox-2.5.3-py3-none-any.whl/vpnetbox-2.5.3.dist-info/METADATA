@@ -1,0 +1,220 @@
+Metadata-Version: 2.1
+Name: vpnetbox
+Version: 2.5.3
+Summary: Python package to work with Netbox using REST API
+Home-page: https://github.com/vladimirs-git/vpnetbox
+License: MIT
+Keywords: netbox,api
+Author: Vladimir Prusakov
+Author-email: vladimir.prusakovs@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: test
+Requires-Dist: dictdiffer (>=0.9.0,<0.10.0)
+Requires-Dist: logger-color (>=0.0.8,<0.0.9)
+Requires-Dist: packaging (>=23.2,<24.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Requires-Dist: urllib3 (>=2.0.7,<3.0.0)
+Requires-Dist: vhelpers (>=0.1.7,<0.2.0)
+Project-URL: Bug Tracker, https://github.com/vladimirs-git/vpnetbox/issues
+Project-URL: Download URL, https://github.com/vladimirs-git/vpnetbox/archive/refs/tags/2.5.3.tar.gz
+Project-URL: Repository, https://github.com/vladimirs-git/vpnetbox
+Description-Content-Type: text/x-rst
+
+
+vpnetbox
+=========
+
+Python package to work with Netbox using REST API.
+Facilitates low-level calls to Netbox and data parsing.
+
+- NbApi: Requests data from the Netbox REST API using filter parameters identical to those in the web interface filter form.
+- NbHandler: Retrieves and caches a bulk of data from the Netbox to local system.
+- NbData: Sets of Netbox objects, like aggregates, prefixes, etc., are joined together.
+- NbParser: Extracts a value from a Netbox object using a long chain of keys.
+
+`./docs/NbHandler_diagram.rst`_
+
+.. contents::
+
+
+Introduction
+------------
+What is Vpnetbox and why not Pynetbox?
+Pynetbox is a great tool for working with Netbox and I use it frequently.
+However, I am facing some coding challenges when my scrip speed is crucial.
+Vpnetbox was created to address specific issues.
+This tool covers only a subset of Netbox objects that I frequently use in my work,
+such as aggregates, prefixes, addresses, devices, etc.
+It does not encompass all objects, because I lack the energy to cover them.
+So, what is the utility of this tool?
+In short, to make my code faster, cache a lot of Netbox objects on the local disk
+and play with them locally.
+
+- Speed. Using the REST API, I can retrieve a bulk of data faster than when using Pynetbox. Typically, I download a large amount of data to my local system, save it to cache and then start processing the data. On the other hand, Pynetbox maintains a connection with Netbox and downloads additional data during processing, which makes the code become veeeery slow.
+- Cache. Vpnetbox can save Netbox objects to a pickle file and work with them locally. Script can work with Netbox data when the API is unreachable.
+- Tests. Code based on the REST API is much easier to cover with unittests, because the REST API returns a simple dictionary, which is easy to mock, save to a pickle file, and so on. Testing code based on Pynetbox presents a challenge.
+- Filters. I like the Netbox Web UI. I am familiar with it and would like to use the same search parameters in the API. Try to retrieve a lot of specific prefixes using Pynetbox and you will understand my frustration. Yes, it is possible, but script will look strange and veeeery slow.
+
+
+Requirements
+------------
+
+Python >=3.8
+
+
+Installation
+------------
+
+Install the package from pypi.org release
+
+.. code:: bash
+
+    pip install vpnetbox
+
+or install the package from github.com release
+
+.. code:: bash
+
+    pip install https://github.com/vladimirs-git/vpnetbox/archive/refs/tags/2.5.3.tar.gz
+
+or install the package from github.com repository
+
+.. code:: bash
+
+    pip install git+https://github.com/vladimirs-git/vpnetbox
+
+
+Usage
+-----
+For more details, please refer to the `./examples`_ directory where you will find numerous examples.
+
+.. code:: python
+
+    import logging
+    from datetime import datetime
+    from vpnetbox import NbApi
+
+    # Enable DEBUG mode to demonstrate the speed of requests to the Netbox API
+    logging.getLogger().setLevel(logging.DEBUG)
+    logging.getLogger().addHandler(logging.StreamHandler())
+
+    HOST = "demo.netbox.dev"
+    TOKEN = "*****"
+
+    # Get multiple addresses by exact address values.
+    # https://demo.netbox.dev/ipam/ip-addresses/?address=10.0.0.1/24&address=10.0.0.2/24
+    nb = NbApi(host=HOST, token=TOKEN)
+    objects = nb.addresses.get(address=["10.0.0.1/24", "10.0.0.2/24"])
+    print([d["address"] for d in objects])
+    # ['10.0.0.1/24', '10.0.0.2/24']
+
+    # Find multiple addresses by strings.
+    # https://demo.netbox.dev/ipam/ip-addresses/?q=10.0.0.1
+    # https://demo.netbox.dev/ipam/ip-addresses/?q=10.0.0.2
+    objects = nb.addresses.get(q=["10.0.0.1", "10.0.0.2"])
+    print([d["address"] for d in objects])
+    # ['10.0.0.1/24', '10.0.0.2/24', '10.0.0.100/24', '10.0.0.254/24']
+
+
+    # Get a lot of data in fast threading mode.
+    start = datetime.now()
+    nb = NbApi(host=HOST, token=TOKEN, threads=5, interval=0.1)
+    objects = nb.addresses.get()
+    seconds = (datetime.now() - start).seconds
+    print([d["address"] for d in objects])
+    print(f"{len(objects)=} {seconds=}")
+    # DEBUG    https://demo.netbox.dev:443 "GET /api/ipam/addresses/?brief=1&limit=1 ...
+    # DEBUG    Starting new HTTPS connection (2): demo.netbox.dev:443
+    # DEBUG    Starting new HTTPS connection (3): demo.netbox.dev:443
+    # DEBUG    Starting new HTTPS connection (4): demo.netbox.dev:443
+    # DEBUG    Starting new HTTPS connection (5): demo.netbox.dev:443
+    # DEBUG    https://demo.netbox.dev:443 "GET /api/ipam/addresses/? ...
+    # DEBUG    https://demo.netbox.dev:443 "GET /api/ipam/addresses/? ...
+    # DEBUG    https://demo.netbox.dev:443 "GET /api/ipam/addresses/? ...
+    # DEBUG    https://demo.netbox.dev:443 "GET /api/ipam/addresses/? ...
+    # DEBUG    https://demo.netbox.dev:443 "GET /api/ipam/addresses/? ...
+    # len(objects)=4153 seconds=3
+
+
+    # Get a lot of data in slow loop mode, to compare time performance.
+    start = datetime.now()
+    nb = NbApi(host=HOST, token=TOKEN)
+    objects = nb.addresses.get()
+    seconds = (datetime.now() - start).seconds
+    print(f"{len(objects)=} {seconds=}")
+
+
+Objects
+-------
+The following objects are implemented in *NbApi*.
+If you need to access Netbox objects from other resources not listed in the table,
+you can do so by using the universal connector `Objects`_,
+where you must select the 'scope' using a query parameter.
+
+======== =================== =======================================================================
+Scope    Object              GUI and REST API URL to the object
+======== =================== =======================================================================
+ipam     `Addresses`_        https://demo.netbox.dev/ipam/ip-addresses/
+ipam     Aggregates          https://demo.netbox.dev/ipam/aggregates/
+ipam     Asns                https://demo.netbox.dev/ipam/asns/
+ipam     IP-Ranges           https://demo.netbox.dev/ipam/ip-ranges/
+ipam     Prefixes            https://demo.netbox.dev/ipam/prefixes/
+ipam     Rirs                https://demo.netbox.dev/ipam/rirs/
+ipam     Roles               https://demo.netbox.dev/ipam/roles/
+ipam     Vlans               https://demo.netbox.dev/ipam/vlans/
+ipam     Vrfs                https://demo.netbox.dev/ipam/vrfs/
+
+dcim     DeviceTypes         https://demo.netbox.dev/dcim/device-types/
+dcim     Devices             https://demo.netbox.dev/dcim/devices/
+dcim     Sites               https://demo.netbox.dev/dcim/sites/
+
+circuits CircuitTypes        https://netbox.evolution.com/circuits/circuit-types/
+circuits Circuits            https://netbox.evolution.com/circuits/circuits/
+circuits Providers           https://netbox.evolution.com/circuits/providers/
+circuits Terminations        https://netbox.evolution.com/circuits/circuit-terminations/1/trace/
+
+tenancy  Tenants             https://netbox.evolution.com/tenancy/tenants/
+
+any      Objects
+======== =================== =======================================================================
+
+
+NbApi
+-----
+`./docs/NbApi.rst`_
+Requests data from the Netbox REST API using parameters identical to those in the web interface filter form.
+
+
+NbParser
+--------
+`./docs/NbParser.rst`_
+Extracts the values from a Netbox object using a chain of keys.
+
+
+NbHandler
+---------
+`./docs/NbHandler.rst`_
+Retrieves and caches a bulk of data from the Netbox to local system.
+Collects sets of aggregates, prefixes, addresses, devices, sites data from Netbox by scenarios.
+(This handler is not yet finished, and I plan to improve it.)
+
+
+.. _`./docs/NbApi.rst`: ./docs/NbApi.rst
+.. _`./docs/NbHandler.rst`: ./docs/NbHandler.rst
+.. _`./docs/NbHandler_diagram.rst`: ./docs/NbHandler_diagram.rst
+.. _`./docs/NbParser.rst`: ./docs/NbParser.rst
+.. _`./examples`: ./examples
+.. _`Objects`: ./docs/NbApi.rst#universal-objects
+
+.. _`Addresses`: .docs/NbApi.rst#ipam-addresses
+
