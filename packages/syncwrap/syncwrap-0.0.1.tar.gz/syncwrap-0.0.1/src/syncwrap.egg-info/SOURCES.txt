@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/syncwrap/__init__.py
+src/syncwrap/syncwrap.py
+src/syncwrap.egg-info/PKG-INFO
+src/syncwrap.egg-info/SOURCES.txt
+src/syncwrap.egg-info/dependency_links.txt
+src/syncwrap.egg-info/requires.txt
+src/syncwrap.egg-info/top_level.txt
+tests/test_syncwrap.py
