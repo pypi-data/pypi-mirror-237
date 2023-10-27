@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: LPLGather
+Version: 0.0.1
+Summary: Gather data for LPL players
+Home-page: UNKNOWN
+Author: Mateus Paulo
+Author-email: maatanalista@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: msgspec
+Requires-Dist: polars
+Requires-Dist: requests
+
+UNKNOWN
+
+
