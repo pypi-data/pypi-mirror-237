@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: wildfire_evac
+Version: 0.0.13
+Summary: An RL OpenAI Gym Environment for Wildfire Evacuation
+Home-page: UNKNOWN
+Author: Celtics Big 3
+Author-email: clpondoc@stanford.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
