@@ -1,0 +1,2 @@
+recursive-exclude example *
+include thin_cli/*.py
