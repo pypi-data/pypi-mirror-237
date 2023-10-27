@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pubpypack-harmony-b-drs
+Version: 0.0.2
+Summary: This package does amazing things.
+Home-page: https://github.com/brahimdriss/ppp
+Author: Brahim Driss
+Author-email: "Brahim Driss" <github@brahimdriss.com>
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: termcolor <2,>=1.1.0
+
+# first-python-package
+
+This package does amazing things.
+
+## Installation
+
+```shell
+$ python -m pip install first-python-package
+```
