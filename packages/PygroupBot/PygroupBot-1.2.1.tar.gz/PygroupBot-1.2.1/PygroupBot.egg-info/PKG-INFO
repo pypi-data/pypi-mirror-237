@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: PygroupBot
+Version: 1.2.1
+Summary: pygroupbot is python library that can you help to create your own simple telegram group manage bot
+Home-page: https://github.com/ranujasanmir/pygroupbot
+Author: PixCap TM
+License: BSD
+Keywords: telegram,bot
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.5
+License-File: LICENSE
