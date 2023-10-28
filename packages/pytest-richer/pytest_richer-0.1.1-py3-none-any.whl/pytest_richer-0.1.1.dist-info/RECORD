@@ -1,0 +1,14 @@
+pytest_richer/__init__.py,sha256=pFRB56cB2oyIlBcESEC_q6L9QCzo5ZlVH3SQDYVyPms,63
+pytest_richer/compat.py,sha256=W26ITtRHrCyX8lMt0EAdO1VdjcVr08zeqXWXa0LSupM,566
+pytest_richer/header.py,sha256=nz24_oiRYV-TuuK4K4fufYHM1-8HhsyYbDb45iAFMhk,1934
+pytest_richer/helpers.py,sha256=ec8cBTyhQm7wje65-_0Oax33h3xyzG3_NMEI9oUk3iA,14639
+pytest_richer/plugin.py,sha256=yNMbFLwnnoKO9DJZBSZgWk0R1dAlVTu0DXdkQGXDnD0,7005
+pytest_richer/progress.py,sha256=HVdAMN3adAMCLTKFABmgi0oc_8OBa9M-6pCF72b99WM,10877
+pytest_richer/reporting.py,sha256=lYh8TDVN2zHKB_LXOWGDJd4kynQ1Y8zyBM_udf50XhI,4676
+pytest_richer/terminal.py,sha256=OTrwAQLVzQl7ku4Z4WTosbI_RpxJhEj4ecYo3u_azx0,32291
+pytest_richer-0.1.1.dist-info/LICENSE,sha256=bBMQ9NQOcudLWKlwjG2upzgfgvGokZTnH2UKDF6-dDg,1067
+pytest_richer-0.1.1.dist-info/METADATA,sha256=XNh677Cn1o3HzB0lLoZIFWrsja_vbKunlGu33ZNbQIk,4107
+pytest_richer-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pytest_richer-0.1.1.dist-info/entry_points.txt,sha256=3RVSZdICS6wOja3zP054y_EuU8yvz6K_0MLAKifiWo0,41
+pytest_richer-0.1.1.dist-info/top_level.txt,sha256=JoPLlEh6ErAgYR7jKKNpQD8qKMGd4-cReflBkSLqrD4,14
+pytest_richer-0.1.1.dist-info/RECORD,,
