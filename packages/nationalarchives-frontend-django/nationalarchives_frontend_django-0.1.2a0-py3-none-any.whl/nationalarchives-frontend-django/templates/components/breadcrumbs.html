@@ -1,0 +1,12 @@
+
+<nav class="tna-breadcrumbs {{ classes }}{% if noCollapse %} tna-breadcrumbs--no-collapse{% endif %}" data-module="tna-breadcrumbs" aria-label="Breadcrumb"{% for attribute, value in attributes.items %} {{ attribute }}="{{ value }}"{% endfor %}>
+  <ol class="tna-breadcrumbs__list">
+  {% for item in items %}
+    <li class="tna-breadcrumbs__item">
+      <a href="{{ item.href }}" class="tna-breadcrumbs__link">
+        {{ item.text }}
+      </a>
+    </li>
+  {% endfor %}
+  </ol>
+</nav>

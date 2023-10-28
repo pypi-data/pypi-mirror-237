@@ -1,0 +1,14 @@
+<div class="tna-phase-banner {{ classes }}{% if accent %} tna-phase-banner--accent{% endif %}" {% for attribute, value in attributes.items %} {{ attribute }}="{{ value }}"{% endfor %}>
+  <div class="tna-container">
+    <div class="tna-column tna-column--full-tiny">
+      <span class="tna-phase-banner__phase">
+        {{ phase | lower | capfirst }}
+      </span>
+    </div>
+    <div class="tna-column tna-column--flex-1 tna-column--full-tiny">
+      <p class="tna-phase-banner__message">
+        {{ message | safe }}
+      </p>
+    </div>
+  </div>
+</div>
