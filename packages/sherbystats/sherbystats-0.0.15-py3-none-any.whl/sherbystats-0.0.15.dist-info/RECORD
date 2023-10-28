@@ -1,0 +1,13 @@
+sherbystats/__init__.py,sha256=FwSDF8Snve_wOKQeRDUAhVfxIezJGKNWlK69ANosCOs,276
+sherbystats/anova.py,sha256=z4fL67YqG-MQADMRRzRbH8IvMjc2rQBjFBb5Xam5Il0,4561
+sherbystats/binaire.py,sha256=T1CcqUX-iBZJXeK7wXH7N8_oeRKkhQCnEPnO31497nc,1015
+sherbystats/binaire3D.py,sha256=nprzT9fNnBBJ38Wr5gL0pr3G1595_GEg8-CEP__vxAc,1088
+sherbystats/doe.py,sha256=Q7RdQUldaS-81ubtygzgSYwMfajZAejpNOVpDU4nPDk,12256
+sherbystats/mlr.py,sha256=5_R_rTvboYho9GB986qxxTy91dcv6Cezw9bjLyzpElY,993
+sherbystats/normplot.py,sha256=nAOzvQTyZKBuOl9iAdeapCMDBUfRtoO-jrz5ozKM1lg,1846
+sherbystats/ternaire.py,sha256=_QHO2S8W7S7er4DzOLYpFksNjLwlGhShuddcoeoIrq0,8298
+sherbystats/xlsread.py,sha256=uDdMIp0K6Mkhpk4q5kske0LRPLR3I9Uy3vkxWIiekys,700
+sherbystats-0.0.15.dist-info/METADATA,sha256=vT-q-i41qzAX7RqcJgBZ-Amh8StMiVZPBrccF9fSjQs,536
+sherbystats-0.0.15.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sherbystats-0.0.15.dist-info/top_level.txt,sha256=oac2em_2GxphI9_1Cf4nYr9H273cQOXTK8Q5W0g4vVc,12
+sherbystats-0.0.15.dist-info/RECORD,,
