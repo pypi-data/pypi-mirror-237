@@ -1,0 +1,14 @@
+[metadata]
+icon = "mdi:api"
+
+[examples.cli]
+title = "MkDocs-MkNodes CLI"
+jinja = """
+{{ "mkdocs_mknodes.cli:cli" | MkClickDoc | MkReprRawRendered }}
+"""
+
+[examples.sub_command]
+title = "SubCommand"
+jinja = """
+{{ "mkdocs_mknodes.cli:cli" | MkClickDoc(prog_name="build") | MkReprRawRendered }}
+"""

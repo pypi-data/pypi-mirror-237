@@ -1,0 +1,34 @@
+[metadata]
+icon = "fa6-regular:keyboard"
+
+[requirements.extension."pymdownx.keys"]
+
+[examples.single_key]
+title = "Single key"
+jinja = """
+{{ "M" | MkKeys | MkReprRawRendered }}
+"""
+
+[examples.multiple_keys]
+title = "Multiple keys"
+jinja = """
+{{ "M+k+K+e+y+s" | MkKeys | MkReprRawRendered }}
+"""
+
+[examples.modifiers]
+title = "Modifiers"
+jinja = """
+{{ "Ctrl+A" | MkKeys | MkReprRawRendered }}
+"""
+
+[examples.as_list]
+title = "As list"
+jinja = """
+{{ ["Alt", "X"] | MkKeys | MkReprRawRendered }}
+"""
+
+[output.markdown]
+template = """
+++{{ node.keys | join("+") }}++
+"""
+
