@@ -1,0 +1,10 @@
+numpy>=1.24.3
+scipy>=1.10.1
+matplotlib>=3.7.1
+pandas>=2.0.2
+attrs>=23.1.0
+PyYAML>=6.0.1
+
+[rest]
+docutils>=0.3
+pack==1.1,==1.3

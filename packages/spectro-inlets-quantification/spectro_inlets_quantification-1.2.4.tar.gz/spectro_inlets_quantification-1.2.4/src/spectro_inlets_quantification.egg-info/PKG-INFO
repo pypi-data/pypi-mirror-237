@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: spectro-inlets-quantification
+Version: 1.2.4
+Summary: The ECMS quantification package
+Author-email: Spectro Inlets <software@spectroinlets.com>
+License: # DUAL LICENSE CONDITIONS
+        
+        Spectro Inlets Quantification is licensed under DUAL PROPRIETARY and
+        GPL-3.0 licenses.
+        
+        See the file GPL3_LICENSE for details of the GPL-3.0 license.
+        
+        Any use of the code under the GPL-3.0 license is RESTRICTED TO
+        PERSONAL AND ACADEMIC USE.
+        
+        By means of the proprietary license, next to the GPL-3.0, Spectro
+        Inlets ApS retains the right to make a copy of this codebase closed
+        source at a later point in time under the proprietary license only.
+        
+Project-URL: Homepage, https://github.com/SpectroInlets/spectro_inlets_quantification
+Project-URL: Bug Tracker, https://github.com/SpectroInlets/spectro_inlets_quantification/issues
+Keywords: ECMS,quantification,data treatment
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: AUTHORS
+Requires-Dist: numpy>=1.24.3
+Requires-Dist: scipy>=1.10.1
+Requires-Dist: matplotlib>=3.7.1
+Requires-Dist: pandas>=2.0.2
+Requires-Dist: attrs>=23.1.0
+Requires-Dist: PyYAML>=6.0.1
+Provides-Extra: rest
+Requires-Dist: docutils>=0.3; extra == "rest"
+Requires-Dist: pack==1.1,==1.3; extra == "rest"
+
+# Spectro Inlets Quantification
+
+[//]: # (The python version badge is generated with anybadge like so)
+[//]: # (anybadge -o -l Python -v "3.8  | 3.9 | 3.10 | 3.11" -f .python_version_badge.svg -c "#1182C2")
+
+[![Python version](.python_version_badge.svg)](https://www.python.org/)
+[![Build Status](https://github.com/SpectroInlets/spectro_inlets_quantification/actions/workflows/ci.yml/badge.svg)](https://github.com/SpectroInlets/spectro_inlets_quantification)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/charliermarsh/ruff)
+[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
+
+Documentation for this package is [here](https://spectroinlets-spectro-inlets-quantification.readthedocs-hosted.com/en/v1.1/)
+
+## Developing
+
+To get a development environment setup, make a virtual environment and install invoke and then run
+the dependencies invoke task:
+
+```bash
+ $ python -m pip install invoke
+ $ invoke deps
+```
+
+## License
+
+Spectro Inlets Quantification is dual licensed under a proprietary
+license and the GPL-3.0. See the file DUAL\_LICENSE for details.
+
