@@ -1,0 +1,10 @@
+failures/__init__.py,sha256=Bm1BNpXvZLXfxfElLaZSkOj52uOMHJDA4Tg6vekN7Z0,1195
+failures/core.py,sha256=4pCERYkvIF-9vH7PHIVfgwA5sS1F8_k1u6x0DUhVCy0,10476
+failures/functions.py,sha256=4IWVstjIUIo7W-un0B9Z2bEeBqXMlsnY9sD7mcz87Uw,6606
+failures/handler.py,sha256=pCS2nG8MzB3yYrnXm12WiQoDU1_dhBtL7Xk2yjVpFr8,10075
+failures/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+failures-1.0.1.dist-info/LICENSE,sha256=heeZ7oKGbRKkRyG2tz9Wfo_93Luz8cLwsj5FgD2HOJs,1068
+failures-1.0.1.dist-info/METADATA,sha256=VGKBAU7DZbZO7Ihx8lAWZLRMjBza1mvgFcV-UpxD964,9925
+failures-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+failures-1.0.1.dist-info/top_level.txt,sha256=MCaFG5lNs-1rtWN6TlU7uE2N4dTK4FcRdld4jqQLPTw,9
+failures-1.0.1.dist-info/RECORD,,
