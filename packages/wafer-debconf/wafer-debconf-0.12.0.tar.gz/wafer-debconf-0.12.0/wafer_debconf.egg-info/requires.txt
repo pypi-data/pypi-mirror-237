@@ -1,0 +1,8 @@
+mdx_linkify
+wafer<0.15,>=0.14
+mdx_staticfiles
+Django<4,>=3
+django_compressor
+django_countries
+django_extensions
+django_libsass
