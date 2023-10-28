@@ -1,0 +1,2 @@
+[console_scripts]
+dti = src:main

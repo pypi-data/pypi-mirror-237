@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dti-pipeline"
+authors = [
+    {name = "Atul Phadke", email = "atulphadke8@gmail.com"},
+]
+description = "A command line utility that allows easy modifications on DWI volumes and Datasets."
+requires-python = ">=3.9"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "keyboard==0.13.5", "brukerapi==0.1.8",
+    "dipy==1.6.0", "nibabel==5.0.0", "numpy==1.24.2",
+    "matplotlib==3.6.3", "simpleitk==2.2.1", "tkscrolledframe==1.0.4", "PyQt5==5.15.9", "scipy==1.10.0", "firebase_admin==6.2.0"
+]
+
+dynamic = ["version"]
+
+[project.scripts]
+dti = "src:main"
