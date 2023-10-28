@@ -1,0 +1,20 @@
+[project]
+name = "StriveLogger"
+version = "1.1.0"
+requires-python = ">=3.10"
+description = "A flexible logging abstraction layer"
+readme = "README.md"
+license = { file="LICENSE" }
+
+[project.urls]
+"Homepage" = "https://github.com/strivesolutions/strive-logger-py"
+"Bug Tracker" = "https://github.com/strivesolutions/strive-logger-py/issues"
+
+[tool.black]
+line-length = 160
+
+[tool.ruff]
+line-length = 168
+
+[tool.pyright]
+include = ["strivelogger"]
