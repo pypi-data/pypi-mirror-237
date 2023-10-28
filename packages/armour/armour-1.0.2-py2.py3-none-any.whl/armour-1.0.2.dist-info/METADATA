@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: armour
+Version: 1.0.2
+Summary: password securing, management and generation tools
+Home-page: https://ari-web.xyz/gh/armour
+Author: Ari Archer
+Author-email: ari.web.xyz@gmail.com
+License: GPLv3+
+Project-URL: Bug Tracker, https://ari-web.xyz/gh/armour/issues
+Project-URL: Documentation, https://ari-web.xyz/gh/armour/tree/main/doc
+Project-URL: Source Code, https://ari-web.xyz/gh/armour
+Keywords: password,pwd,zstd,cryptography,crypto,hash,hashing,sha,blake,struct,md,sha3,rc4,binary,password generator,password manager,password info,entropy,database
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Database
+Classifier: Topic :: File Formats
+Classifier: Topic :: Security
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography
+Requires-Dist: zstd
+
+# armour
+
+> password securing, management and generation tools
+
+# magic file
+
+magic file is used by `file` cmd to get metadata about a file, if u want that, use `scripts/gen_magic.py` script
+
+# xdg mime file
+
+located at [/scripts/application-pdb.xml](/scripts/application-pdb.xml)
+
+# documentation
+
+see the [/doc/](/doc/) folder
