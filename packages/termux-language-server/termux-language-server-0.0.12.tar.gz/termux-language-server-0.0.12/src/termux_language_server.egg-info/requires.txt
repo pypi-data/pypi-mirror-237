@@ -1,0 +1,17 @@
+fqdn
+platformdirs
+rfc3987
+tree-sitter-languages
+tree-sitter-lsp>=0.0.3
+
+[colorize]
+tree-sitter-lsp[colorize]
+
+[dev]
+pytest-cov
+
+[misc]
+tree-sitter-lsp[misc]
+
+[pkgbuild]
+pyalpm
