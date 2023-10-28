@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/init/__init__.py
+src/init/log.py
+src/xiaohuohumax_test.egg-info/PKG-INFO
+src/xiaohuohumax_test.egg-info/SOURCES.txt
+src/xiaohuohumax_test.egg-info/dependency_links.txt
+src/xiaohuohumax_test.egg-info/top_level.txt
