@@ -1,0 +1,7 @@
+setup.py
+karimmath.egg-info/PKG-INFO
+karimmath.egg-info/SOURCES.txt
+karimmath.egg-info/dependency_links.txt
+karimmath.egg-info/entry_points.txt
+karimmath.egg-info/requires.txt
+karimmath.egg-info/top_level.txt
