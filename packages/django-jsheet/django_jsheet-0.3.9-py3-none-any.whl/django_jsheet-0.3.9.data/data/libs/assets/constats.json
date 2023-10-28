@@ -1,0 +1,52 @@
+{
+	"CharField": {
+		"type": "text",
+		"title": "%s",
+		"width": 400
+	},
+	"IntegerField": {
+		"type": "numeric",
+		"title": "%s",
+		"width": 120,
+		"decimal": ","
+	},
+	"FloatField": {
+		"type": "numeric",
+		"title": "%s",
+		"width": 120,
+		"decimal": ","
+	},
+	"DecimalField": {
+		"type": "numeric",
+		"title": "%s",
+		"width": 120,
+		"decimal": ","
+	},
+	"DateField": {
+		"type": "calendar",
+		"title": "%s",
+		"width": 120
+	},
+	"DateTimeField": {
+		"type": "calendar",
+		"title": "%s",
+		"width": 120
+	},
+	"FileField": {
+		"type": "text",
+		"title": "%s",
+		"width": 400
+	},
+	"TypedChoiceField": {
+		"type": "dropdown",
+		"title": "%s",
+		"width": 150,
+		"source": "%s"
+	},
+	"ModelChoiceField": {
+		"type": "dropdown",
+		"title": "%s",
+		"width": 150,
+		"source": "%s"
+	}
+}
