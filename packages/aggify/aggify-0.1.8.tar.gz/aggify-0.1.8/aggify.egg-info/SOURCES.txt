@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+aggify/__init__.py
+aggify/aggify.py
+aggify.egg-info/PKG-INFO
+aggify.egg-info/SOURCES.txt
+aggify.egg-info/dependency_links.txt
+aggify.egg-info/requires.txt
+aggify.egg-info/top_level.txt
+tests/test_aggify.py
+tests/test_cond.py
+tests/test_f.py
+tests/test_q.py
