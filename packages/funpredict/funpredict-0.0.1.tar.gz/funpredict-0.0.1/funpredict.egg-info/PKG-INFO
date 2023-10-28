@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: funpredict
+Version: 0.0.1
+Summary: It's simply finding the best model for your specific data
+Author: Sushanta Das
+Author-email: <imachi@skiff.com>
+Keywords: python,scikit-learn,machine learning,deep learning,Computer Vision,Artificial intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Why you need this package
+
+<p>It's help you to find your best model for spacefic data</p>
