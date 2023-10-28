@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: bioio
+Version: 0.9.0
+Summary: Image reading, metadata management, and image writing for Microscopy images in Python
+Author-email: Eva Maxfield Brown <evamaxfieldbrown@gmail.com>, Dan Toloudis <danielt@alleninstitute.org>
+License: BSD License
+Project-URL: Homepage, https://github.com/bioio-devs/bioio
+Project-URL: Bug Tracker, https://github.com/bioio-devs/bioio/issues
+Project-URL: Documentation, https://bioio-devs.github.io/bioio
+Project-URL: User Support, https://github.com/bioio-devs/bioio/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bioio-base>=0.9.1
+Requires-Dist: dask[array]>=2021.4.1
+Requires-Dist: fsspec>=2022.8.0
+Requires-Dist: imageio[ffmpeg]<2.28.0,>=2.11.0
+Requires-Dist: numpy<2.0.0,>=1.21.0
+Requires-Dist: ome-types[lxml]>=0.4.0
+Requires-Dist: ome-zarr>=0.6.1
+Requires-Dist: semver>=3.0.1
+Requires-Dist: tifffile>=2021.8.30
+Requires-Dist: zarr<3.0.0,>=2.6.0
+Provides-Extra: lint
+Requires-Dist: pre-commit>=2.20.0; extra == "lint"
+Provides-Extra: test
+Requires-Dist: coverage>=5.1; extra == "test"
+Requires-Dist: pytest>=5.4.3; extra == "test"
+Requires-Dist: pytest-cov>=2.9.0; extra == "test"
+Requires-Dist: pytest-raises>=0.11; extra == "test"
+Requires-Dist: quilt3; extra == "test"
+Provides-Extra: docs
+Requires-Dist: m2r2>=0.2.7; extra == "docs"
+Requires-Dist: Sphinx>=4.0.0; extra == "docs"
+Requires-Dist: furo>=2022.4.7; extra == "docs"
+Requires-Dist: numpydoc; extra == "docs"
+Requires-Dist: sphinx-copybutton; extra == "docs"
+Requires-Dist: docutils<0.19,>=0.18; extra == "docs"
+Provides-Extra: dev
+Requires-Dist: ipython>=8.4.0; extra == "dev"
+
+# bioio
+
+[![Build Status](https://github.com/bioio-devs/bioio/actions/workflows/ci.yml/badge.svg)](https://github.com/bioio-devs/bioio/actions)
+[![Documentation](https://github.com/bioio-devs/bioio/actions/workflows/docs.yml/badge.svg)](https://bioio-devs.github.io/bioio)
+
+Image reading, metadata management, and image writing for Microscopy images in Python
+
+---
+
+## Installation
+
+**Stable Release:** `pip install bioio`<br>
+**Development Head:** `pip install git+https://github.com/bioio-devs/bioio.git`
+
+## Quickstart
+
+```python
+from bioio import example
+
+print(example.str_len("hello"))  # prints 5
+```
+
+## Documentation
+
+For full package documentation please visit [bioio-devs.github.io/bioio](https://bioio-devs.github.io/bioio).
+
+## Development
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for information related to developing the code.
+
+**BSD License**
