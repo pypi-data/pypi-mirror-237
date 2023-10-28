@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/LPLG.egg-info/PKG-INFO
+src/LPLG.egg-info/SOURCES.txt
+src/LPLG.egg-info/dependency_links.txt
+src/LPLG.egg-info/requires.txt
+src/LPLG.egg-info/top_level.txt
+src/LPLGather/__init__.py
+src/LPLGather/parse.py
+src/LPLGather/config/__init__.py
+src/LPLGather/config/config.py
+src/LPLGather/schemas/__init__.py
+src/LPLGather/schemas/schemas.py
