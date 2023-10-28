@@ -1,0 +1,7 @@
+README.md
+setup.py
+conda_repo_cli.egg-info/PKG-INFO
+conda_repo_cli.egg-info/SOURCES.txt
+conda_repo_cli.egg-info/dependency_links.txt
+conda_repo_cli.egg-info/requires.txt
+conda_repo_cli.egg-info/top_level.txt
