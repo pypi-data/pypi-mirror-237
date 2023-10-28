@@ -1,0 +1,15 @@
+django_pgrls/apps.py,sha256=-bR8QKx8fpGuPJ1-i1Utjpl20hxgzbU32pKpHkjMEzI,157
+django_pgrls/checks.py,sha256=EpnfC1v89b0gsDN4VN8l3OM9dzmyFdkjbA8jffNxmSg,758
+django_pgrls/middleware.py,sha256=oDRbLW5G76CnIYim3t8Fwx3bscEIA02IplWtuHj1z-U,2846
+django_pgrls/models.py,sha256=Iyv9TFNbaO7uIz0plhDdmkoA6_8nysz_m2i-Jpl8EWU,2262
+django_pgrls/postgresql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_pgrls/postgresql/base.py,sha256=g71F6NnfTOxzLg3_NN43roprOcf7uXoGDmz4sJlv6sg,1840
+django_pgrls/postgresql/settings.py,sha256=rMmjLTUcUWpuFurj4U5bte0SCtb4F92e6yFApwp6Sao,310
+django_pgrls/sql.py,sha256=MjxUd1cjDPHuMXFdGdkOAdWVOXiaxH4-1mIRkEjoxaY,1572
+django_pgrls/state.py,sha256=kjrkQLMgzvINC6ZSyqvH1ixV4hnPvQ609pr1a5OB2-k,595
+django_pgrls/urlresolvers.py,sha256=xETwpnRSYkDWFI2tWBdDYYAomRv8lzgwM_A5d5bgtAo,1588
+django_pgrls/utils.py,sha256=oZeo4GJ1iEFy6Ru-rPvLhrffRuTqR_6C4jCyyRObKKA,1229
+django_pgrls-0.0.1.dist-info/LICENSE,sha256=oQMgYyK917utR_XEu3k3-vL_ZpIFgtoYDLm6YonZxnQ,1070
+django_pgrls-0.0.1.dist-info/METADATA,sha256=nYDNNQTTWlIqZcmLC_0gvWTcrBBgs0rqI6CsMFPMA0w,893
+django_pgrls-0.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+django_pgrls-0.0.1.dist-info/RECORD,,
