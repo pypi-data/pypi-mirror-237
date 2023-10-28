@@ -1,0 +1,9 @@
+filesystem/__init__.py,sha256=xcMZoZoudqQ2CMC5J-4seEd0oYHso8UWRahmaBuL88M,1435
+filesystem/wrapper/__init__.py,sha256=kQ71HtL-nn30J6JhC_EkAgaO5pFeYvzjRz6DYoVLQlw,42
+filesystem/wrapper/core.py,sha256=qss80JMf8wd6fc8VIjYWkl0cFN1KLqa1Foq-DBue7cQ,3193
+filesystem/wrapper/watcher.py,sha256=i6Bad93He20rPJVtehFRSbc4XbBnz-MPiVgXt5Fa6gU,1464
+filesystempro-0.0.0.2.dist-info/LICENSE,sha256=weuGrFNvEpA_ViLtYpFwQOK25eZi1x2F2rn0wlVK574,1085
+filesystempro-0.0.0.2.dist-info/METADATA,sha256=wlWK1mN9XkKddQx7kVzJX6nG8WZR56nAOabZeXzXnG0,13723
+filesystempro-0.0.0.2.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+filesystempro-0.0.0.2.dist-info/top_level.txt,sha256=9lgBUEVa7sCaR31mBKXyMiI4FVZjJv2H7PQXeWfAhPQ,30
+filesystempro-0.0.0.2.dist-info/RECORD,,
