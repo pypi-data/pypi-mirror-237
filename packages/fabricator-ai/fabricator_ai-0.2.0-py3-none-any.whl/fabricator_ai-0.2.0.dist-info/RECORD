@@ -1,0 +1,17 @@
+fabricator/__init__.py,sha256=6D65XnmovawIvJrwNgYWXqTY_dgaLFWY5XT0U6-vG5s,242
+fabricator/dataset_generator.py,sha256=HYtsJ6Uy3hTTcTSYEdVGaOBWNW3QcqdttoYMq5z7i3c,15611
+fabricator/utils.py,sha256=N3QTnK5nb0HHbBxLwyrxbC1YDTvQc8L16XArZ6Uioeg,506
+fabricator/dataset_transformations/__init__.py,sha256=jIp_sl4Fl4H69fUYjxm28KGq-i8EfseGOSTfKPYyW3w,583
+fabricator/dataset_transformations/question_answering.py,sha256=VK5jRZ0G5zuXY4xhXX7I0ptRsyB7rSS9eMl72fzP5cg,3388
+fabricator/dataset_transformations/text_classification.py,sha256=N9wbsBvRe5pNbWKS2B1cHGR7cLHvmWLGA6OGIOLQyBY,4118
+fabricator/dataset_transformations/token_classification.py,sha256=RJWIFoDYy3pQMIO0o-0v1J7kAMK91N4SX05NfHhG_Ek,9217
+fabricator/prompts/__init__.py,sha256=DYoObLh-oa4Eu8Ch-erPdh6l34W7PRy_gtvCQwr9scc,211
+fabricator/prompts/base.py,sha256=vbiMqQKge7wKikYqy_usrddt-dwnfU5R7BjnRP6K9ig,8838
+fabricator/prompts/utils.py,sha256=GO2xhfpKuCsV0oWdzliPw12QOybu9equXUpt7okF3mo,2463
+fabricator/samplers/__init__.py,sha256=SgyfEJKX8nMNRGMzV_iDeCJl-B1vC4iEVzqitLvt7ck,245
+fabricator/samplers/samplers.py,sha256=XYmY5puX_7bpCF5mKF0INMKrsMmK3Qg_uXwwFOq2NM8,9163
+fabricator_ai-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fabricator_ai-0.2.0.dist-info/METADATA,sha256=Eeney-Nmr16B5Qzr4HnUgYKLyTPwbbsqaUA29kAJPUc,5892
+fabricator_ai-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fabricator_ai-0.2.0.dist-info/top_level.txt,sha256=VP4h_RSPEybNp3jkl8F7LpeqdqGMpwVytNT9aql9X0U,11
+fabricator_ai-0.2.0.dist-info/RECORD,,
