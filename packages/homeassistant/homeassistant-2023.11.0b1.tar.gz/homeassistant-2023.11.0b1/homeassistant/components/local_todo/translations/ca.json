@@ -1,0 +1,12 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "El servei ja est\u00e0 configurat"
+        },
+        "step": {
+            "user": {
+                "description": "Tria un nom per a la nova llista de tasques"
+            }
+        }
+    }
+}
