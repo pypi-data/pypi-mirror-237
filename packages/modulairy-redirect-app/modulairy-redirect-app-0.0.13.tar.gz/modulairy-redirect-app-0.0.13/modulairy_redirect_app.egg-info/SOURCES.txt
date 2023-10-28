@@ -1,0 +1,8 @@
+README.md
+setup.py
+modulairy_redirect_app/__init__.py
+modulairy_redirect_app.egg-info/PKG-INFO
+modulairy_redirect_app.egg-info/SOURCES.txt
+modulairy_redirect_app.egg-info/dependency_links.txt
+modulairy_redirect_app.egg-info/requires.txt
+modulairy_redirect_app.egg-info/top_level.txt
