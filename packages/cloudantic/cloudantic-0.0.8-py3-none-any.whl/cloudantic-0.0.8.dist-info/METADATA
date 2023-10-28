@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: cloudantic
+Version: 0.0.8
+Summary: 
+Author: Oscar Bahamonde
+Author-email: o.bahamonde@globant.com
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8.6,<4.0.0)
+Requires-Dist: aiohttp-sse (>=2.1.0,<3.0.0)
+Requires-Dist: boto3 (>=1.28.65,<2.0.0)
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Requires-Dist: openai (>=0.28.1,<0.29.0)
+Requires-Dist: pydantic (==1.10.12)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: rich (>=13.6.0,<14.0.0)
+Requires-Dist: tenacity (>=8.2.3,<9.0.0)
+Requires-Dist: tiktoken (>=0.5.1,<0.6.0)
+Description-Content-Type: text/markdown
+
+
