@@ -1,0 +1,7 @@
+setup.py
+appshot/__init__.py
+appshot.egg-info/PKG-INFO
+appshot.egg-info/SOURCES.txt
+appshot.egg-info/dependency_links.txt
+appshot.egg-info/requires.txt
+appshot.egg-info/top_level.txt
