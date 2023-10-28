@@ -1,0 +1,9 @@
+README.md
+setup.py
+mypythonlib/__init__.py
+mypythonlib/myfunctions.py
+sigmoidpythonlib.egg-info/PKG-INFO
+sigmoidpythonlib.egg-info/SOURCES.txt
+sigmoidpythonlib.egg-info/dependency_links.txt
+sigmoidpythonlib.egg-info/requires.txt
+sigmoidpythonlib.egg-info/top_level.txt
