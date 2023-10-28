@@ -1,0 +1,5 @@
+polars_hash-0.1.0.dist-info/METADATA,sha256=skwxQhHYr6OAupDJFcMnsPTtqXLgDzyzlsEIq5nnjm0,2920
+polars_hash-0.1.0.dist-info/WHEEL,sha256=nZfem5lAjU4u44NobsoUP_xywe2KREJwWImLNLPc_P0,131
+polars_hash/__init__.py,sha256=YvwzimoEV368GUTL8ldTz0JzQzsRGDxP3TnrTku4oqU,2031
+polars_hash/polars_hash.cpython-310-powerpc64le-linux-gnu.so,sha256=fVBsnv2vosND64ZAexdcbfcat_E0O43s2C5VSnbjUck,44064768
+polars_hash-0.1.0.dist-info/RECORD,,
