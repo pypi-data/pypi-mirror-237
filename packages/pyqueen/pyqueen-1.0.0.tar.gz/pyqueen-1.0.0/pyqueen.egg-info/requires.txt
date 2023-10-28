@@ -1,0 +1,9 @@
+importlib-metadata
+numpy
+pandas
+PyMySQL
+requests
+socket.engine
+SQLAlchemy
+xlrd==1.2.0
+XlsxWriter
