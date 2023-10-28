@@ -1,0 +1,12 @@
+wcmatch
+pyyaml
+paramiko
+tqdm
+tarn<1.0.0,>=0.13.2
+pydantic
+pluggy
+typer
+rich
+jboc<1.0.0
+humanfriendly
+typing_extensions
