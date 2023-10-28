@@ -1,0 +1,8 @@
+irisml
+azure-identity
+azure-storage-blob
+einops
+packaging
+Pillow
+tokenizers>=0.13.3
+transformers
