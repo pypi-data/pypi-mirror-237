@@ -1,0 +1,14 @@
+gmxpy/__init__.py,sha256=n6uBrmYtz5Ukg7p_5cQli6cIW1aqHdMdeNoOqmpaDcI,150
+gmxpy/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gmxpy/analysis/__init__.py,sha256=Q-xnc_s-4-WXAu3zah8Y-4fLSSBH-plLT7eYHcnl7WQ,43
+gmxpy/analysis/functional.py,sha256=CAHj8g8BH0sv1ZiYua_ESyPl2ztOzXdruqCNhhrBI1A,2710
+gmxpy/editconf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gmxpy/grompp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gmxpy/grompp/functional.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gmxpy/solvate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+"gmxpy/utils/__init__,py",sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gmxpy/utils/functional.py,sha256=lpaJl4ItkMmWuaBx4SJ4YNwUrONrEOoPMA1OHpYnYH4,2113
+gmxpy-0.0.3.dist-info/METADATA,sha256=-4TQNlHhRCjcaNvnivXsVeZSe2U_hvgN5JrH7z0a4jM,11346
+gmxpy-0.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+gmxpy-0.0.3.dist-info/licenses/LICENSE,sha256=QlzaWsUNwggm-i-1RI5OwjKvRW9GkMjTUCvDpzbsaC4,1088
+gmxpy-0.0.3.dist-info/RECORD,,
