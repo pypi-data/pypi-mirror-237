@@ -1,0 +1,7 @@
+License.txt.txt
+setup.py
+nummpy/__init__.py
+nummpy.egg-info/PKG-INFO
+nummpy.egg-info/SOURCES.txt
+nummpy.egg-info/dependency_links.txt
+nummpy.egg-info/top_level.txt
