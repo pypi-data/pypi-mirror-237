@@ -1,0 +1,32 @@
+kani>=0.5.1,<2.0.0
+Pillow>=10.0.0,<11.0.0
+
+# openai
+kani[openai]>=0.5.1,<2.0.0
+
+# llava
+kani[huggingface,llama]>=0.5.1,<2.0.0
+accelerate~=0.23.0
+einops~=0.7.0
+protobuf~=4.24.4
+
+# fun
+ascii_magic~=2.3.0
+
+# dev
+black
+build
+isort
+pytest
+pytest-asyncio
+twine
+
+# docs
+furo~=2023.9.10
+myst-parser~=2.0.0
+sphinx~=7.2.6
+sphinxemoji~=0.2.0
+sphinx-copybutton~=0.5.2
+sphinx-inline-tabs~=2023.4.21
+sphinx-sitemap~=2.5.1
+sphinxext-opengraph~=0.8.2
