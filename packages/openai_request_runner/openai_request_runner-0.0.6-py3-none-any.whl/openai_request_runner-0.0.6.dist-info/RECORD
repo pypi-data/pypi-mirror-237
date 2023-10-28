@@ -1,0 +1,8 @@
+openai_request_runner/__init__.py,sha256=mpes68kFdsFtE0Yao2xMlLrsoaxA3W0CI8_7zs1aFr8,197
+openai_request_runner/openaischema.py,sha256=QZdHdQLA3tKUZ1YbrcYYy59szd5fTUYQvh-mNxfrCBY,1676
+openai_request_runner/request_runner.py,sha256=AEio4mU3n2NucV9FN6E35FW9b0zgIqF1568U2tuofVM,26937
+openai_request_runner/utils.py,sha256=B0DQ_PheYfctkpIj3NcYgGN6mua38hyG3xENA0gwCqY,476
+openai_request_runner-0.0.6.dist-info/LICENSE,sha256=KX9DTAuRsNNkAbrvfE5658Vvs74eVtl4ESFZgRyqx_4,1075
+openai_request_runner-0.0.6.dist-info/METADATA,sha256=DAGJ-zgzPd25Eu1LppFV32VLQWl3ZF1VIwnbqNupmdE,3909
+openai_request_runner-0.0.6.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+openai_request_runner-0.0.6.dist-info/RECORD,,
