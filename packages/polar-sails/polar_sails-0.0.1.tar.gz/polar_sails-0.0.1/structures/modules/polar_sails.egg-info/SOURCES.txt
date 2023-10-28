@@ -1,0 +1,7 @@
+module.txt
+pyproject.toml
+structures/modules/polar_sails/__init__.py
+structures/modules/polar_sails.egg-info/PKG-INFO
+structures/modules/polar_sails.egg-info/SOURCES.txt
+structures/modules/polar_sails.egg-info/dependency_links.txt
+structures/modules/polar_sails.egg-info/top_level.txt
