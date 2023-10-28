@@ -1,0 +1,14 @@
+kani/ext/vision/__init__.py,sha256=saiQJYhvNHOVIrvaIDQemzREl3Wjpc89SnQbdWURRp0,101
+kani/ext/vision/cli.py,sha256=n1Lk9sfqwLymBGPvX2luVGQUI_j0tUHi_Ar4-_VzuGQ,8531
+kani/ext/vision/parts.py,sha256=QnnSM0qceiv_sdZDF7Be8LmDINyz8bLIb7AR1ZhWqyI,2514
+kani/ext/vision/engines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kani/ext/vision/engines/llava/__init__.py,sha256=k7lVV87AG1stNC0cjwBC3wOi2G4hy-5iik1Lxri7-tA,32
+kani/ext/vision/engines/llava/engine.py,sha256=unLjwXPzN4zUtb1aqaFtpIJ0FfgQ5kdppnShwj1Ypik,7328
+kani/ext/vision/engines/openai/__init__.py,sha256=ODsL6olSskYk_aRmVMzf2gMH1xhmfl27NM8KCON60Ag,39
+kani/ext/vision/engines/openai/engine.py,sha256=Is5sdHCuYQaVRmOjJxFGX64xAnOVwX_P3axiMIYIFiQ,2066
+kani/ext/vision/engines/openai/img_tokens.py,sha256=MIDiDPTrQ4m6wY53mLubQEWlecflpUB73eWj63EhC38,502
+kani/ext/vision/engines/openai/models.py,sha256=PHk8RzuBo7m_3ncMxgHd4NDw2kmokYSACeGpt9kdBnA,1098
+kani_vision-0.0.1.dist-info/METADATA,sha256=antnNlNNhVuWhhLcrP-KeHhRugCuk90yOsgQ02SeOKU,7777
+kani_vision-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+kani_vision-0.0.1.dist-info/licenses/LICENSE,sha256=Lurupe8HJYLiMNga-UWxdtIIDmhjU-Maqk_cN0wrO2M,1067
+kani_vision-0.0.1.dist-info/RECORD,,
