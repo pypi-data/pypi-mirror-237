@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mindearth-ascend
+Version: 0.1.0
+Summary: An AI framework for Earth simulation
+Home-page: https://www.mindspore.cn/
+Download-URL: https://gitee.com/mindspore/mindscience/tags
+Author: The MindSpore Authors
+Author-email: contact@mindspore.cn
+License: Apache 2.0
+Project-URL: Sources, https://gitee.com/mindspore/mindscience
+Project-URL: Issue Tracker, https://gitee.com/mindspore/mindscience/issues
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: numpy (>=1.17.0)
+Requires-Dist: scipy (>=1.7.0)
+Requires-Dist: matplotlib (>=3.1.3)
+Requires-Dist: pyyaml (>=5.0)
+Requires-Dist: spherical-geometry (==1.2.22)
+
