@@ -1,0 +1,16 @@
+css/alabaster.css,sha256=J1fKZJbWUoBi9YARN0144KMdGP81GU8SZubRWkEATZU,2548
+css/bootstrap.css,sha256=ZMkwkgq4CfIiiqmxxban29jZeaJ8l74z3AhpX9EFNgs,2533
+css/furo.css,sha256=YD-ID93KZQUcAPIMAJvmIlOm750BVQWhA_JQdMlaetI,2733
+css/pydata_sphinx_theme.css,sha256=y0kVdAAkd4TTniBEW50HCyUXtmstMVJrItQeUsUpttQ,2466
+css/sphinx_book_theme.css,sha256=Hn7oG6kCqaqbsNI9XWIZgZ6Hisg2TaH0DDv5S-cLT1Q,2458
+css/sphinx_material.css,sha256=X5-N6PtLuG1rCBc4qJslEJrTHJwaAaeStYUnzQTkbl8,2710
+css/sphinx_rtd_theme.css,sha256=JuBx8oqXPJTHWrmldyk5R9LWfPphGeDqxn20_kqFfKg,3016
+js/download_adapter.jquery.js,sha256=jWLQrd9QuWQiWIQ_ksXYPOnv7Cd56gWG1Zq4R71exzk,3579
+js/download_adapter.js,sha256=ux0rwle72B2Z6piW3PVX2P8uqnfTqfE16EGFbApKP8c,8287
+jsphinx/__init__.py,sha256=MHkNlpzfzJdEa_pXSVM7IRqN41WA7er0mmwokA-17cs,170
+jsphinx/cdn.py,sha256=bovCxOnN5w46AW63esRdXr-XynHW61TxfBb4kbzvxXw,809
+jssphinx-1.3.3.dist-info/LICENSE,sha256=dOWhRtenNzp0haV2LO9YRYb_-GCmPdwVJeTZ4MarauY,1073
+jssphinx-1.3.3.dist-info/METADATA,sha256=_-2osMBF3oo9PNWtZiDcACeLVaLf5Q01CGzso77FCEs,15296
+jssphinx-1.3.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+jssphinx-1.3.3.dist-info/top_level.txt,sha256=FERYRvKkDLyWQtcdri8AWNmDQ9EaKbQ0cLMcc77ujE4,15
+jssphinx-1.3.3.dist-info/RECORD,,
