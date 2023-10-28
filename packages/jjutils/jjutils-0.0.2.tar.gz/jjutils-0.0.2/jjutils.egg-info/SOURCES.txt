@@ -1,0 +1,14 @@
+README.md
+setup.py
+jjutils/DataFrameCleaner.py
+jjutils/DataFrameExplorer.py
+jjutils/FeatureEngineer.py
+jjutils/FileHandler.py
+jjutils/ModelTrainer.py
+jjutils/SQLiteCRUD.py
+jjutils/StreeamlitAppBuilder.py
+jjutils/__init__.py
+jjutils.egg-info/PKG-INFO
+jjutils.egg-info/SOURCES.txt
+jjutils.egg-info/dependency_links.txt
+jjutils.egg-info/top_level.txt
