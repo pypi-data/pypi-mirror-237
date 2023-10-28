@@ -1,0 +1,64 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Lista de tareas pendientes"
+        }
+    },
+    "selector": {
+        "status": {
+            "options": {
+                "completed": "Completado",
+                "needs_action": "Acci\u00f3n necesaria"
+            }
+        }
+    },
+    "services": {
+        "create_item": {
+            "description": "A\u00f1adir un nuevo elemento a la lista de tareas pendientes.",
+            "fields": {
+                "status": {
+                    "description": "Un estado o confirmaci\u00f3n de la tarea pendiente.",
+                    "name": "Estado"
+                },
+                "summary": {
+                    "description": "El breve resumen que representa el elemento Tareas pendientes.",
+                    "name": "Resumen"
+                }
+            },
+            "name": "Crear elemento de la lista de tareas pendientes"
+        },
+        "delete_item": {
+            "description": "Eliminar un elemento existente de la Lista de tareas pendientes, ya sea por su Id. \u00fanico o por su Resumen.",
+            "fields": {
+                "summary": {
+                    "description": "El breve resumen que representa el elemento Tareas pendientes.",
+                    "name": "Resumen"
+                },
+                "uid": {
+                    "description": "Identificadores \u00fanicos para los elementos de la lista de tareas pendientes.",
+                    "name": "Id. \u00fanicos de elementos pendientes"
+                }
+            },
+            "name": "Eliminar un elemento de la lista de tareas pendientes"
+        },
+        "update_item": {
+            "description": "Actualizar un elemento existente de la lista de tareas pendientes en funci\u00f3n de su Id. \u00fanico o Resumen.",
+            "fields": {
+                "status": {
+                    "description": "Un estado o confirmaci\u00f3n de la tarea pendiente.",
+                    "name": "Estado"
+                },
+                "summary": {
+                    "description": "El breve resumen que representa el elemento Tareas pendientes.",
+                    "name": "Resumen"
+                },
+                "uid": {
+                    "description": "Identificador \u00fanico para el elemento de la lista de tareas pendientes.",
+                    "name": "ID \u00fanico de tarea pendiente"
+                }
+            },
+            "name": "Actualizar elemento de la lista de tareas pendientes"
+        }
+    },
+    "title": "Lista de tareas pendientes"
+}
