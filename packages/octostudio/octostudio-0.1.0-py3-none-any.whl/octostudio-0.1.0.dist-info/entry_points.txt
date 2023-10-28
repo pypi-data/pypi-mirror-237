@@ -1,0 +1,3 @@
+[console_scripts]
+octostudio-microblocks-bridge=octostudio.cli:main
+
