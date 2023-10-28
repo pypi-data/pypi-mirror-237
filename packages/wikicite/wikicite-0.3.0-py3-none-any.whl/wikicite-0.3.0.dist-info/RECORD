@@ -1,0 +1,12 @@
+wikicite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wikicite/create_citation.py,sha256=5gHcJd1ApLIfKEBU6yr8pcM733GzYL2TFeT5HfcNcNw,459
+wikicite/get_reference_name.py,sha256=-cj0N2YgxFj3i95s79lqgnqgnRAEFBX3L3XNGzDy6_Q,260
+wikicite/links.toml,sha256=sryALNHuwTwF1S2nemEWLJgoJpPA_dUF7D3CtxFfqDw,795
+wikicite/markdown.py,sha256=FB_gwuotF27a17HnXg0yFhnaAkx1FKGb_Q3teqrbh3A,156
+wikicite/options.py,sha256=jLMe4Ya6zBdAAzU58zKJ4LdlbcQX2K_4zb0VXETojxg,1434
+wikicite/sources.toml,sha256=xpP2k-lEtxBQCQiORSpaAiiLg-_pDIvfaF39rjyKM20,403
+wikicite/wikicite.py,sha256=-iiP7QXET8WDkbruoNPFT2paeTCTvn7BUwnjG29eNf0,3115
+wikicite-0.3.0.dist-info/entry_points.txt,sha256=2oZcN9YRwOqk7g3SpeZsX0FlXoTqS4elSkkZk3rdcuY,92
+wikicite-0.3.0.dist-info/METADATA,sha256=__SfCKUan7jjZs81u0qxSNYsKaN3TokYiPu12eBo2LA,1894
+wikicite-0.3.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+wikicite-0.3.0.dist-info/RECORD,,
