@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: bing-chat
+Version: 1.9.5
+Summary: Bing-Chat-API
+License: MIT
+Author: Zack Bradshaw
+Author-email: zack@zackbradshaw.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: BingImageCreator
+Requires-Dist: aiohttp
+Requires-Dist: certifi
+Requires-Dist: httpx
+Requires-Dist: prompt_toolkit
+Requires-Dist: requests
+Requires-Dist: rich
+Project-URL: Bug Report, https://github.com/Agora-X/Bing-Chat-API/issues/new
