@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: bioio-sldy
+Version: 0.9.1
+Summary: A BioIO reader plugin for reading 3i slidebook (SLDY) images.
+Author-email: Sean Meharry <seanm@alleninstitute.org>
+License: MIT License
+Project-URL: Homepage, https://github.com/bioio-devs/bioio-sldy
+Project-URL: Bug Tracker, https://github.com/bioio-devs/bioio-sldy/issues
+Project-URL: Documentation, https://bioio-devs.github.io/bioio-sldy
+Project-URL: User Support, https://github.com/bioio-devs/bioio-sldy/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bioio-base>=0.3.0
+Requires-Dist: dask[array]>=2021.4.1
+Requires-Dist: fsspec<2023.9.0,>=2022.8.0
+Requires-Dist: numpy<2,>=1.16
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: xarray>=0.16.1
+Provides-Extra: lint
+Requires-Dist: pre-commit>=2.20.0; extra == "lint"
+Provides-Extra: test
+Requires-Dist: coverage>=5.1; extra == "test"
+Requires-Dist: dask[array,distributed]>=2021.4.1; extra == "test"
+Requires-Dist: quilt3; extra == "test"
+Requires-Dist: pytest>=5.4.3; extra == "test"
+Requires-Dist: pytest-cov>=2.9.0; extra == "test"
+Requires-Dist: pytest-raises>=0.11; extra == "test"
+Requires-Dist: types-PyYAML>=6.0.12.9; extra == "test"
+Provides-Extra: docs
+Requires-Dist: m2r2>=0.2.7; extra == "docs"
+Requires-Dist: Sphinx>=4.0.0; extra == "docs"
+Requires-Dist: furo>=2022.4.7; extra == "docs"
+Requires-Dist: numpydoc; extra == "docs"
+Requires-Dist: sphinx-copybutton; extra == "docs"
+Requires-Dist: docutils<0.19,>=0.18; extra == "docs"
+
+# bioio-sldy
+
+[![Build Status](https://github.com/bioio-devs/bioio-sldy/actions/workflows/ci.yml/badge.svg)](https://github.com/bioio-devs/bioio-sldy/actions)
+[![Documentation](https://github.com/bioio-devs/bioio-sldy/actions/workflows/docs.yml/badge.svg)](https://bioio-devs.github.io/bioio-sldy)
+
+A BioIO reader plugin for reading 3i slidebook (SLDY) images.
+
+This plugin is intended to be used in conjunction with [bioio](https://github.com/bioio-devs/bioio)
+
+---
+
+## Installation
+
+**Stable Release:** `pip install bioio-sldy`<br>
+**Development Head:** `pip install git+https://github.com/bioio-devs/bioio-sldy.git`
+
+## Quickstart
+
+```python
+from bioio_sldy import Reader 
+
+r = Reader("my-image.ext")
+r.dims
+```
+
+## Documentation
+
+For full package documentation please visit [bioio-devs.github.io/bioio-sldy](https://bioio-devs.github.io/bioio-sldy).
+
+## Development
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for information related to developing the code.
+
+**MIT License**
