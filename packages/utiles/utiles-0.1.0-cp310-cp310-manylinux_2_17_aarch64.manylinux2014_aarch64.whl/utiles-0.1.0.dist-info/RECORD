@@ -1,0 +1,12 @@
+utiles-0.1.0.dist-info/METADATA,sha256=DQmmKcRphNSZKOJIw8U9UXPWia_QL5oiE38AHswaAEU,22322
+utiles-0.1.0.dist-info/WHEEL,sha256=qAnRBE_xRr_J1n_pHNmRLbHxdeQ89MtmwRTQfjSTk4M,133
+utiles-0.1.0.dist-info/entry_points.txt,sha256=TOI6_GXEoXR74G6I2rq5-Ms9QHaiVTLIHlwlRMnRvP0,127
+utiles/__init__.py,sha256=Ht05oSicJOtMLPsU4O54h1niK7M80fXI2U5eCsIkj70,2895
+utiles/__main__.py,sha256=3KOQU0XV8ngaaPzDUL-23zF1x0HdrVvckV7mMK7bXLk,817
+utiles/libutiles.pyi,sha256=7j2VVERXTIKkmMzoTCR-nsvY8C8ZH0jw6SpQ3LlmDgk,7334
+utiles/rio_plugin.py,sha256=SwhqXIla3Rw_sGNEcGCEFByznLzzDOq7XyzE_F6MHWA,190
+utiles/__about__.py,sha256=fMDb2IVX3u5YJsx7IglBERk86RqfM9eoZN3SuD5Ek_M,314
+utiles/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utiles/cli.py,sha256=tn8-SacaLQ86s_swYoGvpVwNNoBJUvJJ5Dke80G2yTM,16672
+utiles/libutiles.cpython-310-aarch64-linux-gnu.so,sha256=Gq-TGT0YB0uP43r-Tpk_-ZWlL_th8rcCjSHS6SfDCw8,789752
+utiles-0.1.0.dist-info/RECORD,,
