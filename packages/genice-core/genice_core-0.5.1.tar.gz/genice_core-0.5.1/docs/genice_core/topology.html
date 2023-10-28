@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.10.0" />
+<title>genice_core.topology API documentation</title>
+<meta name="description" content="Arrange edges appropriately." />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>genice_core.topology</code></h1>
+</header>
+<section id="section-intro">
+<p>Arrange edges appropriately.</p>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">&#34;&#34;&#34;
+Arrange edges appropriately.
+&#34;&#34;&#34;
+
+from logging import getLogger, DEBUG
+import networkx as nx
+import numpy as np
+from typing import Union
+import random
+
+# Generate documents for these functions only.
+# __all__ = []
+
+
+def _extend_path(g: nx.Graph, path: list) -&gt; list:
+    &#34;&#34;&#34;extend the path
+
+    Args:
+        g (nx.Graph): a linear or a simple cyclic graph.
+        path (list): A given path tho be extended
+
+    Returns:
+        list: the extended path or cycle
+    &#34;&#34;&#34;
+    while True:
+        last, head = path[-2:]
+        for next in g.neighbors(head):
+            if next != last:
+                break
+        else:
+            # no next node
+            return path
+        path.append(next)
+        if next == path[0]:
+            # is cyclic
+            return path
+
+
+def _find_path(g: nx.Graph) -&gt; list:
+    &#34;&#34;&#34;Find the path in g
+
+    Args:
+        g (nx.Graph): a linear or a simple cyclic graph.
+
+    Returns:
+        list: the path or cycle
+    &#34;&#34;&#34;
+    nodes = list(g.nodes())
+    head = nodes[0]
+    nei = [v for v in g.neighbors(head)]
+    if len(nei) == 0:
+        # lone node
+        return []
+    elif len(nei) == 1:
+        # an end node, fortunately.
+        return _extend_path(g, [head, nei[0]])
+    c0 = _extend_path(g, [head, nei[0]])
+
+    if c0[-1] != head:
+        # linear chain graph
+        # join the another side
+        c1 = _extend_path(g, [head, nei[1]])
+        return list(reversed(c0)) + c1[1:]
+
+    # cyclic graph
+    return c0
+
+
+def _divide(divg: nx.Graph, nei: list, vertex: int, offset: int):
+    # fill by Nones if number of neighbors is less than 4
+    nei = (nei + [None, None, None, None])[:4]
+    # two neighbor nodes that are passed away to the new node
+    migrants = set(np.random.choice(nei, 2, replace=False)) - set([None])
+    # new node label
+    newVertex = vertex + offset
+    # assemble edges
+    for migrant in migrants:
+        divg.remove_edge(migrant, vertex)
+        divg.add_edge(newVertex, migrant)
+
+
+def _divide_node(
+    divg: nx.Graph, vertex: int, offset: int, fixed: nx.DiGraph, numFixedEdges: int
+):
+    nei = list(divg.neighbors(vertex))
+    fullDegree = len(nei) + numFixedEdges
+    # minimal assertion
+    assert fullDegree &lt;= 4, f&#34;degree {fullDegree} &gt; 4&#34;
+
+    # 一部の辺が固定されている場合、分割は自由に行えない。この部分の処理が非常にこみいったことになる。
+    if numFixedEdges == 0:
+        _divide(divg, nei, vertex, offset)
+    elif numFixedEdges == 1:
+        # 自由結合が3本: 1本が固定されているので、一本が分割後に固定されることになる。
+        # 本来なら前処理でそのような状況をなくしておかれるべき。
+        assert len(nei) != 3
+
+        # 前処理のあとで自由結合が2本の場合、第4のダングリング結合が固定結合をキャンセルしているはずなので、分割不要。
+
+        # 自由結合が1の場合はそもそも分割不要。
+    elif numFixedEdges == 2:
+        # 2本の固定結合が1i1oの場合のみ、残る2本は自由に向きを決められる。
+        # 2i/2oの場合には、前処理で残る2本も固定されていなければならないので、ここにはこない。
+        pass
+        # 残りは割らなくていい。
+    elif numFixedEdges == 3:
+        # 残る1本は自動的に向きが定まるので前処理で排除されていなければならない。
+        # 可能なのは3結合で3本固定の場合のみ。
+        assert len(nei) == 0
+
+
+def noodlize(g: nx.Graph, fixed: Union[nx.DiGraph, None] = nx.DiGraph()) -&gt; nx.Graph:
+    &#34;&#34;&#34;Divide each vertex of the graph and make a set of paths.
+
+    A new algorithm suggested by Prof. Sakuma, Yamagata University.
+
+    Args:
+        g (nx.Graph): An ice-like undirected graph. All vertices must not be &gt;4-degree.
+        fixed (Union[nx.DiGraph,None], optional): Specifies the edges whose direction is fixed.. Defaults to None.
+
+    Returns:
+        nx.Graph: A graph mode of chains and cycles.
+    &#34;&#34;&#34;
+
+    logger = getLogger()
+
+    fixg = nx.Graph(fixed)  # undirected copy
+
+    offset = len(g)
+
+    # divided graph
+    divg = nx.Graph(g)
+    for edge in fixed.edges():
+        divg.remove_edge(*edge)
+
+    for v in g:
+        if fixg.has_node(v):
+            nfixed = fixg.degree[v]
+        else:
+            nfixed = 0
+        _divide_node(divg, v, offset, fixed, nfixed)
+
+    # divg is made of chains and cycles.
+    # divg does not contain the edges in fixed.
+    return divg
+
+
+def _decompose_complex_path(path: list):
+    &#34;&#34;&#34;A generator that divides a complex path with self-crossings to set of simple cycles and paths.
+
+    Args:
+        path (list): A complex path
+
+    Yields:
+        list: a short and simple path/cycle
+    &#34;&#34;&#34;
+    logger = getLogger()
+    if len(path) == 0:
+        return
+    logger.debug(f&#34;decomposing {path}...&#34;)
+    order = dict()
+    order[path[0]] = 0
+    store = [path[0]]
+    headp = 1
+    while headp &lt; len(path):
+        node = path[headp]
+        if node in order:
+            # it is a cycle!
+            size = len(order) - order[node]
+            cycle = store[-size:] + [node]
+            yield cycle
+            # remove them from the order[]
+            for v in cycle[1:]:
+                del order[v]
+            # truncate the store
+            store = store[:-size]
+        order[node] = len(order)
+        store.append(node)
+        headp += 1
+        logger.debug([order, store])
+    if len(store) &gt; 1:
+        yield store
+    logger.debug(f&#34;Done decomposition.&#34;)
+
+
+def split_into_simple_paths(
+    nnode: int,
+    divg: nx.Graph,
+):
+    &#34;&#34;&#34;Set the orientations to the components.
+
+    Args:
+        nnode (int): number of nodes in the original graph.
+        divg (nx.Graph): the divided graph.
+
+    Yields:
+        list: a short and simple path/cycle
+    &#34;&#34;&#34;
+
+    for c in nx.connected_components(divg):
+        # a component of c is either a chain or a cycle.
+        subg = divg.subgraph(c)
+        nn = len(subg)
+        ne = len([e for e in subg.edges()])
+        assert nn == ne or nn == ne + 1
+        # Find a simple path in the doubled graph
+        # It must be a simple path or a simple cycle.
+        path = _find_path(subg)
+        # Flatten then path. It may make the path self-crossing.
+        path = [v % nnode for v in path]
+        # Divide a long path into simple paths and cycles.
+        yield from _decompose_complex_path(path)
+
+
+# def _decorate(g: nx.Graph):
+#     &#34;&#34;&#34;Add virtual nodes to make all nodes 4-connected.
+
+#     Args:
+#         g (nx.Graph): _description_
+#     &#34;&#34;&#34;
+#     nodes = list(g)
+#     for i in nodes:
+#         room = 4 - len(g[i])
+#         for j in range(room):
+#             g.add_edge(i, -j - 1)
+
+
+def _remove_dummy_nodes(g: Union[nx.Graph, nx.DiGraph]):
+    for i in range(-1, -5, -1):
+        if g.has_node(i):
+            g.remove_node(i)
+
+
+def balance(fixed: nx.DiGraph, g: nx.Graph, hook=None):
+    &#34;&#34;&#34;Extend the prefixed digraph to make the remaining graph balanced.
+
+    Args:
+        fixed (nx.DiGraph): fixed edges
+        g (nx.Graph): skeletal graph
+    &#34;&#34;&#34;
+    # prepare the perimeter
+    perimeter = [
+        node
+        for node in fixed
+        if fixed.in_degree[node] + fixed.out_degree[node] &lt; g.degree[node]
+    ]
+
+    while len(perimeter) &gt; 0:
+        node = perimeter.pop(0)
+        if node &lt; 0:
+            continue
+        if hook is not None:
+            hook(fixed)
+
+        # fill if degree is less than 4
+        neighborNodes = list(g[node]) + [-1, -2, -3, -4]
+        neighborNodes = neighborNodes[:4]
+
+        while fixed.in_degree(node) &gt; fixed.out_degree(node):
+            next = random.choice(neighborNodes)
+            if not (fixed.has_edge(node, next) or fixed.has_edge(next, node)):
+                fixed.add_edge(node, next)
+                perimeter.append(next)
+
+        while fixed.in_degree(node) &lt; fixed.out_degree(node):
+            next = random.choice(neighborNodes)
+            if not (fixed.has_edge(node, next) or fixed.has_edge(next, node)):
+                fixed.add_edge(next, node)
+                perimeter.append(next)
+
+    _remove_dummy_nodes(fixed)</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="genice_core.topology.balance"><code class="name flex">
+<span>def <span class="ident">balance</span></span>(<span>fixed: networkx.classes.digraph.DiGraph, g: networkx.classes.graph.Graph, hook=None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Extend the prefixed digraph to make the remaining graph balanced.</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>fixed</code></strong> :&ensp;<code>nx.DiGraph</code></dt>
+<dd>fixed edges</dd>
+<dt><strong><code>g</code></strong> :&ensp;<code>nx.Graph</code></dt>
+<dd>skeletal graph</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def balance(fixed: nx.DiGraph, g: nx.Graph, hook=None):
+    &#34;&#34;&#34;Extend the prefixed digraph to make the remaining graph balanced.
+
+    Args:
+        fixed (nx.DiGraph): fixed edges
+        g (nx.Graph): skeletal graph
+    &#34;&#34;&#34;
+    # prepare the perimeter
+    perimeter = [
+        node
+        for node in fixed
+        if fixed.in_degree[node] + fixed.out_degree[node] &lt; g.degree[node]
+    ]
+
+    while len(perimeter) &gt; 0:
+        node = perimeter.pop(0)
+        if node &lt; 0:
+            continue
+        if hook is not None:
+            hook(fixed)
+
+        # fill if degree is less than 4
+        neighborNodes = list(g[node]) + [-1, -2, -3, -4]
+        neighborNodes = neighborNodes[:4]
+
+        while fixed.in_degree(node) &gt; fixed.out_degree(node):
+            next = random.choice(neighborNodes)
+            if not (fixed.has_edge(node, next) or fixed.has_edge(next, node)):
+                fixed.add_edge(node, next)
+                perimeter.append(next)
+
+        while fixed.in_degree(node) &lt; fixed.out_degree(node):
+            next = random.choice(neighborNodes)
+            if not (fixed.has_edge(node, next) or fixed.has_edge(next, node)):
+                fixed.add_edge(next, node)
+                perimeter.append(next)
+
+    _remove_dummy_nodes(fixed)</code></pre>
+</details>
+</dd>
+<dt id="genice_core.topology.noodlize"><code class="name flex">
+<span>def <span class="ident">noodlize</span></span>(<span>g: networkx.classes.graph.Graph, fixed: Optional[networkx.classes.digraph.DiGraph] = &lt;networkx.classes.digraph.DiGraph object&gt;) ‑> networkx.classes.graph.Graph</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Divide each vertex of the graph and make a set of paths.</p>
+<p>A new algorithm suggested by Prof. Sakuma, Yamagata University.</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>g</code></strong> :&ensp;<code>nx.Graph</code></dt>
+<dd>An ice-like undirected graph. All vertices must not be &gt;4-degree.</dd>
+<dt><strong><code>fixed</code></strong> :&ensp;<code>Union[nx.DiGraph,None]</code>, optional</dt>
+<dd>Specifies the edges whose direction is fixed.. Defaults to None.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>nx.Graph</code></dt>
+<dd>A graph mode of chains and cycles.</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def noodlize(g: nx.Graph, fixed: Union[nx.DiGraph, None] = nx.DiGraph()) -&gt; nx.Graph:
+    &#34;&#34;&#34;Divide each vertex of the graph and make a set of paths.
+
+    A new algorithm suggested by Prof. Sakuma, Yamagata University.
+
+    Args:
+        g (nx.Graph): An ice-like undirected graph. All vertices must not be &gt;4-degree.
+        fixed (Union[nx.DiGraph,None], optional): Specifies the edges whose direction is fixed.. Defaults to None.
+
+    Returns:
+        nx.Graph: A graph mode of chains and cycles.
+    &#34;&#34;&#34;
+
+    logger = getLogger()
+
+    fixg = nx.Graph(fixed)  # undirected copy
+
+    offset = len(g)
+
+    # divided graph
+    divg = nx.Graph(g)
+    for edge in fixed.edges():
+        divg.remove_edge(*edge)
+
+    for v in g:
+        if fixg.has_node(v):
+            nfixed = fixg.degree[v]
+        else:
+            nfixed = 0
+        _divide_node(divg, v, offset, fixed, nfixed)
+
+    # divg is made of chains and cycles.
+    # divg does not contain the edges in fixed.
+    return divg</code></pre>
+</details>
+</dd>
+<dt id="genice_core.topology.split_into_simple_paths"><code class="name flex">
+<span>def <span class="ident">split_into_simple_paths</span></span>(<span>nnode: int, divg: networkx.classes.graph.Graph)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Set the orientations to the components.</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>nnode</code></strong> :&ensp;<code>int</code></dt>
+<dd>number of nodes in the original graph.</dd>
+<dt><strong><code>divg</code></strong> :&ensp;<code>nx.Graph</code></dt>
+<dd>the divided graph.</dd>
+</dl>
+<h2 id="yields">Yields</h2>
+<dl>
+<dt><code>list</code></dt>
+<dd>a short and simple path/cycle</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def split_into_simple_paths(
+    nnode: int,
+    divg: nx.Graph,
+):
+    &#34;&#34;&#34;Set the orientations to the components.
+
+    Args:
+        nnode (int): number of nodes in the original graph.
+        divg (nx.Graph): the divided graph.
+
+    Yields:
+        list: a short and simple path/cycle
+    &#34;&#34;&#34;
+
+    for c in nx.connected_components(divg):
+        # a component of c is either a chain or a cycle.
+        subg = divg.subgraph(c)
+        nn = len(subg)
+        ne = len([e for e in subg.edges()])
+        assert nn == ne or nn == ne + 1
+        # Find a simple path in the doubled graph
+        # It must be a simple path or a simple cycle.
+        path = _find_path(subg)
+        # Flatten then path. It may make the path self-crossing.
+        path = [v % nnode for v in path]
+        # Divide a long path into simple paths and cycles.
+        yield from _decompose_complex_path(path)</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="genice_core" href="index.html">genice_core</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="genice_core.topology.balance" href="#genice_core.topology.balance">balance</a></code></li>
+<li><code><a title="genice_core.topology.noodlize" href="#genice_core.topology.noodlize">noodlize</a></code></li>
+<li><code><a title="genice_core.topology.split_into_simple_paths" href="#genice_core.topology.split_into_simple_paths">split_into_simple_paths</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc" title="pdoc: Python API documentation generator"><cite>pdoc</cite> 0.10.0</a>.</p>
+</footer>
+</body>
+</html>
