@@ -1,0 +1,6 @@
+onnx==1.15.0
+onnxsim==0.4.35
+onnxruntime-gpu==1.16.1
+Pillow==10.0.1
+numpy==1.25.2
+sentry_sdk
