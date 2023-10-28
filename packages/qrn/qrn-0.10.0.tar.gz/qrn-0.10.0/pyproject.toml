@@ -1,0 +1,24 @@
+[project]
+name = "qrn"
+version = "0.10.0"
+authors = [
+  { name="Russ Olsen", email="russ@russolsen.com" },
+]
+description = "A simple static site generator"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'PyYAML >= 6.0'
+]
+[project.urls]
+"Homepage" = "https://github.com/russolsen/qrn"
+"Bug Tracker" = "https://github.com/russolsen/qrn/issues"
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
