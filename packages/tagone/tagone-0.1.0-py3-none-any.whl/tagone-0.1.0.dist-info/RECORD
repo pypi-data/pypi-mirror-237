@@ -1,0 +1,10 @@
+tagone/__init__.py,sha256=sej9L9AM8vMyn4ixPd4TjmKL5oaVKSPSofi6J_MOlFE,4922
+tagone/exceptions.py,sha256=Invhu6WO5iDmcbKmYC4wwWCbzfEnMf5ALM7LOxO0E-4,794
+tagone/utils.py,sha256=j47-w9cTmFb4CDs4-Ej5CO6-tvk9aEtVLYBNwaDxBKU,199
+tagone_client/__init__.py,sha256=sej9L9AM8vMyn4ixPd4TjmKL5oaVKSPSofi6J_MOlFE,4922
+tagone_client/exceptions.py,sha256=Invhu6WO5iDmcbKmYC4wwWCbzfEnMf5ALM7LOxO0E-4,794
+tagone_client/utils.py,sha256=j47-w9cTmFb4CDs4-Ej5CO6-tvk9aEtVLYBNwaDxBKU,199
+tagone-0.1.0.dist-info/METADATA,sha256=xaTcdlBCN5UjDiHoTAUXOgsV8UInoSqnQ76lsIfHLbU,217
+tagone-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tagone-0.1.0.dist-info/top_level.txt,sha256=gJ1M9Qd2HFOcoXsHG4UGBatYyBBqnA4omdHDWOqWVak,7
+tagone-0.1.0.dist-info/RECORD,,
