@@ -1,0 +1,11 @@
+wyzely_detect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wyzely_detect/__main__.py,sha256=uMiEsFrtg0zTbOGNFKtVhCTTVgPC7bFJPJ9q_TaIstY,7510
+wyzely_detect/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wyzely_detect/utils/cli_args.py,sha256=ZA0hTONjaBoI_TXYs2_Gwk1CRNQw3GSnh6E213j7TjY,5896
+wyzely_detect/utils/notify.py,sha256=C8PX-HeenNzGzTGkmrf7ayed8o0rokZsQuPUGfMbHvU,5901
+wyzely_detect/utils/utils.py,sha256=6FyupXp1r2GvWKS04bcHe3yqRREfnpWjjlprDHJo6w8,6647
+wyzely_detect-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+wyzely_detect-0.1.1.dist-info/METADATA,sha256=rL1X--xaEaJVd6bz8olZGzI-sUk0sNkj2OUx_bOYYa0,3792
+wyzely_detect-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+wyzely_detect-0.1.1.dist-info/entry_points.txt,sha256=7xOmMDMvkmaoIgVohEppoP6MaDuna9W41PoDJtLExWs,61
+wyzely_detect-0.1.1.dist-info/RECORD,,
