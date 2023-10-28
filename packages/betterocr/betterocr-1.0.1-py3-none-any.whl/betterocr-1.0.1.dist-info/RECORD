@@ -1,0 +1,13 @@
+betterocr/__init__.py,sha256=frRmtEMSR_89TLDZxyJmdU8Sq9-Xu-VV-vR_9NmIB3A,500
+betterocr/detect.py,sha256=Ht8iDwz3aiB8hNK0pSCGvCvEiDdrCMunHzeUVgw1VhY,2539
+betterocr/ocr_engines/__init__.py,sha256=9gXsEjdEhzN5cFjnIptcmQfx3WmW4USPGk8UcwFS4GQ,121
+betterocr/ocr_engines/easy_ocr.py,sha256=7nR2I4l598IZiDToxlTbG_oCZ9_reykDxzqexU5gbLw,223
+betterocr/ocr_engines/tesseract/__init__.py,sha256=DJcrmVLAPedIMnvlhcOMa5fW5nFbLT1kAmdn3c0Ik84,126
+betterocr/ocr_engines/tesseract/job.py,sha256=Xi0cPOnEAqBY3YFep1NfOL0PVqJRf6cGUNR-v1S0zWE,671
+betterocr/ocr_engines/tesseract/mapping.py,sha256=RbwW0PFY3V32Fssa-egtDi-iozT9J6qcb-FdvznikQM,1800
+betterocr/parsers.py,sha256=rMgZjdNQahlSa8l2ApYwiKV60B0-B3ivPAXGrZIZ4sU,711
+betterocr/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+betterocr-1.0.1.dist-info/LICENSE,sha256=EUNlEtidtPOONhS2xMEI3ofu3VNwUydoQWJxQNvclSw,1066
+betterocr-1.0.1.dist-info/METADATA,sha256=kGuHvyVhsQ84aUvAUyCmibLsGHgG17z75_VLQlW3yx0,10142
+betterocr-1.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+betterocr-1.0.1.dist-info/RECORD,,
