@@ -1,0 +1,13 @@
+orji/__init__.py,sha256=QLQS7--VzFufddxOZQ-GFrCb_VqHeA5AwOvQJ5OIDuw,58
+orji/app.py,sha256=vdxCAYqPM1HwqX9s5tGDEDtIOOwMARKYglAbRkF4RIo,136
+orji/cat.py,sha256=aprBpkxMssCy1lJkBWs4uUG1QRF39nWuTxsEpv5z93U,2645
+orji/note.py,sha256=Bn8yncm15yyVkEQk2Gm30zGlnaG5q5vOnIlnkuZXYL4,3721
+orji/run.py,sha256=s2J-XXtTpUsvusweos__RNf5_ig3Jy0YBPJ_u6Ge9F8,2752
+orji/template.py,sha256=Z2Em0d6OKfJ63i9CZ5_jPSNK3Ydbu7S6YkiqbD1sKzs,3420
+orji/utils.py,sha256=9oHEvXGuGxXPl5RWKC_nrXB6A2OoL3cQZ5DvCBeg9vs,277
+orji-3.2.0.dist-info/LICENSE,sha256=XbpIONSOoo8gwV08NGZFk7apNPWnDKmsASy1ufF-FFI,1065
+orji-3.2.0.dist-info/METADATA,sha256=XE9H-nyo3D8KMLuKbzBj8qcdaNaaCx4xS8vqyx7f8pU,3256
+orji-3.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+orji-3.2.0.dist-info/entry_points.txt,sha256=vHtyiuPx94fRle0-9wPz1IEMzomfNnLMvqsgmU0UP8Q,34
+orji-3.2.0.dist-info/top_level.txt,sha256=zUFEnTP2hA0haDGO1ZMF_Rq7EM3vPLwNQNvJVlVz8SE,5
+orji-3.2.0.dist-info/RECORD,,
