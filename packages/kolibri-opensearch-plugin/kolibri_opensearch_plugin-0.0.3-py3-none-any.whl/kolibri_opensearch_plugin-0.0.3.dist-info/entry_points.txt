@@ -1,0 +1,2 @@
+[kolibri.plugins]
+kolibri_opensearch_plugin = kolibri_opensearch_plugin
