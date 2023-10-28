@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/sb_serializer/__init__.py
+src/sb_serializer/hard_serializer.py
+src/sb_serializer/naming.py
+src/sb_serializer/utils.py
+src/sb_serializer.egg-info/PKG-INFO
+src/sb_serializer.egg-info/SOURCES.txt
+src/sb_serializer.egg-info/dependency_links.txt
+src/sb_serializer.egg-info/requires.txt
+src/sb_serializer.egg-info/top_level.txt
+src/tests/naming_tests.py
+src/tests/serializer_tests.py
