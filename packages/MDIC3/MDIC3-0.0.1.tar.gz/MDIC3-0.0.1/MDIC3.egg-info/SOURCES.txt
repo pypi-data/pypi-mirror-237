@@ -1,0 +1,7 @@
+setup.py
+MDIC3/__init__.py
+MDIC3/func.py
+MDIC3.egg-info/PKG-INFO
+MDIC3.egg-info/SOURCES.txt
+MDIC3.egg-info/dependency_links.txt
+MDIC3.egg-info/top_level.txt
