@@ -1,0 +1,17 @@
+elemental_tools/__init__.py,sha256=zNYJi9LiSQJLinz24Wfw_hW6weNXX3tkSDv2FCZM1KA,201
+elemental_tools/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elemental_tools/db/couch.py,sha256=yphwl2dPJRnRjr0Xtr6k0Doc96SnWw1Tea0mAAuDPBs,6208
+elemental_tools/db/exceptions.py,sha256=vnFU5fJazjCju60yJZJ_dD57RyfvOKpBOlS2Yukp1eo,251
+elemental_tools/db/mongo/__init__.py,sha256=9utBbousx14htL1zfs-Q5PvQnrGlq7W9QyAgX2phJGQ,2990
+elemental_tools/db/mongo/example.py,sha256=sUP8ffQLy72cfq5tT5CR30jWzqTVYXiGVgNYRYjgOGY,321
+elemental_tools/design/__init__.py,sha256=Jrdq-3CBD7b3j-oQ7_8R8eSzxAWjZvmutq-_JEXQb5I,267
+elemental_tools/file_manager/__init__.py,sha256=R6xtViaKrIXyW64fyDdybDSVnEPUYh3jmYH0CGC041w,532
+elemental_tools/logger/__init__.py,sha256=3CJhTQQMO5Y7KMp7QML89GpzjSbfC4rFC-_xKZRytVk,1950
+elemental_tools/logger/test.py,sha256=h3gEc7dzC23kG-aqK6zwn0yAT1YEb_XuHgelo2Asq9k,129
+elemental_tools/path/__init__.py,sha256=Tm6POn3bDQS3at5RwhewaElA7GSpAg5r7dKxRWkdHm0,202
+elemental_tools/patterns/__init__.py,sha256=J1rE448V73QGRL_8qltoaieUhqf0qrioJS41WYC_jl4,77
+elemental_tools/storage/__init__.py,sha256=uzfoayXRPQ4XVgOMs3G4aX5Szj20FgfgYwERYijUZ40,936
+elemental_tools-0.0.0.9.dist-info/METADATA,sha256=PPXV9dnvhU688Ty4FlfTpC0SrzPwpPf8DBTaSpdodfI,1870
+elemental_tools-0.0.0.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+elemental_tools-0.0.0.9.dist-info/top_level.txt,sha256=pQ-DwAcAL19wFA8B6zXbM9opvSYDYVCfGcpZx00O-2U,16
+elemental_tools-0.0.0.9.dist-info/RECORD,,
