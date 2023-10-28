@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: submitit_oar
+Version: 1.0.0
+Summary: OAR plugin for Submitit
+Keywords: submitit,oar
+Author-email: Yao Chi <yao.chi@inria.fr>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Dist: cloudpickle>=1.2.1
+Requires-Dist: typing_extensions>=3.7.4.2
+Requires-Dist: submitit>=1.4.6
+Requires-Dist: pytest>=4.3.0 ; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.15.0 ; extra == "dev"
+Requires-Dist: pytest-cov>=2.6.1 ; extra == "dev"
+Requires-Dist: coverage[toml]>=5.1 ; extra == "dev"
+Requires-Dist: black==22.3.0 ; extra == "dev"
+Requires-Dist: isort==5.5.3 ; extra == "dev"
+Requires-Dist: pre-commit>=1.15.2 ; extra == "dev"
+Requires-Dist: mypy>=0.971 ; extra == "dev"
+Requires-Dist: types-pkg_resources>=0.1.2 ; extra == "dev"
+Requires-Dist: pylint>=2.13.9 ; extra == "dev"
+Requires-Dist: flit>=3.5.1 ; extra == "dev"
+Project-URL: Source, https://github.com/ychiat35/submitit_oar.git
+Project-URL: Tracker, https://github.com/ychiat35/submitit_oar.git/issues
+Provides-Extra: dev
+
+# What is submitit-oar?
+submitit-oar is an [Oar](https://oar.imag.fr/) plugin for [Submitit](https://github.com/facebookincubator/submitit), which is a Python 3.8+ lightweight toolbox for submitting Python functions for computation within a [Slurm](https://slurm.schedmd.com/quickstart.html) cluster. It basically wraps submission and provide access to results, logs and more.
+
+# How to install submitit-oar?
+Quick install, in a virtualenv/conda environment where `pip` is installed (check `which pip`):
+```
+pip install git+https://github.com/ychiat35/submitit_oar@main#egg=submitit_oar
+```
+
+# How to use the submitit-oar plugin?
+From inside an environment with `submitit` and `submitit-oar` installed, you can run this addition example:
+
+```python
+import submitit
+
+def add(a, b):
+    return a + b
+
+# logs are dumped in the folder
+executor = submitit.AutoExecutor(folder="log_test", cluster="oar")
+
+job_addition = executor.submit(add, 5, 7)  # will compute add(5, 7)
+output = job_addition.result()  # waits for completion and returns output
+# if ever the job failed, result() will raise an error with the corresponding trace
+print('job_addition output: ', output)
+assert output == 12
+```
+
+You can try running this above example with a breakpoint at https://github.com/facebookincubator/submitit/blob/main/submitit/core/plugins.py#L33, to be sure that Submitit correctly finds the submitit-oar plugin.
+

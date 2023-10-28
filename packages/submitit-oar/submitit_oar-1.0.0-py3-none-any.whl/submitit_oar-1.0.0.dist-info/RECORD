@@ -1,0 +1,6 @@
+submitit_oar/__init__.py,sha256=EG6AEFDBJg9s7K2iG-g5dlTMrOtGiSgMr_9kNGNj3Mo,206
+submitit_oar/oar.py,sha256=X6_jwsxgMcIkCkIfqDIR0ZcEUwlByEE8peK04_2fMyw,27152
+submitit_oar/test_oar.py,sha256=2k2by-nWsJ4i9DzVoC-7pMxLQBhpolXMmc0GvfXP6Ng,26128
+submitit_oar-1.0.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+submitit_oar-1.0.0.dist-info/METADATA,sha256=IGbkFufdqVdWT6BnJiNv5_nl78vgIDSP2z0syNikyB8,2585
+submitit_oar-1.0.0.dist-info/RECORD,,
