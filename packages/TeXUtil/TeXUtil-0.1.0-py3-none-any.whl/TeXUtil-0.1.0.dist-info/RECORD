@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_clean.py,sha256=1VbNGa6xYUZ-pWHHdBVESCA0HTdeziQDsBO-Ql86mog,2389
+texutil/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+texutil/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+texutil/scripts/txu.py,sha256=fi75T2ohbVRKywHCCrE3np4-RkYhXuxbhfGu8M0LYqY,1233
+TeXUtil-0.1.0.dist-info/LICENSE,sha256=7pO3QmAVGTUNquZmGEjh_xfj_M08Dk7BbrfJvNR3PLs,1071
+TeXUtil-0.1.0.dist-info/METADATA,sha256=TK1ke6cMV8XiVq-GLWzLNqN8IG0CAxHZahjvjnhvRfo,1945
+TeXUtil-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+TeXUtil-0.1.0.dist-info/entry_points.txt,sha256=shS64LpUxRZ7cz3BMYJl-0cKPk3RQVw478OmiU9R-jg,48
+TeXUtil-0.1.0.dist-info/top_level.txt,sha256=HrybxJICKqU4yAWmi1EV-4xxsRtY096h1v8dukqOSpQ,14
+TeXUtil-0.1.0.dist-info/RECORD,,

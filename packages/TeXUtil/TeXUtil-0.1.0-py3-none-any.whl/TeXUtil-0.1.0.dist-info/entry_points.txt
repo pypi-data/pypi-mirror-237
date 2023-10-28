@@ -1,0 +1,2 @@
+[console_scripts]
+txu = texutil.scripts.txu:cli
