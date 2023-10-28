@@ -1,0 +1,3 @@
+[console_scripts]
+quantumania=qlm.main:app
+
