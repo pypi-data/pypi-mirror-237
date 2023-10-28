@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/sb_pubsub_kafka/__init__.py
+src/sb_pubsub_kafka/envelope_mapper.py
+src/sb_pubsub_kafka/pub.py
+src/sb_pubsub_kafka/pubsub.py
+src/sb_pubsub_kafka.egg-info/PKG-INFO
+src/sb_pubsub_kafka.egg-info/SOURCES.txt
+src/sb_pubsub_kafka.egg-info/dependency_links.txt
+src/sb_pubsub_kafka.egg-info/top_level.txt
