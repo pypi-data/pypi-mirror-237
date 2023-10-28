@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: thelabdb
+Version: 0.0.1a1
+Summary: Django DB Utilities
+License: ISC
+Author: thelabnyc
+Author-email: thelabdev@thelabnyc.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Django (>=3.2.0,<5.0)
+Requires-Dist: cryptography (>=41.0.5,<42.0.0)
