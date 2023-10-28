@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+fair_mobil.egg-info/PKG-INFO
+fair_mobil.egg-info/SOURCES.txt
+fair_mobil.egg-info/dependency_links.txt
+fair_mobil.egg-info/requires.txt
+fair_mobil.egg-info/top_level.txt

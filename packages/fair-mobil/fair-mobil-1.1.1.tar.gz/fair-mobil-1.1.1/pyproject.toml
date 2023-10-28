@@ -1,0 +1,42 @@
+[tool.hatchling]
+name = "fair-mobil"
+version = "1.1.1"
+description = "Package to analyze mobility fairness"
+author = "Daniel Wang"
+author_email = "danielw0119@gmail.com"
+license = "MIT"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+
+[tool.hatchling.dependencies]
+python = ">=3.8"
+numpy = ">=1.20.0"
+scipy = ">=1.6.0"
+pandas = ">=1.2.0"
+geopandas = ">=0.9.0"
+plotly = ">=5.0.0"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fair-mobil"
+version = "1.1.1"
+authors = [
+  { name="Daniel Wang", email="pnw675lt@gmail.com" },
+]
+description = "Package to analyze mobility fairness"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
