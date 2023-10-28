@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: consumable
+Version: 1.1.0
+Summary: 
+Author: taitep
+Author-email: arvid@h.se
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Consumable
+
+Bool that resets to false after use.
+
+## Example
+
+```py
+from consumable import Consumable
+
+consumable = Consumable(True)
+
+if consumable:
+    print("Consumable is true!!")
+
+if consumable:
+    print("Consumable is true!! Should not happen.")
+```
+
