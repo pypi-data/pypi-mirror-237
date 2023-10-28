@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mousechd
+Version: 0.0.1a0
+Summary: Segmenting hearts and screening congenital heart diseases in mice
+Author: IMOD Pasteur
+Author-email: hoantt.d2011@uphcm.edu.vn
+License-File: LICENSE
+Requires-Dist: opencv-contrib-python-headless
+Requires-Dist: SimpleITK
+Requires-Dist: tifffile
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: venn
+Requires-Dist: pydicom
+Requires-Dist: pynrrd
+Requires-Dist: PyYAML
+Requires-Dist: nnunet (==1.7.1)
+Requires-Dist: volumentations-3D
+Requires-Dist: tensorflow
+Requires-Dist: napari
+Requires-Dist: PyQt5
+
