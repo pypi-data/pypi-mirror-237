@@ -1,0 +1,138 @@
+Metadata-Version: 2.1
+Name: uf3
+Version: 0.4.0
+Summary: Ultra-Fast Force Fields for molecular dynamics
+Home-page: https://github.com/uf3/uf3
+Author: Stephen R. Xie, Matthias Rupp
+Author-email: sxiexie@ufl.edu
+License: Apache 2.0
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENSE
+Requires-Dist: ase
+Requires-Dist: matplotlib
+Requires-Dist: ndsplines
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: plotly
+Requires-Dist: PyYAML
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: tables
+Requires-Dist: tqdm
+Provides-Extra: elastic_constants
+Requires-Dist: elastic ; extra == 'elastic_constants'
+Provides-Extra: phonon_spectra
+Requires-Dist: phonopy >=2.6.0 ; extra == 'phonon_spectra'
+Requires-Dist: seekpath ; extra == 'phonon_spectra'
+Requires-Dist: spglib ; extra == 'phonon_spectra'
+
+Ultra-Fast Force Fields (UF3)
+=============================
+
+|Tests|
+
+
+\S. R. Xie, M. Rupp, and R. G. Hennig, "Ultra-fast interpretable machine-learning potentials", preprint `arXiv:2110.00624 <https://arxiv.org/abs/2110.00624>`_ (2021).
+
+All-atom dynamics simulations have become an indispensable quantitative
+tool in physics, chemistry, and materials science, but large systems and
+long simulation times remain challenging due to the trade-off between
+computational efficiency and predictive accuracy. The UF3 framework is
+built to address this challenge by combinining effective two- and
+three-body potentials in a cubic B-spline basis with regularized linear
+regression to obtain machine-learning potentials that are physically
+interpretable, sufficiently accurate for applications, and as fast as
+the fastest traditional empirical potentials.
+
+Documentation: https://uf3.readthedocs.io/
+
+This repository is still under construction. Please feel free to open
+new issues for feature requests and bug reports.
+
+Setup
+-----
+
+.. Recommended: Install UF3 in a new conda environment:
+
+.. .. code:: bash
+
+..    conda create -n uf3_env python=3.8
+..    conda activate uf3_env
+
+UF3 can be installed in two different ways:
+
+1. Download and install automatically from PyPI (recommended):
+
+.. code:: bash
+
+   pip install uf3
+
+2. Download and install manually from GitHub:
+
+.. code:: bash
+
+   git clone https://github.com/uf3/uf3.git
+   cd uf3
+   pip install .
+
+Getting Started
+---------------
+
+Please see the examples in uf3/examples/tungsten_extxyz for basic usage.
+
+Overviews for individual modules can be found in uf3/examples/modules
+(WIP).
+
+Standalone scripts and configuration generators/parsers are in
+development.
+
+Optional Dependencies
+---------------------
+
+Elastic constants:
+
+::
+
+   pip install setuptools_scm
+   pip install uf3[elastic_constants]
+
+Phonon spectra:
+
+::
+
+   pip install uf3[phonon_spectra]
+
+LAMMPS interface:
+
+::
+
+   conda install numpy==1.20.3 --force-reinstall
+   conda install -c conda-forge lammps --no-update-deps
+
+The environment variable ``$ASE_LAMMPSRUN_COMMAND`` must also be set to use the LAMMPS interface within python. See the `ASE documentation <https://wiki.fysik.dtu.dk/ase/ase/calculators/lammpsrun.html>`_ for details.
+
+Dependencies
+------------
+
+-  We rely on ase to handle parsing outputs from atomistic codes like
+   LAMMPS, VASP, and CP2K.
+-  We use Pandas to keep track of atomic configurations and their
+   energies/forces as well as organizing data for featurization and
+   training.
+-  B-spline evaluations use scipy, numba, and ndsplines.
+-  PyTables is used for reading/writing HDF5 files.
+-  Matplotlib is used for plotting.
+-  We use sklearn for regression.
+-  We use tqdm for progress bars.
+-  We use plotly for interactive plots.
+-  We use PyYaml for configuration files.
+-  We use numpy for array operations.
+
+
+.. |Tests| image:: https://github.com/uf3/uf3/workflows/Tests/badge.svg
+   :target: https://github.com/uf3/uf3/actions
