@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: do-problem-solving
+Version: 0.1.0
+Summary: 문제풀어
+Author-Email: Dowon <ks2515@naver.com>
+License: MIT
+Project-URL: Repository, https://github.com/Bing-su/do-problem-solving
+Requires-Python: >=3.11
+Requires-Dist: httpx>=0.25.0
+Requires-Dist: schedule>=1.2.1
+Requires-Dist: click>=8.1.7
+Requires-Dist: pytz>=2023.3.post1
+Description-Content-Type: text/markdown
+
+# do-problem-solving
+문제풀어! 너 그러다 스트릭 끊긴다.
