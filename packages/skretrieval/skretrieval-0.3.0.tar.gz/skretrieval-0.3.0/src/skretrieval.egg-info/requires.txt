@@ -1,0 +1,11 @@
+numpy
+xarray
+scipy
+numba
+sasktran
+jdcal
+sgp4
+astropy
+
+[test]
+pytest
