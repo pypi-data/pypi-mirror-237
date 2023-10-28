@@ -1,0 +1,11 @@
+robocorp/browser/__init__.py,sha256=GuT7o2anmA0nhvnLZyIf09HLHOKz0fwX4tN4K1aBaGU,9025
+robocorp/browser/__main__.py,sha256=ytCFO-sjAO32FfZpNFH5rGj5bRiDlgGKMwptxiEqPVY,81
+robocorp/browser/_config.py,sha256=mjtjOzo1IGS_XY8c4dIk_qjnSUzkOT10rYhWMtF-EHw,4414
+robocorp/browser/_context.py,sha256=ko2mdx5IpLxxW6Dyzr-5JOon0aTdDSguQPlDOPf3H-o,8993
+robocorp/browser/_engines.py,sha256=Z4lsdZYD5mCGEoR0M0jGwhCH7WEWtg9eLsXG7zHunbw,5308
+robocorp/browser/_types.py,sha256=1sOrdQqXM4MeM4ct61FizJ8RhnOAdjTNS7jFXWW1Psc,529
+robocorp/browser/cli.py,sha256=Tmmupe8Fo4pB1LakZwv8c7LTWhIAViI3ssBo1n5lRE0,1448
+robocorp/browser/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+robocorp_browser-2.2.0.dist-info/METADATA,sha256=xvrDrppmgBMi2lUmORRbICsTigh2oE0wH4RA9zZZbXw,3063
+robocorp_browser-2.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+robocorp_browser-2.2.0.dist-info/RECORD,,
