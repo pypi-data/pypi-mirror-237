@@ -1,0 +1,29 @@
+# package_name
+
+Description. 
+The package package_name_iurywmp is used to:
+    - Be a file test;
+    - And check whether the commands lines work properly
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install package_name_iurywmp
+```
+
+## Usage
+
+```python
+from package_name_iurywmp import file1_name
+file1_name.my_function()
+```
+
+## Author
+
+iurywmp
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

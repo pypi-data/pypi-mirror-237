@@ -1,0 +1,10 @@
+README.md
+setup.py
+package_name_iurywmp/__init__.py
+package_name_iurywmp/file1_name.py
+package_name_iurywmp/file2_name.py
+package_name_iurywmp.egg-info/PKG-INFO
+package_name_iurywmp.egg-info/SOURCES.txt
+package_name_iurywmp.egg-info/dependency_links.txt
+package_name_iurywmp.egg-info/requires.txt
+package_name_iurywmp.egg-info/top_level.txt
