@@ -1,0 +1,9 @@
+autonomous-app>=0.1.44
+twine
+wheel
+setuptools
+python-dotenv
+requests
+python-slugify
+markdown
+dice
