@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pytest-dot-only_pkcopley
+Version: 0.0.1
+Summary: A Pytest marker for only running a single test
+Project-URL: Homepage, https://github.com/P-Copley/pytest-only
+Project-URL: Bug Tracker, https://github.com/P-Copley/pytest-only/issues
+Author-email: Paul Copley <pkcopley@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# pytest-only
+
+Deployed under pytest-dot-only
