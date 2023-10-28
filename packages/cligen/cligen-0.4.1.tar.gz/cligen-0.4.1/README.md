@@ -1,0 +1,220 @@
+# cligen
+
+[![image](https://sourceforge.net/p/ruamel-cligen/code/ci/default/tree/_doc/_static/license.svg?format=raw)](https://opensource.org/licenses/MIT)
+[![image](https://sourceforge.net/p/ruamel-cligen/code/ci/default/tree/_doc/_static/pypi.svg?format=raw)](https://pypi.org/project/cligen)
+[![image](https://sourceforge.net/p/oitnb/code/ci/default/tree/_doc/_static/oitnb.svg?format=raw)](https://bitbucket.org/ruamel/oitnb/)
+
+cligen is is a utility to generate commandline parsing routines, writing
+your `__main__.py` from a specification in YAML.
+
+For a commandline utility `direction` that needs the subcommands `left`
+and `right` and where the subcommand `left` can have the option
+`--u-turn` (assuming you drive on the right side of the road), and both
+subcommands could have a `--verbose` option would look like:
+
+    !Cli 0:
+    - !Instance driving.Direction
+    - !Option [verbose, v, !Help increase verbosity level, !Action count]
+    - left:
+      - !Help turning to the left
+      - !Option [u-turn, U, !Action store_true, !Help make a U-turn]
+    - right:
+      - !H turning to the right
+
+with the result that `direction left -h` will generate:
+
+    usage: direction left [-h] [--u-turn] [--verbose]
+
+    optional arguments:
+      -h, --help     show this help message and exit
+      --u-turn, -U   make a U-turn
+      --verbose, -v  increase verbosity level
+
+When `direction left` is called, the commandline parsing code will
+create an instance of the class `Direction` imported from `driving.py`
+and call its method `left_subcommand` (and if not found its method
+`left`). `cligen` can alternatively generate code that calls functions
+imported from a Python file, or call code inserted from the
+specification in `__main__.py` itself (in this case `..._subcommand` is
+not tried).
+
+The YAML document can either be in a file `cli.yaml` on its own, or, if you
+want to diminish file clutter in your project root, it can be stored in
+the variable `_cligen_data` in `__init__.py`, this means between the
+following two lines:
+```
+_cligen_data = """\
+"""
+```
+The YAML document uses
+various tags, many of which have a short option (e.g. `!H` is equivalent
+to using `!Help`).
+
+Having the commandline options and argument data in a programmatically
+modifiable format like YAML, makes it easy to check or manipulate all
+your utilities. E.g. if you want to make sure that all utilities that
+have a `--verbose` that option also have a `--quit` option that
+decreases the verbosity level.
+
+## Feature list
+
+-   no dependencies on anything but the Python standard library. That is
+    unless your config file is in a format that requires some installed
+    library ( YAML -\> ruamel.yaml )
+
+-   allow aliases for tagged scalars to be used by other tags:
+
+        - !Help &xhelp text1 text2 text3  # this is the same as: "&xhelp !Help text1 text2 text3"
+        - !Prolog [*xhelp]                # xhelp is a tagged scalar, "!Prolog *xhelp" would error
+
+## values that are sequences
+
+`cligen` will add elements of subparser definitions that are key-value
+pairs to the invocation of `.add_parser()`, **unless the value is a
+sequence**. This allows for some arguments to be added, without using a
+tag (the sequence restriction is in order to allow nested subparsers,
+although this currently has not been implemented).
+
+This means you cannot add `- aliases: [altsubp]` (you should use
+`- !Alias altsubp` or `- !Alias [altsubp]`), but you can use
+`- description: some subparser description text`
+
+## Shorthand
+
+A subparser can have a `- !Shorthand xyz` element. If the command is
+invoked using `xyz` (e.g. if there is a soft link from xyz to the normal
+executable/entry_point name), then the subparser name will be inserted
+in the argument list. That way if your normal command name is `hg` and
+you often use the subcommand `commit`, you can link `hgc` to `hg` and
+let `hgc -m message` be a shorthand for `hg commit -m message`.
+
+## Using !Config
+
+In its most explicit form the tag `!Config` can takes a two element
+sequence as value. The first element indicates the *type* (`pon`,
+`yaml`, `ini`, TBI: `json`), the second the *path* to the file. A path
+starting with a tilde (`~`) will be expanded. A path not starting with
+tilde, or (forward-)slash (`/`), will be appended to your users config
+directory.
+
+If `!Config` is followed by a scalar that looks like a path (i.e. the
+value starts with `~` or includes a `/`) the extension of the path is
+taken to be the *type*. In other cases `!Config` is assumed to be
+followed by a *type* and the basename is derived from the package name
+(`_package_data['full_package_name']`) in your users config directory.
+
+A user config directory is based on XDG config locations (on Windows,
+the config information is expected under `%APPDATA%`)
+
+When `!Config` is specified the inserted code will check for
+`--config some_explicit_path` on the commandline and load the config
+data from the path specified.
+
+### config file format
+
+Config files are assumed to contain a dictionary at the root level (for
+formats like `.ini` the data is converted to a dictionary during
+loading). This dictionary contains keys that correspond to the various
+subparsers. A section `global` (or optionally `glbl` in PON to prevent
+use of a reserved keyword, renamed to `global` after loading), is used
+for defaults for options that come before the subparser as well as for
+global options. Each section consists of key-value pairs, where the key
+corresponds to a long option (`--verbose`) or if that is not available
+the short option (`-v`), either without the leading dashes.
+
+Assuming you have the following configuration:
+
+    !Cli 0:
+    - !Opt [verbose, v, !H increase verbosity, !Action count]
+    - !Config [pon, /usr/local/etc/myutil.pon]
+    - subp1: []
+
+your `myutil.pon` can use:
+
+    dict(glbl=dict(verbose=2))
+
+to set the verbosity (you might want to format your PON somewhat nicer.
+
+## Background
+
+When you create commandline utilities in Python, that have options and
+arguments, you need to include code that processes `sys.argv` or use
+some (standard) library that does that for you.
+
+When I started writing utilities in Python (1.5.2) only `getopt` was
+available, and simlarity with the C library made that an easy
+transition. Relatively soon I implemented a way to have sub-commands,
+and had some boilerplate code that could be inserted in the various
+utilities that I wanted to have subcommands.
+
+A few years later I switched to using `optparse` (which started shipping
+with Python 2.3), for a brief period of time before settling on
+`argparse` (shipped with 3.2 and 2.7 but available before that).
+`argparse` covers almost all of needs (single depth sub-commands,
+argument checking), but is a bit verbose, so I used a wrapper around
+`argparse` using decorators on methods of a \"command class\" defined in
+`__main__.py` which was populated from a boilerplate and then extended
+with copy and paste. The implementation for this, including special
+`!Action` handlers, is available in the package `ruamel.std.argparse`,
+which needed to be installed with all commandline utilities, and was
+made into a package dependency. The \"command class\" is a subclass of
+one imported from `ruamel.std.argparse` and normally instantiates a
+class with parse_args result then calls corresponding methods of
+\"real\" code in that code.
+
+Using a package `ruamel.std.argparse` has the advantage that it is
+possible to add functionality relevant for most or all utilties depended
+upon it. E.g. you could make an subcommand `version`, or adapt the
+option `--version`, to not only list the version of the commandline
+utility itself, but also that of Python or any other packages required
+by the subcommand. However, not all such things were possible by
+upgrading `ruamel.std.argparse` and would not only need updating of the
+boilerplate, but also all the existing `__main__.py` of the (100+)
+commandline utilities. The former was easy, the latter of course only
+done partially. Regenerating these automatically would not take care of
+the copy-and-paste parts without writing routines that would analyse and
+update Python source. Doable but non-trivial.
+
+### Options and arguments from function specification
+
+For various languages, including Python, there are commandline parsing
+libraries that will automatically generate options and arguments from
+one or more function specfications.
+
+I have used these, but invariably for any use beyond a simple example,
+some things have to be added to the functions (help, special actions,
+short versions for options that cannot be derived automatically) that
+make this approach a cludgy hybrid.
+
+## YAML
+
+Switching to a specification in YAML for the commandline interpreting
+code has several advantages:
+
+-   You no longer need a dependency on `ruamel.std.argparse`, all
+    relevant (i.e. used) code is copied into the generated
+    [\_\_main\_\_.py]{.title-ref}
+-   If there are changes that require updating all of the specifications
+    this can be more easily automated for YAML than for Python source.
+-   The YAML can be easily implemented with version numbers that allow
+    for backward incompatible changes in the format if necessary.
+    Breaking changes in `ruamel.std.argparse` would require fixing all
+    dependend commandline utilities, consistently from the start, on
+    some major/minor version number (which was not done, but could be
+    done in an automated way).
+
+there are also some disadvantages of using YAML:
+
+-   The `__main__.py` is currently written from scratch every time
+    cligen runs, so manual changes to that file will be overwritten.
+    However it is possible to include code in the YAML specification
+    that will go into `__main__.py` (so some changes could be put
+    there). If necessary `cligen` could be adapted to supportsome
+    updating mechanism, preserving manual changes.
+-   Less easy to make one off quick fixes in the `__main__.py`, these
+    might require extending the specfication and updating `cligen`
+    (thereby enforcing more consitency)
+-   To get additional \"global\" functionality into a commandline
+    utility a new `__main__.py` needs to be created and a new version
+    pushed to PyPI (or your local store), instead of \"just\" running
+    `pip install -U ruamel.std.argparse`.
