@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: circleci2
+Version: 0.1.1
+Summary: CircleCI v2 API wrapper with type annotations
+License: MIT
+Author: Roey Darwish Dror
+Author-email: roey.ghost@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# CircleCI 2
+
+CircleCI v2 API wrapper with type annotations.
+
+Example:
+
+```python
+circle = circleci2.API(os.environ["CIRCLE_TOKEN"])
+for pipeline in circle.iter_project_pipelines(circleci2.ProjectSlug.github("r-darwish", "circle2")):
+    for workflow in circle.iter_pipline_workflows(pipeline.id):
+        print(workflow.name)
+```
+
