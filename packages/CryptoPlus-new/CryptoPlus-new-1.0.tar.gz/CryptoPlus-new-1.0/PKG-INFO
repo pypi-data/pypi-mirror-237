@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: CryptoPlus-new
+Version: 1.0
+Summary: PyCrypto Cipher extension
+Author: Christophe Oosterlynck
+Author-email: str2hex@mail.ru
+License-File: LICENSE
