@@ -1,0 +1,9 @@
+setup.py
+tagone/__init__.py
+tagone/exceptions.py
+tagone/utils.py
+tagone.egg-info/PKG-INFO
+tagone.egg-info/SOURCES.txt
+tagone.egg-info/dependency_links.txt
+tagone.egg-info/requires.txt
+tagone.egg-info/top_level.txt
