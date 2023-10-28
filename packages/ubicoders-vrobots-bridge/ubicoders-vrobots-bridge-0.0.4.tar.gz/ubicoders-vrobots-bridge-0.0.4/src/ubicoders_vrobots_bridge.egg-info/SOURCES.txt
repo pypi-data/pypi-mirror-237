@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/ubicoders_vrobots_bridge/__init__.py
+src/ubicoders_vrobots_bridge/multirotor_generated.py
+src/ubicoders_vrobots_bridge/ui_heli_panel.py
+src/ubicoders_vrobots_bridge/ui_msd_panel.py
+src/ubicoders_vrobots_bridge/ui_multirotor_panel.py
+src/ubicoders_vrobots_bridge/ui_status_text.py
+src/ubicoders_vrobots_bridge/vrobots_bridge.py
+src/ubicoders_vrobots_bridge/vrobots_bridge_gui.py
+src/ubicoders_vrobots_bridge.egg-info/PKG-INFO
+src/ubicoders_vrobots_bridge.egg-info/SOURCES.txt
+src/ubicoders_vrobots_bridge.egg-info/dependency_links.txt
+src/ubicoders_vrobots_bridge.egg-info/requires.txt
+src/ubicoders_vrobots_bridge.egg-info/top_level.txt

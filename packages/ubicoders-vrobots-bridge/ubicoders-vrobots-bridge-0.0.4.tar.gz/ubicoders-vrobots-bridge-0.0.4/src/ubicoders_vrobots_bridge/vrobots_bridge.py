@@ -1,0 +1,139 @@
+import asyncio
+import websockets
+import threading
+from multirotor_generated import FB_MultirotorMsgAll
+import asyncio
+import flet as ft
+
+
+WebSocketList = []
+
+
+class NamedWebsocket():
+    def __init__(self, name, ws) -> None:
+        self.ws = ws
+        self.name = name
+        self.msg = None
+
+    def handle_new_msg(self, name, ws):
+        if (name is None or self.name != name):
+            return
+        self.handle_dup(ws)
+
+    def handle_dup(self, ws):
+        if (self.validate_dup(ws) is True):
+            return
+        else:
+            self.ws.close()
+            self.ws = ws
+
+    def validate_dup(self, ws):
+        if (self.ws is ws):
+            return True
+        else:
+            return False
+        
+    def remove(self):
+        WebSocketList.remove(self)
+
+
+
+def get_name_from_msg(msg):
+    mr_all = FB_MultirotorMsgAll.GetRootAs(msg, 0)
+    name = mr_all.Sender()
+    msg_type = mr_all.MsgType()
+    if (name is not None):
+        return [name.decode('utf-8'), msg_type]
+    return None
+
+def upsert_ws_list(name, ws):
+    # check if ws_list has name
+    for named_ws in WebSocketList:
+        if (named_ws.name == name):
+            named_ws.handle_new_msg(name, ws)
+            return
+    
+    # if new push
+    named_ws = NamedWebsocket(name, ws)
+    WebSocketList.append(named_ws)
+    named_ws.handle_new_msg(name, ws)
+
+def remove_ws_list(name):
+    for named_ws in WebSocketList:
+        if (named_ws.name == name):
+            named_ws.remove()
+            return
+
+
+async def echo(websocket):
+    print('Client connected')
+    name = None
+    try:
+        async for message in websocket:
+           #print(message)
+            result = get_name_from_msg(message)
+            if (result is None):
+                continue
+            
+            name = result[0]
+            msg_type = result[1]
+            if (msg_type == 0):
+                continue
+
+            upsert_ws_list(name, websocket)
+
+            for named_ws in WebSocketList:
+                if (named_ws.name == name):
+                    continue
+                #print(len(WebSocketList))
+                print(f'send to {named_ws.name}, msg: {message}')
+    except Exception as e:
+        print(f'Error while processing message: {message}')
+        print(e)
+    finally:
+        print(f'Client disconnected')
+        remove_ws_list(name)
+
+def run_bridge_server():
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+
+
+    print('simulator server running @ 12740')
+    start_server = websockets.serve(echo, "0.0.0.0", 12740)
+
+    # asyncio.get_event_loop().run_until_complete(start_server)
+    # asyncio.get_event_loop().run_forever()
+    loop.run_until_complete(start_server)
+    loop.run_forever()
+    
+class BridgeModule:
+    _instance = None
+
+    def __new__(cls, *args, **kwargs):
+        if not cls._instance:
+            cls._instance = super(BridgeModule, cls).__new__(cls, *args, **kwargs)
+        return cls._instance
+
+    def __init__(self):
+        self.stopFlag = False
+        self.thread = None
+        self.value = 1
+
+    def start(self):
+        self.thread = threading.Thread(target=self.loop, daemon=True)
+        self.thread.start()
+
+    def stop(self):
+        self.stopFlag = True
+        self.thread.join()
+
+    def loop(self):
+        while self.stopFlag == False:
+            run_bridge_server()
+
+
+BRIDGE = BridgeModule()
+
+if __name__ == "__main__":
+    BRIDGE.start()
