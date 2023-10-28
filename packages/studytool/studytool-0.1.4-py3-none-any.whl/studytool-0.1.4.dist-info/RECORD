@@ -1,0 +1,9 @@
+studytool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+studytool/main.py,sha256=AnW9p564OuYYHbnfjGRZYgvMCLgSQbE1nVaCvNxsEOs,693
+studytool/slides2md.py,sha256=6gvNegb6bs6Vy70sFTuS8A5o0sSFE4TSjy_dVuNWY8w,3762
+studytool/youtube_playlist.py,sha256=23KRsWgnilAmDZh8_D02uuNz8xB4fMqqiFscepqqre8,585
+studytool-0.1.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+studytool-0.1.4.dist-info/METADATA,sha256=Nq5ngQXtzWlWU0r6xsNV7wMQp2BThvrtT64axfsNDmw,1745
+studytool-0.1.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+studytool-0.1.4.dist-info/entry_points.txt,sha256=j0dtGRAHemwPSUuKFdv2MCuOF-pstYvW9rQ-ZsLtuHk,48
+studytool-0.1.4.dist-info/RECORD,,
