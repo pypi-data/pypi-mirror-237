@@ -1,0 +1,25 @@
+[project]
+name = "dbgDecorator"
+version = "0.1.1"
+description = "A collection of debug decorators and utilities"
+requires-python = ">=3.6"
+
+authors = [
+    { name="Cui Wenbo", email="cuiwenbo.nice@gmail.com" }
+  ]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+  ]
+
+[project.scripts]
+npt-cli-hello = "npt.core:hello"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://github.com/and3255493/debug_decorators"

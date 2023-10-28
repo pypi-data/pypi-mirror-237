@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+dbgDecorator.egg-info/PKG-INFO
+dbgDecorator.egg-info/SOURCES.txt
+dbgDecorator.egg-info/dependency_links.txt
+dbgDecorator.egg-info/entry_points.txt
+dbgDecorator.egg-info/top_level.txt
+dbg_decorator/__init__.py
+dbg_decorator/debug_decorator.py
