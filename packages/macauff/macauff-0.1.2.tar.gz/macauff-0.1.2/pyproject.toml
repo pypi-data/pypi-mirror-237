@@ -1,0 +1,43 @@
+[build-system]
+requires = [
+    "scikit-build-core",
+    # We need as old numpy as possible for binary compatibility,
+    # but we also need some f2py features intrdocued in 1.21.
+    # The oldest-supported-numpy for Py3.10 is 1.21.
+    "numpy==1.21.6; python_version<'3.10'",
+    "oldest-supported-numpy; python_version>='3.10'",
+]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "macauff"
+version = "0.1.2"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "astropy",
+    "matplotlib",
+    # We need to build a binary compatible with numpy 1.21
+    "numpy>=1.21",
+    "pandas",
+    "skypy",
+    "speclite",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest-astropy",
+    "scipy",
+]
+docs = [
+    "sphinx-astropy",
+    "sphinx-fortran",
+    "six",
+]
+
+[tool.cibuildwheel]
+build-frontend = "build"
+skip = [
+    "*musl*",  # we don't support MUSL Linux
+    "pp*",  # we don't support PyPy
+]
