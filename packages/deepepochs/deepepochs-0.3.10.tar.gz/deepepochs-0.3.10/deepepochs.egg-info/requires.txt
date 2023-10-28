@@ -1,0 +1,9 @@
+torch>=1.5
+torchmetrics
+numpy
+matplotlib
+tensorboardXscikit-learn
+pandas
+torchvision
+torchaudio
+torchtext
