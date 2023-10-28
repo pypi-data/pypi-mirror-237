@@ -1,0 +1,15 @@
+README.rst
+pyproject.toml
+setup.py
+libobj.egg-info/PKG-INFO
+libobj.egg-info/SOURCES.txt
+libobj.egg-info/dependency_links.txt
+libobj.egg-info/top_level.txt
+libobj.egg-info/zip-safe
+obj/__init__.py
+obj/all.py
+obj/disk.py
+obj/find.py
+obj/func.py
+obj/object.py
+obj/spec.py
