@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/tensorboard_wrapper/__init__.py
+src/tensorboard_wrapper/exceptions.py
+src/tensorboard_wrapper/tensorboard.py
+src/tensorboard_wrapper.egg-info/PKG-INFO
+src/tensorboard_wrapper.egg-info/SOURCES.txt
+src/tensorboard_wrapper.egg-info/dependency_links.txt
+src/tensorboard_wrapper.egg-info/requires.txt
+src/tensorboard_wrapper.egg-info/top_level.txt
+tests/test_tensorboard.py
