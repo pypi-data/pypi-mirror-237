@@ -1,0 +1,3 @@
+[console_scripts]
+dops = do_problem_solving.__main__:cli
+
