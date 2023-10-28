@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+loft/__init__.py
+loft/lofter.py
+loft.egg-info/PKG-INFO
+loft.egg-info/SOURCES.txt
+loft.egg-info/dependency_links.txt
+loft.egg-info/requires.txt
+loft.egg-info/top_level.txt
+loft.egg-info/zip-safe

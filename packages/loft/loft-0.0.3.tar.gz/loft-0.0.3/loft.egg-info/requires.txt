@@ -1,0 +1,5 @@
+torch>=1.10.0
+paddlepaddle-gpu>=2.4.0
+tensorboard
+Pillow
+PyYAML
