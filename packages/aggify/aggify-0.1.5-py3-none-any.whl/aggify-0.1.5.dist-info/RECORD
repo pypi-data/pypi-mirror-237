@@ -1,0 +1,12 @@
+aggify/__init__.py,sha256=ksagGB5I43_Fo_GCXc9bXXogVdl5kQihU4S2j1ViwY8,22
+aggify/aggify.py,sha256=1mqNZRZ8ePGnipSO2CsC76RqHJVFTdachpB74ynZAcg,13071
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_aggify.py,sha256=H9L-4pl0OLCa8d2FDmtLZfM31T2VSl3OlezG2gOZAq8,3739
+tests/test_cond.py,sha256=cBFb2BeOUtOFVYNwCUOe9QMckNooOtxwkjUWW26UmiE,2148
+tests/test_f.py,sha256=ZpXMolj5nFng4aW4Uj0BDaw01H0Aemc_EXKBvhK2GAs,2615
+tests/test_q.py,sha256=51X4Icl0RN4I64xTNmbdpW7oFcIj5GX2_uR2ki5tDaA,1316
+aggify-0.1.5.dist-info/LICENSE,sha256=y7w04NmsrARpTTshqqnfi9wAU24ep8gDYVu9kwe1OEg,1062
+aggify-0.1.5.dist-info/METADATA,sha256=dyuvlQByuEW8vN3JruUeI8-X0Fe-2fZUq8okjcZZYxI,6034
+aggify-0.1.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+aggify-0.1.5.dist-info/top_level.txt,sha256=TMQKeAQnXHFJcvRY3c11dweWBz773YqmoYCDlFZiJpg,13
+aggify-0.1.5.dist-info/RECORD,,
