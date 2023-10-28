@@ -1,0 +1,16 @@
+apitally/__init__.py,sha256=VrXpHDu3erkzwl_WXrqINBm9xWkcyUy53IQOj042dOs,22
+apitally/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apitally/client/asyncio.py,sha256=JR3WLUN9dfvIhLhYA2gNL3v1DqAxLHbUWqko5Z5CKHs,5440
+apitally/client/base.py,sha256=dtFSHYTxpAFWqLcCSehzFL0qEWmNMjpBJQGDQMBxfQ4,10596
+apitally/client/threading.py,sha256=Y90IdkFwu8ysSzKDOFgPnZYYaEFVvZNGzF4uTMoODhU,5890
+apitally/django.py,sha256=U7lyjG97FrGGgA6_NHk3qHvWT69D2e5-37rtrS5PQDU,10251
+apitally/django_ninja.py,sha256=TFltgr03FzTnl83sUAXJj7R32u_g9DTZ9p-HuVKs4ZE,2785
+apitally/django_rest_framework.py,sha256=UmJvxxiKGRdaILSbg6jJY_cvAl-mpuPY1pM0FoQ4bg0,1587
+apitally/fastapi.py,sha256=YjnrRis8UG2M6Q3lkwizbtDXU7nPfCA4mebxG8XwveY,3334
+apitally/flask.py,sha256=7RI1odLYPRmlkQc-OU1HZJoHZxx2n249ftgsklpx2bM,6559
+apitally/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apitally/starlette.py,sha256=XOTpCe2Oiv7IvjljVx14w-hTnNzOllxnUpRXxCfeABY,9347
+apitally-0.3.0.dist-info/LICENSE,sha256=vbLzC-4TddtXX-_AFEBKMYWRlxC_MN0g66QhPxo8PgY,1065
+apitally-0.3.0.dist-info/METADATA,sha256=wsjv5c_GoE2bRby8FWekm4IpLk6IURgHlAFbkSRoh1Q,5453
+apitally-0.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+apitally-0.3.0.dist-info/RECORD,,
