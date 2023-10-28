@@ -1,0 +1,6 @@
+setup.py
+gauravtest123.egg-info/PKG-INFO
+gauravtest123.egg-info/SOURCES.txt
+gauravtest123.egg-info/dependency_links.txt
+gauravtest123.egg-info/not-zip-safe
+gauravtest123.egg-info/top_level.txt
