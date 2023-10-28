@@ -1,0 +1,15 @@
+Django<4.3,>=4.2.3
+Pillow
+concurrent-log-handler>=0.9.20
+django-cors-headers==3.7.0
+django-pipeline==2.1.0
+gunicorn>=19.3
+omero-marshal>=0.7.0
+omero-py>=5.7.0
+packaging
+portalocker
+pytz
+whitenoise>=5.3.0
+
+[redis]
+django-redis==5.3.0
