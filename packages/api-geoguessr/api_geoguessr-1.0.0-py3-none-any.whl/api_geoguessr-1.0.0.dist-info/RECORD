@@ -1,0 +1,9 @@
+geoguessr_api/__init__.py,sha256=f4UY7GEmXgRPa17v_OxlE-58Clcq0qYVa_CYnj-RI7U,24
+geoguessr_api/geo_errors.py,sha256=dTNv0Vl_yWsb0SIX0G4Z5KiARuIwHWtwvKLZnY1BK1g,173
+geoguessr_api/geo_utils.py,sha256=gLnPDy3pMclhlZxRE_OrsXAWq36hK_b0byASedzjcjk,775
+geoguessr_api/geoguessr.py,sha256=yRhiKrzKYV8xGg1Bt4l9II0TXzWLshdhITqI5xQAp8Y,9380
+geoguessr_api/models.py,sha256=XtlJI3JBx1QdyboFHyMTaIKL0AA68wKvwI6-tVVLanE,22392
+api_geoguessr-1.0.0.dist-info/METADATA,sha256=gC_KnelK7FTfcpRv2XMuF3EPfHIkwZEcvn3vMk3TyQU,2832
+api_geoguessr-1.0.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+api_geoguessr-1.0.0.dist-info/licenses/LICENSE,sha256=WlRVygF2bbgcG96qULHOxOnuSFzb1tlOatE3SJKHRY4,1090
+api_geoguessr-1.0.0.dist-info/RECORD,,
