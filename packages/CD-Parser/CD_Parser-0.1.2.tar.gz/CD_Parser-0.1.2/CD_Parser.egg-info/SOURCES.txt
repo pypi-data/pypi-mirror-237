@@ -1,0 +1,13 @@
+LICENSE.md
+LICENSE.txt
+README.md
+setup.py
+CD_Parser.egg-info/PKG-INFO
+CD_Parser.egg-info/SOURCES.txt
+CD_Parser.egg-info/dependency_links.txt
+CD_Parser.egg-info/requires.txt
+CD_Parser.egg-info/top_level.txt
+cd_parser/__init__.py
+cd_parser/regex_parser.py
+cd_parser/version.py
+cd_parser/xpath_parser.py
