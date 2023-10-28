@@ -1,0 +1,14 @@
+gnordvpn_sprokkel78/..deb,sha256=JoWtXm1g3g9Fw6NWLVVhTCVhAidCH3WIoeT-MRf21sw,7514
+gnordvpn_sprokkel78/CHANGELOG.txt,sha256=e4neyjFnSh7gddq8k_RpPtw-WVSXmMaknzgLYyAWX1I,5166
+gnordvpn_sprokkel78/README.txt,sha256=VYrpLbcG7H_KA8VEGgu-TzOAYGINAQvv11tTOd52YM0,1208
+gnordvpn_sprokkel78/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gnordvpn_sprokkel78/gnordvpn.css,sha256=vx3SVVxA0uBiZGNZZIUVhb5cBdPB8Rn66SWQqjQ0yr4,337
+gnordvpn_sprokkel78/gnordvpn.desktop,sha256=yvlfR3DGwCAo65sEBDv-Vn-RFa6EBgIX69VGbh0Qr4Q,160
+gnordvpn_sprokkel78/gnordvpn.py,sha256=fXd1CCfPrIf0bG5Ad8-tf4Tfs_XZGXeRD5IzKExouYQ,42513
+gnordvpn_sprokkel78/gnordvpn.svg,sha256=-VRuLvt8G8AtA_rLOf0pjDEm9vSilfLMoB5zz0LnCuM,9321
+gnordvpn_sprokkel78/install.sh,sha256=f0zSnF0avdRHykXzMmWBoWSmp8LePe44HwlFl4JTxKQ,651
+gnordvpn_sprokkel78/uninstall.sh,sha256=h9UvIKOd1EOWyDnIyG8pHV5ZQ6rgS07wzp-2hr0FtPs,259
+gnordvpn_sprokkel78-1.2.4.dist-info/METADATA,sha256=FrAplEV19T0FkBhdutkoJkEUvlasGqdf5NnxTjJWuKg,1677
+gnordvpn_sprokkel78-1.2.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+gnordvpn_sprokkel78-1.2.4.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+gnordvpn_sprokkel78-1.2.4.dist-info/RECORD,,
