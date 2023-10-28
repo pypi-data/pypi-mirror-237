@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: scratchclickerwebsiteapi
+Version: 0.0.2
+Summary: Just a random api
+Home-page: UNKNOWN
+Author: Aleksanser Sapieha
+Author-email: <aleksander.sapieha@scratch-clicker.digital>
+License: UNKNOWN
+Keywords: python,api,scratch,scratch clicker,scratch clicker api,clicker,game,gamejolt,itch,classic
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+Just a random api that I have created.
+
