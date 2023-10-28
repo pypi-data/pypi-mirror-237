@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dti-pipeline
+Version: 1.0.1
+Summary: A command line utility that allows easy modifications on DWI volumes and Datasets.
+Author-email: Atul Phadke <atulphadke8@gmail.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Requires-Dist: keyboard >=0.13.5
+Requires-Dist: brukerapi >=0.1.8
+Requires-Dist: dipy >=1.6.0
+Requires-Dist: nibabel >=5.0.0
+Requires-Dist: numpy >=1.24.2
+Requires-Dist: matplotlib >=3.6.3
+Requires-Dist: simpleitk >=2.2.1
+Requires-Dist: tkscrolledframe >=1.0.4
+Requires-Dist: PyQt5 >=5.15.9
+Requires-Dist: scipy >=1.10.0
+Requires-Dist: firebase-admin >=6.2.0
+Requires-Dist: inquirer
+
