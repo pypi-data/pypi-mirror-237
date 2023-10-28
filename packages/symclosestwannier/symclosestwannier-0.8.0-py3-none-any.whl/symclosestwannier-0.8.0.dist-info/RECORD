@@ -1,0 +1,13 @@
+symclosestwannier/__init__.py,sha256=KkVnnjmtc_pnkJtYOAz-rNLV3eNvjg06CpAGmZWOPa8,106
+symclosestwannier/pw2scw/create_scw.py,sha256=Bd05n1yi1MifDONpdYEepTK9D5tT6ZDZA993utqrnBI,4500
+symclosestwannier/pw2scw/pw2scw.py,sha256=jvUeq1h-2Fxh_AuiwfF0MGdJyAoEtcV8Pmw4If8T9Cc,1027
+symclosestwannier/pw2scw/scw.py,sha256=NIi4CJ2PwIZ-FPVl6H6wkuSEhqptblpmbF5ana9klaw,35413
+symclosestwannier/util/band.py,sha256=YkOwxZcsc--et4Re8gseIK8KMdDfokRABgsa5SA3AqI,3576
+symclosestwannier/util/header.py,sha256=z0M6uAcFubg9CnGNLCFLEMJEC22QxUZpi4VnL0DT8qQ,9001
+symclosestwannier/util/reader.py,sha256=vJMd3ik1AI-EnXW76E5eJk6SYIRD0i4qvhmCj3k9N08,16769
+symclosestwannier-0.8.0.dist-info/LICENSE,sha256=mK2oFNDb0AQjEGh_qGnqwnmOl-5h2sCEOeu01yv0cpk,1059
+symclosestwannier-0.8.0.dist-info/METADATA,sha256=gYrXE1DqRCgipy48auUqm-yWXk2_NyEqjqyydtGmM5U,2326
+symclosestwannier-0.8.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+symclosestwannier-0.8.0.dist-info/entry_points.txt,sha256=rrMQRYJJqzyVngKQEMRshkeLkTBBHc-bAHKAXEgYV90,63
+symclosestwannier-0.8.0.dist-info/top_level.txt,sha256=7OuzSiwXi4X0o2yAh1cLwblAtRF28d58LhhtQjaMF2g,18
+symclosestwannier-0.8.0.dist-info/RECORD,,

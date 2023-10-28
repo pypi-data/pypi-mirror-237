@@ -1,0 +1,2 @@
+[console_scripts]
+pw2scw = symclosestwannier.pw2scw.pw2scw:cmd
