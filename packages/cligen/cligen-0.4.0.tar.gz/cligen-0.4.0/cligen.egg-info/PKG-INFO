@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cligen
+Version: 0.4.0
+Summary: generate __main__.py with argparse setup generated from YAML
+Author: Anthon van der Neut
+Author-email: a.van.der.neut@ruamel.eu
+License: MIT
+Project-URL: Home, https://sourceforge.net/p/ruamel-cligen/
+Project-URL: Source, https://sourceforge.net/p/ruamel-cligen/code/ci/default/tree/
+Project-URL: Tracker, https://sourceforge.net/p/ruamel-cligen/tickets/
+Keywords: pypi statistics
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Python: >=3
+License-File: LICENSE
