@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pygdshort
+Version: 1.0.0
+Summary: A Python wrapper for the is.gd URL shortener
+Project-URL: Homepage, https://github.com/TheOctoGirl/pygdshort
+Project-URL: Bug Tracker, https://github.com/TheOctoGirl/pygdshort/issues
+Project-URL: Documentation, https://github.com/TheOctoGirl/pygdshort/wiki
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.31.0
+
+# pygdshort
+
+pygdshort is a python library for shortening URLs using the is.gd API.
+
+## Installation
+
+`pip install pygdshort`
+
+## Usage
+
+For usage see the [wiki](https://github.com/TheOctoGirl/pygdshort/wiki).
