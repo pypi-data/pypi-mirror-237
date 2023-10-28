@@ -1,0 +1,6 @@
+my_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_package/sample_module.py,sha256=l7IWm-okiYTtHkd9MzcDTU1HbSAjx8_1haJ2GKv-paY,82
+farans_test_package-0.0.1.dist-info/METADATA,sha256=f5DEPDmcguRfKOJvwAKd6WFVmtH3hl6TLlY88PmHei0,410
+farans_test_package-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+farans_test_package-0.0.1.dist-info/top_level.txt,sha256=4OyEe7aVmevjXrMpt_mY6srrUUjZGHyUPvlu5sUpLn4,11
+farans_test_package-0.0.1.dist-info/RECORD,,
