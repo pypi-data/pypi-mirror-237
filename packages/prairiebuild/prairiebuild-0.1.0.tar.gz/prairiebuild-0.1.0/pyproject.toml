@@ -1,0 +1,17 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prairiebuild"
+version = "0.1.0"
+description = "Command-line tool for building PrairieLearn questions"
+readme = "README.md"
+authors = [{ name = "Benjamin Darnell", email = "ben@bdarnell.com" }]
+dependencies = [
+    "PyYAML >= 6.0",
+]
+requires-python = ">=3.7"
+
+[project.scripts]
+prairiebuild = "prairiebuild.__main__:main"
