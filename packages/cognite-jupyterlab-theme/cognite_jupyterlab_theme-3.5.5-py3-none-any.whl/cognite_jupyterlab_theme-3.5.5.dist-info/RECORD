@@ -1,0 +1,14 @@
+cognite_jupyterlab_theme/__init__.py,sha256=TbaLw_syG_obuQLzLdw57g_EQ1AWg4Lcw9ePazVpF1s,166
+cognite_jupyterlab_theme/_version.py,sha256=GbiR8HuR9OTL8l0btj2G4r-2MVmsuj6EUUVRe8ZfSTE,171
+cognite_jupyterlab_theme-3.5.5.data/data/share/jupyter/labextensions/cognite_jupyterlab_theme/package.json,sha256=CCmCQwBqKBnZYeJ-6vOgEyEalNpo1EpqGIs6r74dzg8,5483
+cognite_jupyterlab_theme-3.5.5.data/data/share/jupyter/labextensions/cognite_jupyterlab_theme/static/568.8c4e331c19ed964a6f34.js,sha256=jE4zHBntlkpvNGfbFBeZ-8HXQLaMu2VWCD09uAlmE6g,542
+cognite_jupyterlab_theme-3.5.5.data/data/share/jupyter/labextensions/cognite_jupyterlab_theme/static/remoteEntry.be647043d366082991bb.js,sha256=vmRwQ9NmCCmRu399cnKLvIZRcvtTT1MqkWjn7WH3Nl4,6286
+cognite_jupyterlab_theme-3.5.5.data/data/share/jupyter/labextensions/cognite_jupyterlab_theme/static/style.js,sha256=-CQt0ZTPaCTvrRiLcznxflAbfvIKlOVzjOos-muaXQ8,118
+cognite_jupyterlab_theme-3.5.5.data/data/share/jupyter/labextensions/cognite_jupyterlab_theme/static/third-party-licenses.json,sha256=MNToQfru1YnHAie-2Virp23yWsc5co3qG0IzrO6SEfw,20
+cognite_jupyterlab_theme-3.5.5.data/data/share/jupyter/labextensions/cognite_jupyterlab_theme/themes/cognite_jupyterlab_theme/index.css,sha256=MIUjzqT9gkuB8k9oDc57re5jLxLj6BUSCghCRBpUjTI,28580
+cognite_jupyterlab_theme-3.5.5.data/data/share/jupyter/labextensions/cognite_jupyterlab_theme/themes/cognite_jupyterlab_theme/index.js,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cognite_jupyterlab_theme-3.5.5.data/data/share/jupyter/labextensions/cognite_jupyterlab_theme/install.json,sha256=UoxawA-mXAelgGTV1CSzbBM7YL5K4wrTvraPg71lu8I,209
+cognite_jupyterlab_theme-3.5.5.dist-info/METADATA,sha256=8Vrw8x-g2-Z7nUrqky6O6LcSM89pxoEd0oJICrZoiUE,6119
+cognite_jupyterlab_theme-3.5.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+cognite_jupyterlab_theme-3.5.5.dist-info/licenses/LICENSE,sha256=0wSKv-GK-znLOnKbQi0t-_X0SOEzX66TDL5nHbHNu_o,1518
+cognite_jupyterlab_theme-3.5.5.dist-info/RECORD,,
