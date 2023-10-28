@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/tflocalpattern/__init__.py
+src/tflocalpattern/layers.py
+src/tflocalpattern.egg-info/PKG-INFO
+src/tflocalpattern.egg-info/SOURCES.txt
+src/tflocalpattern.egg-info/dependency_links.txt
+src/tflocalpattern.egg-info/top_level.txt

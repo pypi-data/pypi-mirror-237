@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tflocalpattern
+Version: 0.0.1
+Summary: A Local Derivative Pattern layer for deep dearning models
+Author-email: Devrim Akgun <akgundv@gmail.com>
+Project-URL: Homepage, https://github.com/algocodes/ldp_layer
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Local Derivative Pattern transform as a layer in Deep Learning models
+
+This repository contains the Local Derivative Patterns as a Deep Learning layer implemented in the paper. The example on LFW - Labeled Faces in the Wild dataset compares a model with LDP layers and a baseline CNN model.
+
+[Examples](https://github.com/algocodes/ldp_layer)
