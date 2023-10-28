@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+ipman/errors.py
+ipman/ipman.py
+ipman/iptoolz.py
+ipman.egg-info/PKG-INFO
+ipman.egg-info/SOURCES.txt
+ipman.egg-info/dependency_links.txt
+ipman.egg-info/top_level.txt
