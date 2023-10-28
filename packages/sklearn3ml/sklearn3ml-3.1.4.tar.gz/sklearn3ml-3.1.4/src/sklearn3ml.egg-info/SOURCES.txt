@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/sklearn3/__init__.py
+src/sklearn3/main.py
+src/sklearn3ml.egg-info/PKG-INFO
+src/sklearn3ml.egg-info/SOURCES.txt
+src/sklearn3ml.egg-info/dependency_links.txt
+src/sklearn3ml.egg-info/top_level.txt
