@@ -1,0 +1,2 @@
+[console_scripts]
+baywatch = baywatch.app:main

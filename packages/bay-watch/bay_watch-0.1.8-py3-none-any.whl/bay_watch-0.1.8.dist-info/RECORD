@@ -1,0 +1,15 @@
+baywatch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+baywatch/app.py,sha256=qzUqhhBZqOyrBYTghC5Vz3sZXAEKZFfq6IImfHMBtbE,19620
+baywatch/bay.py,sha256=uU3AXxIh81yzA1J095HuCQCNm3mucPP1VarNyYmD1RQ,7191
+baywatch/config_control.py,sha256=flMIWFLp4zl4zW0IFY72nT7e1FkZjYi8WnYIC9WAMW4,6537
+baywatch/version.py,sha256=vCQiYkEKVGCgrmrJT_6fME4UdIDc4mi7G-dokBn7lgw,147
+baywatch/data/categories.json,sha256=lDhc2lSggCQ4Wh0NloGfordLAoquypg-C0_5ES83v2g,1338
+baywatch/data/categories_short.json,sha256=dgnsthQ16RZgxqmu_C49X6969-i4cGV_iwb2LI5VGhE,85
+baywatch/data/conf.json,sha256=Qr6NR3jPOyA63efHy5pNi1AC1dduOZJC01gXnU_qeTs,374
+baywatch/data/mirrors.txt,sha256=vRn_NSxZjD5F5saV2sRZl6PVVgWlX5upUtwoZN3ny_E,427
+baywatch/data/trackers.txt,sha256=-7D7h1bl3SadtdsdWQhaqGujw41Lm7P4_f8ElnV9T8I,262
+bay_watch-0.1.8.dist-info/METADATA,sha256=ZrKYx10Owisw0Jw67CZuplP65BqDmQgwRWYEJluftAc,3814
+bay_watch-0.1.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+bay_watch-0.1.8.dist-info/entry_points.txt,sha256=Fo2p7_nF9T8x4A4NasomYyIpegjSzJlkV4xBft7Y-Io,47
+bay_watch-0.1.8.dist-info/top_level.txt,sha256=TEsrzn14TyMLvpmhNs4GyYnB3_u9Kuu2LJizl2hld1Q,9
+bay_watch-0.1.8.dist-info/RECORD,,
