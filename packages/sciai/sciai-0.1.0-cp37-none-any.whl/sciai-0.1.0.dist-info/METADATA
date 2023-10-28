@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sciai
+Version: 0.1.0
+Summary: A fundamental framework for simulations of engineering physics
+Home-page: https://www.mindspore.cn/
+Download-URL: https://gitee.com/mindspore/mindscience/tags
+Author: The MindSpore Authors
+Author-email: contact@mindspore.cn
+License: Apache 2.0
+Project-URL: Sources, https://gitee.com/mindspore/mindscience
+Project-URL: Issue Tracker, https://gitee.com/mindspore/mindscience/issues
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: matplotlib (>=3.4.0)
+Requires-Dist: mpi4py (==3.1.4)
+Requires-Dist: numpy (>=1.17.0)
+Requires-Dist: Ofpp (==0.1)
+Requires-Dist: pyDOE (==0.3.8)
+Requires-Dist: seaborn (>=0.11.1)
+Requires-Dist: scikit-learn (>=1.0.2)
+Requires-Dist: scikit-optimize (>=0.8.1)
+Requires-Dist: scipy (>=1.7.0)
+Requires-Dist: tikzplotlib (==0.10.1)
+Requires-Dist: filelock (>=3.12.2)
+Requires-Dist: pyyaml (>=6.0)
+
