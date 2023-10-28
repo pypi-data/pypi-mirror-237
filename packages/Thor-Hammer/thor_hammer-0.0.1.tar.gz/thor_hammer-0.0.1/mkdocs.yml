@@ -1,0 +1,60 @@
+site_name: Mjölnir
+site_url: https://mjolnir.github.io/
+site_description: Defeating Causal Dragons
+
+repo_name: Thors-Hammer
+repo_url: https://github.com/galenseilis/Thors-Hammer
+edit_uri: blob/main/docs
+
+theme: 
+  name: material
+  custom_dir: docs/overrides
+  features: 
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.expand
+    - navigation.top
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+  - markdownextradata
+  - git-revision-date-localized: 
+      enable_creation_date: true
+  # - mkdocs-jupyter
+
+markdown_extensions:
+  - admonition
+  - md_in_html
+  - pymdownx.highlight: 
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra: 
+  social: 
+    - icon: fontawesome/brands/github
+      link: https://github.com/galenseilis/Thors-Hammer
+
+nav:
+  - Welcome: index.md
