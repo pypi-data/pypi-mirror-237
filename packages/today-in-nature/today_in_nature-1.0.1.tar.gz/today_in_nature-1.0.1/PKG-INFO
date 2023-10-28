@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: today-in-nature
+Version: 1.0.1
+Summary: Prints a motd about what's happening in nature today.
+Author: Menno Liefstingh
+Author-email: todayinnature@menno.ai
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pytz (>=2023.3,<2024.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: rich (>=13,<14)
