@@ -1,0 +1,6 @@
+HOSTNAME: ip-10-16-7-105
+Build Time:  Fri Oct 27 15:04:30 UTC 2023
+Branch: refs/heads/release/rc-20230925
+Commit Time:  Fri Oct 27 06:54:05 2023 -0700
+Commit Id:  06d7fd20a1569a609de4ddf59bcb9e273f344889
+TruEra Services Version: 1.40.2
