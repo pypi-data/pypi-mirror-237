@@ -1,0 +1,10 @@
+jupyterscad/__init__.py,sha256=RWcbmm3lzQPXrLAHAoKdEn7zkdAaB0_k0FZ0AZgNMQY,785
+jupyterscad/_render.py,sha256=_ikdk7SAKNWlDVxF_jFNq-3PSZUlhWxwE72AYd9yDLU,3006
+jupyterscad/_view.py,sha256=rsHbR40Qfgvk3pqHC8-5W72b3NAyOKuO5IMXvzhE50c,6239
+jupyterscad/exceptions.py,sha256=nIjs7WlVvY3Yqb_xDJE2AZfMkhMLdOff5Kj6A_iPPOo,1070
+jupyterscad-0.3.0.dist-info/COPYING,sha256=556cigyF1zX_mBhZGOyU7X0XXvw3cBJ4euvPO4Dw2Qs,35151
+jupyterscad-0.3.0.dist-info/LICENSE,sha256=gdCi0OnrFD-J_8dLYBLyLREreUTiRDDW2Ho9jzVABec,119
+jupyterscad-0.3.0.dist-info/METADATA,sha256=E3IFF0W44bS2Jz9Rs3JVAOo4Uo_rMGLhWXhFaFnPxAs,3891
+jupyterscad-0.3.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+jupyterscad-0.3.0.dist-info/top_level.txt,sha256=O4tJowAT7GjXbqJd6BLV5ilrwNoKix1eFXOiAJ7fOjA,12
+jupyterscad-0.3.0.dist-info/RECORD,,
