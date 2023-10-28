@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: windIO
+Version: 1.0
+Summary: Frameworks defining the inputs and outputs for systems engineering MDAO of wind turbine and plants.
+Home-page: https://github.com/IEAWindTask37/windIO
+Author: IEA Wind Task 37
+License: Apache-2.0
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: jsonschema
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+Requires-Dist: xarray
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: topfarm ; extra == 'test'
+Requires-Dist: py-wake ; extra == 'test'
+
