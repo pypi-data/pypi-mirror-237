@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: aws-org-client
+Version: 0.0.4
+Summary: Browse and manage AWS identity and organization resources.
+Author: Sam Holden
+Author-email: sam.holden@digital.cabinet-office.gov.uk
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: boto3 (>=1.28.66,<2.0.0)
+Requires-Dist: moto (>=4.2.6,<5.0.0)
+Requires-Dist: typing-extensions (>=4.8.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# aws_org_client
+
+![version number](https://img.shields.io/pypi/v/aws_org_client?color=blue&label=version)
+
+This project is a python package, aimed at providing a simple interface with AWS
+organisation & identity services.
+
+Using boto3 clients:
+  * identitystore
+  * organizations
+  * sso-admin
+
+
+# Project processes
+## Coverage report
+
+run coverage report:
+```bash
+poetry run coverage run -m --source=aws_org_client pytest tests
+poetry run coverage report
+```
+
+## Linting
+
+run pylint with:
+```bash
+poetry run pylint aws_org_client
+poetry run pylint tests
+```
+
+run black formatter with:
+```bash
+poetry run black .
+```
