@@ -1,0 +1,12 @@
+qlikutils/__init__.py,sha256=4yxUZ_hSNm4RJPahLN6ZR9xKk8tZ8_xEak2FTrz3Cp0,23
+qlikutils/__main__.py,sha256=qyfn2cI6_Z5hk9d7T9ka8SszOh62mHCke6bHnEGVEgc,3108
+qlikutils/utils.py,sha256=p67FFwb8Q8zCYiw-WZSMILWMbZnPHG6vhEdfTBYtaDA,7568
+qlikutils/assets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qlikutils/assets/fonts/Rubik-Medium.ttf,sha256=mWmZdOaoEiWEzGx0prfixDHNTIK8R-Ehywtbhkzf3w0,208204
+qlikutils/assets/fonts/Rubik-Regular.ttf,sha256=eDmqzcssAARnNTq0vfMT6H-BPsjivrT11C_bzYtu3Ww,207632
+qlikutils/assets/images/background.png,sha256=3sInw1Z60nYZbzHmW4UwLrtSwQDZm1qpMJghNz99GxQ,935040
+qlikutils-1.1.16.dist-info/LICENSE,sha256=ab-Q0DepK9knbq16F7cq8U_hy1PK1Jg7VSXeNkqNydM,1063
+qlikutils-1.1.16.dist-info/METADATA,sha256=p4g4l5Cg4PQK0pVQIL3Up2uRCDiMLUIhYwPLpoMr5EY,355
+qlikutils-1.1.16.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+qlikutils-1.1.16.dist-info/top_level.txt,sha256=hcJcJRTscUFfBo0myrbz9UPvL9RCsj-a-KrwjpRy1iw,10
+qlikutils-1.1.16.dist-info/RECORD,,
