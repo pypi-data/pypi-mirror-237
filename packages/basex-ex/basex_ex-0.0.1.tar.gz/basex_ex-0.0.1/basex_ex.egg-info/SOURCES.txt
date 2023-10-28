@@ -1,0 +1,12 @@
+README.md
+setup.py
+basex_ex.egg-info/PKG-INFO
+basex_ex.egg-info/SOURCES.txt
+basex_ex.egg-info/dependency_links.txt
+basex_ex.egg-info/requires.txt
+basex_ex.egg-info/top_level.txt
+src/__init__.py
+src/ada.py
+src/bender.py
+src/lygia.py
+src/tables.py
