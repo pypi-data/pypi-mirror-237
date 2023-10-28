@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+gaumis_package/__init__.py
+gaumis_package/main.py
+gaumis_package.egg-info/PKG-INFO
+gaumis_package.egg-info/SOURCES.txt
+gaumis_package.egg-info/dependency_links.txt
+gaumis_package.egg-info/top_level.txt
