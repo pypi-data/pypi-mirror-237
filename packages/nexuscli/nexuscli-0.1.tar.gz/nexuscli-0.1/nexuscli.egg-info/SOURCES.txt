@@ -1,0 +1,7 @@
+README.md
+setup.py
+nexuscli.egg-info/PKG-INFO
+nexuscli.egg-info/SOURCES.txt
+nexuscli.egg-info/dependency_links.txt
+nexuscli.egg-info/requires.txt
+nexuscli.egg-info/top_level.txt
