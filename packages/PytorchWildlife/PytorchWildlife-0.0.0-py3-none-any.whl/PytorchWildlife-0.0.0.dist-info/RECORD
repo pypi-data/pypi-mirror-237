@@ -1,0 +1,12 @@
+PytorchWildlife/__init__.py,sha256=In-uW4ZKnJ0EKXQX7KLixynpVMbdmG_YKgfFxx0wTHg,62
+PytorchWildlife/data/__init__.py,sha256=5rMRgcVKJlV7JhkTopQtx44JhV8YjXq7CRBckePY2Bo,49
+PytorchWildlife/data/datasets.py,sha256=yZym5vlz733U8cXQcntTp4uTlGfnVQwwR6XBDwtgwQU,3710
+PytorchWildlife/data/transforms.py,sha256=XSQAfN8tv9uhIFDugv5LODHqa-JS0SEoK7zy9H3wSnI,2659
+PytorchWildlife/utils/__init__.py,sha256=ZTXJ_sIvAsMYbaP5isut5Miyy-H-XuEFIDgtJc-PT2g,47
+PytorchWildlife/utils/misc.py,sha256=eHKNsZ74iATawi0s3lINXZcg9tRrVMYTzaNDG5niru0,1825
+PytorchWildlife/utils/post_process.py,sha256=eZRaM9u_-HWRwQHxNGFYvRCAbu9ICk96RUWjQemuog8,5404
+PytorchWildlife-0.0.0.dist-info/LICENSE,sha256=kTit7aAT7LxfnYT3O9jRNesUJYI-BsR1dOYYS_BLZxs,1070
+PytorchWildlife-0.0.0.dist-info/METADATA,sha256=qwA1y_xjSPfj3FjeDKBxvTpjR62IiprD6WTNZ3tLBcI,2475
+PytorchWildlife-0.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+PytorchWildlife-0.0.0.dist-info/top_level.txt,sha256=pSlDYsfDLPvmYQn518vW58pF7As9L-z-d904GRCLTbI,16
+PytorchWildlife-0.0.0.dist-info/RECORD,,
