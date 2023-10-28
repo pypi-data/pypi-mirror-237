@@ -1,0 +1,7 @@
+argparse
+pyyaml>=5.1
+jsonschema
+
+[dev]
+pylint
+twine
