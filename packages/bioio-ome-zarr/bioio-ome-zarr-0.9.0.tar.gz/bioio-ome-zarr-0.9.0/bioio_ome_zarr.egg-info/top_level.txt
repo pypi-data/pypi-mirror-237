@@ -1,0 +1,4 @@
+bioio_ome_zarr
+dist
+docs
+scripts
