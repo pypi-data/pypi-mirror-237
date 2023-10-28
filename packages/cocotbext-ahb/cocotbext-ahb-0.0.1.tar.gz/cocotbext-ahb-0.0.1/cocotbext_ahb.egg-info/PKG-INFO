@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: cocotbext-ahb
+Version: 0.0.1
+Summary: CocotbExt AHB Bus VIP
+Home-page: https://github.com/aignacio/cocotbext-ahb
+Author: aignacio (Anderson Ignacio)
+Author-email: <anderson@aignacio.com>
+License: UNKNOWN
+Keywords: soc,vip,hdl,verilog,systemverilog,ahb
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+[![Lint](https://github.com/aignacio/cocotbext-ahb/actions/workflows/lint.yaml/badge.svg)](https://github.com/aignacio/cocotbext-ahb/actions/workflows/lint.yaml) [![Regression Tests](https://github.com/aignacio/cocotbext-ahb/actions/workflows/test.yaml/badge.svg)](https://github.com/aignacio/cocotbext-ahb/actions/workflows/test.yaml) [![codecov](https://codecov.io/gh/aignacio/cocotbext-ahb/graph/badge.svg?token=RHYCK6SSCC)](https://codecov.io/gh/aignacio/cocotbext-ahb)
+
+# Cocotb AHB bus driver
+
+
