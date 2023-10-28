@@ -1,0 +1,8 @@
+
+radical.utils==1.39
+radical.saga==1.39
+radical.gtod==1.39
+pymongo<4
+setproctitle
+dill
+
