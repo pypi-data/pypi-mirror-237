@@ -1,0 +1,1 @@
+from .GoogleCaptcha import FlaskCaptcha2, FlaskCaptcha3 
