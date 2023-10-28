@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: bioio-ome-zarr
+Version: 0.9.0
+Summary: A BioIO reader plugin for reading Zarr files in the OME format.
+Author-email: bioio-devs <brian.whitney@alleninstitute.org>
+License: MIT License
+Project-URL: Homepage, https://github.com/BrianWhitneyAI/bioio-ome-zarr
+Project-URL: Bug Tracker, https://github.com/BrianWhitneyAI/bioio-ome-zarr/issues
+Project-URL: Documentation, https://BrianWhitneyAI.github.io/bioio-ome-zarr
+Project-URL: User Support, https://github.com/BrianWhitneyAI/bioio-ome-zarr/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bioio-base >=0.2.0
+Requires-Dist: fsspec >=2022.8.0
+Requires-Dist: ome-zarr >=0.8.0
+Requires-Dist: xarray >=0.16.1
+Provides-Extra: docs
+Requires-Dist: m2r2 >=0.2.7 ; extra == 'docs'
+Requires-Dist: Sphinx >=4.0.0 ; extra == 'docs'
+Requires-Dist: furo >=2022.4.7 ; extra == 'docs'
+Requires-Dist: numpydoc ; extra == 'docs'
+Requires-Dist: sphinx-copybutton ; extra == 'docs'
+Requires-Dist: docutils <0.19,>=0.18 ; extra == 'docs'
+Provides-Extra: lint
+Requires-Dist: pre-commit >=2.20.0 ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: coverage >=5.1 ; extra == 'test'
+Requires-Dist: pytest >=5.4.3 ; extra == 'test'
+Requires-Dist: pytest-cov >=2.9.0 ; extra == 'test'
+Requires-Dist: pytest-raises >=0.11 ; extra == 'test'
+Requires-Dist: quilt3 ; extra == 'test'
+
+# bioio-ome-zarr
+
+[![Build Status](https://github.com/BrianWhitneyAI/bioio-ome-zarr/workflows/CI/badge.svg)](https://github.com/BrianWhitneyAI/bioio-ome-zarr/actions)
+[![Documentation](https://github.com/BrianWhitneyAI/bioio-ome-zarr/workflows/Documentation/badge.svg)](https://BrianWhitneyAI.github.io/bioio-ome-zarr)
+
+A BioIO reader plugin for reading Zarr files in the OME format.
+
+This plugin is intended to be used in conjunction with [bioio](https://github.com/bioio-devs/bioio)
+---
+
+## Installation
+
+**Stable Release:** `pip install bioio-ome-zarr`<br>
+**Development Head:** `pip install git+https://github.com/BrianWhitneyAI/bioio-ome-zarr.git`
+
+## Quickstart
+
+```python
+from bioio_ome_zarr import Reader 
+
+r = Reader("my-image.zarr")
+r.dims
+```
+
+## Documentation
+
+For full package documentation please visit [BrianWhitneyAI.github.io/bioio-ome-zarr](https://BrianWhitneyAI.github.io/bioio-ome-zarr).
+
+## Development
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for information related to developing the code.
+
+**MIT License**
