@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pmpc
+Version: 0.7.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: julia
+Requires-Dist: zstandard
+Requires-Dist: pyzmq
+Requires-Dist: cloudpickle
+Requires-Dist: redis
+Requires-Dist: tqdm
+Requires-Dist: psutil
+
+UNKNOWN
+
