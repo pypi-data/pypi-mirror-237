@@ -1,0 +1,9 @@
+jsonschema
+numpy
+pyyaml
+xarray
+
+[test]
+pytest
+topfarm
+py_wake
