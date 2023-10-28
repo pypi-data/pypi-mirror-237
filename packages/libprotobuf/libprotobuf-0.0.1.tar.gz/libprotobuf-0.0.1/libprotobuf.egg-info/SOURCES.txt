@@ -1,0 +1,7 @@
+README.md
+setup.py
+libprotobuf.egg-info/PKG-INFO
+libprotobuf.egg-info/SOURCES.txt
+libprotobuf.egg-info/dependency_links.txt
+libprotobuf.egg-info/requires.txt
+libprotobuf.egg-info/top_level.txt
