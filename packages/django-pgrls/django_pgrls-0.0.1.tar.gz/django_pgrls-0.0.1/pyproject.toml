@@ -1,0 +1,69 @@
+[tool.poetry]
+name = "django-pgrls"
+version = "0.0.1"
+description = "Django multi-tenancy through Postgres row level security"
+authors = ["Lorenzo Peña <lorinkoz@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/lorinkoz/django-pgrls"
+documentation = "https://django-pgrls.readthedocs.io/"
+keywords = [
+    "django",
+    "tenants",
+    "postgres",
+    "multi-tenancy",
+    "RLS",
+    "row level security",
+]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Framework :: Django",
+    "Framework :: Django :: 5.0",
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0b1"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "*"
+coverage = { extras = ["toml"], version = "*" }
+
+[tool.ruff]
+select = ["I", "E", "F"]
+line-length = 100
+ignore = [
+    "E501", # line-too-long
+    "W191", # tab-indentation
+]
+
+[tool.ruff.isort]
+combine-as-imports = true
+known-first-party = ["django_pgrls"]
+
+[tool.mypy]
+strict_optional = true
+disallow_untyped_defs = true
+check_untyped_defs = true
+warn_unused_ignores = true
+
+[[tool.mypy.overrides]]
+module = ["psycopg.*", "psycopg2.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = [
+    "docs.*",
+    "django_pgrls.contrib.*",
+    "django_pgrls.postgresql.*",
+    "dpgrls_sandbox.*",
+]
+ignore_errors = true
+
+[tool.coverage.run]
+source = ["django_pgrls"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
