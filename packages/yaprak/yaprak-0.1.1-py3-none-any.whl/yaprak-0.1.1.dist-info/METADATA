@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: yaprak
+Version: 0.1.1
+Summary: A small package for processing and analyzing data in batches.
+Project-URL: Homepage, https://github.com/arta-ns/yaprak
+Project-URL: Bug Tracker, https://github.com/arta-ns/yaprak/issues
+Author-email: "N. Sertac Artan" <artans.github@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Yet Another PRocessing and Analyzing Kit
+
+This is a small package for simplifying batch data processing and analysis.
+
+This project is licensed under the terms of the MIT license.
