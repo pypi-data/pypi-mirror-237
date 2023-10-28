@@ -1,0 +1,9 @@
+jira2branch/__init__.py,sha256=xE4oNYaWSBtmGiWgnP2zc6wSnbPFGEPyKVsP4N_DQrg,75
+jira2branch/__main__.py,sha256=3VOSWev9KrIijPIjanC18luvkorug3lOuj4ksr0UF28,25499
+jira2branch/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jira2branch/tests/test_main.py,sha256=WIrJrXb2ad249KtA5JyFG1RYW9Rl7UW6rC45xJTcDBU,1483
+jira2branch-0.5.2.dist-info/LICENSE,sha256=70GR2oDZ8nEKhpJ70L_84XX1vjMimo8RJ15JvGu5uPU,1070
+jira2branch-0.5.2.dist-info/METADATA,sha256=uqpOo2FXD5PBEFueaEIxdX5IC_JW99iZbVlVgS5v17E,2812
+jira2branch-0.5.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+jira2branch-0.5.2.dist-info/entry_points.txt,sha256=UPEwqwuRen2cmkIZSg1BJV1gXTvp2RNcXZGtIv8J5G8,56
+jira2branch-0.5.2.dist-info/RECORD,,
