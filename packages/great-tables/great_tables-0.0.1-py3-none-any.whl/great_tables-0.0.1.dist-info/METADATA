@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: great-tables
+Version: 0.0.1
+Summary: Easily generate information-rich, publication-quality tables from Python.
+Author-email: Richard Iannone <rich@posit.co>
+License: MIT License
+        
+        Copyright (c) 2022-2023 gt authors
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+        
+Project-URL: homepage, https://github.com/rstudio/gt-python
+Keywords: tables
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Text Processing :: Markup :: LaTeX
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: commonmark >=0.9.1
+Requires-Dist: importlib-metadata
+Requires-Dist: typing-extensions >=3.10.0.0
+Requires-Dist: packaging >=20.9
+Requires-Dist: pandas >=1.4.2
+Requires-Dist: numpy >=1.22.4
+Requires-Dist: libsass >=0.22.0
+Provides-Extra: dev
+Requires-Dist: jupyter ; extra == 'dev'
+Requires-Dist: quartodoc ; extra == 'dev'
+Requires-Dist: polars ; extra == 'dev'
+Requires-Dist: pytest >=3 ; extra == 'dev'
+Requires-Dist: siuba ; extra == 'dev'
+Requires-Dist: syrupy ; extra == 'dev'
+
+[![CI Build](https://github.com/rstudio/gt-python/workflows/CI%20Tests/badge.svg?branch=main)](https://github.com/rstudio/gt-python/actions?query=workflow%3A%22CI+Tests%22+branch%3Amain)
+
+With the **gt** package, anyone can make wonderful-looking tables with Python. The **gt** philosophy: we can construct a wide variety of useful tables with a cohesive set of table parts. These include the *table header*, the *stub*, the *column labels* and *spanner column labels*, the *table body*, and the *table footer*.
+
+## Installation
+
+```bash
+$ pip install gt
+```
+
+## Contributing
+
+Interested in contributing to **gt**? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## Code of Conduct
+
+Please note that the gt project is released with a [contributor code of conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).<br>By participating in this project you agree to abide by its terms.
+
+## 📄 License
+
+**gt** is licensed under the MIT license. See the [`LICENSE`](LICENSE) file for more details.
+
+© Posit Software, PBC.
+
+## 🏛️ Governance
+
+This project is primarily maintained by [Rich Iannone](https://twitter.com/riannone). Other authors may occasionally assist with some of these duties.
