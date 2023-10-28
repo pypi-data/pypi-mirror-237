@@ -1,0 +1,5 @@
+[console_scripts]
+utiles=utiles.cli:cli
+[rasterio.rio_plugins]
+utiles=utiles.rio_plugin:rio_utiles
+ut=utiles.rio_plugin:rio_ut
