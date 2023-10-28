@@ -1,0 +1,8 @@
+pydqt/__init__.py,sha256=JKlGZYjQ08IX_dbTS2g-RMFwLBXYTZ8gzWpmyQzItS4,758
+pydqt/pydqt.py,sha256=2eshF0oSX3GArroetzbnuwPH5BcLaIvJFzlchoaQy7c,18260
+pydqt/sql/templates/macros/macros.jinja,sha256=I0QnO-TaibL1yJry3Sj1LznF-bdKAg31MQuzNrII8gw,1976
+pydqt/test.csv,sha256=Dx6ivD3jYToIzmxydPJqQR7g-UiPugtZu_C9Ms2vyes,15211
+pydqt/tests/test_querying.py,sha256=F7h7VMcMKLPx_cHPOhph-TmhmB4RIXcUHdq7wCPBX_8,4342
+pydqt-4.0.1.dist-info/METADATA,sha256=vkaXj8m2J1YI_dTw8JhsP52RzneE0xqb73VRoogaBkE,11537
+pydqt-4.0.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+pydqt-4.0.1.dist-info/RECORD,,
