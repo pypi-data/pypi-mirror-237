@@ -1,0 +1,13 @@
+django>=3.2
+
+[dev]
+pylint
+pytest
+pytest-cov
+pylint-django
+mock
+pytest-django
+beautifulsoup4
+black
+twine
+pip-tools
