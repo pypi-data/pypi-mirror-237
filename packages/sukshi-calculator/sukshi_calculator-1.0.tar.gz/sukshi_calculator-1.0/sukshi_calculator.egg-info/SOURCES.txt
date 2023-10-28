@@ -1,0 +1,7 @@
+setup.py
+sukshi_calculator/__init__.py
+sukshi_calculator/operations.py
+sukshi_calculator.egg-info/PKG-INFO
+sukshi_calculator.egg-info/SOURCES.txt
+sukshi_calculator.egg-info/dependency_links.txt
+sukshi_calculator.egg-info/top_level.txt
