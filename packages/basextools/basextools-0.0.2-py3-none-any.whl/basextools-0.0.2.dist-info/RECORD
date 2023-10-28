@@ -1,0 +1,9 @@
+basex/__init__.py,sha256=Kl7W1mrzNMJNdNlwx6CYWYyTqTCt_L6p2zJONoDepO8,46
+basex/ada.py,sha256=KHE6_JcKIYDRwp_MVrEAgl84cZGHdDp3tH3rYL1JX_4,9236
+basex/bender.py,sha256=H_7AaG5-aogtp1hc8OKb8CAD-j6Wtviapr7AloXYgzQ,3511
+basex/lygia.py,sha256=WJbSqUMxKlAgnykKoi57nefseUGiCBkSNJgJFKdMn5c,14770
+basex/tables.py,sha256=NBky_JnD6ebdpfYMVb6443Fx7Nyj8J08rkQ5Y6azwnI,5171
+basextools-0.0.2.dist-info/METADATA,sha256=iLrMPXmYVVTQ9rsUQ3jNklnYLW1NY955s0JMcEQf4Zs,1407
+basextools-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+basextools-0.0.2.dist-info/top_level.txt,sha256=i1bQQUiBX_20Ckh9uHxEipDTJrPkG4MEegQo0Xhu_VA,6
+basextools-0.0.2.dist-info/RECORD,,
