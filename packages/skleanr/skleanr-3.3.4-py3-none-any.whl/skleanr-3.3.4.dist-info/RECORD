@@ -1,0 +1,15 @@
+skleanr/DataPreprocessing.py,sha256=hxJp8KMIf6OFezeMJmdyzWBcoRXyZ7HcaRd2UJZFSNE,2365
+skleanr/DecisionTree.py,sha256=-_Pe4jG4f7Qmjqz8q8X0_QBGW1uyDp8Svb949-aCEbY,831
+skleanr/Ensemble.py,sha256=wrRNstWvL_XITtFTtyG2kROrxT5fZ81IwnRsxXyvvf0,1251
+skleanr/GradientDescent.py,sha256=xUkQH2KYSCCP5K3bNg27pVlYltNAlRb4ouav8wz28Sk,2161
+skleanr/LogisticRegression.py,sha256=osze6EuoILO8yfX52JIBpSQZRCZxJneTb_zvYunEr60,2324
+skleanr/PCA.py,sha256=2dxwZgb4AhJLD-gEzyvPq4S_lhtclFAlpeOcGe9kvwc,2394
+skleanr/SVM.py,sha256=4HaWB4w4m1Lf_lxcAf3wi1EDJPNUoMi9tINbkWARB9U,1196
+skleanr/SimpleRegression.py,sha256=MS2SR0kt-D_vj7qIpNKyqM-Txshd0ztpiEHkLO2S49w,1803
+skleanr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skleanr/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skleanr-3.3.4.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+skleanr-3.3.4.dist-info/METADATA,sha256=yUyqVJlyJ73kpWJCbI04tFQIYsNZwzb2KAADM8pMAZY,1141
+skleanr-3.3.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+skleanr-3.3.4.dist-info/top_level.txt,sha256=YLVWbWnjP_26kbVFwefDRi_o1gNQsPHv44-fRNbLpPI,8
+skleanr-3.3.4.dist-info/RECORD,,
