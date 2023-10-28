@@ -1,0 +1,12 @@
+pygeoif/__init__.py,sha256=B_1PpRUiDbvXc5wmDijpfjlEyP6-1BkjAoTbqcZl_7A,1761
+pygeoif/about.py,sha256=e94WF0Hoa8470GlKCmpI4bMN_eGo4tV6lkGD-t5aUQs,126
+pygeoif/exceptions.py,sha256=xTc7HeT1cdsruxX9NBhjey796h-ck41jfGDeycoMJiU,1170
+pygeoif/factories.py,sha256=JjOsHwCOZnSSs6TH4CbwnLMYb2-rvsP06h8tkZMXiIc,10792
+pygeoif/feature.py,sha256=wlpBHaHAHvGGoUmAGbcTocvHfsuiskG2JY91tS2BjZA,8185
+pygeoif/functions.py,sha256=fhpRuee5zU02gFVIm23DAMM6agEwX-wC-SUSR1XChXs,6892
+pygeoif/geometry.py,sha256=YIH_q0pq8ppAcT3O08VauPzJc7NGqCHF4XUnUeXQ_wI,34113
+pygeoif/types.py,sha256=rdbTYy_SIo_ecqrWKL4qT7I68Mwr8YCEGF0ISJ9H2T4,3486
+pygeoif-1.1.1.dist-info/METADATA,sha256=6vu8Mi4Y1vmdJpSyVkDSV1Vb9SL6t5ukQqxPgZIBZeY,12829
+pygeoif-1.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pygeoif-1.1.1.dist-info/top_level.txt,sha256=HUU6K1vRBvGkKpQq24_HDEqRIA65VjArm6juXGmOfhU,8
+pygeoif-1.1.1.dist-info/RECORD,,
