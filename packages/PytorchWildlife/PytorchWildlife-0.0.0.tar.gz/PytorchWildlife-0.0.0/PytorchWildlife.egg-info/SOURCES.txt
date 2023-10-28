@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+PytorchWildlife/__init__.py
+PytorchWildlife.egg-info/PKG-INFO
+PytorchWildlife.egg-info/SOURCES.txt
+PytorchWildlife.egg-info/dependency_links.txt
+PytorchWildlife.egg-info/requires.txt
+PytorchWildlife.egg-info/top_level.txt
+PytorchWildlife/data/__init__.py
+PytorchWildlife/data/datasets.py
+PytorchWildlife/data/transforms.py
+PytorchWildlife/utils/__init__.py
+PytorchWildlife/utils/misc.py
+PytorchWildlife/utils/post_process.py
