@@ -1,0 +1,8 @@
+README.md
+setup.py
+superchargeloop/__init__.py
+superchargeloop/data_manager.py
+superchargeloop.egg-info/PKG-INFO
+superchargeloop.egg-info/SOURCES.txt
+superchargeloop.egg-info/dependency_links.txt
+superchargeloop.egg-info/top_level.txt
