@@ -1,0 +1,6 @@
+parfor/__init__.py,sha256=avaATbiGXtwp5tOQbVjPbg3cHFt4ww6QNg44RjVJrH0,25315
+parfor/pickler.py,sha256=MsDNOaKyLdnbt7EyzxYLVVNRhP88xGQ5s5wxKBePiWo,4003
+parfor-2023.10.1.dist-info/LICENSE,sha256=N0P3pKtRMvfb64jmgJdlerg3TnS0a2QC776AzPsbZIg,35128
+parfor-2023.10.1.dist-info/METADATA,sha256=EBeeonztg2Gn5M8umWbC55LvwKId5u2GsVt_CKZ6U9I,5964
+parfor-2023.10.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+parfor-2023.10.1.dist-info/RECORD,,
