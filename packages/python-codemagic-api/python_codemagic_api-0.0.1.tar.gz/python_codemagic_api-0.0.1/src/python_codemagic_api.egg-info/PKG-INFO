@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: python-codemagic-api
+Version: 0.0.1
+Summary: Python API wrapper for Codemagic
+Home-page: https://github.com/bdhubbell/python-codemagic-api
+Author: Benjamin Hubbell
+Author-email: bdhubbell@icloud.com
+License: MIT
+Keywords: Codemagic,API,Wrapper
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python-codemagic-api
+Python API Wrapper for Codemagic
