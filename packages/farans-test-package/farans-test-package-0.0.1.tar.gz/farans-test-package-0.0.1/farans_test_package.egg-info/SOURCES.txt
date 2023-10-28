@@ -1,0 +1,8 @@
+README.md
+setup.py
+farans_test_package.egg-info/PKG-INFO
+farans_test_package.egg-info/SOURCES.txt
+farans_test_package.egg-info/dependency_links.txt
+farans_test_package.egg-info/top_level.txt
+my_package/__init__.py
+my_package/sample_module.py
