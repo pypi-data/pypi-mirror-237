@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: orgweb
+Version: 0.0.2
+Summary: CLI Org-Mode Environment for WEB like development without Emacs
+Author-email: Frederick Giasson <fred@fgiasson.com>
+License: GNU GPLv3
+Project-URL: Homepage, https://github.com/fgiasson/orgweb
+Project-URL: Bug Tracker, https://github.com/fgiasson/orgweb/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typer[all]
+Requires-Dist: docker
+Requires-Dist: watchdog
+Requires-Dist: gitignore-parser
+
