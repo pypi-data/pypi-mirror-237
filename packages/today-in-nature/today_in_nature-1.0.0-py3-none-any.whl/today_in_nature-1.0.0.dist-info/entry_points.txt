@@ -1,0 +1,3 @@
+[console_scripts]
+today-in-nature=today_in_nature.main:main
+
