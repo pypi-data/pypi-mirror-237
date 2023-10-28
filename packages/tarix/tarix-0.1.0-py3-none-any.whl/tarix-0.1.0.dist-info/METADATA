@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tarix
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/yghaderi/tarix
+Author: Yaghoub Ghadri
+Author-email: y.ghaderi@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: jdatetime (>=4.1.1,<5.0.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Project-URL: Repository, https://github.com/yghaderi/tarix
+Description-Content-Type: text/markdown
+
+## metafid
+### tarix
+<div dir="rtl">
+تاریخ با استفاده از jdatetime و datetime برای دوری از کدهایِ پُر-تکرارِ مربوط به تاریخِ جلالی که در کارهام باهاش برخورد داشتم توسعه داده شد. 
+</div>
+
+<div dir="rtl">راهنمایِ تاریخ رو در 
+<a href="https://yghaderi.github.io/tarix/">
+این صفحه
+</a>
+بخونید.</div>
+
+### install 
+```shell
+ puthon3 -m pip install tarix
+```
