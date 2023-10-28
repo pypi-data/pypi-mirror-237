@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+TeXUtil.egg-info/PKG-INFO
+TeXUtil.egg-info/SOURCES.txt
+TeXUtil.egg-info/dependency_links.txt
+TeXUtil.egg-info/entry_points.txt
+TeXUtil.egg-info/requires.txt
+TeXUtil.egg-info/top_level.txt
+tests/__init__.py
+tests/test_clean.py
+texutil/__init__.py
+texutil/scripts/__init__.py
+texutil/scripts/txu.py
