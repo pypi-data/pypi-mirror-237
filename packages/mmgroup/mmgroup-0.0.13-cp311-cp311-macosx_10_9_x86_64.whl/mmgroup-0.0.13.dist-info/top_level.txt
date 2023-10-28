@@ -1,0 +1,10 @@
+Build libraries for extension mat24
+Build libraries for extension mm_reduce
+Build libraries for extension mmm_op
+Cleaning up before code generation
+Code generation for modules mm and mm_op
+Code generation for modules mm_reduce
+Create substituts for legacy extensions
+Generating code for extension mat24
+Patching and copying shared libraries
+mmgroup
