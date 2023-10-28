@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fair-mobil
+Version: 1.1.3
+Summary: Package to analyze mobility fairness
+Home-page: 
+Author: Daniel Wang
+Author-email: Daniel Wang <danielw0119@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Will be changed later
