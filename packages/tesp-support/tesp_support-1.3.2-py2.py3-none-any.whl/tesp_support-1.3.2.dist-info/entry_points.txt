@@ -1,0 +1,5 @@
+[console_scripts]
+schedule_server = tesp_support.api.schedule_server:main
+tesp_download_analysis = tesp_support.api.data:download_analysis
+tesp_download_data = tesp_support.api.data:download_data
+tesp_download_examples = tesp_support.api.data:download_examples
