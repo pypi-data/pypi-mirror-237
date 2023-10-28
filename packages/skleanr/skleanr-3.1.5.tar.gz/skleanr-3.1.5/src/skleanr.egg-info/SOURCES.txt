@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/skleanr/__init__.py
+src/skleanr/experiment1.py
+src/skleanr/main.py
+src/skleanr.egg-info/PKG-INFO
+src/skleanr.egg-info/SOURCES.txt
+src/skleanr.egg-info/dependency_links.txt
+src/skleanr.egg-info/top_level.txt
