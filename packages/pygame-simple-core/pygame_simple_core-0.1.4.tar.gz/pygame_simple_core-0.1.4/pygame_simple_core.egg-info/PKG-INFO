@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: pygame-simple-core
+Version: 0.1.4
+Summary: A Python library for building Pygame applications with reusable components and utilities.
+Home-page: UNKNOWN
+Author: Vinicius Putti Morais
+Author-email: viniputtim@gmail.com
+License: MIT license
+Keywords: pygame
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pygame Simple Core
+
+A Python library for building Pygame applications with reusable components and utilities.
+
+## Installation
+
+You can install this library using pip. Run the following command:
+
+```bash
+pip install pygame_simple_core
+```
+
+## Usage
+
+You can start by extending the Core class and overriding your interface methods
+
+```python
+from pygame_simple_core import Core
+
+
+class Game(Core):
+
+    def __init__(self, **kwargs):
+        super().__init__()
+
+    def check_event(self, event):
+        pass
+
+    def update(self):
+        pass
+
+    def draw(self):
+        pass
+
+    def quit(self):
+        pass
+
+```
+
+1. **check_event:** called for every pygame event except for *pg.QUIT* that is handled by the core.
+2. **update:** called every frame, can be used to handle your game logic.
+3. **draw:** called every frame, can be used to draw your game elements.
+4. **quit:** called when *pg.QUIT* or a key that is in *quit_keys* is pressed, after this the program will quit, to prevent this you can reset *running* to True.
+
+To run this code only instanciate your class and call the run methods provided by core:
+
+```python
+game = Game()
+game.run()
+```
+
+## Components
+### tools
+1. **ScheduledEvents:**
+2. **font_finder:**
+3. **font_loader:**
+
+### widgets
+1. **FpsCounter:**
+2. **Text:**
+3. **Button:**
+4. **Container:**
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Vinicius Putti Morais
+
+![email](https://icons.iconarchive.com/icons/wwalczyszyn/android-style/48/Mail-icon.png) viniputtim@gmail.com
+
+![WhatsApp](https://icons.iconarchive.com/icons/dtafalonso/android-l/48/WhatsApp-icon.png) (49) 99802-2632
+
+
