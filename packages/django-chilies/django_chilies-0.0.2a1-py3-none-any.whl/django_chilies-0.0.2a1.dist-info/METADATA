@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: django-chilies
+Version: 0.0.2a1
+Summary: to make django more delicious
+Home-page: https://github.com/rainware/django-chilies
+Author: rainware
+Author-email: kevin90116@gmail.com
+Project-URL: Source, https://github.com/rainware/django-chilies
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.5
+License-File: LICENSE
+Requires-Dist: django (>=4.2)
+Requires-Dist: djangorestframework (>=3.14.0)
+Requires-Dist: celery (>=4.4.0)
+Requires-Dist: kafka-python (>=2.0.2)
+Requires-Dist: pytz (>=2020.1)
+
