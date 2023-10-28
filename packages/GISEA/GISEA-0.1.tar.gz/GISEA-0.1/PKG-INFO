@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: GISEA
+Version: 0.1
+Summary: Genetic Interaction Networks and Pathway Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+GISEA
+=======================
+
+Genetic Interaction Networks and Pathway Modules
