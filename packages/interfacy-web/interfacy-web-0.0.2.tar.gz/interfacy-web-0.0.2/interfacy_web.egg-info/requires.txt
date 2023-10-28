@@ -1,0 +1,14 @@
+stdl==0.4.8
+strto==0.1.2
+objinspect==0.2.6
+pydantic==2.4.2
+loguru>=0.7.2
+nicegui>=1.4.0
+
+[dev]
+black
+pytest
+flake8
+
+[test]
+pytest
