@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "midox"
+version = "0.1.0"
+authors = [
+  { name="just_some_person", email="allyouneedgenuine@gmail.com" },
+]
+description = "A package to help read music. Credits given to everyone who contributed to building this."
+readme = "readme.txt"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jmcarpenter2/music-generation/tree/master/midi"
