@@ -1,0 +1,10 @@
+scrapbook_ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapbook_ext/encoders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapbook_ext/encoders/base.py,sha256=vHL5H-QU6tS2VQDV_3F_fQxLIFHfJOt7QUzCYMrRTPk,571
+scrapbook_ext/encoders/pickle.py,sha256=d29N2X9cVA8fNrrrXgPmiElKnfycYc_2flLVpPG1IGI,1092
+scrapbook_ext/utils/__init__.py,sha256=n98EZlaE4SP_atcl0B-4sNasXTTbk9ilqsgTlHtK36o,43
+scrapbook_ext/utils/func.py,sha256=hrNIn8lDWuCSHHDEpR274Z1pm3OD2-JOTi7Xfdh3m9E,190
+scrapbook_ext-0.0.0a2.dist-info/METADATA,sha256=CKQWU6BOlJQjW3u1rV4Ur_eUkwGc4kJb-DhQFCawJPg,650
+scrapbook_ext-0.0.0a2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+scrapbook_ext-0.0.0a2.dist-info/top_level.txt,sha256=tf170kPNmSBohgeb1N4KqEB60TPbdvBfaPl99IGYXZ0,14
+scrapbook_ext-0.0.0a2.dist-info/RECORD,,
