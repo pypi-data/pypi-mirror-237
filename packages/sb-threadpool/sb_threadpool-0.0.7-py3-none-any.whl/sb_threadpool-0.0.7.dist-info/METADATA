@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: sb-threadpool
+Version: 0.0.7
+Summary: A threadpool implementation
+Author-email: Stephen Booth <stephen.booth.za@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: llist ~=0.7.1
+
+# My Threadpool project
+Simplify threadpool operations
+
+## Usage
+Override `Job` do your work in the `execute` method, set `result` to `JobCompletionStatus` when it's done.  
+The actual thread will use this to determine what to do next.
+
+A `MemoryJobQueue` is provided, override `JobQueue` to handle specific cases, like db queues, etc.  
+The `ThreadPool` object sometimes doesn't exit correctly, and python task needs to be killed - known bug,  working on it.  
+Most of the time it works fine with no issues.
+Check the unit tests for more usage details   
+
+
+## Building
+`python -m build `
+
+## Deploying
+`python -m twine upload --repository testpypi dist/*`
