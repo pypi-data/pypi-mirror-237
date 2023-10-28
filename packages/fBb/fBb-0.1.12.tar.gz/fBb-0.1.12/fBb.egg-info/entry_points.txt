@@ -1,0 +1,3 @@
+[console_scripts]
+fBb = fBb.fBb:main
+
