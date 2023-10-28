@@ -1,0 +1,10 @@
+zebra_day/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zebra_day/print_mgr.py,sha256=5Yb3yKyZ0oaYq3Hev7P3-q4tjeTEmZ_IrEG-LNLjVug,9273
+zebra_day/bin/scan_for_networed_zebra_printers.py,sha256=chzUhIxHvOWoN3aBih2FNa7G0uCwcVKkGgcZUe5XJUQ,592
+zebra_day/bin/te.py,sha256=GR3BxuT3zoHUa2QTP610Wq9tiv0cVZFI4Jxk8zE5A7A,10845
+zebra_day/bin/zserve.py,sha256=Ah7qsnMd1XRg4SsaXEpv2DG2HQ6vQYJa_y487FtwLlk,29209
+zebra_day-0.0.37.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+zebra_day-0.0.37.dist-info/METADATA,sha256=0v9uVPfrjUrXQBsKq9F_PdXdt9OJ5i0r_djCcRNUEuA,65767
+zebra_day-0.0.37.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+zebra_day-0.0.37.dist-info/top_level.txt,sha256=YTHvTEmr_0Jdxstja9CpvzaFCBedOq8EhKnrhDg4Pm4,10
+zebra_day-0.0.37.dist-info/RECORD,,
