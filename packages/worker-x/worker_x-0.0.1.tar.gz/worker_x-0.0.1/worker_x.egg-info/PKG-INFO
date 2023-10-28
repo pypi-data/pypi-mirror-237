@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: worker-x
+Version: 0.0.1
+Summary: Multi threading worker
+Author: Minhdz117
+Keywords: worker,multi task,multi thread,threading
