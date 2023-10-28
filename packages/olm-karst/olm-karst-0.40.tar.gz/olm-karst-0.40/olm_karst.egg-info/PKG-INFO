@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: olm-karst
+Version: 0.40
+Home-page: https://github.com/speleophysics/olm/
+Download-URL: https://github.com/CovingtonResearchGroup/olm/archive/refs/tags/0.40.tar.gz
+Author: Matthew D. Covington
+Author-email: mcoving@uark.edu
+License-File: LICENSE.TXT
