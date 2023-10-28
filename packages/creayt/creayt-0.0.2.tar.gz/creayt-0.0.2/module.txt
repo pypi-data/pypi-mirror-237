@@ -1,0 +1,9 @@
+
+
+
+creayt
+
+pip install creayt
+
+import creayt
+creayt.text ("salutations")
