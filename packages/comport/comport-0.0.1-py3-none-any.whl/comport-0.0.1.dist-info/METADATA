@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: comport
+Version: 0.0.1
+Summary: Stub package to be used in future.
+Author-email: Travis Hesketh <travis@hesketh.scot>
+License-Expression: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: BDD
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
