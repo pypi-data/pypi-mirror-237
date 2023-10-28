@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ppim-migrator
+Version: 0.0.1
+Summary: Migration tool for migrating album and favorites data from photoprism to immich
+Author: Valentin Riess
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Dist: click==8.1.7
+Requires-Dist: requests==2.31.0
+Requires-Dist: pyyaml==6.0.1
+Project-URL: Bug Tracker, https://github.com/v411e/ppim-migrator/issues
+Project-URL: Homepage, https://github.com/v411e/ppim-migrator
+
+# Photoprism to Immich migrator
+This tool can migrate albums and favorites from Photoprism to Immich. It does not migrate you photos.
