@@ -1,0 +1,14 @@
+AUTHORS.txt
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+lib/Whirlpool.c
+lib/nessie.h
+test/test_whirlpool.py
+whirlpool/pywhirlpool.c
+whirlpool_py311.egg-info/PKG-INFO
+whirlpool_py311.egg-info/SOURCES.txt
+whirlpool_py311.egg-info/dependency_links.txt
+whirlpool_py311.egg-info/top_level.txt
