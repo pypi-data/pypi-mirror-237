@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyhnefatafl
+Version: 0.2.0
+Summary: Hnefatafl (11x11) game engine for Python
+Author: SootyOwl
+Author-email: you@example.com
+Requires-Python: >=3.8,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.24.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# PyHnefatafl - A Python library for the Hnefatafl board game
+
+Allowing you to play the game of Hnefatafl in Python.
+
+## Progress
+
+- [x] Basic game logic of 11x11 Hnefatafl
+- [x] Tests for the game's rules
+  - [ ] Expand tests to cover more rules / variants
+- [x] A couple of variant games
+- [ ] Better configuration of variant games (Brandubh, Tablut, Ard Rí, etc.)
+  - [ ] Define variant games in a config file or class
+  - [ ] Split game rules from board rules (e.g. 11x11, 9x9, 7x7)
