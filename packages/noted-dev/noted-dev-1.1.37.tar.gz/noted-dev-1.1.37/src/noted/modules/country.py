@@ -1,0 +1,58 @@
+# © Copyright 2022 CERN. This software is distributed under the terms of
+# the GNU General Public Licence version 3 (GPL Version 3), copied verbatim
+# in the file "LICENCE.txt". In applying this licence, CERN does not waive
+# the privileges and immunities granted to it by virtue of its status as an
+# Intergovernmental Organization or submit itself to any jurisdiction.
+
+from enum import Enum
+
+class Country(Enum):
+    """Class for country attributes."""
+    _Argentina          = 'Argentina'
+    _Australia          = 'Australia'
+    _Austria            = 'Austria'
+    _Azerbaijan         = 'Azerbaijan'
+    _Belgium            = 'Belgium'
+    _Brazil             = 'Brazil'
+    _Bulgaria           = 'Bulgaria'
+    _Canada             = 'Canada'
+    _Chile              = 'Chile'
+    _China              = 'China'
+    _Croatia            = 'Croatia'
+    _Cyprus             = 'Cyprus'
+    _Czech_Republic     = 'Czech Republic'
+    _Estonia            = 'Estonia'
+    _Finland            = 'Finland'
+    _France             = 'France'
+    _Germany            = 'Germany'
+    _Greece             = 'Greece'
+    _Hong_Kong_SAR      = 'Hong Kong SAR'
+    _Hungary            = 'Hungary'
+    _India              = 'India'
+    _Iran               = 'Iran, Islamic Republic of'
+    _Israel             = 'Israel'
+    _Italy              = 'Italy'
+    _Japan              = 'Japan'
+    _Mexico             = 'Mexico'
+    _Morocco            = 'Morocco'
+    _Netherlands        = 'Netherlands'
+    _Nordic             = 'Nordic'
+    _Norway             = 'Norway'
+    _Pakistan           = 'Pakistan' 
+    _Poland             = 'Poland'
+    _Portugal           = 'Portugal'
+    _Republic_of_Korea  = 'Republic of Korea'
+    _Romania            = 'Romania'
+    _Russian_Federation = 'Russian Federation'
+    _Slovakia           = 'Slovakia'
+    _Slovenia           = 'Slovenia'
+    _South_Africa       = 'South Africa'
+    _Spain              = 'Spain'
+    _Sweden             = 'Sweden'
+    _Switzerland        = 'Switzerland'
+    _Taiwan             = 'Taiwan'
+    _Thailand           = 'Thailand'
+    _Turkey             = 'Turkey' 
+    _UK                 = 'UK'
+    _USA                = 'USA'
+    _Ukraine            = 'Ukraine'

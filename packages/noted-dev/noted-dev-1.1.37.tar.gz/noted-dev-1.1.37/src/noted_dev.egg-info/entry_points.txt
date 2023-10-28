@@ -1,0 +1,2 @@
+[console_scripts]
+noted = noted.main:main

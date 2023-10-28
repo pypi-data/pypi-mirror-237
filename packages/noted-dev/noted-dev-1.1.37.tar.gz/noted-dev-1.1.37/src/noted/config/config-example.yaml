@@ -1,0 +1,92 @@
+# © Copyright 2022 CERN. This software is distributed under the terms of
+# the GNU General Public Licence version 3 (GPL Version 3), copied verbatim
+# in the file "LICENCE.txt". In applying this licence, CERN does not waive
+# the privileges and immunities granted to it by virtue of its status as an
+# Intergovernmental Organization or submit itself to any jurisdiction.
+
+#
+# NOTED
+# CONFIGURATION FILE
+# PARAMETERS TO SET UP BY THE USER
+#
+
+# Tier: [0, 1, 2, 3]
+
+# Country: ['Argentina', 'Australia', 'Austria', 'Azerbaijan', 'Belgium', 'Brazil', 'Bulgaria', 'Canada', 'Chile', 'China', 'Croatia', 'Cyprus', 'Czech Republic', 'Estonia', 'Finland', 'France', 
+#           'Germany', 'Greece', 'Hong Kong SAR', 'Hungary', 'India', 'Iran, Islamic Republic of', 'Israel', 'Italy', 'Japan', 'Mexico', 'Morocco', 'Netherlands', 'Nordic', 'Norway', 'Pakistan', 
+#           'Poland', 'Portugal', 'Republic of Korea', 'Romania', 'Russian Federation', 'Slovakia', 'Slovenia', 'South Africa', 'Spain', 'Sweden', 'Switzerland', 'Taiwan', 'Thailand', 'Turkey', 
+#           'UK', 'USA', 'Ukraine']
+
+# Country code: ['AR', 'AT', 'AU', 'AZ', 'BE', 'BG', 'BR', 'CA', 'CH', 'CL', 'CN', 'CY', 'CZ', 'DE', 'EE', 'ES', 'FI', 'FR', 'GB', 'GR', 'HR', 'HU', 'IL', 'IN', 'IR', 'IT', 'JP', 'KR', 'MA', 'MX', 
+#                'NL', 'NO', 'PK', 'PL', 'PT', 'RO', 'RU', 'SE', 'SI', 'SK', 'TH', 'TR', 'TW', 'UA', 'US', 'ZA']
+# NOTE: No country code for NDGF ('Nordic') or Korea SAR (Republic of Korea)
+
+# Federation: ['AT-HEPHY-VIENNA-UIBK', 'AU-ATLAS', 'BE-TIER2', 'BR-SP-SPRACE', 'CA-EAST-T2', 'CA-TRIUMF', 'CA-WEST-T2', 'CH-ATLAS', 'CH-CERN', 'CH-CHIPP-CSCS', 'CN-IHEP', 'CZ-Prague-T2', 
+#              'DE-DESY-ATLAS-T2', 'DE-DESY-GOE-ATLAS-T2', 'DE-DESY-RWTH-CMS-T2', 'DE-FREIBURGWUPPERTAL', 'DE-KIT', 'DE-MCAT', 'EE-NICPB', 'ES-ATLAS-T2', 'ES-CMS-T2', 'ES-LHCb-T2', 'ES-PIC', 
+#              'FI-HIP-T2', 'FR-CCIN2P3', 'FR-GRIF', 'FR-IN2P3-CPPM', 'FR-IN2P3-IPHC', 'FR-IN2P3-LAPP', 'FR-IN2P3-LPC', 'FR-IN2P3-SUBATECH', 'GR-GRIDLAB-KAVALA', 'GR-Ioannina-HEP', 'HK-ATLAS-T2', 
+#              'HU-HGCC-T2', 'IL-HEPTier-2', 'IN-DAE-KOLKATA-TIER2', 'IN-INDIACMS-TIFR', 'IT-INFN-CNAF', 'IT-INFN-T2', 'JP-Tokyo-ATLAS-T2', 'KR-KISTI-GSDC', 'KR-KISTI-GSDC-02', 'MA-Tier3s', 
+#              'NDGF', 'NL-T1', 'NON-MOU-Federation', 'NRC-KI-T1', 'PK-CIIT-ALICE', 'PK-CMS-T2', 'PL-POLISH-WLCG', 'PT-LIP-LCG-Tier2', 'RO-LCG', 'RU-JINR-T1', 'RU-RDIG', 'SE-SNIC-T2', 'SI-SiGNET', 
+#              'SK-Tier2-Federation', 'T2-LATINAMERICA', 'T2_UNAM', 'T2_US_MIT_LHCb', 'TH-Tier2', 'TR-Tier2-federation', 'TW-ASGC', 'TW-CMS-T2', 'TW-FTT-T2', 'UA-Tier2-Federation', 
+#              'UK-London-Tier2', 'UK-NorthGrid', 'UK-ScotGrid', 'UK-SouthGrid', 'UK-T1-RAL', 'US-AGLT2', 'US-CMS-T2', 'US-FNAL-CMS', 'US-LBNL-ALICE', 'US-MWT2', 'US-NET2', 'US-SWT2', 'US-T1-BNL', 'ZA-CHPC-T2']
+
+# Official site: ['AGLT2', 'ARNES', 'AUVERGRID', 'AZ-IFAN', 'Australia-ATLAS', 'BEIJING-LCG2', 'BEgrid-ULB-VUB', 'BG05-SUGrid', 'BNL-ATLAS', 'BNL-ATLAS-OPP', 'BOINC', 'BUDAPEST', 'BU_ATLAS_Tier2', 
+#                 'Baylor-Kodiak', 'BelGrid-UCL', 'CA-SFU-T2', 'CA-TORONTO-T3', 'CA-TRIUMF-DISKLESS', 'CA-VICTORIA-WESTGRID-T2', 'CA-WATERLOO-T2', 'CBPF', 'CERN-PROD', 'CIEMAT-LCG2', 'CIT_CMS_T2', 
+#                 'CN-BEIJING-PKU', 'CSCS-LCG2', 'CY-01-KIMON', 'CYFRONET-LCG2', 'DESY-HH', 'DESY-ZN', 'EELA-UNLP', 'EELA-UTFSM', 'FI_HIP_T2', 'FMPhI-UNIBA', 'FR-ALPAMED', 'FRESNO-ATLAS-T3', 
+#                 'FZK-LCG2', 'GLOW', 'GOOGLE', 'GR-07-UOI-HEPLAB', 'GR-12-TEIKAV', 'GRIF', 'GoeGrid', 'HEPHY-UIBK', 'HK-LCG2', 'Hephy-Vienna', 'ICM', 'IEPSAS-Kosice', 'IFCA-LCG2', 'IFIC-LCG2', 
+#                 'IL-TAU-HEP', 'IN-DAE-VECC-02', 'IN2P3-CC', 'IN2P3-CPPM', 'IN2P3-IPNL', 'IN2P3-IRES', 'IN2P3-LAPP', 'IN2P3-LPC', 'IN2P3-SUBATECH', 'INDIACMS-TIFR', 'INFN-BARI', 'INFN-BOLOGNA-T3', 
+#                 'INFN-CATANIA', 'INFN-COSENZA', 'INFN-FERRARA', 'INFN-FRASCATI', 'INFN-GENOVA', 'INFN-LECCE', 'INFN-LNL-2', 'INFN-MIB', 'INFN-MILANO-ATLASC', 'INFN-NAPOLI-ATLAS', 'INFN-PISA', 
+#                 'INFN-ROMA1', 'INFN-ROMA1-CMS', 'INFN-ROMA2', 'INFN-ROMA3', 'INFN-T1', 'INFN-TORINO', 'INFN-TRIESTE', 'IR-IPM-HEP', 'ITEP', 'JINR-LCG2', 'JINR-T1', 'KR-KISTI-GSDC-01', 'KR-KISTI-GSDC-02', 
+#                 'KR-KNU-T3', 'KR-UOS-SSCC', 'Kharkov-KIPT-LCG2', 'LBL_HPCS', 'LBNL_DSD_ITB', 'LRZ-LMU', 'MIT_CMS', 'MIT_CMS_T3', 'MIT_LHCb', 'MPPMU', 'MWT2', 'NCBJ-CIS', 'NCG-INGRID-PT', 'NCP-LCG2', 
+#                 'NDGF-T1', 'NERSC-PDSF', 'NIHAM', 'NIKHEF-ELPROD', 'NO-NORGRID-T2', 'NWICG_NDCMS', 'Nebraska', 'Nevis', 'ORNL', 'OU_OSCER_ATLAS', 'PK-CIIT', 'PSC-HPC', 'PSNC', 'Princeton_ICSE_T3_CMS', 
+#                 'Purdue', 'RAL-LCG2', 'RIVR.UM', 'RO-02-NIPNE', 'RO-03-UPB', 'RO-07-NIPNE', 'RO-13-ISS', 'RO-14-ITIM', 'RO-16-UAIC', 'RRC-KI-T1', 'RU-Protvino-IHEP', 'RU-SPbSU', 'RWTH-Aachen', 
+#                 'Rice', 'Ru-Troitsk-INR-LCG2', 'SAMPA', 'SARA-MATRIX', 'SE-SNIC-T2', 'SPRACE', 'SUPERCOMPUTO-UNAM', 'SWT2_CPB', 'SiGNET', 'T2-TH-SUT', 'T2_Estonia', 'T3_CH_PSI', 'T3_IN_TIFRCloud', 
+#                 'T3_KR_KISTI', 'T3_US_CMU', 'T3_US_OSG', 'TACC', 'TACC-Stampede2', 'TECHNION-HEP', 'TIDC', 'TOKYO-LCG2', 'TR-03-METU', 'TR-10-ULAKBIM', 'TRIUMF-LCG2', 'TW-FTT', 'TW-NCHC', 'TW-NCUHEP', 
+#                 'TW-NTU-HEP', 'Taiwan-LCG2', 'UA-BITP', 'UA-ISMA', 'UA-KNU', 'UAM-LCG2', 'UCSDT2', 'UColorado_HEP', 'UERJ', 'UFlorida-HPC', 'UKI-LT2-Brunel', 'UKI-LT2-IC-HEP', 'UKI-LT2-QMUL', 
+#                 'UKI-LT2-RHUL', 'UKI-NORTHGRID-LANCS-HEP', 'UKI-NORTHGRID-LIV-HEP', 'UKI-NORTHGRID-MAN-HEP', 'UKI-NORTHGRID-SHEF-HEP', 'UKI-SCOTGRID-DURHAM', 'UKI-SCOTGRID-ECDF', 'UKI-SCOTGRID-GLASGOW', 
+#                 'UKI-SOUTHGRID-BHAM-HEP', 'UKI-SOUTHGRID-BRIS-HEP', 'UKI-SOUTHGRID-OX-HEP', 'UKI-SOUTHGRID-RALPP', 'UKI-SOUTHGRID-SUSX', 'UM6P', 'UMissHEP', 'UNI-BONN', 'UNI-FREIBURG', 'UNIBE-LHEP', 
+#                 'UNIGE-DPNC', 'USC-LCG2', 'USCMS-FNAL-WC1', 'Vanderbilt', 'WEIZMANN-LCG2', 'WT2', 'ZA-CHPC', 'ZA-WITS-CORE', 'brown-cms', 'cinvestav', 'egee.irb.hr', 'ifae', 'mainz', 'osu-cms', 
+#                 'pic', 'praguelcg2', 'ru-Moscow-MEPHI-LCG2', 'ru-PNPI', 'ru-PNPI_XCACHE', 'ru-PNPI_XCACHE_NODES', 'rutgers-cms', 'umd-cms', 'uprm-cms', 'wuppertalprod']
+
+# Experiment site: ['AGLT2', 'ARC-TEST', 'ARNES', 'AZ-IFAN', 'Australia-ATLAS', 'BEIJING-LCG2', 'BITP', 'BNL-ATLAS', 'BNL-ATLAS-OPP', 'BNLHPC', 'BOINC', 'BU_NESE', 'Bari', 'Birmingham', 'Bratislava', 
+#                   'CA-SFU-T2', 'CA-TORONTO-T3', 'CA-TRIUMF-DISKLESS', 'CA-VICTORIA-WESTGRID-T2', 'CA-WATERLOO-T2', 'CCIN2P3', 'CERN', 'CERN-PROD', 'CERN-T0', 'CNAF', 'COMSATS', 'CSCS-LCG2', 
+#                   'CYFRONET-LCG2', 'Catania', 'Clermont', 'Cyfronet', 'DESY-HH', 'DESY-ZN', 'EELA-UNLP', 'EELA-UTFSM', 'FMPhI-UNIBA', 'FR-ALPAMED', 'FR-ALPAMED-LPC', 'FRESNO-AWS', 'FZK', 'FZK-LCG2', 
+#                   'GOOGLE', 'GOOGLE_US_EAST4', 'GR-12-TEIKAV', 'GRIF', 'GRIF_IPNO', 'GRIF_IRFU', 'GoeGrid', 'HEPHY-UIBK', 'HK-LCG2', 'IEPSAS-Kosice', 'IFIC-LCG2', 'IHEP', 'IL-TAU-HEP', 'IN2P3-CC', 
+#                   'IN2P3-CC_DATALAKE', 'IN2P3-CPPM', 'IN2P3-LAPP', 'IN2P3-LPC', 'INFN-BOLOGNA-T3', 'INFN-COSENZA', 'INFN-FRASCATI', 'INFN-GENOVA', 'INFN-LECCE', 'INFN-MILANO-ATLASC', 'INFN-NAPOLI-ATLAS', 
+#                   'INFN-ROMA1', 'INFN-ROMA2', 'INFN-ROMA3', 'INFN-T1', 'INFN-TRIESTE', 'ISMA', 'ISS', 'ITEP', 'JINR', 'JINR-LCG2', 'KFKI', 'KISTI_GSDC', 'KNU', 'Kolkata', 'Kosice', 'LBL_HPCS', 
+#                   'LBNL_DSD_ITB', 'LCG.AUVER.fr', 'LCG.Bari.it', 'LCG.Beijing.cn', 'LCG.CBPF.br', 'LCG.CERN.cern', 'LCG.CNAF.it', 'LCG.CPPM.fr', 'LCG.CSCS.ch', 'LCG.Catania.it', 'LCG.Durham.uk', 
+#                   'LCG.ECDF.uk', 'LCG.Ferrara.it', 'LCG.Frascati.it', 'LCG.GRIDKA.de', 'LCG.Glasgow.uk', 'LCG.Haifa.il', 'LCG.ICM.pl', 'LCG.IHEP.ru', 'LCG.IN2P3.fr', 'LCG.LAPP.fr', 'LCG.LPNHE.fr', 
+#                   'LCG.Lancaster.uk', 'LCG.Liverpool.uk', 'LCG.MIT.us', 'LCG.Manchester.uk', 'LCG.NCBJ-CIS.pl', 'LCG.NCBJ.pl', 'LCG.NIPNE-07.ro', 'LCG.PIC.es', 'LCG.RAL-HEP.uk', 'LCG.RAL.uk', 
+#                   'LCG.RRCKI.ru', 'LCG.SARA.nl', 'LCG.Sheffield.uk', 'LCG.TAU.il', 'LCG.UKI-LT2-Brunel.uk', 'LCG.UKI-LT2-IC-HEP.uk', 'LCG.UKI-LT2-QMUL.uk', 'LCG.USC.es', 'LCG.WEIZMANN.il', 'LRZ-LMU', 
+#                   'Legnaro', 'MPPMU', 'MWT2', 'NCG-INGRID-PT', 'NDGF-T1', 'NERSC-PDSF', 'NIHAM', 'NIKHEF', 'NIPNE', 'NO-NORGRID-T2', 'Nevis', 'ORNL', 'OU_OSCER_ATLAS', 'Oxford', 'PNPI', 'PSNC', 
+#                   'Poznan', 'Prague', 'RAL', 'RAL-LCG2', 'RIVR.UM', 'RO-02-NIPNE', 'RO-07-NIPNE', 'RO-14-ITIM', 'RO-16-UAIC', 'RRC-KI-T1', 'RRC_KI_T1', 'RU-Protvino-IHEP', 'SAMPA', 'SARA', 'SARA-MATRIX', 
+#                   'SE-SNIC-T2', 'SNIC', 'SPbSU', 'SUT', 'SWT2_CPB', 'SaoPaulo', 'SiGNET', 'Strasbourg_IRES', 'Subatech', 'T0_CH_CERN', 'T1_DE_KIT', 'T1_ES_PIC', 'T1_FR_CCIN2P3', 'T1_IT_CNAF', 
+#                   'T1_RU_JINR', 'T1_UK_RAL', 'T1_US_FNAL', 'T2_AT_Vienna', 'T2_BE_IIHE', 'T2_BE_UCL', 'T2_BR_SPRACE', 'T2_BR_UERJ', 'T2_CH_CERN', 'T2_CH_CSCS', 'T2_CN_Beijing', 'T2_DE_DESY', 
+#                   'T2_DE_RWTH', 'T2_EE_Estonia', 'T2_ES_CIEMAT', 'T2_ES_IFCA', 'T2_FI_HIP', 'T2_FR_GRIF', 'T2_FR_GRIF_LLR', 'T2_FR_IPHC', 'T2_GR_Ioannina', 'T2_HU_Budapest', 'T2_IN_TIFR', 'T2_IT_Bari', 
+#                   'T2_IT_Legnaro', 'T2_IT_Pisa', 'T2_IT_Rome', 'T2_KR_KISTI', 'T2_PK_NCP', 'T2_PL_Cyfronet', 'T2_PL_Swierk', 'T2_PT_NCG_Lisbon', 'T2_RU_IHEP', 'T2_RU_INR', 'T2_RU_ITEP', 'T2_RU_JINR', 
+#                   'T2_TR_METU', 'T2_TW_NCHC', 'T2_UA_KIPT', 'T2_UK_London_Brunel', 'T2_UK_London_IC', 'T2_UK_SGrid_Bristol', 'T2_UK_SGrid_RALPP', 'T2_US_Caltech', 'T2_US_Florida', 'T2_US_MIT', 
+#                   'T2_US_Nebraska', 'T2_US_Purdue', 'T2_US_UCSD', 'T2_US_Vanderbilt', 'T2_US_Wisconsin', 'T3_BG_UNI_SOFIA', 'T3_CH_CERNBOX', 'T3_CH_CERN_DOMA', 'T3_CH_CERN_OpenData', 'T3_CH_PSI', 
+#                   'T3_CN_PKU', 'T3_CY_UCY', 'T3_FR_IPNL', 'T3_HR_IRB', 'T3_IN_TIFRCloud', 'T3_IR_IPM', 'T3_IT_Bologna', 'T3_IT_MIB', 'T3_IT_Trieste', 'T3_KR_KISTI', 'T3_KR_KNU', 'T3_KR_UOS', 
+#                   'T3_MX_Cinvestav', 'T3_TW_NCU', 'T3_TW_NTU_HEP', 'T3_TW_TIDC', 'T3_UK_London_QMUL', 'T3_UK_London_RHUL', 'T3_UK_ScotGrid_GLA', 'T3_US_Baylor', 'T3_US_Brown', 'T3_US_CMU', 
+#                   'T3_US_Colorado', 'T3_US_FNALLPC', 'T3_US_MIT', 'T3_US_NERSC', 'T3_US_NotreDame', 'T3_US_OSG', 'T3_US_OSU', 'T3_US_PSC', 'T3_US_Princeton_ICSE', 'T3_US_PuertoRico', 'T3_US_Rice', 
+#                   'T3_US_Rutgers', 'T3_US_SDSC', 'T3_US_TACC', 'T3_US_UMD', 'T3_US_UMiss', 'TACC', 'TECHNION-HEP', 'TOKYO-LCG2', 'TR-10-ULAKBIM', 'TRIUMF-LCG2', 'TW-FTT', 'Taiwan-LCG2', 'Torino', 
+#                   'Troitsk', 'UAM-LCG2', 'UKI-LT2-Brunel', 'UKI-LT2-IC-HEP', 'UKI-LT2-QMUL', 'UKI-LT2-RHUL', 'UKI-NORTHGRID-LANCS-HEP', 'UKI-NORTHGRID-LIV-HEP', 'UKI-NORTHGRID-MAN-HEP', 
+#                   'UKI-NORTHGRID-SHEF-HEP', 'UKI-SCOTGRID-DURHAM', 'UKI-SCOTGRID-ECDF', 'UKI-SCOTGRID-GLASGOW', 'UKI-SOUTHGRID-BHAM-HEP', 'UKI-SOUTHGRID-OX-HEP', 'UKI-SOUTHGRID-RALPP', 
+#                   'UKI-SOUTHGRID-SUSX', 'UM6P', 'UNAM_T1', 'UNI-BONN', 'UNI-FREIBURG', 'UNIBE-LHEP', 'UNIGE-DPNC', 'UPB', 'Vega', 'Vienna', 'WEIZMANN-LCG2', 'WT2', 'ZA-CHPC', 'ZA-WITS-CORE', 'ZA_CHPC', 
+#                   'ifae', 'mainz', 'pic', 'praguelcg2', 'ru-Moscow-MEPHI-LCG2', 'ru-PNPI', 'ru-PNPI_XCACHE', 'ru-PNPI_XCACHE_NODES', 'wuppertalprod']
+
+src_rcsite: ['rc_site_1', 'rc_site_2', 'rc_site_3', 'rc_site_4'] # Source RC_Sites
+dst_rcsite: ['rc_site_1', 'rc_site_2', 'rc_site_3', 'rc_site_4'] # Destination RC_Sites
+events_to_wait_until_notification: 5     # Number of events to wait until send an email for notification
+max_throughput_threshold_link    : 5     # Maximum throughput threshold for the link [Gb/s]: the 'START' notification will be generated if throughput > max_throughput_threshold_link
+min_throughput_threshold_link    : 2     # Minimum throughput threshold for the link [Gb/s]: the 'STOP'  notification will be generated if throughput < min_throughput_threshold_link
+unidirectional_link              : False # If False both TX and RX paths will be monitoring: {src -> dst}, {dst -> src}
+number_of_dynamic_circuits       : 2     # Number of dynamic circuits that are available in the link
+sense_uuid                       : 'sense_uuid_1' # Sense-o UUID dynamic circuit
+sense_vlan                       : 'vlan_description_1' # VLAN description
+sense_uuid_2                     : 'sense_uuid_2' # Sense-o UUID dynamic circuit
+sense_vlan_2                     : 'vlan_description_2' # VLAN description
+from_email_address               : 'email_1' # Email address where the email notification will came from
+to_email_address                 : 'email_1, email_2' # Email address to send notification
+subject_email                    : 'subject' # Subject of the email
+message_email                    : "message" # Custom message to be send on the email [double quotes for \n]
+auth_token                       : auth_token # Authenticantion token

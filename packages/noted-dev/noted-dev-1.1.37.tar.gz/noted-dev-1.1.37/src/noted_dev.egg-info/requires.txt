@@ -1,0 +1,7 @@
+wheel
+setuptools
+pandas
+numpy
+PyYAML
+sendmail
+sense-o-api

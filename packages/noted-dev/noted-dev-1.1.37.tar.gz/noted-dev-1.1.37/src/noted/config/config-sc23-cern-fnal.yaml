@@ -1,0 +1,30 @@
+# © Copyright 2022 CERN. This software is distributed under the terms of 
+# the GNU General Public Licence version 3 (GPL Version 3), copied verbatim 
+# in the file "LICENCE.txt". In applying this licence, CERN does not waive 
+# the privileges and immunities granted to it by virtue of its status as an 
+# Intergovernmental Organization or submit itself to any jurisdiction.
+
+#
+# NOTED
+# CONFIGURATION FILE FOR ALL
+# PARAMETERS TO SET UP BY THE USER
+#
+get_by: ['federation', 'federation']
+source: ['US-FNAL-CMS']   # federation
+destination: ['CH-CERN']  # federation
+alarm_id   : 0
+alarm_timestamp: '0'
+events_to_wait_until_notification: 1     # Number of events to wait until send an email for notification
+max_throughput_threshold_link    : -0.1   # Maximum throughput threshold for the link [Gb/s]: the 'START' notification will be generated if throughput > max_throughput_threshold_link
+min_throughput_threshold_link    : 300   # Minimum throughput threshold for the link [Gb/s]: the 'STOP'  notification will be generated if throughput < min_throughput_threshold_link
+unidirectional_link              : False # If False both TX and RX paths will be monitoring: {src -> dst}, {dst -> src}
+number_of_dynamic_circuits       : 1     # Number of dynamic circuits that are available in the link
+sense_uuid                       : '' # VLAN sense-o UUID dynamic circuit
+sense_vlan                       : '' # VLAN description
+sense_uuid_2                     : '' # VLAN sense-o UUID dynamic circuit
+sense_vlan_2                     : '' # VLAN description
+from_email_address               : 'noted@cern.ch' # Email address where the email notification will came from
+to_email_address                 : 'carmen.misa.moreira@cern.ch' # Email address to send notification
+subject_email                    : '[NOTED-FNAL] Notification' # Subject of the email
+message_email                    : "Hi,\n\nAn action on the network is required...\n\n" # Custom message to be send on the email
+auth_token                       : eyJrIjoiV2NBTDJLamIxRmcyazl1YnNXNkEzSDU0UzZEbkdFTWsiLCJuIjoiZnRzX25vdGVkIiwiaWQiOjI1fQ== # Authentication token

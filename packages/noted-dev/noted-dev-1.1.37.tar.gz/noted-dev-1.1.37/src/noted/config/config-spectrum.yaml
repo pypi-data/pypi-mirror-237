@@ -1,0 +1,25 @@
+alarm_id: 476
+alarm_timestamp: '1698327433'
+auth_token: eyJrIjoiV2NBTDJLamIxRmcyazl1YnNXNkEzSDU0UzZEbkdFTWsiLCJuIjoiZnRzX25vdGVkIiwiaWQiOjI1fQ==
+destination: [CH-CERN]
+events_to_wait_until_notification: 2
+from_email_address: noted@cern.ch
+get_by: [federation, federation]
+max_throughput_threshold_link: 0.1
+message_email: 'Hi,
+
+
+  An action on the network is required...
+
+
+  '
+min_throughput_threshold_link: 0.01
+number_of_dynamic_circuits: 1
+sense_uuid: ''
+sense_uuid_2: ''
+sense_vlan: ''
+sense_vlan_2: ''
+source: [NON-MOU-Federation]
+subject_email: '[NOTED-SPECTRUM] Notification'
+to_email_address: carmen.misa.moreira@cern.ch
+unidirectional_link: true

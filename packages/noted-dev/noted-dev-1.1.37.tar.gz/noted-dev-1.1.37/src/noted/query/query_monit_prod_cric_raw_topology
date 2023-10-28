@@ -1,0 +1,2 @@
+{"search_type": "query_then_fetch", "ignore_unavailable": true, "index": ["monit_prod_cric_raw_topology*"]}
+{"query" : {"bool": {"filter": [{"range": {"metadata.timestamp": {"gte": "now-6h"}}}]}}, "sort" : [{"metadata.timestamp": "desc"}] , "from" : 0, "size" : 10000}

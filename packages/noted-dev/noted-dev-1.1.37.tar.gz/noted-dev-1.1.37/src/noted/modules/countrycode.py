@@ -1,0 +1,56 @@
+# © Copyright 2022 CERN. This software is distributed under the terms of
+# the GNU General Public Licence version 3 (GPL Version 3), copied verbatim
+# in the file "LICENCE.txt". In applying this licence, CERN does not waive
+# the privileges and immunities granted to it by virtue of its status as an
+# Intergovernmental Organization or submit itself to any jurisdiction.
+
+from enum import Enum
+
+class CountryCode(Enum):
+    """Class for country code attributes."""
+    _AR = 'AR'
+    _AT = 'AT'
+    _AU = 'AU'
+    _AZ = 'AZ'
+    _BE = 'BE'
+    _BG = 'BG'
+    _BR = 'BR'
+    _CA = 'CA'
+    _CH = 'CH'
+    _CL = 'CL'
+    _CN = 'CN'
+    _CY = 'CY'
+    _CZ = 'CZ'
+    _DE = 'DE'
+    _EE = 'EE'
+    _ES = 'ES'
+    _FI = 'FI'
+    _FR = 'FR'
+    _GB = 'GB'
+    _GR = 'GR'
+    _HR = 'HR'
+    _HU = 'HU'
+    _IL = 'IL'
+    _IN = 'IN'
+    _IR = 'IR'
+    _IT = 'IT'
+    _JP = 'JP'
+    _KR = 'KR'
+    _MA = 'MA'
+    _MX = 'MX' 
+    _NL = 'NL'
+    _NO = 'NO'
+    _PK = 'PK'
+    _PL = 'PL'
+    _PT = 'PT'
+    _RO = 'RO'
+    _RU = 'RU'
+    _SE = 'SE'
+    _SI = 'SI'
+    _SK = 'SK'
+    _TH = 'TH'
+    _TR = 'TR'
+    _TW = 'TW'
+    _UA = 'UA'
+    _US = 'US'
+    _ZA = 'ZA'
