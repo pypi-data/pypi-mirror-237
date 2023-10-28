@@ -1,0 +1,11 @@
+pyaprilaire/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyaprilaire/client.py,sha256=lg9XC3OaStwTYpNI5wYK-5u2tE7XTC4HmhE98IOC6Jg,17326
+pyaprilaire/const.py,sha256=5WAKdJMtOA_JTDRYCphTiEvqE3TpjmPnBNxKbLFnVLw,4848
+pyaprilaire/mock_server.py,sha256=s4sT6pFJrQpEgvUMb-KgpHBlYoeyKgVgzPORebdyTgk,26754
+pyaprilaire/packet.py,sha256=hJMfMCEJUbR0k4MF2gQLKuU7_3gy41dKSdxs-cTcqz8,18700
+pyaprilaire/socket_client.py,sha256=WsxW3ODyGWpExd1o_HkatlQVma-ld_Hc5UQP4e6uOUU,4649
+pyaprilaire-0.7.1b0.dist-info/LICENSE,sha256=K_wSLar4q1DEB9e9PF5-XAkvJZvrUt9Koqr3yl21Lfg,1086
+pyaprilaire-0.7.1b0.dist-info/METADATA,sha256=2LATmowWWkR5IwvIomlS8iX6bn8hzzaDkvVV8x_wOOw,2732
+pyaprilaire-0.7.1b0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pyaprilaire-0.7.1b0.dist-info/top_level.txt,sha256=dLetsxoTk9G0_qKsdvoh4AGVmHny98KXeVMOyhhgfqM,12
+pyaprilaire-0.7.1b0.dist-info/RECORD,,
