@@ -1,0 +1,3 @@
+[console_scripts]
+my_flask_api = my_flask_api.app:main
+
