@@ -1,0 +1,3 @@
+recursive-include streamlit_pannellum/frontend/dist *
+include streamlit_pannellum/pypi_readme.md
+
