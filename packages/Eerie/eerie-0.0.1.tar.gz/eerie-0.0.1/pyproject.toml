@@ -1,0 +1,99 @@
+[tool.poetry]
+name = "Eerie"
+version = "0.0.1"
+description = "A sensible query string library for python."
+authors = ["Daniel Knell <contact@danielknell.co.uk>"]
+readme = "README.md"
+packages = [{include = "eerie", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.docs.dependencies]
+myst-parser = "^0.17.2"
+sphinx-artisan-theme = "^0.0.2"
+autodocsumm = "^0.2.11"
+sphinx-autobuild = "^2021.3.14"
+sphinxcontrib-spelling = "^8.0.0"
+
+[tool.poetry.group.dev.dependencies]
+shed = "^2023.5.1"
+pylint = "^2.17.4"
+mypy = "^1.3.0"
+pytest = "^7.3.1"
+pytest-cov = "^4.0.0"
+typeguard = "^3.0.2"
+docformatter = "^1.7.0"
+pytest-pylint = {git = "https://github.com/carsongee/pytest-pylint.git", rev = "804add7"}
+pytest-mypy = "^0.10.3"
+pydocstyle = "^6.3.0"
+pytest-pydocstyle = "^2.3.2"
+pyenchant = "^3.2.2"
+hypothesis = "^6.75.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+known_localfolder = ['tests']
+
+[tool.pylint.master]
+load-plugins = [
+    "pylint.extensions.bad_builtin",
+    "pylint.extensions.mccabe",
+    "pylint.extensions.docstyle",
+    "pylint.extensions.check_elif",
+    "pylint.extensions.eq_without_hash",
+    "pylint.extensions.private_import",
+    "pylint.extensions.redefined_variable_type",
+    "pylint.extensions.overlapping_exceptions",
+    "pylint.extensions.docparams",
+    "pylint.extensions.empty_comment",
+    "pylint.extensions.set_membership",
+    "pylint.extensions.typing",
+    "pylint.extensions.while_used",
+]
+
+[tool.pylint.basic]
+good-names = ["i", "j", "k", "ex", "Run", "_", "to"]
+
+[tool.pylint.messages_control]
+disable = [
+    "docstring-first-line-empty",
+]
+
+[tool.pylint.format]
+max-line-length = 88
+
+[tool.pylint.spelling]
+spelling-dict = "en_GB"
+spelling-private-dict-file = ".dictionary"
+
+[tool.pylint.similarities]
+ignore-signatures = true
+ignore-imports = true
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+filterwarnings = [
+    "error",
+    "ignore::pytest.PytestRemovedIn8Warning",
+]
+
+[tool.pylint.parameter_documentation]
+default-docstring-type = "sphinx"
+
+[tool.mypy]
+strict = true
+
+[tool.pydocstyle]
+add-ignore = [
+    "D102",
+    "D105",
+    "D107",
+    "D200",
+    "D212",
+]
