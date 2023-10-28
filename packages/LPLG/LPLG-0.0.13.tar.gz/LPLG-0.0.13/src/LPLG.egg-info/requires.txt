@@ -1,0 +1,4 @@
+polars>=0.19.0
+msgspec>=0.18.4
+requests>=2.5.4.1
+python-dotenv>=0.10.2

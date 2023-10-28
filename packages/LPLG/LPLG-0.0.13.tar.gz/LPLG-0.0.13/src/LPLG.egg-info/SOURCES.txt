@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/parse.py
+src/LPLG.egg-info/PKG-INFO
+src/LPLG.egg-info/SOURCES.txt
+src/LPLG.egg-info/dependency_links.txt
+src/LPLG.egg-info/requires.txt
+src/LPLG.egg-info/top_level.txt
+src/config/__init__.py
+src/config/config.py
+src/schemas/__init__.py
+src/schemas/schemas.py
