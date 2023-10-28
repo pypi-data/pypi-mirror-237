@@ -1,0 +1,9 @@
+jupyter_formily/__init__.py,sha256=6L1ZT48gOU69sk2CHeK9GAlOfeLQZY_gMt4ch5LrhYg,28
+jupyter_formily/_contant.py,sha256=65yAHoySA6gD76QWojSgERPlDD-9K7VLw-pehTNgUa8,131
+jupyter_formily/formily.py,sha256=3UNIHABypvFbR7JIcNEt9eYxWttetJ95A_bwY3w8mzQ,3163
+vendor/formily/dist/Formily.css,sha256=H5_nyYTgd1p0dpnqlQBQeYHKCXD7pMIFSLYXkmscGkA,363
+vendor/formily/dist/Formily.js,sha256=cQJW8mN4jv3QsGbgg27P4zxr5kEmzHYaTFWZyP1FgUk,2269762
+jupyter_formily-0.0.4.dist-info/LICENSE,sha256=lowsH8pGUW9Gr4glMMYFBXxz7zNujXwyT41S5aBfPqI,1075
+jupyter_formily-0.0.4.dist-info/METADATA,sha256=gCDYVCFC-RZ8-xQK8As_1DeAXnzy9eJDsxOMVS54xNs,3603
+jupyter_formily-0.0.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+jupyter_formily-0.0.4.dist-info/RECORD,,
