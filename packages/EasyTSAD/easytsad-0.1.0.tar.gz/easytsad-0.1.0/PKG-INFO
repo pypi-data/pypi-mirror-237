@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: EasyTSAD
+Version: 0.1.0
+Summary: A Suite for TimeSeries Anomaly Detection Benchmark
+License: GPL-3.0
+Author: HT Si
+Author-email: htsi@cnic.cn
+Requires-Python: >=3.9,<3.13
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: matplotlib (>=3.8.0,<4.0.0)
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Requires-Dist: pandas (>=2.1.2,<3.0.0)
+Requires-Dist: scikit-learn (>=1.3.2,<2.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+EasyTSAD is a suite to facilitate the quick implementation and iteration of your time series anomaly detection algorithms. You can also easily develop a new set of evaluation metrics based on this suite and assess them against baseline methods. 
+
+We welcome you to send the algorithm code implemented based on this suite to our email. We will integrate your method into the algorithm library, making it convenient for researchers and practitioners to utilize your approach.
