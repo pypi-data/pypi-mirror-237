@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyauth0/__init__.py
+pyauth0/errors.py
+pyauth0/token_provider.py
+pyauth0/token_verifier.py
+pyauth0.egg-info/PKG-INFO
+pyauth0.egg-info/SOURCES.txt
+pyauth0.egg-info/dependency_links.txt
+pyauth0.egg-info/requires.txt
+pyauth0.egg-info/top_level.txt
+test/test_pyauth0.py
