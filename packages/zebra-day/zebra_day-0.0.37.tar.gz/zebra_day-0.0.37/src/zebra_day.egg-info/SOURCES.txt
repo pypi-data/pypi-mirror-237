@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/zebra_day/__init__.py
+src/zebra_day/print_mgr.py
+src/zebra_day.egg-info/PKG-INFO
+src/zebra_day.egg-info/SOURCES.txt
+src/zebra_day.egg-info/dependency_links.txt
+src/zebra_day.egg-info/requires.txt
+src/zebra_day.egg-info/top_level.txt
+src/zebra_day/bin/scan_for_networed_zebra_printers.py
+src/zebra_day/bin/te.py
+src/zebra_day/bin/zserve.py
