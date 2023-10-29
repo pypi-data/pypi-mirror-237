@@ -1,0 +1,9 @@
+build
+
+[tests]
+pytest~=7.0
+pytest-cov
+pytest-mock
+coverage
+hypothesis
+mypy~=1.0
