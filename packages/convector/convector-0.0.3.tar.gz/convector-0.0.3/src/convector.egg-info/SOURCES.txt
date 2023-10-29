@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/convector/__init__.py
+src/convector/cli.py
+src/convector/convector.py
+src/convector/handlers.py
+src/convector.egg-info/PKG-INFO
+src/convector.egg-info/SOURCES.txt
+src/convector.egg-info/dependency_links.txt
+src/convector.egg-info/entry_points.txt
+src/convector.egg-info/requires.txt
+src/convector.egg-info/top_level.txt
