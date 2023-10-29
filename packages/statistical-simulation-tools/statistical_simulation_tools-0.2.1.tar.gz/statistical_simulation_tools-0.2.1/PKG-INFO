@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: statistical_simulation_tools
+Version: 0.2.1
+Summary: Tools for fitting, and validating distributions
+Requires-Python: >=3.7,<=3.11
+License-File: LICENSE
