@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "turing_21_matrix_operations"
+version = "0.1.5"
+description = "Turing college DE 2.1 coursework for Matrix operations: transform, window and cross-correlation using Python standard library."
+authors = ["Domantas G"]
+readme = "README.md"
+packages = [{include = "turing_21_matrix_operations"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+numpy = "^1.26.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

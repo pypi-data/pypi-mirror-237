@@ -1,0 +1,134 @@
+Metadata-Version: 2.1
+Name: turing_21_matrix_operations
+Version: 0.1.5
+Summary: Turing college DE 2.1 coursework for Matrix operations: transform, window and cross-correlation using Python standard library.
+Author: Domantas G
+Requires-Python: >=3.10,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+## Contents
+
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Functions](#functions)
+  - [create_random_matrix](#create_random_matrix)
+  - [transpose2d](#transpose2d)
+  - [window1d](#window1d)
+  - [convolution2d](#convolution2d)
+- [Custom Generic Types](#custom-generic-types)
+- [Future Improvements](#future-improvements)
+
+## Overview
+
+This library offers `transpose2d`, `window1d` and `convolution2d` functions to perform 2D matrix creation, transposition and cross-correlation, and 1D array windowing.These functions are particularly useful for machine learning applications.
+
+## Prerequisites
+
+Python 3.10 or newer.
+Numpy 1.26.1 or newer.
+
+## Custom Generic Types
+
+Within this library, there are three custom generic types to streamline function signatures and maintain type consistency, which can be enforced by MyPy:
+
+- Matrix: Represents a 2D list of floats and is bound to `List[List[float]]`.
+- Array1D: Represents a 1D array, which can either be a Python list or a 1D numpy array. It is defined as `TypeVar("Array1D", List[float], np.ndarray)`.
+- Matrix2D: Represents a 2D numpy array and is bound to np.ndarray.
+
+## Installation
+
+Package can be reached manually at [PyPi](https://pypi.org/project/turing-21-matrix-operations/).
+
+The library can be installed directly from PyPi:
+
+`pip install turing_21_matrix_operations`
+
+## Functions
+
+### Create Random Matrix
+
+The create_random_matrix function generates a matrix filled with random numbers between 0 and 10.
+
+Arguments
+
+- rows (int): Number of rows in the matrix.
+- columns (int): Number of columns in the matrix.
+
+Returns
+
+- Matrix: 2D list of random floats.
+
+**Usage**:
+
+```python
+from turing_21_matrix_operations import create_random_matrix
+matrix = create_random_matrix(3, 4)
+print(matrix)
+```
+
+### Transpose2D
+
+The transpose2d function is designed to transpose a 2D matrix by swapping its rows and columns.
+
+Arguments
+
+- input_matrix (Matrix): 2D list to be transposed.
+
+Returns
+
+- Matrix: Transposed 2D list.
+
+```python
+from turing_21_matrix_operations import transpose2d
+matrix = [[1, 2], [3, 4], [5, 6]]
+transposed = transpose2d(input_matrix=matrix)
+print(transposed)
+```
+
+### Window1D
+
+The window1d function creates overlapping windows of a given size from a 1D list or numpy array.
+
+Arguments
+
+- input_array (Array1D): 1D list or numpy array.
+- size (int): Desired window size.
+- shift (int, optional): Window shift size. Default is 1.
+- stride (int, optional): Window stride size. Default is 1.
+
+Returns
+
+- List[Array1D]: List of 1D windows.
+
+```python
+from turing_21_matrix_operations import window1d
+input_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+windows = window1d(input_array=input_array, size=2, shift=2, stride=2)
+print(windows)
+```
+
+### Convolution2D
+
+The convolution2d function performs 2D convolution using a given kernel.
+
+Arguments
+
+- input_matrix (Matrix2D): 2D numpy array input matrix.
+- kernel (Matrix2D): 2D numpy array convolution kernel.
+- stride (int, optional): Convolution stride. Default is 1.
+  Returns
+- Matrix2D: Convolved 2D numpy array.
+
+```python
+from turing_21_matrix_operations import convolution2d
+input_matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+kernel = np.array([[1, 0], [0, -1]])
+convolved = convolution2d(input_matrix=input_matrix, kernel=kernel)
+print(convolved)
+```
+
