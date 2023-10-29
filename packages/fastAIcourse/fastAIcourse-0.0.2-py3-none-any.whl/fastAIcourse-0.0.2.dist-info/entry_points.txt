@@ -1,0 +1,11 @@
+[console_scripts]
+gacp = fastAIcourse.automate:gacp
+h = fastAIcourse.automate:h
+prep = fastAIcourse.automate:prep
+reinstall = fastAIcourse.automate:reinstall
+setup = fastAIcourse.automate:reinstall
+up = fastAIcourse.automate:upload
+upload = fastAIcourse.automate:upload
+
+[nbdev]
+fastAIcourse = fastAIcourse._modidx:d
