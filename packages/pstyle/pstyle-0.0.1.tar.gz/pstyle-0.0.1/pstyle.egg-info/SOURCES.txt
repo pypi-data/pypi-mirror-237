@@ -1,0 +1,12 @@
+CHANGELOG
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pstyle/__init__.py
+pstyle/lcolor.py
+pstyle/tcolor.py
+pstyle.egg-info/PKG-INFO
+pstyle.egg-info/SOURCES.txt
+pstyle.egg-info/dependency_links.txt
+pstyle.egg-info/top_level.txt
