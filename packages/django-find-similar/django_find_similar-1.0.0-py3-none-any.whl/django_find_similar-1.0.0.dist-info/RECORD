@@ -1,0 +1,14 @@
+django_find_similar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_find_similar/admin.py,sha256=IDo7eur8SG4GWiuk6exw702eLy8ANtl9OEYnJQxIbHI,108
+django_find_similar/apps.py,sha256=msoenAs6W4dRJHrv8ftR8inMlmdUaeJkdiqOBlNdwF4,275
+django_find_similar/models.py,sha256=zEXqCLKp_8fA_pIgW6IYEwTOMF-kDZPwFpDyAMZ6E5Q,890
+django_find_similar/package.py,sha256=zVibX9bM0C1D4Mtj9TAUZ5wVj7jnFGzths6gN0d4x5M,88
+django_find_similar/migrations/0001_initial.py,sha256=1Mfmp7hEasQkzFr1OfyJubqo6kkjnDE7IWakCc-3aws,1218
+django_find_similar/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_find_similar/tests/__init__.py,sha256=98CHL52WVrPHn4BHFmzEOzdgwaGvLWsJ3l1qY3h7wNs,26
+django_find_similar/tests/tests_models.py,sha256=lwhQAyuCTPt_j3JCjemRyYKavr8vpcxuF8mLjqwyOj0,1033
+django_find_similar-1.0.0.dist-info/LICENSE,sha256=-lvekjFt3jd4othB4gr77RNz3tqlrKQm4XhUhgiFpdQ,1068
+django_find_similar-1.0.0.dist-info/METADATA,sha256=AmZ2EjRx36NEY0aJplK2JWQAV_tgKd7md_xU9OxkAik,7283
+django_find_similar-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+django_find_similar-1.0.0.dist-info/top_level.txt,sha256=qJcRkYbQyIAcQ-bKco_wojCSsjvRtSiXMf_JfahxOlw,20
+django_find_similar-1.0.0.dist-info/RECORD,,
