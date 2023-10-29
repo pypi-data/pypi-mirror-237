@@ -1,0 +1,14 @@
+tqdm
+loguru
+typer
+universal_pathlib
+datamol
+numpy
+torch>=2.0
+transformers
+datasets
+tokenizers
+accelerate
+evaluate
+wandb
+huggingface-hub
