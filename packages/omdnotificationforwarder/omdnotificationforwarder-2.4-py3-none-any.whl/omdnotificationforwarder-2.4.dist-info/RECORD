@@ -1,0 +1,13 @@
+notificationforwarder/baseclass.py,sha256=aY6I6yd3LTRaNSI1C3hkcKCX9P0erJqgGgfrcKmBVxc,14416
+notificationforwarder/email/formatter.py,sha256=4FPnxVsbumacPQ0SVz_IeKtIZ74JYmZAREdmQ8Ne4Zs,718
+notificationforwarder/email/forwarder.py,sha256=v6w9kxfCHfJBxKzzGNO6DfHPLxOzwB_TC3MAfgO_PKo,1468
+notificationforwarder/example/formatter.py,sha256=hulN2n4uPskFNJ3jlU-ATOhICA2q8TX5SuSBMpKTUIc,540
+notificationforwarder/example/forwarder.py,sha256=AEuYcaJQ2dkrTf8QmMw7t2_u9KeauRwTZKS_1I5rneE,1893
+notificationforwarder/rabbitmq/formatter.py,sha256=GxQCHUKcZ5flH4Ft7dihL1a8B0NNpkIeHackXrWyPC0,1183
+notificationforwarder/rabbitmq/forwarder.py,sha256=J5w8h2qmrYFqvLAdf6gFvzSzZNWtY4T8mNp3orw5esI,3264
+notificationforwarder/syslog/formatter.py,sha256=UF8AbwdXQ-V2kUpR24oGmNLtOKngQ6cf43BgdWKouUA,874
+notificationforwarder/syslog/forwarder.py,sha256=AbnOroiDB5y_LcgnwOHnAlyFF5q5LlDViclKc6XCC4E,2334
+notificationforwarder/webhook/forwarder.py,sha256=cdNdv-C99nKR24kTBqIUO4L_K8o8NL5oT71KrqPFFjo,3147
+omdnotificationforwarder-2.4.dist-info/METADATA,sha256=a9Aksvgclng-_r-84-7_L8A93M1ZVGHyYCfmLAlAu6g,7002
+omdnotificationforwarder-2.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+omdnotificationforwarder-2.4.dist-info/RECORD,,
