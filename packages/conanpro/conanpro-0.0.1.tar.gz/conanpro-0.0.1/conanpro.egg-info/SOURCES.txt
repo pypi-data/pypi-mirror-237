@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+conanpro/__init__.py
+conanpro/_modidx.py
+conanpro/core.py
+conanpro.egg-info/PKG-INFO
+conanpro.egg-info/SOURCES.txt
+conanpro.egg-info/dependency_links.txt
+conanpro.egg-info/entry_points.txt
+conanpro.egg-info/not-zip-safe
+conanpro.egg-info/requires.txt
+conanpro.egg-info/top_level.txt
