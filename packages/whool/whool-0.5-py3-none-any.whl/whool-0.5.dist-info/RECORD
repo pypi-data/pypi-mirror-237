@@ -1,0 +1,14 @@
+whool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whool/__main__.py,sha256=K_62REplNMCl0h1UZnh8b0ojLZzgboinI76v8JRLs2U,64
+whool/buildapi.py,sha256=mZ9piIeWToyJfa4pm-xWNqurKDxdAJBThlCaYxUQK64,7740
+whool/cli.py,sha256=BtgIv2EFgQqMCWNYVUgl2Aeak6PmodmkZuH3Q9A4my8,1821
+whool/compat.py,sha256=K3nC4jyc746adw6FDFzafFmUAntMFtPFStWk2Jgs1og,327
+whool/init.py,sha256=Mits86Ouh_9PENoCnHzGb5dutReI0uD3vvLA2RoVlzY,1357
+whool/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whool/utils.py,sha256=dEY3NQToC4W5oHEIuIdrQgXqllS8ZoX3JJYdQArPNIM,337
+whool/version.py,sha256=JXByG7pC6bNyZVOnly7R_Qcaaxh1z0eNlXXKTWV_f1U,86
+whool-0.5.dist-info/METADATA,sha256=qLLcECaa8GpvmOPpEB2eD35TJf9qCyYTEJ91XavNz_c,4503
+whool-0.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+whool-0.5.dist-info/entry_points.txt,sha256=RWbZVPW78LQKKgXkUgjwmolqbwkJOGjBfITbu1iJHcM,41
+whool-0.5.dist-info/licenses/LICENSE,sha256=4WgpJBufjZ10cYH2Jr1-jDZNOj8TRVtpPYOfb3E-Wdc,1083
+whool-0.5.dist-info/RECORD,,
