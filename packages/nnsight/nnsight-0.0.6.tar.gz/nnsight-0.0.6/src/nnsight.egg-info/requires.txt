@@ -1,0 +1,10 @@
+transformers
+protobuf
+python-socketio[client]
+tokenizers
+pydantic
+torch
+sentencepiece
+torchvision
+accelerate
+diffusers
