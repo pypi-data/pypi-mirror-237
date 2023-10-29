@@ -1,0 +1,16 @@
+MANIFEST.in
+setup.py
+ermini/MANIFEST.in
+ermini/README.md
+ermini/__init__.py
+ermini/celery.py
+ermini/requirements.txt
+ermini/settings.py
+ermini/setup.py
+ermini/urls.py
+ermini.egg-info/PKG-INFO
+ermini.egg-info/SOURCES.txt
+ermini.egg-info/dependency_links.txt
+ermini.egg-info/not-zip-safe
+ermini.egg-info/requires.txt
+ermini.egg-info/top_level.txt
