@@ -1,0 +1,184 @@
+Metadata-Version: 2.1
+Name: django-liquidb
+Version: 0.4
+Summary: Liquidb is a Django app that simplifies migration management.
+Author: Vitalii Gusakovskiy
+License: ## License
+        
+        Copyright © 2021-present, Vitalii Gusakovkiy. All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+        
+        Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+        
+        Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+        
+        Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Repository, https://github.com/Gusakovskiy/django-liquidb
+Project-URL: Source, https://pypi.org/project/django-liquidb/
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Database
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: django >=3.2
+Provides-Extra: dev
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pylint-django ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: pytest-django ; extra == 'dev'
+Requires-Dist: beautifulsoup4 ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+
+# Liquidb
+
+
+Liquidb is a Django app that simplifies migration management.
+It introduces commits (savepoints) that allows developer to take snapshot of current migration state of whole Django project.
+Snapshot introduces abstraction layer, which let you easily switch back and forth in complicated migration graph of dependent apps.
+In order to roll(back/forward) all migrations should be revertable.
+
+
+
+## Requirements
+
+Django Liquidb requires:
+    * Django 3.2 or later;
+    * Python 3.8 or later.
+
+
+### Getting It
+
+You can get Django Liquidb by using pip::
+
+    $ pip install django-liquidb
+
+If you want to install it from source, grab the git repository from GitHub and run setup.py::
+
+    $ git clone git@github.com:Gusakovskiy/django-liquidb.git
+    $ cd django-liquidb
+    $ python setup.py install
+
+
+
+### Quick start
+
+
+1. Add "Liquidb" to your INSTALLED_APPS setting like this:
+   ```
+    INSTALLED_APPS = [
+        ...
+        'liquidb',
+    ]
+   ```
+
+3. Run ``python manage.py migrate liquidb`` to create the liquidb models.
+4. Create initial commit ``python manage.py create_migration_snapshot --name init``
+
+### Using It
+
+
+Create snapshot of your current state::
+
+    $ branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
+    $ hash=$(git rev-parse $branch)
+    $ python manage.py create_migration_snapshot --name $branch-${hash:0:8}
+
+In case you want to overwrite some snapshot::
+
+    $ python manage.py create_migration_snapshot --name $branch-${hash:0:8} --overwrite 1
+
+
+Return to desired state of db::
+
+    $ python manage.py checkout_snapshot --name state_name
+
+Return to latest snapshot::
+
+    $ python manage.py checkout_latest_snapshot
+
+If snapshot history is messed up you always can delete it without impact on your migration state and start from scratch::
+
+    $ python manage.py delete_snapshot_history
+
+
+If want to delete only one snapshot(it can not delete currently applied snapshot remember to checkout before that)::
+
+    $ python manage.py delete_snapshot_by_name --name name
+
+
+
+Or if you prefer admin vies you can always visit `/admin/liquidb/snapshot/` and create/apply/delete snapshot there.
+> If you would like to change to readonly view in admin please change ADMIN_SNAPSHOT_ACTIONS env variable to False or overwrite it you settings
+
+
+## Getting Involved
+
+
+Open Source projects can always use more help. Fixing a problem, documenting a feature, adding
+translation in your language. If you have some time to spare and like to help us, here are the places to do so:
+
+- GitHub: https://github.com/Gusakovskiy/django-liquidb
+
+
+### Development
+
+
+#### Generating dependencies
+
+Main dependencies::
+
+    $ pip-compile --upgrade --resolver backtracking  --output-file requirements.txt pyproject.toml
+
+Dev dependencies::
+
+    $ pip-compile --upgrade --resolver backtracking --extra dev --output-file requirements-dev.txt pyproject.toml
+
+If you see error that you can't figure out try to add `--verbose` flag
+
+
+After generating dependencies remember to change `backports.zoneinfo==0.2.1` to `backports.zoneinfo;python_version<"3.9"`
+this dependency is not supported by Python >= 3.9, it should be deleted after support for those versions is ended.
+
+
+### Configure environment
+
+
+In you local machine create virtual environment and activate it or setup docker container and run command::
+
+    $ pip install -r requirements-dev.txt
+
+To run test::
+
+    $ pytest tests
+
+To run linting::
+
+    $ pylint --load-plugins=pylint_django --django-settings-module=liquidb.pylint_settings liquidb
+
+## Support
+
+Django Liquidb is development and maintained by developers in an Open Source manner.
+Any support is welcome. You could help by writing documentation, pull-requests, report issues and/or translations.
+
+Please remember that nobody is paid directly to develop or maintain Django Liquidb so we do have to divide our time
+between work/family/hobby/this project and the rest of life.
