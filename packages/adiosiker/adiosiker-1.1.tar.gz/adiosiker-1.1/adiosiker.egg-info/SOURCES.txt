@@ -1,0 +1,5 @@
+setup.py
+adiosiker.egg-info/PKG-INFO
+adiosiker.egg-info/SOURCES.txt
+adiosiker.egg-info/dependency_links.txt
+adiosiker.egg-info/top_level.txt
