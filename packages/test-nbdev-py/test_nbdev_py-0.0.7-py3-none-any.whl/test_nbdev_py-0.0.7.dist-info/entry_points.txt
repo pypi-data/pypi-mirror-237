@@ -1,0 +1,2 @@
+[nbdev]
+nbdev_template = nbdev_template._modidx:d
