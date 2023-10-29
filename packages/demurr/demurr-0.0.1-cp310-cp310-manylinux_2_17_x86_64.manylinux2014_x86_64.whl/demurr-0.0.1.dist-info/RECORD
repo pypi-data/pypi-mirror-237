@@ -1,0 +1,13 @@
+demurr/msvc.pyi,sha256=PSg3q2uf4Y8kGB_irm7K7MRC9WfSKmbYjwM1Pjpd318,28
+demurr/_msvc_module.pyi,sha256=gKM9uhOTris4Bt7bcm5j1YPWL72gvm-jqwI3OAGq97U,48953
+demurr/__init__.py,sha256=9JGOBtusphF-FnR38KUuiyMZ064iNqfig8B2iiK5EHM,145
+demurr/msvc.py,sha256=VG4_g-0gys0vYFLJ-_qdDy7GMzf0ZFPqycaHKwW4ncs,277
+demurr/_msvc_module_d.pyi,sha256=gKM9uhOTris4Bt7bcm5j1YPWL72gvm-jqwI3OAGq97U,48953
+demurr/_msvc_module.cpython-310-x86_64-linux-gnu.so,sha256=A2QChV1EG7hQHG7k-pVP5C9-Dd-fS9MFA95QTGp2eyk,483080
+demurr/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+demurr/__init__.pyi,sha256=zzW5kOC2cKjfazkYVRRMLR_ISUrP47bXLblssfwW848,20
+demurr/_msvc_module_d.cpython-310-x86_64-linux-gnu.so,sha256=eDj60Nt7hd8TwpjU1leAfip_2PkR8VGp6InambQRSSY,1245624
+demurr-0.0.1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+demurr-0.0.1.dist-info/WHEEL,sha256=Kz8ZSS3SIMyj-IhChJgVKbS7274b_O80jmm09oJU7-Q,145
+demurr-0.0.1.dist-info/METADATA,sha256=8e12MD4-x8HXZKsvHIhhxjO7xXIaQ8ll7rU1x7cxAJo,396
+demurr-0.0.1.dist-info/RECORD,,
