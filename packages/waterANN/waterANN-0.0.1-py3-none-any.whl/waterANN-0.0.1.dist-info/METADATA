@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: waterANN
+Version: 0.0.1
+Summary: XGBoost model for uci bank marketing dataset
+Author: AJH
+Author-email: 0625dkswjdgn@g.skku.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# ANN model for water quality prediction
+
+- this package serves data preprocessing and model train/evaluation for water potability dataset,
