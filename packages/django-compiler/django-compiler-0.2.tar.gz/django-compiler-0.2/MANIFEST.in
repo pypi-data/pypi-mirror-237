@@ -1,0 +1,5 @@
+include LICENSE
+include README.md
+recursive-include django_compiler *.py
+recursive-include django_compiler/management *.py
+recursive-include django_compiler/management/commands *.py
