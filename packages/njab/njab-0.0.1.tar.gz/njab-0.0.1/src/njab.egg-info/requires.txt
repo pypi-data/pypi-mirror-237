@@ -1,0 +1,14 @@
+numpy
+pandas
+scikit-learn
+statsmodels
+umap-learn
+matplotlib
+mrmr_selection
+pingouin
+seaborn
+
+[docs]
+sphinx
+sphinx-book-theme
+myst-parser
