@@ -1,0 +1,5 @@
+[invenio_base.api_apps]
+oarepo_communities = oarepo_communities.ext:OARepoCommunities
+
+[invenio_base.apps]
+oarepo_communities = oarepo_communities.ext:OARepoCommunities
