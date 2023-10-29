@@ -1,0 +1,552 @@
+name: lowcode
+description: ''
+models:
+- name: App
+  description: An app that can be launched
+  tablename: apps
+  columns:
+  - name: name
+    description: The name of the app
+    datatype: string
+    default:
+    foreign_key:
+    nullable: false
+  - name: description
+    description: The description of the app
+    datatype: string
+    default:
+    foreign_key:
+    nullable: true
+  relationships: []
+  mixins:
+  - '....extensions.appbuilder.Base'
+- name: Extension
+  description: 'A specification for an extension '
+  tablename: extensions
+  columns:
+  - name: name
+    description: The name of the extension
+    datatype: string
+    default:
+    foreign_key:
+    nullable: false
+  - name: description
+    description: The description of the extension
+    datatype: string
+    default:
+    foreign_key:
+    nullable: false
+  relationships:
+  - name: apps
+    description: ''
+    target: App
+    backref: extensions
+    kind: Kind.many_to_many
+    secondary: app_extensions
+  mixins:
+  - '....extensions.appbuilder.Base'
+- name: AppExtensions
+  description: Represents many-to-many relationship between App and Extension
+  tablename: app_extensions
+  columns:
+  - name: app_id
+    description: The id of the app
+    datatype: integer
+    default:
+    foreign_key: apps.id
+    nullable: false
+  - name: extension_id
+    description: The id of the extension
+    datatype: integer
+    default:
+    foreign_key: extensions.id
+    nullable: false
+  relationships:
+  - name: extension
+    description: ''
+    target: Extension
+    backref:
+    kind: Kind.one_to_many
+    viewonly: true
+  - name: app
+    description: ''
+    target: App
+    backref:
+    kind: Kind.one_to_many
+    viewonly: true
+  mixins:
+  - '....extensions.appbuilder.Base'
+- name: Module
+  description: 'A specification for a module '
+  tablename: modules
+  columns:
+  - name: name
+    description: The name of the module
+    datatype: string
+    default:
+    foreign_key:
+    nullable: false
+  - name: description
+    description: The description of the module
+    datatype: string
+    default:
+    foreign_key:
+    nullable: false
+  relationships:
+  - name: apps
+    description: ''
+    target: App
+    backref: modules
+    kind: Kind.many_to_many
+    secondary: app_modules
+  mixins:
+  - '....extensions.appbuilder.Base'
+- name: AppModules
+  description: Represents m2m relationship between App and Module
+  tablename: app_modules
+  columns:
+  - name: app_id
+    description: The id of the app
+    datatype: integer
+    default:
+    foreign_key: apps.id
+    nullable: false
+  - name: module_id
+    description: The id of the module
+    datatype: integer
+    default:
+    foreign_key: modules.id
+    nullable: false
+  relationships:
+  - name: module
+    description: ''
+    target: Module
+    backref:
+    kind: Kind.one_to_many
+    viewonly: true
+  - name: app
+    description: ''
+    target: App
+    backref:
+    kind: Kind.one_to_many
+    viewonly: true
+  mixins:
+  - '....extensions.appbuilder.Base'
+- name: SQLAModel
+  description: 'A specification for a sqla model '
+  tablename: sqlamodels
+  columns:
+  - name: name
+    description: The name of the model
+    datatype: string
+    default:
+    foreign_key:
+    nullable: false
+  - name: description
+    description: The description of the model
+    datatype: string
+    default:
+    foreign_key:
+    nullable: false
+  - name: tablename
+    description: The tablename of the model
+    datatype: string
+    default:
+    foreign_key:
+    nullable: false
+  relationships:
+  - name: modules
+    description: ''
+    target: Module
+    backref: models
+    kind: Kind.many_to_many
+    secondary: module_models
+  mixins:
+  - '....extensions.appbuilder.Base'
+- name: SQLAColumn
+  description: 'A specification for a sqla field '
+  tablename: sqlafields
+  columns:
+  - name: name
+    description: The name of the column
+    datatype: string
+    default:
+    foreign_key:
+    nullable: false
+  - name: description
+    description: The description of the column
+    datatype: string
+    default:
+    foreign_key:
+    nullable: false
+  - name: datatype
+    description: ''
+    datatype: string
+    default:
+    foreign_key:
+    nullable: false
+  - name: model_id
+    description: ''
+    datatype: integer
+    default:
+    foreign_key: sqlamodels.id
+    nullable: false
+  relationships:
+  - name: model
+    description: ''
+    target: SQLAModel
+    backref: columns
+    kind: Kind.many_to_one
+  mixins:
+  - '....extensions.appbuilder.Base'
+- name: ModuleModels
+  description: Represents m2m relationship between Module and Model
+  tablename: module_models
+  columns:
+  - name: module_id
+    description: The id of the module
+    datatype: integer
+    default:
+    foreign_key: modules.id
+    nullable: false
+  - name: model_id
+    description: The id of the model
+    datatype: integer
+    default:
+    foreign_key: sqlamodels.id
+    nullable: false
+  relationships:
+  - name: module
+    description: ''
+    target: Module
+    backref:
+    kind: Kind.one_to_many
+    viewonly: true
+  - name: model
+    description: ''
+    target: SQLAModel
+    backref:
+    kind: Kind.one_to_many
+    viewonly: true
+  mixins:
+  - '....extensions.appbuilder.Base'
+- name: FABView
+  description: 'A specification for a FAB View '
+  tablename: fabviews
+  columns:
+  - name: name
+    description: The name of the view
+    datatype: string
+    default:
+    foreign_key:
+    nullable: false
+  - name: description
+    description: The description of the view
+    datatype: string
+    default:
+    foreign_key:
+    nullable: true
+  - name: model_id
+    description: ''
+    datatype: integer
+    default:
+    foreign_key: sqlamodels.id
+    nullable: false
+  - name: module_id
+    description: ''
+    datatype: integer
+    default:
+    foreign_key: modules.id
+    nullable: false
+  relationships:
+  - name: model
+    description: ''
+    target: SQLAModel
+    backref: views
+    kind: Kind.many_to_one
+  - name: module
+    description: ''
+    target: Module
+    backref: views
+    kind: Kind.many_to_one
+  mixins:
+  - '....extensions.appbuilder.Base'
+views:
+- name: Apps
+  description: ''
+  model:
+    name: App
+    description: An app that can be launched
+    tablename: apps
+    columns:
+    - name: name
+      description: The name of the app
+      datatype: string
+      default:
+      foreign_key:
+      nullable: false
+    - name: description
+      description: The description of the app
+      datatype: string
+      default:
+      foreign_key:
+      nullable: true
+    relationships: []
+    mixins:
+    - '....extensions.appbuilder.Base'
+  mixins:
+  - ModelView
+  list_columns:
+  - name
+  - extensions
+  - modules
+  show_columns: []
+  edit_columns: []
+  add_columns: []
+  related_views:
+  - Extensions
+  - Modules
+  actions:
+  - name: launch_app
+    description: ''
+    title: Lauch App
+    icon: fa-rocket
+    multiple: false
+    single: true
+    confirmation: ''
+- name: Extensions
+  description: ''
+  model:
+    name: Extension
+    description: 'A specification for an extension '
+    tablename: extensions
+    columns:
+    - name: name
+      description: The name of the extension
+      datatype: string
+      default:
+      foreign_key:
+      nullable: false
+    - name: description
+      description: The description of the extension
+      datatype: string
+      default:
+      foreign_key:
+      nullable: false
+    relationships:
+    - name: apps
+      description: ''
+      target: App
+      backref: extensions
+      kind: Kind.many_to_many
+      secondary: app_extensions
+    mixins:
+    - '....extensions.appbuilder.Base'
+  mixins:
+  - ModelView
+  list_columns:
+  - name
+  - description
+  - apps
+  show_columns: []
+  edit_columns: []
+  add_columns: []
+  related_views: []
+  actions: []
+- name: Modules
+  description: ''
+  model:
+    name: Module
+    description: 'A specification for a module '
+    tablename: modules
+    columns:
+    - name: name
+      description: The name of the module
+      datatype: string
+      default:
+      foreign_key:
+      nullable: false
+    - name: description
+      description: The description of the module
+      datatype: string
+      default:
+      foreign_key:
+      nullable: false
+    relationships:
+    - name: apps
+      description: ''
+      target: App
+      backref: modules
+      kind: Kind.many_to_many
+      secondary: app_modules
+    mixins:
+    - '....extensions.appbuilder.Base'
+  mixins:
+  - ModelView
+  list_columns:
+  - name
+  - description
+  - apps
+  show_columns: []
+  edit_columns: []
+  add_columns: []
+  related_views:
+  - Models
+  actions: []
+- name: Models
+  description: ''
+  model:
+    name: SQLAModel
+    description: 'A specification for a sqla model '
+    tablename: sqlamodels
+    columns:
+    - name: name
+      description: The name of the model
+      datatype: string
+      default:
+      foreign_key:
+      nullable: false
+    - name: description
+      description: The description of the model
+      datatype: string
+      default:
+      foreign_key:
+      nullable: false
+    - name: tablename
+      description: The tablename of the model
+      datatype: string
+      default:
+      foreign_key:
+      nullable: false
+    relationships:
+    - name: modules
+      description: ''
+      target: Module
+      backref: models
+      kind: Kind.many_to_many
+      secondary: module_models
+    mixins:
+    - '....extensions.appbuilder.Base'
+  mixins:
+  - ModelView
+  list_columns:
+  - name
+  - description
+  - modules
+  show_columns: []
+  edit_columns: []
+  add_columns: []
+  related_views:
+  - Fields
+  actions: []
+- name: Fields
+  description: ''
+  model:
+    name: SQLAColumn
+    description: 'A specification for a sqla field '
+    tablename: sqlafields
+    columns:
+    - name: name
+      description: The name of the column
+      datatype: string
+      default:
+      foreign_key:
+      nullable: false
+    - name: description
+      description: The description of the column
+      datatype: string
+      default:
+      foreign_key:
+      nullable: false
+    - name: datatype
+      description: ''
+      datatype: string
+      default:
+      foreign_key:
+      nullable: false
+    - name: model_id
+      description: ''
+      datatype: integer
+      default:
+      foreign_key: sqlamodels.id
+      nullable: false
+    relationships:
+    - name: model
+      description: ''
+      target: SQLAModel
+      backref: columns
+      kind: Kind.many_to_one
+    mixins:
+    - '....extensions.appbuilder.Base'
+  mixins:
+  - ModelView
+  list_columns:
+  - name
+  - description
+  - model
+  - module
+  - datatype
+  - nullable
+  show_columns: []
+  edit_columns: []
+  add_columns: []
+  related_views: []
+  actions: []
+- name: Views
+  description: ''
+  model:
+    name: FABView
+    description: 'A specification for a FAB View '
+    tablename: fabviews
+    columns:
+    - name: name
+      description: The name of the view
+      datatype: string
+      default:
+      foreign_key:
+      nullable: false
+    - name: description
+      description: The description of the view
+      datatype: string
+      default:
+      foreign_key:
+      nullable: true
+    - name: model_id
+      description: ''
+      datatype: integer
+      default:
+      foreign_key: sqlamodels.id
+      nullable: false
+    - name: module_id
+      description: ''
+      datatype: integer
+      default:
+      foreign_key: modules.id
+      nullable: false
+    relationships:
+    - name: model
+      description: ''
+      target: SQLAModel
+      backref: views
+      kind: Kind.many_to_one
+    - name: module
+      description: ''
+      target: Module
+      backref: views
+      kind: Kind.many_to_one
+    mixins:
+    - '....extensions.appbuilder.Base'
+  mixins:
+  - ModelView
+  list_columns:
+  - name
+  - description
+  - model
+  - module
+  show_columns: []
+  edit_columns: []
+  add_columns: []
+  related_views: []
+  actions: []
+permissions: []
+actions: []

@@ -1,0 +1,118 @@
+# Configuration for HTML to Jinja Transformation Tool
+version: "1.0"
+
+# The source file we're converting
+input_file: demo1/dist/index.html
+output_file: base.html
+
+# Define elements to be replaced with Jinja2 variables
+variables:
+  - selector: "#title"
+    variable: "{{ title }}"
+  - selector: "#date"
+    variable: "{{ date }}"
+  - selector: "#author"
+    variable: "{{ author }}"
+
+# Define urls to be replaced with url_for()
+urls:
+  - prefix: "../../"
+    endpoint: "demo.page"
+    replace: ""
+  - prefix: "assets/"
+    endpoint: "theme.static"
+  
+# Define elements to be replaced with Jinja2 blocks
+blocks:
+  - selector: "title"
+    block: "{% block title %}{{title}}{% endblock %}"
+    output_file: "title.html"
+    swap: text
+  - selector: "#kt_content_container"
+    block: "{% block content %}{{content}}{% endblock %}"
+    output_file: "content.html"
+    swap: innerHTML
+  - selector: ".footer"
+    block: "{% block footer %}{%include 'layout/footer.html'%}{% endblock %}"
+    output_file: "layout/footer.html"
+  - selector: ".toolbar"
+    block: "{% block toolbar %}{%include 'layout/toolbar.html' if page and page.toolbar else None ignore missing %}{% endblock %}"
+    output_file: "layout/toolbar.html"
+  - selector: "#kt_activities"
+    block: "{% block activities_drawer %}{%include 'drawer/activities.html'%}{% endblock %}"
+    output_file: "drawer/activities.html"
+  - selector: "#kt_drawer_chat"
+    block: "{% block chat_drawer %}{%include 'drawer/chat.html'%}{% endblock %}"
+    output_file: "drawer/chat.html"
+  - selector: "#kt_explore"
+    block: "{% block explore_drawer %}{%include 'drawer/explore.html'%}{% endblock %}"
+    output_file: "drawer/explore.html"
+    swap: innerHTML
+  - selector: "#kt_modal_invite_friends"
+    block: "{% block invite_friends_modal %}{%include 'modal/invite_friends.html'%}{% endblock %}"
+    output_file: "modal/invite_friends.html"
+  - selector: "#kt_modal_create_app"
+    block: "{% block create_app_modal %}{%include 'modal/create_app.html'%}{% endblock %}"
+    output_file: "modal/create_app.html"
+  - selector: "#kt_modal_upgrade_plan"
+    block: "{% block upgrade_plan_modal %}{%include 'modal/upgrade_plan.html'%}{% endblock %}"
+    output_file: "modal/upgrade_plan.html"
+  - selector: "#kt_scrolltop"
+    block: "{% block scrolltop %}{%include 'layout/scrolltop.html'%}{% endblock %}"
+    output_file: "layout/scrolltop.html"
+  - selector: "#kt_header_nav"
+    block: "{% block header_nav %}{%include 'layout/header_nav.html'%}{% endblock %}"
+    output_file: "layout/header_nav.html"
+  - selector: "#kt_header_search"
+    block: "{% block header_search %}{%include 'layout/header_search.html'%}{% endblock %}"
+    output_file: "layout/header_search.html"
+  - selector: ".aside-menu .menu"
+    block: "{% block aside_menu %}{%include 'layout/aside_menu.html'%}{% endblock %}"
+    output_file: "layout/aside_menu.html"
+  - selector: "#kt_aside_logo"
+    block: "{% block aside_logo %}{%include 'layout/aside_logo.html'%}{% endblock %}"
+    output_file: "layout/aside_logo.html"
+  - selector: "#kt_header_user_menu_toggle"
+    block: "{% block header_user_menu %}{%include 'layout/header_user_menu.html'%}{% endblock %}"
+    output_file: "layout/header_user_menu.html"
+  - selector: "#kt_drawer_chat_toggle"
+    block: "{% block chat_drawer_toggle %}{%include 'layout/chat_drawer_toggle.html'%}{% endblock %}"
+    output_file: "layout/chat_drawer_toggle.html"
+  - selector: "#kt_activities_toggle"
+    block: "{% block activities_drawer_toggle %}{%include 'layout/activities_drawer_toggle.html'%}{% endblock %}"
+    output_file: "layout/activities_drawer_toggle.html"
+  - selector: "#kt_aside_footer"
+    block: "{% block aside_footer %}{%include 'layout/aside_footer.html'%}{% endblock %}"
+    output_file: "layout/aside_footer.html"
+  - selector:
+      start_comment: <!--begin::Quick links-->
+      end_comment: <!--end::Quick links-->
+    block: "{% block quick_links %}{%include 'layout/quick_links.html'%}{% endblock %}"
+    output_file: "layout/quick_links.html"
+  - selector:
+      start_comment: <!--begin::Notifications-->
+      end_comment: <!--end::Notifications-->
+    block: "{% block notifications %}{%include 'layout/notifications.html'%}{% endblock %}"
+    output_file: "layout/notifications.html"
+  - selector:
+      start_comment: <!--begin::Javascript-->
+      end_comment: <!--end::Javascript-->
+    block: "{% block tail_js %}{%include 'layout/tail_js.html'%}{% endblock %}"
+    output_file: "layout/tail_js.html"
+  - selector:
+      start_comment: <!--begin::Mobile logo-->
+      end_comment: <!--end::Mobile logo-->
+    block: "{% block mobile_logo %}{%include 'layout/mobile_logo.html'%}{% endblock %}"
+    output_file: "layout/mobile_logo.html"
+  - selector: head
+    block: "{% block head_js %}{%endblock head_js%}"
+    swap: before_end
+  - selector: "#kt_explore_toggle"
+    block: "{% block explore_drawer_toggle %}{%include 'layout/explore_drawer_toggle.html'%}{% endblock %}"
+    output_file: "layout/explore_drawer_toggle.html"
+  - selector: "#kt_aside_mobile_toggle"
+    block: "{% block aside_mobile_toggle %}{%include 'layout/aside_mobile_toggle.html'%}{% endblock %}"
+    output_file: "layout/aside_mobile_toggle.html"
+  - selector: "#kt_header_menu_mobile_toggle"
+    block: "{% block header_menu_mobile_toggle %}{%include 'layout/header_menu_mobile_toggle.html'%}{% endblock %}"
+    output_file: "layout/header_menu_mobile_toggle.html"
