@@ -1,0 +1,10 @@
+nbdev_template/__init__.py,sha256=wOJN3HxAgnSon5vWYU3Txm2UZ_7tBHDKXUKZIH-mXX8,22
+nbdev_template/_modidx.py,sha256=9hiiyklUFeI-mPQsEpHzk1pgzn4zLXvgveoRvaZZxo0,2368
+nbdev_template/card.py,sha256=My3dqSpxeV9DsnvANtU1lP-hBrgPwU4NFM5HGZJ7DaU,1724
+nbdev_template/deck.py,sha256=8Bs4rhgT8eto2-FFFyylQiYW3ifXWVuitA4oSVSQcwE,1518
+test_nbdev_py-0.0.8.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+test_nbdev_py-0.0.8.dist-info/METADATA,sha256=Cc9-hHWe73CroGp5frbRc8GgIjsxW08NRYrnvc94ZEg,1397
+test_nbdev_py-0.0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+test_nbdev_py-0.0.8.dist-info/entry_points.txt,sha256=0IxiUi7A5Npec1RoDec8gmG9LWapj8nYRj8-p4AeILI,50
+test_nbdev_py-0.0.8.dist-info/top_level.txt,sha256=J2e7xitzKBulFaaEhJAYov28w9kHpA74PPdVxrRX8wA,15
+test_nbdev_py-0.0.8.dist-info/RECORD,,
