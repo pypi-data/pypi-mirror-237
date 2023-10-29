@@ -1,0 +1,12 @@
+ermini/MANIFEST.in,sha256=nBzupMbrgPDQJI7rx88ojBlm3wjEM-cGAZwsEh2lBUE,64
+ermini/README.md,sha256=DjmP8S6uL_9wvr4U4VmxUvSRj5WHdaibROIauvI2TD8,32
+ermini/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ermini/celery.py,sha256=VLeVXgdxaBVItxhUDfwzFBp4L4Sy-wO1sC88gE09MZw,599
+ermini/requirements.txt,sha256=DWWruoWC1dceu_Q1jYC6UAlhGgqrVIiQs3PXkxvM_bg,650
+ermini/settings.py,sha256=bGoOl7pftAxCXqvJEYfxVwtJw9Ri9csqs0nKi6hDE6o,4206
+ermini/setup.py,sha256=j-YbR3iX95JanQWPCmZebSPJRZ0yusqpVevjvvkdwaY,1161
+ermini/urls.py,sha256=2s6iVEXbu4MMiTbM3ke4HjpIzAUBoWc-J423fhq5Ts8,366
+ermini-0.1.2.dist-info/METADATA,sha256=Guro6zRaIPC0WcudNUPJmWbiH-sHK9NW8lUL9NEUveY,1899
+ermini-0.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ermini-0.1.2.dist-info/top_level.txt,sha256=SIO8Q1J5Di4IsX6IjKQ0A2c8dMEFjFnDrxi98W0gY6M,7
+ermini-0.1.2.dist-info/RECORD,,
