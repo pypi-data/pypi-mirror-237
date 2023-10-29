@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: imagestogif-js
+Version: 1.0.0
+Summary: Test package for distribution
+Home-page: https://github.com/jadejung06-sk/
+Download-URL: 
+Author: Jadejung
+Author-email: jungjade06@gmail.com
+Keywords: GIFCONVERTER,gifconverter,imagestogif,gif
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: pillow
+
