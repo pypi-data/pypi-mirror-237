@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: platechain
+Version: 0.0.1
+Summary: A library of universal parsers for microplate data
+Author: Nicholas Larus-Stone
+Author-email: nicholas@sphinxbio.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: langchain (>=0.0.279,<0.0.280)
+Requires-Dist: openai (>=0.28.0,<0.29.0)
+Requires-Dist: pandas (>=2.1.0,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# platechain
+
+Using LLMs to parse microplate data
+
