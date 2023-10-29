@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+pyproject.toml
+setup.cfg
+setup.py
+src/mt_testpackage_python.egg-info/PKG-INFO
+src/mt_testpackage_python.egg-info/SOURCES.txt
+src/mt_testpackage_python.egg-info/dependency_links.txt
+src/mt_testpackage_python.egg-info/top_level.txt
