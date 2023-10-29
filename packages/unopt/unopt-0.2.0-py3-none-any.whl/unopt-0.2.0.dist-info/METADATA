@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: unopt
+Version: 0.2.0
+Summary: Utility functions to unwrap Optional values
+Project-URL: Homepage, https://github.com/odashi/unopt-py
+Project-URL: Bug Tracker, https://github.com/odashi/unopt-py/issues
+Author-email: Yusuke Oda <odashi@predicate.jp>
+License: Apache Software License 2.0
+License-File: LICENSE
+Keywords: none,optional,rust
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: <=3.13,>=3.8
+Provides-Extra: dev
+Requires-Dist: black>=23.10.1; extra == 'dev'
+Requires-Dist: build>=0.8; extra == 'dev'
+Requires-Dist: flake8>=6.1.0; extra == 'dev'
+Requires-Dist: isort>=5.12.0; extra == 'dev'
+Requires-Dist: mypy>=1.6.1; extra == 'dev'
+Requires-Dist: pyproject-flake8>=6.1.0; extra == 'dev'
+Requires-Dist: pytest>=7.4.3; extra == 'dev'
+Provides-Extra: mypy
+Requires-Dist: mypy>=1.6.1; extra == 'mypy'
+Requires-Dist: pytest>=7.4.3; extra == 'mypy'
+Description-Content-Type: text/markdown
+
+# unopt: Utility functions to unwrap `Optional[T]`
+
+## Overview
+
+*unopt* provides several utility functions to "unwrap" the `Optional[T]` (or `T | None`)
+objects: removes the `Optional` type hint and obtains the underlying object.
+
+*unopt* functions are inspired by the Rust's `Option<T>` functionality, but the behavior
+is tuned to Python's convention. E.g., `unwrap()` raises an exception instead of
+aborting.
+
+## Install
+
+```shell
+pip install unopt
+```
+
+## Examples
+
+```python
+from unopt import *
+
+foo: Optional[int] = 123
+bar: Optional[int] = None
+
+# unwrap() returns the given object if it is not None.
+assert unwrap(foo) == 123
+unwrap(bar)  # Raises UnwrapError
+
+# unwrap_or() returns the default value if the given object is None.
+assert unwrap_or(foo, 456) == 123
+assert unwrap_or(bar, 456) == 456
+
+# unwrap_or_else() returns the default value obtained by invoking the given function.
+assert unwrap_or_else(foo, lambda: 456) == 123
+assert unwrap_or_else(bar, lambda: 456) == 456
+
+# unwrap_unchecked() just casts the given object without value checking.
+assert unwrap_unchecked(foo) == 123
+assert unwrap_unchecked(bar) is None  # Unsafe
+```
