@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rheia
+Version: 1.1.12
+Summary: Robust design optimization of renewable Hydrogen and dErIved energy cArrier systems
+Home-page: https://github.com/rheia-framework/RHEIA
+Author: Diederik Coppitters, Panagiotis Tsirikoglou, Ward De Paepe, Konstantinos Kyprianidis, Anestis Kalfas, Francesco Contino
+Author-email: rheia.framework@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: deap>=1.4.1
+Requires-Dist: h5py>=3.9.0
+Requires-Dist: matplotlib>=3.7.2
+Requires-Dist: numpy>=1.24.3
+Requires-Dist: pandas>=2.0.3
+Requires-Dist: pvlib>=0.10.2
+Requires-Dist: pyDOE>=0.3.8
+Requires-Dist: scipy>=1.11.1
+Requires-Dist: sobolsequence>=0.2.1
