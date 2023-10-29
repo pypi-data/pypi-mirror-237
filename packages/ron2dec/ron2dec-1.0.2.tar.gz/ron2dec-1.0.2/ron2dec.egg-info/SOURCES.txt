@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+ron2dec/__init__.py
+ron2dec/ron2dec.py
+ron2dec.egg-info/PKG-INFO
+ron2dec.egg-info/SOURCES.txt
+ron2dec.egg-info/dependency_links.txt
+ron2dec.egg-info/not-zip-safe
+ron2dec.egg-info/top_level.txt
