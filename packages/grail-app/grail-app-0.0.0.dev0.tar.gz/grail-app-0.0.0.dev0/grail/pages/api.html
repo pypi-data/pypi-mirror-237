@@ -1,0 +1,17 @@
+title: Open API Viewer
+frames:
+- title: Flask App
+  url: /api/flaskapp/ui/
+- title: Employee
+  url: /api/employee/ui/
+- title: Department
+  url: /api/department/ui/
+---
+
+{%for f in frames%}
+
+<iframe src="{{f.url}}" height="800" width="100%" title="{{f.title}}">
+</iframe>
+
+{%endfor%}
+

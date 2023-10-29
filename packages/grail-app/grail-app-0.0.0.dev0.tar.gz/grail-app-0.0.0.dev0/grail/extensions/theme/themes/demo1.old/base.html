@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!--
+Author: Keenthemes
+Product Name: Metronic - Bootstrap 5 HTML, VueJS, React, Angular & Laravel Admin Dashboard Theme
+Purchase: https://1.envato.market/EA4JP
+Website: http://www.keenthemes.com
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Dribbble: www.dribbble.com/keenthemes
+Like: www.facebook.com/keenthemes
+License: For each use you must have a valid license purchased only from above link in order to legally use the theme for your project.
+-->
+<html lang="en">
+ <!--begin::Head-->
+ <head>
+  <base href=""/>
+  <title>
+   {% block title %}{{title}}{% endblock %}
+  </title>
+  <meta content="The most advanced Bootstrap Admin Theme on Themeforest trusted by 94,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue &amp; Laravel versions. Grab your copy now and get life-time updates for free." name="description"/>
+  <meta content="Metronic, bootstrap, bootstrap 5, Angular, VueJs, React, Laravel, admin themes, web design, figma, web development, free templates, free admin themes, bootstrap theme, bootstrap template, bootstrap dashboard, bootstrap dak mode, bootstrap button, bootstrap datepicker, bootstrap timepicker, fullcalendar, datatables, flaticon" name="keywords"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta charset="utf-8"/>
+  <meta content="en_US" property="og:locale"/>
+  <meta content="article" property="og:type"/>
+  <meta content="Metronic - Bootstrap 5 HTML, VueJS, React, Angular &amp; Laravel Admin Dashboard Theme" property="og:title"/>
+  <meta content="https://keenthemes.com/metronic" property="og:url"/>
+  <meta content="Keenthemes | Metronic" property="og:site_name"/>
+  <link href="https://preview.keenthemes.com/metronic8" rel="canonical"/>
+  <link href="{{url_for('theme.static', filename='assets/media/logos/favicon.ico')}}" rel="shortcut icon"/>
+  <!--begin::Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet"/>
+  <!--end::Fonts-->
+  <!--begin::Page Vendor Stylesheets(used by this page)-->
+  <link href="{{url_for('theme.static', filename='assets/plugins/custom/fullcalendar/fullcalendar.bundle.css')}}" rel="stylesheet" type="text/css"/>
+  <!--end::Page Vendor Stylesheets-->
+  <!--begin::Global Stylesheets Bundle(used by all pages)-->
+  <link href="{{url_for('theme.static', filename='assets/plugins/global/plugins.bundle.css')}}" rel="stylesheet" type="text/css"/>
+  <link href="{{url_for('theme.static', filename='assets/css/style.bundle.css')}}" rel="stylesheet" type="text/css"/>
+  <!--end::Global Stylesheets Bundle-->
+  {% block head_js %}{%endblock head_js%}
+ </head>
+ <!--end::Head-->
+ <!--begin::Body-->
+ <body class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled toolbar-fixed aside-enabled aside-fixed" id="kt_body" style="--kt-toolbar-height:55px;--kt-toolbar-height-tablet-and-mobile:55px">
+  <!--begin::Main-->
+  <!--begin::Root-->
+  <div class="d-flex flex-column flex-root">
+   <!--begin::Page-->
+   <div class="page d-flex flex-row flex-column-fluid">
+    <!--begin::Aside-->
+    <div class="aside aside-dark aside-hoverable" data-kt-drawer="true" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-direction="start" data-kt-drawer-name="aside" data-kt-drawer-overlay="true" data-kt-drawer-toggle="#kt_aside_mobile_toggle" data-kt-drawer-width="{default:'200px', '300px': '250px'}" id="kt_aside">
+     <!--begin::Brand-->
+     {% block aside_logo %}{%include 'layout/aside_logo.html'%}{% endblock %}
+     <!--end::Brand-->
+     <!--begin::Aside menu-->
+     <div class="aside-menu flex-column-fluid">
+      <!--begin::Aside Menu-->
+      <div class="hover-scroll-overlay-y my-5 my-lg-5" data-kt-scroll="true" data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-dependencies="#kt_aside_logo, #kt_aside_footer" data-kt-scroll-height="auto" data-kt-scroll-offset="0" data-kt-scroll-wrappers="#kt_aside_menu" id="kt_aside_menu_wrapper">
+       <!--begin::Menu-->
+       {% block aside_menu %}{%include 'layout/aside_menu.html'%}{% endblock %}
+       <!--end::Menu-->
+      </div>
+      <!--end::Aside Menu-->
+     </div>
+     <!--end::Aside menu-->
+     <!--begin::Footer-->
+     {% block aside_footer %}{%include 'layout/aside_footer.html'%}{% endblock %}
+     <!--end::Footer-->
+    </div>
+    <!--end::Aside-->
+    <!--begin::Wrapper-->
+    <div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
+     <!--begin::Header-->
+     <div class="header align-items-stretch" id="kt_header" style="">
+      <!--begin::Container-->
+      <div class="container-fluid d-flex align-items-stretch justify-content-between">
+       <!--begin::Aside mobile toggle-->
+       <div class="d-flex align-items-center d-lg-none ms-n3 me-1" title="Show aside menu">
+        {% block aside_mobile_toggle %}{%include 'layout/aside_mobile_toggle.html'%}{% endblock %}
+       </div>
+       <!--end::Aside mobile toggle-->
+       <!--begin::Mobile logo-->
+       {% block mobile_logo %}{%include 'layout/mobile_logo.html'%}{% endblock %}
+       <!--end::Mobile logo-->
+       <!--begin::Wrapper-->
+       <div class="d-flex align-items-stretch justify-content-between flex-lg-grow-1">
+        <!--begin::Navbar-->
+        <div class="d-flex align-items-stretch" id="kt_header_nav">
+         <!--begin::Menu wrapper-->
+         <div class="header-menu align-items-stretch" data-kt-drawer="true" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-direction="end" data-kt-drawer-name="header-menu" data-kt-drawer-overlay="true" data-kt-drawer-toggle="#kt_header_menu_mobile_toggle" data-kt-drawer-width="{default:'200px', '300px': '250px'}" data-kt-swapper="true" data-kt-swapper-mode="prepend" data-kt-swapper-parent="{default: '#kt_body', lg: '#kt_header_nav'}">
+          <!--begin::Menu-->
+          {% block header_menu %}{%include 'layout/header_menu.html'%}{% endblock %}
+          <!--end::Menu-->
+         </div>
+         <!--end::Menu wrapper-->
+        </div>
+        <!--end::Navbar-->
+        <!--begin::Topbar-->
+        <div class="d-flex align-items-stretch flex-shrink-0">
+         <!--begin::Toolbar wrapper-->
+         <div class="d-flex align-items-stretch flex-shrink-0">
+          <!--begin::Search-->
+          <div class="d-flex align-items-stretch ms-1 ms-lg-3">
+           <!--begin::Search-->
+           {% block header_search %}{%include 'layout/header_search.html'%}{% endblock %}
+           <!--end::Search-->
+          </div>
+          <!--end::Search-->
+          <!--begin::Activities-->
+          <div class="d-flex align-items-center ms-1 ms-lg-3">
+           <!--begin::Drawer toggle-->
+           {% block activities_drawer_toggle %}{%include 'layout/activities_drawer_toggle.html'%}{% endblock %}
+           <!--end::Drawer toggle-->
+          </div>
+          <!--end::Activities-->
+          <!--begin::Notifications-->
+          {% block notifications %}{%include 'layout/notifications.html'%}{% endblock %}
+          <!--end::Notifications-->
+          <!--begin::Chat-->
+          {% block chat_drawer_toggle %}{%include 'layout/chat_drawer_toggle.html'%}{% endblock %}
+          <!--end::Chat-->
+          <!--begin::Quick links-->
+          {% block quick_links %}{%include 'layout/quick_links.html'%}{% endblock %}
+          <!--end::Quick links-->
+          <!--begin::User-->
+          {% block header_user_menu %}{%include 'layout/header_user_menu.html'%}{% endblock %}
+          <!--end::User -->
+          <!--begin::Heaeder menu toggle-->
+          <div class="d-flex align-items-center d-lg-none ms-2 me-n3" title="Show header menu">
+           {% block header_menu_mobile_toggle %}{%include 'layout/header_menu_mobile_toggle.html'%}{% endblock %}
+          </div>
+          <!--end::Heaeder menu toggle-->
+         </div>
+         <!--end::Toolbar wrapper-->
+        </div>
+        <!--end::Topbar-->
+       </div>
+       <!--end::Wrapper-->
+      </div>
+      <!--end::Container-->
+     </div>
+     <!--end::Header-->
+     <!--begin::Content-->
+     <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+      <!--begin::Toolbar-->
+      {% block toolbar %}{%include 'layout/toolbar.html' if page and page.toolbar else None ignore missing %}{% endblock %}
+      <!--end::Toolbar-->
+      <!--begin::Post-->
+      <div class="post d-flex flex-column-fluid" id="kt_post">
+       <!--begin::Container-->
+       <div class="container-xxl" id="kt_content_container">
+        {% block content %}{{content}}{% endblock %}
+       </div>
+       <!--end::Container-->
+      </div>
+      <!--end::Post-->
+     </div>
+     <!--end::Content-->
+     <!--begin::Footer-->
+     {% block footer %}{%include 'layout/footer.html'%}{% endblock %}
+     <!--end::Footer-->
+    </div>
+    <!--end::Wrapper-->
+   </div>
+   <!--end::Page-->
+  </div>
+  <!--end::Root-->
+  <!--begin::Drawers-->
+  <!--begin::Activities drawer-->
+  {% block activities_drawer %}{%include 'drawer/activities.html'%}{% endblock %}
+  <!--end::Activities drawer-->
+  <!--begin::Chat drawer-->
+  {% block chat_drawer %}{%include 'drawer/chat.html'%}{% endblock %}
+  <!--end::Chat drawer-->
+  <!--begin::Exolore drawer toggle-->
+  {% block explore_drawer_toggle %}{%include 'layout/explore_drawer_toggle.html'%}{% endblock %}
+  <!--end::Exolore drawer toggle-->
+  <!--begin::Exolore drawer-->
+  <div class="bg-body" data-kt-drawer="true" data-kt-drawer-activate="true" data-kt-drawer-close="#kt_explore_close" data-kt-drawer-direction="end" data-kt-drawer-name="explore" data-kt-drawer-overlay="true" data-kt-drawer-toggle="#kt_explore_toggle" data-kt-drawer-width="{default:'350px', 'lg': '475px'}" id="kt_explore">
+   {% block explore_drawer %}{%include 'drawer/explore.html'%}{% endblock %}
+  </div>
+  <!--end::Exolore drawer-->
+  <!--end::Drawers-->
+  <!--begin::Modals-->
+  <!--begin::Modal - Invite Friends-->
+  {% block invite_friends_modal %}{%include 'modal/invite_friends.html'%}{% endblock %}
+  <!--end::Modal - Invite Friend-->
+  <!--begin::Modal - Create App-->
+  {% block create_app_modal %}{%include 'modal/create_app.html'%}{% endblock %}
+  <!--end::Modal - Create App-->
+  <!--begin::Modal - Upgrade plan-->
+  {% block upgrade_plan_modal %}{%include 'modal/upgrade_plan.html'%}{% endblock %}
+  <!--end::Modal - Upgrade plan-->
+  <!--end::Modals-->
+  <!--begin::Scrolltop-->
+  {% block scrolltop %}{%include 'layout/scrolltop.html'%}{% endblock %}
+  <!--end::Scrolltop-->
+  <!--end::Main-->
+  <script>
+   var hostUrl = "assets/";
+  </script>
+  <!--begin::Javascript-->
+  {% block tail_js %}{%include 'layout/tail_js.html'%}{% endblock %}
+  <!--end::Javascript-->
+ </body>
+ <!--end::Body-->
+</html>

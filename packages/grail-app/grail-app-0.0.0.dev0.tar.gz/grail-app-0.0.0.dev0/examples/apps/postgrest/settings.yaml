@@ -1,0 +1,5 @@
+default:
+  EXTENSIONS: {}
+  POSTGREST_URI:
+    app: "postgres://authenticator:mysecretpassword@db:5432/app_db"
+    postgres: "postgres://authenticator:mysecretpassword@db:5432/app_db"

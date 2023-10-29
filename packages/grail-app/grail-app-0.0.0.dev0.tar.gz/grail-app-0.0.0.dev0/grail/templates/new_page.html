@@ -1,0 +1,35 @@
+{%extends config.BASE_TEMPLATE%}
+{% set title = 'Create a New Page'%}
+{% set description = 'Click on the below buttons to launch<br>user lists example.'%}
+{% set button_text = 'Create This Page in VSCode'%}
+{% set button_url = url_for('vscode',pages='pages',path=path) %}
+{% set asset_url = url_for('theme.static',filename='assets/media/illustrations/sketchy-1/2.png')%}
+
+{%block content%}
+<div class="card">
+    <!--begin::Card body-->
+    <div class="card-body pb-0">
+        <!--begin::Heading-->
+        <div class="card-px text-center pt-20 pb-5">
+            <!--begin::Title-->
+            <h2 class="fs-2x fw-bolder mb-0">{{title}}</h2>
+            <!--end::Title-->
+            <!--begin::Description-->
+            <p class="text-gray-400 fs-4 fw-bold py-7">
+            {{description}}
+            </p>
+            <!--end::Description-->
+            <!--begin::Action-->
+            <a href="{{button_url}}" class="btn btn-primary er fs-6 px-8 py-4">{{button_text}}</a>
+            <!--end::Action-->
+        </div>
+        <!--end::Heading-->
+        <!--begin::Illustration-->
+        <div class="text-center px-5">
+            <img src="{{asset_url}}" alt="" class="mw-100 h-200px h-sm-325px">
+        </div>
+        <!--end::Illustration-->
+    </div>
+    <!--end::Card body-->
+</div>
+{%endblock%}

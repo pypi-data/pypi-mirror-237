@@ -1,0 +1,11 @@
+README.md -r
+pyproject.toml -r
+
+examples/modules/README.md -D schema=schemas/example.json -r
+examples/modules/model.py -D schema=schemas/example.json -r
+
+examples/modules/README.md -D schema=schemas/user -d -o grail/modules/users/README.md
+examples/modules/README.md -D schema=schemas/project -d -o grail/modules/projects/README.md
+
+examples/modules/model.py -D schema=schemas/user -d -o grail/modules/users/model.py 
+examples/modules/model.py -D schema=schemas/project -d -o grail/modules/projects/model.py

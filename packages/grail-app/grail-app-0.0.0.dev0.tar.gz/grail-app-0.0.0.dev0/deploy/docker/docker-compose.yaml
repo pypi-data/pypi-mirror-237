@@ -1,0 +1,36 @@
+version: '3'
+services:
+  db:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: app_db
+      POSTGRES_USER: app_user
+      POSTGRES_PASSWORD: password
+    volumes:
+      - .postgresql/:/var/lib/postgresql/data/
+      - ./extensions/pgrest/sql/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  app:
+    image: grail-app
+    build:
+      context: ../..
+      dockerfile: deploy/docker/Dockerfile
+    ports:
+      - 8000:8000
+      - 8080:8080
+    environment:
+      - DEMO_FOLDER=/app/demo
+    volumes:
+      - .:/app/
+      - ./apps/unit.json:/docker-entrypoint.d/config.json
+      - ./apps:/apps
+      - ./instance/venv:/venv
+      - ./instance/logs:/logs
+      #- .unit/state:/var/lib/unit
+      - .unit/log/unit.log:/var/log/unit.log
+      - .unit/log/access.log:/var/log/access.log
+      - .pgadmin/:/var/lib/pgadmin/
+volumes:
+  pgadmin-data:
