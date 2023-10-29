@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: chainge
+Version: 0.0.0.0.1
+Summary: Filesystem dominance is all you need.
+Home-page: https://github.com/AnshKetchum/chainge
+License: MIT
+Keywords: large language models,AI,LLM
+Author: AnshKetchum
+Author-email: eye.am.ansh@gmail.com
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/AnshKetchum/chainge
+Description-Content-Type: text/markdown
+
+# chainge
+A comprehensive set of LangChain AI tools to help your AI agents interact with and thrive in moneyland.
+
