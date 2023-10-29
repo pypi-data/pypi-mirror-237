@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "localization_utils"
+version = "1.0rc1"
+description = ""
+authors = ["Y", "I"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
