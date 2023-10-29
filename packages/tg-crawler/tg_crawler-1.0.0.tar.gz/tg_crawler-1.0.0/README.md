@@ -1,0 +1,73 @@
+<div align="center">
+<img src="https://static.scarf.sh/a.png?x-pxid=cf317fe7-2188-4721-bc01-124bb5d5dbb2" />
+
+## <img src="https://i.ibb.co/WcM7BDf/tg-crawler.png" width="166"/>
+
+
+**💾 Daemon to download/upload telegram files.**
+
+______________________________________________________________________
+
+[![License](https://img.shields.io/badge/License-GPL--3.0-magenta.svg)](https://www.gnu.org/licenses/gpl-3.0.txt)
+[![PyPI version](https://badge.fury.io/py/tg-crawler.svg)](https://badge.fury.io/py/tg-crawler)
+![GithubActions](https://github.com/SantiiRepair/tg-crawler/actions/workflows/pylint.yml/badge.svg)
+
+</div>
+
+______________________________________________________________________
+
+## Installing
+
+💾 Tg-Crawler is tested on Ubuntu 18.04 and Windows 10 with **Python >= 3.10, <= 3.12.**
+
+```bash
+pip install tg-crawler
+```
+
+If you plan to code and make changes, clone and install it locally.
+
+```bash
+git clone https://github.com/SantiiRepair/tg-crawler.git
+pip install -e .
+```
+
+### Downloading
+
+<img src="https://i.ibb.co/tK7j6GJ/Screenshot-2023-10-28-08-26-30.png"/>
+
+### Progress Bar 👽
+
+- _**current: int**_
+   - _The current download/upload amount bytes in integer._
+
+- _**total: int**_
+   - _The total download/upload amount bytes in integer._
+
+- _**char: str, Optional**_
+   - _The character in the progress bar._
+
+- _**desc: str, Optional**_
+   - _Prefix at the beginning of the progress bar._
+
+- _**ncols: int, Optional**_
+   - _The width of the entire output message. If specified, dynamically resizes the progress bar to stay within this bound. If unspecified, attempts to use environment width. The fallback is a meter width of 10 and no limit for the counter and statistics. [default: 75]_
+
+- _**unit: Union[str, list], Optional**_
+   - _String that will be used to define the unit of each iteration. [default: it]_
+
+- _**unit_scale: bool, Optional**_
+   - _If True, the number of iterations will be reduced/scaled automatically and a metric prefix following the International System of Units standard will be added (kilo, mega, etc.) [default: False]_
+
+- _**unit_divisor: int, Optional**_
+   - _[default: 1000], ignored unless unit_scale is True._
+
+- _**color: str, Optional**_
+   - _Bar color (e.g. "green") [default: cyan] [available colors](https://github.com/termcolor/termcolor#text-properties)._
+
+### TODO 📝
+
+Add support for uploading files to Telegram from the command line 🚀
+
+### ❗ Atention
+
+This code uses Telegram MTProto, so downloading files in a restricted group or channel is available.

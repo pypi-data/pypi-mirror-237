@@ -1,0 +1,58 @@
+[tool.poetry]
+name = "tg-crawler"
+version = "1.0.0"
+description = "💾 Daemon to download/upload telegram files."
+authors = ["Santiago Ramirez <santiirepair@gmail.com>"]
+repository = "https://github.com/SantiiRepair/tg-crawler"
+readme = ["README.md"]
+license = "GPL-3.0"
+packages = [
+    {include = "tgcrawler"}
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.13"
+click = "8.1.7"
+colorama = ">=0.4.6"
+pyrogram = ">=2.0.106"
+shutup = "0.2.0"
+termcolor = "2.3.0"
+tqdm = ">=4.66.1"
+tgcrypto = ">=1.2.5"
+
+[tool.poetry.dev-dependencies]
+black = "^23.9.1"
+poetry = "^1.6.1"
+pylint = "^2.17.5"
+pytest = "^7.4.2"
+
+[tool.poetry.scripts]
+"tg-crawler" = "cli.main:cli"
+
+[tool.black]
+line-length = 120
+target-version = ['py39']
+exclude = '''
+
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+  | foo.py           # also separately exclude a file named foo.py in
+                     # the root of the project
+)
+'''
+
+[build-system]
+requires = ["poetry-core"]
+python_requires = ">=3.10"
+build-backend = "poetry.core.masonry.api"
