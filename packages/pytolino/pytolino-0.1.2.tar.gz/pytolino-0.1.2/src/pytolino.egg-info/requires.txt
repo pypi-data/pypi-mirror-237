@@ -1,0 +1,10 @@
+requests
+mechanize
+
+[dev]
+pytest
+flake8
+ipython
+sphinx
+build
+twine
