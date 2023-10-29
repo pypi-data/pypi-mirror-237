@@ -1,0 +1,13 @@
+HeST/Amherst_Example_Detector.py,sha256=QffRo18L1HzfRS3yB79pzUUGyunBcEVOzMfXKeU26pk,2026
+HeST/Detection.py,sha256=-qo9yLim677uULkOzq_-2znJwHS1Yt2wrRy7g5D3olc,23850
+HeST/HeST_Core.py,sha256=MAKukOPBo4yVz533rV5CEyn2QUyz9c7jxH_Bx3ulgfc,8816
+HeST/LBNL_Example_Detector.py,sha256=QAsDLyqI5rUI4XGXqtDfHBKMKpZeH4RUYd_iQSy_mv0,7284
+HeST/LCE_map_amherstExample_41x41x30_noReflections.npy,sha256=ut5eB5WKlFF8t0Ywgr8B7sWU7SL9IjJQhQvjj4_KFpk,403568
+HeST/QP_map_amherstExample_41x41x30_noReflections.npy,sha256=ULEfED_vG1MhBgpHHP2oxGOZQHG2MZLK8okp8RueU2Y,403568
+HeST/WIMP_Generation.py,sha256=MIRVpBsOD_V7WwTxlR9PiQ8tVVk4p1ijJDDQ0bjZlWo,5979
+HeST/__init__.py,sha256=fKBhH6omMvPtgyMapW1hmZA1wAP3rfLNTdx9QGz-1mc,180
+HeST-0.1.2.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+HeST-0.1.2.dist-info/METADATA,sha256=HxJfJQbmJm1NVYohdWyI4VNZEvE4ZcoVaIS8ZdpyThQ,113
+HeST-0.1.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+HeST-0.1.2.dist-info/top_level.txt,sha256=4QAE6KDr7A1Zs-ewiC3q4uXuq5p9AWUjfuzXUc7n4BM,5
+HeST-0.1.2.dist-info/RECORD,,
