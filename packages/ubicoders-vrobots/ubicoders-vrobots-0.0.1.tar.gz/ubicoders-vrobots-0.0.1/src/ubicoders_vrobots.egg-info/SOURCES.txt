@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/ubicoders_vrobots/__init__.py
+src/ubicoders_vrobots.egg-info/PKG-INFO
+src/ubicoders_vrobots.egg-info/SOURCES.txt
+src/ubicoders_vrobots.egg-info/dependency_links.txt
+src/ubicoders_vrobots.egg-info/requires.txt
+src/ubicoders_vrobots.egg-info/top_level.txt
+src/ubicoders_vrobots/multirotor/__init__.py
+src/ubicoders_vrobots/multirotor/mr_msgs_helper.py
+src/ubicoders_vrobots/multirotor/multirotor.py
+src/ubicoders_vrobots/multirotor/messages/__init__.py
+src/ubicoders_vrobots/multirotor/messages/multirotor_generated.py
+src/ubicoders_vrobots/vrobots_client/__init__.py
+src/ubicoders_vrobots/vrobots_client/clientutils.py
