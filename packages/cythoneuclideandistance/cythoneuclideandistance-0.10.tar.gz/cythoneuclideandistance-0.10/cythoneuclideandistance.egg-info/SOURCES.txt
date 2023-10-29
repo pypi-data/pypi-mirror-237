@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cythoneuclideandistance/README.MD
+cythoneuclideandistance/__init__.py
+cythoneuclideandistance/requirements.txt
+cythoneuclideandistance/thirdparty.json
+cythoneuclideandistance.egg-info/PKG-INFO
+cythoneuclideandistance.egg-info/SOURCES.txt
+cythoneuclideandistance.egg-info/dependency_links.txt
+cythoneuclideandistance.egg-info/requires.txt
+cythoneuclideandistance.egg-info/top_level.txt

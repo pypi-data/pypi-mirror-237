@@ -1,0 +1,3 @@
+include cythoneuclideandistance/requirements.txt
+include cythoneuclideandistance/thirdparty.json
+include cythoneuclideandistance/README.MD
