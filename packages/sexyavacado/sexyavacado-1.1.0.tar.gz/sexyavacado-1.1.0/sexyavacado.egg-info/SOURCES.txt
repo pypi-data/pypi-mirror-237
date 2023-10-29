@@ -1,0 +1,6 @@
+setup.py
+sexyavacado.egg-info/PKG-INFO
+sexyavacado.egg-info/SOURCES.txt
+sexyavacado.egg-info/dependency_links.txt
+sexyavacado.egg-info/requires.txt
+sexyavacado.egg-info/top_level.txt
