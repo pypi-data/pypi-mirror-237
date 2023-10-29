@@ -1,0 +1,160 @@
+Metadata-Version: 2.1
+Name: csvddata-importer
+Version: 0.1.0
+Summary: Supports importing files to a database using a mapping configuration.
+Author-email: Ernan <ernan@outlook.com>
+License: MIT License
+        
+        Copyright (c) 2023 Ernan
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/ernan/csvdata-importer
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.11
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: pytest
+Requires-Dist: psycopg2
+Requires-Dist: SQLAlchemy
+
+csvdata-importer
+================
+
+Documentation
+-------------
+
+https://data-importer.readthedocs.io
+
+
+Installation
+------------
+
+
+    $ pip install csvdata-importer
+
+
+CSV Data Importer
+-----------------
+
+A configurable file to database table importer.
+It can be used to import data from a csv file to a postgres
+or sqlite database.
+
+You build a mapping json file and then use that to create or update tables
+on the database.
+
+.. image:: docs/img/process.jpg
+   :width: 250px
+   :height: 120px
+   :scale: 100% %
+   :alt: the process used to import data
+   :align: center
+
+
+
+Mapping file Example
+--------------------
+
+.. code-block:: json
+
+    {
+        "DATABASE_URL": "postgresql://user:pwd@host:5432/db",
+        "TARGET_TABLE": "quote",
+        "IF_EXISTS": "append",
+        "COLUMN_MAPPING": [
+            {
+              "COLUMN_NAME": "source",
+              "FILE_COLUMN_NAME": "source",
+              "MAPPING_TYPE": "CONSTANT",
+              "CONSTANT_VALUE": "test-data"
+            },
+            {
+              "COLUMN_NAME": "quote_value",
+              "FILE_COLUMN_NAME": "close",
+            }
+        ]
+    }
+
+Importing data using the mapping file
+-------------------------------------
+
+The overall mapping configuration
+
+.. list-table:: Columns and their function inf the mapping file
+   :widths: 20 30 50
+   :header-rows: 1
+
+   * - Column Name
+     - Example
+     - Description
+   * - DATABASE_URL
+     - postgresql://user:pass@host:5432/db
+     - The database we are connecting to
+   * - TARGET_TABLE
+     - quote
+     - The table in that database we are updating or creating
+   * - FILE_PATH
+     - /test.csv
+     - The file we are importing
+   * - IF_EXISTS
+     - append
+     - The action taken on the table if it is non empty. Can be one of fail, append.
+   * - COLUMN_MAPPING
+     - array of columns see next table
+     - The columns and how they are mapped
+
+The column mappings
+
+.. list-table:: Columns mappings
+   :widths: 20 30 50
+   :header-rows: 1
+
+   * - Column Name
+     - Example
+     - Description
+   * - COLUMN_NAME
+     - quote_value
+     - The table column we are updating
+   * - FILE_COLUMN_NAME
+     - quote
+     - The column in the csv we are reading from
+   * - MAPPING_TYPE
+     - DIRECT
+     - The type of mapping we are doing. See below
+   * - CONSTANT_VALUE
+     - File Import
+     - For use when we are evaluating or mapping a constant to the table.
+
+
+Different types of mappings
+---------------------------
+
+DIRECT
+In this case we read the value form the file and write it directly to the table row column.
+
+CONSTANT
+In this case it is a constant value and we are just updating the table with the value we find in the CONSTANT_VALUE mapping.
+
+EVALUATION
+Here we are evaluating some code to create the data.

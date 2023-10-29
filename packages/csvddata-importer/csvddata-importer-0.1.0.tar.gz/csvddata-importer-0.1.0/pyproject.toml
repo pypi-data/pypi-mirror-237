@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csvddata-importer"
+version = "0.1.0"
+description = "Supports importing files to a database using a mapping configuration."
+authors = [{ name = "Ernan", email = "ernan@outlook.com" }]
+license = { file = "LICENSE" }
+readme = "README.rst"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+]
+requires-python = ">=3.11"
+
+dependencies = [
+    "pandas",
+    "pytest",
+    "psycopg2",
+    "SQLAlchemy"
+]
+
+[tool.setuptools]
+packages = ["csvdata_importer"]
+
+
+[tool.setuptools.package-data]
+sndfileio = ["py.typed"]
+
+[project.urls]
+"Homepage" = "https://github.com/ernan/csvdata-importer"
+
+
