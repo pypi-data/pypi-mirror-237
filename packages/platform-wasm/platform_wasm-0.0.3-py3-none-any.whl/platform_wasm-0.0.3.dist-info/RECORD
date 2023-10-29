@@ -1,0 +1,15 @@
+platform_wasm/__init__.py,sha256=iZG2h_6DoKeozkRT4mWkbITtUYBra-KU2huc5oCA1uw,23
+platform_wasm/matplotlib.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+platform_wasm/panda3d.py,sha256=qKR7uR4yI35i3lAQl9TJFlINi6TuG8T3NgVeuI5HDDI,1397
+platform_wasm/todo.py,sha256=F2B0f0MnpOai65XYDmHOGQ6Fx8SdFjBhXydK5ZrpaOQ,5965
+platform_wasm/wcwidth.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+platform_wasm/matplotlib/__init__.py,sha256=pBUkVWYzlIDPXMGbrPjm36ytkKIAnR0L5J2juRwzha8,50
+platform_wasm/matplotlib/pyplot.py,sha256=XSg788MXt7mh20wp41RQhMJyvfCuWoWTOKn4a4KnLUs,893
+platform_wasm/pygame/__init__.py,sha256=ZRj0JDhgjU7WqgosER4cmiXSLzOoXUIHhbwqZ9wWO3c,7773
+platform_wasm/pygame/vidcap.py,sha256=u46D57onUKpurxDzYs2n4tp_ajszYYpUbgxKY3B1HSw,1671
+platform_wasm-0.0.3.dist-info/LICENSE,sha256=R9Cd5yc7ZYFdesEN4dno5y2B4t_LKl9oIP7GP9EVaqY,1068
+platform_wasm-0.0.3.dist-info/METADATA,sha256=cStXEJKNNbqK2jKF5ud3QsLYDDZZR9BwK74Rd9-M4qM,950
+platform_wasm-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+platform_wasm-0.0.3.dist-info/top_level.txt,sha256=sJB3URoY7PWLxTmDTBc7AR5YnoElHFEddGgNfdG5ifs,14
+platform_wasm-0.0.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+platform_wasm-0.0.3.dist-info/RECORD,,
