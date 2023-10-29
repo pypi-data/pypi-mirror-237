@@ -1,0 +1,6 @@
+connexion[flask,swagger-ui]
+openalchemy
+flask-sqlalchemy
+dynaconf
+blinker
+pydantic==1.10.13

@@ -1,0 +1,166 @@
+title: Edit Employee {{request.args.id}}
+requests:  
+  edit: {%if request.method=='PATCH'%}
+    uri: http://0.0.0.0:8000/api/employee/{{request.args.id}}
+    method: patch
+    data:
+      id: {{request.json.get('id')|int}}
+      name: {{request.json.get('name')}}
+      division: {{request.json.get('division')}}
+      salary: {{request.json.get('salary')|float}} {%endif%}
+  employee: {%if request.args.id and request.method=='GET'%}
+    uri: http://0.0.0.0:8000/api/employee/{{request.args.id}}
+    method: get{%endif%}
+form:
+  fields:
+    id: 
+        label: Employee ID
+        type: number
+        disabled: true
+    name:
+        label: Employee Name
+        type: text
+    division:
+        label: Division
+        type: text
+    salary:
+        label: Salary
+        type: number
+---
+
+
+{%if edit%}
+Created Employee: {{request.json}} - {{request.method}}
+
+    {{edit}}
+
+{%elif employee%}{%set employee = employee.json()%}
+<form 
+      hx-ext='json-enc' 
+      hx-target="this" 
+      hx-patch="#" 
+      method="patch" 
+      class="form fv-plugins-bootstrap5 fv-plugins-framework" 
+      >
+    <!--begin::Heading-->
+    <div class="mb-13 text-center">
+        <!--begin::Title-->
+        <h1 class="mb-3">Edit Employee {{employee.id}}</h1>
+        <!--end::Title-->
+
+        <!--begin::Description-->
+        <div class="text-muted fw-semibold fs-5">
+            If you need more info, please check <a href="#" class="fw-bold link-primary">Project Guidelines</a>.
+        </div>
+        <!--end::Description-->
+    </div>
+    <!--end::Heading-->
+
+    {%for name,field in form.fields.items()%}
+    <!--begin::Input group-->
+    <div class="d-flex flex-column mb-8 fv-row fv-plugins-icon-container">
+        <!--begin::Label-->
+        <label class="d-flex align-items-center fs-6 fw-semibold mb-2">
+            <span class="required">{{field.label}}</span>
+
+
+            <span class="ms-1" data-bs-toggle="tooltip"
+                aria-label="Specify a target name for future usage and reference"
+                data-bs-original-title="Specify a target name for future usage and reference" data-kt-initialized="1">
+                <i class="ki-duotone ki-information-5 text-gray-500 fs-6"><span class="path1"></span><span
+                        class="path2"></span><span class="path3"></span></i></span> </label>
+        <!--end::Label-->
+
+        <input 
+            {%if field.disabled%}disabled{%endif%} 
+                type="{{field.type}}" 
+                class="form-control form-control-solid" 
+                placeholder="{{employee[name]}}" 
+                value="{{employee[name]}}"
+                name="{{name}}" >
+        <div class="fv-plugins-message-container fv-plugins-message-container--enabled invalid-feedback"></div>
+    </div>
+    <!--end::Input group-->
+    {%endfor%}
+
+    <!--begin::Input group-->
+    <div class="d-flex flex-stack mb-8">
+        <!--begin::Label-->
+        <div class="me-5">
+            <label class="fs-6 fw-semibold">Adding Users by Team Members</label>
+
+            <div class="fs-7 fw-semibold text-muted">If you need more info, please check budget planning</div>
+        </div>
+        <!--end::Label-->
+
+        <!--begin::Switch-->
+        <label class="form-check form-switch form-check-custom form-check-solid">
+            <input class="form-check-input" type="checkbox" value="1" checked="checked" name="allow">
+            <span class="form-check-label fw-semibold text-muted">
+                Allowed
+            </span>
+        </label>
+        <!--end::Switch-->
+    </div>
+    <!--end::Input group-->
+
+    <!--begin::Input group-->
+    <div class="mb-15 fv-row">
+        <!--begin::Wrapper-->
+        <div class="d-flex flex-stack">
+            <!--begin::Label-->
+            <div class="fw-semibold me-5">
+                <label class="fs-6">Notifications</label>
+
+                <div class="fs-7 text-muted">Allow Notifications by Phone or Email</div>
+            </div>
+            <!--end::Label-->
+
+            <!--begin::Checkboxes-->
+            <div class="d-flex align-items-center">
+                <!--begin::Checkbox-->
+                <label class="form-check form-check-custom form-check-solid me-10">
+                    <input class="form-check-input h-20px w-20px" type="checkbox" name="communication[]" value="email"
+                        checked="checked">
+
+                    <span class="form-check-label fw-semibold">
+                        Email
+                    </span>
+                </label>
+                <!--end::Checkbox-->
+
+                <!--begin::Checkbox-->
+                <label class="form-check form-check-custom form-check-solid">
+                    <input class="form-check-input h-20px w-20px" type="checkbox" name="communication[]" value="phone">
+
+                    <span class="form-check-label fw-semibold">
+                        Phone
+                    </span>
+                </label>
+                <!--end::Checkbox-->
+            </div>
+            <!--end::Checkboxes-->
+        </div>
+        <!--end::Wrapper-->
+    </div>
+    <!--end::Input group-->
+
+    <!--begin::Actions-->
+    <div class="text-center">
+        <button type="reset" id="kt_modal_new_target_cancel" class="btn btn-light me-3">
+            Cancel
+        </button>
+
+        <button type="submit" class="btn btn-primary">
+            <span class="indicator-label">
+                Submit
+            </span>
+            <span class="indicator-progress">
+                Please wait... <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+            </span>
+        </button>
+    </div>
+    <!--end::Actions-->
+</form>
+{%else%}
+{%endif%}

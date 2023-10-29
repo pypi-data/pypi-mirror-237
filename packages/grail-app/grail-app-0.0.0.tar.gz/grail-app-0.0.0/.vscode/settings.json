@@ -1,0 +1,71 @@
+{
+  "python.linting.mypyEnabled": true,
+  "python.linting.mypyArgs": [
+    //"--ignore-missing-imports",
+    //"--follow-imports=silent",
+    "--show-column-numbers",
+    //"--allow-untyped-defs",
+    //"--allow-subclassing-any",
+    //"--allow-untyped-calls",
+    "--strict"
+  ],
+  "python.formatting.provider": "none",
+  "editor.formatOnType": true,
+  "editor.formatOnSave": false,
+  "python.testing.pytestArgs": [
+    "-v",
+    "--cov=grail/",
+    "--cov-report=html",
+    "--pdb",
+    "tests/"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "emeraldwalk.runonsave": {
+    "commands": [
+      //{
+      //  "match": "\\objects\\**",
+      //  "cmd": "echo 'Running DOIT '; .venv/bin/python -m doit",
+      //  "isShellCommand": true
+      //},
+      //     {
+      //       "match": "\\objects\\**",
+      //       "cmd": "echo 'Dumping yaml ${file}.'; .venv/bin/python -m grail.objects.flask_app"
+      //     },
+      //     {
+      //       "match": "\\.cogapp\\**",
+      //       "cmd": "echo 'Cog config edited for ${file}.'; .venv/bin/cog -I .cogapp/  @.cogapp/cogfile"
+      //     },
+      //     {
+      //       "match": "\\.j2$",
+      //       "cmd": "echo 'Template edited for ${file}.'; .venv/bin/cog -I .cogapp/  @.cogapp/cogfile"
+      //     },
+      //     {
+      //       "match": "\\examples\\**",
+      //       "cmd": "echo 'Example edited for ${file}.'; .venv/bin/cog -I .cogapp/  @.cogapp/cogfile"
+      //     },
+      //     {
+      //       "match": "schemas\\**",
+      //       "cmd": "echo 'Schema edited for ${file}.'; .venv/bin/cog -I .cogapp/  @.cogapp/cogfile"
+      //     },
+      //     {
+      //       "match": "\\.py$",
+      //       "cmd": "echo 'Python edited in ${file}.'; .venv/bin/behave",
+      //       "isShellCommand": true
+      //     },
+    ]
+  },
+  // "runItOn": {
+  //   "commands": [
+  //     {
+  //       "match": "\\.py$",
+  //       "isAsync": false,
+  //       "isShellCommand": false,
+  //       "cmd": "testing.runAll"
+  //     },
+  //   ]
+  // },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
+}

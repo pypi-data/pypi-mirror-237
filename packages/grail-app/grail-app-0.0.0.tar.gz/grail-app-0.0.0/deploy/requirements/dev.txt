@@ -1,0 +1,12 @@
+pytest
+pytest-cov
+mypy
+black
+python-dotenv
+cogapp
+behave@git+https://github.com/behave/behave@v1.2.7.dev5
+doit==0.36.0
+adr_viewer
+editor
+pip-tools
+twine

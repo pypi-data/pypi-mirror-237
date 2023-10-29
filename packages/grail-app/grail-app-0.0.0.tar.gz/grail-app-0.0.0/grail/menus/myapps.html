@@ -1,0 +1,51 @@
+cols:
+  - name: OpenAPI
+    img_src: "https://i2.wp.com/oddblogger.com/wp-content/uploads/2021/03/swagger-logo-2.png?fit=950%2C976&ssl=1"
+    href: /api/ui/
+  - name: PosgtreSQL
+    href: /pgadmin/
+    img_src: "https://www.postgresql.org/media/img/about/press/elephant.png"
+  - name: Editor
+    href: /editor/
+    img_src: "https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png"
+  - name: Flask
+    href: /app/
+    img_src: "https://i1.wp.com/pythonprogramming.altervista.org/wp-content/uploads/2019/03/logo.jpg?fit=900%2C500&ssl=1"
+  - name: AWS
+    img_src: "https://preview.keenthemes.com/metronic8/demo1/assets/media/svg/brand-logos/amazon.svg"
+  - name: Codeigniter
+    img_src: "https://preview.keenthemes.com/metronic8/demo1/assets/media/svg/brand-logos/codeigniter.svg"
+  - name: Bootstrap
+    img_src: "https://preview.keenthemes.com/metronic8/demo1/assets/media/svg/brand-logos/bootstrap-4.svg"
+  - name: Figma
+    class: bg-danger
+    img_src: "https://preview.keenthemes.com/metronic8/demo1/assets/media/svg/brand-logos/figma-1.svg"
+  - name: Github
+    img_src: "https://preview.keenthemes.com/metronic8/demo1/assets/media/svg/brand-logos/github.svg"
+    class: btn-warning
+  - name: Gitlab
+    img_src: "https://preview.keenthemes.com/metronic8/demo1/assets/media/svg/brand-logos/gitlab.svg"
+    class: disabled bg-secondary
+---
+
+<!--begin::Row-->
+<div class="row g-2">
+  {% for col in cols %}
+  <!--begin::Col-->
+  <div class="col-4">
+    <a target="_blank" rel="noopener noreferrer"
+      class="d-flex flex-column flex-center 
+             text-center text-gray-800 text-hover-primary 
+             bg-hover-light rounded py-4 px-3 mb-3
+             btn btn-lg {{col.class}}"
+      href="{{col.href}}">
+      <img alt="" class="w-25px h-25px mb-2" src="{{ col.img_src }}" />
+      <span class="fw-semibold">
+        {{ col.name }}
+      </span>
+    </a>
+  </div>
+  <!--end::Col-->
+  {% endfor %}
+</div>
+<!--end::Row-->

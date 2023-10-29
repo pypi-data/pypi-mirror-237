@@ -1,0 +1,275 @@
+openapi: "3.0.0"
+
+info:
+  title: FlaskApp
+  description: API to define Flask Apps.
+  version: "1.0"
+
+paths:
+  /upload_files/{id}:
+    post:
+      summary: Upload files for the FlaskApp.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+      operationId: api.flaskapp.upload_files
+      tags:
+      - system
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                # "files" will be used as the name of each file part/field
+                # in the multipart request
+                files:
+                  type: array
+                  items:
+                    type: string
+                    format: binary        
+      responses:
+        200:
+          description: Save successful.
+        400:
+          description: The FlaskApp doesn't exists.
+  /upload/{id}:
+    post:
+      summary: Upload files for the FlaskApp.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+      operationId: api.flaskapp.upload
+      tags:
+      - system
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                app_py:
+                  type: string
+                  format: binary
+                  description: The app.py file for the FlaskApp.
+                requirements_txt:
+                  type: string
+                  format: binary
+                  description: The requirements.txt file for the FlaskApp.
+                settings_yaml:
+                  type: string
+                  format: binary
+                  description: The settings.yaml file for the FlaskApp.
+      responses:
+        200:
+          description: Save successful.
+        400:
+          description: The FlaskApp doesn't exists.
+          
+  /launch/{id}:
+    get:
+      operationId: api.flaskapp.launch
+      summary: Launch a Flask app.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+      responses:
+        200:
+          description: Return the URL to the Flask app.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  url:
+                    type: string
+                    description: The URL to the Flask app.
+                    example: http://localhost:5000/realworldapp
+        404:
+          description: The FlaskApp not found.
+
+  /load:
+    get:
+      operationId: api.flaskapp.load
+      summary: Used to load all Flask apps from locatiomn into database.
+      responses:
+        200:
+          description: Return all Flask apps from the database.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/FlaskApp" 
+  /:
+    get:
+      operationId: api.flaskapp.search
+      summary: Used to retrieve all Flask Apps.
+      responses:
+        200:
+          description: Return all Flask apps from the database.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/FlaskApp"
+    post:
+      operationId: api.flaskapp.post
+      summary: Used to save an FlaskApp to the database.
+      requestBody:
+        description: The app to save.
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/FlaskApp"
+      responses:
+        200:
+          description: Save successful.
+        400:
+          description: The FlaskApp already exists.
+  /{id}:
+    parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        required: true
+    get:
+      operationId: api.flaskapp.get
+      summary: Used to retrieve an FlaskApp from the database.
+      responses:
+        200:
+          description: The FlaskApp.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FlaskApp"
+        404:
+          description: The FlaskApp not found.
+    patch:
+      operationId: api.flaskapp.patch
+      summary: Update an FlaskApp in the database.
+      requestBody:
+        description: The FlaskApp save.
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/FlaskApp"
+      responses:
+        200:
+          description: The FlaskApp was updated.
+        404:
+          description: The FlaskApp was not found.
+    delete:
+      operationId: api.flaskapp.delete
+      summary: Delete an FlaskApp from the database.
+      responses:
+        200:
+          description: The FlaskApp was deleted.
+        404:
+          description: The FlaskApp was not found.
+
+components:
+  schemas:
+    FlaskAppFile:
+      description: The files for a FlaskApp.
+      type: object
+      x-tablename: flaskapp_files
+      x-composite-unique:
+        name: unique_file_names
+        columns:
+          - name
+          - flaskapp_id
+      properties:
+        id:
+          type: integer
+          description: Unique identifier for the FlaskAppFiles.
+          example: 0
+          x-primary-key: true
+          x-autoincrement: true
+        name:
+          type: string
+          description: The name of the FlaskAppFile.
+        content:
+          type: string
+          description: The contents of the FlaskAppFile.
+          example: |
+            app = flask.Flask(__name__)
+            @app.route('/')
+            def hello():
+              return "Hello World"
+        flaskapp_id:
+          type: integer
+          nullable: false
+          x-foreign-key: flaskapp.id
+          x-foreign-key-kwargs:
+            ondelete: cascade
+        flaskapp:
+          allOf:
+            - "$ref": "#/components/schemas/FlaskApp"
+            - x-backref: files
+      required:
+        - id
+        - name
+        - flaskapp
+    FlaskApp:
+      description: A Flask application.
+      type: object
+      x-tablename: flaskapp
+      properties:
+        id:
+          type: integer
+          description: Unique identifier for the FlaskApp.
+          example: 0
+          x-primary-key: true
+          x-autoincrement: true
+        name:
+          type: string
+          description: The name of the Flask App.
+          example: RealWorldApp
+          x-index: true
+        requirements_txt:
+          type: string
+          description: The contents of a requirements.txt file for the app
+          example: |
+            flask==2.0.2
+            flask-sqlalchemy
+          x-index: false
+        app_py:
+          type: string
+          description: The contents of a app.py file for the app. The file should contain an 'app' callable
+          example: |
+            app = flask.Flask(__name__)
+            @app.route('/')
+            def hello():
+              return "Hello World"
+        settings_yaml:
+          type: string
+          description: The contents of a settings.yaml file for the app.
+          example: |
+            default:
+              EXTENSIONS:
+                - flask_admin:FlaskAdmin
+                - flask_htmx:HTMX
+                - extensions.openalchemy:init_app
+              SECRET_KEY: "2345"
+        route:
+          type: string
+          description: The route to the app.
+          example: /realworldapp
+      required:
+        - id
+        - name
+        - app_py

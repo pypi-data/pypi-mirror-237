@@ -1,0 +1,560 @@
+title: FlaskApp
+type: object
+properties:
+  name:
+    title: Name
+    default: ''
+    type: string
+  description:
+    title: Description
+    default: ''
+    type: string
+  modules:
+    title: Modules
+    type: array
+    items:
+      $ref: '#/definitions/Module'
+  extensions:
+    title: Extensions
+    type: array
+    items:
+      $ref: '#/definitions/Extension'
+  config:
+    title: Config
+    default: {}
+    type: object
+required:
+- modules
+- extensions
+definitions:
+  SQLAColumn:
+    title: SQLAColumn
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      datatype:
+        title: Datatype
+      default:
+        title: Default
+      foreign_key:
+        title: Foreign Key
+        anyOf:
+        - type: string
+        - type: array
+          minItems: 2
+          maxItems: 2
+          items:
+          - type: string
+          - type: string
+      nullable:
+        title: Nullable
+        default: false
+        type: boolean
+  M2M:
+    title: M2M
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      target:
+        title: Target
+        anyOf:
+        - type: string
+        - type: array
+          minItems: 2
+          maxItems: 2
+          items:
+          - type: string
+          - type: string
+      backref:
+        title: Backref
+        type: string
+      kind:
+        title: Kind
+        default: Kind.many_to_many
+        enum:
+        - Kind.many_to_many
+        type: string
+      secondary:
+        title: Secondary
+        type: string
+    required:
+    - target
+    - secondary
+  O2M:
+    title: O2M
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      target:
+        title: Target
+        anyOf:
+        - type: string
+        - type: array
+          minItems: 2
+          maxItems: 2
+          items:
+          - type: string
+          - type: string
+      backref:
+        title: Backref
+        type: string
+      kind:
+        title: Kind
+        default: Kind.one_to_many
+        enum:
+        - Kind.one_to_many
+        type: string
+      viewonly:
+        title: Viewonly
+        default: false
+        type: boolean
+    required:
+    - target
+  M2O:
+    title: M2O
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      target:
+        title: Target
+        anyOf:
+        - type: string
+        - type: array
+          minItems: 2
+          maxItems: 2
+          items:
+          - type: string
+          - type: string
+      backref:
+        title: Backref
+        type: string
+      kind:
+        title: Kind
+        default: Kind.many_to_one
+        enum:
+        - Kind.many_to_one
+        type: string
+    required:
+    - target
+  O2O:
+    title: O2O
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      target:
+        title: Target
+        anyOf:
+        - type: string
+        - type: array
+          minItems: 2
+          maxItems: 2
+          items:
+          - type: string
+          - type: string
+      backref:
+        title: Backref
+        type: string
+      kind:
+        title: Kind
+        default: Kind.one_to_one
+        enum:
+        - Kind.one_to_one
+        type: string
+    required:
+    - target
+  SQLAModel:
+    title: SQLAModel
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      tablename:
+        title: Tablename
+        type: string
+      columns:
+        title: Columns
+        type: array
+        items:
+          $ref: '#/definitions/SQLAColumn'
+      relationships:
+        title: Relationships
+        default: []
+        type: array
+        items:
+          discriminator:
+            propertyName: kind
+            mapping:
+              Kind.many_to_many: '#/definitions/M2M'
+              Kind.one_to_many: '#/definitions/O2M'
+              Kind.many_to_one: '#/definitions/M2O'
+              Kind.one_to_one: '#/definitions/O2O'
+          oneOf:
+          - $ref: '#/definitions/M2M'
+          - $ref: '#/definitions/O2M'
+          - $ref: '#/definitions/M2O'
+          - $ref: '#/definitions/O2O'
+      mixins:
+        title: Mixins
+        default:
+        - '....extensions.appbuilder.Base'
+        type: array
+        items:
+          type: string
+    required:
+    - tablename
+    - columns
+  FABAction:
+    title: FABAction
+    type: object
+    properties:
+      name:
+        title: Name
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      title:
+        title: Title
+        type: string
+      icon:
+        title: Icon
+        default: ''
+        type: string
+      multiple:
+        title: Multiple
+        default: true
+        type: boolean
+      single:
+        title: Single
+        default: true
+        type: boolean
+      confirmation:
+        title: Confirmation
+        default: ''
+        type: string
+    required:
+    - name
+    - title
+  FABView:
+    title: FABView
+    type: object
+    properties:
+      name:
+        title: Name
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      model:
+        $ref: '#/definitions/SQLAModel'
+      mixins:
+        title: Mixins
+        default:
+        - ModelView
+        type: array
+        items:
+          type: string
+      list_columns:
+        title: List Columns
+        default: []
+        type: array
+        items:
+          type: string
+      show_columns:
+        title: Show Columns
+        default: []
+        type: array
+        items:
+          type: string
+      edit_columns:
+        title: Edit Columns
+        default: []
+        type: array
+        items:
+          type: string
+      add_columns:
+        title: Add Columns
+        default: []
+        type: array
+        items:
+          type: string
+      related_views:
+        title: Related Views
+        default: []
+        type: array
+        items:
+          type: string
+      actions:
+        title: Actions
+        default: []
+        type: array
+        items:
+          $ref: '#/definitions/FABAction'
+    required:
+    - name
+    - model
+  FABPermission:
+    title: FABPermission
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+  DataTypeKind:
+    title: DataTypeKind
+    description: An enumeration.
+    enum:
+    - float
+    - int
+    - string
+    - date
+    - datetime
+    - time
+    - boolean
+    - enum
+    - json
+    - uuid
+    - url
+    - email
+    - password
+    - file
+    - image
+    - video
+    - audio
+    - html
+    - markdown
+    - bb_code
+    - xml
+    - yaml
+    - toml
+    - csv
+    - tsv
+    type: string
+  DataType:
+    title: DataType
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      kind:
+        default: string
+        allOf:
+        - $ref: '#/definitions/DataTypeKind'
+  Attribute:
+    title: Attribute
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      datatype:
+        title: Datatype
+        default:
+          name: ''
+          description: ''
+          kind: string
+        allOf:
+        - $ref: '#/definitions/DataType'
+      default:
+        title: Default
+      validators:
+        title: Validators
+        default: []
+        type: array
+        items: {}
+  RelationshipKind:
+    title: RelationshipKind
+    description: An enumeration.
+    enum:
+    - one_to_one
+    - one_to_many
+    - many_to_one
+    - many_to_many
+  Relationship:
+    title: Relationship
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      kind:
+        $ref: '#/definitions/RelationshipKind'
+      model:
+        title: Model
+        type: string
+    required:
+    - kind
+    - model
+  Model:
+    title: Model
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      attributes:
+        title: Attributes
+        default: []
+        type: array
+        items:
+          $ref: '#/definitions/Attribute'
+      relationships:
+        title: Relationships
+        default: []
+        type: array
+        items:
+          $ref: '#/definitions/Relationship'
+  Action:
+    title: Action
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      parameters:
+        title: Parameters
+        default: {}
+        type: object
+        additionalProperties:
+          anyOf:
+          - $ref: '#/definitions/Model'
+          - type: string
+      body:
+        title: Body
+        type: string
+      result:
+        $ref: '#/definitions/Model'
+    required:
+    - body
+  Module:
+    title: Module
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      models:
+        title: Models
+        default: []
+        type: array
+        items:
+          $ref: '#/definitions/SQLAModel'
+      views:
+        title: Views
+        default: []
+        type: array
+        items:
+          $ref: '#/definitions/FABView'
+      permissions:
+        title: Permissions
+        default: []
+        type: array
+        items:
+          $ref: '#/definitions/FABPermission'
+      actions:
+        title: Actions
+        default: []
+        type: array
+        items:
+          $ref: '#/definitions/Action'
+  Extension:
+    title: Extension
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      requirements:
+        title: Requirements
+        default: []
+        type: array
+        items:
+          type: string
+      config:
+        title: Config
+        default: {}
+        type: object

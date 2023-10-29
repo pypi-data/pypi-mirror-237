@@ -1,0 +1,260 @@
+classname: {{request.args.classname or 'Unknown'}}
+datamodel: {{request.args.classname or 'Unknown'}}
+mixins: ['ModelView']
+route:  '/admin/{{request.args.get("classname","Unknown").lower()}}'
+related_views: {{request.args.related_views}}
+listview:
+    title: {{request.args.classname}}
+    columns: [{{request.args.list_columns}}]
+    template: {{request.args.list_template}}
+    widget: {{request.args.list_widget}}
+show:
+    title: {{request.args.classname}}
+    columns: [{{request.args.show_columns}}]
+    template: {{request.args.show_template}}
+    widget: {{request.args.show_widget}}
+edit:
+    title: {{request.args.classname}}
+    columns: [{{request.args.edit_columns}}]
+    template: {{request.args.edit_template}}
+    widget: {{request.args.edit_widget}}
+add:
+    title: {{request.args.classname}}
+    columns: [{{request.args.add_columns}}]
+    template: {{request.args.add_template}}
+    widget: {{request.args.add_widget}}
+page_size: 20
+specs:
+    {{request.args.classname}}: {{request.args.classname.lower()}}.yaml
+---
+
+
+{%if request.args.pretty%}<pre>{%endif%}
+
+{%set spec = specs[request.args.classname]%}
+{%set m = spec['components']['schemas'][classname]%}
+{%set cols = m.properties.keys()|list%}
+"""
+# {{m.title or classname}}
+
+{{m.description}}
+
+Generated from {{request.script_root ~ request.full_path}}
+"""
+from flask_appbuilder import ModelView
+from flask_appbuilder.models.sqla.interface import SQLAInterface
+import flask
+import flask_appbuilder
+
+from open_alchemy import models
+
+{{classname}} = models.{{classname}}
+
+class {{classname}}View({{mixins|join(',')}}):
+    """
+    # {{classname}}
+    {{m.description}}
+    """
+    route_base = '{{route}}'
+
+    datamodel = SQLAInterface({{classname}})
+
+    related_views = {%if related_views%}[{{related_views}}]{%else%}None{%endif%}
+    """
+        List with ModelView classes
+        Will be displayed related with this one using relationship sqlalchemy property::
+
+            class MyView(ModelView):
+                datamodel = SQLAModel(Group, db.session)
+                related_views = [MyOtherRelatedView]
+
+    """
+    _related_views = None
+    """ internal list with ref to instantiated view classes """
+    list_title = "{{listview.title}}"
+    """ List Title, if not configured the default is 'List ' with pretty model name """
+    show_title = "{{show.title}}"
+    """ Show Title , if not configured the default is 'Show ' with pretty model name """
+    add_title = "{{add.title}}"
+    """ Add Title , if not configured the default is 'Add ' with pretty model name """
+    edit_title = "{{edit.title}}"
+    """ Edit Title , if not configured the default is 'Edit ' with pretty model name """
+
+    list_columns = {{listview.columns or cols}}
+    """
+        A list of columns (or model's methods) to be displayed on the list view.
+        Use it to control the order of the display
+    """
+    show_columns = {{show.columns or cols}}
+    """
+        A list of columns (or model's methods) to be displayed on the show view.
+        Use it to control the order of the display
+    """
+    add_columns = {{add.columns or cols}}
+    """
+        A list of columns (or model's methods) to be displayed on the add form view.
+        Use it to control the order of the display
+    """
+    edit_columns = {{edit.columns or cols}}
+    """
+        A list of columns (or model's methods) to be displayed on the edit form view.
+        Use it to control the order of the display
+    """
+    show_exclude_columns = None
+    """
+       A list of columns to exclude from the show view.
+       By default all columns are included.
+    """
+    add_exclude_columns = None
+    """
+       A list of columns to exclude from the add form.
+       By default all columns are included.
+    """
+    edit_exclude_columns = None
+    """
+       A list of columns to exclude from the edit form.
+        By default all columns are included.
+    """
+    order_columns = None
+    """ Allowed order columns """
+    page_size = {{page_size}}
+    """
+        Use this property to change default page size
+    """
+    show_fieldsets = None
+    """
+        show fieldsets django style [(<'TITLE'|None>, {'fields':[<F1>,<F2>,...]}),....]
+
+        ::
+
+            class MyView(ModelView):
+                datamodel = SQLAModel(MyTable, db.session)
+
+                show_fieldsets = [
+                    ('Summary', {
+                        'fields': [
+                            'name',
+                            'address',
+                            'group'
+                            ]
+                        }
+                    ),
+                    ('Personal Info', {
+                        'fields': [
+                            'birthday',
+                            'personal_phone'
+                            ],
+                        'expanded':False
+                        }
+                    ),
+                ]
+
+    """
+    add_fieldsets = None
+    """
+        add fieldsets django style (look at show_fieldsets for an example)
+    """
+    edit_fieldsets = None
+    """
+        edit fieldsets django style (look at show_fieldsets for an example)
+    """
+
+    description_columns = None
+    """
+        Dictionary with column descriptions that will be shown on the forms::
+
+            class MyView(ModelView):
+                datamodel = SQLAModel(MyTable, db.session)
+
+                description_columns = {
+                    'name': 'your models name column',
+                    'address': 'the address column'
+                }
+    """
+    validators_columns = None
+    """ Dictionary to add your own validators for forms """
+    formatters_columns = None
+    """ Dictionary of formatter used to format the display of columns
+
+        formatters_columns = {'some_date_col': lambda x: x.isoformat() }
+    """
+    add_form_extra_fields = None
+    """
+        A dictionary containing column names and a WTForm
+        Form fields to be added to the Add form, these fields do not
+        exist on the model itself ex::
+
+        add_form_extra_fields = {'some_col':BooleanField('Some Col', default=False)}
+
+    """
+    edit_form_extra_fields = None
+    """ Dictionary to add extra fields to the Edit form using this property """
+
+    add_form_query_rel_fields = None
+    """
+        Add Customized query for related fields to add form.
+        Assign a dictionary where the keys are the column names of
+        the related models to filter, the value for each key, is a list of lists with the
+        same format as base_filter
+        {
+            'relation col name':
+                [['Related model col', FilterClass, 'Filter Value'],...],...
+        }
+        Add a custom filter to form related fields::
+
+            class ContactModelView(ModelView):
+                datamodel = SQLAModel(Contact, db.session)
+                add_form_query_rel_fields = {'group': [['name', FilterStartsWith, 'W']]}
+
+    """
+    edit_form_query_rel_fields = None
+    """
+        Add Customized query for related fields to edit form.
+        Assign a dictionary where the keys are the column names of
+        the related models to filter, the value for each key, is a list of lists with the
+        same format as base_filter
+        {
+            'relation col name':
+                [['Related model col', FilterClass, 'Filter Value'],...],...
+        }
+        Add a custom filter to form related fields::
+
+            class ContactModelView(ModelView):
+                datamodel = SQLAModel(Contact, db.session)
+                edit_form_query_rel_fields = {'group':[['name',FilterStartsWith,'W']]}
+
+    """
+
+    add_form = None
+    """ To implement your own, assign WTF form for Add """
+    edit_form = None
+    """ To implement your own, assign WTF form for Edit """
+
+    list_template = "{{listview.template or 'appbuilder/general/model/list.html'}}"
+    """ Your own add jinja2 template for list """
+    edit_template = "{{edit.template or 'appbuilder/general/model/edit.html'}}"
+    """ Your own add jinja2 template for edit """
+    add_template = "{{add.template or 'appbuilder/general/model/add.html'}}"
+    """ Your own add jinja2 template for add """
+    show_template = "{{show.template or 'appbuilder/general/model/show.html'}}"
+    """ Your own add jinja2 template for show """
+
+    # list_widget = ListWidget
+    # """ List widget override """
+    # edit_widget = FormWidget
+    # """ Edit widget override """
+    # add_widget = FormWidget
+    # """ Add widget override """
+    # show_widget = ShowWidget
+    # """ Show widget override """
+
+    actions = None
+
+def init_app(app:flask.Flask):
+    fab : flask_appbuilder.AppBuilder = app.extensions['appbuilder']
+    if not fab:
+        return
+    with app.app_context():
+        fab.add_view({{classname}}View,'{{classname}}')
+
+{%if request.args.pretty%}</pre>{%endif%}

@@ -1,0 +1,44 @@
+openapi: "3.0.0"
+
+info:
+  title: Department Schema
+  description: API to illustrate One to Many Relationships.
+  version: "0.1"
+
+paths:
+  /:
+    get:
+      operationId: api.department.search
+      summary: Used to retrieve all department.
+      responses:
+        200:
+          description: Return all department from the database.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  "$ref": "#/components/schemas/Department"
+
+components:
+  schemas:
+    Department:
+      description: A part of a company.
+      type: object
+      x-tablename: department
+      properties:
+        id:
+          type: integer
+          description: Unique identifier for the department.
+          example: 0
+          x-primary-key: true
+          x-autoincrement: true
+        name:
+          type: string
+          description: The name of the department.
+          example: Engineering
+        employees:
+          type: array
+          items:
+            "$ref": "#/components/schemas/Department"
+          description: The employees working in the department.
