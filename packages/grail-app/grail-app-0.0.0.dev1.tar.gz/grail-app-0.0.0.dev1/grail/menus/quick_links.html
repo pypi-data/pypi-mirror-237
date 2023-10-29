@@ -1,0 +1,89 @@
+title: Quick Links
+icon: duotune/general/gen025.svg
+badge:
+    color: primary
+    text: 3 pending
+menu_items:
+  - title: Left Menu
+    text: Edit the left menu
+    icon: duotune/finance/fin009.svg
+    url: /vscode/menus/leftmenu.html
+  - title: Explore Menu
+    text: Edit Explore Menu
+    icon: duotune/general/gen025.svg
+    url: /vscode/menus/explore.html
+  - title: Quick Menu
+    text: Edit Quick Menu
+    icon: duotune/general/gen025.svg
+    url: /vscode/menus/quick_links.html
+  - title: Home Page
+    text: Edit Home Page
+    icon: duotune/general/gen025.svg
+    url: /vscode/pages/index.html
+view_more:
+    title: View All Features
+    icon: duotune/arrows/arr064.svg
+    url: /home
+
+<div class="d-flex align-items-center ms-1 ms-lg-3">
+ <!--begin::Menu wrapper-->
+ <div class="btn btn-icon btn-active-light-primary w-30px h-30px w-md-40px h-md-40px" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end" data-kt-menu-trigger="click">
+  <!--begin::Svg Icon | path: icons/duotune/general/gen025.svg-->
+    {%include icon ignore missing%}
+  <!--end::Svg Icon-->
+ </div>
+ <!--begin::Menu-->
+ <div class="menu menu-sub menu-sub-dropdown menu-column w-250px w-lg-325px" data-kt-menu="true">
+  <!--begin::Heading-->
+  <div class="d-flex flex-column flex-center bgi-no-repeat rounded-top px-9 py-10" style="background-image:url('{{url_for('theme.static', filename='assets/media/misc/pattern-1.jpg')}}')">
+   <!--begin::Title-->
+   <h3 class="text-white fw-bold mb-3">
+    {{title}}
+   </h3>
+   <!--end::Title-->
+   <!--begin::Status-->
+   {%if badge%}
+   <span class="badge bg-{{badge.color}} py-2 px-3">
+    {{badge.text}}
+   </span>
+   {%endif%}
+   <!--end::Status-->
+  </div>
+  <!--end::Heading-->
+  <!--begin:Nav-->
+  <div class="row g-0">
+   <!--begin:Item-->
+    {%for item in menu_items%}
+   <div class="col-6">
+    <a class="d-flex flex-column flex-center h-100 p-6 bg-hover-light border-end border-bottom" href="{{item.url}}">
+     <!--begin::Svg Icon | path: icons/duotune/finance/fin009.svg-->
+      {%include item.icon ignore missing%}
+     <!--end::Svg Icon-->
+     <span class="fs-5 fw-bold text-gray-800 mb-0">
+       {{item.title}}
+     </span>
+     <span class="fs-7 text-gray-400">
+       {{item.text}}
+     </span>
+    </a>
+   </div>
+   <!--end:Item-->
+    {%endfor%}
+  </div>
+  <!--end:Nav-->
+  <!--begin::View more-->
+  {%if view_more%}
+  <div class="py-2 text-center border-top">
+   <a class="btn btn-color-gray-600 btn-active-color-primary" href="{{view_more.url}}">
+    {{view_more.title}}
+    <!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
+    {%include view_more.icon ignore missing%}
+    <!--end::Svg Icon-->
+   </a>
+  </div>
+  {%endif%}
+  <!--end::View more-->
+ </div>
+ <!--end::Menu-->
+ <!--end::Menu wrapper-->
+</div>

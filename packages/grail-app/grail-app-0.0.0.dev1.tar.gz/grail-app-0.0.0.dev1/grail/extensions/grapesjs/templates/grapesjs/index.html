@@ -1,0 +1,158 @@
+{% extends config.FAB_BASE_TEMPLATE %}
+
+{% block head_css %}
+{{super()}}
+<link href="https://unpkg.com/grapesjs/dist/css/grapes.min.css" rel="stylesheet">
+<link href="{{url_for('.static',filename='grapesjs-preset-webpage.min.css')}}" rel="stylesheet">
+
+<style>
+    body,
+    html {
+        height: 100%;
+        margin: 0;
+    }
+</style>
+{% endblock %}
+
+{% block head_js %}
+{{super()}}
+<script src="//feather.aviary.com/imaging/v3/editor.js"></script>
+<script src="https://static.filestackapi.com/v3/filestack-0.1.10.js"></script>
+<script src="https://unpkg.com/grapesjs"></script>
+
+<script src="https://unpkg.com/grapesjs-preset-webpage@1.0.1"></script>
+<script src="https://unpkg.com/grapesjs-blocks-basic@1.0.1"></script>
+<script src="https://unpkg.com/grapesjs-plugin-forms@2.0.5"></script>
+<script src="https://unpkg.com/grapesjs-component-countdown@1.0.1"></script>
+<script src="https://unpkg.com/grapesjs-plugin-export@1.0.11"></script>
+<script src="https://unpkg.com/grapesjs-tabs@1.0.6"></script>
+<script src="https://unpkg.com/grapesjs-custom-code@1.0.1"></script>
+<script src="https://unpkg.com/grapesjs-touch@0.1.1"></script>
+<script src="https://unpkg.com/grapesjs-parser-postcss@1.0.1"></script>
+<script src="https://unpkg.com/grapesjs-tooltip@0.1.7"></script>
+<script src="https://unpkg.com/grapesjs-tui-image-editor@0.1.3"></script>
+<script src="https://unpkg.com/grapesjs-typed@1.0.5"></script>
+<script src="https://unpkg.com/grapesjs-style-bg@1.0.5"></script>
+{% endblock %}
+
+{% block content %}
+    <div id="gjs" style="height:1000px; overflow:visible">
+        {{page.html|safe}}
+        <style>
+        {{page.css|safe}}
+        </style>
+    </div>
+{% endblock %}
+
+{% block tail_js %}
+{{super()}}
+    <script type="text/javascript">
+        var editor = grapesjs.init({
+                height: '100%',
+                showOffsets: 1,
+                noticeOnUnload: 0,
+                storageManager: false,
+
+                container: '#gjs',
+                fromElement: true,
+
+                plugins: ['gjs-preset-webpage'],
+                pluginsOpts: {
+                    'gjs-preset-webpage': {}
+                },
+                blockManager: {
+                    //appendTo: "#blocks",
+                    blocks: [
+                        {
+                            id: "section", // id is mandatory
+                            label: "<b>Section</b>", // You can use HTML/SVG inside labels
+                            attributes: { class: "gjs-block-section" },
+                            content: `<section>
+                      <h1>This is a simple title</h1>
+                      <div>This is just a Lorem text: Lorem ipsum dolor sit amet</div>
+                    </section>`,
+                        },
+                        {
+                            id: "text",
+                            label: "Text",
+                            content: '<div data-gjs-type="text">Insert your text here</div>',
+                        },
+                        {
+                            id: "image",
+                            label: "Image",
+                            // Select the component once it's dropped
+                            select: true,
+                            // You can pass components as a JSON instead of a simple HTML string,
+                            // in this case we also use a defined component type `image`
+                            content: { type: "image" },
+                            // This triggers `active` event on dropped components and the `image`
+                            // reacts by opening the AssetManager
+                            activate: true,
+                        },
+                        {% for b in blocks %}
+                        {
+                            id: '{{b.name}}',
+                            label: '{{b.name|title}}',
+                            attributes: { class: '' },
+                            content: `{{b.html|safe}}<style>{{b.css|safe}}</style>`
+                        },
+                        {% endfor %}
+                    ],
+                },
+                canvas: {
+                    styles: [
+
+                    ],
+                    scripts: [
+                        'https://cdn.tailwindcss.com'
+                    ]
+                }
+            });
+            editor.Panels.addButton
+                ('options',
+                    [{
+                        id: 'save-db',
+                        className: 'fa fa-floppy-o',
+                        command: 'save-db',
+                        attributes: { title: 'Save Page' }
+                    }]
+                );
+
+
+            // Add the command
+            editor.Commands.add
+                ('save-db', {
+                    run: function (editor, sender) {
+                        sender && sender.set('active'); // turn off the button
+                        //editor.store();
+                        saveContent();
+                    }
+                });
+            function saveContent() {
+                console.log(editor.getHtml(), editor.getCss());
+                const id = "{{ page.name }}";
+                const formData = new FormData();
+                formData.append('html', editor.getHtml());
+                formData.append('css', editor.getCss());
+                const url = id ? `{{url_for('PagesView.update',name=page.name)}}` : '{{url_for("PagesView.new")}}';
+                const request = new Request(
+                    url,
+                    {
+                        method: 'POST',
+                        headers: { {%if csrf_token%}'X-CSRFToken': '{{csrf_token()}}'{%endif%} },
+                        mode: 'same-origin', // Do not send CSRF token to another domain.
+                        body: formData
+                    }
+                );
+                fetch(request).then((resp) => resp.json()).then((response) => {
+                    console.log(response)
+                    alert('page saved successfully')
+                }).catch((error) => {
+                    console.log(error)
+                    alert('Error')
+                })
+            };
+    </script>
+{% endblock %}
+
+{%block footer%}{%endblock%}

@@ -1,0 +1,33 @@
+default:
+  DISABLE_ADMIN_VIEWS: false
+  LOGIN_URL: null
+  SPEC_DIR: ../api/spec
+  OPENALCHEMY_MODELS_DIR: 'models'
+  SQLALCHEMY_TRACK_MODIFICATIONS: false
+  SQLALCHEMY_DATABASE_URI: 'sqlite:///admin.db'
+  SECRET_KEY: '1234'
+  EXTENSIONS: 
+    - flask_appbuilder:SQLA
+    - grail.extensions.appbuilder:init_app
+    - grail.extensions.migrate:init_app
+    - grail.extensions.openalchemy:init_app
+    #- grail.extensions.generators:init_app
+    - views.employees:init_app
+    - views.departments:init_app
+    - views.flaskapps:init_app
+
+
+development:
+  EXTENSIONS:
+    - dynaconf_merge
+    - flask_debugtoolbar:DebugToolbarExtension
+    - grail.extensions.signals:init_app
+    - grail.extensions.endpoints:init_app
+    - grail.extensions.grapesjs:init_app
+    - grail.extensions.configuration:init_app
+    - grail.extensions.debugger:init_app
+
+  GENERATORS:
+    views/employees.py: fabview?classname=Employee
+    views/departments.py: fabview?classname=Department
+    views/flaskapps.py: fabview?classname=FlaskApp

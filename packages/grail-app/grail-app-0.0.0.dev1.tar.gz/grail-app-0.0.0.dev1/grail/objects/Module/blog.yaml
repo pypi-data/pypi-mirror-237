@@ -1,0 +1,184 @@
+name: blog
+description: A blooging module
+models:
+- name: Post
+  description: ''
+  tablename: post
+  columns:
+  - name: title
+    description: ''
+    datatype: string
+    default:
+    foreign_key:
+    nullable: false
+  - name: content
+    description: ''
+    datatype: text
+    default:
+    foreign_key:
+    nullable: false
+  - name: created_at
+    description: ''
+    datatype: datetime
+    default:
+    foreign_key:
+    nullable: false
+  - name: updated_at
+    description: ''
+    datatype: datetime
+    default:
+    foreign_key:
+    nullable: false
+  - name: published
+    description: ''
+    datatype: boolean
+    default:
+    foreign_key:
+    nullable: false
+  relationships: []
+  mixins:
+  - '....extensions.appbuilder.Base'
+- name: Comment
+  description: ''
+  tablename: comment
+  columns:
+  - name: content
+    description: ''
+    datatype: text
+    default:
+    foreign_key:
+    nullable: false
+  - name: created_at
+    description: ''
+    datatype: datetime
+    default:
+    foreign_key:
+    nullable: false
+  - name: updated_at
+    description: ''
+    datatype: datetime
+    default:
+    foreign_key:
+    nullable: false
+  relationships: []
+  mixins:
+  - '....extensions.appbuilder.Base'
+- name: Tag
+  description: ''
+  tablename: tag
+  columns:
+  - name: name
+    description: ''
+    datatype: string
+    default:
+    foreign_key:
+    nullable: false
+  relationships: []
+  mixins:
+  - '....extensions.appbuilder.Base'
+- name: Category
+  description: ''
+  tablename: category
+  columns:
+  - name: name
+    description: ''
+    datatype: string
+    default:
+    foreign_key:
+    nullable: false
+  - name: description
+    description: ''
+    datatype: text
+    default:
+    foreign_key:
+    nullable: false
+  relationships: []
+  mixins:
+  - '....extensions.appbuilder.Base'
+views:
+- name: Posts
+  description: ''
+  model:
+    name: Post
+    description: ''
+    tablename: post
+    columns:
+    - name: title
+      description: ''
+      datatype: string
+      default:
+      foreign_key:
+      nullable: false
+    - name: content
+      description: ''
+      datatype: text
+      default:
+      foreign_key:
+      nullable: false
+    - name: created_at
+      description: ''
+      datatype: datetime
+      default:
+      foreign_key:
+      nullable: false
+    - name: updated_at
+      description: ''
+      datatype: datetime
+      default:
+      foreign_key:
+      nullable: false
+    - name: published
+      description: ''
+      datatype: boolean
+      default:
+      foreign_key:
+      nullable: false
+    relationships: []
+    mixins:
+    - '....extensions.appbuilder.Base'
+  mixins:
+  - ModelView
+  list_columns: []
+  show_columns: []
+  edit_columns: []
+  add_columns: []
+  related_views: []
+  actions: []
+- name: Comments
+  description: ''
+  model:
+    name: Comment
+    description: ''
+    tablename: comment
+    columns:
+    - name: content
+      description: ''
+      datatype: text
+      default:
+      foreign_key:
+      nullable: false
+    - name: created_at
+      description: ''
+      datatype: datetime
+      default:
+      foreign_key:
+      nullable: false
+    - name: updated_at
+      description: ''
+      datatype: datetime
+      default:
+      foreign_key:
+      nullable: false
+    relationships: []
+    mixins:
+    - '....extensions.appbuilder.Base'
+  mixins:
+  - ModelView
+  list_columns: []
+  show_columns: []
+  edit_columns: []
+  add_columns: []
+  related_views: []
+  actions: []
+permissions: []
+actions: []

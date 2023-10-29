@@ -1,0 +1,44 @@
+# https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
+[project]
+name = "grail-app"
+authors = [{name = "Lakeshore Labs"}]
+description = "Grail is a low-code framework for building Flask-based web applications."
+readme = "README.md"
+requires-python = ">=3.9"
+dynamic = ["version","dependencies"]
+classifiers = ["License :: OSI Approved :: MIT License"]
+license = {file = "LICENSE.txt"}
+
+[project.urls]
+Home = "http://gitlab.com/lakeshorelabs/grail"
+
+[project.scripts]
+grail = "grail.cli:run"
+
+
+[tool.setuptools]
+py-modules = ['grail'] # which modules to include in the package
+
+# https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html#dynamic-metadata
+[tool.setuptools.dynamic]
+dependencies = {file = ["deploy/requirements/prod.txt"]}
+optional-dependencies = {dev = { file = ["deploy/requirements/dev.txt"] }}
+version = {attr = "grail.__version__"}
+
+# https://setuptools.pypa.io/en/latest/userguide/package_discovery.html#custom-discovery
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["grail"]
+
+[build-system]
+requires = ["setuptools>=67.6", "setuptools_scm[toml]>=6.2","wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+addopts = "-vvv -p no:warnings --cov=grail/ --cov-report=html --pdb" # TODO: don't disable all warnings
+
+[tool.behave]
+paths = ["tests/features"]
+
+[tool.doit]
+dodoFile='.doit/dodo.py'

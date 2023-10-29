@@ -1,0 +1,36 @@
+title: Soda Health
+url: https://mygoogle.com
+menu_items:
+    - url: https://google.com
+      title: About
+    - url: https://google.com/contact-us/
+      title: Contact Us
+---
+
+<div class="app-footer" id="kt_app_footer">
+    <!--begin::Footer container-->
+    <div class="app-container container-fluid d-flex flex-column flex-md-row flex-center flex-md-stack py-3">
+        <!--begin::Copyright-->
+        <div class="text-dark order-2 order-md-1">
+            <span class="text-muted fw-semibold me-1">
+                2023©
+            </span>
+            <a class="text-gray-800 text-hover-primary" href="{{url}}" target="_blank">
+                {{title}}
+            </a>
+        </div>
+        <!--end::Copyright-->
+        <!--begin::Menu-->
+        <ul class="menu menu-gray-600 menu-hover-primary fw-semibold order-1">
+            {%for m in menu_items%}
+            <li class="menu-item">
+                <a class="menu-link px-2" href="{{m.url}}" target="_blank">
+                    {{m.title}}
+                </a>
+            </li>
+            {%endfor%}
+        </ul>
+        <!--end::Menu-->
+    </div>
+    <!--end::Footer container-->
+</div>

@@ -1,0 +1,3 @@
+/home/ali/Work/grail/apps/admin/views/employees.py -I /app -p 'from grail.extensions.generators.gen import run;genpath="fabview?classname=Employee"; gen=lambda path: cog.outl(run(path))' -z -r
+/home/ali/Work/grail/apps/admin/views/departments.py -I /app -p 'from grail.extensions.generators.gen import run;genpath="fabview?classname=Department"; gen=lambda path: cog.outl(run(path))' -z -r
+/home/ali/Work/grail/apps/admin/views/flaskapps.py -I /app -p 'from grail.extensions.generators.gen import run;genpath="fabview?classname=FlaskApp"; gen=lambda path: cog.outl(run(path))' -z -r

@@ -1,0 +1,65 @@
+title: Pages
+menu_items:
+    - title: Dashboard
+      path: /dashboard
+      icon: duotune/general/gen025.svg
+    - title: My Apps
+      path: /apps
+    - title: Employees
+      path: /employee
+    - title: Upload
+      path: /upload
+    - title: Editor
+      path: /editor
+    - title: Icons
+      path: /icons
+    - title: Database
+      path: /pg
+    - title: API
+      path: /api
+    - title: Chat
+      path: /chat
+    - title: Admin
+      path: /admin
+    - title: Files
+      path: /files
+    - title: Git
+      path: /git
+    - title: Pyodide
+      path: /pyodide
+    - title: Unpoly
+      path: /unpoly
+---
+
+<div class="menu menu-column menu-title-gray-800 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500" data-kt-menu="true" id="#kt_aside_menu">
+ <div class="menu-item">
+  <div class="menu-content pb-2">
+   <span class="menu-section text-muted text-uppercase fs-8 ls-1">
+    {{title}}
+   </span>
+  </div>
+ </div>
+
+ {%for page in menu_items%}
+ <div class="menu-item">
+  <a class="menu-link {{'active' if g.current_page and page.path == g.current_page.path else ''}}" 
+    href="{{url_for('pages.page',path=page.path)}}"
+    hx-get="{{url_for('pages.page',path=page.path)}}"
+    hx-target="#kt_app_content_container"
+    hx-push-url="true"
+    hx-indicator=".htmx-indicator"
+    _="on click remove .active from .active then add .active to me"
+    >
+   <span class="menu-icon">
+    <!--begin::Svg Icon-->
+    {%if page.icon is defined%}{%include page.icon ignore missing%}{%endif%}
+    <!--end::Svg Icon-->
+   </span>
+   <span class="menu-title">
+    {{page.title}}
+   </span>
+   
+  </a>
+ </div>
+ {%endfor%}
+</div>

@@ -1,0 +1,67 @@
+title: Tree
+
+<div id="kt_docs_jstree_basic">
+    <ul>
+        <li>
+            Root node 1
+            <ul>
+                <li data-jstree='{ "selected" : true }'>
+                    <a href="javascript:;">
+                        Initially selected </a>
+                </li>
+                <li data-jstree='{ "icon" : "ki-outline ki-geolocation text-success fs-4" }'>
+                    custom icon URL
+                </li>
+                <li data-jstree='{ "opened" : true }'>
+                    initially open
+                    <ul>
+                        <li role="treeitem" aria-selected="true" aria-level="2" aria-labelledby="j3_2_anchor" id="j3_2"
+                            class="jstree-node  jstree-leaf">
+                            <div unselectable="on" role="presentation" class="jstree-wholerow jstree-wholerow-clicked">
+                                &nbsp;
+                            </div>
+                            <i class="jstree-icon jstree-ocl" role="presentation"></i>
+                            <a class="jstree-anchor jstree-clicked" href="#" tabindex="-1" id="j3_2_anchor">
+                                <i class="jstree-icon jstree-checkbox" role="presentation" hx-trigger="click" hx-get="?node=hi"></i>
+                                <i class="jstree-icon jstree-themeicon fa fa-folder kt-font-warning jstree-themeicon-custom" role="presentation"></i>
+                                initially selected
+                            </a>
+                        </li>
+                        <li data-jstree='{ "disabled" : true }'>
+                            Disabled Node
+                        </li>
+                        <li data-jstree='{ "type" : "file" }'>
+                            Another node
+                        </li>
+                    </ul>
+                </li>
+                <li data-jstree='{ "icon" : "ki-outline ki-message-text-2 text-danger fs-7" }'>
+                    Custom icon class (bootstrap)
+                </li>
+            </ul>
+        </li>
+        <li data-jstree='{ "type" : "file" }'>
+            <a href="http://www.keenthemes.com">
+                Clickable link node </a>
+        </li>
+    </ul>
+</div>
+
+<script>
+    $('#kt_docs_jstree_basic').jstree({
+        "core": {
+            "themes": {
+                "responsive": false
+            }
+        },
+        "types": {
+            "default": {
+                "icon": "ki-outline ki-folder"
+            },
+            "file": {
+                "icon": "ki-outline ki-file"
+            }
+        },
+        "plugins": ["types","checkbox"]
+    });
+</script>
