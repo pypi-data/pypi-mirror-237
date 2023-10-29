@@ -1,0 +1,13 @@
+tcrutils/__init__.py,sha256=lcXOEaMeklZy5Yh402i1kM8fWbG7VWsrFrTrx0sTYy0,446
+tcrutils/src/tcr_F.py,sha256=z0wZ6VkzMkspKtK7K6QG8FpNtIuKlaLAa_cyV9CGX8Q,74
+tcrutils/src/tcr_color.py,sha256=ERMxuxVTnUalzpvvSJKtFszisZJVX0SKUXL5AFTdoe8,2499
+tcrutils/src/tcr_console.py,sha256=6Wfw_8Vl7rSum75FjRkkGOSoZGyPSR_ooCYUl6xKC6g,2982
+tcrutils/src/tcr_error.py,sha256=73SB18izVXz8l9duvZuhYFpvx6TPwrTiJCCg7gjC8Qg,387
+tcrutils/src/tcr_extract_error.py,sha256=PwsWtoXAdvgZn3YVYSPUvEUykYH6u0UN3aRrEoE5vxI,166
+tcrutils/src/tcr_null.py,sha256=W8v-WtCmutZ62KEFynohU_4Yb22VTM5IZIPwC_ik6BM,639
+tcrutils/src/tcr_print_iterable.py,sha256=TilRq5Ov1OJIR_YgVnHGeYMPMbdXzNUL_BCD0I6udvk,946
+tcrutils/src/tcr_timestr.py,sha256=1V4qZMC2mhBneZ33sELgcEI3qgd_vwMU9AMj-rS_MtU,14488
+tcrutils-0.0.20.dist-info/METADATA,sha256=SaZTQ4ugAxDxCrywHkHBNs2ye-bwo9bpcxajNWFzS4A,1499
+tcrutils-0.0.20.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tcrutils-0.0.20.dist-info/top_level.txt,sha256=_gXkcAMICZ9S5NPN3dZ9HgxoVyeJDDwv1lxM6SwHivw,9
+tcrutils-0.0.20.dist-info/RECORD,,
