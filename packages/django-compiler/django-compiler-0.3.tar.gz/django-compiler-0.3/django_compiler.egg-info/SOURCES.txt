@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django_compiler/__init__.py
+django_compiler/apps.py
+django_compiler/tests.py
+django_compiler/utils.py
+django_compiler.egg-info/PKG-INFO
+django_compiler.egg-info/SOURCES.txt
+django_compiler.egg-info/dependency_links.txt
+django_compiler.egg-info/requires.txt
+django_compiler.egg-info/top_level.txt
+django_compiler/management/__init__.py
+django_compiler/management/commands/__init__.py
+django_compiler/management/commands/compile.py
