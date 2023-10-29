@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+convergence/__init__.py
+convergence/convergence.py
+convergence_service_lib.egg-info/PKG-INFO
+convergence_service_lib.egg-info/SOURCES.txt
+convergence_service_lib.egg-info/dependency_links.txt
+convergence_service_lib.egg-info/requires.txt
+convergence_service_lib.egg-info/top_level.txt
