@@ -1,0 +1,14 @@
+validation/__init__.py,sha256=DIbSPWsyjjYkGPGe0PVJIlnA-nFTGXR8LZ0uB0eawgI,118
+validation/error_message.py,sha256=mY5GkSBoambQj4wx0VtcAOJdtsrYtneqdCcbR31c6NU,212
+validation/errors.py,sha256=9rvILQ84SMjChzNIvgz10T54Okoqo0KVLmQXZ7KmfwU,87
+validation/rules.py,sha256=BhyENnNE4oFvucp2ulF6xc2zMudMBhUXBPooOFA_Zzg,158
+validation/validation.py,sha256=nVlJYXa1TotYQurO3bALkzNuOMmsxmyXwsPYXAsY2EY,3147
+validation/validation_methods.py,sha256=HUxkwZaovZBP_Ul_dYXY7bDJwBmPWQXyOFIuBv564Nk,701
+validation/validation_rule.py,sha256=zLFe9572EOAKqb0lLibHalJFoqO30lBGMTv9AH8XUAw,1265
+validation/flask_validation/__init__.py,sha256=hHyTGcQnyQXmay0JuEyJ4iTNKt083005xpFPpTJ-GuI,116
+validation/flask_validation/flask_validation.py,sha256=WdumT1r2qmyNTOgJ_pDikGzE7kcV4ASw453lnGYzWKA,3509
+validation_py-0.1.0.dist-info/LICENSE,sha256=TQzb8_3R7zg92RexoH2ujX1tIS5bm8Zy52OZQzInxiM,1074
+validation_py-0.1.0.dist-info/METADATA,sha256=POiaJJ51Ejn3t-2iKFlx8eS9jira8iSPgpHWtvhmFjE,3767
+validation_py-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+validation_py-0.1.0.dist-info/top_level.txt,sha256=LVhqhtPMMlhumg70xlQj6enJs7mozqDz3fPtj2De6VE,11
+validation_py-0.1.0.dist-info/RECORD,,
