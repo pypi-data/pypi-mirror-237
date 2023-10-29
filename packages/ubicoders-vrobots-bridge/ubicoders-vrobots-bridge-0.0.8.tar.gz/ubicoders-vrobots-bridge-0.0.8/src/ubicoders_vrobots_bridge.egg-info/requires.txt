@@ -1,0 +1,6 @@
+asyncio
+websockets
+websocket-client
+flatbuffers
+flet
+pyperclip
