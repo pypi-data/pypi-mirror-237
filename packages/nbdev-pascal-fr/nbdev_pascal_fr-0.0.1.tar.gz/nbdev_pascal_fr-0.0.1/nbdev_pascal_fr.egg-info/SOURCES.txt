@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+nbdev_pascal_fr/__init__.py
+nbdev_pascal_fr/_modidx.py
+nbdev_pascal_fr/core.py
+nbdev_pascal_fr/datasets.py
+nbdev_pascal_fr/training.py
+nbdev_pascal_fr.egg-info/PKG-INFO
+nbdev_pascal_fr.egg-info/SOURCES.txt
+nbdev_pascal_fr.egg-info/dependency_links.txt
+nbdev_pascal_fr.egg-info/entry_points.txt
+nbdev_pascal_fr.egg-info/not-zip-safe
+nbdev_pascal_fr.egg-info/requires.txt
+nbdev_pascal_fr.egg-info/top_level.txt
