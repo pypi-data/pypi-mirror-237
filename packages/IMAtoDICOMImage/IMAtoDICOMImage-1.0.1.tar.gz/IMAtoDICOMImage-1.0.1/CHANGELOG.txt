@@ -1,0 +1,9 @@
+# Changelog
+
+All notable changes to the IMAtoDICOMImage Python library will be documented in this file.
+
+## [1.0.0] - 2023-9-30
+first version 
+
+## [1.0.1] - 2023-10-29 
+in this version i just fixed sum bugs
