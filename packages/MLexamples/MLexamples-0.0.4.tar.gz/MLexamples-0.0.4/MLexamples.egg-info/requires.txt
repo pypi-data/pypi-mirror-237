@@ -1,0 +1,13 @@
+jupyter
+jupyterlab
+nbdev
+jupyterlab-quarto
+seaborn
+scikit-learn
+pandas
+matplotlib
+plotly
+opencv-python
+fastai
+
+[dev]
