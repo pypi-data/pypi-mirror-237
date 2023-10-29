@@ -1,0 +1,7 @@
+README.md
+setup.py
+C:/Users/lucag/OneDrive/Desktop/gabor/gabor.py
+gabor.egg-info/PKG-INFO
+gabor.egg-info/SOURCES.txt
+gabor.egg-info/dependency_links.txt
+gabor.egg-info/top_level.txt

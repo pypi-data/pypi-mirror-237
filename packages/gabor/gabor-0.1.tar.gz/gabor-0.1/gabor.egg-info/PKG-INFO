@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: gabor
+Version: 0.1
+Summary: Libreria Python per trovare il numero primo più vicino ad una variabile (escludendo il caso in cui la variabile sia già un numero primo)
+Author: Luca Gabor
+Author-email: luca.gabor1010@gmail.com
+License: MIT
+Requires-Python: >=3.6
