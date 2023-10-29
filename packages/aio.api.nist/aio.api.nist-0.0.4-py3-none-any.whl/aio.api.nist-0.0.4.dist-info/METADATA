@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: aio.api.nist
+Version: 0.0.4
+Summary: Async fetcher/parser for NIST CVE data
+Home-page: https://nist.com/envoyproxy/toolshed/tree/main/aio.api.nist
+Author: Ryan Northey
+Author-email: ryan@synca.io
+Maintainer: Ryan Northey
+Maintainer-email: ryan@synca.io
+License: Apache Software License 2.0
+Requires-Python: >=3.10.0
+Requires-Dist: abstracts (>=0.0.12)
+Requires-Dist: aio.core (>=0.10.0)
+Requires-Dist: aiohttp (>=3.8.1)
+Requires-Dist: packaging (>=23.0)
+
+
+aio.api.nist
+============
+
+Async fetcher/parser for NIST CVE data
