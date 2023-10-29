@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+umap-learn
+scipy
+opencv-python
+
+[colab]
+google-colab
