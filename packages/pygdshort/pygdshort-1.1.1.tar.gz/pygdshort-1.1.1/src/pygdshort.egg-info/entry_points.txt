@@ -1,0 +1,2 @@
+[console_scripts]
+pygdshort = pygdshort:cli

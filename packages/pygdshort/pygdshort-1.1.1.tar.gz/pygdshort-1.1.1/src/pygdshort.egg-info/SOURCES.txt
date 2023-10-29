@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/pygdshort/__init__.py
+src/pygdshort/cli.py
+src/pygdshort/link.py
+src/pygdshort.egg-info/PKG-INFO
+src/pygdshort.egg-info/SOURCES.txt
+src/pygdshort.egg-info/dependency_links.txt
+src/pygdshort.egg-info/entry_points.txt
+src/pygdshort.egg-info/requires.txt
+src/pygdshort.egg-info/top_level.txt
