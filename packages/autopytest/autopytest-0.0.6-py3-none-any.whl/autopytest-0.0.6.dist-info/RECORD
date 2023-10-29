@@ -1,0 +1,13 @@
+autopytest/__init__.py,sha256=S-JeLgZdAc4kXiqMlgXpILfC2qfL7aa4pNvCW38YXM4,77
+autopytest/autotest.py,sha256=MxmEtuTQ_pbQIeTLpcXiGFoBby-k4O4WRwqS0dfv8kg,2633
+autopytest/cli.py,sha256=ZQvkM69Zet4JkClTV2L5BEHBkTGnFVhY3xUvS7L8EAg,200
+autopytest/config.py,sha256=mm4nWfBLZviEsTMU9-MvHAN14GX1sdrUwrk8X2cn-uo,1792
+autopytest/file.py,sha256=X5QW3Rtv8Wk6kjSX4BDg3P_w4kxTOzfPjl3WxsS_0Hk,789
+autopytest/source.py,sha256=8avhJTc3k5CP7ToLmcKIDKO6KkdsVNGlk9Eb6UFYTWs,990
+autopytest/runners/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autopytest/runners/pytest.py,sha256=M92GSniDAScOnpRh6Tuz3zuYLC6dVUMragkvDltYDLg,466
+autopytest-0.0.6.dist-info/METADATA,sha256=vUvb3o6Ah4wmn7_CCvRObsCTSzYG2aXC9H48aaD-XXE,4245
+autopytest-0.0.6.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+autopytest-0.0.6.dist-info/entry_points.txt,sha256=Z1_-hAe07u18M1q4dSNpZ9UI1XzfissGkyATgiIWBws,51
+autopytest-0.0.6.dist-info/licenses/LICENSE,sha256=uOR7gTNeUlfd8eR6ZpY0j3Ry88bEtyDYoqDGmAdYd5U,1075
+autopytest-0.0.6.dist-info/RECORD,,
