@@ -1,0 +1,12 @@
+[console_scripts]
+gacp = nbdevAuto.automate:gacp
+h = nbdevAuto.automate:h
+prep = nbdevAuto.automate:prep
+reinstall = nbdevAuto.automate:reinstall
+release = nbdevAuto.automate:git_release
+setup = nbdevAuto.automate:reinstall
+update = nbdevAuto.automate:update
+upload = nbdevAuto.automate:upload
+
+[nbdev]
+nbdevAuto = nbdevAuto._modidx:d
