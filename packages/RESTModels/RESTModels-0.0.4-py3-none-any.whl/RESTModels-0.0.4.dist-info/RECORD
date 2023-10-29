@@ -1,0 +1,14 @@
+RESTModels/__init__.py,sha256=lp8C4A7rSDU5ANKiD9mWjeg1Q9jFy6nvxva43OHrpks,260
+RESTModels/builders.py,sha256=_8JT6CyJm9akYLq5gRb36vAuZ4gEjPnjvzoEQOpLhyE,1393
+RESTModels/clients.py,sha256=4-Xx1AnjJtQQMLnuncNjU5sD1ta4ZQ_4jdiI4S6fn5Y,2728
+RESTModels/requests.py,sha256=0dZzNe1NTWcuuup_5FpBE8rDjBwx_cvzDJ6OEiXwBqQ,2028
+RESTModels/resources.py,sha256=SXCk6smsQviSXmmwr9sXpzimZqZ8XeVDC7n-iVhEoTM,219
+RESTModels/parsers/__init__.py,sha256=7df4dqhysPc24w_fU931-21p16FpCcP3CNph5xTRPZE,641
+RESTModels/parsers/alias_parsers.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+RESTModels/parsers/args_parsers.py,sha256=xVGoeCVeMuG4J56OI_x9PAjQ6OsBPgOkqVcTk3OmF1Q,328
+RESTModels/parsers/response_parsers.py,sha256=xMwbCCuxOjok2iXwgNxp8H3LR6ckHe_avpH74oklnfM,777
+RESTModels/parsers/type_alias_parsers.py,sha256=JiEykJgMDiD-fUIVJIVdIPQoiwUrYoTVy9uXcGMkWh4,3591
+RESTModels-0.0.4.dist-info/METADATA,sha256=m2kZ2UM4TWDUg3NR0mE_zgv3HY9p-TTbzk6HTt8oGcI,324
+RESTModels-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+RESTModels-0.0.4.dist-info/top_level.txt,sha256=QShAtkGoOGaGYxD9ryPNwmBM4lpB3j0sSW6t1Se5mLM,11
+RESTModels-0.0.4.dist-info/RECORD,,
