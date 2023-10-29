@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: corrfeatred
+Version: 0.0.1
+Summary: A python module to reduce features using correlation matrix
+Author-email: Abhijit Deo <f20190041g@alumni.bits-pilani.ac.in>
+Project-URL: Homepage, https://github.com/abhi-glitchhg/corrfeatred
+Project-URL: Bug Tracker, https://github.com/abhi-glitchhg/corrfeatred/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# corrfeatred
+
+
+
+
+reduce features using correlation matrix 
