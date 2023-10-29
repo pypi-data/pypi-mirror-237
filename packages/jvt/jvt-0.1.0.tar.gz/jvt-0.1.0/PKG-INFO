@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: jvt
+Version: 0.1.0
+Summary: Vision transformers with JAX & Flax
+Home-page: https://github.com/tflahaul/jax-vision-transformers
+Author: Thomas Flahault
+Keywords: artificial intelligence,computer vision
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: jaxlib
+Requires-Dist: jax
+Requires-Dist: flax
+Requires-Dist: optax
