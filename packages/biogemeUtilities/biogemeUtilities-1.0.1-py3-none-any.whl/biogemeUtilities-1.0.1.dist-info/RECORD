@@ -1,0 +1,10 @@
+biogemeUtilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biogemeUtilities/biogeme.py,sha256=noULDVljDDxXTQoG8WMOkDBw49GVmDK8FFsO5azaWFc,86900
+biogemeUtilities/database.py,sha256=Uxj8WjZv96LQgFatfmXwtTQt0pVw08C73f1_7DJ3gQY,21865
+biogemeUtilities/filenames.py,sha256=e9mUquflygrOVM7VRi5hJDaSxBMza5TkLgLkBwjBEp0,2584
+biogemeUtilities/statistics.py,sha256=hiGfCQ_9O8zqdl4vuiMBprKG0oUr-3l-wFobBV7kd8g,11247
+biogemeUtilities-1.0.1.dist-info/LICENSE.txt,sha256=24W6OIFrQYO1UCS0qCio7aSiJzvR1QX0amk3B5dqcBw,1094
+biogemeUtilities-1.0.1.dist-info/METADATA,sha256=2XbL7I9C803HhbARpDJqOWA_I0htqX0zIpiRn4uxy9k,1472
+biogemeUtilities-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+biogemeUtilities-1.0.1.dist-info/top_level.txt,sha256=mLL6qXizG5XsUJl69VVJpzqDNMZDsTkaVPWMup_UfYE,17
+biogemeUtilities-1.0.1.dist-info/RECORD,,
