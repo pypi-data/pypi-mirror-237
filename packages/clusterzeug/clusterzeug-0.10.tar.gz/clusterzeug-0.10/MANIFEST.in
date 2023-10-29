@@ -1,0 +1,3 @@
+include clusterzeug/requirements.txt
+include clusterzeug/thirdparty.json
+include clusterzeug/README.MD

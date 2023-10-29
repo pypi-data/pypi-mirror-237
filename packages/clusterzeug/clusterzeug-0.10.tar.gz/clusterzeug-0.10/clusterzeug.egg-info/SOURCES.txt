@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+clusterzeug/README.MD
+clusterzeug/__init__.py
+clusterzeug/requirements.txt
+clusterzeug/thirdparty.json
+clusterzeug.egg-info/PKG-INFO
+clusterzeug.egg-info/SOURCES.txt
+clusterzeug.egg-info/dependency_links.txt
+clusterzeug.egg-info/requires.txt
+clusterzeug.egg-info/top_level.txt
