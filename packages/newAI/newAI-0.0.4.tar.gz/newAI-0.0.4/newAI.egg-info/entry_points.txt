@@ -1,0 +1,2 @@
+[nbdev]
+FastAI = FastAI._modidx:d
