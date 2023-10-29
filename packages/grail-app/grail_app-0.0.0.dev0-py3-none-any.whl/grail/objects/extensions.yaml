@@ -1,0 +1,23 @@
+name: ''
+description: ''
+items:
+- name: appbuilder
+  description: ''
+  requirements:
+  - flask-appbuilder
+  config: {}
+- name: sqlalchemy
+  description: ''
+  requirements:
+  - flask-sqlalchemy
+  config: {}
+- name: gateway
+  description: ''
+  requirements: []
+  config: {}
+- name: gpt
+  description: ''
+  requirements:
+  - langchain
+  - openai
+  config: {}

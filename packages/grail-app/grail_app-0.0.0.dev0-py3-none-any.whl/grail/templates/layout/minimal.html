@@ -1,0 +1,42 @@
+{%extends 'base.html'%}
+
+{%block head_js%}
+    {{super()}}
+    {# TODO: Move all this into flask-assets type declaritive config#}
+    {%include 'htmx_js.html' ignore missing%}
+    {%include 'unpoly_css.html' ignore missing%}
+    {%include 'unpoly_js.html' ignore missing%}
+    
+    <link href="{{url_for('theme.static',filename='assets/plugins/global/plugins.bundle.css')}}" rel="stylesheet" type="text/css"/>
+    <script src="{{url_for('theme.static',filename='assets/plugins/global/plugins.bundle.js')}}"></script>
+    
+    <link href="{{url_for('theme.static',filename='assets/plugins/custom/jstree/jstree.bundle.css')}}" rel="stylesheet" type="text/css"/>
+    <script src="{{url_for('theme.static',filename='assets/plugins/custom/jstree/jstree.bundle.js')}}"></script>
+    
+{%endblock head_js%}
+
+{%block header_menu%}{{super()}}{%endblock%}
+
+{%block header_search%}{%endblock%}
+
+{%block notifications%}{%endblock%}
+
+{%block chat_drawer_toggle%}{{super()}}{%endblock%}
+
+{%block activities_drawer_toggle%}{%endblock%}
+
+{%block quick_links%}{{menus.get('quick_links')}}{%endblock%}
+
+{%block header_user_menu%}{{super()}}{%endblock%}
+
+{%block toolbar%}
+<div class="app-container container-fluid d-flex flex-stack" id="kt_app_toolbar_container">
+  {%include g.current_page.meta.toolbar if g.current_page and g.current_page.meta.toolbar else None ignore missing %}
+</div>
+{%endblock%}
+
+{%block footer%}{{menus.get('footer')}}{%endblock%}
+
+{%block aside_menu%}{{menus.get('leftmenu')}}{%endblock%}
+
+{%block explore_drawer%}{{menus.get('explore')}}{%endblock%}
