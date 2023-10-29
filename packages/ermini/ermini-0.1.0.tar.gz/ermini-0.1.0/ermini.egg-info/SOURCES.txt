@@ -1,0 +1,7 @@
+README.md
+ermini.egg-info/PKG-INFO
+ermini.egg-info/SOURCES.txt
+ermini.egg-info/dependency_links.txt
+ermini.egg-info/not-zip-safe
+ermini.egg-info/requires.txt
+ermini.egg-info/top_level.txt

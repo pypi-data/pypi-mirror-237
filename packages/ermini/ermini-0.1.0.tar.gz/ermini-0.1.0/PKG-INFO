@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ermini
+Version: 0.1.0
+Home-page: https://github.com/crusat/ermini
+Author: Aleksey Kuznetsov aka crusat
+Author-email: crusat@yandex.ru
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+```bash
+pip install ermini
+```
+
+License: [MIT](LICENSE)
