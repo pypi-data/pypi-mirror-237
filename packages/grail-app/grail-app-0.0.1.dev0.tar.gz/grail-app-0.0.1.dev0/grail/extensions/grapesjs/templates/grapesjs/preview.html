@@ -1,0 +1,14 @@
+{% extends config.FAB_BASE_TEMPLATE %}
+
+{% block head_css %}
+    {{super()}}
+    <script src="https://cdn.tailwindcss.com"></script>
+
+{% endblock %}
+
+{% block content %}
+    {{page.html|safe}}
+    <style>
+    {{page.css|safe}}
+    </style>
+{% endblock %}

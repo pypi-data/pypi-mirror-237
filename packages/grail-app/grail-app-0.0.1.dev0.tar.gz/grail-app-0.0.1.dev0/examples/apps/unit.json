@@ -1,0 +1,38 @@
+{
+    "listeners": {
+        "*:8000": {
+            "pass": "routes/main"
+        }
+    },
+    "routes": {
+        "main": [
+            {
+                "match": {
+                    "uri": "/app/*"
+                },
+                "action": {
+                    "pass": "applications/app"
+                }
+            }
+        ]
+    },
+    "applications": {
+        "app": {
+            "type": "python 3",
+            "path": ["/app"],
+            "working_directory": "/app",
+            "module": "grail.app",
+            "callable": "application",
+            "prefix": "/app",
+            "user": "root",
+            "threads": 2,
+            "environment": {
+                "FLASK_ENV": "development",
+                "WERKZEUG_DEBUG_PIN": "off" ,
+                "FLASK_DEBUG": "1"
+            }
+        }
+      
+    },
+    "access_log": "/var/log/access.log"
+}

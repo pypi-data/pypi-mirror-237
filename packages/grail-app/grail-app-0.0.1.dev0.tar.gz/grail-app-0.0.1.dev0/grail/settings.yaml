@@ -1,0 +1,81 @@
+default:
+  SQLALCHEMY_DATABASE_URI: "postgresql://app_user:password@db:5432/app_db"
+  #SQLALCHEMY_DATABASE_URI: "sqlite:///:memory:"
+  SQLALCHEMY_TRACK_MODIFICATIONS: false
+  EXTENSIONS: 
+    - grail.extensions.logging:init_app
+    - grail.extensions.htmx:init_app
+    - grail.extensions.pgrest:init_app
+    - grail.extensions.theme:init_app
+    - grail.extensions.avatar:init_app
+    - grail.extensions.pages:init_app
+    - grail.extensions.uploads:init_app
+    - grail.extensions.unpoly:init_app
+    - grail.extensions.auth:init_app
+    - grail.extensions.page_editor:init_app
+    - grail.extensions.jinja_editor:init_app
+    - grail.extensions.pyodide:init_app
+    - grail.extensions.unit:init_app
+  DISABLE_ADMIN_VIEWS: true
+  SPEC_DIR: '/apps/api/spec'
+  LOGIN_URL: '/admin/login'
+  UNIT_CONFIG_FILE: '/apps/unit.json'
+  SECRET_KEY: "abcdfadsf"
+  BASE_TEMPLATE: 'layout/minimal.html'
+  PAGES:
+    pages:
+      path: "/" 
+      methods: ["GET","POST","PATCH"]
+    menus:
+      path: "/menus"
+      methods: ["GET"]
+  
+  FLATPAGES_GEN_HTML_RENDERER: 'grail.app.render_page'
+  FLATPAGES_GEN_AUTO_RELOAD: true
+  FLATPAGES_MENUS_HTML_RENDERER: 'grail.app.render_page'
+  FLATPAGES_MENUS_ROOT: "menus"
+  FLATPAGES_MENUS_AUTO_RELOAD: true
+  FLATPAGES_PAGES_HTML_RENDERER: 'grail.app.render_page'
+  FLATPAGES_PAGES_ROOT: "pages"
+  FLATPAGES_PAGES_AUTO_RELOAD: true
+  FLATPAGES_PAGES_LEGACY_META_PARSER: true
+  POSTGREST_URI:
+    app: "postgres://authenticator:mysecretpassword@db:5432/app_db"
+    postgres: "postgres://authenticator:mysecretpassword@db:5432/app_db"
+  UPLOAD_FOLDER: "uploads"
+  DEBUG_TB_ENABLED: false
+  THEME_LAYOUT: 'lite-sidebar'
+  FAVICON_URL: '/static/images/favicon.ico'
+  LOGGING:
+    version: 1
+    formatters:
+      default:
+        format: '[%(asctime)s] %(levelname)s in %(module)s: %(message)s'
+    handlers:
+      wsgi:
+        class: logging.StreamHandler
+        stream: 'ext://flask.logging.wsgi_errors_stream'
+        formatter: default
+    root:
+      level: INFO
+      handlers:
+        - wsgi
+
+production:
+  EXTENSIONS: 
+    - "dynaconf_merge"
+  
+development:
+  DEBUG: true
+  DEBUG_TB_ENABLED: true
+  DEBUG_TB_INTERCEPT_REDIRECTS: false
+  TEMPLATES_AUTO_RELOAD: true
+  EXTENSIONS: 
+    - dynaconf_merge
+    - flask_debugtoolbar:DebugToolbarExtension
+    - grail.extensions.debugger:init_app
+    - grail.extensions.adr:init_app
+  LOGGING:
+    dynaconf_merge: true
+    root:
+      level: DEBUG

@@ -1,0 +1,21 @@
+title: Upload
+cta: Upload
+---
+
+<div class="card">
+<form id='form' hx-encoding='multipart/form-data' hx-post='/upload'>
+    <input type='file' id="files" name="files" multiple>
+ 
+    <button class="btn btn-sm btn-primary me-2">{{cta}}</btn>
+
+    <progress id='progress' value='0' max='100'></progress>
+</form>
+<script>
+    htmx.on('#form', 'htmx:xhr:progress', function(evt) {
+      htmx.find('#progress').setAttribute('value', evt.detail.loaded/evt.detail.total * 100)
+    });
+</script>
+</div>
+<div class="card">
+{{pages.get('dropzone')}}
+</div>

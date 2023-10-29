@@ -1,0 +1,220 @@
+name: departments
+description: ''
+modules:
+- name: departments
+  description: ''
+  models:
+  - name: Project
+    description: A project that people can work on
+    tablename: projects
+    columns:
+    - name: name
+      description: The name of the project
+      datatype: string
+      default:
+      foreign_key:
+      nullable: false
+    relationships: []
+    mixins:
+    - '....extensions.appbuilder.Base'
+  - name: Department
+    description: 'A specification for a department '
+    tablename: departments
+    columns:
+    - name: name
+      description: The name of the department
+      datatype: string
+      default:
+      foreign_key:
+      nullable: false
+    relationships: []
+    mixins:
+    - '....extensions.appbuilder.Base'
+  - name: PersonProjects
+    description: Represents a many-to-many relationship between Person and Project.
+    tablename: person_projects
+    columns:
+    - name: person_id
+      description: The id of the person
+      datatype: integer
+      default:
+      foreign_key: persons.id
+      nullable: false
+    - name: project_id
+      description: The id of the project
+      datatype: integer
+      default:
+      foreign_key: projects.id
+      nullable: false
+    relationships:
+    - name: person
+      description: ''
+      target: Person
+      backref:
+      kind: Kind.one_to_many
+      viewonly: true
+    - name: project
+      description: ''
+      target: Project
+      backref:
+      kind: Kind.one_to_many
+      viewonly: true
+    mixins:
+    - '....extensions.appbuilder.Base'
+  - name: Person
+    description: 'A specification Person '
+    tablename: persons
+    columns:
+    - name: name
+      description: The name of the person
+      datatype: string
+      default:
+      foreign_key:
+      nullable: false
+    - name: description
+      description: The description of the person
+      datatype: string
+      default:
+      foreign_key:
+      nullable: false
+    - name: department_id
+      description: ''
+      datatype: integer
+      default:
+      foreign_key: departments.id
+      nullable: false
+    relationships:
+    - name: projects
+      description: ''
+      target: Project
+      backref: workers
+      kind: Kind.many_to_many
+      secondary: person_projects
+    - name: department
+      description: ''
+      target: Department
+      backref: employees
+      kind: Kind.many_to_one
+    mixins:
+    - '....extensions.appbuilder.Base'
+  views:
+  - name: Departments
+    description: A view for managing departments
+    model:
+      name: Department
+      description: 'A specification for a department '
+      tablename: departments
+      columns:
+      - name: name
+        description: The name of the department
+        datatype: string
+        default:
+        foreign_key:
+        nullable: false
+      relationships: []
+      mixins:
+      - '....extensions.appbuilder.Base'
+    mixins:
+    - ModelView
+    list_columns: []
+    show_columns: []
+    edit_columns: []
+    add_columns: []
+    related_views: []
+    actions: []
+  - name: Projects
+    description: A view for managing projects
+    model:
+      name: Project
+      description: A project that people can work on
+      tablename: projects
+      columns:
+      - name: name
+        description: The name of the project
+        datatype: string
+        default:
+        foreign_key:
+        nullable: false
+      relationships: []
+      mixins:
+      - '....extensions.appbuilder.Base'
+    mixins:
+    - ModelView
+    list_columns: []
+    show_columns: []
+    edit_columns: []
+    add_columns: []
+    related_views: []
+    actions: []
+  - name: Persons
+    description: A view for managing persons
+    model:
+      name: Person
+      description: 'A specification Person '
+      tablename: persons
+      columns:
+      - name: name
+        description: The name of the person
+        datatype: string
+        default:
+        foreign_key:
+        nullable: false
+      - name: description
+        description: The description of the person
+        datatype: string
+        default:
+        foreign_key:
+        nullable: false
+      - name: department_id
+        description: ''
+        datatype: integer
+        default:
+        foreign_key: departments.id
+        nullable: false
+      relationships:
+      - name: projects
+        description: ''
+        target: Project
+        backref: workers
+        kind: Kind.many_to_many
+        secondary: person_projects
+      - name: department
+        description: ''
+        target: Department
+        backref: employees
+        kind: Kind.many_to_one
+      mixins:
+      - '....extensions.appbuilder.Base'
+    mixins:
+    - ModelView
+    list_columns: []
+    show_columns: []
+    edit_columns: []
+    add_columns: []
+    related_views:
+    - Projects
+    actions: []
+  permissions: []
+  actions: []
+extensions:
+- name: appbuilder
+  description: ''
+  requirements:
+  - flask-appbuilder
+  config: {}
+- name: sqlalchemy
+  description: ''
+  requirements:
+  - flask-sqlalchemy
+  config: {}
+- name: gateway
+  description: ''
+  requirements: []
+  config: {}
+- name: gpt
+  description: ''
+  requirements:
+  - langchain
+  - openai
+  config: {}
+config: {}

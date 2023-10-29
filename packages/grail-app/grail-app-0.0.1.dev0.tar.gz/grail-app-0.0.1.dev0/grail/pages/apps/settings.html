@@ -1,0 +1,15 @@
+title: Settings
+requests:
+  current_app: {%if request.args.id%}
+    uri: /api/flaskapp/{{request.args.id}} {%endif%}
+---
+
+{%set app = current_app.json() if current_app else none%}
+
+<div class="card">
+<code>
+<pre>
+{{app.settings_yaml}}
+</pre>
+</code>
+</div>
