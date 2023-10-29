@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: demurr
+Version: 0.0.1
+Summary: A parser/demangler for decorated Visual C++ names using LLVM
+Keywords: demangling,msvc
+Author-email: Avery Warddhana <them+pypi@nullablevo.id.au>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: Topic :: Software Development :: Compilers
+
+# Demurr
+A parser/demangler for decorated Visual C++ names using LLVM.

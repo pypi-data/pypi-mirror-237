@@ -1,0 +1,14 @@
+demurr/__init__.py,sha256=9VLqp_NpviU6ZHjNi6Si9Fs6Q2qfd-o7qMbf6e7f9ZA,153
+demurr/__init__.pyi,sha256=DN0jTMgYxA15RyZnmREU4tvbL9oDoJwyA15o-vi5ZaY,21
+demurr/_msvc_module.cp312-win_amd64.pyd,sha256=MhDgov36aYSuLQIpRvIM_jnF2yBam2z37Sg_1Sr3GbM,324096
+demurr/_msvc_module.pyi,sha256=QxthUpUPNPTLDgIFjegtConF_XQUIIrJ-_JC8McH_4E,50197
+demurr/_msvc_module_d.cp312-win_amd64.pyd,sha256=2jYmYEIp-p39RJkLoutAGr8rV3hIULJ33ioogewv2ek,1182720
+demurr/_msvc_module_d.pdb,sha256=gpSHMnwP1meZ4LbdSEJ0F-q5izOscPzrT8iB0cUATI0,11440128
+demurr/_msvc_module_d.pyi,sha256=QxthUpUPNPTLDgIFjegtConF_XQUIIrJ-_JC8McH_4E,50197
+demurr/msvc.py,sha256=yYz4cbXA8FcVGL-YLdfTFYHmWc6YFkhrktU-HboIFV4,288
+demurr/msvc.pyi,sha256=PLtFxNuFkA9oDVpoLvuHd9P6-SKY1QZL80nPIpDR_qc,29
+demurr/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+demurr-0.0.1.dist-info/METADATA,sha256=BeVRNvdF12rN5fKnDwNrDiOlel8BHR-sEh5-VxVMNGo,408
+demurr-0.0.1.dist-info/WHEEL,sha256=T3E3uUk9QtYvkm8GEoO5O955cYqBS3gWlij182ma6Ow,96
+demurr-0.0.1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+demurr-0.0.1.dist-info/RECORD,,
