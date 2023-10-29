@@ -1,0 +1,10 @@
+LICENCE.md
+MANIFEST.in
+README.md
+setup.py
+simple_deployment.egg-info/PKG-INFO
+simple_deployment.egg-info/SOURCES.txt
+simple_deployment.egg-info/dependency_links.txt
+simple_deployment.egg-info/entry_points.txt
+simple_deployment.egg-info/requires.txt
+simple_deployment.egg-info/top_level.txt

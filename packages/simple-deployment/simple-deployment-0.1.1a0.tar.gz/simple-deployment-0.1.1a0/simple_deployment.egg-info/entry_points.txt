@@ -1,0 +1,2 @@
+[console_scripts]
+simple-deployment = backend.app2:main
