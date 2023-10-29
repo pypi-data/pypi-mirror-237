@@ -1,0 +1,7 @@
+metaflow_extensions/ray/plugins/mfextinit_ray.py,sha256=TwARC3jLvYluSPdhvT85G264aGt5PsiJ7x6U2Gzv_rE,81
+metaflow_extensions/ray/plugins/ray_decorator.py,sha256=ndGCIoKND2zc84IK49CL4-empcw0OcT3dET6O-3w9uE,10505
+metaflow_ray-0.0.3.dist-info/LICENSE,sha256=ydjCLAcWLldSnWr262KjboD3pUG-FiPgXUsyfPdqdrQ,11348
+metaflow_ray-0.0.3.dist-info/METADATA,sha256=PkWrYOjubp8WJwY1yYQ_0YYpECZcTEdXvZAXX-sdPsA,210
+metaflow_ray-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+metaflow_ray-0.0.3.dist-info/top_level.txt,sha256=NwG0ukwjygtanDETyp_BUdtYtqIA_lOjzFFh1TsnxvI,20
+metaflow_ray-0.0.3.dist-info/RECORD,,
