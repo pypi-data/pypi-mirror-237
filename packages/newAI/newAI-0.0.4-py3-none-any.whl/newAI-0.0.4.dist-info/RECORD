@@ -1,0 +1,15 @@
+FastAI/__init__.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+FastAI/_modidx.py,sha256=N942sdI2UK7svsh1SdVxGqRsEntVhfdqe7vvztwlgxM,992
+FastAI/fastai.py,sha256=vqCF5S6uOPcXCJArAJWccyOHic6mGdULYD5_e6vtRGk,1842
+FastAI/nbdev.py,sha256=rrWvWJbpnu2nfPFxe6n6SdlH1JBrqxXTMhOvRi_lsIA,238
+newAI/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+newAI/_modidx.py,sha256=uOUzG5n57gz24AIV53OhAKr6fSjg_ZOWhdcHjIO3I_w,1062
+newAI/core.py,sha256=BXu-gHFyTywAptuITVK0DEheuj9KVObUY91rI1Q27i8,163
+newAI/fastai.py,sha256=vqCF5S6uOPcXCJArAJWccyOHic6mGdULYD5_e6vtRGk,1842
+newAI/nbdev.py,sha256=rrWvWJbpnu2nfPFxe6n6SdlH1JBrqxXTMhOvRi_lsIA,238
+newAI-0.0.4.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+newAI-0.0.4.dist-info/METADATA,sha256=bLE3Djg_88BLJ-Bv7RvyGaTtXdFaj2APOR01SxjLw1A,2551
+newAI-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+newAI-0.0.4.dist-info/entry_points.txt,sha256=WXhQxsLstxMEXWbWTAW6p4ZidhutJCEXpjmsQAKNd4s,34
+newAI-0.0.4.dist-info/top_level.txt,sha256=5AJqyAaOvjUpb4ZymSyX6FFIUxeE03qDvUjAhBBDgtU,13
+newAI-0.0.4.dist-info/RECORD,,
