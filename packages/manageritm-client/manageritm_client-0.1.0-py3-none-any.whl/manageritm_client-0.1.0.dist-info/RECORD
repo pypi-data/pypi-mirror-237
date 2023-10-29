@@ -1,0 +1,8 @@
+manageritm_client/__init__.py,sha256=PggQxR2LdokyzTdrvWrG6UfSZBJ99hFM8hbwlI4zg_Q,261
+manageritm_client/manageritm_client.py,sha256=FHRGKbdBXfitj18ROC6hfOpchHFljiogBqEOTI5S-uw,1946
+manageritm_client/manageritm_command_client.py,sha256=bHGF83MCJRNCdNgDq-HE6WXem8fstgzIeIo4_Sb8f3Y,664
+manageritm_client/manageritm_proxy_client.py,sha256=jJd7rn0Ubf2tRCYlh1oWzTKCwI58HND1T4REQ10uUlk,741
+manageritm_client-0.1.0.dist-info/LICENSE,sha256=v0AOq3ApAu_soFeODpse6cYbkJjJvpJUqMSFdHT51cI,1072
+manageritm_client-0.1.0.dist-info/METADATA,sha256=NO0hR0LYvOlq--6ZFHOLbxZdHGnEUv_SipS0YyYuMAw,2685
+manageritm_client-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+manageritm_client-0.1.0.dist-info/RECORD,,
