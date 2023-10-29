@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+datallia/__init__.py
+datallia/tree.py
+datallia.egg-info/PKG-INFO
+datallia.egg-info/SOURCES.txt
+datallia.egg-info/dependency_links.txt
+datallia.egg-info/top_level.txt
