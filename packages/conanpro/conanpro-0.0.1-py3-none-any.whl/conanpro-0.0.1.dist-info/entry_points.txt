@@ -1,0 +1,2 @@
+[nbdev]
+conanpro = conanpro._modidx:d
