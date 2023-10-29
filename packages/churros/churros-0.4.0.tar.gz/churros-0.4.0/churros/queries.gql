@@ -1,0 +1,161 @@
+query me {
+  me {
+    id
+    uid
+    email
+    otherEmails
+    firstName
+    lastName
+    fullName
+    major {
+      id
+      uid
+      name
+      shortName
+      schools {
+        id
+        uid
+        name
+      }
+    }
+    minor {
+      id
+      uid
+      name
+      shortName
+      majors {
+        id
+      }
+    }
+    graduationYear
+    yearTier
+    apprentice
+    address
+    birthday
+    description
+    nickname
+    phone
+    pictureFile
+    links {
+      computedValue
+      name
+    }
+    godparent {
+      id
+      uid
+      firstName
+      lastName
+      nickname
+      fullName
+    }
+    cededImageRightsToTVn7
+  }
+}
+
+query user($uid: String!) {
+  user(uid: $uid) {
+    id
+    uid
+    email
+    otherEmails
+    firstName
+    lastName
+    fullName
+    major {
+      id
+      uid
+      name
+      shortName
+      schools {
+        id
+        uid
+        name
+      }
+    }
+    minor {
+      id
+      uid
+      name
+      shortName
+      majors {
+        id
+      }
+    }
+    graduationYear
+    yearTier
+    apprentice
+    address
+    birthday
+    description
+    nickname
+    phone
+    pictureFile
+    links {
+      computedValue
+      name
+    }
+    godparent {
+      id
+      uid
+      firstName
+      lastName
+      nickname
+      fullName
+    }
+  }
+}
+
+query group($uid: String!) {
+  group(uid: $uid) {
+    uid
+    name
+    pictureFile
+    email
+    description
+    selfJoinable
+    website
+    color
+    studentAssociation {
+      name
+      uid
+      school {
+        uid
+        name
+      }
+    }
+    parent {
+      uid
+      name
+    }
+    members {
+      title
+      president
+      vicePresident
+      treasurer
+      secretary
+      member {
+        uid
+        fullName
+        email
+      }
+    }
+  }
+}
+
+mutation login($username: String!, $password: String!) {
+  login(email: $username, password: $password) {
+    __typename
+    ... on MutationLoginSuccess {
+      data {
+        token
+      }
+    }
+    ... on Error {
+      message
+    }
+  }
+}
+
+mutation logout {
+  logout
+}
