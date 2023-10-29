@@ -1,0 +1,153 @@
+title: Application
+type: object
+properties:
+  name:
+    title: Name
+    default: ''
+    type: string
+  description:
+    title: Description
+    default: ''
+    type: string
+  datamodel:
+    $ref: '#/definitions/DataModel'
+  pagemodel:
+    $ref: '#/definitions/PageModel'
+  actionmodel:
+    $ref: '#/definitions/ActionModel'
+  querymodel:
+    $ref: '#/definitions/QueryModel'
+  eventmodel:
+    $ref: '#/definitions/EventModel'
+required:
+- datamodel
+- pagemodel
+- actionmodel
+- querymodel
+- eventmodel
+definitions:
+  DataModel:
+    title: DataModel
+    description: "Abstract base class for generic types.\n\nA generic type is typically
+      declared by inheriting from\nthis class parameterized with one or more type
+      variables.\nFor example, a generic mapping type might be defined as::\n\n  class
+      Mapping(Generic[KT, VT]):\n      def __getitem__(self, key: KT) -> VT:\n   \
+      \       ...\n      # Etc.\n\nThis class can then be used as follows::\n\n  def
+      lookup_name(mapping: Mapping[KT, VT], key: KT, default: VT) -> VT:\n      try:\n\
+      \          return mapping[key]\n      except KeyError:\n          return default"
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      models:
+        title: Models
+        type: array
+        items: {}
+    required:
+    - models
+  PageModel:
+    title: PageModel
+    description: "Abstract base class for generic types.\n\nA generic type is typically
+      declared by inheriting from\nthis class parameterized with one or more type
+      variables.\nFor example, a generic mapping type might be defined as::\n\n  class
+      Mapping(Generic[KT, VT]):\n      def __getitem__(self, key: KT) -> VT:\n   \
+      \       ...\n      # Etc.\n\nThis class can then be used as follows::\n\n  def
+      lookup_name(mapping: Mapping[KT, VT], key: KT, default: VT) -> VT:\n      try:\n\
+      \          return mapping[key]\n      except KeyError:\n          return default"
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      pages:
+        title: Pages
+        type: array
+        items: {}
+    required:
+    - pages
+  ActionModel:
+    title: ActionModel
+    description: "Abstract base class for generic types.\n\nA generic type is typically
+      declared by inheriting from\nthis class parameterized with one or more type
+      variables.\nFor example, a generic mapping type might be defined as::\n\n  class
+      Mapping(Generic[KT, VT]):\n      def __getitem__(self, key: KT) -> VT:\n   \
+      \       ...\n      # Etc.\n\nThis class can then be used as follows::\n\n  def
+      lookup_name(mapping: Mapping[KT, VT], key: KT, default: VT) -> VT:\n      try:\n\
+      \          return mapping[key]\n      except KeyError:\n          return default"
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      actions:
+        title: Actions
+        type: array
+        items: {}
+    required:
+    - actions
+  QueryModel:
+    title: QueryModel
+    description: "Abstract base class for generic types.\n\nA generic type is typically
+      declared by inheriting from\nthis class parameterized with one or more type
+      variables.\nFor example, a generic mapping type might be defined as::\n\n  class
+      Mapping(Generic[KT, VT]):\n      def __getitem__(self, key: KT) -> VT:\n   \
+      \       ...\n      # Etc.\n\nThis class can then be used as follows::\n\n  def
+      lookup_name(mapping: Mapping[KT, VT], key: KT, default: VT) -> VT:\n      try:\n\
+      \          return mapping[key]\n      except KeyError:\n          return default"
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      queries:
+        title: Queries
+        type: array
+        items: {}
+    required:
+    - queries
+  EventModel:
+    title: EventModel
+    description: "Abstract base class for generic types.\n\nA generic type is typically
+      declared by inheriting from\nthis class parameterized with one or more type
+      variables.\nFor example, a generic mapping type might be defined as::\n\n  class
+      Mapping(Generic[KT, VT]):\n      def __getitem__(self, key: KT) -> VT:\n   \
+      \       ...\n      # Etc.\n\nThis class can then be used as follows::\n\n  def
+      lookup_name(mapping: Mapping[KT, VT], key: KT, default: VT) -> VT:\n      try:\n\
+      \          return mapping[key]\n      except KeyError:\n          return default"
+    type: object
+    properties:
+      name:
+        title: Name
+        default: ''
+        type: string
+      description:
+        title: Description
+        default: ''
+        type: string
+      events:
+        title: Events
+        type: array
+        items: {}
+    required:
+    - events
