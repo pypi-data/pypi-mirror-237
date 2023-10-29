@@ -1,0 +1,9 @@
+LICENSE
+README.md
+lyymysql.py
+setup.py
+lyymysql.egg-info/PKG-INFO
+lyymysql.egg-info/SOURCES.txt
+lyymysql.egg-info/dependency_links.txt
+lyymysql.egg-info/requires.txt
+lyymysql.egg-info/top_level.txt
