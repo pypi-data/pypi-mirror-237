@@ -1,0 +1,8 @@
+setup.py
+DTLhelpTool_Python.egg-info/PKG-INFO
+DTLhelpTool_Python.egg-info/SOURCES.txt
+DTLhelpTool_Python.egg-info/dependency_links.txt
+DTLhelpTool_Python.egg-info/requires.txt
+DTLhelpTool_Python.egg-info/top_level.txt
+DTLhelper/__main__.py
+DTLhelper/main.py

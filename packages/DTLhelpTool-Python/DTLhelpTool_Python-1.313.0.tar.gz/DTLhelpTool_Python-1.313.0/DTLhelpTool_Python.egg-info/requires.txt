@@ -1,0 +1,4 @@
+requests>=2.0.0
+pycryptodome>=3.0.0
+pywin32>=300
+pycryptodomex

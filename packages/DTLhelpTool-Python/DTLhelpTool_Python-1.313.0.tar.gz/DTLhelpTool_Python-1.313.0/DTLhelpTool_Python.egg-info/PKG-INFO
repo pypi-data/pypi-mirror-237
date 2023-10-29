@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: DTLhelpTool-Python
+Version: 1.313.0
+Requires-Dist: requests>=2.0.0
+Requires-Dist: pycryptodome>=3.0.0
+Requires-Dist: pywin32>=300
+Requires-Dist: pycryptodomex
