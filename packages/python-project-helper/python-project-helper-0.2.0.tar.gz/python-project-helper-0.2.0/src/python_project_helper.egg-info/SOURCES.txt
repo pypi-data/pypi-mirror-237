@@ -1,0 +1,16 @@
+.editorconfig
+.gitignore
+LICENSE
+README.adoc
+pyproject.toml
+requirements-dev.in
+src/python_project_helper/__init__.py
+src/python_project_helper/__main__.py
+src/python_project_helper/_version.py
+src/python_project_helper.egg-info/PKG-INFO
+src/python_project_helper.egg-info/SOURCES.txt
+src/python_project_helper.egg-info/dependency_links.txt
+src/python_project_helper.egg-info/entry_points.txt
+src/python_project_helper.egg-info/requires.txt
+src/python_project_helper.egg-info/top_level.txt
+test/conftest.py

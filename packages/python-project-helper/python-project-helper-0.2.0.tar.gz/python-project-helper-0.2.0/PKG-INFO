@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: python-project-helper
+Version: 0.2.0
+Requires-Python: >=3.8
+License-File: LICENSE
+Provides-Extra: tests
+Requires-Dist: pytest~=7.0; extra == "tests"
+Requires-Dist: pytest-cov; extra == "tests"
+Requires-Dist: pytest-mock; extra == "tests"
+Requires-Dist: coverage; extra == "tests"
+Requires-Dist: hypothesis; extra == "tests"
+Requires-Dist: mypy~=1.0; extra == "tests"
