@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pythics/__init__.py
+pythics/object.py
+pythics/vector.py
+pythics.egg-info/PKG-INFO
+pythics.egg-info/SOURCES.txt
+pythics.egg-info/dependency_links.txt
+pythics.egg-info/top_level.txt

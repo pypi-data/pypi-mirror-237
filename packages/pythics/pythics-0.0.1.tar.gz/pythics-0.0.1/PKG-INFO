@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pythics
+Version: 0.0.1
+Summary: Basic 2D physics library
+Home-page: https://github.com/DarkKnight8034/pythics
+Author: Kody Schram
+Author-email: kody.schram@icloud.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### What is pythics?
+
+Pythics is a simple 2D physics simulator developed alongside instruction in AP Physics 1. While mostly being an application of the concepts learned in class to further my understanding, it will be implemented to coexist with another project using pygame for game development. 
+
+## Units
+* Mass &#8594; $grams$ 
+* Positions &#8594; $meters$ 
+* Velocity &#8594; $\frac{meters}{second}$
+* Acceleration &#8594; $\frac{meters}{second^2}$
+* Forces &#8594; $Newtons$
