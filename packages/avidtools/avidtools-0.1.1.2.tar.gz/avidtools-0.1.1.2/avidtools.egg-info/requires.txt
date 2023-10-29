@@ -1,0 +1,5 @@
+pydantic
+typing
+typing_extensions
+datetime
+nvdlib
