@@ -1,0 +1,7 @@
+# google_sheet_writer
+
+**google_sheet_writer** is an object-oriented wrapper around (amazing!) [gspread](https://github.com/burnash/gspread) and [gspread_formatting](https://github.com/robin900/gspread-formatting) that allows to programmatically create Google Sheets tables in an easy way.
+
+On top of being convenient, it strives to minimize the amount of requests to save API quota.
+
+See examples in `examples` folder.
