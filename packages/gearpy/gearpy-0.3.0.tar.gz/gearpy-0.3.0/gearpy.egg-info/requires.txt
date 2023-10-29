@@ -1,0 +1,12 @@
+matplotlib>=3.8.0
+numpy>=1.26.0
+pandas>=2.1.1
+scipy>=1.11.3
+
+[dev]
+sphinx>=7.2.6
+m2r2>=0.3.3.post2
+furo>=2023.9.10
+tox>=4.11.3
+hypothesis>=6.87.1
+twine>=4.0.2
