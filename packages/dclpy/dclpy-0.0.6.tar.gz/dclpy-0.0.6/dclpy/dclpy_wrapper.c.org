@@ -1,0 +1,62 @@
+#define PY_SSIZE_T_CLEAN
+#include <Python.h> /* Python/C API */
+#include "dclpy.h" /* 呼び出したいC言語の関数 */
+#include <cdcl.h>
+#include <cdcln.h>
+
+
+static PyObject *
+addWrapper(PyObject *self, PyObject *args) {
+
+    int x;
+
+    /* argsからint型に変換したデータを２つ取得 */
+    if (!PyArg_ParseTuple(args, "i", &x)) {
+        /* エラー時は例外発生 */
+        return NULL;
+    }
+    /* 目的のC言語の関数を呼び出し */
+     gropn__(&x);
+
+     int ret = 0;
+
+    /* retをPybOject構造体に変換してアドレス返却 */
+    return Py_BuildValue("i", ret);
+}
+
+static PyObject *
+subWrapper(PyObject *self, PyObject *args) {
+
+    int x, y;
+
+    /* argsからint型に変換したデータを２つ取得 */
+    if (!PyArg_ParseTuple(args, "ii", &x, &y)) {
+        /* エラー時は例外発生 */
+        return NULL;
+    }
+
+    /* 目的のC言語の関数を呼び出し */
+    int ret = sub(x, y);
+
+    /* retをPybOject構造体に変換してアドレス返却 */
+    return Py_BuildValue("i", ret);
+}
+
+static PyMethodDef dclpyMethods[] = {
+    {"gropn", addWrapper, METH_VARARGS, NULL},
+    {"MySub", subWrapper, METH_VARARGS, NULL},
+    {NULL, NULL, 0, NULL} /* 番兵 */
+};
+
+static PyModuleDef dclpyModule = {
+    PyModuleDef_HEAD_INIT,
+    "dclpy",
+    NULL,
+    -1,
+    dclpyMethods
+};
+
+PyMODINIT_FUNC
+PyInit_dclpy(void) {
+    return PyModule_Create(&dclpyModule);
+}
