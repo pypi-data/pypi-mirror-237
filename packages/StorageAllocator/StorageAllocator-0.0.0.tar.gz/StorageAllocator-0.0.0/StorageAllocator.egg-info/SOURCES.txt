@@ -1,0 +1,6 @@
+setup.py
+StorageAllocator/__init__.py
+StorageAllocator.egg-info/PKG-INFO
+StorageAllocator.egg-info/SOURCES.txt
+StorageAllocator.egg-info/dependency_links.txt
+StorageAllocator.egg-info/top_level.txt

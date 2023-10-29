@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: StorageAllocator
+Version: 0.0.0
+Author: Folumo (Ominox_)
+Author-email: <ominox_@folumo.com>
+Keywords: python,allocating
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
