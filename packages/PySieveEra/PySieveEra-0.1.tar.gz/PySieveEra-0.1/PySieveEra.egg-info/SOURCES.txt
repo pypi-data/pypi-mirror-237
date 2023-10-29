@@ -1,0 +1,8 @@
+LICENCE.txt
+README.rst
+setup.py
+PySieveEra/__init__.py
+PySieveEra.egg-info/PKG-INFO
+PySieveEra.egg-info/SOURCES.txt
+PySieveEra.egg-info/dependency_links.txt
+PySieveEra.egg-info/top_level.txt
