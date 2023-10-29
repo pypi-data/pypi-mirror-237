@@ -1,0 +1,6 @@
+main.py
+pyproject.toml
+python_moex.egg-info/PKG-INFO
+python_moex.egg-info/SOURCES.txt
+python_moex.egg-info/dependency_links.txt
+python_moex.egg-info/top_level.txt
