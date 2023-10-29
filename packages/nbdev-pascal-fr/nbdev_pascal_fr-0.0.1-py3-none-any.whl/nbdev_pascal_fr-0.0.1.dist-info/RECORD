@@ -1,0 +1,11 @@
+nbdev_pascal_fr/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+nbdev_pascal_fr/_modidx.py,sha256=8htvTsWOHUJO9jp4uyomvLckf0kDWfMt_8IhON4z-cs,409
+nbdev_pascal_fr/core.py,sha256=XvYRFJnboqMdZHx5H7r0_lA-3XPdhaQT2VEq4mdIHEg,142
+nbdev_pascal_fr/datasets.py,sha256=D_RyQK21kIdPtMk2NNt5BkQtMR4lcJELQwfbRM-IQsU,4132
+nbdev_pascal_fr/training.py,sha256=4V8IY4x9BkgFUuSm6mcj0RenVzyIPACk4Uys9UWlfIk,1844
+nbdev_pascal_fr-0.0.1.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+nbdev_pascal_fr-0.0.1.dist-info/METADATA,sha256=k0aIhdCpyfpBbBJtkQLK2q9ghl1XNTF0J6YfQ89w940,1066
+nbdev_pascal_fr-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nbdev_pascal_fr-0.0.1.dist-info/entry_points.txt,sha256=6BPE-M-Z0pUik778TEUh-g00i6y9xK8yjJ0T7y1GAcY,73
+nbdev_pascal_fr-0.0.1.dist-info/top_level.txt,sha256=pzqVpbP56olpoXfmJ4zo4P21hlpUhlrt56iXxD-Cs2M,16
+nbdev_pascal_fr-0.0.1.dist-info/RECORD,,
