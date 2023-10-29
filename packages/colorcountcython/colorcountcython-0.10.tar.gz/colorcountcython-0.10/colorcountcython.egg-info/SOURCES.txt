@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+colorcountcython/README.MD
+colorcountcython/__init__.py
+colorcountcython/requirements.txt
+colorcountcython/thirdparty.json
+colorcountcython.egg-info/PKG-INFO
+colorcountcython.egg-info/SOURCES.txt
+colorcountcython.egg-info/dependency_links.txt
+colorcountcython.egg-info/requires.txt
+colorcountcython.egg-info/top_level.txt

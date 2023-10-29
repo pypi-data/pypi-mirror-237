@@ -1,0 +1,3 @@
+include colorcountcython/requirements.txt
+include colorcountcython/thirdparty.json
+include colorcountcython/README.MD
