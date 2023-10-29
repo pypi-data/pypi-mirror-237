@@ -1,0 +1,3 @@
+[console_scripts]
+tg-crawler=cli.main:cli
+
