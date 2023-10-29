@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyDbs
+Version: 0.0.2
+Summary: Custom database class (relies on pandas, scipy)
+Home-page: https://github.com/ChampionApe/pyDbs
+Author: Rasmus K. Skjødt Berg
+Author-email: rasmus.kehlet.berg@econ.ku.dk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pydb
+Basic database methods relying on pandas and scipy (for sparsity). 
+
+
