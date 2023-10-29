@@ -1,0 +1,3 @@
+[console_scripts]
+my-script=vacancy_resume_backend.main:start_back
+
