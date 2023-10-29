@@ -1,0 +1,140 @@
+Metadata-Version: 2.1
+Name: smally
+Version: 0.53
+Summary: To compress JPEG, PNG and GIF files losslessly in batch mode
+Project-URL: homepage, https://github.com/xinlin-z/smally
+Author-email: xinlin-z <xinlin.zhang@hotmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 xinlin-z for smally project
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+        Additional Information:
+        https://github.com/xinlin-z/smally
+        https://cs.pynote.net
+License-File: LICENSE
+Keywords: GIF,JPEG,PNG,batch,compress
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Smally
+
+* [How to Compress](#How-to-Compress)
+    * [JPEG](#JPEG)
+    * [PNG](#PNG)
+    * [GIF](#GIF)
+* [How to Install](#How-to-Install)
+* [How to Use](#How-to-Use)
+* [APIs](#APIs)
+* [Showcase](#Showcase)
+
+Smally is a simple tool to compress JPEG, PNG and GIF files losslessly,
+by invoking the famous `jpegtran`, `optipng` and `gifsicle` tools,
+in batch mode, in-place and keep mtime unchanged. It is written
+in Python, but heavily rely on shell.
+
+## How to Compress
+
+### JPEG
+
+1. Using `jpegtran` to remove all metadata, create a baseline version
+and a progressive version.
+2. To compare among the original file, baseline and progressive
+files, choose the smallest one in size.
+3. Whenever possible, choose progressive version.
+
+### PNG
+
+Calling `optipng` to compress PNG, in the most crazy `-o7 -zm1-9` level.
+
+### GIF
+
+Calling `gifsicle` to compress GIF, by using `-O3 --color 256`.
+
+## How to Install
+
+```shell
+# install tools on Fedora
+$ sudo dnf install libjpeg-turbo-utils optipng gifsicle
+# install tools on Ubuntu
+$ sudo apt install libjpeg-turbo-progs optipng gifsicle
+# install smally
+$ pip install smally
+```
+
+## How to Use
+
+```shell
+# inline help
+$ python -m smally -h
+# to compress a single file, if option is not presented,
+# smally will use file command to get file type info.
+$ python -m smally [-j|-p|-g] <pathname>
+# to compress a directory
+$ python -m smally -r -P<N> <pathname>
+# to compress all png file in a directory
+$ python -m smally -r -P<N> -p <pathname>
+```
+
+`-r`, recursively, it's a command line convention and normally you should
+use it when deal with a directory.
+
+`-P<N>`, parallel process number, if it is missing, the logical cpu
+count number will be used.
+
+## APIs
+
+4 APIs provided by smally:
+
+```python
+# import
+from smally import (jpegtran,
+                    optipng,
+                    gifsicle,
+                    is_jpeg_progressive)
+# signature
+def jpegtran(pathname: str) -> tuple[int,int]: ...
+def optipng(pathname: str) -> tuple[int,int]: ...
+def gifsicle(pathname: str) -> tuple[int,int]: ...
+def is_jpeg_progressive(pathname: str) -> bool: ...
+```
+
+The first int in returned tuple is the byte number saved. It could be zero,
+which means no save. The second int is the original file size.
+
+## Showcase
+
+```shell
+$ python -m smally -r smally/tpic -P4
+# parallel process number:  4
+smally/tpic/102.jpg -24157 -16.38% [p]
+smally/tpic/302.gif -333056 -19.67%
+smally/tpic/testpic/302.gif -333056 -19.67%
+smally/tpic/testpic/102.jpg -24157 -16.38% [p]
+smally/tpic/201.png -548 -26.37%
+smally/tpic/testpic/201.png -548 -26.37%
+smally/tpic/testpic/testpic/102.jpg -24157 -16.38% [p]
+smally/tpic/testpic/testpic/302.gif -333056 -19.67%
+smally/tpic/testpic/testpic/201.png -548 -26.37%
+```
+
