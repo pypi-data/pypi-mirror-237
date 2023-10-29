@@ -1,0 +1,6 @@
+neurokit2
+py-ecg-detectors
+matplotlib
+scipy
+numpy
+biobabel
