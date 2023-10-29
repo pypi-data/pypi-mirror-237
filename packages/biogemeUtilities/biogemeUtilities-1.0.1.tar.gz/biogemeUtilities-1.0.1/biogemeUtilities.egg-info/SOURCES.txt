@@ -1,0 +1,16 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+REQUIREMENTS.txt
+setup.py
+biogemeUtilities/__init__.py
+biogemeUtilities/biogeme.py
+biogemeUtilities/database.py
+biogemeUtilities/filenames.py
+biogemeUtilities/statistics.py
+biogemeUtilities.egg-info/PKG-INFO
+biogemeUtilities.egg-info/SOURCES.txt
+biogemeUtilities.egg-info/dependency_links.txt
+biogemeUtilities.egg-info/requires.txt
+biogemeUtilities.egg-info/top_level.txt

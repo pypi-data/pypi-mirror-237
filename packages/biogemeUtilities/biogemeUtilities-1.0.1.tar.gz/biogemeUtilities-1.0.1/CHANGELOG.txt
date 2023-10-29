@@ -1,0 +1,4 @@
+Version 1.0.0b1
+2023-10-28
+- First (beta) release on PyPI
+- Compatible with biogeme 3.2.12
