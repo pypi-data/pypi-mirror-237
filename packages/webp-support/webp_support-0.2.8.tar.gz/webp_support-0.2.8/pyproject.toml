@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel","cython"]
+build-backend = "setuptools.build_meta"
+
+[tool.build-system]
+requires = ["setuptools", "wheel","cython"]
+build-backend = "setuptools.build_meta"
+
+
+[metadata]
+name = "webp_support"
+version = "0.2.8"
+author = "bymoye"
+author_email = "s3moye@gmail.com"
+readme = "README.md"
+description = "Quickly determine whether Webp is supported from UserAgent."
+url = "https://github.com/bymoye/webp_support"
+
+[options]
+python_requires = ">=3.8"

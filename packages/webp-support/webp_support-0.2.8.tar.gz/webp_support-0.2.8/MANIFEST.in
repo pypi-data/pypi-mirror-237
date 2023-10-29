@@ -1,0 +1,5 @@
+include webp_support/webp_support.pyx
+include webp_support/webp_support.pxd
+include webp_support/webp_support.pyi
+include webp_support/webp_support_c.c
+include webp_support/webp_support_c.h
