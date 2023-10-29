@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+qwertyuiopl/__init__.py
+qwertyuiopl/main.py
+qwertyuiopl.egg-info/PKG-INFO
+qwertyuiopl.egg-info/SOURCES.txt
+qwertyuiopl.egg-info/dependency_links.txt
+qwertyuiopl.egg-info/requires.txt
+qwertyuiopl.egg-info/top_level.txt
