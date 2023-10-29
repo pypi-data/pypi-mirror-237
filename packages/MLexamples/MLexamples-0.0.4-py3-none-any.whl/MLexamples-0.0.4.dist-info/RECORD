@@ -1,0 +1,13 @@
+ML/__init__.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+ML/_modidx.py,sha256=cDb9faRPzKvTxrc8Sh9NH07YJ1PINpSTMa1a3jTHLbU,521
+ML/core.py,sha256=XvYRFJnboqMdZHx5H7r0_lA-3XPdhaQT2VEq4mdIHEg,142
+ML/decisiontree.py,sha256=piVPIiWZlsOo96c_cUponVyK7cKSir28cf9_mNZhoEg,3109
+ML/knn.py,sha256=evS4esSQ850FcoAN3JUwd9yvv97V2U-xQxjBQ6xPNRg,3284
+ML/linearregression.py,sha256=5Sn9hEuiCq_iNZHeLi4CFHViSm8cL7a6eRa6bT_-Y-Q,2012
+ML/logisticregression.py,sha256=Oga6uAxafFcgUUFsAEcBYDoWjtVqZpa_poqdMdr0GEI,3166
+MLexamples-0.0.4.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+MLexamples-0.0.4.dist-info/METADATA,sha256=no8KXeNzfap5ej5XCWzk2d9qV0OLr_B_MX4FGrXp7Pw,1398
+MLexamples-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+MLexamples-0.0.4.dist-info/entry_points.txt,sha256=-gV0sXbgIug2RKGaJPb5ZQmPIFESEirvWmfmebVV3Hw,26
+MLexamples-0.0.4.dist-info/top_level.txt,sha256=LmxYK5dfrmPv5gWMsT2IiuQ02k8z5AdJTS9DmeyyfYo,3
+MLexamples-0.0.4.dist-info/RECORD,,
