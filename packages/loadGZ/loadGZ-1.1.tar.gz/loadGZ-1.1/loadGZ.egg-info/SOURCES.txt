@@ -1,0 +1,10 @@
+LICENSE.txt
+setup.cfg
+setup.py
+loadGZ/Package.py
+loadGZ/__init__.py
+loadGZ.egg-info/PKG-INFO
+loadGZ.egg-info/SOURCES.txt
+loadGZ.egg-info/dependency_links.txt
+loadGZ.egg-info/requires.txt
+loadGZ.egg-info/top_level.txt
