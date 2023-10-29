@@ -1,0 +1,9 @@
+LICENSE
+README.md
+lyygui.py
+setup.py
+yygui.egg-info/PKG-INFO
+yygui.egg-info/SOURCES.txt
+yygui.egg-info/dependency_links.txt
+yygui.egg-info/requires.txt
+yygui.egg-info/top_level.txt
