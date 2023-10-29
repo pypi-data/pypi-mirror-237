@@ -1,0 +1,9 @@
+common_config:
+  cxx_flags: [ "-std=c++17", ]
+  include_directories: [ "${CFG_DIR}/include/clang/include" ]
+
+io_configs:
+  - inputs: [
+    "glob('${CFG_DIR}/include/clang/include/clang-c/*.h')",
+  ]
+    output: "${CFG_DIR}/_binding.cc.inc"
