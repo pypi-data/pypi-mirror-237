@@ -1,0 +1,10 @@
+convector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+convector/cli.py,sha256=Vwdhy4s3PXQZTLPnr_TapsxzZzwY-KL7oh54zCGlEvQ,5206
+convector/convector.py,sha256=bjdb7Qh2ZtgAd_2jeAox5V-jKf7-8jOnrEJpx9iiChY,13081
+convector/handlers.py,sha256=uHPW_QIlQ5stS9Sq7sXqRJ225TspYxsfQHpSM89Aecc,16936
+convector-0.0.3.dist-info/LICENSE,sha256=N0P3pKtRMvfb64jmgJdlerg3TnS0a2QC776AzPsbZIg,35128
+convector-0.0.3.dist-info/METADATA,sha256=ogwpxB4AdHMEEbaR1dw61I9oKxSrcX2jYQJ5YXfZJRE,4539
+convector-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+convector-0.0.3.dist-info/entry_points.txt,sha256=OXyc2b4w18ISlggc7SdWHRJUATNTJpdfxNg3rotPUMs,54
+convector-0.0.3.dist-info/top_level.txt,sha256=dZVtPZmD3lr3B03f-af5It0IXApwrO72V6CETpgVBt0,10
+convector-0.0.3.dist-info/RECORD,,
