@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+imagestogif_js/__init__.py
+imagestogif_js/converter.py
+imagestogif_js.egg-info/PKG-INFO
+imagestogif_js.egg-info/SOURCES.txt
+imagestogif_js.egg-info/dependency_links.txt
+imagestogif_js.egg-info/not-zip-safe
+imagestogif_js.egg-info/requires.txt
+imagestogif_js.egg-info/top_level.txt
