@@ -1,0 +1,9 @@
+appdirs
+darkdetect
+lxml
+requests
+pikepdf
+Pillow
+pypdfium2
+PyQt6
+PyQt6-WebEngine
